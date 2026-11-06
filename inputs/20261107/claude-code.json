@@ -1,0 +1,32 @@
+{
+  "date": "2026/11/07",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-06T08:00:00+09:00",
+    "to": "2026-11-07T08:00:00+09:00"
+  },
+  "source": "claude-code",
+  "itemCount": 2,
+  "items": [
+    {
+      "headline": "gemini-embedding-2-preview が非推奨化、gemini-embedding-2 へルーティング",
+      "summary": "11月6日以降、gemini-embedding-2-preview へのリクエストは Gemini Embedding 2 の料金で gemini-embedding-2 に振り向けられます。コード変更やベクトルの再インデックスは不要で、モデル名の更新が推奨されています。",
+      "url": "https://aistudio.google.com/docs/changelog",
+      "source": "Gemini API Changelog",
+      "topic": "Gemini",
+      "collected_at": "2026-11-07T07:00:00+09:00",
+      "published_at": "2026-11-06T00:00:00-08:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Codex CLI 0.167.0 公開：エージェントコマンドセンターやバックエンド切替などを追加",
+      "summary": "`codex agents --no-daemon` でエージェントのコマンドセンターを開け、未読の結果が表示されます。ターミナルのセッションピッカーから接続先バックエンドを切り替えられ、ローカル画像のプレビュー、Vertex AI のセットアップ（フラグ制御）、システムプロキシ設定にも対応しました。自動コンテキスト圧縮など複数の不具合も修正されています。",
+      "url": "https://learn.chatgpt.com/docs/changelog",
+      "source": "Codex Changelog",
+      "topic": "ChatGPT",
+      "collected_at": "2026-11-07T07:00:00+09:00",
+      "published_at": "2026-11-06T00:00:00-08:00",
+      "unconfirmed": false
+    }
+  ]
+}
