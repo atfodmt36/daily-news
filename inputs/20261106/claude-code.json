@@ -1,0 +1,37 @@
+{
+  "window": {
+    "from": "2026-11-05T23:42:18+09:00",
+    "to": "2026-11-06T23:42:18+09:00"
+  },
+  "source": "Claude Code collection",
+  "itemCount": 3,
+  "items": [
+    {
+      "topic": "ChatGPT",
+      "headline": "Codex CLI 0.167.0 リリース：エージェントコマンドセンターやVertex AI設定ウィザードなど",
+      "summary": "Codex CLI 0.167.0が公開された。`codex agents`によるエージェントコマンドセンター、バックエンド切替、画像添付のプレビュー、Google Cloud Vertex AI設定（フラグ付き）、システムプロキシ対応などが追加された。",
+      "url": "https://learn.chatgpt.com/docs/changelog",
+      "source": "Codex changelog (OpenAI)",
+      "published_at": "2026-11-06T00:00:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "topic": "Gemini",
+      "headline": "Gemini Omni 1.2 Flash が一般提供開始、動画出力料金は30%値下げ",
+      "summary": "`gemini-omni-1.2-flash`がGAとなった。最大15秒の動画生成と対話的な編集に対応し、最大6枚の参照画像で一貫性が向上した。動画出力料金は1Mトークンあたり$12.00に下がり、有料枠のレート制限は2倍になった。Omni 1.1 Flashへのリクエストは2026年12月3日から1.2 Flashへルーティングされる。",
+      "url": "https://aistudio.google.com/docs/changelog",
+      "source": "Google AI Studio / Gemini API changelog",
+      "published_at": "2026-11-05T00:00:00-08:00",
+      "unconfirmed": false
+    },
+    {
+      "topic": "Gemini",
+      "headline": "Gemini APIがOffice/OpenDocument形式の入力とFunction応答の対応ファイルを拡大",
+      "summary": "APIでPPT、ODP、ODSファイルを受け付けるようになり、DOCはページ画像処理にも対応した。Function responseでOffice/OpenDocument、音声、動画を返せるようになり、Files API URIも参照できる。Interactions APIの`function_result`も同様に対応した。",
+      "url": "https://aistudio.google.com/docs/changelog",
+      "source": "Google AI Studio / Gemini API changelog",
+      "published_at": "2026-11-05T00:00:00-08:00",
+      "unconfirmed": false
+    }
+  ]
+}
