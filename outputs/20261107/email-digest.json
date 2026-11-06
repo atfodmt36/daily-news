@@ -1,0 +1,342 @@
+{
+  "date": "2026/11/07",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-06T08:00:00+09:00",
+    "to": "2026-11-07T08:00:00+09:00"
+  },
+  "itemCount": 44,
+  "top5": [
+    {
+      "headline": "Thinking Machines、第2世代モデル「Inkling 2 Small」を公開　AA指数31でGemini 3.8 Flash相当、来週Apache 2.0で重み公開予定",
+      "summary": "Inkling 2 Smallは総594B・有効17BのMoEで画像入力と可変effortに対応し、Artificial Analysis Intelligence Indexで31（Gemini 3.8 Flash high相当）。現在はTinker上でクローズドウェイト提供で、外部安全評価後に来週Apache 2.0でフル重み公開を予定しています（11月5日公式）。",
+      "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+      "source": "thinkingmachines.ai",
+      "whyItMatters": "Thinking Machinesの第2世代がAA指数31でGemini 3.8 Flash相当とされ、来週Apache 2.0での重み公開も予告され、オープン側の競争が一段進みます。",
+      "unconfirmed": false
+    },
+    {
+      "headline": "非公開Anthropicモデルで量子計算のAaronson-Ambainis予想を証明",
+      "summary": "Physical Superintelligence（PSI）が、2008年から未解決のAaronson-Ambainis予想を研究システム＋非公開Anthropicモデルで証明しLeanで検証。公式解説と形式化リポジトリを公開。",
+      "url": "https://psi.inc/research/aaronson-ambainis/",
+      "source": "PSI（psi.inc）",
+      "whyItMatters": "未解決の量子計算予想を非公開Anthropicモデル＋研究システムで証明しLean検証したとされ、フロンティアモデルの科学発見能力の到達点を示す事例です。",
+      "unconfirmed": false
+    },
+    {
+      "headline": "OpenAI、湿式実験の定型解析向けエージェント評価「BioBasicsBench」を公開（Ligoと共同）",
+      "summary": "湿式実験の定型解析をAIエージェントがどこまで担えるかを測るベンチマークをLigoと共同公開。",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+      "source": "OpenAI",
+      "whyItMatters": "湿式実験の定型解析をエージェントに任せる評価枠がOpenAI公式から出て、ラボ自動化の実力測定が進みます。",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Anthropic、Claudeの記憶を整理するdreamingをEngineering Blogで解説",
+      "summary": "AnthropicがEngineering Blogで、Claudeの記憶機能を支えるdreamingの仕組みを紹介。学んだ内容を整理し誤りを修正、次回必要な情報を見つけやすくする処理",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "source": "Anthropic Engineering Blog",
+      "whyItMatters": "Claudeのエージェント記憶を支えるdreamingの仕組みが公式に解説され、セッションをまたぐ記憶設計の理解材料になります。",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Codex CLI 0.167.0安定版、エージェント・コマンドセンターとバックエンド切替・画像プレビューを追加",
+      "summary": "codex agents --no-daemonでエージェント・コマンドセンターを開き、未読結果を表示。接続済みバックエンドの切替で下書きを保持し、端末上でローカル画像のプレビューやGCP Vertex AIセットアップ、実験的なシステムプロキシ設定も追加（11月6日 GitHub／Changelog）。",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
+      "source": "OpenAI Codex（GitHub Releases）",
+      "whyItMatters": "エージェント・コマンドセンターやバックエンド切替など、Codex CLIの運用面が安定版で強化されました。",
+      "unconfirmed": false
+    }
+  ],
+  "sections": {
+    "エージェント": [
+      {
+        "headline": "Claude Code v2.1.319公開：MCPタスクのバックグラウンド実行、permissions.denyInsteadOfPrompting、多数の修正",
+        "summary": "MCPサーバのツール呼び出しをタスクとして即バックグラウンド化し完了時に結果を返す機能を追加（CLAUDE_CODE_DISABLE_MCP_TASK_BACKGROUNDで無効化可）。権限プロンプト待ちを拒否してターン継続するpermissions.denyInsteadOfPrompting、/claude-api latency-optimize、ゲートウェイ配下の/usage支出表示なども入り、多数の不具合を修正しています（11月6日 17:04Z GitHub／npm）。",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+        "unconfirmed": false,
+        "source": "github.com"
+      },
+      {
+        "headline": "Claude Code、Web検索時にユーザーのメールをUser-Agentへ載せて第三者サイトへ送信していた問題が浮上　2.1.317でprivacy mod追加",
+        "summary": "GitHub issueではWeb検索中にサインイン中のメールがUser-Agentへ入り第三者サイトへ送られたと報告。Anthropicはv2.1.317以降の組み込みcc-plugin-privacyでシェル経由の同挙動を既定で遮断すると説明していますが、WebFetch/WebSearch等は対象外との指摘もあります。",
+        "url": "https://madrobot.blog/2026/11/06/claude-code-email-address-user-agent-websites/",
+        "unconfirmed": false,
+        "source": "madrobot.blog / Austen（X）"
+      },
+      {
+        "headline": "Claude Code、クラウドセッションで依存関係・ネットワーク・APIキー環境を自動構成（Pro/Max/Ultra）",
+        "summary": "Pro・Max・UltraのClaude Codeクラウドセッションで、依存関係・ネットワーク許可・APIキーをClaudeが判断し環境を保存。APIキーはClaudeから見えない。",
+        "url": "https://x.com/ClaudeDevs/status/2118795192090386454",
+        "unconfirmed": false,
+        "source": "ClaudeDevs（公式X）"
+      },
+      {
+        "headline": "Google Forms、Geminiの「Actionable Insights」を導入　回答の傾向分析と次のアクション提案",
+        "summary": "ResponsesタブからGeminiがPythonで回答データを分析し、傾向・設問横断の関連・推奨次ステップを提示。12件以上の回答と3問以上が条件で、クイズ設定時は非対応。Rapid Releaseは11/2開始、Scheduledは11/19開始の段階展開（11月5日Workspace Updates）。",
+        "url": "https://workspaceupdates.googleblog.com/2026/11/get-actionable-insights-with-gemini-in-Google-Forms.html",
+        "unconfirmed": false,
+        "source": "workspaceupdates.googleblog.com"
+      },
+      {
+        "headline": "Palo Alto Networks、AIエージェントID管理のClutch Securityを約5億ドルで買収協議",
+        "summary": "The Information報道。OktaやWorkdayに続くAIエージェントID管理スタートアップ買収の流れで、Palo AltoがClutch Securityを約5億ドルで買収する協議中とされる。",
+        "url": "https://www.theinformation.com/articles/palo-alto-networks-talks-pay-500-million-ai-security-startup",
+        "unconfirmed": false,
+        "source": "theinformation.com"
+      },
+      {
+        "headline": "freee、Leanで税法を形式化しプロダクト実装とAIエージェントの業務ルールを検証",
+        "summary": "freee Developers Hubで、定理証明支援系Leanを使い税法を仕様化して全入力で実装を突き合わせる手法と、定理証明をガードレールにAIエージェントへ業務ルールを守らせる手法を公開した。",
+        "url": "https://developers.freee.co.jp/entry/lean-formal-verification-tax-law-qa",
+        "unconfirmed": false,
+        "source": "developers.freee.co.jp"
+      }
+    ],
+    "モデル": [
+      {
+        "headline": "Decart、リアルタイム動画編集モデル「Lucy 2.6」を公開　参照画像への忠実度を強化",
+        "summary": "Lucy 2.6は720pのライブ動画編集モデルで、人物・衣服・商品の参照画像への忠実度やリップシンクを改善し、複数編集を1プロンプトで組み合わせられます。プラットフォーム上でlucy-latestの既定となり、価格はLucy 2.5と同じです（11月5日）。",
+        "url": "https://decart.ai/publications/introducing-lucy-2-6",
+        "unconfirmed": false,
+        "source": "decart.ai"
+      },
+      {
+        "headline": "Kakao、エージェント向け判断モデル「Kanana-2-v-decide」をオープンソース公開",
+        "summary": "テキストと画像を理解し、確率・選択・点数の形式で応答するマルチモーダル意思決定モデル。文を生成しない設計でH200 1枚あたり平均0.04秒未満、自社測定でGPT-6 Luna比約43倍高速。Kanana Decision BenchとDecision Indexで比較対象中最高とし、Kanana Open Licenseで商用利用可（11月6日公式）。",
+        "url": "https://www.kakaocorp.com/page/detail/12193",
+        "unconfirmed": false,
+        "source": "kakaocorp.com"
+      },
+      {
+        "headline": "Meta、Muse Wonderで訓練した特化モデルをMuseとMeta AIへ展開　Active Memory/Focusを製品側へ",
+        "summary": "既存モデルの特化版をMuseとMeta AI利用者向けに導入。Active Memory/Active Focusを提供し、重要情報を忘れる確率が2.4分の1、自己修正・タスク完了が67%向上との説明。Spaces機能追加の続報も含む（11月6日 Meta AI Research）。",
+        "url": "https://research.meta.ai/blog/specialized-models-for-muse-and-metaai",
+        "unconfirmed": false,
+        "source": "Meta AI Research（公式）"
+      },
+      {
+        "headline": "MetaのMuse、音声会話機能「Voice」を米国で展開開始",
+        "summary": "公式が「Voice」を発表。Museと話しながら料理の相談など日常のタスクを進められる音声会話機能で、まずは米国向け。",
+        "url": "https://x.com/Muse/status/2118411960337289583",
+        "unconfirmed": false,
+        "source": "Muse（公式X）"
+      },
+      {
+        "headline": "NVIDIA、対話型ワールドシミュレーション向けCosmos 3オープン重み4種を公開",
+        "summary": "Cosmos3-Nano-Transfer-Auto／Sim-Auto／Sim-Transfer／Sim-Bimanualの4チェックポイント（各学習可能16B）をHugging Faceで公開。走行の多視点・LiDAR合成や閉ループ走行シミュレーション、シミュレータ制御からの映像、双腕ロボット行動予測に対応し、OpenMDW1.1で商用利用可（11月5日公式ブログ）。",
+        "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+        "unconfirmed": false,
+        "source": "huggingface.co"
+      },
+      {
+        "headline": "Nace AI、オープンな決定モデルDrexと技術報告書を公開",
+        "summary": "8B〜35Bの4モデル。27B MaxはDecision Bench v4でClaude Opus 5.5に1.6点差、応答183ms。学習にRLAFを使用。",
+        "url": "https://arxiv.org/abs/2611.07854",
+        "unconfirmed": false,
+        "source": "arXiv / Nace AI"
+      },
+      {
+        "headline": "Reducto、文書解析モデル「r-1 mini」を公開　1000ページあたり1ドルで高精度パース",
+        "summary": "r-1 miniは表・読み順・レイアウトを保った文書パースを1000ページ1ドルで提供し、同社評価では最大25倍高価な代替を上回るとしています。フラッグシップのr-1も一般提供となり、用途に応じて使い分けられます（11月5日）。",
+        "url": "https://reducto.ai/blog/reducto-r-1-mini-parse-model",
+        "unconfirmed": false,
+        "source": "reducto.ai"
+      },
+      {
+        "headline": "Unsloth、UD量子化V3.1で低ビット時の精度回復を大幅改善と報告",
+        "summary": "UnslothのDaniel Han氏がUD量子化V3.1について、UD-IQ3_XXSで平均回復率99.9%、UD-IQ2_XSで99.4%、UD-IQ1_Sで97.9%（従来GSQ比）など、低ビット帯のPareto効率が改善したと報告。",
+        "url": "https://x.com/danielhanchen/status/2118497703797854584",
+        "unconfirmed": false,
+        "source": "Unsloth / Daniel Han（X）"
+      },
+      {
+        "headline": "gemini-embedding-2-previewが非推奨化、gemini-embedding-2へルーティング",
+        "summary": "11月6日以降、gemini-embedding-2-preview へのリクエストは Gemini Embedding 2 の料金で gemini-embedding-2 に振り向けられます。コード変更やベクトルの再インデックスは不要で、モデル名の更新が推奨されています。",
+        "url": "https://aistudio.google.com/docs/changelog",
+        "unconfirmed": false,
+        "source": "Gemini API Changelog"
+      }
+    ],
+    "論文・ベンチマーク": [
+      {
+        "headline": "Amazon、Agent記憶で重みへの記憶が検索を上回ると報告",
+        "summary": "同じモデル・ユーザーデータで、素朴な微調整による重み記憶がテキスト記憶を上回り、併用も可能",
+        "url": "https://x.com/omarsar0/status/2118715786152001580",
+        "unconfirmed": false,
+        "source": "omarsar0（X、論文紹介）"
+      },
+      {
+        "headline": "Anthropic Science Blog、AIが科学モデルの作成・適合・改訂を支援する研究をゲスト寄稿で紹介",
+        "summary": "チュービンゲンのJakob Mackeらが、神経細胞の発火や中性子星衝突などの科学モデルをコードとして書き・実行・適合・改訂するAIの役割を解説。複数の競合モデルを探索しデータが支持する説明を見つける流れを紹介（11月6日 Anthropic公式）。",
+        "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models",
+        "unconfirmed": false,
+        "source": "Anthropic（Science Blog）"
+      },
+      {
+        "headline": "Artificial Analysis、Endpoint Accuracy Index v1.1を公開　GLM-5.3 FlashとMuse Spark Openを追加",
+        "summary": "サーバーレス100超エンドポイントを自前参照実装比で評価。約4分の1が参照を下回り、出力トークン上限や推論トークン削減が精度低下の主因。AA-LCRをv1.1化し繰り返しを25回に増やして信頼区間を縮小（11月6日公式）。",
+        "url": "https://artificialanalysis.ai/methodology/endpoint-accuracy-index",
+        "unconfirmed": false,
+        "source": "Artificial Analysis（公式）"
+      },
+      {
+        "headline": "Google DeepMind、人間誘導のAIエージェントが旧式1024bit RSAに2つの弱点を発見と発表",
+        "summary": "レガシー1024bit RSAで電子署名偽造の効率化と、関連鍵のバッチ素因数分解コスト低減の2点を報告。現代のRSA-2048等には影響しないとし、Pushmeet Kohli VP Scienceが説明（11月6日 公式）。",
+        "url": "https://x.com/GoogleDeepMind/status/2118755418675765656",
+        "unconfirmed": false,
+        "source": "Google DeepMind（公式X）"
+      },
+      {
+        "headline": "【続報】METR評価中にAnthropicが担当者へ採用打診と判明",
+        "summary": "METRのリスク評価担当者にAnthropicが採用オファー(辞退)。独立評価者の転職ルールを求める批判。AECIスコアは2025年10月以降1.9倍のペース",
+        "url": "https://x.com/j_foerst/status/2118769526917517638",
+        "unconfirmed": false,
+        "source": "j_foerst（X）ほか"
+      },
+      {
+        "headline": "OpenAI、Frontier Model ForumとサイバーJailbreak深刻度の共通評価枠組みv1.0を発表",
+        "summary": "フロンティアモデルのサイバー脅威に関するJailbreak深刻度を共通に評価する枠組み（FMF Jailbreak Rating Framework v1.0）を公開。",
+        "url": "https://www.frontiermodelforum.org/updates/introducing-the-fmf-jailbreak-rating-framework-for-frontier-cyber-threats/",
+        "unconfirmed": false,
+        "source": "Frontier Model Forum / OpenAI"
+      },
+      {
+        "headline": "【続報】Biohub細胞追跡コンペ3位解法が論文化、コードも公開",
+        "summary": "yu4u氏の3位解法がarXiv論文化しソースコードも公開。Public LB過剰最適化への指摘も。",
+        "url": "https://arxiv.org/abs/2611.06624",
+        "unconfirmed": false,
+        "source": "arXiv / yu4u"
+      },
+      {
+        "headline": "逆方向DPOで鍛えたドラフト、投機的デコードで精度向上",
+        "summary": "deepseek-v4.1-flashで0.06%、GLM-5.3で0.28%のパラメータを訓練しAgentic codingを大幅改善とする研究",
+        "url": "https://x.com/webbigdata/status/2118693066827866219",
+        "unconfirmed": false,
+        "source": "webbigdata（X、論文紹介）"
+      }
+    ],
+    "建設×AI": [
+      {
+        "headline": "KENCOPA、工程AIエージェントの公式MCPサーバーを提供開始　Copilot/Claude等から工程表を直接操作",
+        "summary": "導入済みのCopilot・Claude・ChatGPTから工程進捗の確認・集計や工程表の作成・日程変更・イナズマ線更新まで操作可能。データの読み取り/書き込み権限を種別ごとに制御（ASCII.jpが11月6日報道）。",
+        "url": "https://kencopa.com/news/20261016",
+        "unconfirmed": false,
+        "source": "KENCOPA（公式）"
+      },
+      {
+        "headline": "ONESTRUCTION、図面からBIMを生成するAIエージェント「Ishigaki-BIM(β)」のテスト募集を開始",
+        "summary": "GENIAC第4期で開発中の建設特化AIエージェントで、自然言語要件や図面からBIMモデルを生成。学習・推論は同社環境で行い入力図面は海外へ送らないとしています。アパート等の比較的単純な建物が主な対象で、11月4日からウェイティングリスト受付（建設×AI）。",
+        "url": "https://prtimes.jp/main/html/rd/p/000000026.000056155.html",
+        "unconfirmed": false,
+        "source": "prtimes.jp"
+      },
+      {
+        "headline": "Sandflow、CAD部品など約10.6万点の3Dをコード化したデータセット「Sand3D」をオープン公開",
+        "summary": "Sand3Dは約106,094点の3DオブジェクトをPythonプログラムとして書き直したデータセットで、CAD部品約2.4万点や関節付きモデル約1万点を含みます。ライブラリはApache 2.0、データはCC BY 4.0でHugging FaceとGitHubに公開されています（11月5日）。",
+        "url": "https://huggingface.co/blog/Sandflow/sand3d-106094-3d-objects-in-one-code-substrate-for",
+        "unconfirmed": false,
+        "source": "huggingface.co"
+      },
+      {
+        "headline": "WOGO、機械設計向け「Hacadly AIエージェント」提供開始　2D図面から3Dモデル化で自社評価100%",
+        "summary": "LLMと独自の2D/3D形状処理を組み合わせ、会話指示で図面読取からモデル生成・照合・修正まで実行。DXF/PDFからSTEPの3Dを生成し、履歴のないCADのフィーチャー再構築にも対応。自社ベンチマーク23件で復元成功率100%（Claudeツール連携あり比約2.1倍）と公表（11月5日公式）。",
+        "url": "https://www.wogo.ai/release/hacadly-ai-agent-launch/",
+        "unconfirmed": false,
+        "source": "wogo.ai"
+      },
+      {
+        "headline": "renue、Drawing Agentに「DRAWING SKILL」追加　2D図面から部品〜工場全体の3Dモデルを生成",
+        "summary": "AIが図面解釈とコード作成を担い、専門ツールが形状生成と寸法検査を実行。部品・設備の組み立て、階別配置図からの工場/プラント統合モデル、投入条件変更の再計算に対応。Microsoft 365 Copilotでも動作。国交省BIM/CIM原則適用下の2D→3D起こしを支援するアップデート（11月6日PR TIMES）。",
+        "url": "https://prtimes.jp/main/html/rd/p/000000085.000091210.html",
+        "unconfirmed": false,
+        "source": "prtimes.jp"
+      },
+      {
+        "headline": "日本工営ら4社、総務省「地域社会DX推進パッケージ」でUSV×AIによるダム遠隔点検実証が採択",
+        "summary": "日本工営ら4社によるUSV（無人水面ロボット）×AIのダム遠隔点検実証が、総務省の地域社会DX推進パッケージに採択された。",
+        "url": "https://digital-construction.jp/news/4176",
+        "unconfirmed": false,
+        "source": "デジタル建設ジャーナル"
+      },
+      {
+        "headline": "朝日工業社、生成AIで安全作業手順書・作業イメージ図を作成　下書き時間を約9割削減し全社展開へ",
+        "summary": "大阪支社で安全作業手順書の下書きを半日程度から約1時間、作業イメージ図はCAD約16時間から約1時間に短縮（当社試算）。2026年9月は支社全体で約1,400時間削減と推計し、全国の事業店へ展開（11月6日公式PR）。",
+        "url": "https://kyodonewsprwire.jp/release/202611059534",
+        "unconfirmed": false,
+        "source": "kyodonewsprwire.jp"
+      }
+    ],
+    "政策・政府": [
+      {
+        "headline": "政府、サイバー対策に予備費100億円を閣議決定　AIで政府重要システムの脆弱性点検に約20億円",
+        "summary": "2026年度予備費からAIによる政府機関重要システムの脆弱性点検に約20億円。警察機材約41億円、デジタル庁のシステム強化約38億円も決定。",
+        "url": "https://www.sankei.com/article/20261106-QTTKV5NVAVMG5B6RPHEUS4ASKM/",
+        "unconfirmed": false,
+        "source": "産経ニュース"
+      }
+    ],
+    "ビジネス・人材": [
+      {
+        "headline": "SHIFT、新卒採用440人規模をストップ　AI活用で10年分スキルを1年習得へ人材戦略転換",
+        "summary": "SHIFTが新卒採用を約440人規模でストップし、AI活用により従来10年分のスキルを1年で習得させる人材戦略へ転換すると報じられた。",
+        "url": "https://business.nikkei.com/atcl/gen/19/00898/063000006/",
+        "unconfirmed": false,
+        "source": "日経ビジネス"
+      },
+      {
+        "headline": "日経ビジネス、Claudeで町工場がシステム自作（岡田研磨など中小のAI活用）を特集",
+        "summary": "岡田研磨など町工場がClaudeを使って業務システムを自作する事例を日経ビジネスが特集。",
+        "url": "https://business.nikkei.com/atcl/NBD/19/special/02564/",
+        "unconfirmed": false,
+        "source": "日経ビジネス"
+      }
+    ],
+    "生成AI・その他": [
+      {
+        "headline": "Anthropicの年間売上ランレート、10月末に800億ドル超えと報道",
+        "summary": "WSJ報道として、Anthropicの年間売上ランレートが10月末時点で800億ドルを超えたとされる。IPO評価額をめぐる投資家の慎重論とあわせて報じられている。",
+        "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b",
+        "unconfirmed": false,
+        "source": "WSJ"
+      },
+      {
+        "headline": "Nvidia、破綻懸念の通信会社Brightspeed局舎をAIデータセンターへ転用提案",
+        "summary": "The Information独占。Apollo傘下のBrightspeedが保有する130超の通信局舎の一部をAI DCに転用する提案を提出。候補拠点に約1GWの電力があると見積もっている。",
+        "url": "https://x.com/theinformation/status/2118463433494446101",
+        "unconfirmed": false,
+        "source": "The Information"
+      },
+      {
+        "headline": "TSMC、Nvidiaの要請で3D DRAM製造を検討",
+        "summary": "The Information報道を受けた続報。既存工場の買収・転換案もあり、Samsung/SK Hynix/Micronと競合しうる。",
+        "url": "https://www.theverge.com/news/1029248/tsmc-is-apparently-considering-getting-into-the-ram-business-at-the-request-of-nvidia",
+        "unconfirmed": false,
+        "source": "The Verge（The Information報道）"
+      },
+      {
+        "headline": "【続報】Anthropic、相場急落でもIPO続行し来週ロードショーへ",
+        "summary": "The Informationによると来週ロードショー続行。評価額は$1.5T前後を目指し、1〜9月の粗利率は約85%との報道。",
+        "url": "https://www.theinformation.com/briefings/anthropic-proceed-ipo-roadshow-next-week",
+        "unconfirmed": false,
+        "source": "The Information / FT"
+      }
+    ]
+  },
+  "unconfirmed": [
+    {
+      "headline": "【未確認】Alibaba Qwen公式が「The becoming begins.」と投稿　コミュニティはQwen4予告と解釈",
+      "summary": "公式@Alibaba_Qwenが11月6日12:00Zに暗号めいた一文と画像を投稿し、数時間で数千いいね規模の反応。モデル名・日付・仕様の公式発表はなく、コミュニティではQwen4（通称・鲲）予告との解釈が広がっています。",
+      "url": "https://x.com/Alibaba_Qwen/status/2118674834632978755",
+      "unconfirmed": true,
+      "source": "X"
+    },
+    {
+      "headline": "【未確認】OpenAI、GPT-5.6 Sol Ultrafastを非推奨化するとSemiAnalysisが報じる",
+      "summary": "SemiAnalysisが、OpenAIがGPT-5.6 Sol Ultrafastを非推奨化する方針だと報じた。公式発表は未確認。",
+      "url": "https://x.com/SemiAnalysis_/status/2118569045033169378",
+      "unconfirmed": true,
+      "source": "X"
+    }
+  ]
+}
