@@ -6,7 +6,7 @@
     "to": "2026-11-07T08:00:00+09:00"
   },
   "source": "mail-4ml",
-  "itemCount": 7,
+  "itemCount": 19,
   "items": [
     {
       "headline": "MetaのMuse、音声会話機能「Voice」を米国で展開開始",
@@ -77,6 +77,114 @@
       "collected_at": "2026-11-06T20:30:00+09:00",
       "unconfirmed": false,
       "x_url": "https://x.com/danielhanchen/status/2118497703797854584"
+    },
+    {
+      "headline": "Anthropic、Claudeの記憶を整理するdreamingを解説",
+      "summary": "AnthropicがEngineering Blogで、Claudeの記憶機能を支えるdreamingの仕組みを紹介。学んだ内容を整理し誤りを修正、次回必要な情報を見つけやすくする処理",
+      "url": "https://x.com/AnthropicAI/status/2118814753154064501",
+      "source": "ML_Bear Times",
+      "topic": "claude",
+      "collected_at": "2026-11-07T07:34:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Claude Codeクラウド環境、依存やAPIキーを自動構成",
+      "summary": "Pro・Max・UltraのClaude Codeクラウドセッションで、依存関係・ネットワーク許可・APIキーをClaudeが判断し環境を保存。APIキーはClaudeから見えない",
+      "url": "https://x.com/ClaudeDevs/status/2118795192090386454",
+      "source": "ML_Bear Times",
+      "topic": "claude",
+      "collected_at": "2026-11-07T07:34:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Anthropic、相場急落でもIPO続行し来週ロードショー【続報】",
+      "summary": "評価額$1.5T前後を目指す(FT)。1〜9月の粗利率は約85%(The Information)",
+      "url": "https://x.com/FT/status/2118827546540118209",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-07T07:34:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "TSMC、Nvidiaの要請で3D DRAM製造を検討",
+      "summary": "The Information報道。既存工場の買収転換案もあり、Samsung/SK Hynix/Micronと競合しうる",
+      "url": "https://x.com/theinformation/status/2118744349684986078",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-07T07:34:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Meta Muse、Spaces追加とWonder由来の特化モデル導入【続報】",
+      "summary": "Spaces機能追加。Muse WonderのActive Memory/Active Focusを全員に提供。重要情報を忘れる確率が2.4分の1、自己修正・タスク完了が67%向上(Zuckerberg)",
+      "url": "https://x.com/alexandr_wang/status/2118769424769663009",
+      "source": "ML_Bear Times",
+      "topic": "models",
+      "collected_at": "2026-11-07T07:34:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "非公開Anthropicモデルで量子計算の未解決予想を証明",
+      "summary": "Physical Superintelligence PBCが、2008年から未解決のAaronson-Ambainis予想の証明を発表。研究システムに非公開のAnthropicモデルを使用",
+      "url": "https://x.com/kimmonismus/status/2118735527025250755",
+      "source": "ML_Bear Times",
+      "topic": "評価",
+      "collected_at": "2026-11-07T07:34:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "METR評価中にAnthropicが担当者へ採用打診と判明【続報】",
+      "summary": "METRのリスク評価担当者にAnthropicが採用オファー(辞退)。独立評価者の転職ルールを求める批判。AECIスコアは2025年10月以降1.9倍のペース",
+      "url": "https://x.com/j_foerst/status/2118769526917517638",
+      "source": "ML_Bear Times",
+      "topic": "評価",
+      "collected_at": "2026-11-07T07:34:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Baidu、事後学習なしのERNIE-5.5-Flash-Baseを重み公開",
+      "summary": "総280B MoE、アクティブ14B、33.5Tトークン事前学習、中間/事後学習なしのベースモデル",
+      "url": "https://x.com/kimmonismus/status/2118696440319062302",
+      "source": "ML_Bear Times",
+      "topic": "models",
+      "collected_at": "2026-11-07T07:34:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Nace AI、オープンな決定モデルDrexと技術報告書を公開",
+      "summary": "8B〜35Bの4モデル。27BはDecision Bench v4でClaude Opus 5.5に1.6点差、応答183ms。学習手法RLAF",
+      "url": "https://x.com/omarsar0/status/2118693892300439722",
+      "source": "ML_Bear Times",
+      "topic": "models",
+      "collected_at": "2026-11-07T07:34:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Biohub細胞追跡コンペ3位解法が論文化、コードも公開【続報】",
+      "summary": "3位解法がarXiv論文化しソースコードも公開。Public LB過剰最適化への指摘も",
+      "url": "https://x.com/yu4u/status/2118637356739965023",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-07T07:34:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "逆方向DPOで鍛えたドラフト、投機的デコードで精度向上",
+      "summary": "deepseek-v4.1-flashで0.06%、GLM-5.3で0.28%のパラメータを訓練しAgentic codingを大幅改善とする研究",
+      "url": "https://x.com/webbigdata/status/2118693066827866219",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-07T07:34:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Amazon、Agent記憶で重みへの記憶が検索を上回ると報告",
+      "summary": "同じモデル・ユーザーデータで、素朴な微調整による重み記憶がテキスト記憶を上回り、併用も可能",
+      "url": "https://x.com/omarsar0/status/2118715786152001580",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-07T07:34:00+09:00",
+      "unconfirmed": false
     }
   ]
 }
