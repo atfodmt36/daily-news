@@ -1,0 +1,102 @@
+{
+  "date": "2026/11/07",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-06T08:00:00+09:00",
+    "to": "2026-11-07T08:00:00+09:00"
+  },
+  "source": "x",
+  "itemCount": 9,
+  "items": [
+    {
+      "headline": "Thinking Machines、第2世代モデル「Inkling 2 Small」を公開　AA指数31でGemini 3.8 Flash相当、来週Apache 2.0で重み公開予定",
+      "summary": "Inkling 2 Smallは総594B・有効17BのMoEで画像入力と可変effortに対応し、Artificial Analysis Intelligence Indexで31（Gemini 3.8 Flash high相当）。現在はTinker上でクローズドウェイト提供で、外部安全評価後に来週Apache 2.0でフル重み公開を予定しています（11月5日公式）。",
+      "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+      "source": "",
+      "topic": "new_model",
+      "collected_at": "2026-11-06T10:15:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/ArtificialAnlys/status/2118493376186388530"
+    },
+    {
+      "headline": "WOGO、機械設計向け「Hacadly AIエージェント」提供開始　2D図面から3Dモデル化で自社評価100%",
+      "summary": "LLMと独自の2D/3D形状処理を組み合わせ、会話指示で図面読取からモデル生成・照合・修正まで実行。DXF/PDFからSTEPの3Dを生成し、履歴のないCADのフィーチャー再構築にも対応。自社ベンチマーク23件で復元成功率100%（Claudeツール連携あり比約2.1倍）と公表（11月5日公式）。",
+      "url": "https://www.wogo.ai/release/hacadly-ai-agent-launch/",
+      "source": "",
+      "topic": "construction",
+      "collected_at": "2026-11-06T18:10:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/MONOist_itmedia/status/2118600575726256581"
+    },
+    {
+      "headline": "renue、Drawing Agentに「DRAWING SKILL」追加　2D図面から部品〜工場全体の3Dモデルを生成",
+      "summary": "AIが図面解釈とコード作成を担い、専門ツールが形状生成と寸法検査を実行。部品・設備の組み立て、階別配置図からの工場/プラント統合モデル、投入条件変更の再計算に対応。Microsoft 365 Copilotでも動作。国交省BIM/CIM原則適用下の2D→3D起こしを支援するアップデート（11月6日PR TIMES）。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000085.000091210.html",
+      "source": "",
+      "topic": "construction",
+      "collected_at": "2026-11-06T18:10:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/PRTIMES_TECH/status/2118581149924798947"
+    },
+    {
+      "headline": "Meta、Muse Wonderで訓練した特化モデルをMuseとMeta AIへ展開　Active Memory/Focusを製品側へ",
+      "summary": "",
+      "url": "https://research.meta.ai/blog/specialized-models-for-muse-and-metaai",
+      "source": "",
+      "topic": "",
+      "collected_at": "2026-11-07T04:05:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/AIatMeta/status/2118768974779634084"
+    },
+    {
+      "headline": "Meta、Muse Wonderで訓練した特化モデルをMuseとMeta AIへ展開　Active Memory/Focusを製品側へ (x)",
+      "summary": "",
+      "url": "https://x.com/AIatMeta/status/2118768974779634084",
+      "source": "",
+      "topic": "",
+      "collected_at": "2026-11-07T04:05:00+09:00",
+      "unconfirmed": false,
+      "x_url": null
+    },
+    {
+      "headline": "Google DeepMind、人間誘導のAIエージェントが旧式1024bit RSAに2つの弱点を発見と発表",
+      "summary": "",
+      "url": "https://x.com/GoogleDeepMind/status/2118755418675765656",
+      "source": "",
+      "topic": "",
+      "collected_at": "2026-11-07T04:05:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/GoogleDeepMind/status/2118755418675765656"
+    },
+    {
+      "headline": "Claude Code cloud session auto env",
+      "summary": "",
+      "url": "https://x.com/ClaudeDevs/status/2118795192090386454",
+      "source": "",
+      "topic": "",
+      "collected_at": "2026-11-07T06:10:00+09:00",
+      "unconfirmed": false,
+      "x_url": null
+    },
+    {
+      "headline": "Claude Code、Web検索時にユーザーのメールをUser-Agentへ載せて第三者サイトへ送信していた問題が浮上　2.1.317でprivacy mod追加",
+      "summary": "GitHub issueではWeb検索中にサインイン中のメールがUser-Agentへ入り第三者サイトへ送られたと報告。Anthropicはv2.1.317以降の組み込みcc-plugin-privacyでシェル経由の同挙動を既定で遮断すると説明していますが、WebFetch/WebSearch等は対象外との指摘もあります。",
+      "url": "https://madrobot.blog/2026/11/06/claude-code-email-address-user-agent-websites/",
+      "source": "",
+      "topic": "claude",
+      "collected_at": "2026-11-06T22:10:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/Austen/status/2118680123654189164"
+    },
+    {
+      "headline": "Google Forms、Geminiの「Actionable Insights」を導入　回答の傾向分析と次のアクション提案",
+      "summary": "ResponsesタブからGeminiがPythonで回答データを分析し、傾向・設問横断の関連・推奨次ステップを提示。12件以上の回答と3問以上が条件で、クイズ設定時は非対応。Rapid Releaseは11/2開始、Scheduledは11/19開始の段階展開（11月5日Workspace Updates）。",
+      "url": "https://workspaceupdates.googleblog.com/2026/11/get-actionable-insights-with-gemini-in-Google-Forms.html",
+      "source": "",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-06T22:10:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/NetAIBusiness/status/2118662817389949271"
+    }
+  ]
+}

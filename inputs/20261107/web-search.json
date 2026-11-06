@@ -1,0 +1,172 @@
+{
+  "date": "2026/11/07",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-06T08:00:00+09:00",
+    "to": "2026-11-07T08:00:00+09:00"
+  },
+  "source": "web-search",
+  "itemCount": 16,
+  "items": [
+    {
+      "headline": "Codex CLI 0.167.0安定版、エージェント・コマンドセンターとバックエンド切替・画像プレビューを追加",
+      "summary": "codex agents --no-daemonでエージェント・コマンドセンターを開き、未読結果を表示。接続済みバックエンドの切替で下書きを保持し、端末上でローカル画像のプレビューやGCP Vertex AIセットアップ、実験的なシステムプロキシ設定も追加されています（11月6日 01:40Z GitHub）。",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
+      "source": "",
+      "topic": "codex",
+      "collected_at": "2026-11-06T12:14:30+09:00",
+      "unconfirmed": false,
+      "x_url": null
+    },
+    {
+      "headline": "NVIDIA、対話型ワールドシミュレーション向けCosmos 3オープン重み4種を公開",
+      "summary": "Cosmos3-Nano-Transfer-Auto／Sim-Auto／Sim-Transfer／Sim-Bimanualの4チェックポイント（各学習可能16B）をHugging Faceで公開。走行の多視点・LiDAR合成や閉ループ走行シミュレーション、シミュレータ制御からの映像、双腕ロボット行動予測に対応し、OpenMDW1.1で商用利用可（11月5日公式ブログ）。",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "source": "",
+      "topic": "models",
+      "collected_at": "2026-11-06T12:14:30+09:00",
+      "unconfirmed": false,
+      "x_url": null
+    },
+    {
+      "headline": "Kakao、エージェント向け判断モデル「Kanana-2-v-decide」をオープンソース公開",
+      "summary": "テキストと画像を理解し、確率・選択・点数の形式で応答するマルチモーダル意思決定モデル。文を生成しない設計でH200 1枚あたり平均0.04秒未満、自社測定でGPT-6 Luna比約43倍高速。Kanana Decision BenchとDecision Indexで比較対象中最高とし、Kanana Open Licenseで商用利用可（11月6日公式）。",
+      "url": "https://www.kakaocorp.com/page/detail/12193",
+      "source": "",
+      "topic": "new_model",
+      "collected_at": "2026-11-06T12:14:30+09:00",
+      "unconfirmed": false,
+      "x_url": null
+    },
+    {
+      "headline": "ONESTRUCTION、図面からBIMを生成するAIエージェント「Ishigaki-BIM(β)」のテスト募集を開始",
+      "summary": "GENIAC第4期で開発中の建設特化AIエージェントで、自然言語要件や図面からBIMモデルを生成。学習・推論は同社環境で行い入力図面は海外へ送らないとしています。アパート等の比較的単純な建物が主な対象で、11月4日からウェイティングリスト受付（建設×AI）。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000026.000056155.html",
+      "source": "",
+      "topic": "construction",
+      "collected_at": "2026-11-06T12:14:30+09:00",
+      "unconfirmed": false,
+      "x_url": null
+    },
+    {
+      "headline": "朝日工業社、生成AIで安全作業手順書・作業イメージ図を作成　下書き時間を約9割削減し全社展開へ",
+      "summary": "",
+      "url": "https://kyodonewsprwire.jp/release/202611059534",
+      "source": "",
+      "topic": "construction",
+      "collected_at": "2026-11-06T14:12:00+09:00",
+      "unconfirmed": false,
+      "x_url": null
+    },
+    {
+      "headline": "KENCOPA、工程AIエージェントの公式MCPサーバーを提供開始",
+      "summary": "",
+      "url": "https://kencopa.com/news/20261016",
+      "source": "",
+      "topic": "construction",
+      "collected_at": "2026-11-06T14:12:00+09:00",
+      "unconfirmed": false,
+      "x_url": null
+    },
+    {
+      "headline": "政府、サイバー対策予備費100億円閣議決定（AI脆弱性点検約20億）",
+      "summary": "",
+      "url": "https://www.sankei.com/article/20261106-QTTKV5NVAVMG5B6RPHEUS4ASKM/",
+      "source": "",
+      "topic": "policy",
+      "collected_at": "2026-11-06T14:12:00+09:00",
+      "unconfirmed": false,
+      "x_url": null
+    },
+    {
+      "headline": "工学院大学 BIM×AI建築人材養成プログラム受講申込開始",
+      "summary": "",
+      "url": "https://www.kogakuin.ac.jp/digibe/ai-bim-course.html",
+      "source": "",
+      "topic": "construction",
+      "collected_at": "2026-11-06T14:12:00+09:00",
+      "unconfirmed": false,
+      "x_url": null
+    },
+    {
+      "headline": "Artificial Analysis Endpoint Accuracy Index v1.1",
+      "summary": "",
+      "url": "https://artificialanalysis.ai/methodology/endpoint-accuracy-index",
+      "source": "",
+      "topic": "evals",
+      "collected_at": "2026-11-06T14:12:00+09:00",
+      "unconfirmed": false,
+      "x_url": null
+    },
+    {
+      "headline": "Claude Code v2.1.319公開：MCPタスクのバックグラウンド実行、permissions.denyInsteadOfPrompting、多数の修正",
+      "summary": "MCPサーバのツール呼び出しをタスクとして即バックグラウンド化し完了時に結果を返す機能を追加（CLAUDE_CODE_DISABLE_MCP_TASK_BACKGROUNDで無効化可）。権限プロンプト待ちを拒否してターン継続するpermissions.denyInsteadOfPrompting、/claude-api latency-optimize、ゲートウェイ配下の/usage支出表示なども入り、多数の不具合を修正しています（11月6日 17:04Z GitHub／npm）。",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+      "source": "",
+      "topic": "claude",
+      "collected_at": "2026-11-07T02:20:00+09:00",
+      "unconfirmed": false,
+      "x_url": null
+    },
+    {
+      "headline": "OpenAI BioBasicsBench",
+      "summary": "",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+      "source": "",
+      "topic": "",
+      "collected_at": "2026-11-07T06:10:00+09:00",
+      "unconfirmed": false,
+      "x_url": null
+    },
+    {
+      "headline": "FMF Jailbreak Rating Framework v1.0",
+      "summary": "",
+      "url": "https://www.frontiermodelforum.org/updates/introducing-the-fmf-jailbreak-rating-framework-for-frontier-cyber-threats/",
+      "source": "",
+      "topic": "",
+      "collected_at": "2026-11-07T06:10:00+09:00",
+      "unconfirmed": false,
+      "x_url": null
+    },
+    {
+      "headline": "Anthropic Teaching AI to build scientific models",
+      "summary": "",
+      "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models",
+      "source": "",
+      "topic": "",
+      "collected_at": "2026-11-07T06:10:00+09:00",
+      "unconfirmed": false,
+      "x_url": null
+    },
+    {
+      "headline": "日本工営ら総務省DX USV+AIダム点検",
+      "summary": "",
+      "url": "https://digital-construction.jp/news/4176",
+      "source": "",
+      "topic": "",
+      "collected_at": "2026-11-07T06:10:00+09:00",
+      "unconfirmed": false,
+      "x_url": null
+    },
+    {
+      "headline": "日経 Claude町工場",
+      "summary": "",
+      "url": "https://business.nikkei.com/atcl/NBD/19/special/02564/",
+      "source": "",
+      "topic": "",
+      "collected_at": "2026-11-07T06:10:00+09:00",
+      "unconfirmed": false,
+      "x_url": null
+    },
+    {
+      "headline": "日経 SHIFT採用ストップ",
+      "summary": "",
+      "url": "https://business.nikkei.com/atcl/gen/19/00898/063000006/",
+      "source": "",
+      "topic": "",
+      "collected_at": "2026-11-07T06:10:00+09:00",
+      "unconfirmed": false,
+      "x_url": null
+    }
+  ]
+}

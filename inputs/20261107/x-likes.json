@@ -1,0 +1,52 @@
+{
+  "date": "2026/11/07",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-06T08:00:00+09:00",
+    "to": "2026-11-07T08:00:00+09:00"
+  },
+  "source": "x-likes",
+  "itemCount": 4,
+  "items": [
+    {
+      "headline": "Sandflow、CAD部品など約10.6万点の3Dをコード化したデータセット「Sand3D」をオープン公開",
+      "summary": "Sand3Dは約106,094点の3DオブジェクトをPythonプログラムとして書き直したデータセットで、CAD部品約2.4万点や関節付きモデル約1万点を含みます。ライブラリはApache 2.0、データはCC BY 4.0でHugging FaceとGitHubに公開されています（11月5日）。",
+      "url": "https://huggingface.co/blog/Sandflow/sand3d-106094-3d-objects-in-one-code-substrate-for",
+      "source": "",
+      "topic": "construction",
+      "collected_at": "2026-11-06T08:05:20+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/Sandflow_ai/status/2118269672500138062"
+    },
+    {
+      "headline": "Decart、リアルタイム動画編集モデル「Lucy 2.6」を公開　参照画像への忠実度を強化",
+      "summary": "Lucy 2.6は720pのライブ動画編集モデルで、人物・衣服・商品の参照画像への忠実度やリップシンクを改善し、複数編集を1プロンプトで組み合わせられます。プラットフォーム上でlucy-latestの既定となり、価格はLucy 2.5と同じです（11月5日）。",
+      "url": "https://decart.ai/publications/introducing-lucy-2-6",
+      "source": "",
+      "topic": "models",
+      "collected_at": "2026-11-06T08:05:20+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/DecartAI/status/2118397449978913075"
+    },
+    {
+      "headline": "Reducto、文書解析モデル「r-1 mini」を公開　1000ページあたり1ドルで高精度パース",
+      "summary": "r-1 miniは表・読み順・レイアウトを保った文書パースを1000ページ1ドルで提供し、同社評価では最大25倍高価な代替を上回るとしています。フラッグシップのr-1も一般提供となり、用途に応じて使い分けられます（11月5日）。",
+      "url": "https://reducto.ai/blog/reducto-r-1-mini-parse-model",
+      "source": "",
+      "topic": "models",
+      "collected_at": "2026-11-06T08:05:20+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/aditabrm/status/2118387155974414710"
+    },
+    {
+      "headline": "【未確認】Alibaba Qwen公式が「The becoming begins.」と投稿　コミュニティはQwen4予告と解釈",
+      "summary": "公式@Alibaba_Qwenが11月6日12:00Zに暗号めいた一文と画像を投稿し、数時間で数千いいね規模の反応。モデル名・日付・仕様の公式発表はなく、コミュニティではQwen4（通称・鲲）予告との解釈が広がっています。",
+      "url": "https://x.com/Alibaba_Qwen/status/2118674834632978755",
+      "source": "",
+      "topic": "models",
+      "collected_at": "2026-11-06T22:10:00+09:00",
+      "unconfirmed": true,
+      "x_url": "https://x.com/Alibaba_Qwen/status/2118674834632978755"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "date": "2026/11/07",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-06T08:00:00+09:00",
+    "to": "2026-11-07T08:00:00+09:00"
+  },
+  "source": "mail-4ml",
+  "itemCount": 7,
+  "items": [
+    {
+      "headline": "MetaのMuse、音声会話機能「Voice」を米国で展開開始",
+      "summary": "",
+      "url": "https://x.com/Muse/status/2118411960337289583",
+      "source": "",
+      "topic": "models",
+      "collected_at": "2026-11-06T20:30:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/Muse/status/2118411960337289583"
+    },
+    {
+      "headline": "Anthropicの年間売上ランレート、10月末に800億ドル超えと報道",
+      "summary": "",
+      "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b",
+      "source": "",
+      "topic": "claude",
+      "collected_at": "2026-11-06T20:30:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/KateClarkTweets/status/2118563680694751405"
+    },
+    {
+      "headline": "【未確認】OpenAI、GPT-5.6 Sol Ultrafastを非推奨化するとSemiAnalysisが報じる",
+      "summary": "",
+      "url": "https://x.com/SemiAnalysis_/status/2118569045033169378",
+      "source": "",
+      "topic": "models",
+      "collected_at": "2026-11-06T20:30:00+09:00",
+      "unconfirmed": true,
+      "x_url": "https://x.com/SemiAnalysis_/status/2118569045033169378"
+    },
+    {
+      "headline": "Nvidia、破綻懸念の通信会社Brightspeed局舎をAIデータセンターへ転用提案",
+      "summary": "",
+      "url": "https://x.com/theinformation/status/2118463433494446101",
+      "source": "",
+      "topic": "industry",
+      "collected_at": "2026-11-06T20:30:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/theinformation/status/2118463433494446101"
+    },
+    {
+      "headline": "Palo Alto Networks、AIエージェントID管理のClutch Securityを約5億ドルで買収協議",
+      "summary": "",
+      "url": "https://www.theinformation.com/articles/palo-alto-networks-talks-pay-500-million-ai-security-startup",
+      "source": "",
+      "topic": "agents",
+      "collected_at": "2026-11-06T20:30:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/theinformation/status/2118448330233557407"
+    },
+    {
+      "headline": "freee、Leanで税法を形式化しプロダクト実装とAIエージェントの業務ルールを検証",
+      "summary": "",
+      "url": "https://developers.freee.co.jp/entry/lean-formal-verification-tax-law-qa",
+      "source": "",
+      "topic": "agents",
+      "collected_at": "2026-11-06T20:30:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/kazunori_279/status/2118492467620409372"
+    },
+    {
+      "headline": "Unsloth、UD量子化V3.1で低ビット時の精度回復を大幅改善と報告",
+      "summary": "",
+      "url": "https://x.com/danielhanchen/status/2118497703797854584",
+      "source": "",
+      "topic": "models",
+      "collected_at": "2026-11-06T20:30:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/danielhanchen/status/2118497703797854584"
+    }
+  ]
+}
