@@ -1,0 +1,145 @@
+{
+  "date": "2026/11/08",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-07T08:00:00+09:00",
+    "to": "2026-11-08T08:00:00+09:00"
+  },
+  "source": "mail-4ml",
+  "itemCount": 12,
+  "items": [
+    {
+      "headline": "Karpathy氏、Claude Codeで動画サイト「TristanTube」を3分で構築（HackerTube続報）",
+      "summary": "他人のおすすめYouTubeチャンネル一覧から4.7万本の動画とTVモードを備えたTristanTubeをClaude Codeで約3分で生成。Opus 5.5で約2時間かかったHackerTubeからの短縮例として紹介。",
+      "url": "https://x.com/karpathy/status/2119114537442189652",
+      "source": "Andrej Karpathy（X）",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "unconfirmed": false,
+      "otherUrls": [
+        "https://x.com/karpathy/status/2116957135661945283"
+      ]
+    },
+    {
+      "headline": "Anthropic、11月のIPOで800億〜1000億ドル調達を計画とFT報道（評価額1.25兆〜1.75兆ドル）",
+      "summary": "FTによると評価額1.25兆〜1.75兆ドル、調達額800億〜1000億ドルを計画。BloombergはAI業界の試金石と位置づけ、S-1から見たneolab・neocloudの経済性も議論に。",
+      "url": "https://x.com/FT/status/2118813305665921070",
+      "source": "Financial Times（報道）",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "unconfirmed": false,
+      "otherUrls": [
+        "https://x.com/DeItaone/status/2118816482130018752"
+      ]
+    },
+    {
+      "headline": "OpenAI、評価額1.25兆ドルで110億ドルの調達を完了とBloomberg報道",
+      "summary": "最大200億ドルに達しうるラウンドの第1弾で金曜時点で入金済み。数週間で全体をクローズ見込みだが当初の300億ドル超の目標は下回り、AI株急落の中での大型調達。",
+      "url": "https://x.com/TechCrunch/status/2118840618621211108",
+      "source": "Bloomberg（TechCrunch経由の報道）",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "unconfirmed": false,
+      "otherUrls": [
+        "https://x.com/StockMKTNewz/status/2118812938161258659"
+      ]
+    },
+    {
+      "headline": "TSMCの3Dメモリ製造計画、元Micron幹部のHsu Kuo-chin副社長が主導と報道",
+      "summary": "Nvidiaの要請によるTSMCの3Dメモリ製造検討を先端パッケージング担当副社長が主導。SK HynixとのHBM提携を複雑にする可能性が指摘される一方、汎用DRAMではなくSRAM積層との見方も。",
+      "url": "https://x.com/theinformation/status/2119052292267630791",
+      "source": "The Information（報道）",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "unconfirmed": false,
+      "otherUrls": []
+    },
+    {
+      "headline": "Claude Maxの利用量表示をめぐる訴訟、米判事が審理継続を認める",
+      "summary": "原告は5倍・20倍の利用倍率がセッション単位にしか適用されず週間上限は大幅に低かったと主張。プラン表示の問題が焦点。",
+      "url": "https://x.com/kimmonismus/status/2119075902340612324",
+      "source": "kimmonismus（X、二次情報）",
+      "topic": "エージェント",
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "unconfirmed": true,
+      "otherUrls": []
+    },
+    {
+      "headline": "Claude Duet、スマホから実行中のClaude Codeセッションを確認・承認・指示可能に",
+      "summary": "手元PCとクラウド双方のセッションに対応し、スマホから進捗確認、変更承認、指示送信ができると紹介。",
+      "url": "https://x.com/davidsuttonca/status/2118785613436698719",
+      "source": "X（二次情報）",
+      "topic": "エージェント",
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "unconfirmed": true,
+      "otherUrls": [
+        "https://x.com/oikon48/status/2119015302801604633",
+        "https://x.com/oikon48/status/2118998476285735387"
+      ]
+    },
+    {
+      "headline": "オープンモデル向けコーディングエージェントのハーネスを比較する「Harness Leaderboard」公開",
+      "summary": "9種類のハーネスで計28,849回試行し、ハーネスだけを変えても結果が大きく変わることを示した。",
+      "url": "https://x.com/joelniklaus/status/2118373808692437403",
+      "source": "Joel Niklaus（X）",
+      "topic": "Papers",
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "unconfirmed": false,
+      "otherUrls": []
+    },
+    {
+      "headline": "Google論文：成果物の整備でエージェントのML実験再現率が76.4%→92.6%に",
+      "summary": "コーディングエージェントにML実験を再現させやすくする成果物整備を提案し、4モデル平均の再現成功率が向上、APIコストも削減。",
+      "url": "https://x.com/omarsar0/status/2119085975880212842",
+      "source": "omarsar0（X、論文紹介）",
+      "topic": "Papers",
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "unconfirmed": true,
+      "otherUrls": []
+    },
+    {
+      "headline": "Prior Labs、TabPFN-3.5-Thinkingで銀行の顧客ランキングがXGBoost超え",
+      "summary": "fit時に追加計算を使う方法をcookbookで解説。20万人の顧客を取引確率で順位付けする事例でXGBoostよりキャンペーン価値が€28,900高く、扱える規模も拡大。",
+      "url": "https://x.com/prior_labs/status/2118721942253625518",
+      "source": "Prior Labs（公式X）",
+      "topic": "Models",
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "unconfirmed": false,
+      "otherUrls": [
+        "https://x.com/Maxwell_110/status/2118824387717804464"
+      ]
+    },
+    {
+      "headline": "Xiaomi MiMo次世代、因果的エンコーダ・デコーダ「HySparse2」へ移行とSemiAnalysis",
+      "summary": "プロンプトは49層中25層のみを通り、1Mコンテキストでプリフィル計算は前世代の1/5、KVキャッシュは1/4.5になるとされる。",
+      "url": "https://x.com/SemiAnalysis_/status/2119142144749293863",
+      "source": "SemiAnalysis",
+      "topic": "Models",
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "unconfirmed": false,
+      "otherUrls": []
+    },
+    {
+      "headline": "Reflection、Beamの156ページ技術報告書で学習レシピを公開",
+      "summary": "23.8Tトークン（13.7Tユニーク×1.73エポック）を6,144基のGB300で21.9日学習、MFU21%。最適化手法にAdamW/MuonではなくAdamCを採用。",
+      "url": "https://x.com/RobertTLange/status/2119052293551128733",
+      "source": "Robert Lange（X）",
+      "topic": "Models",
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "unconfirmed": false,
+      "otherUrls": [
+        "https://x.com/RobertTLange/status/2111094203321336199"
+      ]
+    },
+    {
+      "headline": "Weight-Space Programming、Qwen3.5-0.8Bの重み0.486%を直接編集し学習なしでずんだもん口調に",
+      "summary": "GPT-6 Astraを使って重みを編集し、口調などの振る舞いも変えられる例として紹介。",
+      "url": "https://x.com/nwnwnyo/status/2118871501562933712",
+      "source": "X（個人の実験）",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "unconfirmed": false,
+      "otherUrls": []
+    }
+  ]
+}

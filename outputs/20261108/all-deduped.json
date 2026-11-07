@@ -1,0 +1,470 @@
+{
+  "date": "2026/11/08",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-07T08:00:00+09:00",
+    "to": "2026-11-08T08:00:00+09:00"
+  },
+  "itemCount": 27,
+  "items": [
+    {
+      "headline": "Karpathy氏、Claude Codeで動画サイト「TristanTube」を3分で構築（HackerTube続報）",
+      "summary": "他人のおすすめYouTubeチャンネル一覧から4.7万本の動画とTVモードを備えたTristanTubeをClaude Codeで約3分で生成。Opus 5.5で約2時間かかったHackerTubeからの短縮例として紹介。",
+      "url": "https://x.com/karpathy/status/2119114537442189652",
+      "otherUrls": [
+        "https://x.com/karpathy/status/2116957135661945283"
+      ],
+      "source": "Andrej Karpathy（X）",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Anthropic、11月のIPOで800億〜1000億ドル調達を計画とFT報道（評価額1.25兆〜1.75兆ドル）",
+      "summary": "FTによると評価額1.25兆〜1.75兆ドル、調達額800億〜1000億ドルを計画。BloombergはAI業界の試金石と位置づけ、S-1から見たneolab・neocloudの経済性も議論に。",
+      "url": "https://x.com/FT/status/2118813305665921070",
+      "otherUrls": [
+        "https://x.com/DeItaone/status/2118816482130018752"
+      ],
+      "source": "Financial Times（報道）",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "OpenAI、評価額1.25兆ドルで110億ドルの調達を完了とBloomberg報道",
+      "summary": "最大200億ドルに達しうるラウンドの第1弾で金曜時点で入金済み。数週間で全体をクローズ見込みだが当初の300億ドル超の目標は下回り、AI株急落の中での大型調達。",
+      "url": "https://x.com/TechCrunch/status/2118840618621211108",
+      "otherUrls": [
+        "https://x.com/StockMKTNewz/status/2118812938161258659"
+      ],
+      "source": "Bloomberg（TechCrunch経由の報道）",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "TSMCの3Dメモリ製造計画、元Micron幹部のHsu Kuo-chin副社長が主導と報道",
+      "summary": "Nvidiaの要請によるTSMCの3Dメモリ製造検討を先端パッケージング担当副社長が主導。SK HynixとのHBM提携を複雑にする可能性が指摘される一方、汎用DRAMではなくSRAM積層との見方も。",
+      "url": "https://x.com/theinformation/status/2119052292267630791",
+      "otherUrls": [],
+      "source": "The Information（報道）",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Claude Maxの利用量表示をめぐる訴訟、米判事が審理継続を認める",
+      "summary": "原告は5倍・20倍の利用倍率がセッション単位にしか適用されず週間上限は大幅に低かったと主張。プラン表示の問題が焦点。",
+      "url": "https://x.com/kimmonismus/status/2119075902340612324",
+      "otherUrls": [],
+      "source": "kimmonismus（X、二次情報）",
+      "topic": "エージェント",
+      "section": "エージェント",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": null,
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Claude Duet、スマホから実行中のClaude Codeセッションを確認・承認・指示可能に",
+      "summary": "手元PCとクラウド双方のセッションに対応し、スマホから進捗確認、変更承認、指示送信ができると紹介。",
+      "url": "https://x.com/davidsuttonca/status/2118785613436698719",
+      "otherUrls": [
+        "https://x.com/oikon48/status/2119015302801604633",
+        "https://x.com/oikon48/status/2118998476285735387"
+      ],
+      "source": "X（二次情報）",
+      "topic": "エージェント",
+      "section": "エージェント",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": null,
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "オープンモデル向けコーディングエージェントのハーネスを比較する「Harness Leaderboard」公開",
+      "summary": "9種類のハーネスで計28,849回試行し、ハーネスだけを変えても結果が大きく変わることを示した。",
+      "url": "https://x.com/joelniklaus/status/2118373808692437403",
+      "otherUrls": [],
+      "source": "Joel Niklaus（X）",
+      "topic": "Papers",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Google論文：成果物の整備でエージェントのML実験再現率が76.4%→92.6%に",
+      "summary": "コーディングエージェントにML実験を再現させやすくする成果物整備を提案し、4モデル平均の再現成功率が向上、APIコストも削減。",
+      "url": "https://x.com/omarsar0/status/2119085975880212842",
+      "otherUrls": [],
+      "source": "omarsar0（X、論文紹介）",
+      "topic": "Papers",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": null,
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Prior Labs、TabPFN-3.5-Thinkingで銀行の顧客ランキングがXGBoost超え",
+      "summary": "fit時に追加計算を使う方法をcookbookで解説。20万人の顧客を取引確率で順位付けする事例でXGBoostよりキャンペーン価値が€28,900高く、扱える規模も拡大。",
+      "url": "https://x.com/prior_labs/status/2118721942253625518",
+      "otherUrls": [
+        "https://x.com/Maxwell_110/status/2118824387717804464"
+      ],
+      "source": "Prior Labs（公式X）",
+      "topic": "Models",
+      "section": "モデル",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Xiaomi MiMo次世代、因果的エンコーダ・デコーダ「HySparse2」へ移行とSemiAnalysis",
+      "summary": "プロンプトは49層中25層のみを通り、1Mコンテキストでプリフィル計算は前世代の1/5、KVキャッシュは1/4.5になるとされる。",
+      "url": "https://x.com/SemiAnalysis_/status/2119142144749293863",
+      "otherUrls": [],
+      "source": "SemiAnalysis",
+      "topic": "Models",
+      "section": "モデル",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Reflection、Beamの156ページ技術報告書で学習レシピを公開",
+      "summary": "23.8Tトークン（13.7Tユニーク×1.73エポック）を6,144基のGB300で21.9日学習、MFU21%。最適化手法にAdamW/MuonではなくAdamCを採用。",
+      "url": "https://x.com/RobertTLange/status/2119052293551128733",
+      "otherUrls": [
+        "https://x.com/RobertTLange/status/2111094203321336199"
+      ],
+      "source": "Robert Lange（X）",
+      "topic": "Models",
+      "section": "モデル",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Weight-Space Programming、Qwen3.5-0.8Bの重み0.486%を直接編集し学習なしでずんだもん口調に",
+      "summary": "GPT-6 Astraを使って重みを編集し、口調などの振る舞いも変えられる例として紹介。",
+      "url": "https://x.com/nwnwnyo/status/2118871501562933712",
+      "otherUrls": [],
+      "source": "X（個人の実験）",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "EY調査：CEOの50%がAIを生産性向上の最大要因と回答、人材不足は72%が資金より深刻と認識",
+      "summary": "世界21カ国・地域のCEO1,200人対象。AIを生産性向上の最大要因とするCEOは50%。一方ROIをリアルタイム把握できるのは16%、AIスキル育成が技術に追いついていないは47%。72%が今後3年で人材・スキル不足が資金確保より深刻な成長障壁になると回答。",
+      "url": "https://www.ey.com/ja_jp/newsroom/2026/11/ey-japan-news-release-2026-11-06",
+      "otherUrls": [],
+      "source": "EY Japan",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "web-search"
+      ],
+      "collected_at": "2026-11-07T11:18:34+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "ウイングアーク調査：AIで時短実感95.2%のうち71.1%が上司・会社に積極的に伝えず",
+      "summary": "従業員300名以上のAI推進担当546名。95.2%が業務時間短縮を実感（週3時間以上は40.8%）一方、実感層の71.1%は上司・会社に積極報告せず。理由1位は「短縮時間を自分の裁量で使いたい」（43.5%）。費用は把握・成果は未把握が43.6%。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000383.000053341.html",
+      "otherUrls": [],
+      "source": "ウイングアーク1st（PR TIMES）",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "web-search"
+      ],
+      "collected_at": "2026-11-07T15:20:00+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "サイボウズ調査：大企業の62%がAIエージェント導入、1〜3年後を明確に描けるのは8%",
+      "summary": "従業員1,000人以上551社。全社本格16%・部門限定30%・PoC16%で計62%が導入着手。レビュー体制ありは20%、責任分界の明文化は16%。1〜3年後の活用像を「明確に描けている」は8%。課題1位は業務プロセス見直し（42%）。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000362.000027677.html",
+      "otherUrls": [],
+      "source": "サイボウズ（PR TIMES）",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "web-search"
+      ],
+      "collected_at": "2026-11-07T19:20:17+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "JAPAN AI調査：勤務先で生成AI本格利用66.2%、未承認AIの実態把握できず71.4%",
+      "summary": "会社員・経営層370人。全社または一部部門で本格利用66.2%の一方、未承認AIの利用実態を把握できていない71.4%、全社方針・ガイドライン未策定または不明53.8%。利用拡大とガバナンス整備のギャップが示された（調査期間2026年7〜9月）。",
+      "url": "https://japan-ai.co.jp/news/press/2026/11/261106/",
+      "otherUrls": [],
+      "source": "JAPAN AI",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "web-search"
+      ],
+      "collected_at": "2026-11-07T19:20:17+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Mer調査：生成AIで十分成果は26.2%、データ「整備されている」79.1%でも問題なしは3.7%",
+      "summary": "従業員100名以上で生成AI活用の責任者・担当541名（Japan AI Operations Report 2026 Autumn）。成果「出ている」計89.6%だが「十分」は26.2%。データ整備認識79.1%の一方問題なし3.7%、顧客軸でほぼ全データ横断できるは10.0%。AI投資拡大予定81.0%。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000056.000054314.html",
+      "otherUrls": [],
+      "source": "株式会社Mer（PR TIMES）",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "web-search"
+      ],
+      "collected_at": "2026-11-07T19:20:17+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Miro調査：AIで個人の生産性向上83%、だが成果物の質向上は56%どまり",
+      "summary": "北米・欧州・APACのリーダーと従業員9,500人超を調査。83%が個人の生産性向上、73%が作業スピード向上と回答する一方、成果物の質向上は56%。意思決定（52%）・チーム連携（60%）は改善せず、59%がレビューすべきAI出力の増加、55%が「AIスロップ」の手直し増を挙げた。",
+      "url": "https://www.businesswire.com/news/home/20261103271772/en/Individual-AI-Productivity-Soars-but-Organizational-Impact-Stalls",
+      "otherUrls": [],
+      "source": "Miro（Business Wire）",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "web-search"
+      ],
+      "collected_at": "2026-11-07T23:20:00+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "TCS調査：経営層の84%が生産性向上をAI投資の最大の価値と回答、AIエージェントに決定を任せる企業は10%",
+      "summary": "25カ国・12業種の上級幹部1,333人を調査。84%が生産性向上をAI投資の主な価値に挙げる一方、複数部門でAIエージェントに人の承認なしで決定を実行させる企業は10%、業務横断で安全にワークフローを編成できるエージェントを持つのは9%。39%がトークン・計算コストに見合う価値かを再評価中。",
+      "url": "https://www.tcs.com/who-we-are/newsroom/press-release/productivity-top-benefit-tcs-enterprise-ai-study",
+      "otherUrls": [],
+      "source": "Tata Consultancy Services",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "web-search"
+      ],
+      "collected_at": "2026-11-07T23:20:00+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Cognizant調査：インド従業員の97%がAIで生産性向上、平均+15%　現実的シナリオでGDP年280〜840億ドル増と試算",
+      "summary": "従業員700人・経営層75人を調査。97%が何らかの生産性向上を報告し平均+15%。AI研修完了は74%（世界56%）一方、ツールへのアクセスは平均36%にとどまる。現実的な導入シナリオでインドの名目GDPを年280〜840億ドル押し上げると試算（理論上限8300億ドルは上限シナリオ）。医療で20%超の向上報告が38%と最高。",
+      "url": "https://news.cognizant.com/2026-110-03-Cognizant-study-says-productivity-gains-from-AI-could-expand-Indias-GDP",
+      "otherUrls": [],
+      "source": "Cognizant（公式）",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "web-search"
+      ],
+      "collected_at": "2026-11-08T03:16:57+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "アルインコ×KK Generation、足場のAI積算を基本設計完了し27年春市場投入へ",
+      "summary": "PDF図面の解析から足場計画生成・仮設資材数量の自動積算まで行う「(仮称)AI積算」の基本設計・開発を完了。実業務検証を進め、2027年春頃の市場投入を目指す。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000032.000071025.html",
+      "otherUrls": [
+        "https://x.com/buildhub_biz/status/2118830990902841651"
+      ],
+      "source": "アルインコ PR TIMES",
+      "topic": "建設×AI",
+      "section": "建設×AI",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-07T11:18:34+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Menlo Ventures：企業のAI導入支出が1768億ドルに急増、Anthropicが企業LLM API支出の55%を占める",
+      "summary": "2026年State of Enterprise AI。企業の生成AI導入支出は2026年9月時点で1768億ドル（前年比5.4倍）。企業LLM API支出のシェアはAnthropic 55%、OpenAI 31%、Google 9%。コーディングとチャットボットでアプリ市場の76%。",
+      "url": "https://menlovc.com/perspective/2026-the-state-of-enterprise-ai/",
+      "otherUrls": [
+        "https://x.com/teamnebulaai/status/2118874408676634848"
+      ],
+      "source": "Menlo Ventures",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-07T11:18:34+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "NEC、機密保護とトークンコスト最適化の「cotomi Gateway」を11月から提供開始",
+      "summary": "国産LLM cotomi向けゲートウェイ。機密の自動検知・マスキング・秘匿問い合わせと、プロンプト圧縮・ルーティングでトークンコストを最適化。ソフトウェア版は月額100万円（税別）から、SaaSは今後。",
+      "url": "https://jpn.nec.com/press/202611/20261105_01.html",
+      "otherUrls": [
+        "https://x.com/zari_ai_studio/status/2118938739556622532"
+      ],
+      "source": "NEC",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-07T15:20:00+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Microsoft Foundry、fal提携でKling・LTX・MiniMaxの動画生成モデルをパブリックプレビュー提供",
+      "summary": "Kling v3 Pro、LTX-2.5 Fast/Pro、MiniMax H3 Max/Turboの5モデルを、falが提供するAzureファーストパーティサービスとして順次公開。テキスト／画像から動画生成、一部は音声同期対応で、初期は米国ホスト（Kling 3の米国ホストは初）。",
+      "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/building-the-next-generation-of-multimodal-ai-experiences-with-fal-in-microsoft-/4570032",
+      "otherUrls": [
+        "https://x.com/engrbilalwaris/status/2118963076145791406"
+      ],
+      "source": "Microsoft Tech Community（Foundry Blog）",
+      "topic": "生成AI・その他",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-07T17:14:29+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Stanfordら、Terminal-Bench 2.0の約30%に欠陥を確認し修理版「Terminal-Bench 2.1」を公開　精度は10ポイント超変動",
+      "summary": "Buchanan・Réらがエージェント用ベンチの継続監査手法を提案し、TB2.0の約3割（28タスク）に指示と検証の不一致・環境問題・タスクドリフトを特定して2.1として修理を公開。19エージェント再評価では精度が10ポイント超動きリーダーボードは最大3順位変動する一方、順位相関はSpearman ρ=0.958と高い。固定の時間予算がハーネス差の主因になることも示した（arXiv:2611.08417）。",
+      "url": "https://arxiv.org/abs/2611.08417",
+      "otherUrls": [
+        "https://x.com/Z3nlyte/status/2119103035599143026"
+      ],
+      "source": "arXiv（Stanford / Cornell）",
+      "topic": "Papers",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-08T03:16:57+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Nous Research、Qwen3.8-27Bを再学習した「Arete-27B」をオープンウェイト公開　中国当局寄り回答を22%→0.9%に",
+      "summary": "Alibaba Qwen3.8-27Bに約5280万トークンのSFTのみ（RL・アーキ変更なし、教師はInkling）を施し、政治的にセンシティブな話題での拒否や中国国家寄りの枠組みを低減。自社の803問・7カテゴリ評価で事実スコア2.32→2.98/5、「プロパガンダ含有」回答22%→0.9%。Hermes Bench 65.60%（元65.77%）、Terminal-Bench 2.1 70%（元67%）で能力劣化なしと主張。Apache 2.0でHugging Face公開、評価セット・学習データも公開（数値は自社測定）。",
+      "url": "https://nousresearch.com/arete",
+      "otherUrls": [
+        "https://x.com/Egeyim/status/2119162948316967340"
+      ],
+      "source": "Nous Research（公式）",
+      "topic": "Models",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-08T05:20:57+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "新ベンチ「MaxxBench」：DeepSWEの89タスクを少し改変すると、74%前後で並ぶモデルが最大23ポイント差に",
+      "summary": "unLAPのJustin Lo・Gavin Loが公開。DeepSWEの機能実装タスク89件で指示や初期コードを小さく変更（参照パッチ中央値+17行）し、mini-swe-agentで各2回実行。首位Claude Opus 5.5（max）76.4%はDeepSWE 74.2%を上回る唯一のモデル、GPT-6 Astra 71.9%、GPT-5.6 Sol 69.1%。Gemini 3.8 Flashは53.4%（DeepSWE比-20.5pt）、DeepSeek V4 Flashは-25.2ptと「benchmaxxing」の差が大きい。タスク・解答・軌跡を公開。",
+      "url": "https://maxxbench.unlap.ai/",
+      "otherUrls": [
+        "https://x.com/i/status/2118880329490637049"
+      ],
+      "source": "unLAP MaxxBench（公式）",
+      "topic": "Papers",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-08T05:20:57+09:00",
+      "published_at": null,
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    }
+  ]
+}
