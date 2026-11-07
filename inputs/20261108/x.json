@@ -1,0 +1,32 @@
+{
+  "date": "2026/11/08",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-07T08:00:00+09:00",
+    "to": "2026-11-08T08:00:00+09:00"
+  },
+  "source": "x",
+  "itemCount": 2,
+  "items": [
+    {
+      "headline": "アルインコ×KK Generation、足場のAI積算を基本設計完了し27年春市場投入へ",
+      "summary": "PDF図面の解析から足場計画生成・仮設資材数量の自動積算まで行う「(仮称)AI積算」の基本設計・開発を完了。実業務検証を進め、2027年春頃の市場投入を目指す。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000032.000071025.html",
+      "source": "アルインコ PR TIMES",
+      "topic": "建設×AI",
+      "collected_at": "2026-11-07T11:18:34+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/buildhub_biz/status/2118830990902841651"
+    },
+    {
+      "headline": "Menlo Ventures：企業のAI導入支出が1768億ドルに急増、Anthropicが企業LLM API支出の55%を占める",
+      "summary": "2026年State of Enterprise AI。企業の生成AI導入支出は2026年9月時点で1768億ドル（前年比5.4倍）。企業LLM API支出のシェアはAnthropic 55%、OpenAI 31%、Google 9%。コーディングとチャットボットでアプリ市場の76%。",
+      "url": "https://menlovc.com/perspective/2026-the-state-of-enterprise-ai/",
+      "source": "Menlo Ventures",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-07T11:18:34+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/teamnebulaai/status/2118874408676634848"
+    }
+  ]
+}

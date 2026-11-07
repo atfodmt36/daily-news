@@ -1,0 +1,21 @@
+{
+  "date": "2026/11/08",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-07T08:00:00+09:00",
+    "to": "2026-11-08T08:00:00+09:00"
+  },
+  "source": "web-search",
+  "itemCount": 1,
+  "items": [
+    {
+      "headline": "EY調査：CEOの50%がAIを生産性向上の最大要因と回答、人材不足は72%が資金より深刻と認識",
+      "summary": "世界21カ国・地域のCEO1,200人対象。AIを生産性向上の最大要因とするCEOは50%。一方ROIをリアルタイム把握できるのは16%、AIスキル育成が技術に追いついていないは47%。72%が今後3年で人材・スキル不足が資金確保より深刻な成長障壁になると回答。",
+      "url": "https://www.ey.com/ja_jp/newsroom/2026/11/ey-japan-news-release-2026-11-06",
+      "source": "EY Japan",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-07T11:18:34+09:00",
+      "unconfirmed": false
+    }
+  ]
+}
