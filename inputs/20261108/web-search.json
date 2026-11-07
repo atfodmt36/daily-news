@@ -6,7 +6,7 @@
     "to": "2026-11-08T08:00:00+09:00"
   },
   "source": "web-search",
-  "itemCount": 7,
+  "itemCount": 8,
   "items": [
     {
       "headline": "EY調査：CEOの50%がAIを生産性向上の最大要因と回答、人材不足は72%が資金より深刻と認識",
@@ -73,6 +73,15 @@
       "source": "Tata Consultancy Services",
       "topic": "ビジネス・人材",
       "collected_at": "2026-11-07T23:20:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Cognizant調査：インド従業員の97%がAIで生産性向上、平均+15%　現実的シナリオでGDP年280〜840億ドル増と試算",
+      "summary": "従業員700人・経営層75人を調査。97%が何らかの生産性向上を報告し平均+15%。AI研修完了は74%（世界56%）一方、ツールへのアクセスは平均36%にとどまる。現実的な導入シナリオでインドの名目GDPを年280〜840億ドル押し上げると試算（理論上限8300億ドルは上限シナリオ）。医療で20%超の向上報告が38%と最高。",
+      "url": "https://news.cognizant.com/2026-110-03-Cognizant-study-says-productivity-gains-from-AI-could-expand-Indias-GDP",
+      "source": "Cognizant（公式）",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-08T03:16:57+09:00",
       "unconfirmed": false
     }
   ]
