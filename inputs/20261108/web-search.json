@@ -6,7 +6,7 @@
     "to": "2026-11-08T08:00:00+09:00"
   },
   "source": "web-search",
-  "itemCount": 2,
+  "itemCount": 5,
   "items": [
     {
       "headline": "EY調査：CEOの50%がAIを生産性向上の最大要因と回答、人材不足は72%が資金より深刻と認識",
@@ -24,6 +24,36 @@
       "source": "ウイングアーク1st（PR TIMES）",
       "topic": "ビジネス・人材",
       "collected_at": "2026-11-07T15:20:00+09:00",
+      "unconfirmed": false,
+      "via": "web-search"
+    },
+    {
+      "headline": "サイボウズ調査：大企業の62%がAIエージェント導入、1〜3年後を明確に描けるのは8%",
+      "summary": "従業員1,000人以上551社。全社本格16%・部門限定30%・PoC16%で計62%が導入着手。レビュー体制ありは20%、責任分界の明文化は16%。1〜3年後の活用像を「明確に描けている」は8%。課題1位は業務プロセス見直し（42%）。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000362.000027677.html",
+      "source": "サイボウズ（PR TIMES）",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-07T19:20:17+09:00",
+      "unconfirmed": false,
+      "via": "web-search"
+    },
+    {
+      "headline": "JAPAN AI調査：勤務先で生成AI本格利用66.2%、未承認AIの実態把握できず71.4%",
+      "summary": "会社員・経営層370人。全社または一部部門で本格利用66.2%の一方、未承認AIの利用実態を把握できていない71.4%、全社方針・ガイドライン未策定または不明53.8%。利用拡大とガバナンス整備のギャップが示された（調査期間2026年7〜9月）。",
+      "url": "https://japan-ai.co.jp/news/press/2026/11/261106/",
+      "source": "JAPAN AI",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-07T19:20:17+09:00",
+      "unconfirmed": false,
+      "via": "web-search"
+    },
+    {
+      "headline": "Mer調査：生成AIで十分成果は26.2%、データ「整備されている」79.1%でも問題なしは3.7%",
+      "summary": "従業員100名以上で生成AI活用の責任者・担当541名（Japan AI Operations Report 2026 Autumn）。成果「出ている」計89.6%だが「十分」は26.2%。データ整備認識79.1%の一方問題なし3.7%、顧客軸でほぼ全データ横断できるは10.0%。AI投資拡大予定81.0%。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000056.000054314.html",
+      "source": "株式会社Mer（PR TIMES）",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-07T19:20:17+09:00",
       "unconfirmed": false,
       "via": "web-search"
     }
