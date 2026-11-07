@@ -6,7 +6,7 @@
     "to": "2026-11-08T08:00:00+09:00"
   },
   "source": "web-search",
-  "itemCount": 5,
+  "itemCount": 7,
   "items": [
     {
       "headline": "EY調査：CEOの50%がAIを生産性向上の最大要因と回答、人材不足は72%が資金より深刻と認識",
@@ -56,6 +56,24 @@
       "collected_at": "2026-11-07T19:20:17+09:00",
       "unconfirmed": false,
       "via": "web-search"
+    },
+    {
+      "headline": "Miro調査：AIで個人の生産性向上83%、だが成果物の質向上は56%どまり",
+      "summary": "北米・欧州・APACのリーダーと従業員9,500人超を調査。83%が個人の生産性向上、73%が作業スピード向上と回答する一方、成果物の質向上は56%。意思決定（52%）・チーム連携（60%）は改善せず、59%がレビューすべきAI出力の増加、55%が「AIスロップ」の手直し増を挙げた。",
+      "url": "https://www.businesswire.com/news/home/20261103271772/en/Individual-AI-Productivity-Soars-but-Organizational-Impact-Stalls",
+      "source": "Miro（Business Wire）",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-07T23:20:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "TCS調査：経営層の84%が生産性向上をAI投資の最大の価値と回答、AIエージェントに決定を任せる企業は10%",
+      "summary": "25カ国・12業種の上級幹部1,333人を調査。84%が生産性向上をAI投資の主な価値に挙げる一方、複数部門でAIエージェントに人の承認なしで決定を実行させる企業は10%、業務横断で安全にワークフローを編成できるエージェントを持つのは9%。39%がトークン・計算コストに見合う価値かを再評価中。",
+      "url": "https://www.tcs.com/who-we-are/newsroom/press-release/productivity-top-benefit-tcs-enterprise-ai-study",
+      "source": "Tata Consultancy Services",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-07T23:20:00+09:00",
+      "unconfirmed": false
     }
   ]
 }
