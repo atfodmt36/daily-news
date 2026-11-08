@@ -1,0 +1,72 @@
+{
+  "date": "2026/11/09",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-08T08:00:00+09:00",
+    "to": "2026-11-09T08:00:00+09:00"
+  },
+  "source": "x-likes",
+  "itemCount": 6,
+  "items": [
+    {
+      "headline": "PFN、翻訳特化LLM「PLaMo 3 Translate」のモデル重みを公開",
+      "summary": "Preferred Networksが翻訳特化LLM「PLaMo 3 Translate」を0.8B／2B／8B／31Bの4サイズのオープンウェイトで公開。海外の主要モデルを上回る翻訳品質をうたい、スマホや社内サーバーなどローカル環境でも利用できる。",
+      "url": "https://x.com/PreferredNetJP/status/2118132607116517500",
+      "source": "Preferred Networks",
+      "topic": "モデル",
+      "collected_at": "2026-11-08T09:01:50+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/PreferredNetJP/status/2118132607116517500"
+    },
+    {
+      "headline": "Nous Research、価値観評価つきの「Arete-27B」を発表",
+      "summary": "Nous ResearchがQwen系27Bモデルをポストトレーニングした「Arete-27B」を発表。803件のプロンプトからなる7カテゴリの価値観評価ベンチマークを構築したとしている。",
+      "url": "https://x.com/NousResearch/status/2118822925445050435",
+      "source": "Nous Research",
+      "topic": "モデル",
+      "collected_at": "2026-11-08T09:01:50+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/NousResearch/status/2118822925445050435"
+    },
+    {
+      "headline": "Thinking Machines、小型モデル「Inkling 2 Small」を公開",
+      "summary": "Thinking Machinesが「Inkling 2 Small」を発表。AA Intelligence Indexで31を記録し前世代から大幅に向上したとしており、Tinker上でファインチューニングと推論が利用可能、フルウェイト公開も予定されている。",
+      "url": "https://x.com/thinkymachines/status/2118489527362912566",
+      "source": "Thinking Machines",
+      "topic": "モデル",
+      "collected_at": "2026-11-08T09:01:50+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/thinkymachines/status/2118489527362912566"
+    },
+    {
+      "headline": "Moonshot AI、「Kimi K3.1 Pro」のモデル重みを公開",
+      "summary": "Moonshot AIが「Kimi K3.1 Pro」のモデル重みをHugging Faceで公開した。",
+      "url": "https://x.com/Kimi_Moonshot/status/2118010528123773297",
+      "source": "Moonshot AI",
+      "topic": "モデル",
+      "collected_at": "2026-11-08T09:01:50+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/Kimi_Moonshot/status/2118010528123773297"
+    },
+    {
+      "headline": "Decart、ライブ動画モデル「Lucy 2.6」を公開",
+      "summary": "Decartがライブ動画生成モデル「Lucy 2.6」を発表し、品質の大幅な向上をうたっている。",
+      "url": "https://x.com/DecartAI/status/2118397449978913075",
+      "source": "Decart",
+      "topic": "モデル",
+      "collected_at": "2026-11-08T09:01:50+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/DecartAI/status/2118397449978913075"
+    },
+    {
+      "headline": "Sandflow、コードで書かれた10万点超の3DオブジェクトライブラリをOSS公開",
+      "summary": "Sandflowが、CAD部品から関節機構まで10万点超の3Dオブジェクトをすべてコードとして記述したライブラリをオープンソース公開。寸法を変更すると形状が更新され、言語モデルが読み書きできる形式になっている。",
+      "url": "https://x.com/Sandflow_ai/status/2118269672500138062",
+      "source": "Sandflow",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-08T09:01:50+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/Sandflow_ai/status/2118269672500138062"
+    }
+  ]
+}
