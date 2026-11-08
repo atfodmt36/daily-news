@@ -1,0 +1,22 @@
+{
+  "date": "2026/11/09",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-08T08:00:00+09:00",
+    "to": "2026-11-09T08:00:00+09:00"
+  },
+  "source": "x",
+  "itemCount": 1,
+  "items": [
+    {
+      "headline": "Apiiro調査：Claude Codeの「今後確認しない」承認でパスワード等が平文保存、GitHub上の公開1,122ファイルに秘密情報",
+      "summary": "「Yes, and don't ask again」を選ぶと承認コマンドが .claude/settings.local.json にそのまま保存され、コマンド内のパスワードやトークンも平文で残る。公開GitHub上の104,185ファイル中1,122件（約1.1%）に1,379件の秘密情報（DBパスワード379件、AWSキー23件など）。研究者は全認証情報のローテーション、.gitignoreへの追加、パターン承認の利用を推奨（11/5公表）。",
+      "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+      "source": "The Hacker News（Apiiro調査）",
+      "topic": "エージェント",
+      "collected_at": "2026-11-08T11:16:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/darcy_7minai/status/2119215363623674021"
+    }
+  ]
+}
