@@ -1,0 +1,120 @@
+{
+  "date": "2026/11/09",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-08T08:00:00+09:00",
+    "to": "2026-11-09T08:00:00+09:00"
+  },
+  "source": "mail-4ml",
+  "itemCount": 12,
+  "items": [
+    {
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "headline": "Karpathy氏、Claude Codeで動画サイト「TristanTube」を3分で構築",
+      "source": "ML_Bear Times",
+      "summary": "Andrej Karpathy氏が、他人のおすすめYouTubeチャンネル一覧をもとにした動画サイト「TristanTube」をClaude Codeで3分でワンショット生成したと公開。4.7万本のマニアックな動画とTVモードを備え、前作HackerTube（Opus 5.5で約2時間）から大幅に短縮された。",
+      "topic": "エージェント",
+      "unconfirmed": false,
+      "url": "https://x.com/karpathy/status/2119114537442189652"
+    },
+    {
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "headline": "Anthropic、IPOで$80B〜$100B調達を計画か（FT報道）",
+      "source": "ML_Bear Times",
+      "summary": "FTによると、Anthropicは11月のIPOで評価額$1.25T〜$1.75T、調達額$80B〜$100Bを計画しているとされる。BloombergはこのIPOをAI業界の実力が問われる試金石と位置づけている。報道ベースで未確認。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": true,
+      "url": "https://x.com/FT/status/2118813305665921070"
+    },
+    {
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "headline": "OpenAI、評価額$1.25Tで$11Bの調達を完了と報道",
+      "source": "ML_Bear Times",
+      "summary": "Bloombergによると、OpenAIは評価額$1.25Tで$11Bの新規調達を完了し、金曜時点で入金済みとされる。最大$20Bに達しうるラウンドの第1弾で、当初目標の$30B以上は下回る規模。報道ベースで未確認。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": true,
+      "url": "https://x.com/TechCrunch/status/2118840618621211108"
+    },
+    {
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "headline": "TSMC、3Dメモリ計画を元Micron幹部が主導か（The Information報道）",
+      "source": "ML_Bear Times",
+      "summary": "The Informationによると、TSMCがNVIDIAの要請で検討している3Dメモリ製造の計画を、先端パッケージング担当で元Micron幹部のHsu Kuo-chin副社長が主導している。HBMで提携するSK Hynixとの関係を複雑にする可能性が指摘されている。報道ベースで未確認。",
+      "topic": "生成AI・その他",
+      "unconfirmed": true,
+      "url": "https://x.com/theinformation/status/2119052292267630791"
+    },
+    {
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "headline": "Claude Maxの利用量表示をめぐる訴訟、米判事が審理継続を認める",
+      "source": "ML_Bear Times",
+      "summary": "AnthropicのClaude Maxプランの利用量表示をめぐる訴訟について、米国の判事が審理の継続を認めた。原告は宣伝された5倍・20倍の倍率はセッション単位にしか適用されず、週間上限ははるかに低かったと主張している。",
+      "topic": "生成AI・その他",
+      "unconfirmed": true,
+      "url": "https://x.com/kimmonismus/status/2119075902340612324"
+    },
+    {
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "headline": "Claude Duet、スマホからClaude Codeセッションを操作可能に",
+      "source": "ML_Bear Times",
+      "summary": "Claude DuetがClaude Codeセッションに対応した。スマホから実行中の作業の確認、変更の承認、指示の送信ができ、手元のPCとクラウドのどちらのセッションにも対応する。",
+      "topic": "エージェント",
+      "unconfirmed": false,
+      "url": "https://x.com/davidsuttonca/status/2118785613436698719"
+    },
+    {
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "headline": "オープンモデル向けコーディングハーネス比較「Harness Leaderboard」が公開",
+      "source": "ML_Bear Times",
+      "summary": "オープンモデルをどのコーディングAgentハーネスで動かすべきかを比較するHarness Leaderboardが公開された。9種類のハーネスを対象にハーネスだけを変えて28,849回の試行を行い、同じモデルでもハーネス次第で結果が大きく変わることを示した。",
+      "topic": "論文・ベンチマーク",
+      "unconfirmed": false,
+      "url": "https://x.com/joelniklaus/status/2118373808692437403"
+    },
+    {
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "headline": "Google、研究成果物の整備でコーディングAgentのML実験再現率が92.6%に向上と報告",
+      "source": "ML_Bear Times",
+      "summary": "Googleの論文によると、研究の成果物（コードや実験資産）を整えることで、コーディングAgentによるML実験の再現成功率が4モデル平均で76.4%から92.6%に上がり、APIコストも削減された。二次情報のため未確認扱い。",
+      "topic": "論文・ベンチマーク",
+      "unconfirmed": true,
+      "url": "https://x.com/omarsar0/status/2119085975880212842"
+    },
+    {
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "headline": "Prior Labs、「TabPFN-3.5-Thinking」のcookbookを公開——銀行事例でXGBoost超え",
+      "source": "ML_Bear Times",
+      "summary": "Prior Labsが、学習時に追加計算を使って目的指標を高めるTabPFN-3.5-Thinkingのcookbookを公開した。20万人の銀行顧客を取引確率で順位付けする事例で、XGBoostよりキャンペーン価値が€28,900高い結果としている。対応規模も100万行級まで広がった。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://x.com/prior_labs/status/2118721942253625518"
+    },
+    {
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "headline": "Xiaomi MiMo次世代は因果的エンコーダ・デコーダ「HySparse2」採用か（SemiAnalysis報道）",
+      "source": "ML_Bear Times",
+      "summary": "SemiAnalysisによると、Xiaomi MiMoの次世代モデルは因果的エンコーダ・デコーダ構造のHySparse2へ移行する。プロンプトは49層中25層のみを通り、1Mコンテキストで前世代比プリフィル計算が5分の1、KVキャッシュが4.5分の1と推論効率重視の設計。報道ベースで未確認。",
+      "topic": "モデル",
+      "unconfirmed": true,
+      "url": "https://x.com/SemiAnalysis_/status/2119142144749293863"
+    },
+    {
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "headline": "Reflection、エージェント向けモデル「Beam」の156ページ技術報告書で学習レシピを公開",
+      "source": "ML_Bear Times",
+      "summary": "Reflectionのエージェント向けオープンウェイトモデルBeamについて、156ページの技術報告書が公開された。23.8Tトークン（13.7Tユニーク×1.73エポック）を6,144基のGB300で21.9日かけて学習し、最適化にはAdamWやMuonではなくAdamCを採用したことなど、詳細な学習レシピが明かされている。二次情報のため未確認扱い。",
+      "topic": "モデル",
+      "unconfirmed": true,
+      "url": "https://x.com/RobertTLange/status/2119052293551128733"
+    },
+    {
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "headline": "重み直接編集「Weight-Space Programming」でQwenをずんだもん口調に変換",
+      "source": "ML_Bear Times",
+      "summary": "モデルの重みを直接編集する手法Weight-Space Programmingの実験が共有された。GPT-6 Astraを使い、Qwen3.5-0.8Bの重みのうち0.486%だけを編集することで、学習を行わずにずんだもん風の口調で話すモデルの作成に成功したとしている。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/nwnwnyo/status/2118871501562933712"
+    }
+  ]
+}
