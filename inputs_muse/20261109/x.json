@@ -1,0 +1,52 @@
+{
+  "date": "2026/11/09",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-08T08:00:00+09:00",
+    "to": "2026-11-09T08:00:00+09:00"
+  },
+  "source": "x",
+  "itemCount": 4,
+  "items": [
+    {
+      "headline": "169Pi、ローカル推論向け9Bマルチモーダルモデル「Alpie Seed 9B」を公開",
+      "summary": "169PiがQwen3.5-9Bをベースにした9Bパラメータのマルチモーダル推論モデル「Alpie Seed 9B」をApache 2.0で公開。SWE-Bench Verified 61.20%、GPQA Diamond 84.32%など自社評価のスコアを掲げ、262Kトークンのネイティブコンテキストと2〜4bit量子化でノートPCやスマホでのローカル推論をうたう。Hugging FaceとOllamaで利用可能。",
+      "url": "https://169pi.ai/research/alpie-seed-9b",
+      "source": "169Pi",
+      "topic": "モデル",
+      "collected_at": "2026-11-08T13:54:37+09:00",
+      "unconfirmed": true,
+      "x_url": "https://x.com/DeltaA59245/status/2119258221420703748"
+    },
+    {
+      "headline": "エージェントの長期記憶を軽くする要約器「SumOne」、推論コストを約75%削減と報告",
+      "summary": "エージェントの長期対話履歴を要約で圧縮する手法「SumOne」の論文がarXivに公開された。マスク再構成による自己教師あり学習で要約器を訓練し、DeepSearchQAで推論コスト約78%、SWE-bench Verifiedで約75%の削減を報告している。",
+      "url": "https://arxiv.org/abs/2611.06445",
+      "source": "arXiv",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-08T13:54:37+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/vintcessun/status/2119263704550383663"
+    },
+    {
+      "headline": "Vercel、DeepSeek V4.1 Flashの超高速版をAI Gatewayで提供開始",
+      "summary": "VercelがDeepSeek V4.1 Flash 1017 UltrafastをAI Gatewayで公開プレビューとして提供開始。Fireworksの加速エンドポイントで毎秒1000トークン超の生成、100万トークンのコンテキストに対応し、Claude CodeやCodex、Cursorから利用できる。モデル自体は10月17日版と同じ重み。",
+      "url": "https://vercel.com/changelog/deepseek-v4-1-flash-1017-ultrafast-now-available-on-ai-gateway",
+      "source": "Vercel",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-08T15:25:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/shixukai/status/2119309661039915013"
+    },
+    {
+      "headline": "中国、ソフトバンクGのABBロボット事業買収を不許可——フィジカルAI戦略にブレーキ",
+      "summary": "中国当局がソフトバンクグループによるABBロボット事業の買収（54億ドル）を不許可とし、孫正義氏の「フィジカルAI」戦略に急ブレーキがかかった。ABBが発表した。買収は2026年半ばから後半の完了予定だった。",
+      "url": "https://news.yahoo.co.jp/articles/402995983767e669b655f1ebc99cfc49594ad881?source=sns&dv=pc&mid=other&date=20261108&ctg=bus&bt=tw_up",
+      "source": "Forbes JAPAN",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-08T15:25:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/Brows_ing/status/2119253265909207367"
+    }
+  ]
+}

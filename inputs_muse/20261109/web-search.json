@@ -1,0 +1,21 @@
+{
+  "date": "2026/11/09",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-08T08:00:00+09:00",
+    "to": "2026-11-09T08:00:00+09:00"
+  },
+  "source": "web-search",
+  "itemCount": 1,
+  "items": [
+    {
+      "headline": "VIDRAFT、推論特化のオープンウェイトモデル「Darwin-180B-RSI-R3」を公開",
+      "summary": "韓国スタートアップVIDRAFTが180BパラメータのMoEモデル「Darwin-180B-RSI-R3」の重みをHugging Faceで公開した。Qwen3.8-Flash-Nextを起点に再帰的自己改善を3回繰り返し、SuperCLUE 2026年11月の数学・科学推論で73.68を記録しオープンウェイトで1位としている（ベンダー報告値）。",
+      "url": "https://huggingface.co/VIDRAFT/Darwin-180B-RSI-R3",
+      "source": "VIDRAFT",
+      "topic": "モデル",
+      "collected_at": "2026-11-08T13:54:37+09:00",
+      "unconfirmed": false
+    }
+  ]
+}
