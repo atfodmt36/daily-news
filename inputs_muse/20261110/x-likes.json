@@ -1,0 +1,82 @@
+{
+ "date": "2026/11/10",
+ "timezone": "Asia/Tokyo",
+ "window": {
+  "from": "2026-11-09T08:00:00+09:00",
+  "to": "2026-11-10T08:00:00+09:00"
+ },
+ "source": "x-likes",
+ "itemCount": 7,
+ "items": [
+  {
+   "headline": "Anthropic、Claude Fable 5.2とMythos 5.2を発表",
+   "summary": "Anthropicが最難関の技術的課題向けに設計したClaude Fable 5.2とClaude Mythos 5.2を発表。コーディング、推論、視覚など多くの分野で改善を示し、野心的なプロジェクトの協力者とうたう。",
+   "url": "https://x.com/claudeai/status/2119867114450268322",
+   "source": "Anthropic",
+   "topic": "モデル",
+   "unconfirmed": false,
+   "collected_at": "2026-11-10T08:02:09+09:00",
+   "x_url": "https://x.com/claudeai/status/2119867114450268322"
+  },
+  {
+   "headline": "Meta、最小・高効率の新モデル「Muse Ember」を発表",
+   "summary": "Metaが最小かつ最も効率的なモデルMuse Emberを発表。アプリ間でワークフローを運びツール呼び出しやテスト実行、対象を絞ったコード修正を行えるエージェント向け設計で、100万トークンのコンテキストウィンドウとテキスト・画像・音声・動画のネイティブ理解を備える。",
+   "url": "https://x.com/AIatMeta/status/2119853591703998787",
+   "source": "Meta",
+   "topic": "モデル",
+   "unconfirmed": false,
+   "collected_at": "2026-11-10T08:02:09+09:00",
+   "x_url": "https://x.com/AIatMeta/status/2119853591703998787"
+  },
+  {
+   "headline": "Meituan、LongCat-2.5のモデル重みを公開",
+   "summary": "MeituanがLongCat-2.5の重みを公開。総パラメータ1.6T、アクティブ約48Bのネイティブマルチモーダルモデルで、視覚理解とエージェント型コーディングを強化。複雑なコーディングから3Dタスクまで対応し、MITライセンスでHugging Faceに公開した。",
+   "url": "https://x.com/Meituan_LongCat/status/2119793531393040462",
+   "source": "Meituan",
+   "topic": "モデル",
+   "unconfirmed": false,
+   "collected_at": "2026-11-10T08:02:09+09:00",
+   "x_url": "https://x.com/Meituan_LongCat/status/2119793531393040462"
+  },
+  {
+   "headline": "Google、第8世代TPUに「TPU 8i Max」と「TPU 8tx」を追加",
+   "summary": "Googleがエージェント時代向けに構築した2つの新システムで第8世代TPUポートフォリオを拡大。TPU 8i Maxは巨大なコンテキストウィンドウとラックあたり最高のコンピュート密度向け、TPU 8txはセキュアで機密性の高い推論向けに最適化されている。",
+   "url": "https://x.com/Google/status/2119788086490001906",
+   "source": "Google",
+   "topic": "生成AI・その他",
+   "unconfirmed": false,
+   "collected_at": "2026-11-10T08:02:09+09:00",
+   "x_url": "https://x.com/Google/status/2119788086490001906"
+  },
+  {
+   "headline": "Google AI Studio、Google Maps Platformを活用した構築に対応",
+   "summary": "Google AI StudioでGoogle Maps Platformを活用したアプリ構築が可能になった。地図を活用したアイデアからアプリまでを数分で実現できるとし、新機能として1クリックでの連携などを案内している。",
+   "url": "https://x.com/GoogleAIStudio/status/2119837788937896234",
+   "source": "Google",
+   "topic": "エージェント",
+   "unconfirmed": false,
+   "collected_at": "2026-11-10T08:02:09+09:00",
+   "x_url": "https://x.com/GoogleAIStudio/status/2119837788937896234"
+  },
+  {
+   "headline": "Codex、複数のローカルコンピューターを接続しタスク実行先を選べる機能を案内",
+   "summary": "OpenAI Developersが、同じプロジェクトに複数のローカルコンピューターを接続し、タスクごとに使用するマシンを選択できる機能を紹介。ラップトップでコーディングを続けている間に、専用マシンでアプリのビルドやテストを実行できる。",
+   "url": "https://x.com/OpenAIDevs/status/2119883176726409645",
+   "source": "OpenAI",
+   "topic": "エージェント",
+   "unconfirmed": false,
+   "collected_at": "2026-11-10T08:02:09+09:00",
+   "x_url": "https://x.com/OpenAIDevs/status/2119883176726409645"
+  },
+  {
+   "headline": "高市首相、フランス主催の「AIセキュリティ」会合に参加",
+   "summary": "高市早苗首相がフランス政府主催の「AIセキュリティ」会合にオンライン参加。フロンティアAIの機会と、サイバー攻撃への悪用や制御の喪失といった安全保障上の課題を挙げ国際連携の必要性を表明した。広島AIプロセスの実効性ある活用の促進、AI法を含む関連制度の見直し、AIセーフティ・インスティテュートの知見を活かした各国との協力についても述べた。",
+   "url": "https://x.com/takaichi_sanae/status/2119806610000195605",
+   "source": "高市早苗",
+   "topic": "政策・政府",
+   "unconfirmed": false,
+   "collected_at": "2026-11-10T08:02:09+09:00",
+   "x_url": "https://x.com/takaichi_sanae/status/2119806610000195605"
+  }
+ ]
+}
