@@ -6,7 +6,7 @@
     "to": "2026-11-10T08:00:00+09:00"
   },
   "source": "mail-4ml",
-  "itemCount": 12,
+  "itemCount": 22,
   "items": [
     {
       "headline": "Nvidia取締役会、Huang氏の件で安保上の漏洩なしと表明【続報】",
@@ -115,6 +115,96 @@
       "topic": "エージェント",
       "collected_at": "2026-11-09T19:33:00+09:00",
       "unconfirmed": false
+    },
+    {
+      "collected_at": "2026-11-10T07:36:00+09:00",
+      "headline": "Meta、Haiku 5.5並みで3分の1コストのMuse Ember公開",
+      "source": "ML_Bear Times",
+      "summary": "Metaが最小モデルMuse Emberを公開し、同クラスで最も高い1ドルあたりの知能をうたう。ツール呼び出しやルーティング、抽出などAgentの反復処理向けで、価格は入力$0.10／出力$0.50。AA Intelligence Indexで36とHaiku 5.5に並び、タスク単価は3分の1で、OpenRouterなどで利用できる。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://x.com/finkd/status/2119851180948152590"
+    },
+    {
+      "collected_at": "2026-11-10T07:36:00+09:00",
+      "headline": "Nvidia株が7%超下落、下院委員会がHuang氏を召喚",
+      "source": "ML_Bear Times",
+      "summary": "Jensen Huang CEOの不倫と諜報工作疑惑に関する続報。取締役会の調査開始を受け、Nvidia株は月曜の取引開始直後に7%超下落した。FTは疑惑の女性が中国の投資家にGPU調達力やAlibabaとの関係を売り込んでいたと独自に報じ、米下院3委員会の幹部がHuang氏を非公開説明に召喚した。中国外務省は疑惑を根拠がないと否定している。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": true,
+      "url": "https://x.com/FT/status/2119801938711646600"
+    },
+    {
+      "collected_at": "2026-11-10T07:36:00+09:00",
+      "headline": "Anthropic、Fable 5.2などClaudeモデルの使い分けガイド公開",
+      "source": "ML_Bear Times",
+      "summary": "Fable 5.2の公開に合わせ、ClaudeDevsがFable 5.2、Opus 5.5、Sonnet、Haikuの使い分けガイドを公開。モデルを変える代わりにeffortを調整する判断や、サブAgentを小型モデルに任せてコストを抑える方法が解説されている。",
+      "topic": "エージェント",
+      "unconfirmed": false,
+      "url": "https://x.com/ClaudeDevs/status/2119898687803621427"
+    },
+    {
+      "collected_at": "2026-11-10T07:36:00+09:00",
+      "headline": "Anthropic、Fable 5.2公開で長期契約者に上限リセット付与",
+      "source": "ML_Bear Times",
+      "summary": "AnthropicがFable 5.2の公開に合わせ、契約期間が長いほど多くの利用上限リセットを付与すると発表。Ultra・Team Premiumは契約6か月未満で1回、6〜12か月で2回、12か月超で3回付与され、3月8日まで使える。Pro・Team Standardも週上限の半分までFable 5.2を1週間試せ、リセットが1回付与される。",
+      "topic": "エージェント",
+      "unconfirmed": false,
+      "url": "https://x.com/ClaudeDevs/status/2119868704544711108"
+    },
+    {
+      "collected_at": "2026-11-10T07:36:00+09:00",
+      "headline": "Nace AIのDrex Max v1.1、AA Decision Indexで1位",
+      "source": "ML_Bear Times",
+      "summary": "Nace AIのマルチモーダル決定モデルDrex Max v1.1がArtificial AnalysisのDecision Indexでスコア73を記録し1位になった。テキスト・画像・動画にまたがる選択を262kコンテキストで扱い、Kapitsa経由でMacでも動くとされる。オープンウェイト化も予定されている。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://x.com/NaceAI/status/2119792132558819447"
+    },
+    {
+      "collected_at": "2026-11-10T07:36:00+09:00",
+      "headline": "推論基盤Fireworks、数週間で2度目のハッキング被害",
+      "source": "ML_Bear Times",
+      "summary": "推論プロバイダのFireworksが、数週間で2度目となるハッキング被害をHarveyなどの顧客に通知した。請求情報に加え、顧客のモデル重みやデータセットが約1か月にわたりアクセスされたとされる。年換算売上$1Bで評価額$30B超の調達を控える中、一部顧客は他基盤への移行を検討していると報じられている。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/theinformation/status/2119890301544288288"
+    },
+    {
+      "collected_at": "2026-11-10T07:36:00+09:00",
+      "headline": "Anthropic、火曜にもIPO営業開始、上場は来週後半か",
+      "source": "ML_Bear Times",
+      "summary": "AnthropicのIPO計画に関する続報。WSJによると早ければ火曜日から投資家向けの正式なマーケティングを始め、上場は来週木曜か金曜になる見通し。市場の急落を受け、当初の想定より低い評価額での上場を目指すとされる。S-1では2025年に売上$1あたり$1.60を計算資源に使い、2026年9月までに売上比57%へ下がったことが示されている。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": true,
+      "url": "https://x.com/business/status/2119895315482312767"
+    },
+    {
+      "collected_at": "2026-11-10T07:36:00+09:00",
+      "headline": "AirCaps、話者付き文字起こしでVoiceArena首位",
+      "source": "ML_Bear Times",
+      "summary": "AirCapsが、話者ごとに発言を割り当てる文字起こしモデルA5S Async v1を公開した。VoiceArenaで1位とされ、次点モデルは5つの公開ベンチマークで41%多く誤るとしている。評価コードやデータセットのレシピ、生のAPI応答まで公開しており、1時間の音声を9.8秒・$0.18で処理できるとされる。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://x.com/tryaircaps/status/2119854303796216025"
+    },
+    {
+      "collected_at": "2026-11-10T07:36:00+09:00",
+      "headline": "Google、AI AgentをK8sで10倍高密度に動かす技術をCNCFに寄贈",
+      "source": "ML_Bear Times",
+      "summary": "GoogleがAgent SubstrateとgVisorをオープンソースとしてCNCFに寄贈すると発表したとPublickeyが報じている。KubernetesでAI Agentを10倍高密度に実行できるようにする技術とされ、Agentを大量に安全に動かす基盤がオープン化されることで、自前のAgent実行環境づくりの選択肢が広がる。",
+      "topic": "エージェント",
+      "unconfirmed": false,
+      "url": "https://x.com/publickey/status/2119799176125157596"
+    },
+    {
+      "collected_at": "2026-11-10T07:36:00+09:00",
+      "headline": "Kaggle新コンペ開始、GoogleのAgent Harness工夫を競う",
+      "source": "ML_Bear Times",
+      "summary": "Kaggleで新コンペ「Google - Agent Harness on Physical-Engineering's Last Exam」が始まった。メダル対象外でKernel Onlyではない形式となり、締め切りは2027年1月5日。モデル自体よりAgent Harnessの工夫を競うテーマで、Agent開発に関心のある競技者には試しがいがある。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/kagoole/status/2119875243317875176"
     }
   ]
 }

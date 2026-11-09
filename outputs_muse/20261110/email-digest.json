@@ -1,0 +1,263 @@
+{
+  "date": "2026/11/10",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-09T08:00:00+09:00",
+    "to": "2026-11-10T08:00:00+09:00"
+  },
+  "itemCount": 33,
+  "top5": [
+    {
+      "headline": "Anthropic、Claude Fable 5.2とMythos 5.2を発表",
+      "summary": "Anthropicが最難関の技術的課題向けに設計したClaude Fable 5.2とClaude Mythos 5.2を発表。全有料プラン、Claude Platform、主要クラウドで利用可能で、価格は100万トークンあたり入力8ドル／出力40ドル（従来の10ドル／50ドルから値下げ）。Claude CodeとClaude PlatformではFable 5.1より最大30%高速化。FrontierSWE v2などのベンチマークでOpus 5.5を上回る。",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "source": "Anthropic",
+      "unconfirmed": false,
+      "whyItMatters": "フロンティア級の新モデル2種が同時に登場し、価格引き下げと高速化でClaudeの最上位ラインが刷新された。"
+    },
+    {
+      "headline": "Meta、最小・高効率の新モデル「Muse Ember」を発表",
+      "summary": "Metaが最小かつ最も効率的なモデルMuse Emberを発表。アプリ間でワークフローを運びツール呼び出しやテスト実行、対象を絞ったコード修正を行えるエージェント向け設計で、100万トークンのコンテキストウィンドウとテキスト・画像・音声・動画のネイティブ理解を備える。価格は入力$0.10／出力$0.50で、AA Intelligence Indexで36とHaiku 5.5に並びタスク単価は3分の1とされる。Google Cloudでも提供開始し、Muse WonderとMuse Spark 1.3も展開する。",
+      "url": "https://x.com/AIatMeta/status/2119853591703998787",
+      "source": "Meta",
+      "unconfirmed": false,
+      "whyItMatters": "Metaの最小・最効率モデルがエージェント用途に特化して登場し、Google Cloud展開で利用範囲が広がる。"
+    },
+    {
+      "headline": "Meituan、LongCat-2.5のモデル重みを公開",
+      "summary": "MeituanがLongCat-2.5の重みを公開。総パラメータ1.6T、アクティブ約48Bのネイティブマルチモーダルモデルで、視覚理解とエージェント型コーディングを強化。複雑なコーディングから3Dタスクまで対応し、MITライセンスでHugging Faceに公開した。",
+      "url": "https://x.com/Meituan_LongCat/status/2119793531393040462",
+      "source": "Meituan",
+      "unconfirmed": false,
+      "whyItMatters": "1.6TパラメータのマルチモーダルモデルがMITライセンスで重み公開され、オープン陣営の選択肢が広がる。"
+    },
+    {
+      "headline": "ONESTRUCTIONの建設特化日本語AIモデル「Ishigaki-AEC」、GENIAC-PRIZE応募者向けにAPI提供",
+      "summary": "さくらインターネットのGPUクラウド上で動き、OpenAI互換形式のAPIで提供されます。オープンウェイト版のIshigaki-AEC-9BはCC BY 4.0で公開されています。建設基準などをもとにした981問の独自ベンチマークでは、正答率がベースモデルの43.32%から56.07%に上がりました。",
+      "url": "https://built.itmedia.co.jp/bt/articles/2611/09/news042.html",
+      "source": "BUILT（ITmedia）",
+      "unconfirmed": false,
+      "whyItMatters": "建設特化の日本語AIモデルがGENIAC-PRIZE向けにAPI提供され、国内建設×AIの実用が進む。"
+    },
+    {
+      "headline": "高市首相、フランス主催の「AIセキュリティ」会合に参加",
+      "summary": "高市早苗首相がフランス政府主催の「AIセキュリティ」会合にオンライン参加。フロンティアAIの機会と、サイバー攻撃への悪用や制御の喪失といった安全保障上の課題を挙げ国際連携の必要性を表明した。広島AIプロセスの実効性ある活用の促進、AI法を含む関連制度の見直し、AIセーフティ・インスティテュートの知見を活かした各国との協力についても述べた。",
+      "url": "https://x.com/takaichi_sanae/status/2119806610000195605",
+      "source": "高市早苗",
+      "unconfirmed": false,
+      "whyItMatters": "首相がAIセキュリティの国際会合に参加し、広島AIプロセスの実効化やAI法見直しなど日本の立場を示した。"
+    }
+  ],
+  "sections": {
+    "エージェント": [
+      {
+        "headline": "Claude Codeスキルreanimate、Webアニメを自作コードに逆変換",
+        "summary": "Webアニメーションを自分のコードに逆変換する無料のClaude Codeスキルreanimateが紹介された。元の動きを録画して手元のスタックで再構築し、コピー側も録画して比較する流れとされる。スクリーンショットから一度推測して終わるAgentの弱点を、反復検証で補う設計として参考になる。",
+        "url": "https://x.com/dr_cintas/status/2119555538144911525",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Claude Code v2.1.321を公開、Fable 5.2が既定のFableモデルに",
+        "summary": "claude-fable-5-2を追加して既定のFableモデルにしたほか、claude remote-controlが--settingsに対応しました。MCP OAuthのリダイレクト時の秘密情報漏えいや、Bashの権限チェックをすり抜ける問題など、セキュリティ修正も複数含まれています。",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "source": "GitHub (anthropics/claude-code)",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Claude Fable 5.2がClaude in Microsoft Foundryで利用可能に",
+        "summary": "Anthropicのリリースノートによると、Fable 5.2はClaude in Microsoft Foundryでも提供されます。移行ガイドでは、Anthropicがホストする高速モードはclaude-fable-5-2-fastという別デプロイとして扱われるとしています。Microsoft側の公式発表は確認できていません。",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview",
+        "source": "Claude Platform Docs",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Anthropic、Fable 5.2公開で長期契約者に上限リセット付与",
+        "summary": "AnthropicがFable 5.2の公開に合わせ、契約期間が長いほど多くの利用上限リセットを付与すると発表。Ultra・Team Premiumは契約6か月未満で1回、6〜12か月で2回、12か月超で3回付与され、3月8日まで使える。Pro・Team Standardも週上限の半分までFable 5.2を1週間試せ、リセットが1回付与される。",
+        "url": "https://x.com/ClaudeDevs/status/2119868704544711108",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Google、AI AgentをK8sで10倍高密度に動かす技術をCNCFに寄贈",
+        "summary": "GoogleがAgent SubstrateとgVisorをオープンソースとしてCNCFに寄贈すると発表したとPublickeyが報じている。KubernetesでAI Agentを10倍高密度に実行できるようにする技術とされ、Agentを大量に安全に動かす基盤がオープン化されることで、自前のAgent実行環境づくりの選択肢が広がる。",
+        "url": "https://x.com/publickey/status/2119799176125157596",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Codex、複数のローカルコンピューターを接続しタスク実行先を選べる機能を案内",
+        "summary": "OpenAI Developersが、同じプロジェクトに複数のローカルコンピューターを接続し、タスクごとに使用するマシンを選択できる機能を紹介。ラップトップでコーディングを続けている間に、専用マシンでアプリのビルドやテストを実行できる。",
+        "url": "https://x.com/OpenAIDevs/status/2119883176726409645",
+        "source": "OpenAI",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Google AI Studio、Google Maps Platformを活用した構築に対応",
+        "summary": "Google AI StudioでGoogle Maps Platformを活用したアプリ構築が可能になった。地図を活用したアイデアからアプリまでを数分で実現できるとし、新機能として1クリックでの連携などを案内している。",
+        "url": "https://x.com/GoogleAIStudio/status/2119837788937896234",
+        "source": "Google",
+        "unconfirmed": false
+      }
+    ],
+    "モデル": [
+      {
+        "headline": "DeepSeek-V4とERNIE 5.5 Flash、4本の残差ストリームをSinkhornで混合",
+        "summary": "DeepSeek-V4とBaiduのERNIE 5.5 Flashが、共通の残差接続の拡張を採用していると解説されている。いずれも4本の残差ストリームを20回のSinkhorn反復で混合する構成とされる。通常のx+F(x)から始めて残差接続の進化をたどるスレッドで、最新アーキテクチャを理解する手がかりになる。",
+        "url": "https://x.com/RobertTLange/status/2119682419590672660",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "PFN、金融特化PLaMo 3.0 Finの8Bをオープンウェイト公開",
+        "summary": "Preferred Networksが金融特化型の小規模言語モデルPLaMo 3.0 Finをオープンウェイトで公開した。クラウド閉域やオンプレミスでの利用を想定し、Reasoningなどの指示追従学習は自社AI半導体MN-Core 2で行ったとしている。日本語でreasoningしツール呼び出しもできる8Bモデル。",
+        "url": "https://x.com/PreferredNetJP/status/2119626231952064544",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Claude APIのリリースノートに5.2モデル対応の仕様変更が追加",
+        "summary": "Fable 5.2とMythos 5.2はコンテキスト1Mトークン、最大出力128kトークンで、思考（adaptive thinking）が常に有効です。5.2モデルではcomputer_toolset_20260801が必須になり、30日間のデータ保持が求められます。高速モード（speed: \"fast\"、入力16ドル／出力80ドル）も追加されました。",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview",
+        "source": "Claude Platform Docs",
+        "unconfirmed": false
+      },
+      {
+        "headline": "AirCaps、話者付き文字起こしでVoiceArena首位",
+        "summary": "AirCapsが、話者ごとに発言を割り当てる文字起こしモデルA5S Async v1を公開した。VoiceArenaで1位とされ、次点モデルは5つの公開ベンチマークで41%多く誤るとしている。評価コードやデータセットのレシピ、生のAPI応答まで公開しており、1時間の音声を9.8秒・$0.18で処理できるとされる。",
+        "url": "https://x.com/tryaircaps/status/2119854303796216025",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Nace AIのDrex Max v1.1、AA Decision Indexで1位",
+        "summary": "Nace AIのマルチモーダル決定モデルDrex Max v1.1がArtificial AnalysisのDecision Indexでスコア73を記録し1位になった。テキスト・画像・動画にまたがる選択を262kコンテキストで扱い、Kapitsa経由でMacでも動くとされる。オープンウェイト化も予定されている。",
+        "url": "https://x.com/NaceAI/status/2119792132558819447",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "ByteDance、画像生成モデル「Seedream 5.5」を発表",
+        "summary": "ByteDance Seedが画像生成モデルSeedream 5.5を紹介。よりリアルな画像と、100回の編集を重ねても安定した編集が特徴で、未編集領域のピクセルレベルの保持と詳細の損失低減、ネイティブRGBA出力による透明・半透明アセットの生成、より自然なライティングやマテリアル、肌の質感、小さなテキストのレンダリング大幅向上をうたう。Dreamina、CapCut、BytePlusに登場する。",
+        "url": "https://x.com/ByteDanceSeed_/status/2119720475068920181",
+        "source": "ByteDance",
+        "unconfirmed": false
+      }
+    ],
+    "論文・ベンチマーク": [
+      {
+        "headline": "Berkeley、CoRL 2026でVLAの実時間推論や実機RLを発表",
+        "summary": "Sergey Levine氏のグループが、CoRL 2026でVLA関連の研究を複数発表すると告知した。エッジとリモート推論を組み合わせOmniVLAを実時間で動かすAsyncVLAや、実機RLでVLAを適応させるRLT、VLMのヒントを拡散VLAに渡すFlow Reversal Steeringが含まれる。",
+        "url": "https://x.com/svlevine/status/2119657381340778539",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Anthropic、Fable 5.2の研究成果を公表（理論物理学の未解決問題を解決）",
+        "summary": "Anthropicがリリース前テストでのFable 5.2／Mythos 5.2の成果を公表。理論物理学の未解決問題2件の解決（23年間未解決だった計算の完了など）、最適化問題ライブラリMIPLIBの未解決203件中72件で既知の解を更新、1000体のエージェントによるフェルマーの最終定理の形式化（30時間）、タンパク質カプシド構造の予測などを挙げている。",
+        "url": "https://x.com/claudeai/status/2119899459761131615",
+        "source": "Anthropic",
+        "unconfirmed": false
+      }
+    ],
+    "建設×AI": [
+      {
+        "headline": "錢高組が「Kencopa工程AIエージェント」の製品利用を開始",
+        "summary": "設計図書をアップロードすると、自社の歩掛を学習したAIが工程案を自動で作ります。全国6拠点・25の建築現場に展開し、省人化と技術継承の両立を狙います。",
+        "url": "https://ascii.jp/elem/000/004/449/4449601/",
+        "source": "ASCII STARTUP（KENCOPA発表）",
+        "unconfirmed": false
+      }
+    ],
+    "政策・政府": [],
+    "ビジネス・人材": [],
+    "生成AI・その他": [
+      {
+        "headline": "Grok Bot、不満受け利用上限やルーティングを改善へ",
+        "summary": "Grok Botの使い勝手に不満が出る中、Elon Musk氏が開発チームとレビューを行い、一晩で修正を入れると表明。Grok Bot側も利用上限とモデルルーティングへの意見を受け、ハーネスなどを今後数週間で改善としている。コーディング時にCursor Cloud Agentを強制されるとの報告もあり、安いモデルへのルーティングで品質が落ちないか注視されている。",
+        "url": "https://x.com/elonmusk/status/2119617455102333206",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "HFの140万件ピクセルアートデータセット、ミリ秒検索可能に",
+        "summary": "Hugging Faceで公開された140万件のピクセルアートスプライトを検索できるツールが公開された。データセットは16×16でキャプション付き、自由に利用できるとされる。スクロールでは見切れない規模のデータをすぐ探せるため、画像生成の学習や実験の素材探しに役立つ。",
+        "url": "https://x.com/calebfahlgren/status/2119586191892680738",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "推論基盤Fireworks、数週間で2度目のハッキング被害",
+        "summary": "推論プロバイダのFireworksが、数週間で2度目となるハッキング被害をHarveyなどの顧客に通知した。請求情報に加え、顧客のモデル重みやデータセットが約1か月にわたりアクセスされたとされる。年換算売上$1Bで評価額$30B超の調達を控える中、一部顧客は他基盤への移行を検討していると報じられている。",
+        "url": "https://x.com/theinformation/status/2119890301544288288",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Google、第8世代TPUに「TPU 8i Max」と「TPU 8tx」を追加",
+        "summary": "Googleがエージェント時代向けに構築した2つの新システムで第8世代TPUポートフォリオを拡大。TPU 8i Maxは巨大なコンテキストウィンドウとラックあたり最高のコンピュート密度向け、TPU 8txはセキュアで機密性の高い推論向けに最適化されている。",
+        "url": "https://x.com/Google/status/2119788086490001906",
+        "source": "Google",
+        "unconfirmed": false
+      },
+      {
+        "headline": "OpenAI、研究インフラのワークロード監視システム「Control Room」を公表",
+        "summary": "OpenAIが、研究インフラ全体のモデルのワークロードを追跡し、安全・セキュリティ上の懸念が生じた際に迅速に停止できる中央システム「Control Room」を構築したと公表。すべての研究推論を接続し、安全管理の仕組みとして紹介している。",
+        "url": "https://x.com/OpenAI/status/2119913172039868579",
+        "source": "OpenAI",
+        "unconfirmed": false
+      }
+    ]
+  },
+  "unconfirmed": [
+    {
+      "headline": "Google未発表のGemini Krypton、比較テストに登場",
+      "summary": "Googleの未発表モデルGemini Kryptonの初期チェックポイントが、CarbonやArgonとの比較テストで報告された。同じプロンプトで約2倍の時間をかけ2倍のコードを書くとされ、大型モデルではないかとの見方が出ている。Gemini 4 Carbonは11月10日前後に一般公開されるとの予想もある。未確認情報。",
+      "url": "https://x.com/chetaslua/status/2119674579711087021",
+      "source": "ML_Bear Times",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Nvidia取締役会、Huang氏の件で安保上の漏洩なしと表明【続報】",
+      "summary": "Nvidia取締役会は国家安全保障や社の機密が損なわれたと考える理由はないと表明し、独立調査を継続中。Trump大統領はHuang氏の続投を支持し、中国国営紙はスパイ疑惑を捏造だと否定した。民主党が議会で中国向けGPU販売を追及する時が正念場とされる。報道ベースで未確認。",
+      "url": "https://x.com/GavinSBaker/status/2119591047126982933",
+      "source": "ML_Bear Times",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Sakana AIが上場準備、モバイルアプリのβテスターも募集",
+      "summary": "日経が、Sakana AIが上場準備に入ったと報じ、国内スタートアップで最大級、生成AI専業として初とされる。同社は開発中のSakana AI App（仮）のβテスターを募集しており、日本在住者が対象。報道ベースで未確認。",
+      "url": "https://x.com/nikkei/status/2119702324813656252",
+      "source": "ML_Bear Times",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Terafab、2032年以降に月100万枚のウェハー生産を計画【続報】",
+      "summary": "日経によると、TeslaとSpaceXの半導体工場Terafabが装置サプライヤーに2032年以降の目標として月100万枚の生産能力を伝えた。うち70万枚をメモリ、30万枚をロジックに割り当てる計画で、DRAMとNANDを合わせても現在のMicronを上回る規模。メモリ技術は台湾企業との提携を協議中とされる。報道ベースで未確認。",
+      "url": "https://x.com/paurooteri/status/2119568361692832229",
+      "source": "ML_Bear Times",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Trump大統領、AI企業トップを司法省が投獄で脅したと発言",
+      "summary": "Trump大統領が、政権が大手AI企業のトップを投獄すると脅し、方針を変えさせたと明かした。企業名や人物は明かしていないが、司法省が「オレンジ色は好きか」と迫ったとされ、対象はDario Amodei氏ではないかと推測する声が出ている。未確認情報。",
+      "url": "https://x.com/kimmonismus/status/2119679005167374377",
+      "source": "ML_Bear Times",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Anthropic、火曜にもIPO営業開始、上場は来週後半か",
+      "summary": "AnthropicのIPO計画に関する続報。WSJによると早ければ火曜日から投資家向けの正式なマーケティングを始め、上場は来週木曜か金曜になる見通し。市場の急落を受け、当初の想定より低い評価額での上場を目指すとされる。S-1では2025年に売上$1あたり$1.60を計算資源に使い、2026年9月までに売上比57%へ下がったことが示されている。",
+      "url": "https://x.com/business/status/2119895315482312767",
+      "source": "ML_Bear Times",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Nvidia株が7%超下落、下院委員会がHuang氏を召喚",
+      "summary": "Jensen Huang CEOの不倫と諜報工作疑惑に関する続報。取締役会の調査開始を受け、Nvidia株は月曜の取引開始直後に7%超下落した。FTは疑惑の女性が中国の投資家にGPU調達力やAlibabaとの関係を売り込んでいたと独自に報じ、米下院3委員会の幹部がHuang氏を非公開説明に召喚した。中国外務省は疑惑を根拠がないと否定している。",
+      "url": "https://x.com/FT/status/2119801938711646600",
+      "source": "ML_Bear Times",
+      "unconfirmed": true
+    }
+  ]
+}
