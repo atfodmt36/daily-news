@@ -6,7 +6,7 @@
   "to": "2026-11-10T08:00:00+09:00"
  },
  "source": "x-likes",
- "itemCount": 7,
+ "itemCount": 8,
  "items": [
   {
    "headline": "Anthropic、Claude Fable 5.2とMythos 5.2を発表",
@@ -77,6 +77,16 @@
    "unconfirmed": false,
    "collected_at": "2026-11-10T08:02:09+09:00",
    "x_url": "https://x.com/takaichi_sanae/status/2119806610000195605"
+  },
+  {
+   "headline": "ByteDance、画像生成モデル「Seedream 5.5」を発表",
+   "summary": "ByteDance Seedが画像生成モデルSeedream 5.5を紹介。よりリアルな画像と、100回の編集を重ねても安定した編集が特徴で、未編集領域のピクセルレベルの保持と詳細の損失低減、ネイティブRGBA出力による透明・半透明アセットの生成、より自然なライティングやマテリアル、肌の質感、小さなテキストのレンダリング大幅向上をうたう。Dreamina、CapCut、BytePlusに登場する。",
+   "url": "https://x.com/ByteDanceSeed_/status/2119720475068920181",
+   "source": "ByteDance",
+   "topic": "モデル",
+   "unconfirmed": false,
+   "collected_at": "2026-11-10T08:16:34+09:00",
+   "x_url": "https://x.com/ByteDanceSeed_/status/2119720475068920181"
   }
  ]
 }
