@@ -1,0 +1,120 @@
+{
+  "date": "2026/11/10",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-09T08:00:00+09:00",
+    "to": "2026-11-10T08:00:00+09:00"
+  },
+  "source": "mail-4ml",
+  "itemCount": 12,
+  "items": [
+    {
+      "headline": "Nvidia取締役会、Huang氏の件で安保上の漏洩なしと表明【続報】",
+      "summary": "Nvidia取締役会は国家安全保障や社の機密が損なわれたと考える理由はないと表明し、独立調査を継続中。Trump大統領はHuang氏の続投を支持し、中国国営紙はスパイ疑惑を捏造だと否定した。民主党が議会で中国向けGPU販売を追及する時が正念場とされる。報道ベースで未確認。",
+      "url": "https://x.com/GavinSBaker/status/2119591047126982933",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-09T19:33:00+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Terafab、2032年以降に月100万枚のウェハー生産を計画【続報】",
+      "summary": "日経によると、TeslaとSpaceXの半導体工場Terafabが装置サプライヤーに2032年以降の目標として月100万枚の生産能力を伝えた。うち70万枚をメモリ、30万枚をロジックに割り当てる計画で、DRAMとNANDを合わせても現在のMicronを上回る規模。メモリ技術は台湾企業との提携を協議中とされる。報道ベースで未確認。",
+      "url": "https://x.com/paurooteri/status/2119568361692832229",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-09T19:33:00+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Grok Bot、不満受け利用上限やルーティングを改善へ",
+      "summary": "Grok Botの使い勝手に不満が出る中、Elon Musk氏が開発チームとレビューを行い、一晩で修正を入れると表明。Grok Bot側も利用上限とモデルルーティングへの意見を受け、ハーネスなどを今後数週間で改善としている。コーディング時にCursor Cloud Agentを強制されるとの報告もあり、安いモデルへのルーティングで品質が落ちないか注視されている。",
+      "url": "https://x.com/elonmusk/status/2119617455102333206",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-09T19:33:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Google未発表のGemini Krypton、比較テストに登場",
+      "summary": "Googleの未発表モデルGemini Kryptonの初期チェックポイントが、CarbonやArgonとの比較テストで報告された。同じプロンプトで約2倍の時間をかけ2倍のコードを書くとされ、大型モデルではないかとの見方が出ている。Gemini 4 Carbonは11月10日前後に一般公開されるとの予想もある。未確認情報。",
+      "url": "https://x.com/chetaslua/status/2119674579711087021",
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "collected_at": "2026-11-09T19:33:00+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Trump大統領、AI企業トップを司法省が投獄で脅したと発言",
+      "summary": "Trump大統領が、政権が大手AI企業のトップを投獄すると脅し、方針を変えさせたと明かした。企業名や人物は明かしていないが、司法省が「オレンジ色は好きか」と迫ったとされ、対象はDario Amodei氏ではないかと推測する声が出ている。未確認情報。",
+      "url": "https://x.com/kimmonismus/status/2119679005167374377",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-09T19:33:00+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "PFN、金融特化PLaMo 3.0 Finの8Bをオープンウェイト公開",
+      "summary": "Preferred Networksが金融特化型の小規模言語モデルPLaMo 3.0 Finをオープンウェイトで公開した。クラウド閉域やオンプレミスでの利用を想定し、Reasoningなどの指示追従学習は自社AI半導体MN-Core 2で行ったとしている。日本語でreasoningしツール呼び出しもできる8Bモデル。",
+      "url": "https://x.com/PreferredNetJP/status/2119626231952064544",
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "collected_at": "2026-11-09T19:33:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Berkeley、CoRL 2026でVLAの実時間推論や実機RLを発表",
+      "summary": "Sergey Levine氏のグループが、CoRL 2026でVLA関連の研究を複数発表すると告知した。エッジとリモート推論を組み合わせOmniVLAを実時間で動かすAsyncVLAや、実機RLでVLAを適応させるRLT、VLMのヒントを拡散VLAに渡すFlow Reversal Steeringが含まれる。",
+      "url": "https://x.com/svlevine/status/2119657381340778539",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-09T19:33:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Sakana AIが上場準備、モバイルアプリのβテスターも募集",
+      "summary": "日経が、Sakana AIが上場準備に入ったと報じ、国内スタートアップで最大級、生成AI専業として初とされる。同社は開発中のSakana AI App（仮）のβテスターを募集しており、日本在住者が対象。報道ベースで未確認。",
+      "url": "https://x.com/nikkei/status/2119702324813656252",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-09T19:33:00+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Claude Codeの承認設定、GitHubで秘密情報2,500件超を露出",
+      "summary": "Claude Codeでコマンド承認時に「今後確認しない」設定を選ぶと、入力したDBパスワードやAWSキーなどが平文で設定ファイルに残る問題が話題になっている。GitHub上で2,500件以上が公開されていたとされる。未確認情報。",
+      "url": "https://x.com/oikon48/status/2119631876705210675",
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "collected_at": "2026-11-09T19:33:00+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "DeepSeek-V4とERNIE 5.5 Flash、4本の残差ストリームをSinkhornで混合",
+      "summary": "DeepSeek-V4とBaiduのERNIE 5.5 Flashが、共通の残差接続の拡張を採用していると解説されている。いずれも4本の残差ストリームを20回のSinkhorn反復で混合する構成とされる。通常のx+F(x)から始めて残差接続の進化をたどるスレッドで、最新アーキテクチャを理解する手がかりになる。",
+      "url": "https://x.com/RobertTLange/status/2119682419590672660",
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "collected_at": "2026-11-09T19:33:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "HFの140万件ピクセルアートデータセット、ミリ秒検索可能に",
+      "summary": "Hugging Faceで公開された140万件のピクセルアートスプライトを検索できるツールが公開された。データセットは16×16でキャプション付き、自由に利用できるとされる。スクロールでは見切れない規模のデータをすぐ探せるため、画像生成の学習や実験の素材探しに役立つ。",
+      "url": "https://x.com/calebfahlgren/status/2119586191892680738",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-09T19:33:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Claude Codeスキルreanimate、Webアニメを自作コードに逆変換",
+      "summary": "Webアニメーションを自分のコードに逆変換する無料のClaude Codeスキルreanimateが紹介された。元の動きを録画して手元のスタックで再構築し、コピー側も録画して比較する流れとされる。スクリーンショットから一度推測して終わるAgentの弱点を、反復検証で補う設計として参考になる。",
+      "url": "https://x.com/dr_cintas/status/2119555538144911525",
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "collected_at": "2026-11-09T19:33:00+09:00",
+      "unconfirmed": false
+    }
+  ]
+}
