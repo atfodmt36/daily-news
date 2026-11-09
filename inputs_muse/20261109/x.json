@@ -6,7 +6,7 @@
     "to": "2026-11-09T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 4,
+  "itemCount": 24,
   "items": [
     {
       "headline": "169Pi、ローカル推論向け9Bマルチモーダルモデル「Alpie Seed 9B」を公開",
@@ -47,6 +47,206 @@
       "collected_at": "2026-11-08T15:25:00+09:00",
       "unconfirmed": false,
       "x_url": "https://x.com/Brows_ing/status/2119253265909207367"
+    },
+    {
+      "headline": "Anthropic、発電機1.7GW分を約$3.4Bで確保か（FT報道）",
+      "summary": "FTによると、Anthropicは米OnePWRの1.7GW分のガス発電機の発注枠を約34億ドルで引き継いだ。AIラボによる発電設備の単独購入としては過去最大規模とされる。AnthropicとOnePWRはコメントしておらず、未確認。",
+      "url": "https://x.com/BlueCrewViking/status/2119386919083851886",
+      "source": "CNBC",
+      "topic": "ビジネス・人材",
+      "unconfirmed": true,
+      "x_url": "https://x.com/BlueCrewViking/status/2119386919083851886",
+      "collected_at": "2026-11-09T07:37:05+09:00"
+    },
+    {
+      "headline": "Claude、米で個人向け家計管理ベータを開始",
+      "summary": "Anthropicは11月5日、Claudeに銀行口座をPlaid経由で読み取り専用で接続し、残高や支出を尋ねられる「Personal Finance」をベータ公開した。米国のPro／Max／Ultraプランから順次提供。送金や投資はできない。",
+      "url": "https://x.com/AlternativeTo/status/2119528640878969149",
+      "source": "Anthropic",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "x_url": "https://x.com/AlternativeTo/status/2119528640878969149",
+      "collected_at": "2026-11-09T07:37:05+09:00"
+    },
+    {
+      "headline": "Claude Codeの「Don't ask again」、承認コマンド経由で秘密情報がGitHubに流出（Apiiro調査）",
+      "summary": "Apiiroの調査（11月5日公表）によると、Claude Codeで「Yes, and don't ask again」を選ぶと承認したコマンドが秘密情報を含んだまま.settings.local.jsonに保存され、公開リポジトリ上の同ファイル104,185件のうち1,122件に実際の秘密情報が含まれていた。履歴等を含めると2,539件の秘密情報が1,994リポジトリで確認された。",
+      "url": "https://x.com/Daily_CyberSec/status/2119450277229056254",
+      "source": "Apiiro",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "x_url": "https://x.com/Daily_CyberSec/status/2119450277229056254",
+      "collected_at": "2026-11-09T07:37:05+09:00"
+    },
+    {
+      "headline": "METR、Anthropicのモデル改善速度は約2倍に加速と評価",
+      "summary": "独立評価機関METRは、Anthropic社内で11週間の調査を行い、同社のモデルが明確な正解のあるタスクで2024年3月〜2025年10月の約2倍の速度で改善していると評価した。加速の約8割はAIによる研究支援によると推定。報告書は11月5日公表。",
+      "url": "https://x.com/dnzxlyfe/status/2119466578324631586",
+      "source": "METR",
+      "topic": "論文・ベンチマーク",
+      "unconfirmed": false,
+      "x_url": "https://x.com/dnzxlyfe/status/2119466578324631586",
+      "collected_at": "2026-11-09T07:37:05+09:00"
+    },
+    {
+      "headline": "Revolut、自社ホストのGLMでAIコーディング費用を約90%削減と報告",
+      "summary": "Revolutは、約2,000人のエンジニア向けにZ.aiのオープンウェイトGLMを自社GPU（Nvidia B200×56基）で運用し、AIコーディングの推論コストを約90%削減、トークン単価は約$0.30／100万トークンになったと報告した。コーディング時間60%改善、リードタイム70%改善も自社計測値として挙げている（The Register 11月3日報道）。",
+      "url": "https://x.com/batran7770/status/2119427029804167256",
+      "source": "The Register",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "x_url": "https://x.com/batran7770/status/2119427029804167256",
+      "collected_at": "2026-11-09T07:37:05+09:00"
+    },
+    {
+      "headline": "Vals AIのサイバー攻撃ベンチマーク、DeepSeek V4.1 FlashがGPT-6 Solに8ポイント差まで接近",
+      "summary": "Vals AIのCyberOffenseベンチマーク（11月6日公表）で、OpenAIの制限付きモデルGPT-6 Sol Daybreakは攻撃目標の80.8%を達成したのに対し、オープンウェイトのDeepSeek V4.1 Flashは72.8%に達した。1回あたりのコストは3ドル未満に対し約22ドル。模擬ネットワークでの計測。",
+      "url": "https://x.com/justelite/status/2119388623544152223",
+      "source": "Vals AI",
+      "topic": "論文・ベンチマーク",
+      "unconfirmed": false,
+      "x_url": "https://x.com/justelite/status/2119388623544152223",
+      "collected_at": "2026-11-09T07:37:05+09:00"
+    },
+    {
+      "headline": "Cognition、高速コーディングモデル「SWE-2 Flash」を発表",
+      "summary": "Cognitionは11月4日、Thinking MachinesのInkling-Small（276B、アクティブ12B）を基にしたコーディングモデル「SWE-2 Flash」を発表した。SWE-2の3倍の速度・5分の1のコストをうたい、Terminal-Bench 4.0は0.9%から20.0%、ExploitBenchは11.3%から34.8%に向上したとしている（自社評価）。重みはサイバーリスクを理由に非公開で、Devin内で11月30日まで無料提供。",
+      "url": "https://x.com/OCEANVIN10/status/2119460502203969718",
+      "source": "Cognition",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "x_url": "https://x.com/OCEANVIN10/status/2119460502203969718",
+      "collected_at": "2026-11-09T07:37:05+09:00"
+    },
+    {
+      "headline": "GPT Image 2.6、Artificial Analysisの画像生成・編集で1・2位",
+      "summary": "OpenAIのGPT Image 2.6がArtificial Analysisの画像生成・編集リーダーボードで上位を占めた。Sunburstがテキスト→画像で1位（Elo 1259）、Flareが2〜3位。Flareは低画質で約6秒の高速生成、Sunburstは高精細・編集の一貫性をうたう。",
+      "url": "https://x.com/sandor_bal6746/status/2119464465821229153",
+      "source": "Artificial Analysis",
+      "topic": "論文・ベンチマーク",
+      "unconfirmed": false,
+      "x_url": "https://x.com/sandor_bal6746/status/2119464465821229153",
+      "collected_at": "2026-11-09T07:37:05+09:00"
+    },
+    {
+      "headline": "Sarvam AI、判断特化モデル「Prism」をオープンウェイト公開",
+      "summary": "インドのSarvam AIは11月3日、Sarvam 105Bを基にした判断特化モデル「Prism」をApache 2.0で公開した。文章を生成せず選択肢から選ぶ方式で、3指標の平均71.8、B200 GPUで中央値44ミリ秒の応答をうたう（自社評価）。",
+      "url": "https://x.com/TheCEO_Magazine/status/2119377388731552120",
+      "source": "Sarvam AI",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "x_url": "https://x.com/TheCEO_Magazine/status/2119377388731552120",
+      "collected_at": "2026-11-09T07:37:05+09:00"
+    },
+    {
+      "headline": "Amwins、Claudeを約8,000人に展開",
+      "summary": "保険ブローカーのAmwinsがClaudeを約8,000人の従業員へ展開していると報じられた。企業での大規模なAI導入事例。詳細は二次情報のため未確認。",
+      "url": "https://x.com/AI_SmartHub/status/2119535435697279096",
+      "source": "Amwins",
+      "topic": "ビジネス・人材",
+      "unconfirmed": true,
+      "x_url": "https://x.com/AI_SmartHub/status/2119535435697279096",
+      "collected_at": "2026-11-09T07:37:05+09:00"
+    },
+    {
+      "headline": "建設業界調査、AIで46%がチーム体制を変更・38%が再教育",
+      "summary": "建設業界の調査によると、AIの導入で回答者の46%がチーム体制を変更し、38%が従業員を再教育したとされる。建設チームの再編が進んでいる実態を示す数字として、Construction Diveが紹介した。",
+      "url": "https://x.com/CMAA_HQ/status/2119512827379532121",
+      "source": "CMAA／Construction Dive",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "x_url": "https://x.com/CMAA_HQ/status/2119512827379532121",
+      "collected_at": "2026-11-09T07:37:05+09:00"
+    },
+    {
+      "headline": "英国、企業のAI導入率が32%に倍増（政府調査）",
+      "summary": "英国政府のAI導入調査2026によると、企業のAI導入率は32%と前回から倍増した。導入の広がりを示す公式調査結果。",
+      "url": "https://x.com/efibion/status/2119346687890051378",
+      "source": "英政府 AI Adoption Survey 2026",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "x_url": "https://x.com/efibion/status/2119346687890051378",
+      "collected_at": "2026-11-09T07:37:05+09:00"
+    },
+    {
+      "headline": "中小企業のAI導入率は20.4%、壁は「事例不足」83.3%（中小機構調査）",
+      "summary": "中小機構の実態調査によると、中小企業のAI導入率は20.4%。導入済み企業の82.6%が生成AIを利用し、業務効率化が最多の目的（87.0%）だった。一方「事例情報が不足」は83.3%に上り、活用事例の共有が課題となっている。",
+      "url": "https://x.com/SkillupAi/status/2119354255505346862",
+      "source": "中小機構",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "x_url": "https://x.com/SkillupAi/status/2119354255505346862",
+      "collected_at": "2026-11-09T07:37:05+09:00"
+    },
+    {
+      "headline": "デジタル庁、生成AI基盤「源内」にAIエージェント機能を追加",
+      "summary": "デジタル庁は、政府職員約18万人が利用する生成AI基盤「源内」に、複数の作業を自律的に進める「AIエージェント」機能（エージェントチャット）を搭載した。今週の注目投稿として再掲されたもの。",
+      "url": "https://x.com/dzd02664_2/status/2119407210157707269",
+      "source": "デジタル庁",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "x_url": "https://x.com/dzd02664_2/status/2119407210157707269",
+      "collected_at": "2026-11-09T07:37:05+09:00"
+    },
+    {
+      "headline": "NativeCAD 0.30「Kamu」公開、エージェント型CADへ",
+      "summary": "CADツールのNativeCADがバージョン0.30（コードネーム「Kamu」）を公開した。エージェント型AIによるUI／UXの刷新をうたう。建設×AIの製品アップデート。",
+      "url": "https://x.com/TurnUpTheVix/status/2119474568738058430",
+      "source": "NativeCAD",
+      "topic": "建設×AI",
+      "unconfirmed": false,
+      "x_url": "https://x.com/TurnUpTheVix/status/2119474568738058430",
+      "collected_at": "2026-11-09T07:37:05+09:00"
+    },
+    {
+      "headline": "オープンな3Dアニメーション生成「UniMate」、コード・データ・重みを公開",
+      "summary": "プリンストン大・UCバークレー・MIT・NTUによるSIGGRAPH Asia 2026のプロジェクト「UniMate」は、テキストプロンプトからリグ付き3Dモデルをアニメーション化するオープンソースの手法で、コード・データセット・モデルチェックポイントがすべて公開された。",
+      "url": "https://x.com/yoosuf_sayyid/status/2119429790772138270",
+      "source": "UniMate",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "x_url": "https://x.com/yoosuf_sayyid/status/2119429790772138270",
+      "collected_at": "2026-11-09T07:37:05+09:00"
+    },
+    {
+      "headline": "GitHub Copilot、Xcode組み込みアシスタントのパブリックプレビュー開始",
+      "summary": "GitHub CopilotがXcodeの組み込みコーディングアシスタントとしてパブリックプレビューに入った。Xcode 27.3ベータ以降とmacOS Tahoe 26.6以降が必要で、すべてのCopilotプランに対応する。",
+      "url": "https://x.com/nuguyadesk/status/2119414644339089459",
+      "source": "GitHub",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "x_url": "https://x.com/nuguyadesk/status/2119414644339089459",
+      "collected_at": "2026-11-09T07:37:05+09:00"
+    },
+    {
+      "headline": "Anthropic、エージェントの長期記憶「dreaming」を含む記憶の構成要素を解説",
+      "summary": "Anthropicは11月6日、エージェントの記憶に関する技術記事「The components of agent memory」を公開した。セッションをまたいで記憶を修正する仕組みや「dreaming」と呼ばれる処理など、Claudeの長期記憶の考え方を解説している。",
+      "url": "https://anthropic.com/research/components-of-agent-memory",
+      "source": "Anthropic",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "x_url": "https://x.com/charliejhills/status/2119418550360416262",
+      "collected_at": "2026-11-09T07:37:05+09:00"
+    },
+    {
+      "headline": "OpenAI、フロンティアモデルのミスアライメント検出手法を公開",
+      "summary": "OpenAIは、フロンティアモデルが意図と異なる行動を取っていないかを検出する手法についての記事を公開した。AIガバナンス・安全性に関する一次情報。",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment/",
+      "source": "OpenAI",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "x_url": "https://x.com/datalyst_ai/status/2119301389902061676",
+      "collected_at": "2026-11-09T07:37:05+09:00"
+    },
+    {
+      "headline": "Visaのベンチマーク、AIの買い物テストで42.8%が失敗",
+      "summary": "Visaのベンチマークによると、AIモデルは買い物テストの42.8%で失敗し、失敗したケースの54%ではそれでも購入を進めてしまった。エージェント型コマースの信頼性を測る数字として報じられた。二次情報のため未確認。",
+      "url": "https://x.com/thwinter/status/2119339412115066940",
+      "source": "Visa",
+      "topic": "論文・ベンチマーク",
+      "unconfirmed": true,
+      "x_url": "https://x.com/thwinter/status/2119339412115066940",
+      "collected_at": "2026-11-09T07:37:05+09:00"
     }
   ]
 }

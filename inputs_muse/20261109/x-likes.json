@@ -6,7 +6,7 @@
     "to": "2026-11-09T08:00:00+09:00"
   },
   "source": "x-likes",
-  "itemCount": 6,
+  "itemCount": 7,
   "items": [
     {
       "headline": "PFN、翻訳特化LLM「PLaMo 3 Translate」のモデル重みを公開",
@@ -67,6 +67,16 @@
       "collected_at": "2026-11-08T09:01:50+09:00",
       "unconfirmed": false,
       "x_url": "https://x.com/Sandflow_ai/status/2118269672500138062"
+    },
+    {
+      "headline": "Shizuku AI、全二重音声合成モデル「Shizuku-Duplex」を発表",
+      "summary": "Shizuku AIが、AIキャラクター向けの全二重音声合成モデル「Shizuku-Duplex」を発表した。自然な人間とAIの対話を想定したモデルとしている。",
+      "url": "https://x.com/ShizukuAILabs/status/2119266216040898635",
+      "source": "Shizuku AI",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "collected_at": "2026-11-09T07:37:05+09:00",
+      "x_url": "https://x.com/ShizukuAILabs/status/2119266216040898635"
     }
   ]
 }
