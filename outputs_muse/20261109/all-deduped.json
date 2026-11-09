@@ -1,0 +1,891 @@
+{
+  "date": "2026/11/09",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-08T08:00:00+09:00",
+    "to": "2026-11-09T08:00:00+09:00"
+  },
+  "itemCount": 55,
+  "items": [
+    {
+      "headline": "Anthropic、IPOで$80B〜$100B調達を計画か（FT報道）",
+      "summary": "FTによると、Anthropicは11月のIPOで評価額$1.25T〜$1.75T、調達額$80B〜$100Bを計画しているとされる。BloombergはこのIPOをAI業界の実力が問われる試金石と位置づけている。報道ベースで未確認。",
+      "url": "https://x.com/FT/status/2118813305665921070",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Claude Duet、スマホからClaude Codeセッションを操作可能に",
+      "summary": "Claude DuetがClaude Codeセッションに対応した。スマホから実行中の作業の確認、変更の承認、指示の送信ができ、手元のPCとクラウドのどちらのセッションにも対応する。",
+      "url": "https://x.com/davidsuttonca/status/2118785613436698719",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "section": "エージェント",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Claude Maxの利用量表示をめぐる訴訟、米判事が審理継続を認める",
+      "summary": "AnthropicのClaude Maxプランの利用量表示をめぐる訴訟について、米国の判事が審理の継続を認めた。原告は宣伝された5倍・20倍の倍率はセッション単位にしか適用されず、週間上限ははるかに低かったと主張している。",
+      "url": "https://x.com/kimmonismus/status/2119075902340612324",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Google、研究成果物の整備でコーディングAgentのML実験再現率が92.6%に向上と報告",
+      "summary": "Googleの論文によると、研究の成果物（コードや実験資産）を整えることで、コーディングAgentによるML実験の再現成功率が4モデル平均で76.4%から92.6%に上がり、APIコストも削減された。二次情報のため未確認扱い。",
+      "url": "https://x.com/omarsar0/status/2119085975880212842",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Karpathy氏、Claude Codeで動画サイト「TristanTube」を3分で構築",
+      "summary": "Andrej Karpathy氏が、他人のおすすめYouTubeチャンネル一覧をもとにした動画サイト「TristanTube」をClaude Codeで3分でワンショット生成したと公開。4.7万本のマニアックな動画とTVモードを備え、前作HackerTube（Opus 5.5で約2時間）から大幅に短縮された。",
+      "url": "https://x.com/karpathy/status/2119114537442189652",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "section": "エージェント",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "OpenAI、評価額$1.25Tで$11Bの調達を完了と報道",
+      "summary": "Bloombergによると、OpenAIは評価額$1.25Tで$11Bの新規調達を完了し、金曜時点で入金済みとされる。最大$20Bに達しうるラウンドの第1弾で、当初目標の$30B以上は下回る規模。報道ベースで未確認。",
+      "url": "https://x.com/TechCrunch/status/2118840618621211108",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Prior Labs、「TabPFN-3.5-Thinking」のcookbookを公開——銀行事例でXGBoost超え",
+      "summary": "Prior Labsが、学習時に追加計算を使って目的指標を高めるTabPFN-3.5-Thinkingのcookbookを公開した。20万人の銀行顧客を取引確率で順位付けする事例で、XGBoostよりキャンペーン価値が€28,900高い結果としている。対応規模も100万行級まで広がった。",
+      "url": "https://x.com/prior_labs/status/2118721942253625518",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Reflection、エージェント向けモデル「Beam」の156ページ技術報告書で学習レシピを公開",
+      "summary": "Reflectionのエージェント向けオープンウェイトモデルBeamについて、156ページの技術報告書が公開された。23.8Tトークン（13.7Tユニーク×1.73エポック）を6,144基のGB300で21.9日かけて学習し、最適化にはAdamWやMuonではなくAdamCを採用したことなど、詳細な学習レシピが明かされている。二次情報のため未確認扱い。",
+      "url": "https://x.com/RobertTLange/status/2119052293551128733",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "TSMC、3Dメモリ計画を元Micron幹部が主導か（The Information報道）",
+      "summary": "The Informationによると、TSMCがNVIDIAの要請で検討している3Dメモリ製造の計画を、先端パッケージング担当で元Micron幹部のHsu Kuo-chin副社長が主導している。HBMで提携するSK Hynixとの関係を複雑にする可能性が指摘されている。報道ベースで未確認。",
+      "url": "https://x.com/theinformation/status/2119052292267630791",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Xiaomi MiMo次世代は因果的エンコーダ・デコーダ「HySparse2」採用か（SemiAnalysis報道）",
+      "summary": "SemiAnalysisによると、Xiaomi MiMoの次世代モデルは因果的エンコーダ・デコーダ構造のHySparse2へ移行する。プロンプトは49層中25層のみを通り、1Mコンテキストで前世代比プリフィル計算が5分の1、KVキャッシュが4.5分の1と推論効率重視の設計。報道ベースで未確認。",
+      "url": "https://x.com/SemiAnalysis_/status/2119142144749293863",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "オープンモデル向けコーディングハーネス比較「Harness Leaderboard」が公開",
+      "summary": "オープンモデルをどのコーディングAgentハーネスで動かすべきかを比較するHarness Leaderboardが公開された。9種類のハーネスを対象にハーネスだけを変えて28,849回の試行を行い、同じモデルでもハーネス次第で結果が大きく変わることを示した。",
+      "url": "https://x.com/joelniklaus/status/2118373808692437403",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "重み直接編集「Weight-Space Programming」でQwenをずんだもん口調に変換",
+      "summary": "モデルの重みを直接編集する手法Weight-Space Programmingの実験が共有された。GPT-6 Astraを使い、Qwen3.5-0.8Bの重みのうち0.486%だけを編集することで、学習を行わずにずんだもん風の口調で話すモデルの作成に成功したとしている。",
+      "url": "https://x.com/nwnwnyo/status/2118871501562933712",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-08T07:43:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Decart、ライブ動画モデル「Lucy 2.6」を公開",
+      "summary": "Decartがライブ動画生成モデル「Lucy 2.6」を発表し、品質の大幅な向上をうたっている。",
+      "url": "https://x.com/DecartAI/status/2118397449978913075",
+      "otherUrls": [],
+      "source": "Decart",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x-likes"
+      ],
+      "collected_at": "2026-11-08T09:01:50+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Moonshot AI、「Kimi K3.1 Pro」のモデル重みを公開",
+      "summary": "Moonshot AIが「Kimi K3.1 Pro」のモデル重みをHugging Faceで公開した。",
+      "url": "https://x.com/Kimi_Moonshot/status/2118010528123773297",
+      "otherUrls": [],
+      "source": "Moonshot AI",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x-likes"
+      ],
+      "collected_at": "2026-11-08T09:01:50+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Nous Research、価値観評価つきの「Arete-27B」を発表",
+      "summary": "Nous ResearchがQwen系27Bモデルをポストトレーニングした「Arete-27B」を発表。803件のプロンプトからなる7カテゴリの価値観評価ベンチマークを構築したとしている。",
+      "url": "https://x.com/NousResearch/status/2118822925445050435",
+      "otherUrls": [],
+      "source": "Nous Research",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x-likes"
+      ],
+      "collected_at": "2026-11-08T09:01:50+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "PFN、翻訳特化LLM「PLaMo 3 Translate」のモデル重みを公開",
+      "summary": "Preferred Networksが翻訳特化LLM「PLaMo 3 Translate」を0.8B／2B／8B／31Bの4サイズのオープンウェイトで公開。海外の主要モデルを上回る翻訳品質をうたい、スマホや社内サーバーなどローカル環境でも利用できる。",
+      "url": "https://x.com/PreferredNetJP/status/2118132607116517500",
+      "otherUrls": [],
+      "source": "Preferred Networks",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x-likes"
+      ],
+      "collected_at": "2026-11-08T09:01:50+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Sandflow、コードで書かれた10万点超の3DオブジェクトライブラリをOSS公開",
+      "summary": "Sandflowが、CAD部品から関節機構まで10万点超の3Dオブジェクトをすべてコードとして記述したライブラリをオープンソース公開。寸法を変更すると形状が更新され、言語モデルが読み書きできる形式になっている。",
+      "url": "https://x.com/Sandflow_ai/status/2118269672500138062",
+      "otherUrls": [],
+      "source": "Sandflow",
+      "topic": "生成AI・その他",
+      "section": "建設×AI",
+      "collectedFrom": [
+        "x-likes"
+      ],
+      "collected_at": "2026-11-08T09:01:50+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Thinking Machines、小型モデル「Inkling 2 Small」を公開",
+      "summary": "Thinking Machinesが「Inkling 2 Small」を発表。AA Intelligence Indexで31を記録し前世代から大幅に向上したとしており、Tinker上でファインチューニングと推論が利用可能、フルウェイト公開も予定されている。",
+      "url": "https://x.com/thinkymachines/status/2118489527362912566",
+      "otherUrls": [],
+      "source": "Thinking Machines",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x-likes"
+      ],
+      "collected_at": "2026-11-08T09:01:50+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "169Pi、ローカル推論向け9Bマルチモーダルモデル「Alpie Seed 9B」を公開",
+      "summary": "169PiがQwen3.5-9Bをベースにした9Bパラメータのマルチモーダル推論モデル「Alpie Seed 9B」をApache 2.0で公開。SWE-Bench Verified 61.20%、GPQA Diamond 84.32%など自社評価のスコアを掲げ、262Kトークンのネイティブコンテキストと2〜4bit量子化でノートPCやスマホでのローカル推論をうたう。Hugging FaceとOllamaで利用可能。",
+      "url": "https://169pi.ai/research/alpie-seed-9b",
+      "otherUrls": [],
+      "source": "169Pi",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-08T13:54:37+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "VIDRAFT、推論特化のオープンウェイトモデル「Darwin-180B-RSI-R3」を公開",
+      "summary": "韓国スタートアップVIDRAFTが180BパラメータのMoEモデル「Darwin-180B-RSI-R3」の重みをHugging Faceで公開した。Qwen3.8-Flash-Nextを起点に再帰的自己改善を3回繰り返し、SuperCLUE 2026年11月の数学・科学推論で73.68を記録しオープンウェイトで1位としている（ベンダー報告値）。",
+      "url": "https://huggingface.co/VIDRAFT/Darwin-180B-RSI-R3",
+      "otherUrls": [],
+      "source": "VIDRAFT",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "web-search"
+      ],
+      "collected_at": "2026-11-08T13:54:37+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "エージェントの長期記憶を軽くする要約器「SumOne」、推論コストを約75%削減と報告",
+      "summary": "エージェントの長期対話履歴を要約で圧縮する手法「SumOne」の論文がarXivに公開された。マスク再構成による自己教師あり学習で要約器を訓練し、DeepSearchQAで推論コスト約78%、SWE-bench Verifiedで約75%の削減を報告している。",
+      "url": "https://arxiv.org/abs/2611.06445",
+      "otherUrls": [],
+      "source": "arXiv",
+      "topic": "生成AI・その他",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-08T13:54:37+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Vercel、DeepSeek V4.1 Flashの超高速版をAI Gatewayで提供開始",
+      "summary": "VercelがDeepSeek V4.1 Flash 1017 UltrafastをAI Gatewayで公開プレビューとして提供開始。Fireworksの加速エンドポイントで毎秒1000トークン超の生成、100万トークンのコンテキストに対応し、Claude CodeやCodex、Cursorから利用できる。モデル自体は10月17日版と同じ重み。",
+      "url": "https://vercel.com/changelog/deepseek-v4-1-flash-1017-ultrafast-now-available-on-ai-gateway",
+      "otherUrls": [],
+      "source": "Vercel",
+      "topic": "生成AI・その他",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-08T15:25:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "中国、ソフトバンクGのABBロボット事業買収を不許可——フィジカルAI戦略にブレーキ",
+      "summary": "中国当局がソフトバンクグループによるABBロボット事業の買収（54億ドル）を不許可とし、孫正義氏の「フィジカルAI」戦略に急ブレーキがかかった。ABBが発表した。買収は2026年半ばから後半の完了予定だった。",
+      "url": "https://news.yahoo.co.jp/articles/402995983767e669b655f1ebc99cfc49594ad881?source=sns&dv=pc&mid=other&date=20261108&ctg=bus&bt=tw_up",
+      "otherUrls": [],
+      "source": "Forbes JAPAN",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-08T15:25:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "AIでPRを自動マージした技術者の解雇めぐり議論",
+      "summary": "AIラボが非本番コードのレビューと自動マージをAI Agentに任せた技術者を解雇したとのブログ記事が議論を呼んでいる。AI生成コードを低品質とみなしPRに数週間かける姿勢は改めるべきとの声に対し、マージまでの中央値は数時間との反論も出ており、運用実態をめぐって見方が分かれている。",
+      "url": "https://x.com/Yuchenj_UW/status/2119294808208683273",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-09T07:34:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "AMD MI355、TileRTでGB300 NVL72の1.42倍の速度と報道",
+      "summary": "SemiAnalysisによると、AMD MI355がTileRTソフトウェアによりGB300 NVL72より1.42倍高速になった。長コンテキストのワークロードで、ユーザーあたりp90で1,330 tok/sを達成したとしている。報道ベースで未確認。",
+      "url": "https://x.com/SemiAnalysis_/status/2119518001150013823",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-09T07:34:00+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "ARC-AGI-2コンペ5位解法、DeepSeek V4.1 Flashを4×L4で稼働",
+      "summary": "KaggleのARC-AGI-2コンペで5位となった解法のwriteupが公開された。約552Bパラメータと約196BのEngramテーブルを持つDeepSeek V4.1 Flash 1017を、4×L4（VRAM 96GB）の競技環境に載せたとしている。限られたGPUでの大規模モデル推論の参考になる。",
+      "url": "https://x.com/ethylene_66/status/2119433967262953837",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-09T07:34:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Apple新CEO、Federighi氏にAI加速を要求か（Gurman報道）",
+      "summary": "BloombergのMark Gurman氏が、AppleのJohn Ternus CEOがCraig Federighi氏にAIロードマップの加速を迫ったと報道した。来年にもChatGPT DotsやMeta Muse、Grokに対抗する自律的なAgent型Siriを目指し、Computer Use能力の欠如も課題とされる。Siri責任者Mike Rockwell氏の退任検討や、iOS 28などの開発プロセス変更も伝えられている。",
+      "url": "https://x.com/markgurman/status/2119449283267371274",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-09T07:34:00+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "ChatGPTでGPT-6.2 Solとみられる新モデルへのルーティング報告",
+      "summary": "ChatGPTの一部ユーザーでGPT-6.1 Solが新モデルにルーティングされていると報告された。2026年6月のトニー賞司会（正解はP!nk）を検索なしで答えられるかで判別でき、新モデルはGPT-6.2 Solとみられる。1プロンプトで単一HTMLのThree.jsシーンを生成する出力例も共有され、来週の正式リリースを予想する声が出ている。",
+      "url": "https://x.com/kimmonismus/status/2119409780691284404",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-09T07:34:00+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "DeepMindのKohli氏、数週間内のAI for Science発表を示唆",
+      "summary": "Google DeepMindのPushmeet Kohli氏が、科学的発見のペースに本物の相転移が起きており、その一端は今後数週間のリリースで見られると投稿した。Metaの研究者も科学向けの取り組みを示唆しており、フロンティアラボ各社がAI for Scienceで競う構図が鮮明になっている。",
+      "url": "https://x.com/pushmeet/status/2119373171321196892",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-09T07:34:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "GPT-OSS-Swallow参照のSFT、llm-jp 8B thinkingの数学スコア超えと報告",
+      "summary": "国内の開発者が、GPT-OSS-Swallow-120B-RLを参照モデルにしたSFTの結果を共有した。llm-jp-4.1-8b-baseに2Bトークン弱のSFTを行うだけで、llm-jp-4.1-8b-thinkingの数学スコアを上回ったとしている。gpt-ossのreasoningはllm-jp系と相性がよいとされ、参照モデル選びが蒸留的SFTの効率を左右する例として参考になる。",
+      "url": "https://x.com/odashi_t/status/2119395272719843796",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-09T07:34:00+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Google、仕様駆動の開発プラグイン「Elephant-Goldfish」を公開",
+      "summary": "Googleが、コードを書く前に仕様を固めるためのオープンソースプラグインElephant-Goldfish Modelを公開した。深いコンテキストを持つAgentで仕様を起草し、コンテキストを持たないサブAgentで仕様をストレステストする構成で、設計判断と仕様の承認は人間が行う流れ。",
+      "url": "https://x.com/GoogleCloudTech/status/2119203243054023129",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "section": "エージェント",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-09T07:34:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Meta MuseのSpaces、Claude CodeやTailscaleから操作可能に",
+      "summary": "MetaのパーソナルAIエージェントMuseに追加されたSpaces機能の続報。Claude CodeからSpacesのアプリを書き換えデプロイまでできるとの検証が国内で共有され、Tailscale経由でSpacesのVMに入れ、/home/hatchの内容はリセット後も残るとされる。自動選定スタックはBun+TypeScript、React 19、SQLite+Drizzleで、家族向けアプリ基盤として評価されている。",
+      "url": "https://x.com/yugen_matuni/status/2119372161391689854",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "section": "エージェント",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-09T07:34:00+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Nvidia取締役会、Huang CEOへの諜報工作疑惑で独立調査を開始",
+      "summary": "Jensen Huang CEOが外国の諜報活動の標的になったとの報道を受け、Nvidia取締役会が独立調査を開始した。Huang氏は米情報機関が中国のスパイと判断した顧客企業幹部との不倫を認め社員向けメモで謝罪。CEOは当面続投するが、利益相反ポリシー違反の可能性が指摘され、中国向けH200の輸出許可が難しくなるとの声もある。",
+      "url": "https://x.com/nytimes/status/2119522888067801560",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-09T07:34:00+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "OpenAI、月額$50の「ChatGPT Pro 50」の需要を打診",
+      "summary": "OpenAIのTibo氏が月額$50のPro 50プランへの需要を問いかけ大きな反響を呼んだ。Pro全プランに5時間制限はなく、Plus比でPro 100が10倍、Pro 200が20倍、Pro 500が50倍（ultrafast付き）。Plusでは不十分だが$100は過剰という層に合う価格帯の隙間を埋める案として注目されている。",
+      "url": "https://x.com/thsottiaux/status/2119296267545419987",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-09T07:34:00+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Amwins、Claudeを約8,000人に展開",
+      "summary": "保険ブローカーのAmwinsがClaudeを約8,000人の従業員へ展開していると報じられた。企業での大規模なAI導入事例。詳細は二次情報のため未確認。",
+      "url": "https://x.com/AI_SmartHub/status/2119535435697279096",
+      "otherUrls": [],
+      "source": "Amwins",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-09T07:37:05+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Anthropic、エージェントの長期記憶「dreaming」を含む記憶の構成要素を解説",
+      "summary": "Anthropicは11月6日、エージェントの記憶に関する技術記事「The components of agent memory」を公開した。セッションをまたいで記憶を修正する仕組みや「dreaming」と呼ばれる処理など、Claudeの長期記憶の考え方を解説している。",
+      "url": "https://anthropic.com/research/components-of-agent-memory",
+      "otherUrls": [],
+      "source": "Anthropic",
+      "topic": "生成AI・その他",
+      "section": "エージェント",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-09T07:37:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Anthropic、発電機1.7GW分を約$3.4Bで確保か（FT報道）",
+      "summary": "FTによると、Anthropicは米OnePWRの1.7GW分のガス発電機の発注枠を約34億ドルで引き継いだ。AIラボによる発電設備の単独購入としては過去最大規模とされる。AnthropicとOnePWRはコメントしておらず、未確認。",
+      "url": "https://x.com/BlueCrewViking/status/2119386919083851886",
+      "otherUrls": [],
+      "source": "CNBC",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-09T07:37:05+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Claude Codeの「Don't ask again」、承認コマンド経由で秘密情報がGitHubに流出（Apiiro調査）",
+      "summary": "Apiiroの調査（11月5日公表）によると、Claude Codeで「Yes, and don't ask again」を選ぶと承認したコマンドが秘密情報を含んだまま.settings.local.jsonに保存され、公開リポジトリ上の同ファイル104,185件のうち1,122件に実際の秘密情報が含まれていた。履歴等を含めると2,539件の秘密情報が1,994リポジトリで確認された。",
+      "url": "https://x.com/Daily_CyberSec/status/2119450277229056254",
+      "otherUrls": [],
+      "source": "Apiiro",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-09T07:37:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Claude、米で個人向け家計管理ベータを開始",
+      "summary": "Anthropicは11月5日、Claudeに銀行口座をPlaid経由で読み取り専用で接続し、残高や支出を尋ねられる「Personal Finance」をベータ公開した。米国のPro／Max／Ultraプランから順次提供。送金や投資はできない。",
+      "url": "https://x.com/AlternativeTo/status/2119528640878969149",
+      "otherUrls": [],
+      "source": "Anthropic",
+      "topic": "生成AI・その他",
+      "section": "エージェント",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-09T07:37:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Cognition、高速コーディングモデル「SWE-2 Flash」を発表",
+      "summary": "Cognitionは11月4日、Thinking MachinesのInkling-Small（276B、アクティブ12B）を基にしたコーディングモデル「SWE-2 Flash」を発表した。SWE-2の3倍の速度・5分の1のコストをうたい、Terminal-Bench 4.0は0.9%から20.0%、ExploitBenchは11.3%から34.8%に向上したとしている（自社評価）。重みはサイバーリスクを理由に非公開で、Devin内で11月30日まで無料提供。",
+      "url": "https://x.com/OCEANVIN10/status/2119460502203969718",
+      "otherUrls": [],
+      "source": "Cognition",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-09T07:37:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "GPT Image 2.6、Artificial Analysisの画像生成・編集で1・2位",
+      "summary": "OpenAIのGPT Image 2.6がArtificial Analysisの画像生成・編集リーダーボードで上位を占めた。Sunburstがテキスト→画像で1位（Elo 1259）、Flareが2〜3位。Flareは低画質で約6秒の高速生成、Sunburstは高精細・編集の一貫性をうたう。",
+      "url": "https://x.com/sandor_bal6746/status/2119464465821229153",
+      "otherUrls": [],
+      "source": "Artificial Analysis",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-09T07:37:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "GitHub Copilot、Xcode組み込みアシスタントのパブリックプレビュー開始",
+      "summary": "GitHub CopilotがXcodeの組み込みコーディングアシスタントとしてパブリックプレビューに入った。Xcode 27.3ベータ以降とmacOS Tahoe 26.6以降が必要で、すべてのCopilotプランに対応する。",
+      "url": "https://x.com/nuguyadesk/status/2119414644339089459",
+      "otherUrls": [],
+      "source": "GitHub",
+      "topic": "生成AI・その他",
+      "section": "エージェント",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-09T07:37:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "METR、Anthropicのモデル改善速度は約2倍に加速と評価",
+      "summary": "独立評価機関METRは、Anthropic社内で11週間の調査を行い、同社のモデルが明確な正解のあるタスクで2024年3月〜2025年10月の約2倍の速度で改善していると評価した。加速の約8割はAIによる研究支援によると推定。報告書は11月5日公表。",
+      "url": "https://x.com/dnzxlyfe/status/2119466578324631586",
+      "otherUrls": [],
+      "source": "METR",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-09T07:37:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "NativeCAD 0.30「Kamu」公開、エージェント型CADへ",
+      "summary": "CADツールのNativeCADがバージョン0.30（コードネーム「Kamu」）を公開した。エージェント型AIによるUI／UXの刷新をうたう。建設×AIの製品アップデート。",
+      "url": "https://x.com/TurnUpTheVix/status/2119474568738058430",
+      "otherUrls": [],
+      "source": "NativeCAD",
+      "topic": "建設×AI",
+      "section": "建設×AI",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-09T07:37:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "OpenAI、フロンティアモデルのミスアライメント検出手法を公開",
+      "summary": "OpenAIは、フロンティアモデルが意図と異なる行動を取っていないかを検出する手法についての記事を公開した。AIガバナンス・安全性に関する一次情報。",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment/",
+      "otherUrls": [],
+      "source": "OpenAI",
+      "topic": "生成AI・その他",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-09T07:37:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Revolut、自社ホストのGLMでAIコーディング費用を約90%削減と報告",
+      "summary": "Revolutは、約2,000人のエンジニア向けにZ.aiのオープンウェイトGLMを自社GPU（Nvidia B200×56基）で運用し、AIコーディングの推論コストを約90%削減、トークン単価は約$0.30／100万トークンになったと報告した。コーディング時間60%改善、リードタイム70%改善も自社計測値として挙げている（The Register 11月3日報道）。",
+      "url": "https://x.com/batran7770/status/2119427029804167256",
+      "otherUrls": [],
+      "source": "The Register",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-09T07:37:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Sarvam AI、判断特化モデル「Prism」をオープンウェイト公開",
+      "summary": "インドのSarvam AIは11月3日、Sarvam 105Bを基にした判断特化モデル「Prism」をApache 2.0で公開した。文章を生成せず選択肢から選ぶ方式で、3指標の平均71.8、B200 GPUで中央値44ミリ秒の応答をうたう（自社評価）。",
+      "url": "https://x.com/TheCEO_Magazine/status/2119377388731552120",
+      "otherUrls": [],
+      "source": "Sarvam AI",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-09T07:37:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Shizuku AI、全二重音声合成モデル「Shizuku-Duplex」を発表",
+      "summary": "Shizuku AIが、AIキャラクター向けの全二重音声合成モデル「Shizuku-Duplex」を発表した。自然な人間とAIの対話を想定したモデルとしている。",
+      "url": "https://x.com/ShizukuAILabs/status/2119266216040898635",
+      "otherUrls": [],
+      "source": "Shizuku AI",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x-likes"
+      ],
+      "collected_at": "2026-11-09T07:37:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Vals AIのサイバー攻撃ベンチマーク、DeepSeek V4.1 FlashがGPT-6 Solに8ポイント差まで接近",
+      "summary": "Vals AIのCyberOffenseベンチマーク（11月6日公表）で、OpenAIの制限付きモデルGPT-6 Sol Daybreakは攻撃目標の80.8%を達成したのに対し、オープンウェイトのDeepSeek V4.1 Flashは72.8%に達した。1回あたりのコストは3ドル未満に対し約22ドル。模擬ネットワークでの計測。",
+      "url": "https://x.com/justelite/status/2119388623544152223",
+      "otherUrls": [],
+      "source": "Vals AI",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-09T07:37:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Visaのベンチマーク、AIの買い物テストで42.8%が失敗",
+      "summary": "Visaのベンチマークによると、AIモデルは買い物テストの42.8%で失敗し、失敗したケースの54%ではそれでも購入を進めてしまった。エージェント型コマースの信頼性を測る数字として報じられた。二次情報のため未確認。",
+      "url": "https://x.com/thwinter/status/2119339412115066940",
+      "otherUrls": [],
+      "source": "Visa",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-09T07:37:05+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "オープンな3Dアニメーション生成「UniMate」、コード・データ・重みを公開",
+      "summary": "プリンストン大・UCバークレー・MIT・NTUによるSIGGRAPH Asia 2026のプロジェクト「UniMate」は、テキストプロンプトからリグ付き3Dモデルをアニメーション化するオープンソースの手法で、コード・データセット・モデルチェックポイントがすべて公開された。",
+      "url": "https://x.com/yoosuf_sayyid/status/2119429790772138270",
+      "otherUrls": [],
+      "source": "UniMate",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-09T07:37:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "デジタル庁、生成AI基盤「源内」にAIエージェント機能を追加",
+      "summary": "デジタル庁は、政府職員約18万人が利用する生成AI基盤「源内」に、複数の作業を自律的に進める「AIエージェント」機能（エージェントチャット）を搭載した。今週の注目投稿として再掲されたもの。",
+      "url": "https://x.com/dzd02664_2/status/2119407210157707269",
+      "otherUrls": [],
+      "source": "デジタル庁",
+      "topic": "生成AI・その他",
+      "section": "政策・政府",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-09T07:37:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "中小企業のAI導入率は20.4%、壁は「事例不足」83.3%（中小機構調査）",
+      "summary": "中小機構の実態調査によると、中小企業のAI導入率は20.4%。導入済み企業の82.6%が生成AIを利用し、業務効率化が最多の目的（87.0%）だった。一方「事例情報が不足」は83.3%に上り、活用事例の共有が課題となっている。",
+      "url": "https://x.com/SkillupAi/status/2119354255505346862",
+      "otherUrls": [],
+      "source": "中小機構",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-09T07:37:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "建設業界調査、AIで46%がチーム体制を変更・38%が再教育",
+      "summary": "建設業界の調査によると、AIの導入で回答者の46%がチーム体制を変更し、38%が従業員を再教育したとされる。建設チームの再編が進んでいる実態を示す数字として、Construction Diveが紹介した。",
+      "url": "https://x.com/CMAA_HQ/status/2119512827379532121",
+      "otherUrls": [],
+      "source": "CMAA／Construction Dive",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-09T07:37:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "英国、企業のAI導入率が32%に倍増（政府調査）",
+      "summary": "英国政府のAI導入調査2026によると、企業のAI導入率は32%と前回から倍増した。導入の広がりを示す公式調査結果。",
+      "url": "https://x.com/efibion/status/2119346687890051378",
+      "otherUrls": [],
+      "source": "英政府 AI Adoption Survey 2026",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-09T07:37:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    }
+  ]
+}

@@ -6,7 +6,7 @@
     "to": "2026-11-09T08:00:00+09:00"
   },
   "source": "mail-4ml",
-  "itemCount": 12,
+  "itemCount": 23,
   "items": [
     {
       "collected_at": "2026-11-08T07:43:00+09:00",
@@ -115,6 +115,105 @@
       "topic": "生成AI・その他",
       "unconfirmed": false,
       "url": "https://x.com/nwnwnyo/status/2118871501562933712"
+    },
+    {
+      "collected_at": "2026-11-09T07:34:00+09:00",
+      "headline": "AIでPRを自動マージした技術者の解雇めぐり議論",
+      "source": "ML_Bear Times",
+      "summary": "AIラボが非本番コードのレビューと自動マージをAI Agentに任せた技術者を解雇したとのブログ記事が議論を呼んでいる。AI生成コードを低品質とみなしPRに数週間かける姿勢は改めるべきとの声に対し、マージまでの中央値は数時間との反論も出ており、運用実態をめぐって見方が分かれている。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://x.com/Yuchenj_UW/status/2119294808208683273"
+    },
+    {
+      "collected_at": "2026-11-09T07:34:00+09:00",
+      "headline": "AMD MI355、TileRTでGB300 NVL72の1.42倍の速度と報道",
+      "source": "ML_Bear Times",
+      "summary": "SemiAnalysisによると、AMD MI355がTileRTソフトウェアによりGB300 NVL72より1.42倍高速になった。長コンテキストのワークロードで、ユーザーあたりp90で1,330 tok/sを達成したとしている。報道ベースで未確認。",
+      "topic": "論文・ベンチマーク",
+      "unconfirmed": true,
+      "url": "https://x.com/SemiAnalysis_/status/2119518001150013823"
+    },
+    {
+      "collected_at": "2026-11-09T07:34:00+09:00",
+      "headline": "ARC-AGI-2コンペ5位解法、DeepSeek V4.1 Flashを4×L4で稼働",
+      "source": "ML_Bear Times",
+      "summary": "KaggleのARC-AGI-2コンペで5位となった解法のwriteupが公開された。約552Bパラメータと約196BのEngramテーブルを持つDeepSeek V4.1 Flash 1017を、4×L4（VRAM 96GB）の競技環境に載せたとしている。限られたGPUでの大規模モデル推論の参考になる。",
+      "topic": "論文・ベンチマーク",
+      "unconfirmed": false,
+      "url": "https://x.com/ethylene_66/status/2119433967262953837"
+    },
+    {
+      "collected_at": "2026-11-09T07:34:00+09:00",
+      "headline": "Apple新CEO、Federighi氏にAI加速を要求か（Gurman報道）",
+      "source": "ML_Bear Times",
+      "summary": "BloombergのMark Gurman氏が、AppleのJohn Ternus CEOがCraig Federighi氏にAIロードマップの加速を迫ったと報道した。来年にもChatGPT DotsやMeta Muse、Grokに対抗する自律的なAgent型Siriを目指し、Computer Use能力の欠如も課題とされる。Siri責任者Mike Rockwell氏の退任検討や、iOS 28などの開発プロセス変更も伝えられている。",
+      "topic": "生成AI・その他",
+      "unconfirmed": true,
+      "url": "https://x.com/markgurman/status/2119449283267371274"
+    },
+    {
+      "collected_at": "2026-11-09T07:34:00+09:00",
+      "headline": "ChatGPTでGPT-6.2 Solとみられる新モデルへのルーティング報告",
+      "source": "ML_Bear Times",
+      "summary": "ChatGPTの一部ユーザーでGPT-6.1 Solが新モデルにルーティングされていると報告された。2026年6月のトニー賞司会（正解はP!nk）を検索なしで答えられるかで判別でき、新モデルはGPT-6.2 Solとみられる。1プロンプトで単一HTMLのThree.jsシーンを生成する出力例も共有され、来週の正式リリースを予想する声が出ている。",
+      "topic": "モデル",
+      "unconfirmed": true,
+      "url": "https://x.com/kimmonismus/status/2119409780691284404"
+    },
+    {
+      "collected_at": "2026-11-09T07:34:00+09:00",
+      "headline": "DeepMindのKohli氏、数週間内のAI for Science発表を示唆",
+      "source": "ML_Bear Times",
+      "summary": "Google DeepMindのPushmeet Kohli氏が、科学的発見のペースに本物の相転移が起きており、その一端は今後数週間のリリースで見られると投稿した。Metaの研究者も科学向けの取り組みを示唆しており、フロンティアラボ各社がAI for Scienceで競う構図が鮮明になっている。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/pushmeet/status/2119373171321196892"
+    },
+    {
+      "collected_at": "2026-11-09T07:34:00+09:00",
+      "headline": "GPT-OSS-Swallow参照のSFT、llm-jp 8B thinkingの数学スコア超えと報告",
+      "source": "ML_Bear Times",
+      "summary": "国内の開発者が、GPT-OSS-Swallow-120B-RLを参照モデルにしたSFTの結果を共有した。llm-jp-4.1-8b-baseに2Bトークン弱のSFTを行うだけで、llm-jp-4.1-8b-thinkingの数学スコアを上回ったとしている。gpt-ossのreasoningはllm-jp系と相性がよいとされ、参照モデル選びが蒸留的SFTの効率を左右する例として参考になる。",
+      "topic": "モデル",
+      "unconfirmed": true,
+      "url": "https://x.com/odashi_t/status/2119395272719843796"
+    },
+    {
+      "collected_at": "2026-11-09T07:34:00+09:00",
+      "headline": "Google、仕様駆動の開発プラグイン「Elephant-Goldfish」を公開",
+      "source": "ML_Bear Times",
+      "summary": "Googleが、コードを書く前に仕様を固めるためのオープンソースプラグインElephant-Goldfish Modelを公開した。深いコンテキストを持つAgentで仕様を起草し、コンテキストを持たないサブAgentで仕様をストレステストする構成で、設計判断と仕様の承認は人間が行う流れ。",
+      "topic": "エージェント",
+      "unconfirmed": false,
+      "url": "https://x.com/GoogleCloudTech/status/2119203243054023129"
+    },
+    {
+      "collected_at": "2026-11-09T07:34:00+09:00",
+      "headline": "Meta MuseのSpaces、Claude CodeやTailscaleから操作可能に",
+      "source": "ML_Bear Times",
+      "summary": "MetaのパーソナルAIエージェントMuseに追加されたSpaces機能の続報。Claude CodeからSpacesのアプリを書き換えデプロイまでできるとの検証が国内で共有され、Tailscale経由でSpacesのVMに入れ、/home/hatchの内容はリセット後も残るとされる。自動選定スタックはBun+TypeScript、React 19、SQLite+Drizzleで、家族向けアプリ基盤として評価されている。",
+      "topic": "エージェント",
+      "unconfirmed": true,
+      "url": "https://x.com/yugen_matuni/status/2119372161391689854"
+    },
+    {
+      "collected_at": "2026-11-09T07:34:00+09:00",
+      "headline": "Nvidia取締役会、Huang CEOへの諜報工作疑惑で独立調査を開始",
+      "source": "ML_Bear Times",
+      "summary": "Jensen Huang CEOが外国の諜報活動の標的になったとの報道を受け、Nvidia取締役会が独立調査を開始した。Huang氏は米情報機関が中国のスパイと判断した顧客企業幹部との不倫を認め社員向けメモで謝罪。CEOは当面続投するが、利益相反ポリシー違反の可能性が指摘され、中国向けH200の輸出許可が難しくなるとの声もある。",
+      "topic": "生成AI・その他",
+      "unconfirmed": true,
+      "url": "https://x.com/nytimes/status/2119522888067801560"
+    },
+    {
+      "collected_at": "2026-11-09T07:34:00+09:00",
+      "headline": "OpenAI、月額$50の「ChatGPT Pro 50」の需要を打診",
+      "source": "ML_Bear Times",
+      "summary": "OpenAIのTibo氏が月額$50のPro 50プランへの需要を問いかけ大きな反響を呼んだ。Pro全プランに5時間制限はなく、Plus比でPro 100が10倍、Pro 200が20倍、Pro 500が50倍（ultrafast付き）。Plusでは不十分だが$100は過剰という層に合う価格帯の隙間を埋める案として注目されている。",
+      "topic": "生成AI・その他",
+      "unconfirmed": true,
+      "url": "https://x.com/thsottiaux/status/2119296267545419987"
     }
   ]
 }
