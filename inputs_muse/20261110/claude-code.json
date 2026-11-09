@@ -1,0 +1,72 @@
+{
+  "date": "2026/11/10",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-09T08:00:00+09:00",
+    "to": "2026-11-10T08:00:00+09:00"
+  },
+  "source": "claude-code",
+  "itemCount": 6,
+  "items": [
+    {
+      "headline": "Anthropicが「Claude Fable 5.2」と「Claude Mythos 5.2」を発表",
+      "summary": "Fable 5.2はすべてのユーザーが使え、API IDは claude-fable-5-2 です。料金は入力100万トークンあたり8ドル、出力40ドルで、5.1の10ドル／50ドルから下がりました。Mythos 5.2はCyber Verification Programなどで審査を通った組織だけが使え、どちらもFrontierSWE v2などのベンチマークでOpus 5.5を上回っています。",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "source": "Anthropic",
+      "topic": "Claude",
+      "published_at": "2026-11-09T00:00:00-08:00",
+      "unconfirmed": false,
+      "collected_at": "2026-11-10T07:12:24+09:00"
+    },
+    {
+      "headline": "Claude APIのリリースノートに5.2モデル対応の仕様変更が追加",
+      "summary": "Fable 5.2とMythos 5.2はコンテキスト1Mトークン、最大出力128kトークンで、思考（adaptive thinking）が常に有効です。5.2モデルではcomputer_toolset_20260801が必須になり、30日間のデータ保持が求められます。高速モード（speed: \"fast\"、入力16ドル／出力80ドル）も追加されました。",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "source": "Claude Platform Docs",
+      "topic": "Claude",
+      "published_at": "2026-11-09T00:00:00-08:00",
+      "unconfirmed": false,
+      "collected_at": "2026-11-10T07:12:24+09:00"
+    },
+    {
+      "headline": "Claude Code v2.1.321を公開、Fable 5.2が既定のFableモデルに",
+      "summary": "claude-fable-5-2を追加して既定のFableモデルにしたほか、claude remote-controlが--settingsに対応しました。MCP OAuthのリダイレクト時の秘密情報漏えいや、Bashの権限チェックをすり抜ける問題など、セキュリティ修正も複数含まれています。",
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "source": "GitHub (anthropics/claude-code)",
+      "topic": "Claude",
+      "published_at": "2026-11-09T19:22:00+00:00",
+      "unconfirmed": false,
+      "collected_at": "2026-11-10T07:12:24+09:00"
+    },
+    {
+      "headline": "Claude Fable 5.2がClaude in Microsoft Foundryで利用可能に",
+      "summary": "Anthropicのリリースノートによると、Fable 5.2はClaude in Microsoft Foundryでも提供されます。移行ガイドでは、Anthropicがホストする高速モードはclaude-fable-5-2-fastという別デプロイとして扱われるとしています。Microsoft側の公式発表は確認できていません。",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "source": "Claude Platform Docs",
+      "topic": "Microsoft Foundry",
+      "published_at": "2026-11-09T00:00:00-08:00",
+      "unconfirmed": false,
+      "collected_at": "2026-11-10T07:12:24+09:00"
+    },
+    {
+      "headline": "ONESTRUCTIONの建設特化日本語AIモデル「Ishigaki-AEC」、GENIAC-PRIZE応募者向けにAPI提供",
+      "summary": "さくらインターネットのGPUクラウド上で動き、OpenAI互換形式のAPIで提供されます。オープンウェイト版のIshigaki-AEC-9BはCC BY 4.0で公開されています。建設基準などをもとにした981問の独自ベンチマークでは、正答率がベースモデルの43.32%から56.07%に上がりました。",
+      "url": "https://built.itmedia.co.jp/bt/articles/2611/09/news042.html",
+      "source": "BUILT（ITmedia）",
+      "topic": "建設×AI",
+      "published_at": "2026-11-09T08:00:00+09:00",
+      "unconfirmed": false,
+      "collected_at": "2026-11-10T07:12:24+09:00"
+    },
+    {
+      "headline": "錢高組が「Kencopa工程AIエージェント」の製品利用を開始",
+      "summary": "設計図書をアップロードすると、自社の歩掛を学習したAIが工程案を自動で作ります。全国6拠点・25の建築現場に展開し、省人化と技術継承の両立を狙います。",
+      "url": "https://ascii.jp/elem/000/004/449/4449601/",
+      "source": "ASCII STARTUP（KENCOPA発表）",
+      "topic": "建設×AI",
+      "published_at": "2026-11-09T09:00:00+09:00",
+      "unconfirmed": false,
+      "collected_at": "2026-11-10T07:12:24+09:00"
+    }
+  ]
+}
