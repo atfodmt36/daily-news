@@ -1,0 +1,52 @@
+{
+ "date": "2026/11/10",
+ "timezone": "Asia/Tokyo",
+ "window": {
+  "from": "2026-11-09T08:00:00+09:00",
+  "to": "2026-11-10T08:00:00+09:00"
+ },
+ "source": "x",
+ "itemCount": 4,
+ "items": [
+  {
+   "headline": "Anthropic、Claude Fable 5.2とMythos 5.2を提供開始",
+   "summary": "AnthropicがClaude Fable 5.2とClaude Mythos 5.2の提供を開始。全有料プラン、Claude Platform、主要クラウドで利用可能で、価格は100万トークンあたり入力8ドル／出力40ドル（従来の10ドル／50ドルから値下げ）。Claude CodeとClaude PlatformではFable 5.1より最大30%高速化したとする。Mythos 5.2はサイバーセキュリティや生物医学研究などの有益な用途を行う組織が申請して利用できる。",
+   "url": "https://x.com/AnthropicAI/status/2119867707546071125",
+   "source": "Anthropic",
+   "topic": "モデル",
+   "unconfirmed": false,
+   "collected_at": "2026-11-10T08:20:23+09:00",
+   "x_url": "https://x.com/AnthropicAI/status/2119867707546071125"
+  },
+  {
+   "headline": "Anthropic、Fable 5.2の研究成果を公表（理論物理学の未解決問題を解決）",
+   "summary": "Anthropicがリリース前テストでのFable 5.2／Mythos 5.2の成果を公表。理論物理学の未解決問題2件の解決（23年間未解決だった計算の完了など）、最適化問題ライブラリMIPLIBの未解決203件中72件で既知の解を更新、1000体のエージェントによるフェルマーの最終定理の形式化（30時間）、タンパク質カプシド構造の予測などを挙げている。",
+   "url": "https://x.com/claudeai/status/2119899459761131615",
+   "source": "Anthropic",
+   "topic": "論文・ベンチマーク",
+   "unconfirmed": false,
+   "collected_at": "2026-11-10T08:20:23+09:00",
+   "x_url": "https://x.com/claudeai/status/2119899459761131615"
+  },
+  {
+   "headline": "Meta、Muse EmberをGoogle Cloudで提供開始（Muse Wonder／Spark 1.3も）",
+   "summary": "Metaが小型・高効率モデルMuse EmberをGoogle Cloudでも提供開始すると発表。あわせてMuse WonderとMuse Spark 1.3もGoogle Cloudに展開する。",
+   "url": "https://x.com/AIatMeta/status/2119912647034642817",
+   "source": "Meta",
+   "topic": "モデル",
+   "unconfirmed": false,
+   "collected_at": "2026-11-10T08:20:23+09:00",
+   "x_url": "https://x.com/AIatMeta/status/2119912647034642817"
+  },
+  {
+   "headline": "OpenAI、研究インフラのワークロード監視システム「Control Room」を公表",
+   "summary": "OpenAIが、研究インフラ全体のモデルのワークロードを追跡し、安全・セキュリティ上の懸念が生じた際に迅速に停止できる中央システム「Control Room」を構築したと公表。すべての研究推論を接続し、安全管理の仕組みとして紹介している。",
+   "url": "https://x.com/OpenAI/status/2119913172039868579",
+   "source": "OpenAI",
+   "topic": "生成AI・その他",
+   "unconfirmed": false,
+   "collected_at": "2026-11-10T08:20:23+09:00",
+   "x_url": "https://x.com/OpenAI/status/2119913172039868579"
+  }
+ ]
+}
