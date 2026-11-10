@@ -6,7 +6,7 @@
     "to": "2026-11-11T08:00:00+09:00"
   },
   "source": "web-search",
-  "itemCount": 1,
+  "itemCount": 6,
   "items": [
     {
       "headline": "総務省、漏洩情報サイトへのアクセス抑止策を検討する作業部会を新設へ",
@@ -15,6 +15,51 @@
       "source": "産経新聞",
       "topic": "政府・政策",
       "collected_at": "2026-11-10T17:38:05+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Payscale調査：経営層の83％がAIスキルに上乗せ報酬、実際に昇給した従業員は16％",
+      "summary": "Payscaleが11月10日に「AI Workforce Impact Report」を発表した。経営層の83％がAIスキルに上乗せ報酬を払う（または払う予定）と答えた一方、AIスキル習得で実際に昇給した従業員は16％にとどまり、70％は給与に変化なし。雇用主の74％は今後12か月でAIが人員・採用計画に影響すると予想している。",
+      "url": "https://www.globenewswire.com/news-release/2026/11/10/3399638/0/en/payscale-s-ai-workforce-impact-report-ai-is-boosting-productivity-but-employers-struggle-to-put-a-price-on-it.html",
+      "source": "Payscale",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-11T02:09:48+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "カンタス航空、AI活用で管理部門850人を削減へ",
+      "summary": "カンタス航空が11月10日、管理部門業務の一部をアクセンチュアに委託し、国内で約850人を削減すると発表した。第1弾は財務・調達・人事・マーケティングが対象で2027年半ばまでに実施する。削減人数は豪国内従業員約2万8000人の約3％に当たる。AIによる業界の急速な変化に対応する措置と説明している。",
+      "url": "https://www.reuters.com/jp/economy/L7YPJM5YOFPEDOMNYQYKGTN2AQ-2026-11-10/",
+      "source": "ロイター",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-11T02:09:48+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "マイナビ調査：新卒採用でAI活用の企業は20.8％、前年から約2倍",
+      "summary": "マイナビが11月10日に「2027年卒マイナビ企業新卒内定状況調査＜新卒採用とAI＞」を発表した。新卒採用でAIを「すでに活用している」企業は20.8％で、前年の9.6％から約2倍に増えた。AIの普及で新卒採用数が「減る」と答えた企業は6.3％で、事務・管理系の職種では19.6％が採用減を見込む。調査期間は9月7日〜10月4日、有効回答1667社。",
+      "url": "https://prtimes.jp/main/html/rd/p/000002528.000002955.html",
+      "source": "マイナビ",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-11T02:09:48+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Yahoo、AI検索「Scout」を正式版に、検索を再構築した「Pivot Search」も発表",
+      "summary": "Yahooが11月10日、AIアンサーエンジン「Scout」をベータから正式版に移行したと発表した。1月の公開以来30億超の回答を処理。検索を根本から再構築した「Pivot Search」や、Scoutアプリ（iOS／Android）、Yahoo各サービスやFirefoxへの展開も発表した。",
+      "url": "https://searchengineland.com/yahoo-scout-out-of-beta-and-yahoo-adds-pivot-search-501262",
+      "source": "Search Engine Land",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-11T02:09:48+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Notion、Fireworks AIの侵害でNotion AIチャット記録が流出と確認",
+      "summary": "NotionはベンダーFireworks AIのセキュリティインシデントにより、1％未満のワークスペースでNotion AIのチャット記録（Insights機能用）が流出したことを確認した。Notion自体のシステムは侵害されていない。Insights機能を一時停止し、Fireworks経由のオープンモデルの提供も停止した。",
+      "url": "https://www.notion.com/en-gb/security/advisories/security-incident-involving-a-third-party-ai-vendor",
+      "source": "Notion",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-11T02:09:48+09:00",
       "unconfirmed": false
     }
   ]
