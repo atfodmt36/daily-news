@@ -1,0 +1,364 @@
+{
+  "date": "2026/11/11",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-10T08:00:00+09:00",
+    "to": "2026-11-11T08:00:00+09:00"
+  },
+  "source": "claude-code",
+  "itemCount": 21,
+  "items": [
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Copilot の Claude モデルが EU データ境界の対象に。12月9日から EU/EFTA で既定で有効に",
+      "summary": "MC1546438：EU・EFTA の対象テナントでは、2026年12月9日から Copilot の Claude モデルが既定で有効になります。管理者はそれまでにオプトアウトするか、利用を制限できます（要対応の可能性あり）。",
+      "url": "https://mc.merill.net/message/MC1546438",
+      "source": "Microsoft 365 メッセージセンター（公開アーカイブ）",
+      "published_at": "2026-11-10T10:07:53+09:00",
+      "unconfirmed": true,
+      "status": "announced",
+      "tags": [
+        "secondary",
+        "admin",
+        "data-boundary"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "PowerPoint Copilot に、スライドから解説動画を作る「Add explainer video」スキル",
+      "summary": "MC1546430：静的なスライドをアニメーション付きの解説動画にするスキルです。2026年11月上旬〜中旬に Frontier プログラムのユーザーへ展開されます。管理者の対応は不要です。",
+      "url": "https://mc.merill.net/message/MC1546430",
+      "source": "Microsoft 365 メッセージセンター（公開アーカイブ）",
+      "published_at": "2026-11-10T09:23:09+09:00",
+      "unconfirmed": true,
+      "status": "preview",
+      "tags": [
+        "secondary",
+        "powerpoint",
+        "frontier"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Power BI の単独 Copilot（プレビュー）を2027年1月に終了。Microsoft 365 Copilot が後継に",
+      "summary": "MC1546429：Power BI の単独 Copilot プレビューは2027年1月に終了します。後継の Microsoft 365 Copilot での体験は、2026年12月8日から既定で有効になります。",
+      "url": "https://mc.merill.net/message/MC1546429",
+      "source": "Microsoft 365 メッセージセンター（公開アーカイブ）",
+      "published_at": "2026-11-10T09:22:19+09:00",
+      "unconfirmed": true,
+      "status": "deprecated",
+      "tags": [
+        "secondary",
+        "power-bi"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Microsoft Copilot に新しいホーム画面。Code・Autopilot の従量課金と、SharePoint/OneDrive での一般提供",
+      "summary": "MC1479277：新しいホーム画面、Office との連携強化、Code・Autopilot 機能の従量課金（UBB）、SharePoint と OneDrive での一般提供が含まれます。管理者は支出ポリシーを設定する必要があります。",
+      "url": "https://mc.merill.net/message/MC1479277",
+      "source": "Microsoft 365 メッセージセンター（公開アーカイブ）",
+      "published_at": "2026-11-10T08:03:39+09:00",
+      "unconfirmed": true,
+      "status": "announced",
+      "tags": [
+        "secondary",
+        "borderline",
+        "licensing",
+        "billing"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00"
+    },
+    {
+      "topic": "Claude",
+      "headline": "Anthropic が IPO のロードショーを開始。想定価格は1株70〜78ドル、Nasdaq に「ANT」で上場申請",
+      "summary": "Class A 普通株式 8億2,500万株を売り出します（会社分 8億135万1,354株、既存株主分 2,364万8,646株）。想定価格は1株70〜78ドルで、引受会社に1億2,375万株の追加購入オプションがあります。登録届出書はまだ効力を生じていません。",
+      "url": "https://www.anthropic.com/news/roadshow-launch",
+      "source": "Anthropic",
+      "published_at": "2026-11-10T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "date-only",
+        "borderline",
+        "ipo",
+        "corporate"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00"
+    },
+    {
+      "topic": "Claude Code",
+      "headline": "Claude Code v2.1.322：Vertex AI（global/us/eu）で fast mode に対応",
+      "summary": "Vertex の global・us・eu リージョンで fast mode を使えるようになりました。Vertex 側が fast mode を拒否した場合は通常速度で実行します。",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
+      "source": "Anthropic（GitHub Releases）",
+      "published_at": "2026-11-10T11:29:43+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "release",
+        "vertex",
+        "fast-mode"
+      ],
+      "related_urls": [
+        "https://github.com/anthropics/claude-code/releases.atom"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "OpenAI が「Businesses in ChatGPT」を発表。ChatGPT 上で事業者が自社情報を管理",
+      "summary": "事業者が自社の情報を管理し、ChatGPT で自社がどう表示されているかを把握して、ユーザーの関心を行動につなげられる機能です。提供範囲（地域・プラン）は本文が 403 で開けず、確かめられていません。",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "source": "OpenAI",
+      "published_at": "2026-11-10T19:00:00+09:00",
+      "unconfirmed": false,
+      "tags": [
+        "rss-only",
+        "product"
+      ],
+      "related_urls": [
+        "https://openai.com/news/rss.xml"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "OpenAI と Upwork の調査「Work at the Frontier」：AI 関連のフリーランス案件は予算・稼働時間が大きい",
+      "summary": "フリーランス仕事の需要の変化、新しいスキルの組み合わせ、AI 関連案件の予算と稼働時間が大きいことを報告する研究です。具体的な数値は本文が 403 で確かめられていません。",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "source": "OpenAI",
+      "published_at": "2026-11-10T16:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "rss-only",
+        "research",
+        "freelance"
+      ],
+      "related_urls": [
+        "https://openai.com/news/rss.xml"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "OpenAI が教育での AI ガイダンス不足について ThinkYoung の調査と EMEA の連携事例を公表",
+      "summary": "ThinkYoung の新しい調査と、OpenAI の EMEA 地域の教育パートナーシップから得た知見で、教員の支援、AI リテラシー、自律的な学習について論じています。数値は本文が 403 で確かめられていません。",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "source": "OpenAI",
+      "published_at": "2026-11-10T18:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "rss-only",
+        "education"
+      ],
+      "related_urls": [
+        "https://openai.com/news/rss.xml"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "OpenAI Academy が米国5都市で介護者向けの無料 ChatGPT ワークショップ",
+      "summary": "OpenAI Academy が、米国5都市で介護者向けに無料・実践型の ChatGPT ワークショップを開きます。",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "source": "OpenAI",
+      "published_at": "2026-11-10T21:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "rss-only",
+        "academy"
+      ],
+      "related_urls": [
+        "https://openai.com/news/rss.xml"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00"
+    },
+    {
+      "topic": "Codex",
+      "headline": "Codex CLI 0.167.1 を公開（修正版）",
+      "summary": "0.167.0 からの修正版です。リリースには差分リンクしかなく、変更内容は書かれていません。",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.1",
+      "source": "OpenAI（GitHub Releases）",
+      "published_at": "2026-11-11T06:33:57+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "release",
+        "patch"
+      ],
+      "related_urls": [
+        "https://learn.chatgpt.com/docs/changelog"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00"
+    },
+    {
+      "topic": "Gemini",
+      "headline": "Gemini 4 Carbon が一般提供に。Gemini API の導入価格は入力 $2・出力 $10／100万トークン",
+      "summary": "gemini-4-carbon は Google AI Studio と Gemini for business で、有料の開発者・企業すべてが使えます。価格は2026年11月30日までの導入価格が入力 $2・出力 $10（100万トークンあたり）で、12月以降は $4・$20 です。Google AI Ultra の加入者は Gemini アプリと Antigravity でも使えます（Antigravity の /swarm はプレビュー）。",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "source": "Google",
+      "published_at": "2026-11-10T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "date-only",
+        "borderline",
+        "model",
+        "pricing"
+      ],
+      "related_urls": [
+        "https://aistudio.google.com/docs/changelog",
+        "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers/"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00"
+    },
+    {
+      "topic": "Gemini",
+      "headline": "Google Cloud が医療向けの「Gemini for healthcare」をプレビューで提供",
+      "summary": "電子カルテ・請求・臨床ガイドライン・Medicare のデータにコネクタでつなぎ、カルテの要約や事前承認の審査などの多段の業務を、人の監督つきで実行します。プレビューで、ローンチパートナーは HCA Healthcare・Highmark Health・Northwell Health です。使っているモデルと提供地域は書かれていません。",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "source": "Google Cloud",
+      "published_at": "2026-11-10T22:00:00+09:00",
+      "unconfirmed": false,
+      "status": "preview",
+      "tags": [
+        "healthcare",
+        "enterprise"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00"
+    },
+    {
+      "topic": "建設×AI",
+      "headline": "建設業向け業務管理「サクミル」に、請求書から仕入を登録する「仕入AI」",
+      "summary": "請求書の PDF や写真から、仕入先・金額などを AI が読み取ります。複数現場をまとめた請求書も案件ごとに振り分け、原価種別も提案します。既存プランのまま追加費用なしで使えます（基本料金 9,800円〜、税別・20名利用時の目安、利用量に上限あり）。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000054.000048655.html",
+      "source": "株式会社プレックス",
+      "published_at": "2026-11-10T10:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "construction",
+        "accounting"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00"
+    },
+    {
+      "topic": "建設×AI",
+      "headline": "Productive codes が建設業向け「Fitly AI｜拾い・積算」の提供を開始",
+      "summary": "図面から項目と数量を拾い出す作業を AI が支援し、各社の Excel・帳票の形式で出力するセミオーダー型の Windows アプリです。初期費用 30万円、年間ライセンス 20万円（いずれも税抜、ユーザー数無制限）で、導入まで約2週間が目安です。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000001.000194332.html",
+      "source": "株式会社Productive codes",
+      "published_at": "2026-11-10T12:15:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "construction",
+        "estimation"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "Blender 5.3 をリリース。3D Gaussian Splats をネイティブで扱えるように",
+      "summary": "PLY・SPZ・glTF の Gaussian Splats を点群として読み込み、Geometry Nodes で処理し、EEVEE・Cycles・Workbench でレンダリングできます。現時点では初期の実装で、リライティングは簡易対応、性能は最適化中です。",
+      "url": "https://www.blender.org/download/releases/5-3/",
+      "source": "Blender Foundation",
+      "published_at": "2026-11-10T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "date-only",
+        "borderline",
+        "tool"
+      ],
+      "related_urls": [
+        "https://code.blender.org/2026/10/splatting-the-gaussians-into-blender/"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "マイナビ調査：AI の普及で事務・管理系の新卒採用を「減らす」企業が19.6%",
+      "summary": "1,667社が回答（調査期間 2026年9月7日〜10月4日）。AI で新卒採用数が「変わらない」は90.8%、「減る」は6.3%でした。職種別では事務・管理系で「減らす」が19.6%、IT系で「増やす」が10.3%です。新卒採用で AI を「すでに活用している」企業は20.8%で、前年の約2倍でした。",
+      "url": "https://www.mynavi.jp/news/2026/11/post_55128.html",
+      "source": "株式会社マイナビ",
+      "published_at": "2026-11-10T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "date-only",
+        "hiring",
+        "survey"
+      ],
+      "related_urls": [
+        "https://news.mynavi.jp/techplus/article/20261110-5294810/"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "Ceipal が人材派遣・採用向けのエージェント型 AI「Ceipal Ora」を発表",
+      "summary": "ATS・VMS・労務管理にまたがり、候補者探し・音声での選考・コンプライアンス対応をエージェントが行います。顧客650社が利用中としています。顧客の報告として、候補者探しの時間が2〜3時間から4分未満に、採用までの期間が3倍改善したとありますが、独立した検証はありません。",
+      "url": "https://prnewswire.com/news-releases/ceipal-launches-ceipal-ora-its-agentic-ai-for-staffing-and-recruiting-302934034.html",
+      "source": "Ceipal",
+      "published_at": "2026-11-10T19:30:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "hr",
+        "recruiting",
+        "vendor-claims"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "headline": "GitHub Copilot で Gemini 4 Carbon が一般提供に",
+      "summary": "複雑なコーディング・エージェント・推論タスク向けです。Copilot Pro+・Max・Business・Enterprise のユーザーに段階的に展開されます。",
+      "url": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot",
+      "source": "GitHub",
+      "published_at": "2026-11-11T04:26:51+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "model"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "headline": "Copilot CLI の C++ Language Server が MSBuild のビルド設定を自動で構成",
+      "summary": "Copilot CLI 向けの Microsoft C++ Language Server が、同梱の MSBuild compile commands 抽出ツールを自動で実行するようになりました。有効な Copilot サブスクリプションが必要です。",
+      "url": "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds",
+      "source": "GitHub",
+      "published_at": "2026-11-11T02:04:10+09:00",
+      "unconfirmed": false,
+      "tags": [
+        "cli",
+        "cpp"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00"
+    },
+    {
+      "topic": "Gemini CLI",
+      "headline": "Gemini CLI v0.68.0：拡張機能の検証コマンド、SubagentStop フック、429 時のカウントダウン表示など",
+      "summary": "拡張機能の検証コマンドと、同時インストールを防ぐロックを追加しました。SubagentStop フックの対応付け、429 レート制限時のクールダウン表示も加わりました。Windows の修正や、rootless podman への --userns=keep-id の追加などもあります。",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.68.0",
+      "source": "Google（GitHub Releases）",
+      "published_at": "2026-11-11T06:17:07+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "release"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00"
+    }
+  ]
+}
