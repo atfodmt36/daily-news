@@ -6,8 +6,28 @@
     "to": "2026-11-11T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 27,
+  "itemCount": 29,
   "items": [
+    {
+      "headline": "NVIDIA、ヒトの動画から学ぶロボット基盤モデル「GR00T 2」を発表",
+      "summary": "NVIDIAがCoRL 2026でロボット向け世界行動モデル「GR00T 2」を発表した。人間の主観映像40万時間超などで学習し、未見の50タスクのうち40タスクをデモなしで少なくとも1回成功、1回のデモで平均成功率71%、5回で95%を達成した。ロボット学習基盤「Isaac Lab 3.0」も公開し、モデルの重みは12月にオープン化する予定。",
+      "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "source": "NVIDIA",
+      "topic": "モデル",
+      "collected_at": "2026-11-10T19:27:31+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/AinaPulu/status/2120069775975981339"
+    },
+    {
+      "headline": "Meta、InstagramのAI年齢推定を世界展開へ",
+      "summary": "MetaはInstagramのAI年齢推定技術を世界展開すると11月9日に発表した。成人として登録した生年月日にかかわらず、10代と推定されるアカウントをTeen Accountの保護設定に移行し、「数百万人規模」の10代が対象になるという。FacebookとThreadsへの拡大も年内に予定している。",
+      "url": "https://www.aljazeera.com/amp/news/2026/11/9/meta-rolls-out-automated-age-checks-for-teens-globally",
+      "source": "Al Jazeera",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-10T19:27:31+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/DataconomyMedia/status/2120097986906599799"
+    },
     {
       "headline": "ChatGPT Enterprise、AWS Marketplaceで提供開始",
       "summary": "OpenAIは11月9日、ChatGPT EnterpriseをAWS Marketplaceで提供開始したと発表した。既存のAWS購買・請求関係で購入・管理でき、対象支出はAWSコミットメントに算入可能。Chat、ChatGPT Work、Codex、dotsをまとめた企業向けofferingで、機能や新機能の提供タイミングは直接契約と同じとしている。",
