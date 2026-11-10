@@ -6,8 +6,30 @@
     "to": "2026-11-11T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 47,
+  "itemCount": 49,
   "items": [
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T07:22:22+09:00",
+      "headline": "Claude、全有料プランに使用量の無料リセットを1回付与",
+      "source": "Anthropic",
+      "summary": "Anthropicが、ClaudeのPro／Max／Ultra／Teamユーザー全員に、全モデル・全制限対象の無料フルリセットを1回付与した。12月10日14:00（米太平洋時間）までに利用可能。制限を意図以上に消費する不具合の修正に伴う措置で、Fableのリセットでは救済しきれなかったユーザー向け。",
+      "topic": "Claude／Codex",
+      "unconfirmed": false,
+      "url": "https://x.com/ClaudeDevs/status/2120275296637321476",
+      "x_url": "https://x.com/ClaudeDevs/status/2120275296637321476"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T07:22:22+09:00",
+      "headline": "RunwayプラグインがCodexとChatGPTに対応",
+      "source": "OpenAI",
+      "summary": "OpenAIが、RunwayのプラグインがCodexとChatGPTで使えるようになったと発表した。プロトタイプのキャラクターの動きを確認したり、予告編の別オープニングを試したり、商品写真から動画広告を作ったりできる。",
+      "topic": "Claude／Codex",
+      "unconfirmed": false,
+      "url": "https://x.com/OpenAIDevs/status/2120258357533749755",
+      "x_url": "https://x.com/OpenAIDevs/status/2120258357533749755"
+    },
     {
       "breaking": true,
       "collected_at": "2026-11-11T03:36:00+09:00",

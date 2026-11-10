@@ -1,0 +1,89 @@
+{
+  "date": "2026/11/11",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-10T08:00:00+09:00",
+    "to": "2026-11-11T08:00:00+09:00"
+  },
+  "source": "x-likes",
+  "itemCount": 7,
+  "items": [
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T07:22:22+09:00",
+      "headline": "Google Cloud、医療向け「Gemini for healthcare」を発表",
+      "source": "Google Cloud",
+      "summary": "Google Cloudが、Geminiエージェントを医療機関・健康保険向けに拡張した「Gemini for healthcare」を米国でプレビュー公開した。診療記録の要約や受診前準備、事前承認書類の作成、給付説明などを支援し、EpicやOracle Healthへの読み取り専用連携や27のコネクタを備える。HCA HealthcareやNorthwell Healthなどが導入顧客。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/googlecloud/status/2120141472636789026",
+      "x_url": "https://x.com/googlecloud/status/2120141472636789026"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T07:22:22+09:00",
+      "headline": "IFM、オープンのワールドモデル「PAN 2」を発表",
+      "source": "Institute of Foundation Models",
+      "summary": "MBZUAIのInstitute of Foundation Modelsが、物理的知能向けのオープンワールドモデル「PAN 2」を発表した。言語モデルが次の単語を予測するのに対し、PAN 2は各アクションの後に世界がどうなるかを予測し、29Bの拡散モデルで映像として描画する。Apache-2.0で、Hugging Faceで公開。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://x.com/IFM_AI/status/2120199814696828942",
+      "x_url": "https://x.com/IFM_AI/status/2120199814696828942"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T07:22:22+09:00",
+      "headline": "Hedra、実世界向けモデルの自律学習基盤「Model Factory」を発表",
+      "source": "Hedra",
+      "summary": "Hedraが、ロボティクスや製造、バイオ、防衛向けにモデルを継続的に学習・改善する「Hedra Model Factory」を発表した。GPUサンドボックス、研究者と自律エージェントによるポストトレーニング、低遅延デプロイ、運用データのフィードバックを一体化する。H3を物理一貫性向けに再学習し、Physics-IQで34.9を記録したという。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/hedra_labs/status/2120207555263905973",
+      "x_url": "https://x.com/hedra_labs/status/2120207555263905973"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T07:22:22+09:00",
+      "headline": "オープンソースのAI同僚プラットフォーム「OpenBot 1.0」が公開",
+      "source": "CopilotKit",
+      "summary": "CopilotKitの「OpenBot 1.0」が公開された。自社で所有・セルフホストできるAI同僚プラットフォームで、コンピュータ利用やWeb検索・連携、ルーティン、セキュリティ機能を備える。GitHubの最新タグはv1.0.0（11月9日）、MITライセンス。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/ataiiam/status/2120170276302524488",
+      "x_url": "https://x.com/ataiiam/status/2120170276302524488"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T07:22:22+09:00",
+      "headline": "Fish Audio、全二重音声モデル「Live 3」を発表",
+      "source": "Fish Audio",
+      "summary": "Fish Audioが、聞きながら話す全二重音声モデル「Live 3」を発表した。相手の発話を聞き取りつつ「mm-hmm」などの相づちを入れ、割り込みにも対応するという。Fish Audio側の発表ポストのみで確認。",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "unconfirmed": true,
+      "url": "https://x.com/rissa_cao/status/2120214987633467626",
+      "x_url": "https://x.com/rissa_cao/status/2120214987633467626"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T07:22:22+09:00",
+      "headline": "duplexio、全二重会話AI「Duo」を発表",
+      "source": "duplexio",
+      "summary": "duplexioが、聞きながら話す全二重会話AI「Duo」を発表した。文字起こしではなく音声そのものを直接聞き取り、間や「mm-hm」、割り込みにその場で反応するという。",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "unconfirmed": false,
+      "url": "https://x.com/duplexio_ai/status/2120170260259316060",
+      "x_url": "https://x.com/duplexio_ai/status/2120170260259316060"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T07:22:22+09:00",
+      "headline": "ブラウザエージェント「Browser Use 1.0.0」が安定版に",
+      "source": "Browser Use",
+      "summary": "ブラウザ自動化ライブラリ「Browser Use」が初の安定版1.0.0を公開した。DOMシリアライザやアクションスキーマを捨て、エージェントがChrome DevTools Protocol上で直接Pythonを書く設計に刷新し、約13.7万行（80％）を削除。同じモデルで最大50％の精度向上、2〜5倍の低コスト、2〜3倍の高速化をうたう。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/browser_use/status/2119983662162952278",
+      "x_url": "https://x.com/browser_use/status/2119983662162952278"
+    }
+  ]
+}
