@@ -6,57 +6,47 @@
     "to": "2026-11-11T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 5,
+  "itemCount": 4,
   "items": [
     {
-      "collected_at": "2026-11-10T10:10:00+09:00",
-      "headline": "NVIDIAとElith、日本の金融向け合成データ「Nemotron-Personas-Finance-Japan」を公開",
-      "source": "NVIDIA",
-      "summary": "NVIDIAとElithは11月9日、日本の金融向け合成データセット「Nemotron-Personas-Finance-Japan」をHugging Faceで公開した。100万レコード×9ペルソナで約15億トークン規模、CC BY 4.0で提供する。個人情報検出用の「Nemotron-PII-Japan」も同日公開した。",
-      "topic": "モデル",
-      "unconfirmed": false,
-      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
-      "x_url": "https://x.com/superdoccimo/status/2119867485394780444"
-    },
-    {
-      "collected_at": "2026-11-10T10:10:00+09:00",
-      "headline": "福岡の不動産テック、AIで建設許可支援　アパートの着工3カ月短縮",
-      "source": "日本経済新聞",
-      "summary": "福岡の不動産テック企業がAIで建設許可の手続きを支援し、アパートの着工を3カ月短縮できるサービスを始めた。日本経済新聞が11月10日付で報じた。有料記事のため企業名など詳細は未確認。",
-      "topic": "建設×AI",
-      "unconfirmed": false,
-      "url": "https://www.nikkei.com/article/DGXZQOJC0523T0V01C26A1000000/",
-      "x_url": "https://x.com/nikkei_startup/status/2119884882180755964"
-    },
-    {
-      "collected_at": "2026-11-10T10:10:00+09:00",
-      "headline": "Artificial Analysis、Decision Index v2を公開",
+      "collected_at": "2026-11-10T14:12:00+09:00",
+      "headline": "Claude Fable 5.2、科学画像推論ベンチマークVIALS-AAで1位",
       "source": "Artificial Analysis",
-      "summary": "Artificial Analysisは11月8日、意思決定モデルの評価指標「Decision Index v2」を公開した。Drex Max v1.1が同指標で1位となった（モデル自体は別途キュー済み）。",
+      "summary": "Artificial Analysisの科学画像推論ベンチマーク「VIALS-AA」でClaude Fable 5.2が1位となった。生命科学画像の推論を161タスク・174画像で測るベンチマークで、Fable 5.2は他のAnthropicモデルより多くのツール呼び出しを行う点が特徴とされる。",
       "topic": "論文・ベンチマーク",
       "unconfirmed": false,
-      "url": "https://x.com/ArtificialAnlys/status/2119578471559213411",
-      "x_url": "https://x.com/ArtificialAnlys/status/2119578471559213411"
+      "url": "https://x.com/ArtificialAnlys/status/2119990200700940745",
+      "x_url": "https://x.com/ArtificialAnlys/status/2119990200700940745"
     },
     {
-      "collected_at": "2026-11-10T10:10:00+09:00",
-      "headline": "Claude Fable 5.2、AA-3Dで1位",
-      "source": "Artificial Analysis",
-      "summary": "Claude Fable 5.2（Max）がArtificial Analysisの3Dベンチマーク「AA-3D」で1271 Eloを獲得し1位となった。Claude Sonnet 5.5（1204）とOpus 5.5（1202）を約67ポイント上回った。",
-      "topic": "論文・ベンチマーク",
-      "unconfirmed": false,
-      "url": "https://x.com/ArtificialAnlys/status/2119953570430881946",
-      "x_url": "https://x.com/ArtificialAnlys/status/2119953570430881946"
-    },
-    {
-      "collected_at": "2026-11-10T10:10:00+09:00",
-      "headline": "スペースデータ、RobotBrainにタワークレーン作業の物理シミュレーションを搭載",
-      "source": "スペースデータ",
-      "summary": "スペースデータは11月9日、ロボット現場実装基盤「RobotBrain」にタワークレーン作業の物理シミュレーション機能を搭載したと発表した。海老名ジャンクションを舞台にクレーン4台と工事車両6台を配置し、架設・荷役・相吊り・掘削・打設・安全教育の6作業を重さや張力、揺れを計算しながら検証できる。",
+      "collected_at": "2026-11-10T14:12:00+09:00",
+      "headline": "建設業向け「サクミル」、請求書から仕入登録する「仕入AI」をリリース",
+      "source": "プレックス",
+      "summary": "プレックスは11月10日、建設業向け業務管理サービス「サクミル」に、請求書・領収書のPDFや写真を添付するだけで仕入登録が完了する「仕入AI」の提供を開始した。見積AIに続く第2弾で、仕入先名・仕入日・支払予定日・支払金額をAIが自動で読み取り、合算請求書も明細ごとに該当案件へ振り分ける。",
       "topic": "建設×AI",
       "unconfirmed": false,
-      "url": "https://prtimes.jp/main/html/rd/p/000000265.000080352.html",
-      "x_url": "https://x.com/ieiri_lab/status/2119928283668287562"
+      "url": "https://prtimes.jp/main/html/rd/p/000000054.000048655.html",
+      "x_url": "https://x.com/PRTIMES_TECH/status/2119960359998239137"
+    },
+    {
+      "collected_at": "2026-11-10T14:12:00+09:00",
+      "headline": "川田工業とHighlanders、AIで建設現場を可視化する4足歩行ロボットを共同開発",
+      "source": "川田工業",
+      "summary": "川田工業とHighlandersは11月10日、4足歩行ロボットと現場可視化AIシステムを組み合わせ、建設現場の状況を自動収集・分析するシステムの共同開発を発表した。ロボット搭載カメラの映像をAIが解析し、危険箇所の抽出、資材の所在・数量確認、施工進捗の把握を目指す。2026年度は実寸大橋梁模型で機能開発を進め、2027年度の現場導入を目指す。",
+      "topic": "建設×AI",
+      "unconfirmed": false,
+      "url": "https://www.nikkei.com/article/DGXZRSP715047_Q6A111C2000000/",
+      "x_url": "https://x.com/kmoriyama/status/2119994028515315898"
+    },
+    {
+      "collected_at": "2026-11-10T14:12:00+09:00",
+      "headline": "「Fitly AI｜拾い・積算」、建設業向けに提供開始",
+      "source": "Productive codes",
+      "summary": "Productive codesは11月10日、各社の図面・帳票に合わせて仕立てる積算AI「Fitly AI｜拾い・積算」を建設業向けに提供開始した。",
+      "topic": "建設×AI",
+      "unconfirmed": false,
+      "url": "https://x.com/PRTIMES_TECH/status/2120002019981504821",
+      "x_url": "https://x.com/PRTIMES_TECH/status/2120002019981504821"
     }
   ]
 }
