@@ -1,0 +1,102 @@
+{
+  "date": "2026/11/11",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-10T08:00:00+09:00",
+    "to": "2026-11-11T08:00:00+09:00"
+  },
+  "source": "mail-4ml",
+  "itemCount": 10,
+  "items": [
+    {
+      "headline": "Gemini 4 Carbon、Vertex AIで呼び出し可能に",
+      "summary": "Vertex AIの新規プロジェクトからgemini-4-carbonを呼び出せるとの報告があり、呼び出すとモデル名を名乗り、モデルバージョン欄もgemini-4-carbonと表示されるという。GCPのSKUカタログにも掲載された一方、Gemini APIのモデル一覧にはまだ載っていない。Logan Kilpatrick氏の予告もあり本日中の公開が見込まれる。",
+      "url": "https://x.com/aitrackerbot/status/2120055809560216014",
+      "topic": "モデル",
+      "unconfirmed": true,
+      "source": "ML_Bear Times",
+      "collected_at": "2026-11-10T19:34:00+09:00"
+    },
+    {
+      "headline": "Claude Fable 5.2、GDPxで首位・Leanでフェルマー証明再現",
+      "summary": "SemiAnalysisのGDPxで16.4%と首位に立ち、チップ設計や生物などで伸びた一方、金融や法務は伸び悩んだ。1,000体のAgentがLean/Mathlibでフェルマーの最終定理の形式証明を28.7時間で再現し、証明長は従来の7分の1だった。SimpleQA Verifiedを飽和させたとの報告もある。",
+      "url": "https://x.com/SemiAnalysis_/status/2119961447199289640",
+      "topic": "論文・ベンチマーク",
+      "unconfirmed": false,
+      "source": "ML_Bear Times",
+      "collected_at": "2026-11-10T19:34:00+09:00"
+    },
+    {
+      "headline": "Claude Fable 5.2、medium effortでも上限枯渇・Opusと分担へ",
+      "summary": "medium effortでも5時間の利用上限をすぐ使い切ってしまうとの報告が相次いでいる。Fableにはレビューだけを任せて修正はOpusに回す、Fableで型を作りOpusが小型モデルを率いるといった分担が共有されている。配布されたリセットはFableで消費した分しか戻らず、Opusの利用分は対象外だという注意点も話題に。",
+      "url": "https://x.com/kimmonismus/status/2120076998383227133",
+      "topic": "エージェント",
+      "unconfirmed": true,
+      "source": "ML_Bear Times",
+      "collected_at": "2026-11-10T19:34:00+09:00"
+    },
+    {
+      "headline": "Anthropic、IPOで最大$69.3B調達へ・大手7社が$26B出資【続報】",
+      "summary": "新株8億6,670万株を1株$70〜80で売り出し、最大$69.3Bを調達する計画と報じられた。Google、Nvidia、AMD、Broadcom、Micron、Microsoft、TSMCが公開価格で計$26Bを私募出資するとされる。NasdaqでティッカーANTとして取引され、取引開始は来週木曜か金曜の見込み。Dario Amodei CEOがJPMorganのJamie Dimon CEOとIPOについて語るライブ配信も計画されている。",
+      "url": "https://x.com/IPONewsroom_/status/2119959766818500827",
+      "topic": "ビジネス・人材",
+      "unconfirmed": true,
+      "source": "ML_Bear Times",
+      "collected_at": "2026-11-10T19:34:00+09:00"
+    },
+    {
+      "headline": "Muse EmberがGoogle Cloudに、Crouton Alphaは初期版【続報】",
+      "summary": "Muse Ember、Muse Spark 1.3、Muse WonderがGoogle Cloudのモデルガーデンでパブリックプレビュー提供された。OpenRouterのステルスモデルCrouton AlphaがEmberの初期版で、テスト期間中に5T超のトークンを処理したと明かされた。Browser Useの長期ブラウザベンチでは63.9とGPT-6 Luna mediumに並び、1タスク約3セントと2.4倍安いと報告されている。",
+      "url": "https://x.com/GoogleCloudTech/status/2119928020953624606",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "source": "ML_Bear Times",
+      "collected_at": "2026-11-10T19:34:00+09:00"
+    },
+    {
+      "headline": "Huang氏をFBIが調査、Nvidiaのロビー力にも陰り【続報】",
+      "summary": "Trump大統領はFBIがJensen Huang CEOを調べていると述べた。Nvidiaの法務責任者がMegaspeedのAIチップ密輸疑惑の政府調査に介入していたとBloombergが報じた。海外クラウド経由の中国向け提供規制に反対してきたロビー活動が効きにくくなり、ホワイトハウスもリモートアクセス制限を求めたとされる。",
+      "url": "https://x.com/FT/status/2119918115601498505",
+      "topic": "ビジネス・人材",
+      "unconfirmed": true,
+      "source": "ML_Bear Times",
+      "collected_at": "2026-11-10T19:34:00+09:00"
+    },
+    {
+      "headline": "Inkling 2 Small、opencodeとOpenRouterで期間限定無料",
+      "summary": "Thinking Machinesの小型モデルInkling 2 Smallの期間限定の無料提供がopencodeとOpenRouterで始まった。Agent的コーディングと知識労働向けに学習され、視覚フィードバックでWebサイトやゲーム、3Dデザインを改善できるという。Claude CodeやCodex、Hermes Agentなどのハーネス内で$0で使える。",
+      "url": "https://x.com/thinkymachines/status/2119896225315188993",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "source": "ML_Bear Times",
+      "collected_at": "2026-11-10T19:34:00+09:00"
+    },
+    {
+      "headline": "Google CloudのAgent RegistryでSkill登録がGA",
+      "summary": "Google CloudのAgent Registryで、Skillの登録機能が一般提供になった。バージョンを含めてSkillを中央管理でき、自動スキャンでセキュリティ上の問題を見つける機能も加わった。組織全体にスキャンを強制することも可能で、外部Skill取り込み時の安全性確保に役立つ。",
+      "url": "https://x.com/ShoheyOkada/status/2119917000659292537",
+      "topic": "エージェント",
+      "unconfirmed": false,
+      "source": "ML_Bear Times",
+      "collected_at": "2026-11-10T19:34:00+09:00"
+    },
+    {
+      "headline": "AHC074の生プロンプト公開、サブAgent評価はslotdで管理",
+      "summary": "AtCoder Heuristic Contest 074に参加した方が、使ったプロンプトをほぼすべて公開した。サブエージェントを大量に走らせた際の評価ジョブ管理には、Slurm風の軽量Rust製ジョブスケジューラslotdを使ったという。AIを使ったヒューリスティック最適化の実際の進め方が分かる資料として、コンペ参加者の参考になる。",
+      "url": "https://x.com/ethylene_66/status/2120073578737705022",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "source": "ML_Bear Times",
+      "collected_at": "2026-11-10T19:34:00+09:00"
+    },
+    {
+      "headline": "CLAUDE.mdの汎用的な心得がAIの成績を下げる場合も",
+      "summary": "CLAUDE.mdやAGENTS.mdに汎用的な指示を書くと、かえってAIの成績が下がることがあるとする研究が紹介された。コードスタイルに従え、テストファイルを読めといった心得は、目の前の課題と無関係なため邪魔になるとされる。代わりにドキュメントとコードが食い違う際はコードに従い食い違いを列挙させる一文が推奨され、著者インタビュー記事も公開されている。",
+      "url": "https://x.com/ai_database/status/2120077716460572735",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "source": "ML_Bear Times",
+      "collected_at": "2026-11-10T19:34:00+09:00"
+    }
+  ]
+}
