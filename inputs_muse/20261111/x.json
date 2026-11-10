@@ -6,8 +6,208 @@
     "to": "2026-11-11T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 1,
+  "itemCount": 27,
   "items": [
+    {
+      "headline": "ChatGPT Enterprise、AWS Marketplaceで提供開始",
+      "summary": "OpenAIは11月9日、ChatGPT EnterpriseをAWS Marketplaceで提供開始したと発表した。既存のAWS購買・請求関係で購入・管理でき、対象支出はAWSコミットメントに算入可能。Chat、ChatGPT Work、Codex、dotsをまとめた企業向けofferingで、機能や新機能の提供タイミングは直接契約と同じとしている。",
+      "url": "https://x.com/AIFutureWire/status/2119895640109199633",
+      "source": "OpenAI",
+      "topic": "ビジネス",
+      "collected_at": "2026-11-10T08:39:57+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/AIFutureWire/status/2119895640109199633"
+    },
+    {
+      "headline": "LG、K-EXAONE 2.5のAPIを無料開放",
+      "summary": "LG AI Researchは11月9日、750Bパラメータの自社モデル「K-EXAONE 2.5」のAPIを無料で開放した。OpenAI互換エンドポイントで512Kコンテキストに対応。NVIDIA AI Day Seoul 2026で発表した。エージェント系ベンチマーク4種のスコアも公開している（自社測定値）。",
+      "url": "https://x.com/prabhuadi/status/2119883190672220642",
+      "source": "LG AI Research",
+      "topic": "モデル",
+      "collected_at": "2026-11-10T08:39:57+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/prabhuadi/status/2119883190672220642"
+    },
+    {
+      "headline": "Apple、Creator Studio向け「intelligence usage packs」$49.99を開始",
+      "summary": "AppleはCreator Studioアプリ向けに、月間AI利用枠を使い切った後に購入できる買い切り型「intelligence usage packs」（49.99ドル）の販売を始めた。まずLogic Proで利用可能で、未使用分は翌月へ繰り越し・購入から12か月で失効する。Final Cut ProやPixelmator Pro、iWorkにも今月中に拡大予定。",
+      "url": "https://9to5mac.com/2026/11/09/apple-launches-50-intelligence-usage-packs-for-select-ai-features/",
+      "source": "9to5Mac",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-10T08:39:57+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/VisiveAI/status/2119931286911668636"
+    },
+    {
+      "headline": "Fireworks、10月の侵害の被害拡大を公表——請求情報・データセット・未完成モデル重みも",
+      "summary": "AI推論基盤のFireworksは11月9日、10月に発覚したセキュリティ侵害の続報を公表した。当初の認証情報の不正利用にとどまらず、一部の顧客について請求情報や秘密情報、データセット、未完成のモデル重みへのアクセスがあった。第三者クラウド事業者の侵害を経由した10月24日の侵入が原因で、金銭目的の「LLMjacking」グループによるものとしている。Unit 42と調査中で、データセットのセルフサービス転送を一時停止している。",
+      "url": "https://x.com/DanteMMartin/status/2119903690069057952",
+      "source": "Fireworks AI",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-10T08:39:57+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/DanteMMartin/status/2119903690069057952"
+    },
+    {
+      "headline": "Collinear AI、コンピュータ利用の新ベンチマーク「FrontierCUA」v1を公開",
+      "summary": "Collinear AIは、企業ワークフローにおけるコンピュータ利用エージェントを測る新ベンチマーク「FrontierCUA」v1を公開した。サポート、コマース、CRM、ITSM、サイト信頼性などの業務ソフト上の40の非公開ワークフローで構成される。長期的な業務遂行能力を測ることを目的としている。",
+      "url": "https://x.com/CollinearAI/status/2119870945611661810",
+      "source": "Collinear AI",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-10T08:39:57+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/CollinearAI/status/2119870945611661810"
+    },
+    {
+      "headline": "新ベンチマーク、未解決CS問題でフロンティア8モデルを比較——GPT-6 Astraが既知定理14/20を証明、未解決予想は0/30",
+      "summary": "実際の未解決計算機科学問題を題材にした新ベンチマークで、フロンティアモデル8種を比較した。GPT-6 Astraが既知の定理20問中14問を証明して首位だったが、未解決予想30問は8モデル合計でも1問も解けなかった。教科書的な証明はできても最先端の研究にはまだ届かない結果となった（arXiv 2611.07962）。",
+      "url": "https://arxiv.org/abs/2611.07962",
+      "source": "arXiv",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-10T08:39:57+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/Mr_Zain72/status/2119772565270941860"
+    },
+    {
+      "headline": "HEELO、エージェント失敗の「最後の1マイル」を分析",
+      "summary": "エージェントが現実のタスクで失敗する理由を「最後の1マイル」として捉え直した研究「HEELO」がarXivに公開された。エージェント固有のプリミティブを組み合わせたハーネスで実世界エージェントベンチマークの大幅な改善を報告している（arXiv 2611.0746）。",
+      "url": "https://arxiv.org/abs/2611.0746",
+      "source": "arXiv",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-10T08:39:57+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/itarutomy/status/2119777033383530996"
+    },
+    {
+      "headline": "「Delivered, Not Used」：SWE-bench Verified 8000件でメモリ有無の解決率差は0.4pt",
+      "summary": "SWE-bench Verifiedで8000エピソードを回した検証によると、エージェントにメモリ（長期記憶）を与えても与えなくても解決率は0.4ポイント以内しか変わらなかった。渡された記憶の多くは無関係で、関連するものも大半が使われなかった。スコアだけではエージェントの実力が測れないという指摘。",
+      "url": "https://x.com/ScottSiu1983/status/2119890268732497920",
+      "source": "Scott Siu",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-10T08:39:57+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/ScottSiu1983/status/2119890268732497920"
+    },
+    {
+      "headline": "PwC US、判断力・批判的思考の認定プログラムを開始",
+      "summary": "PwC USは、AIが定型業務を担うようになる中で、判断力と批判的思考を認定するプログラムの提供を開始した。AI時代に求められるスキル育成の動き。",
+      "url": "https://x.com/BusinessInsider/status/2119780064078254230",
+      "source": "Business Insider",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-10T08:39:57+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/BusinessInsider/status/2119780064078254230"
+    },
+    {
+      "headline": "Terminal-Bench 4.1公開、タスクを改善",
+      "summary": "エージェント型コーディングのベンチマーク「Terminal-Bench」がバージョン4.1を公開し、タスクの改善を行った。",
+      "url": "https://x.com/ryan_marten/status/2119845004940378276",
+      "source": "Terminal-Bench",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-10T08:39:57+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/ryan_marten/status/2119845004940378276"
+    },
+    {
+      "headline": "Vals AI：DeepSeek V4.1 FlashがTerminal-Bench 2.1で92.2%・SOTA、1タスク$0.08",
+      "summary": "Vals AIのTerminal-Bench 2.1で、DeepSeek V4.1 Flashが92.2%を記録し首位となった。1タスクあたりのコストは0.08ドル。従来首位のOpus 5.5は87.6%・1タスク0.50ドルだった。ベンチマーク運営元の計測による。",
+      "url": "https://x.com/ElijahPopowitz/status/2119818984774156613",
+      "source": "Vals AI",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-10T08:39:57+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/ElijahPopowitz/status/2119818984774156613"
+    },
+    {
+      "headline": "NVIDIAとElith、日本の金融向け合成データ「Nemotron-Personas-Finance-Japan」を公開",
+      "summary": "NVIDIAとElithは11月9日、日本の金融向け合成データセット「Nemotron-Personas-Finance-Japan」をHugging Faceで公開した。100万レコード×9ペルソナで約15億トークン規模、CC BY 4.0で提供する。個人情報検出用の「Nemotron-PII-Japan」も同日公開した。",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "source": "NVIDIA",
+      "topic": "モデル",
+      "collected_at": "2026-11-10T10:10:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/superdoccimo/status/2119867485394780444"
+    },
+    {
+      "headline": "福岡の不動産テック、AIで建設許可支援　アパートの着工3カ月短縮",
+      "summary": "福岡の不動産テック企業がAIで建設許可の手続きを支援し、アパートの着工を3カ月短縮できるサービスを始めた。日本経済新聞が11月10日付で報じた。有料記事のため企業名など詳細は未確認。",
+      "url": "https://www.nikkei.com/article/DGXZQOJC0523T0V01C26A1000000/",
+      "source": "日本経済新聞",
+      "topic": "建設×AI",
+      "collected_at": "2026-11-10T10:10:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/nikkei_startup/status/2119884882180755964"
+    },
+    {
+      "headline": "Artificial Analysis、Decision Index v2を公開",
+      "summary": "Artificial Analysisは11月8日、意思決定モデルの評価指標「Decision Index v2」を公開した。Drex Max v1.1が同指標で1位となった（モデル自体は別途キュー済み）。",
+      "url": "https://x.com/ArtificialAnlys/status/2119578471559213411",
+      "source": "Artificial Analysis",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-10T10:10:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/ArtificialAnlys/status/2119578471559213411"
+    },
+    {
+      "headline": "Claude Fable 5.2、AA-3Dで1位",
+      "summary": "Claude Fable 5.2（Max）がArtificial Analysisの3Dベンチマーク「AA-3D」で1271 Eloを獲得し1位となった。Claude Sonnet 5.5（1204）とOpus 5.5（1202）を約67ポイント上回った。",
+      "url": "https://x.com/ArtificialAnlys/status/2119953570430881946",
+      "source": "Artificial Analysis",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-10T10:10:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/ArtificialAnlys/status/2119953570430881946"
+    },
+    {
+      "headline": "スペースデータ、RobotBrainにタワークレーン作業の物理シミュレーションを搭載",
+      "summary": "スペースデータは11月9日、ロボット現場実装基盤「RobotBrain」にタワークレーン作業の物理シミュレーション機能を搭載したと発表した。海老名ジャンクションを舞台にクレーン4台と工事車両6台を配置し、架設・荷役・相吊り・掘削・打設・安全教育の6作業を重さや張力、揺れを計算しながら検証できる。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000265.000080352.html",
+      "source": "スペースデータ",
+      "topic": "建設×AI",
+      "collected_at": "2026-11-10T10:10:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/ieiri_lab/status/2119928283668287562"
+    },
+    {
+      "headline": "Claude Fable 5.2、科学画像推論ベンチマークVIALS-AAで1位",
+      "summary": "Artificial Analysisの科学画像推論ベンチマーク「VIALS-AA」でClaude Fable 5.2が1位となった。生命科学画像の推論を161タスク・174画像で測るベンチマークで、Fable 5.2は他のAnthropicモデルより多くのツール呼び出しを行う点が特徴とされる。",
+      "url": "https://x.com/ArtificialAnlys/status/2119990200700940745",
+      "source": "Artificial Analysis",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-10T14:12:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/ArtificialAnlys/status/2119990200700940745"
+    },
+    {
+      "headline": "建設業向け「サクミル」、請求書から仕入登録する「仕入AI」をリリース",
+      "summary": "プレックスは11月10日、建設業向け業務管理サービス「サクミル」に、請求書・領収書のPDFや写真を添付するだけで仕入登録が完了する「仕入AI」の提供を開始した。見積AIに続く第2弾で、仕入先名・仕入日・支払予定日・支払金額をAIが自動で読み取り、合算請求書も明細ごとに該当案件へ振り分ける。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000054.000048655.html",
+      "source": "プレックス",
+      "topic": "建設×AI",
+      "collected_at": "2026-11-10T14:12:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/PRTIMES_TECH/status/2119960359998239137"
+    },
+    {
+      "headline": "川田工業とHighlanders、AIで建設現場を可視化する4足歩行ロボットを共同開発",
+      "summary": "川田工業とHighlandersは11月10日、4足歩行ロボットと現場可視化AIシステムを組み合わせ、建設現場の状況を自動収集・分析するシステムの共同開発を発表した。ロボット搭載カメラの映像をAIが解析し、危険箇所の抽出、資材の所在・数量確認、施工進捗の把握を目指す。2026年度は実寸大橋梁模型で機能開発を進め、2027年度の現場導入を目指す。",
+      "url": "https://www.nikkei.com/article/DGXZRSP715047_Q6A111C2000000/",
+      "source": "川田工業",
+      "topic": "建設×AI",
+      "collected_at": "2026-11-10T14:12:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/kmoriyama/status/2119994028515315898"
+    },
+    {
+      "headline": "「Fitly AI｜拾い・積算」、建設業向けに提供開始",
+      "summary": "Productive codesは11月10日、各社の図面・帳票に合わせて仕立てる積算AI「Fitly AI｜拾い・積算」を建設業向けに提供開始した。",
+      "url": "https://x.com/PRTIMES_TECH/status/2120002019981504821",
+      "source": "Productive codes",
+      "topic": "建設×AI",
+      "collected_at": "2026-11-10T14:12:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/PRTIMES_TECH/status/2120002019981504821"
+    },
     {
       "headline": "Claude Code 2.1.322、VertexでFast modeに対応",
       "summary": "Anthropicが11月10日、Claude Code 2.1.322をリリースした。Google Vertex AI（global／us／euリージョン）でFast modeが利用可能になり、VertexがFast modeを拒否した場合は自動で標準速度にフォールバックする。今回の変更はこの1件。",
@@ -17,6 +217,63 @@
       "collected_at": "2026-11-10T15:20:03+09:00",
       "unconfirmed": false,
       "x_url": "https://x.com/cryptokoala_/status/2119982719170236536"
+    },
+    {
+      "headline": "BALLAS、AI-Native建設サプライチェーン強化へシリーズB総額34億円を調達",
+      "summary": "BALLASがシリーズBで総額34億円（エクイティ25億円、デット9億円）を調達し、累計調達額は約53億円となった。設計データを起点に製造から施工までをつなぐAI-Nativeな建設サプライチェーンの強化に充て、案件協議から納品までをAIエージェントで自動化する取り組みを進める。JICベンチャー・グロース・インベストメンツ、日本政策金融公庫、三菱UFJ銀行などが新たに参画した。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000022.000100360.html",
+      "source": "BALLAS",
+      "topic": "建設×AI",
+      "collected_at": "2026-11-10T17:38:05+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/TheSaaSNews/status/2120067779231690756"
+    },
+    {
+      "headline": "Claude Fable 5.2、Artificial AnalysisのIntelligence Index v5で1位・65点",
+      "summary": "AnthropicのClaude Fable 5.2がArtificial AnalysisのIntelligence Index v5で65点を獲得し1位となった。Gemini 4 Carbon（60点）を5ポイント、Claude Opus 5.5（59点）を6ポイント上回り、科学・知識・コーディングの伸びがけん引した。",
+      "url": "https://x.com/ArtificialAnlys/status/2119878995386982508",
+      "source": "Artificial Analysis",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-10T17:38:05+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Claude Opus 5.5の推論能力が11月3日から急低下したとの指摘、真偽は未確認",
+      "summary": "1,400件のClaude CodeセッションをGeminiで分析したところ、モデル名が同じまま11月3日ごろにOpus 5.5の推論パターンが急変したとの指摘がXで広がり、GIGAZINEも報じた。思考トークンの中央値が84から54へ落ちたなどの数値も示されたが、分析者自身が「モデルの重みが変わった証拠ではない」と注記し、推論要約の仕様変更との見方もあってAnthropicの公式見解はない。未確認の論争として扱う。",
+      "url": "https://x.com/mitsuto_/status/2120063542024122548",
+      "source": "GIGAZINE",
+      "topic": "Claude／Codex",
+      "collected_at": "2026-11-10T17:38:05+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Claude Fable 5.2、GitHub Copilotで一般提供開始",
+      "summary": "GitHubは、Anthropicの最新モデルClaude Fable 5.2をGitHub Copilotで一般提供開始した。複雑なマルチステップのコーディングに対応し、Copilot Pro+、Max、Business、Enterpriseで利用できる。Business・Enterpriseでは管理者がモデルを有効化する必要があり、段階的にロールアウトされる。",
+      "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot/",
+      "source": "GitHub",
+      "topic": "Claude／Codex",
+      "collected_at": "2026-11-10T17:38:05+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/baegyeonghan1/status/2120051419856163165"
+    },
+    {
+      "headline": "MIT、砂・流体・タンパク質を1つのAIモデルで再現する「WorldParticle」を発表",
+      "summary": "MITなどの研究チームが、砂の崩落や流体、変形物体、タンパク質の折りたたみなど6種類の物理現象を1つのAIモデルでシミュレーションする「WorldParticle」を発表した。物質を微小な粒子の集まりとして扱い動きを予測するTransformerベースの仕組みで、タンパク質構造の変化は従来の数値シミュレーションより約100倍速いとしている。SIGGRAPH Asiaで発表予定。",
+      "url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
+      "source": "MIT News",
+      "topic": "モデル",
+      "collected_at": "2026-11-10T17:38:05+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/nekopy_ai/status/2119946997994078371"
+    },
+    {
+      "headline": "Artificial Analysis、モデルの性格を測る「AA-PersonalityBench」を公開",
+      "summary": "Artificial Analysisが、モデルの性格特性を測る新ベンチマーク「AA-PersonalityBench」を公開した。誠実さ・創造性・ユーモアなど30の特性を1〜100のパーセンタイルで評価し、誠実さが高いモデルはスラップ（低質な出力）が少ない傾向、創造性が高いモデルはユーモアも高い傾向などが示された。",
+      "url": "https://x.com/ArtificialAnlys/status/2119813983536283923",
+      "source": "Artificial Analysis",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-10T17:38:05+09:00",
+      "unconfirmed": false
     }
   ]
 }
