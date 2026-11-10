@@ -6,8 +6,63 @@
     "to": "2026-11-11T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 38,
+  "itemCount": 43,
   "items": [
+    {
+      "breaking": true,
+      "collected_at": "2026-11-11T03:36:00+09:00",
+      "headline": "Claude、Whiteboards・Sheets・Dataの提供を開始",
+      "source": "Anthropic",
+      "summary": "AnthropicがClaudeの新機能「Whiteboards」「Sheets」「Data」の提供を開始した。Whiteboardsは計画をチームで編集できるボード、Sheetsは聞くだけで作れる共同編集可能なスプレッドシート、Data（旧Dashboards）は有料プランで一般提供となりデータストーリーの下書きも可能。ツール全体をClaude内で開くインタラクティブコネクターも追加された。",
+      "topic": "Claude／Codex",
+      "unconfirmed": false,
+      "url": "https://x.com/claudeai/status/2120206365759094857",
+      "x_url": "https://x.com/claudeai/status/2120206365759094857"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T03:36:00+09:00",
+      "headline": "OpenAI、ChatGPTに「Businesses in ChatGPT」をベータ開始",
+      "source": "OpenAI",
+      "summary": "OpenAIがChatGPTに「Businesses in ChatGPT」のベータ版を開始した。企業が自社情報を登録・管理し、ユーザーがどう関わっているかのインサイトを得られるほか、顧客の質問に答えるBusiness Agentも構築できる。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+      "x_url": "https://x.com/OpenAI/status/2120216592395174382"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T03:36:00+09:00",
+      "headline": "ChatGPT Businessプラン、Notion・v0など外部ツールで利用可能に",
+      "source": "OpenAI",
+      "summary": "OpenAIが、ChatGPT BusinessプランをNotion、v0、amp、Kilo Code、Warp、Hermes、OpenClaw、OpenCodeなどの外部ツールで使えるようにした。「Sign in with ChatGPT」で連携する。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://x.com/OpenAIDevs/status/2120212596850663712",
+      "x_url": "https://x.com/OpenAIDevs/status/2120212596850663712"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T03:36:00+09:00",
+      "headline": "NVIDIA、自動運転向け推論モデル「Alpamayo 2 Edge」（2B）を公開",
+      "source": "NVIDIA",
+      "summary": "NVIDIAが自動運転向けの2Bパラメータ推論型ビジョン・言語・アクションモデル「Alpamayo 2 Edge」を公開した。適応的推論で走行軌跡と因果説明を生成し、NVIDIA DRIVE AGX Thor上でのリアルタイム推論に最適化。重みはOpenMDW-1.1ライセンスで公開されている。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://huggingface.co/nvidia/Alpamayo2-Edge",
+      "x_url": "https://x.com/lianzheng1999/status/2120205849822199961"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T03:36:00+09:00",
+      "headline": "OpenAI、AI旅行エージェント「Odessia」を買収か",
+      "source": "Francis Davidson",
+      "summary": "AI旅行エージェントOdessiaの創業者フランシス・デイビッドソン氏が、OdessiaがOpenAIに買収され、自身も旅行の未来に取り組むためOpenAIに入社すると発表した。OpenAI側からの発表は現時点で確認できていない。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": true,
+      "url": "https://x.com/FDavidsonT/status/2120214953349263473",
+      "x_url": "https://x.com/FDavidsonT/status/2120214953349263473"
+    },
     {
       "headline": "NVIDIA、ヒトの動画から学ぶロボット基盤モデル「GR00T 2」を発表",
       "summary": "NVIDIAがCoRL 2026でロボット向け世界行動モデル「GR00T 2」を発表した。人間の主観映像40万時間超などで学習し、未見の50タスクのうち40タスクをデモなしで少なくとも1回成功、1回のデモで平均成功率71%、5回で95%を達成した。ロボット学習基盤「Isaac Lab 3.0」も公開し、モデルの重みは12月にオープン化する予定。",
