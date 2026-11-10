@@ -6,7 +6,7 @@
     "to": "2026-11-11T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 29,
+  "itemCount": 33,
   "items": [
     {
       "headline": "NVIDIA、ヒトの動画から学ぶロボット基盤モデル「GR00T 2」を発表",
@@ -293,6 +293,44 @@
       "source": "Artificial Analysis",
       "topic": "論文・ベンチマーク",
       "collected_at": "2026-11-10T17:38:05+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Anthropic、IPOのロードショーを開始",
+      "summary": "Anthropicは、計画している新規株式公開（IPO）に向けたロードショーを開始したと発表した。11月9日のClaude Fable 5.2発表に続く動きで、同社の上場準備が具体化した。",
+      "url": "https://x.com/AnthropicAI/status/2120117722230968385",
+      "source": "Anthropic",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-10T21:37:59+09:00",
+      "unconfirmed": false,
+      "breaking": true
+    },
+    {
+      "headline": "Google、TPUの新システム「TPU 8tx」「TPU 8i Max」を発表",
+      "summary": "Googleは第8世代TPUの新システム2種を発表した。TPU 8txは機密推論・小規模学習向けで、AMD第5世代EPYCホストと組み合わせデータとモデルを保護しながら処理する。TPU 8i MaxはTPU 8iを2チップ1パッケージ化し、計算・SRAM・HBM帯域を2倍にして大規模コンテキストやマルチエージェント推論に対応する。2026年に4システム目となる。",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/?ref=explainx",
+      "source": "Google Cloud Blog",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-10T21:37:59+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/innoworkspro/status/2120111397128520121"
+    },
+    {
+      "headline": "ChatGPT EnterpriseがAWS Marketplaceで提供開始",
+      "summary": "OpenAIは11月9日、ChatGPT EnterpriseをAWS Marketplaceで提供開始したと発表した。企業は既存のAWS購買・請求関係を通じてChatGPT Enterpriseを購入・管理でき、対象の支出はAWSコミットメントに充当できる。ChatGPT、ChatGPT Work、Codex、dotsを含む同一の機能が提供される。",
+      "url": "https://x.com/OptionKing666/status/2120109525546291516",
+      "source": "OpenAI",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-10T21:37:59+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Google WorkspaceでGeminiの「スキル」が展開開始",
+      "summary": "Googleは、Geminiにチームのルールやテンプレート、参照ファイルに従わせる再利用可能なカスタム指示「スキル」を、Google Workspace StudioとWorkspaceアプリで展開開始したと発表した。Rapid Releaseドメインは11月9日から順次展開（最大15日）、Scheduled Releaseは11月30日から。Gmail、Docs、Slides、Drive、Chatで利用できる。",
+      "url": "https://x.com/AIOPSFOUNDRY/status/2120111233571409937",
+      "source": "Google Workspace Updates",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-10T21:37:59+09:00",
       "unconfirmed": false
     }
   ]
