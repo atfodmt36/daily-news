@@ -6,47 +6,17 @@
     "to": "2026-11-11T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 4,
+  "itemCount": 1,
   "items": [
     {
-      "collected_at": "2026-11-10T14:12:00+09:00",
-      "headline": "Claude Fable 5.2、科学画像推論ベンチマークVIALS-AAで1位",
-      "source": "Artificial Analysis",
-      "summary": "Artificial Analysisの科学画像推論ベンチマーク「VIALS-AA」でClaude Fable 5.2が1位となった。生命科学画像の推論を161タスク・174画像で測るベンチマークで、Fable 5.2は他のAnthropicモデルより多くのツール呼び出しを行う点が特徴とされる。",
-      "topic": "論文・ベンチマーク",
+      "headline": "Claude Code 2.1.322、VertexでFast modeに対応",
+      "summary": "Anthropicが11月10日、Claude Code 2.1.322をリリースした。Google Vertex AI（global／us／euリージョン）でFast modeが利用可能になり、VertexがFast modeを拒否した場合は自動で標準速度にフォールバックする。今回の変更はこの1件。",
+      "url": "https://x.com/cryptokoala_/status/2119982719170236536",
+      "source": "Claude Code",
+      "topic": "Claude／Codex",
+      "collected_at": "2026-11-10T15:20:03+09:00",
       "unconfirmed": false,
-      "url": "https://x.com/ArtificialAnlys/status/2119990200700940745",
-      "x_url": "https://x.com/ArtificialAnlys/status/2119990200700940745"
-    },
-    {
-      "collected_at": "2026-11-10T14:12:00+09:00",
-      "headline": "建設業向け「サクミル」、請求書から仕入登録する「仕入AI」をリリース",
-      "source": "プレックス",
-      "summary": "プレックスは11月10日、建設業向け業務管理サービス「サクミル」に、請求書・領収書のPDFや写真を添付するだけで仕入登録が完了する「仕入AI」の提供を開始した。見積AIに続く第2弾で、仕入先名・仕入日・支払予定日・支払金額をAIが自動で読み取り、合算請求書も明細ごとに該当案件へ振り分ける。",
-      "topic": "建設×AI",
-      "unconfirmed": false,
-      "url": "https://prtimes.jp/main/html/rd/p/000000054.000048655.html",
-      "x_url": "https://x.com/PRTIMES_TECH/status/2119960359998239137"
-    },
-    {
-      "collected_at": "2026-11-10T14:12:00+09:00",
-      "headline": "川田工業とHighlanders、AIで建設現場を可視化する4足歩行ロボットを共同開発",
-      "source": "川田工業",
-      "summary": "川田工業とHighlandersは11月10日、4足歩行ロボットと現場可視化AIシステムを組み合わせ、建設現場の状況を自動収集・分析するシステムの共同開発を発表した。ロボット搭載カメラの映像をAIが解析し、危険箇所の抽出、資材の所在・数量確認、施工進捗の把握を目指す。2026年度は実寸大橋梁模型で機能開発を進め、2027年度の現場導入を目指す。",
-      "topic": "建設×AI",
-      "unconfirmed": false,
-      "url": "https://www.nikkei.com/article/DGXZRSP715047_Q6A111C2000000/",
-      "x_url": "https://x.com/kmoriyama/status/2119994028515315898"
-    },
-    {
-      "collected_at": "2026-11-10T14:12:00+09:00",
-      "headline": "「Fitly AI｜拾い・積算」、建設業向けに提供開始",
-      "source": "Productive codes",
-      "summary": "Productive codesは11月10日、各社の図面・帳票に合わせて仕立てる積算AI「Fitly AI｜拾い・積算」を建設業向けに提供開始した。",
-      "topic": "建設×AI",
-      "unconfirmed": false,
-      "url": "https://x.com/PRTIMES_TECH/status/2120002019981504821",
-      "x_url": "https://x.com/PRTIMES_TECH/status/2120002019981504821"
+      "x_url": "https://x.com/cryptokoala_/status/2119982719170236536"
     }
   ]
 }
