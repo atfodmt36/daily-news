@@ -6,7 +6,7 @@
     "to": "2026-11-11T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 43,
+  "itemCount": 47,
   "items": [
     {
       "breaking": true,
@@ -438,6 +438,50 @@
       "collected_at": "2026-11-11T02:09:48+09:00",
       "unconfirmed": false,
       "x_url": "https://x.com/heybackchannel/status/2120034802648703388"
+    },
+    {
+      "headline": "Claude、MCP Apps拡張を拡充—アプリ全体をClaude内で実行可能に",
+      "summary": "AnthropicのClaude Devsが、MCP Apps拡張への対応を拡大したと発表した。アプリツールや埋め込みサイトに対応し、アプリ全体をClaude内で実行できるようになる。",
+      "url": "https://x.com/ClaudeDevs/status/2120227979041341943",
+      "source": "Anthropic",
+      "topic": "Claude／Codex",
+      "collected_at": "2026-11-11T06:03:48+09:00",
+      "unconfirmed": false,
+      "breaking": false,
+      "x_url": "https://x.com/ClaudeDevs/status/2120227979041341943"
+    },
+    {
+      "headline": "Google DeepMindとArtificial Analysis、視覚的知識労働の新ベンチマーク「MKA」を公開",
+      "summary": "Google DeepMindとArtificial Analysisが、図面や設計図、臨床スキャンなど視覚的に複雑な実務ファイルを扱うエージェント向けの新ベンチマーク「MKA」を公開した。10業種・83職種の専門家と設計した200タスクで評価し、Gemini 4 Carbonは品質2位で、首位モデルの約6分の1のコストだった。",
+      "url": "https://x.com/GoogleDeepMind/status/2120219377601560854",
+      "source": "Google DeepMind",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-11T06:03:48+09:00",
+      "unconfirmed": false,
+      "breaking": false,
+      "x_url": "https://x.com/GoogleDeepMind/status/2120219377601560854"
+    },
+    {
+      "headline": "アドビ、GenStudioにAIエージェント「CX Enterprise Coworker」を統合",
+      "summary": "アドビはAdobe MAX 2026で、企業向けコンテンツサプライチェーン「GenStudio」にAIエージェント「CX Enterprise Coworker」を統合したと発表した。対話型インターフェースでキャンペーンの企画から制作・実行までを調整するほか、Workfrontへの「アイデア創出スペース」追加や3Dデジタルツインの拡張も発表した。",
+      "url": "https://www.businesswire.com/news/home/20261110090454/en/Adobe-Brings-Agentic-AI-to-the-Content-Supply-Chain-with-CX-Enterprise-Coworker",
+      "source": "Adobe",
+      "topic": "3D生成・制作（クリエイティブ）",
+      "collected_at": "2026-11-11T06:03:48+09:00",
+      "unconfirmed": false,
+      "breaking": false,
+      "x_url": "https://x.com/NANA_CoRRiENTE/status/2120156092378599765"
+    },
+    {
+      "headline": "生成AIで業務が速くなっても「やりがいが高まった」は46.4％にとどまる（GPTW Japan調査）",
+      "summary": "GPTW Japanの調査で、生成AIによって業務が効率化しても「仕事のやりがいが高まった」と答えた人は46.4％と半数未満だった。AI活用で上司や同僚との相談・協働が減った人もいるという。",
+      "url": "https://x.com/kyodonewsprwire/status/2118146367352905971",
+      "source": "GPTW Japan",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-11T06:03:48+09:00",
+      "unconfirmed": false,
+      "breaking": false,
+      "x_url": "https://x.com/kyodonewsprwire/status/2118146367352905971"
     }
   ]
 }

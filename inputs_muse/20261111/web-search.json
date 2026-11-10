@@ -6,7 +6,7 @@
     "to": "2026-11-11T08:00:00+09:00"
   },
   "source": "web-search",
-  "itemCount": 6,
+  "itemCount": 7,
   "items": [
     {
       "headline": "総務省、漏洩情報サイトへのアクセス抑止策を検討する作業部会を新設へ",
@@ -61,6 +61,16 @@
       "topic": "生成AI・その他",
       "collected_at": "2026-11-11T02:09:48+09:00",
       "unconfirmed": false
+    },
+    {
+      "headline": "「AIの方が遅いと分かっていてもAIを使う」労働者が52％（JobAssist調査）",
+      "summary": "JobAssistの調査（TechRadar報道）によると、労働者の52％が自分でやった方が速いと思いながらもAIを使ったと答えた。63％が雇用主からAI利用を奨励・期待されているとし、34％は期待に応えるため否定的な結果を報告しなかったという。",
+      "url": "https://tech-insider.org/workers-pressure-use-ai-show-off-bosses-jobassist-52-percent-2026/",
+      "source": "JobAssist",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-11T06:03:48+09:00",
+      "unconfirmed": false,
+      "breaking": false
     }
   ]
 }
