@@ -1,10 +1,10 @@
-# Claude Code collect — GitHub Actions trial
+# Claude Code collect — GitHub Actions
 
-This folder is a **trial port** of the AI Radar "Claude Code collect" to
-GitHub Actions. The production run still lives on the owner's home PC
-(Claude Code over SSH, driven from Muse every morning ~08:09 JST for the
-previous 08:00 → 08:00 JST window); this port mirrors it as faithfully as
-possible so the two can be compared:
+This folder is the AI Radar "Claude Code collect", running in GitHub
+Actions. It moved here on 2026-11-11 from the owner's home PC (Claude
+Code over SSH, driven from Muse) after a same-window trial produced
+output comparable to the PC pipeline (21 items, 15/15 targets checked).
+It mirrors the original design:
 
 - Same prompt: `prompts/common.md` + `collect-sources.md` +
   `prompts/task.md`, rendered by `gh_collect_run.py` with the same
@@ -34,9 +34,11 @@ Then store the token it prints as a repository secret named
 Actions → New repository secret). Without it, the workflow fails fast in
 its preflight step with an explanation. Never commit the token anywhere.
 
-## Running the trial
+## Running it manually
 
-Actions tab → **Claude Code collect (trial)** → Run workflow.
+The workflow runs on a schedule (daily 23:09 UTC = 08:09 JST, always
+committing) and can also be run by hand: Actions tab → **Claude Code
+collect** → Run workflow.
 
 - `commit` (default **false**): leave the results only in the workflow
   artifact — nothing in the repo changes. Set it to **true** only for a
@@ -51,9 +53,9 @@ Actions tab → **Claude Code collect (trial)** → Run workflow.
 Exit codes mirror production: 0 ok, 3 auth failure, 4 no parseable JSON,
 5 claude/transport failure, 6 validation failed after the fix attempt.
 
-## Not yet
+## Status
 
-The `on:` trigger is **`workflow_dispatch` only** — there is
-intentionally no schedule yet. A cron trigger (and retiring the PC run)
-comes only after a manual trial produces output comparable to the PC
-pipeline.
+Production since 2026-11-11: the scheduled workflow is the only daily
+collect. The PC pipeline (claude-collect.sh on the owner's PC, driven by
+a Muse cron) is retired but kept in place for manual use if ever
+needed.

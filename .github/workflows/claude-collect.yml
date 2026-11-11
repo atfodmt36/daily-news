@@ -1,10 +1,13 @@
-name: Claude Code collect (trial)
+name: Claude Code collect
 
-# Trial port of the AI Radar Claude Code collect (the production run lives
-# on the owner's PC, driven from Muse; see collect/README.md).
-# Manual dispatch ONLY — no schedule until the trial passes.
+# AI Radar Claude Code collect, running in GitHub Actions (moved from the
+# owner's PC pipeline on 2026-11-11 after a successful trial; see
+# collect/README.md). Scheduled daily at 23:09 UTC = 08:09 JST; scheduled
+# runs always commit. Manual dispatch defaults to a no-commit trial run.
 
 on:
+  schedule:
+    - cron: "9 23 * * *"
   workflow_dispatch:
     inputs:
       commit:
@@ -62,7 +65,7 @@ jobs:
         id: collect
         run: |
           args=()
-          if [ "${{ inputs.commit }}" = "true" ]; then args+=(--commit); fi
+          if [ "${{ inputs.commit }}" = "true" ] || [ "${{ github.event_name }}" = "schedule" ]; then args+=(--commit); fi
           if [ -n "${{ inputs.from }}" ]; then args+=(--from "${{ inputs.from }}"); fi
           if [ -n "${{ inputs.to }}" ]; then args+=(--to "${{ inputs.to }}"); fi
           python3 collect/gh_collect_run.py "${args[@]}" | tee driver-stdout.txt
@@ -91,7 +94,7 @@ jobs:
           retention-days: 14
 
       - name: Commit and push the inputs envelope
-        if: ${{ inputs.commit && steps.collect.outputs.inputs_path != '' }}
+        if: ${{ (inputs.commit || github.event_name == 'schedule') && steps.collect.outputs.inputs_path != '' }}
         run: |
           git config user.name "claude-collect (GitHub Actions)"
           git config user.email "claude-collect@users.noreply.github.com"
