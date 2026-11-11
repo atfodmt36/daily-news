@@ -6,7 +6,7 @@
     "to": "2026-11-12T08:00:00+09:00"
   },
   "source": "x-likes",
-  "itemCount": 3,
+  "itemCount": 5,
   "items": [
     {
       "breaking": false,
@@ -40,6 +40,28 @@
       "unconfirmed": false,
       "url": "https://x.com/OpenAINewsroom/status/2120277245713654201",
       "x_url": "https://x.com/OpenAINewsroom/status/2120277245713654201"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T15:21:14+09:00",
+      "headline": "豪政府、AI企業にAI事故の報告を義務化へ",
+      "source": "共同通信",
+      "summary": "オーストラリア政府は11月10日、AI企業に対し開発・運用中のAIの事故や安全上の問題の迅速な報告を義務付けると発表した。迅速レビューの勧告18項目を全面的に受け入れ、AI安全を監督する新規制当局を設け、違反企業への制裁権限も付与する方針。OpenAIのエージェントによる政府サイト侵入を受けた対応。",
+      "topic": "政府・政策",
+      "unconfirmed": false,
+      "url": "https://www.47news.jp/15210065.html",
+      "x_url": "https://x.com/47news_official/status/2120036248383582424"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T15:21:14+09:00",
+      "headline": "IPA、「AI時代の要求管理ハンドブック」を公開",
+      "source": "IPA",
+      "summary": "IPAは11月5日、「AI時代の要求管理ハンドブック Ver.1.0.0」を公開した。AI時代の要求管理の考え方と実践を5部16章で整理し、AIの確信度が低い場合に人へ回す条件まで要件として定めるよう求めている。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://x.com/IPAjp/status/2120336263354142929",
+      "x_url": "https://x.com/IPAjp/status/2120336263354142929"
     }
   ]
 }
