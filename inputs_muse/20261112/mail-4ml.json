@@ -6,7 +6,7 @@
     "to": "2026-11-12T08:00:00+09:00"
   },
   "source": "mail-4ml",
-  "itemCount": 9,
+  "itemCount": 20,
   "items": [
     {
       "collected_at": "2026-11-11T19:34:00+09:00",
@@ -88,6 +88,105 @@
       "topic": "生成AI・その他",
       "unconfirmed": false,
       "url": "https://x.com/upura0/status/2120332562233217344"
+    },
+    {
+      "collected_at": "2026-11-12T07:34:00+09:00",
+      "headline": "Google、選択・採点特化の意思決定モデル「Gemini Decision 1」を公開",
+      "source": "ML_Bear Times",
+      "summary": "GoogleがGemini Decisions APIと初の意思決定モデルGemini Decision 1を公開した。yes/no・最大255択・スコアを確率付きで返し、最大1,000問を1パスで処理できる。入力は100万トークンあたり0.10ドルで出力は無料。画像・音声・動画・PDFに対応し、AI StudioとOpenRouterで初日から利用できる。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/GoogleAIStudio/status/2120581284690801060"
+    },
+    {
+      "collected_at": "2026-11-12T07:34:00+09:00",
+      "headline": "AnthropicのIPO申込が数倍に、Q4のARR見通しは77Bドル【続報】",
+      "source": "ML_Bear Times",
+      "summary": "Bloombergによると、AnthropicのIPOへの注文が募集株数の数倍に達し、私募と合わせ最大904億ドルを調達する史上最大のIPOになる可能性がある。一方、Q4のARRガイダンスは770億ドルで、10月時点の810億ドルを下回った。日本向けに30〜35億ドルの株式発行が見込まれ、SpaceXとの高額計算資源契約は1月・3月に解約可能とされる。",
+      "topic": "AIビジネス",
+      "unconfirmed": false,
+      "url": "https://x.com/business/status/2120509393313685818"
+    },
+    {
+      "collected_at": "2026-11-12T07:34:00+09:00",
+      "headline": "Fable 5.2がAgent Arenaで首位、Epoch指数でOpenAIは3位に【続報】",
+      "source": "ML_Bear Times",
+      "summary": "Arena.aiのAgent ArenaでFable 5.2が4,700件の実セッションで純改善+30.4%を記録し、2位のOpus-5.5の約1.6倍で首位となった。Epoch AIのCapabilities IndexでもFable 5.2とGemini 4 Carbonが上位に入り、OpenAIの6 Astraは1年ぶりに3位へ後退した。Google Cloudでも提供が始まった。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/arena/status/2120568144687460434"
+    },
+    {
+      "collected_at": "2026-11-12T07:34:00+09:00",
+      "headline": "n8n、OSSの個人Agent「Nod」を公開",
+      "source": "ML_Bear Times",
+      "summary": "n8n Labsが自分のPC上で動くオープンソースの個人Agent「Nod」を公開した。Apache 2.0ライセンスで、Mac・Windows・自前サーバで動作し、専用ブラウザを持ちAIプロバイダを自由に選択できる。Linux作業環境とChromiumを隔離されたDockerコンテナで動かす構成。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/n8n_io/status/2120431328458076315"
+    },
+    {
+      "collected_at": "2026-11-12T07:34:00+09:00",
+      "headline": "Grok Bot 1.0正式版、Slack参加やビデオ通話に対応",
+      "source": "ML_Bear Times",
+      "summary": "SpaceX Super IntelligenceがGrok Bot初の安定版1.0を発表し、ベータを終了した。Botの共有・協調性が強化され、Slackへの参加、ビデオ通話への参加、Gopuffでの日用品注文に対応した。先週は利用枠を使い切るユーザーが続出したという。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/SpaceXSI/status/2120584928983441826"
+    },
+    {
+      "collected_at": "2026-11-12T07:34:00+09:00",
+      "headline": "DateBench、AIがマッチングアプリで510人と会う約束を取り付け",
+      "source": "ML_Bear Times",
+      "summary": "5つのフロンティアモデルに6日間マッチングアプリで実在の人とやりとりさせる実験で、1,277件の会話から510人が会うことに同意し、355人が電話番号を送信した。Botかと尋ねたのは8人だけだった。最良の成績はGemini 4 Argonで、詐欺への悪用が懸念されている。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/shaped/status/2120565783554400495"
+    },
+    {
+      "collected_at": "2026-11-12T07:34:00+09:00",
+      "headline": "日本の全法令をgit履歴化したZenn記事が話題に",
+      "source": "ML_Bear Times",
+      "summary": "日本の全法令の改正履歴をgitの履歴として再構成したZenn記事が話題になっている。法務NLPで構想として言及されてきた取り組みを完遂したとして注目され、法令差分データは法務分野のLLM評価やRAG素材としても期待されている。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://zenn.dev/koheiwada/articles/houritsu-japanese-laws-as-git"
+    },
+    {
+      "collected_at": "2026-11-12T07:34:00+09:00",
+      "headline": "PFN、AI AgentでMN-Coreに711モデルを移植",
+      "source": "ML_Bear Times",
+      "summary": "PFNが新しいLLMのMN-Coreへの移植をAI Agentで解決した。MN-Core L1000向けに711モデルを移植し、ピーク時は約100のAgentが並行作業、対象約2,300モデルのダウンロード数の99%をカバーした。岡野原大輔氏は新ハードウェアのソフト対応はもはや普及の障壁ではないと述べた。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://www.preferred.jp/ja/blog/tech/port-llms-to-mncore-l"
+    },
+    {
+      "collected_at": "2026-11-12T07:34:00+09:00",
+      "headline": "OpenAIの研究、高知能モデルほどCoT監視が困難に",
+      "source": "ML_Bear Times",
+      "summary": "OpenAIが学習ライフサイクルを通じた思考の連鎖（CoT）の監視可能性の変化を調べた新しい研究を公開した。より賢いモデルほどCoTを通じた監視が難しくなるという結果で、未解明点は多いものの、問題がどこで現れるかを研究する枠組みとして推薦されている。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/jeffreygwang/status/2120581630196879460"
+    },
+    {
+      "collected_at": "2026-11-12T07:34:00+09:00",
+      "headline": "重み編集でLLMにバックドア、検知にはフロンティアAgentが有効",
+      "source": "ML_Bear Times",
+      "summary": "Weight space Programmingにより重みを直接編集してモデルにバックドアを仕込めることが示された。フォルダのパスを聞かれ、かつ日付が2027年1月1日の条件でcurlで取得した命令をシェルに渡す挙動を埋め込む例が示された。一方、不自然な重みはフロンティアAgentに調べさせると高い検出率で見つかり、強化学習で強化も可能という。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/webbigdata/status/2120524255192547836"
+    },
+    {
+      "collected_at": "2026-11-12T07:34:00+09:00",
+      "headline": "Fal・Together・Baseten、NVIDIAチップ自前購入へ",
+      "source": "ML_Bear Times",
+      "summary": "The Informationによると、計算資源の逼迫を受けAI推論スタートアップがビジネスモデル見直しを迫られている。Fal、Together、Basetenはクラウド依存をやめ自前でNVIDIAチップを購入する方向という。割り当て不足で多数の小規模クラウドを併用するようになり、セキュリティが不十分な場合がある点も指摘されている。",
+      "topic": "AIビジネス",
+      "unconfirmed": false,
+      "url": "https://x.com/theinformation/status/2120607581324390850"
     }
   ]
 }
