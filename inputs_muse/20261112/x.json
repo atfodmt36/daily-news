@@ -1,0 +1,78 @@
+{
+  "date": "2026/11/12",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-11T08:00:00+09:00",
+    "to": "2026-11-12T08:00:00+09:00"
+  },
+  "source": "x",
+  "itemCount": 6,
+  "items": [
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T10:07:22+09:00",
+      "headline": "Googleの動画モデル「Gemini Omni Flash 1.2」、Artificial Analysisの動画編集ベンチで2位に",
+      "source": "Artificial Analysis",
+      "summary": "11月5日に公開されたGoogleの最新動画モデル「Gemini Omni Flash 1.2」が、Artificial Analysisの動画編集ベンチマークAA-Video-Editing v1.1で2位に入った。Text-to-Video（v2.1）では12位から6位、Image-to-Video（v2.1）では17位から14位に改善した。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://x.com/ArtificialAnlys/status/2120283459805749688",
+      "x_url": "https://x.com/ArtificialAnlys/status/2120283459805749688"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T10:07:22+09:00",
+      "headline": "Graphisoft、ArchicadとデスクトップAIアプリをつなぐ公開MCPサーバーを提供",
+      "source": "Graphisoft",
+      "summary": "ArchicadのBIMモデルとClaudeなどのデスクトップAIアプリを直接つなぐ公開MCPサーバー。自然言語の指示でBIMモデルに対するワークフローをAIが実行できる。",
+      "topic": "建設×AI",
+      "unconfirmed": false,
+      "url": "https://x.com/ARCHICAD/status/2120222492371374496",
+      "x_url": "https://x.com/ARCHICAD/status/2120222492371374496"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T10:07:22+09:00",
+      "headline": "ElevenLabs、音声認識「Scribe v3」とリアルタイム版「Scribe v3 Live」を公開",
+      "source": "ElevenLabs",
+      "summary": "録音用のScribe v3は102言語で単語誤り率がv2比27%減。通話・字幕用のScribe v3 Liveは意味的誤り率が43%減で、リアルタイムの話者分離に初対応。APIの基本単価は前世代と同じ。",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "unconfirmed": false,
+      "url": "https://x.com/ishioka_daisuke/status/2120312003185041419",
+      "x_url": "https://x.com/ishioka_daisuke/status/2120312003185041419"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T10:07:22+09:00",
+      "headline": "声帯や肺を物理シミュレーションで再現する音声シンセ「CHIMERA Vocal Synth」が公開",
+      "source": "gihyo.jp",
+      "summary": "録音サンプルを使わず、声帯・声道など発声器官の物理モデルから音を合成するRust製の音声シンセサイザー。ブラウザ上で舌・唇・顎を操作して発話・歌唱・ビートボックスができ、MITライセンスでオープンソース公開された。",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "unconfirmed": false,
+      "url": "https://gihyo.jp/article/2026/11/chimera-vocal-synth",
+      "x_url": "https://x.com/Syynya/status/2120314309721088302"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T10:07:22+09:00",
+      "headline": "人事の92%が「社員はAI職に育成可能」と回答も、実際は外部採用51%が主流",
+      "source": "ZDNET Japan",
+      "summary": "Careermindsの調査（米国の人事担当者595人・管理職547人）で、人事の92%が社員をAI関連職にリスキリングできると考える一方、AI関連職の外部採用は51%、社内配置転換は42%にとどまった。外部採用のコストは社内登用の3〜5倍になる可能性もあるという。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://japan.zdnet.com/article/35254501/",
+      "x_url": "https://x.com/saiyounaka/status/2120307925738774993"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T10:07:22+09:00",
+      "headline": "食品スーパーぎゅーとら全店でAI需要予測×自動納品の実証実験を開始",
+      "source": "IDプラスアイ",
+      "summary": "シノプスと三重県の食品スーパーぎゅーとらが、全店でAIによる需要予測と自動納品の実証実験を開始した。欠品削減と店舗業務の効率化を検証する。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://x.com/PurchaseTW/status/2119792040657780813",
+      "x_url": "https://x.com/PurchaseTW/status/2119792040657780813"
+    }
+  ]
+}
