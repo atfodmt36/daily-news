@@ -6,7 +6,7 @@
     "to": "2026-11-12T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 37,
+  "itemCount": 42,
   "items": [
     {
       "breaking": false,
@@ -414,6 +414,61 @@
       "unconfirmed": false,
       "url": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
       "x_url": "https://x.com/larsnow/status/2120434498747695254"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T22:22:08+09:00",
+      "headline": "DeepMind、Signal暗号の安全性をAIで数学的に証明する「AlphaProof Code」を発表",
+      "source": "Google DeepMind",
+      "summary": "Google DeepMindが11月10日、形式検証のためのエージェント型フレームワーク「AlphaProof Code」を発表した。Gemini Carbonが駆動するエージェントが600万行超のLean証明を生成し、Signalプロトコルの暗号コードの主要な安全性を数学的に証明した。検証は約4週間で完了し、再挿入した既知のバグ2件も正しく不安全と判定した。検証成果物はオープンソース化される。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "x_url": "https://x.com/GoogleDeepMind/status/2120484246401777737"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T22:22:08+09:00",
+      "headline": "Blender 5.3、3D Gaussian Splattingにネイティブ対応",
+      "source": "Blender",
+      "summary": "Blender Foundationが11月10日に公開したBlender 5.3で、3D Gaussian Splatting（ガウシアンスプラット）の取り込み・編集・レンダリングにネイティブ対応した。PLY・SPZ・glTF・USDから読み込み、点群として保持し、Workbench／EEVEE／Cyclesでレンダリングできる。エクスポートには未対応。",
+      "topic": "3D生成・制作（クリエイティブ）",
+      "unconfirmed": false,
+      "url": "https://code.blender.org/2026/10/splatting-the-gaussians-into-blender/",
+      "x_url": "https://x.com/AIMIRAI46487/status/2120476232274079816"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T22:22:08+09:00",
+      "headline": "ElevenLabs、音声文字起こしモデル「Scribe v3」「Scribe v3 Live」を発表",
+      "source": "ElevenLabs",
+      "summary": "ElevenLabsが11月10日、音声文字起こしモデル「Scribe v3」（録音用）と「Scribe v3 Live」（リアルタイム用）を発表した。102言語で単語誤り率をv2比27%削減し、Liveは意味的単語誤り率を43%削減。Liveはリアルタイムでの話者分離（ダイアリゼーション）に初対応し、話者誤り率3.1%をうたう。",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "unconfirmed": false,
+      "url": "https://nvdium.com/en/articles/369731498",
+      "x_url": "https://x.com/unikoukokun/status/2120500648378777988"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T22:22:08+09:00",
+      "headline": "Adobe、Photoshopなどに外部AIエージェントが直接入るローカルMCP連携をプレビュー公開",
+      "source": "Adobe",
+      "summary": "Adobeが11月10日のAdobe MAXで、ChatGPT・Claude・Geminiなどの外部AIエージェントがローカルのPhotoshop／Illustrator／Premiere Pro／After Effectsのプロジェクトファイルに直接変更を加えられる「ローカルMCP連携」をプレビュー公開した。レイヤーやシーケンスは編集可能なまま残る。プライベートベータは2027年初頭を予定。",
+      "topic": "画像生成・編集",
+      "unconfirmed": false,
+      "url": "https://www.fastcompany.com/91637530/adobe-is-fully-entering-its-agent-era",
+      "x_url": "https://x.com/techAU/status/2120468645449232646"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T22:22:08+09:00",
+      "headline": "Bitoの長期エージェント型コーディング評価、Claude Opus 5.5が85.0%で首位",
+      "source": "Bito",
+      "summary": "Bitoが11月11日、自社の長期エージェント型コーディングベンチマークの結果を発表した。Claude Opus 5.5が85.0%で、Claude Fable 5.2の83.1%を上回った。長期セッション（5ターンの実務コーディング）を75%で重み付けした独自評価。",
+      "topic": "評価",
+      "unconfirmed": false,
+      "url": "https://bito.ai/blog/gemini-4-argon-vs-claude-opus-sonnet/",
+      "x_url": "https://x.com/BitoHQ/status/2120484039459291631"
     }
   ]
 }
