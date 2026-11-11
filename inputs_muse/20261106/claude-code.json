@@ -1,0 +1,426 @@
+{
+  "date": "2026/11/06",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-05T08:00:00+09:00",
+    "to": "2026-11-06T08:00:00+09:00"
+  },
+  "source": "claude-code",
+  "itemCount": 22,
+  "items": [
+    {
+      "topic": "ChatGPT",
+      "headline": "OpenAI、サイバーセキュリティ特化モデル「GPT-6 Cyber」を発表",
+      "summary": "脆弱性の調査・認可環境での検証・修正支援に特化したGPT-6 Cyberを公開。Preparedness Frameworkで「Critical」に分類し、承認済みDaybreak Red顧客に限定(MFA・SSO・APIのIP許可リスト等の本人確認要件付き)。認可外サービスへの非逸脱率は安全プロンプトなしで99.93%(GPT-5.6 Cyberの94.49%から向上)、Firefoxで81件の高深刻度脆弱性を新規発見。",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+      "source": "OpenAI",
+      "published_at": "2026-11-05T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "model",
+        "security",
+        "date-only"
+      ],
+      "related_urls": [
+        "https://developers.openai.com/api/docs/changelog",
+        "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
+      ],
+      "collected_at": "2026-11-12T01:11:13+09:00"
+    },
+    {
+      "topic": "Microsoft Foundry",
+      "headline": "Azure Developer CLI向けMicrosoft Foundry拡張がGA(v1.0)",
+      "summary": "azd用Microsoft Foundry拡張(microsoft.foundry)がバージョン1.0で一般提供開始。単一のazure.yamlでAzureリソースのプロビジョニング、ホスト型エージェントのローカルテスト・評価・デプロイをコードと同じ場所で管理できる。",
+      "url": "https://devblogs.microsoft.com/foundry/microsoft-foundry-azure-developer-cli-ga/",
+      "source": "Microsoft Foundry Blog",
+      "published_at": "2026-11-05T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "agents",
+        "tooling",
+        "date-only"
+      ],
+      "related_urls": [
+        "https://devblogs.microsoft.com/foundry/feed/"
+      ],
+      "collected_at": "2026-11-12T01:11:13+09:00"
+    },
+    {
+      "topic": "Microsoft Foundry",
+      "headline": "Foundry Localがオンデバイスのエージェンティックコーディングに対応(Qwen3.8-27B)",
+      "summary": "Foundry Localで開発端末上でのエージェンティックコーディングを実現し、Qwen3.8-27Bをローカル実行。ONNX Runtime最適化で最小24GB VRAMのコンシューマーGPUに対応、上位GPUで最大262Kトークンのコンテキスト、GitHub CopilotとはBYOKで連携。CLIは0.13.0で当初NVIDIA GPU対応、Mac/AMDは今後拡張予定。",
+      "url": "https://devblogs.microsoft.com/foundry/foundry-local-agentic-coding-qwen3-8-27b/",
+      "source": "Microsoft Foundry Blog",
+      "published_at": "2026-11-05T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "preview",
+      "tags": [
+        "foundry-local",
+        "coding",
+        "date-only"
+      ],
+      "related_urls": [
+        "https://devblogs.microsoft.com/foundry/feed/"
+      ],
+      "collected_at": "2026-11-12T01:11:13+09:00"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "headline": "Copilot利用状況メトリクスAPIにコードレビュー詳細と対応率を追加",
+      "summary": "Enterprise/Organization向け利用状況メトリクスAPIにコードレビュー分析を追加。total_comments_evaluatedやtotal_comments_addressed等の指標で、Copilotのコードレビュー提案への対応率(addressed rate)を深刻度・レビュー階層・コメント種別別に算出できる。",
+      "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-05T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "api",
+        "metrics",
+        "date-only"
+      ],
+      "related_urls": [
+        "https://github.blog/changelog/label/copilot/feed/"
+      ],
+      "collected_at": "2026-11-12T01:11:13+09:00"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "headline": "Copilot利用状況メトリクスAPIがテレメトリ・バージョン欠落を検知",
+      "summary": "利用状況メトリクスAPIに、クライアントテレメトリ欠落や最低要件未満のIDE/拡張バージョンを使うユーザーを特定する新フィールド(client_telemetry_present、usage_metrics_requirements等)を追加。古いエディタ・無効化されたテレメトリ・プロキシ/ファイアウォールが原因の計測欠落を把握できる。",
+      "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-05T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "api",
+        "metrics",
+        "date-only"
+      ],
+      "related_urls": [
+        "https://github.blog/changelog/label/copilot/feed/"
+      ],
+      "collected_at": "2026-11-12T01:11:13+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Microsoft 365管理センターにエージェント利用状況レポートを追加",
+      "summary": "新しいエージェント利用状況レポートで、アクティブなエージェント利用者数・エージェント数、ライセンス有無別のアクティブユーザー、発行元種別(ユーザー作成/組織構築/Microsoft/パートナー)別の内訳、ユーザー・エージェント・ペア単位の利用詳細を確認できる(Web)。Oct28-Nov3対象のリリースノートバッチ。",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes",
+      "source": "Microsoft 365 Copilot リリースノート",
+      "published_at": "2026-11-05T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "admin",
+        "date-only",
+        "borderline"
+      ],
+      "collected_at": "2026-11-12T01:11:13+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Copilot検索で信頼コンテンツ(Authoritative content)管理が可能に",
+      "summary": "管理者がCopilot > Search > Authoritative contentで最大100のSharePointサイトを信頼コンテンツとして指定・管理でき、Microsoft 365 Copilot検索での関連性とランキングを向上できる(Web)。Oct28-Nov3対象のリリースノートバッチ。",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes",
+      "source": "Microsoft 365 Copilot リリースノート",
+      "published_at": "2026-11-05T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "admin",
+        "search",
+        "date-only",
+        "borderline"
+      ],
+      "collected_at": "2026-11-12T01:11:13+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Microsoft 365 CopilotにSharePointリストエージェントを追加",
+      "summary": "自然言語プロンプトからインテリジェントなスキーマ生成とセットアップでMicrosoft Listsを作成でき、構造化情報を整理されたリストに変換する(Web)。Oct28-Nov3対象のリリースノートバッチ。",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes",
+      "source": "Microsoft 365 Copilot リリースノート",
+      "published_at": "2026-11-05T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "agents",
+        "date-only",
+        "borderline"
+      ],
+      "collected_at": "2026-11-12T01:11:13+09:00"
+    },
+    {
+      "topic": "Claude",
+      "headline": "Claude Enterprise向けの新しいセキュリティ・管理コントロールを追加",
+      "summary": "Claude Enterpriseにセキュリティセンター、インフレンスフック、集中管理、追加のアクセス制御を導入した(複数機能はベータ)。",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "source": "Claude (Anthropic)",
+      "published_at": "2026-11-05T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "beta",
+      "tags": [
+        "anthropic",
+        "enterprise",
+        "security",
+        "admin",
+        "date-only"
+      ],
+      "collected_at": "2026-11-12T01:11:13+09:00"
+    },
+    {
+      "topic": "Claude",
+      "headline": "ClaudeにPersonal Finance(個人資産管理)をベータ提供",
+      "summary": "銀行・クレジットカード・ローン・投資口座を連携して資産を一元把握できるベータ機能を、Pro/Max/Ultraプラン向けに米国限定で提供開始した。",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "source": "Claude (Anthropic)",
+      "published_at": "2026-11-05T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "beta",
+      "tags": [
+        "anthropic",
+        "personal-finance",
+        "pro",
+        "max",
+        "ultra",
+        "us-only",
+        "date-only"
+      ],
+      "collected_at": "2026-11-12T01:11:13+09:00"
+    },
+    {
+      "topic": "Claude",
+      "headline": "プロジェクトタグでコストコード別の利用額を追跡(ベータ)",
+      "summary": "対象のEnterprise組織が既存のコストコードでプロジェクトにタグ付けし、タグ単位で支出をカテゴリ別に追跡できるようになった(ベータ)。",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "source": "Claude (Anthropic)",
+      "published_at": "2026-11-06T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "beta",
+      "tags": [
+        "anthropic",
+        "enterprise",
+        "cost-tracking",
+        "date-only",
+        "borderline"
+      ],
+      "collected_at": "2026-11-12T01:11:13+09:00"
+    },
+    {
+      "topic": "Gemini",
+      "headline": "Gemini Omni 1.2 Flashを一般提供(GA)開始",
+      "summary": "最長15秒の動画生成と会話型編集、最大6枚の参照画像での一貫性向上を備えたgemini-omni-1.2-flashをGA化。動画出力料金を30%引き下げ($12.00/100万トークン)、有料ティアのレート上限を倍増した。2026/12/3以降はgemini-omni-1.1-flashへの要求が1.2へ自動ルーティングされる。同日、Office・OpenDocumentファイルの入力対応等も拡張された。",
+      "url": "https://aistudio.google.com/docs/changelog",
+      "source": "Google (Gemini API)",
+      "published_at": "2026-11-05T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "google",
+        "gemini",
+        "model",
+        "video",
+        "pricing",
+        "date-only"
+      ],
+      "related_urls": [
+        "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/omni-1-2-flash"
+      ],
+      "collected_at": "2026-11-12T01:11:13+09:00"
+    },
+    {
+      "topic": "国産モデル",
+      "headline": "Preferred Networks、翻訳特化LLM「PLaMo 3 Translate」の重みをHugging Faceで公開",
+      "summary": "PFNは11月5日、翻訳特化LLM「PLaMo 3 Translate」のモデル重みを0.8B/2B/8B/31Bの4サイズで公開し、53言語の多言語翻訳に対応。BF16やFP8、各種4bit量子化、GGUF、MLX形式を提供し、最小0.8Bモデルでも約30倍大きい既存翻訳特化LLMを上回る性能とする。PLaMo Community License(個人・学術は無料、年収益10億円以下はフォーム登録で商用無料、超過は個別契約)で提供。",
+      "url": "https://www.preferred.jp/ja/blog/tech/plamo-3-translate-weight-release",
+      "source": "株式会社Preferred Networks",
+      "published_at": "2026-11-05T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "date-only",
+        "open-weights",
+        "translation",
+        "llm",
+        "huggingface"
+      ],
+      "related_urls": [
+        "https://gihyo.jp/article/2026/11/plamo-3-translate-open-weights",
+        "https://news.mynavi.jp/article/20261105-5263362/"
+      ],
+      "collected_at": "2026-11-12T01:11:13+09:00"
+    },
+    {
+      "topic": "建設×AI",
+      "headline": "鹿島、FieldAIのフィジカルAI搭載の完全自律移動ロボットを建設現場に本格導入",
+      "summary": "鹿島建設は米FieldAIのフィジカルAI自律制御技術を搭載した完全自律移動ロボットを建設現場に本格導入すると発表。360度カメラとLiDARで巡回・撮影・計測など施工管理の定型業務を代替し、GNSS不可の屋内・地下でも自律探索が可能で、約1年で10カ所以上の現場へ展開予定。",
+      "url": "https://www.kajima.co.jp/news/press/202611/5m1-j.html",
+      "source": "鹿島建設",
+      "published_at": "2026-11-05T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "physical-ai",
+        "robotics",
+        "construction-management",
+        "FieldAI",
+        "date-only"
+      ],
+      "related_urls": [
+        "https://built.itmedia.co.jp/bt/articles/2611/10/news075.html",
+        "https://www.decn.co.jp/?p=189088"
+      ],
+      "collected_at": "2026-11-12T01:11:13+09:00"
+    },
+    {
+      "topic": "3Dモデル×AI",
+      "headline": "Meshy、1枚の写真からレリーフ3Dモデルを生成する「Relief API」を公開",
+      "summary": "Meshyは1枚の写真をbas-relief(浮き彫り)3Dモデル(GLB/STL)と16bitグレースケール深度マップに変換するRelief APIを公開。3Dプリント・レーザー彫刻・CNC加工向けで、サイズや彫りモード、深度等をパラメータ指定でき、1タスク20クレジット。",
+      "url": "https://docs.meshy.ai/en/api/changelog",
+      "source": "Meshy",
+      "published_at": "2026-11-05T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "3d-generation",
+        "api",
+        "relief",
+        "depth-map",
+        "date-only"
+      ],
+      "collected_at": "2026-11-12T01:11:13+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "論文「Perception Over Geometry」：メッシュベース3DGSのガウシアン割当を見た目の複雑さで再設計",
+      "summary": "メッシュ面ごとに固定数のガウシアンを割り当てる従来手法に対し、表面の見た目(知覚的)複雑さに応じて割当を変えるP-MGSを提案。より少ないガウシアンで高品質なレンダリングと、メッシュ編集時の整合維持を実現する。",
+      "url": "https://arxiv.org/abs/2611.07979",
+      "source": "arXiv",
+      "published_at": "2026-11-05T13:09:42+00:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "paper",
+        "3dgs",
+        "mesh",
+        "arxiv"
+      ],
+      "collected_at": "2026-11-12T01:11:13+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "論文「EDGAR」：合成失敗例を用いた拡散ベースのガウシアンアバター高品質化",
+      "summary": "EDGARは条件付き拡散フレームワークで、アイデンティティを保持しつつガウシアンアバターのアーティファクトを補正し品質を向上させる。合成的な失敗例を活用してリファインメントを学習する。",
+      "url": "https://arxiv.org/abs/2611.07909",
+      "source": "arXiv",
+      "published_at": "2026-11-05T12:25:51+00:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "paper",
+        "3dgs",
+        "avatar",
+        "diffusion",
+        "arxiv"
+      ],
+      "collected_at": "2026-11-12T01:11:13+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "論文「Hierarchical Incremental Beta Splatting」：オンライン逐次再構成向けBetaカーネル3DGS",
+      "summary": "HIBSはBetaカーネルをインクリメンタル再構成に導入し、オンラインでの逐次的な3Dガウシアン再構成を実現する手法を提案する。",
+      "url": "https://arxiv.org/abs/2611.08288",
+      "source": "arXiv",
+      "published_at": "2026-11-05T16:52:46+00:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "paper",
+        "3dgs",
+        "online-reconstruction",
+        "arxiv"
+      ],
+      "collected_at": "2026-11-12T01:11:13+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "論文「SplatAnything」：任意シーン対応のフィードフォワード3DGS向けガウシアン間隔正規化",
+      "summary": "SplatAnythingはGaussian Spacing Normalization(GSNorm)を用い、任意のシーンに対するフィードフォワード3DGS予測でより一貫した空間的参照を提供する手法を提案する。",
+      "url": "https://arxiv.org/abs/2611.08264",
+      "source": "arXiv",
+      "published_at": "2026-11-05T16:37:29+00:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "paper",
+        "3dgs",
+        "feed-forward",
+        "arxiv"
+      ],
+      "collected_at": "2026-11-12T01:11:13+09:00"
+    },
+    {
+      "topic": "その他",
+      "headline": "Mistral、エンタープライズ向けプラットフォーム「Mistral Studio」を一般提供開始",
+      "summary": "Mistralは旗艦モデルMistral Large 4(コードネームLe Chonk)を基盤に、マネージドエージェント・ワークフロー・アプリを構築・展開できるエンタープライズ向けStudioをGA(一般提供)にした。クラウド/VPC/オンプレ/ハイブリッドに対応し、ABANCAやBNP Paribasなどが本番稼働。",
+      "url": "https://mistral.ai/news/build-with-studio/",
+      "source": "Mistral AI",
+      "published_at": "2026-11-05T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "date-only",
+        "mistral",
+        "enterprise",
+        "agents"
+      ],
+      "related_urls": [
+        "https://mistral.ai/news/"
+      ],
+      "collected_at": "2026-11-12T01:11:13+09:00"
+    },
+    {
+      "topic": "その他",
+      "headline": "NVIDIA、AIエージェント向けCPU「Vera」を発表、電力あたり性能と速度を強調",
+      "summary": "NVIDIAはAIエージェント実行向けCPU「Vera」を発表。最速のx86 CPU比で「電力あたりエージェント数1.6倍」、最も省電力なx86 CPU比で「エージェント速度2倍」をうたい、Perplexity(エージェント処理1.5倍高速)やDeepInfra(2.2倍)などの実測値を提示した。",
+      "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+      "source": "NVIDIA",
+      "published_at": "2026-11-05T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "date-only",
+        "nvidia",
+        "cpu",
+        "agents"
+      ],
+      "related_urls": [
+        "https://blogs.nvidia.com/recent-news/"
+      ],
+      "collected_at": "2026-11-12T01:11:13+09:00"
+    },
+    {
+      "topic": "その他",
+      "headline": "Perplexity、常時稼働AIエージェント「Teammates」を発表(Maxプラン向け)",
+      "summary": "Perplexityは、長期的・継続的な業務を計画・調整し自律的に進める常時稼働エージェント「Teammates」を発表。月額200ドルのMaxプラン向けにWebで提供開始され、Slack連携やデフォルトでClaude Opus 5.5を利用する。公式ブログはUS時間11月4日付、CEOによる告知は11月5日。",
+      "url": "https://www.perplexity.ai/hub/blog/teammates-are-agents-for-complex-ongoing-work",
+      "source": "Perplexity",
+      "published_at": "2026-11-05T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "date-only",
+        "borderline",
+        "perplexity",
+        "agents"
+      ],
+      "related_urls": [
+        "https://www.perplexity.ai/hub/blog"
+      ],
+      "collected_at": "2026-11-12T01:11:13+09:00"
+    }
+  ]
+}
