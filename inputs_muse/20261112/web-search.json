@@ -1,22 +1,52 @@
 {
-  "date": "2026/11/12",
-  "timezone": "Asia/Tokyo",
-  "window": {
-    "from": "2026-11-11T08:00:00+09:00",
-    "to": "2026-11-12T08:00:00+09:00"
+ "date": "2026/11/12",
+ "timezone": "Asia/Tokyo",
+ "window": {
+  "from": "2026-11-11T08:00:00+09:00",
+  "to": "2026-11-12T08:00:00+09:00"
+ },
+ "source": "web-search",
+ "itemCount": 4,
+ "items": [
+  {
+   "breaking": false,
+   "collected_at": "2026-11-11T18:01:24+09:00",
+   "headline": "Miro調査、AIで個人の生産性向上83%も組織全体の効果は限定的",
+   "source": "Miro",
+   "summary": "Miroが11月3〜4日に発表した9,500人超の調査「The State of Intelligent Collaboration」によると、AIで個人の生産性が向上したと答えた人は83%に上る一方、成果物の品質向上を実感したのは56%にとどまり、組織全体への効果は限定的だった。",
+   "topic": "ビジネス・人材",
+   "unconfirmed": false,
+   "url": "https://www.businesswire.com/news/home/20261103271772/en/Individual-AI-Productivity-Soars-but-Organizational-Impact-Stalls"
   },
-  "source": "web-search",
-  "itemCount": 1,
-  "items": [
-    {
-      "breaking": false,
-      "collected_at": "2026-11-11T14:01:00+09:00",
-      "headline": "ITエンジニア採用、技術選考の7割が「AI利用可」——レバテック調査",
-      "source": "レバテック",
-      "summary": "レバテックが11月5日、ITエンジニア採用の実態調査を発表した。約7割の企業が生成AI普及を受けて選考プロセスを見直し、技術選考を実施する企業の70.4%が課題でのAI利用を認めている。候補者のAI活用力を選考評価に反映する企業は約9割に上り、選考にAIを導入している企業は65.5%だった。調査は7月14〜22日、採用担当者553名が対象。",
-      "topic": "ビジネス・人材",
-      "unconfirmed": false,
-      "url": "https://prtimes.jp/main/html/rd/p/000001004.000010591.html"
-    }
-  ]
+  {
+   "breaking": false,
+   "collected_at": "2026-11-11T18:01:24+09:00",
+   "headline": "TCS調査、企業の84%がAI投資の最大の価値を生産性向上と回答",
+   "source": "TCS",
+   "summary": "TCSが11月4日に発表した「TCS Enterprise AI Study」（25カ国・1,333人の経営層対象）によると、84%がAI投資の最大の価値を生産性向上と回答した一方、複数業務でAIエージェントに人間の承認なしの判断を認めている企業は10%にとどまった。",
+   "topic": "ビジネス・人材",
+   "unconfirmed": false,
+   "url": "https://www.tcs.com/who-we-are/newsroom/press-release/productivity-top-benefit-tcs-enterprise-ai-study"
+  },
+  {
+   "breaking": false,
+   "collected_at": "2026-11-11T18:01:24+09:00",
+   "headline": "EY調査、CEOの50%がAIを生産性向上の最大要因に——ROI測定に確信は16%のみ",
+   "source": "EY",
+   "summary": "EYが11月6日に発表した「EY-Parthenon CEO Outlook調査」（21カ国・CEO 1,200人対象）によると、過去12カ月の生産性向上に最も貢献した要因としてAIを挙げたCEOは50%。一方、AI投資のROIをリアルタイムで把握できているCEOは16%にとどまり、23%が財務成果への転換に苦慮している。",
+   "topic": "ビジネス・人材",
+   "unconfirmed": false,
+   "url": "https://www.47news.jp/15192386.html"
+  },
+  {
+   "breaking": false,
+   "collected_at": "2026-11-11T14:01:00+09:00",
+   "headline": "ITエンジニア採用、技術選考の7割が「AI利用可」——レバテック調査",
+   "source": "レバテック",
+   "summary": "レバテックが11月5日、ITエンジニア採用の実態調査を発表した。約7割の企業が生成AI普及を受けて選考プロセスを見直し、技術選考を実施する企業の70.4%が課題でのAI利用を認めている。候補者のAI活用力を選考評価に反映する企業は約9割に上り、選考にAIを導入している企業は65.5%だった。調査は7月14〜22日、採用担当者553名が対象。",
+   "topic": "ビジネス・人材",
+   "unconfirmed": false,
+   "url": "https://prtimes.jp/main/html/rd/p/000001004.000010591.html"
+  }
+ ]
 }
