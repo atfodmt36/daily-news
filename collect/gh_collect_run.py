@@ -51,6 +51,7 @@ OUTDIR = REPO_ROOT / "claude-collect"
 PROMPTS = COLLECT_DIR / "prompts"
 SOURCES = COLLECT_DIR / "collect-sources.md"
 MODEL = os.environ.get("COLLECT_MODEL", "opus")
+EFFORT = os.environ.get("COLLECT_EFFORT", "high")
 TIMEOUT_MAIN = int(os.environ.get("COLLECT_TIMEOUT_MAIN", "1800"))
 TIMEOUT_FIX = int(os.environ.get("COLLECT_TIMEOUT_FIX", "1200"))
 AUTH_MARKERS = ("not logged in", "401", "unauthorized", "invalid api key", "/login")
@@ -67,7 +68,7 @@ def render(parts, subs):
 
 def run_claude(prompt, timeout, log):
     cmd = [
-        "claude", "-p", "--model", MODEL,
+        "claude", "-p", "--model", MODEL, "--effort", EFFORT,
         "--allowedTools", "WebSearch WebFetch",
         "--output-format", "text",
     ]
