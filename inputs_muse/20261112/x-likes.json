@@ -6,7 +6,7 @@
   "to": "2026-11-12T08:00:00+09:00"
  },
  "source": "x-likes",
- "itemCount": 6,
+ "itemCount": 10,
  "items": [
   {
    "breaking": false,
@@ -73,6 +73,50 @@
    "unconfirmed": false,
    "url": "https://x.com/IPAjp/status/2120336263354142929",
    "x_url": "https://x.com/IPAjp/status/2120336263354142929"
+  },
+  {
+   "breaking": false,
+   "collected_at": "2026-11-12T07:21:53+09:00",
+   "headline": "NVIDIAとMeta、AIエージェント向けモデル「Muse」で提携拡大",
+   "source": "NVIDIA Japan",
+   "summary": "NVIDIAとMetaがAIエージェント向けモデル「Muse」に関するパートナーシップを拡大。Metaは次世代AI基盤としてNVIDIA Vera RubinやVera CPU、Spectrum-Xの導入を拡大し、インフラから安全なエージェント運用までエンドツーエンドの最適化を進める。",
+   "topic": "ビジネス・人材",
+   "unconfirmed": false,
+   "url": "https://x.com/NVIDIAJapan/status/2120427038259454392",
+   "x_url": "https://x.com/NVIDIAJapan/status/2120427038259454392"
+  },
+  {
+   "breaking": false,
+   "collected_at": "2026-11-12T07:21:53+09:00",
+   "headline": "Google、生成UI向けオープンプロトコル「A2UI 1.0」を公開",
+   "source": "Google Cloud",
+   "summary": "Google Cloudが生成UI向けのオープンプロトコル／フレームワーク「A2UI 1.0」を公開。Web、Android、iOS、ウェアラブル、テレビなどあらゆる画面で生成UIを扱え、速度と安定性が向上したとしている。",
+   "topic": "生成AI・その他",
+   "unconfirmed": false,
+   "url": "https://x.com/GoogleCloudTech/status/2120563165557571629",
+   "x_url": "https://x.com/GoogleCloudTech/status/2120563165557571629"
+  },
+  {
+   "breaking": false,
+   "collected_at": "2026-11-12T07:21:53+09:00",
+   "headline": "Speridlabs、画像と深度を統合した汎用モデル「Iris-Z」をオープン公開",
+   "source": "Speridlabs",
+   "summary": "Speridlabsが外観と形状（深度）を統合した汎用画像モデル「Iris-Z」を発表。画像生成と深度推定・条件付けを1つのバックボーンで扱い、タスク特化の深度モデルを上回るとする。9B／32Bで、重み・コード・デモをApache 2.0で公開。",
+   "topic": "画像生成・編集",
+   "unconfirmed": false,
+   "url": "https://x.com/speridlabs/status/2120594326556443096",
+   "x_url": "https://x.com/speridlabs/status/2120594326556443096"
+  },
+  {
+   "breaking": false,
+   "collected_at": "2026-11-12T07:21:53+09:00",
+   "headline": "xAI、チーム向けAI「Grok Bot 1.0」を発表",
+   "source": "Grok Bot",
+   "summary": "xAIがチームで使うAIアシスタント「Grok Bot 1.0」を発表。SlackやTeamsでBotを共有・協働でき、会議への招待や学習による改善をうたう。",
+   "topic": "生成AI・その他",
+   "unconfirmed": false,
+   "url": "https://x.com/bot/status/2120582957782200586",
+   "x_url": "https://x.com/bot/status/2120582957782200586"
   }
  ]
 }
