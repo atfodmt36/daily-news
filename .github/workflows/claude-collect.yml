@@ -1,0 +1,104 @@
+name: Claude Code collect (trial)
+
+# Trial port of the AI Radar Claude Code collect (the production run lives
+# on the owner's PC, driven from Muse; see collect/README.md).
+# Manual dispatch ONLY — no schedule until the trial passes.
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit:
+        description: "Also merge the envelope into inputs_muse/<date>/claude-code.json and push it"
+        type: boolean
+        default: false
+      from:
+        description: "Window start ISO (optional; default: yesterday 08:00 JST)"
+        type: string
+        default: ""
+      to:
+        description: "Window end ISO (optional; default: today 08:00 JST)"
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: claude-collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Preflight - the OAuth token secret must be set
+        run: |
+          if [ -z "${CLAUDE_CODE_OAUTH_TOKEN}" ]; then
+            echo "::error::Set the CLAUDE_CODE_OAUTH_TOKEN repository secret first (run \`claude setup-token\` on a machine logged in to your Claude subscription)."
+            exit 1
+          fi
+          claude --version
+
+      - name: Run the collect driver
+        id: collect
+        run: |
+          args=()
+          if [ "${{ inputs.commit }}" = "true" ]; then args+=(--commit); fi
+          if [ -n "${{ inputs.from }}" ]; then args+=(--from "${{ inputs.from }}"); fi
+          if [ -n "${{ inputs.to }}" ]; then args+=(--to "${{ inputs.to }}"); fi
+          python3 collect/gh_collect_run.py "${args[@]}" | tee driver-stdout.txt
+          inputs_path=$(python3 - <<'PYEOF'
+          import json
+          path = ""
+          for line in open("driver-stdout.txt", encoding="utf-8"):
+              line = line.strip()
+              if line.startswith("{"):
+                  try:
+                      path = json.loads(line).get("inputs_path", "") or path
+                  except ValueError:
+                      pass
+          print(path)
+          PYEOF
+          )
+          echo "inputs_path=${inputs_path}" >> "${GITHUB_OUTPUT}"
+
+      - name: Upload collect outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: claude-collect-output
+          path: claude-collect/
+          if-no-files-found: ignore
+          retention-days: 14
+
+      - name: Commit and push the inputs envelope
+        if: ${{ inputs.commit && steps.collect.outputs.inputs_path != '' }}
+        run: |
+          git config user.name "claude-collect (GitHub Actions)"
+          git config user.email "claude-collect@users.noreply.github.com"
+          git add -- "${{ steps.collect.outputs.inputs_path }}"
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "claude-collect (GitHub Actions): ${{ steps.collect.outputs.inputs_path }}"
+          git push origin HEAD:main
