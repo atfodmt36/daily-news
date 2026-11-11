@@ -1,0 +1,93 @@
+{
+  "date": "2026/11/12",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-11T08:00:00+09:00",
+    "to": "2026-11-12T08:00:00+09:00"
+  },
+  "source": "mail-4ml",
+  "itemCount": 9,
+  "items": [
+    {
+      "collected_at": "2026-11-11T19:34:00+09:00",
+      "headline": "Anthropic、IPO評価額を1.5兆ドル超へ引き上げ準備、四半期売上はOpenAIを上回る",
+      "source": "ML_Bear Times",
+      "summary": "投資家の強い需要を受け、AnthropicはIPO評価額を最大約1.4兆ドルから1.5兆ドル以上へ引き上げる準備を進めていると報じられた。Anthropicの第3四半期売上は約170億ドルで、初めて100億ドルに達したOpenAIを上回ったとされる。",
+      "topic": "AIビジネス",
+      "unconfirmed": false,
+      "url": "https://x.com/theinformation/status/2120290468051181651"
+    },
+    {
+      "collected_at": "2026-11-11T19:34:00+09:00",
+      "headline": "Gemini 4 Carbon、12月から4ドル/20ドルに値上げ、速度に課題",
+      "source": "ML_Bear Times",
+      "summary": "Gemini 4 Carbonの現行価格（入力2ドル/出力10ドル）は11月末までのキャンペーン価格で、12月からは4ドル/20ドルになるとされる。Opus 5.5の約3倍遅くFast Modeもない点が難点とされる一方、Bug Hunt BenchではFable 5.2 Maxに次ぐ2位だった。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/MLBear2/status/2120409822495674624"
+    },
+    {
+      "collected_at": "2026-11-11T19:34:00+09:00",
+      "headline": "GPT-6.2 Sol・Astra、木曜投入の観測強まる",
+      "source": "ML_Bear Times",
+      "summary": "CodexチームのTibo氏が木曜はCodexっぽい日になると示唆し、GPT-6.2 Sol・Astraの今週投入観測が広がっている。11月19日予定のAnthropic上場直前に注目を奪う狙いとの見方も出ている。未確認の観測情報。",
+      "topic": "生成AI・その他",
+      "unconfirmed": true,
+      "url": "https://x.com/thsottiaux/status/2120410480204525936"
+    },
+    {
+      "collected_at": "2026-11-11T19:34:00+09:00",
+      "headline": "Cursor、Projectsをチーム協調のマルチプレイヤー化",
+      "source": "ML_Bear Times",
+      "summary": "CursorがProjectsを作り直し、チームメイトとそのAgentが1つの統合ワークスペースで協働できるようにした。Antigravityの/swarmへの即日の対抗策との見方がある。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/cursor_ai/status/2120295553309565139"
+    },
+    {
+      "collected_at": "2026-11-11T19:34:00+09:00",
+      "headline": "Fireworks侵害、Notion AIのチャットも一部流出",
+      "source": "ML_Bear Times",
+      "summary": "推論プロバイダFireworksのハッキングで、Notion AIの一部チャットがFireworks経由で漏れたことが明らかになった。Fireworksは顧客のモデル重みが流出したことも開示したという。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/theinformation/status/2120260248007061756"
+    },
+    {
+      "collected_at": "2026-11-11T19:34:00+09:00",
+      "headline": "Meta論文、コーディングAgent向けLLM審査員の校正法を公開",
+      "source": "ML_Bear Times",
+      "summary": "Metaが、LLMによるコード審査員を校正・テストし続けるための実践的手法をまとめた論文を公開した。実運用中のコーディングAgentで検証され、Agentの変更のたびに審査員のプロンプトが陳腐化する問題を扱っている。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/omarsar0/status/2120253922933956644"
+    },
+    {
+      "collected_at": "2026-11-11T19:34:00+09:00",
+      "headline": "ISUCON優勝者、素のAgentが作り込みハーネス超えも",
+      "source": "ML_Bear Times",
+      "summary": "ISUCON 2026で優勝したYoshinori Kawasaki氏の参加記によると、3か月かけて評価環境を整え検証を100回以上繰り返した結果、作り込んだハーネスよりほぼ素のAgentの方が高スコアを出す場合があったという。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/kawasy/status/2120385463878094864"
+    },
+    {
+      "collected_at": "2026-11-11T19:34:00+09:00",
+      "headline": "NVIDIAのAgent実行基盤OpenShellがCNCF Sandbox入り",
+      "source": "ML_Bear Times",
+      "summary": "NVIDIAのOpenShellがCNCF Sandboxプロジェクトに採択された。自律Agentにポリシー分離、ネットワーク制御、認証情報管理を提供し、プロンプトでなく実行層で安全性を確保する。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/CloudNativeFdn/status/2120250399219188199"
+    },
+    {
+      "collected_at": "2026-11-11T19:34:00+09:00",
+      "headline": "QiitaでKaggle Advent Calendar 2026が開設",
+      "source": "ML_Bear Times",
+      "summary": "QiitaでKaggle Advent Calendar 2026が作成され、記事を書く参加者の募集が始まった。誰でも参加でき、概要欄には過去年のカレンダーへのリンク集もまとめられている。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/upura0/status/2120332562233217344"
+    }
+  ]
+}
