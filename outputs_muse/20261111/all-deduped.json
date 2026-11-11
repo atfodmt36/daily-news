@@ -1,0 +1,1503 @@
+{
+  "date": "2026/11/11",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-10T08:00:00+09:00",
+    "to": "2026-11-11T08:00:00+09:00"
+  },
+  "itemCount": 92,
+  "items": [
+    {
+      "headline": "Apple、Creator Studio向け「intelligence usage packs」$49.99を開始",
+      "summary": "AppleはCreator Studioアプリ向けに、月間AI利用枠を使い切った後に購入できる買い切り型「intelligence usage packs」（49.99ドル）の販売を始めた。まずLogic Proで利用可能で、未使用分は翌月へ繰り越し・購入から12か月で失効する。Final Cut ProやPixelmator Pro、iWorkにも今月中に拡大予定。",
+      "url": "https://9to5mac.com/2026/11/09/apple-launches-50-intelligence-usage-packs-for-select-ai-features/",
+      "otherUrls": [],
+      "source": "9to5Mac",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T08:39:57+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "ChatGPT Enterprise、AWS Marketplaceで提供開始",
+      "summary": "OpenAIは11月9日、ChatGPT EnterpriseをAWS Marketplaceで提供開始したと発表した。既存のAWS購買・請求関係で購入・管理でき、対象支出はAWSコミットメントに算入可能。Chat、ChatGPT Work、Codex、dotsをまとめた企業向けofferingで、機能や新機能の提供タイミングは直接契約と同じとしている。",
+      "url": "https://x.com/AIFutureWire/status/2119895640109199633",
+      "otherUrls": [
+        "https://x.com/OptionKing666/status/2120109525546291516"
+      ],
+      "source": "OpenAI",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T08:39:57+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Collinear AI、コンピュータ利用の新ベンチマーク「FrontierCUA」v1を公開",
+      "summary": "Collinear AIは、企業ワークフローにおけるコンピュータ利用エージェントを測る新ベンチマーク「FrontierCUA」v1を公開した。サポート、コマース、CRM、ITSM、サイト信頼性などの業務ソフト上の40の非公開ワークフローで構成される。長期的な業務遂行能力を測ることを目的としている。",
+      "url": "https://x.com/CollinearAI/status/2119870945611661810",
+      "otherUrls": [],
+      "source": "Collinear AI",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T08:39:57+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Fireworks、10月の侵害の被害拡大を公表——請求情報・データセット・未完成モデル重みも",
+      "summary": "AI推論基盤のFireworksは11月9日、10月に発覚したセキュリティ侵害の続報を公表した。当初の認証情報の不正利用にとどまらず、一部の顧客について請求情報や秘密情報、データセット、未完成のモデル重みへのアクセスがあった。第三者クラウド事業者の侵害を経由した10月24日の侵入が原因で、金銭目的の「LLMjacking」グループによるものとしている。Unit 42と調査中で、データセットのセルフサービス転送を一時停止している。",
+      "url": "https://x.com/DanteMMartin/status/2119903690069057952",
+      "otherUrls": [],
+      "source": "Fireworks AI",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T08:39:57+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "HEELO、エージェント失敗の「最後の1マイル」を分析",
+      "summary": "エージェントが現実のタスクで失敗する理由を「最後の1マイル」として捉え直した研究「HEELO」がarXivに公開された。エージェント固有のプリミティブを組み合わせたハーネスで実世界エージェントベンチマークの大幅な改善を報告している（arXiv 2611.0746）。",
+      "url": "https://arxiv.org/abs/2611.0746",
+      "otherUrls": [],
+      "source": "arXiv",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T08:39:57+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "LG、K-EXAONE 2.5のAPIを無料開放",
+      "summary": "LG AI Researchは11月9日、750Bパラメータの自社モデル「K-EXAONE 2.5」のAPIを無料で開放した。OpenAI互換エンドポイントで512Kコンテキストに対応。NVIDIA AI Day Seoul 2026で発表した。エージェント系ベンチマーク4種のスコアも公開している（自社測定値）。",
+      "url": "https://x.com/prabhuadi/status/2119883190672220642",
+      "otherUrls": [],
+      "source": "LG AI Research",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T08:39:57+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "PwC US、判断力・批判的思考の認定プログラムを開始",
+      "summary": "PwC USは、AIが定型業務を担うようになる中で、判断力と批判的思考を認定するプログラムの提供を開始した。AI時代に求められるスキル育成の動き。",
+      "url": "https://x.com/BusinessInsider/status/2119780064078254230",
+      "otherUrls": [],
+      "source": "Business Insider",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T08:39:57+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Terminal-Bench 4.1公開、タスクを改善",
+      "summary": "エージェント型コーディングのベンチマーク「Terminal-Bench」がバージョン4.1を公開し、タスクの改善を行った。",
+      "url": "https://x.com/ryan_marten/status/2119845004940378276",
+      "otherUrls": [],
+      "source": "Terminal-Bench",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T08:39:57+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Vals AI：DeepSeek V4.1 FlashがTerminal-Bench 2.1で92.2%・SOTA、1タスク$0.08",
+      "summary": "Vals AIのTerminal-Bench 2.1で、DeepSeek V4.1 Flashが92.2%を記録し首位となった。1タスクあたりのコストは0.08ドル。従来首位のOpus 5.5は87.6%・1タスク0.50ドルだった。ベンチマーク運営元の計測による。",
+      "url": "https://x.com/ElijahPopowitz/status/2119818984774156613",
+      "otherUrls": [],
+      "source": "Vals AI",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T08:39:57+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "「Delivered, Not Used」：SWE-bench Verified 8000件でメモリ有無の解決率差は0.4pt",
+      "summary": "SWE-bench Verifiedで8000エピソードを回した検証によると、エージェントにメモリ（長期記憶）を与えても与えなくても解決率は0.4ポイント以内しか変わらなかった。渡された記憶の多くは無関係で、関連するものも大半が使われなかった。スコアだけではエージェントの実力が測れないという指摘。",
+      "url": "https://x.com/ScottSiu1983/status/2119890268732497920",
+      "otherUrls": [],
+      "source": "Scott Siu",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T08:39:57+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "新ベンチマーク、未解決CS問題でフロンティア8モデルを比較——GPT-6 Astraが既知定理14/20を証明、未解決予想は0/30",
+      "summary": "実際の未解決計算機科学問題を題材にした新ベンチマークで、フロンティアモデル8種を比較した。GPT-6 Astraが既知の定理20問中14問を証明して首位だったが、未解決予想30問は8モデル合計でも1問も解けなかった。教科書的な証明はできても最先端の研究にはまだ届かない結果となった（arXiv 2611.07962）。",
+      "url": "https://arxiv.org/abs/2611.07962",
+      "otherUrls": [],
+      "source": "arXiv",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T08:39:57+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Artificial Analysis、Decision Index v2を公開",
+      "summary": "Artificial Analysisは11月8日、意思決定モデルの評価指標「Decision Index v2」を公開した。Drex Max v1.1が同指標で1位となった（モデル自体は別途キュー済み）。",
+      "url": "https://x.com/ArtificialAnlys/status/2119578471559213411",
+      "otherUrls": [],
+      "source": "Artificial Analysis",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T10:10:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Claude Fable 5.2、AA-3Dで1位",
+      "summary": "Claude Fable 5.2（Max）がArtificial Analysisの3Dベンチマーク「AA-3D」で1271 Eloを獲得し1位となった。Claude Sonnet 5.5（1204）とOpus 5.5（1202）を約67ポイント上回った。",
+      "url": "https://x.com/ArtificialAnlys/status/2119953570430881946",
+      "otherUrls": [],
+      "source": "Artificial Analysis",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T10:10:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "NVIDIAとElith、日本の金融向け合成データ「Nemotron-Personas-Finance-Japan」を公開",
+      "summary": "NVIDIAとElithは11月9日、日本の金融向け合成データセット「Nemotron-Personas-Finance-Japan」をHugging Faceで公開した。100万レコード×9ペルソナで約15億トークン規模、CC BY 4.0で提供する。個人情報検出用の「Nemotron-PII-Japan」も同日公開した。",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "otherUrls": [],
+      "source": "NVIDIA",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T10:10:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "スペースデータ、RobotBrainにタワークレーン作業の物理シミュレーションを搭載",
+      "summary": "スペースデータは11月9日、ロボット現場実装基盤「RobotBrain」にタワークレーン作業の物理シミュレーション機能を搭載したと発表した。海老名ジャンクションを舞台にクレーン4台と工事車両6台を配置し、架設・荷役・相吊り・掘削・打設・安全教育の6作業を重さや張力、揺れを計算しながら検証できる。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000265.000080352.html",
+      "otherUrls": [],
+      "source": "スペースデータ",
+      "topic": "建設×AI",
+      "section": "建設×AI",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T10:10:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "福岡の不動産テック、AIで建設許可支援　アパートの着工3カ月短縮",
+      "summary": "福岡の不動産テック企業がAIで建設許可の手続きを支援し、アパートの着工を3カ月短縮できるサービスを始めた。日本経済新聞が11月10日付で報じた。有料記事のため企業名など詳細は未確認。",
+      "url": "https://www.nikkei.com/article/DGXZQOJC0523T0V01C26A1000000/",
+      "otherUrls": [],
+      "source": "日本経済新聞",
+      "topic": "建設×AI",
+      "section": "建設×AI",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T10:10:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Claude Fable 5.2、科学画像推論ベンチマークVIALS-AAで1位",
+      "summary": "Artificial Analysisの科学画像推論ベンチマーク「VIALS-AA」でClaude Fable 5.2が1位となった。生命科学画像の推論を161タスク・174画像で測るベンチマークで、Fable 5.2は他のAnthropicモデルより多くのツール呼び出しを行う点が特徴とされる。",
+      "url": "https://x.com/ArtificialAnlys/status/2119990200700940745",
+      "otherUrls": [],
+      "source": "Artificial Analysis",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T14:12:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Productive codes が建設業向け「Fitly AI｜拾い・積算」の提供を開始",
+      "summary": "Productive codesは11月10日、各社の図面・帳票に合わせて仕立てる積算AI「Fitly AI｜拾い・積算」を建設業向けに提供開始した。図面から項目と数量を拾い出す作業をAIが支援し、各社のExcel・帳票の形式で出力するセミオーダー型のWindowsアプリ。初期費用30万円、年間ライセンス20万円（いずれも税抜、ユーザー数無制限）で、導入まで約2週間が目安。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000001.000194332.html",
+      "otherUrls": [
+        "https://x.com/PRTIMES_TECH/status/2120002019981504821"
+      ],
+      "source": "株式会社Productive codes",
+      "topic": "建設×AI",
+      "section": "建設×AI",
+      "collectedFrom": [
+        "claude-code",
+        "x"
+      ],
+      "collected_at": "2026-11-10T14:12:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "川田工業とHighlanders、AIで建設現場を可視化する4足歩行ロボットを共同開発",
+      "summary": "川田工業とHighlandersは11月10日、4足歩行ロボットと現場可視化AIシステムを組み合わせ、建設現場の状況を自動収集・分析するシステムの共同開発を発表した。ロボット搭載カメラの映像をAIが解析し、危険箇所の抽出、資材の所在・数量確認、施工進捗の把握を目指す。2026年度は実寸大橋梁模型で機能開発を進め、2027年度の現場導入を目指す。",
+      "url": "https://www.nikkei.com/article/DGXZRSP715047_Q6A111C2000000/",
+      "otherUrls": [],
+      "source": "川田工業",
+      "topic": "建設×AI",
+      "section": "建設×AI",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T14:12:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "建設業向け「サクミル」、請求書から仕入登録する「仕入AI」をリリース",
+      "summary": "プレックスは11月10日、建設業向け業務管理サービス「サクミル」に、請求書・領収書のPDFや写真を添付するだけで仕入登録が完了する「仕入AI」の提供を開始した。見積AIに続く第2弾で、仕入先名・仕入日・支払予定日・支払金額をAIが自動で読み取り、合算請求書も明細ごとに該当案件へ振り分ける。既存プランのまま追加費用なしで使える。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000054.000048655.html",
+      "otherUrls": [],
+      "source": "プレックス",
+      "topic": "建設×AI",
+      "section": "建設×AI",
+      "collectedFrom": [
+        "claude-code",
+        "x"
+      ],
+      "collected_at": "2026-11-10T14:12:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Claude Code v2.1.322：Vertex AI（global/us/eu）で fast mode に対応",
+      "summary": "Anthropicが11月10日、Claude Code 2.1.322をリリースした。Google Vertex AI（global／us／euリージョン）でFast modeが利用可能になり、VertexがFast modeを拒否した場合は自動で標準速度にフォールバックする。今回の変更はこの1件。",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
+      "otherUrls": [
+        "https://x.com/cryptokoala_/status/2119982719170236536"
+      ],
+      "source": "Anthropic（GitHub Releases）",
+      "topic": "Claude Code",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code",
+        "x"
+      ],
+      "collected_at": "2026-11-10T15:20:03+09:00",
+      "published_at": "2026-11-10T11:29:43+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Artificial Analysis、モデルの性格を測る「AA-PersonalityBench」を公開",
+      "summary": "Artificial Analysisが、モデルの性格特性を測る新ベンチマーク「AA-PersonalityBench」を公開した。誠実さ・創造性・ユーモアなど30の特性を1〜100のパーセンタイルで評価し、誠実さが高いモデルはスラップ（低質な出力）が少ない傾向、創造性が高いモデルはユーモアも高い傾向などが示された。",
+      "url": "https://x.com/ArtificialAnlys/status/2119813983536283923",
+      "otherUrls": [],
+      "source": "Artificial Analysis",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T17:38:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "BALLAS、AI-Native建設サプライチェーン強化へシリーズB総額34億円を調達",
+      "summary": "BALLASがシリーズBで総額34億円（エクイティ25億円、デット9億円）を調達し、累計調達額は約53億円となった。設計データを起点に製造から施工までをつなぐAI-Nativeな建設サプライチェーンの強化に充て、案件協議から納品までをAIエージェントで自動化する取り組みを進める。JICベンチャー・グロース・インベストメンツ、日本政策金融公庫、三菱UFJ銀行などが新たに参画した。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000022.000100360.html",
+      "otherUrls": [],
+      "source": "BALLAS",
+      "topic": "建設×AI",
+      "section": "建設×AI",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T17:38:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Claude Fable 5.2、Artificial AnalysisのIntelligence Index v5で1位・65点",
+      "summary": "AnthropicのClaude Fable 5.2がArtificial AnalysisのIntelligence Index v5で65点を獲得し1位となった。Gemini 4 Carbon（60点）を5ポイント、Claude Opus 5.5（59点）を6ポイント上回り、科学・知識・コーディングの伸びがけん引した。",
+      "url": "https://x.com/ArtificialAnlys/status/2119878995386982508",
+      "otherUrls": [],
+      "source": "Artificial Analysis",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T17:38:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Claude Fable 5.2、GitHub Copilotで一般提供開始",
+      "summary": "GitHubは、Anthropicの最新モデルClaude Fable 5.2をGitHub Copilotで一般提供開始した。複雑なマルチステップのコーディングに対応し、Copilot Pro+、Max、Business、Enterpriseで利用できる。Business・Enterpriseでは管理者がモデルを有効化する必要があり、段階的にロールアウトされる。",
+      "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot/",
+      "otherUrls": [],
+      "source": "GitHub",
+      "topic": "Claude／Codex",
+      "section": "エージェント",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T17:38:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Claude Opus 5.5の推論能力が11月3日から急低下したとの指摘、真偽は未確認",
+      "summary": "1,400件のClaude CodeセッションをGeminiで分析したところ、モデル名が同じまま11月3日ごろにOpus 5.5の推論パターンが急変したとの指摘がXで広がり、GIGAZINEも報じた。思考トークンの中央値が84から54へ落ちたなどの数値も示されたが、分析者自身が「モデルの重みが変わった証拠ではない」と注記し、推論要約の仕様変更との見方もあってAnthropicの公式見解はない。未確認の論争として扱う。",
+      "url": "https://x.com/mitsuto_/status/2120063542024122548",
+      "otherUrls": [],
+      "source": "GIGAZINE",
+      "topic": "Claude／Codex",
+      "section": "エージェント",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T17:38:05+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "MIT、砂・流体・タンパク質を1つのAIモデルで再現する「WorldParticle」を発表",
+      "summary": "MITなどの研究チームが、砂の崩落や流体、変形物体、タンパク質の折りたたみなど6種類の物理現象を1つのAIモデルでシミュレーションする「WorldParticle」を発表した。物質を微小な粒子の集まりとして扱い動きを予測するTransformerベースの仕組みで、タンパク質構造の変化は従来の数値シミュレーションより約100倍速いとしている。SIGGRAPH Asiaで発表予定。",
+      "url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
+      "otherUrls": [],
+      "source": "MIT News",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T17:38:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "総務省、漏洩情報サイトへのアクセス抑止策を検討する作業部会を新設へ",
+      "summary": "総務省は、サイバー攻撃で漏えいした個人情報の拡散など二次被害の抑止策を議論する作業部会を新設すると発表した。通信事業者によるウェブサイトへのアクセス遮断「ブロッキング」の是非や法的課題などを検討し、11月下旬にも初会合を開き、2027年早々にも中間取りまとめを行う方針。フロンティアAI時代の通信事業におけるデータ保護・セキュリティ検討会の下に置く。",
+      "url": "https://news.yahoo.co.jp/articles/71ad0c880c7714bcdd32ee69fc5b4d407240927f",
+      "otherUrls": [],
+      "source": "産経新聞",
+      "topic": "政府・政策",
+      "section": "政策・政府",
+      "collectedFrom": [
+        "web-search"
+      ],
+      "collected_at": "2026-11-10T17:38:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Meta、InstagramのAI年齢推定を世界展開へ",
+      "summary": "MetaはInstagramのAI年齢推定技術を世界展開すると11月9日に発表した。成人として登録した生年月日にかかわらず、10代と推定されるアカウントをTeen Accountの保護設定に移行し、「数百万人規模」の10代が対象になるという。FacebookとThreadsへの拡大も年内に予定している。",
+      "url": "https://www.aljazeera.com/amp/news/2026/11/9/meta-rolls-out-automated-age-checks-for-teens-globally",
+      "otherUrls": [],
+      "source": "Al Jazeera",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T19:27:31+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "NVIDIA、ヒトの動画から学ぶロボット基盤モデル「GR00T 2」を発表",
+      "summary": "NVIDIAがCoRL 2026でロボット向け世界行動モデル「GR00T 2」を発表した。人間の主観映像40万時間超などで学習し、未見の50タスクのうち40タスクをデモなしで少なくとも1回成功、1回のデモで平均成功率71%、5回で95%を達成した。ロボット学習基盤「Isaac Lab 3.0」も公開し、モデルの重みは12月にオープン化する予定。",
+      "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "otherUrls": [],
+      "source": "NVIDIA",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T19:27:31+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "AHC074の生プロンプト公開、サブAgent評価はslotdで管理",
+      "summary": "AtCoder Heuristic Contest 074に参加した方が、使ったプロンプトをほぼすべて公開した。サブエージェントを大量に走らせた際の評価ジョブ管理には、Slurm風の軽量Rust製ジョブスケジューラslotdを使ったという。AIを使ったヒューリスティック最適化の実際の進め方が分かる資料として、コンペ参加者の参考になる。",
+      "url": "https://x.com/ethylene_66/status/2120073578737705022",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-10T19:34:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Anthropic、IPOで最大$69.3B調達へ・大手7社が$26B出資【続報】",
+      "summary": "新株8億6,670万株を1株$70〜80で売り出し、最大$69.3Bを調達する計画と報じられた。Google、Nvidia、AMD、Broadcom、Micron、Microsoft、TSMCが公開価格で計$26Bを私募出資するとされる。NasdaqでティッカーANTとして取引され、取引開始は来週木曜か金曜の見込み。Dario Amodei CEOがJPMorganのJamie Dimon CEOとIPOについて語るライブ配信も計画されている。",
+      "url": "https://x.com/IPONewsroom_/status/2119959766818500827",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-10T19:34:00+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "CLAUDE.mdの汎用的な心得がAIの成績を下げる場合も",
+      "summary": "CLAUDE.mdやAGENTS.mdに汎用的な指示を書くと、かえってAIの成績が下がることがあるとする研究が紹介された。コードスタイルに従え、テストファイルを読めといった心得は、目の前の課題と無関係なため邪魔になるとされる。代わりにドキュメントとコードが食い違う際はコードに従い食い違いを列挙させる一文が推奨され、著者インタビュー記事も公開されている。",
+      "url": "https://x.com/ai_database/status/2120077716460572735",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-10T19:34:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Claude Fable 5.2、GDPxで首位・Leanでフェルマー証明再現",
+      "summary": "SemiAnalysisのGDPxで16.4%と首位に立ち、チップ設計や生物などで伸びた一方、金融や法務は伸び悩んだ。1,000体のAgentがLean/Mathlibでフェルマーの最終定理の形式証明を28.7時間で再現し、証明長は従来の7分の1だった。SimpleQA Verifiedを飽和させたとの報告もある。",
+      "url": "https://x.com/SemiAnalysis_/status/2119961447199289640",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-10T19:34:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Claude Fable 5.2、medium effortでも上限枯渇・Opusと分担へ",
+      "summary": "medium effortでも5時間の利用上限をすぐ使い切ってしまうとの報告が相次いでいる。Fableにはレビューだけを任せて修正はOpusに回す、Fableで型を作りOpusが小型モデルを率いるといった分担が共有されている。配布されたリセットはFableで消費した分しか戻らず、Opusの利用分は対象外だという注意点も話題に。",
+      "url": "https://x.com/kimmonismus/status/2120076998383227133",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "section": "エージェント",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-10T19:34:00+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Gemini 4 Carbon が一般提供に。Gemini API の導入価格は入力 $2・出力 $10／100万トークン",
+      "summary": "Googleが最強モデルGemini 4 Carbonを一般公開した。Gemini API・AI Studio・Ultra向けGeminiアプリで利用でき、Vertex AIの新規プロジェクトからも呼び出し可能。価格は2026年11月30日までの導入価格が入力$2・出力$10（100万トークンあたり）で、12月以降は$4・$20。Cursorにも即日対応し、high effortでCursorBench 60.4%を記録して首位に立った。",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "otherUrls": [
+        "https://x.com/aitrackerbot/status/2120055809560216014",
+        "https://x.com/GoogleAIStudio/status/2120187576489222302"
+      ],
+      "source": "Google",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "claude-code",
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-10T19:34:00+09:00",
+      "published_at": "2026-11-10T00:00:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Google CloudのAgent RegistryでSkill登録がGA",
+      "summary": "Google CloudのAgent Registryで、Skillの登録機能が一般提供になった。バージョンを含めてSkillを中央管理でき、自動スキャンでセキュリティ上の問題を見つける機能も加わった。組織全体にスキャンを強制することも可能で、外部Skill取り込み時の安全性確保に役立つ。",
+      "url": "https://x.com/ShoheyOkada/status/2119917000659292537",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "section": "エージェント",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-10T19:34:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Huang氏をFBIが調査、Nvidiaのロビー力にも陰り【続報】",
+      "summary": "Trump大統領はFBIがJensen Huang CEOを調べていると述べた。Nvidiaの法務責任者がMegaspeedのAIチップ密輸疑惑の政府調査に介入していたとBloombergが報じた。海外クラウド経由の中国向け提供規制に反対してきたロビー活動が効きにくくなり、ホワイトハウスもリモートアクセス制限を求めたとされる。",
+      "url": "https://x.com/FT/status/2119918115601498505",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-10T19:34:00+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Inkling 2 Small、opencodeとOpenRouterで期間限定無料",
+      "summary": "Thinking Machinesの小型モデルInkling 2 Smallの期間限定の無料提供がopencodeとOpenRouterで始まった。Agent的コーディングと知識労働向けに学習され、視覚フィードバックでWebサイトやゲーム、3Dデザインを改善できるという。Claude CodeやCodex、Hermes Agentなどのハーネス内で$0で使える。",
+      "url": "https://x.com/thinkymachines/status/2119896225315188993",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-10T19:34:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Muse EmberがGoogle Cloudに、Crouton Alphaは初期版【続報】",
+      "summary": "Muse Ember、Muse Spark 1.3、Muse WonderがGoogle Cloudのモデルガーデンでパブリックプレビュー提供された。OpenRouterのステルスモデルCrouton AlphaがEmberの初期版で、テスト期間中に5T超のトークンを処理したと明かされた。Browser Useの長期ブラウザベンチでは63.9とGPT-6 Luna mediumに並び、1タスク約3セントと2.4倍安いと報告されている。",
+      "url": "https://x.com/GoogleCloudTech/status/2119928020953624606",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-10T19:34:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Anthropic が IPO のロードショーを開始。想定価格は1株70〜78ドル、Nasdaq に「ANT」で上場申請",
+      "summary": "Anthropicは、計画している新規株式公開（IPO）に向けたロードショーを開始したと発表した。Class A普通株式8億2,500万株を売り出し（会社分8億135万1,354株、既存株主分2,364万8,646株）、想定価格は1株70〜78ドルで、引受会社に1億2,375万株の追加購入オプションがある。Nasdaqに「ANT」で上場申請。登録届出書はまだ効力を生じていない。",
+      "url": "https://www.anthropic.com/news/roadshow-launch",
+      "otherUrls": [
+        "https://x.com/AnthropicAI/status/2120117722230968385"
+      ],
+      "source": "Anthropic",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "claude-code",
+        "x"
+      ],
+      "collected_at": "2026-11-10T21:37:59+09:00",
+      "published_at": "2026-11-10T00:00:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Google WorkspaceでGeminiの「スキル」が展開開始",
+      "summary": "Googleは、Geminiにチームのルールやテンプレート、参照ファイルに従わせる再利用可能なカスタム指示「スキル」を、Google Workspace StudioとWorkspaceアプリで展開開始したと発表した。Rapid Releaseドメインは11月9日から順次展開（最大15日）、Scheduled Releaseは11月30日から。Gmail、Docs、Slides、Drive、Chatで利用できる。",
+      "url": "https://x.com/AIOPSFOUNDRY/status/2120111233571409937",
+      "otherUrls": [],
+      "source": "Google Workspace Updates",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T21:37:59+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Google、TPUの新システム「TPU 8tx」「TPU 8i Max」を発表",
+      "summary": "Googleは第8世代TPUの新システム2種を発表した。TPU 8txは機密推論・小規模学習向けで、AMD第5世代EPYCホストと組み合わせデータとモデルを保護しながら処理する。TPU 8i MaxはTPU 8iを2チップ1パッケージ化し、計算・SRAM・HBM帯域を2倍にして大規模コンテキストやマルチエージェント推論に対応する。2026年に4システム目となる。",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/?ref=explainx",
+      "otherUrls": [],
+      "source": "Google Cloud Blog",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T21:37:59+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Fulcrum、文体模倣に特化した新モデル「Echo」を発表",
+      "summary": "Fulcrumは11月10日、文体模倣に特化した新モデル「Echo」を発表した。Kimi K3をベースにSFTとトークンレベルのRLで学習し、5,000ドル未満の学習コストで文体模倣の独自指標「style Elo」がフロンティアモデルを上回るとしている。重みの公開は「近日中にオープンソース化予定」とされ、現時点では未公開。",
+      "url": "https://echo.fulcrum.inc",
+      "otherUrls": [],
+      "source": "Fulcrum",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-10T23:36:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Google DeepMind、フィジカルAI「Gemini Robotics 2.5」を発表",
+      "summary": "Google DeepMindが最新のフィジカルAI「Gemini Robotics 2.5」を発表した。洗濯物をたたむ、ペストリーを提供する、自動車部品を自律的に仕分けるなど、数百種の日常スキルを学習できるとしている。",
+      "url": "https://x.com/GoogleDeepMind/status/2120169787896525104",
+      "otherUrls": [],
+      "source": "Google DeepMind",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-11T02:09:48+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "MiniMax、16メガピクセル画像モデル「H3-Image」を公開",
+      "summary": "MiniMaxが画像モデル「H3-Image」を公開した。4K×4K（16メガピクセル）の画像を1枚10〜20秒で生成し、最大16枚の参照画像に対応する。オープンウェイト化が約束されているが、公開直後はHugging Faceのリンクが死んでいるとの報告もある。",
+      "url": "https://x.com/MiniMax_AI/status/2120158341229928576",
+      "otherUrls": [],
+      "source": "MiniMax",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-11T02:09:48+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Notion、Fireworks AIの侵害でNotion AIチャット記録が流出と確認",
+      "summary": "NotionはベンダーFireworks AIのセキュリティインシデントにより、1％未満のワークスペースでNotion AIのチャット記録（Insights機能用）が流出したことを確認した。Notion自体のシステムは侵害されていない。Insights機能を一時停止し、Fireworks経由のオープンモデルの提供も停止した。",
+      "url": "https://www.notion.com/en-gb/security/advisories/security-incident-involving-a-third-party-ai-vendor",
+      "otherUrls": [],
+      "source": "Notion",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "web-search"
+      ],
+      "collected_at": "2026-11-11T02:09:48+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Nuance Labs、全二重オーディオビジュアルモデル「Nuplex 1.0」と動画ペルソナ「Emma」を公開",
+      "summary": "シアトルの研究系スタートアップNuance Labsが、音声と映像を同時に処理する全二重オーディオビジュアルモデル「Nuplex 1.0」と、それを搭載したリアルタイム動画ペルソナ「Emma」を11月9日に公開した。ブラウザ上でアカウント不要のビデオ通話ができ、ベータAPIは登録制。",
+      "url": "https://www.orcarouter.ai/blog/nuplex-1-0-emma-full-duplex-video-persona",
+      "otherUrls": [],
+      "source": "OrcaRouter",
+      "topic": "映像生成・動画AI",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-11T02:09:48+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Payscale調査：経営層の83％がAIスキルに上乗せ報酬、実際に昇給した従業員は16％",
+      "summary": "Payscaleが11月10日に「AI Workforce Impact Report」を発表した。経営層の83％がAIスキルに上乗せ報酬を払う（または払う予定）と答えた一方、AIスキル習得で実際に昇給した従業員は16％にとどまり、70％は給与に変化なし。雇用主の74％は今後12か月でAIが人員・採用計画に影響すると予想している。",
+      "url": "https://www.globenewswire.com/news-release/2026/11/10/3399638/0/en/payscale-s-ai-workforce-impact-report-ai-is-boosting-productivity-but-employers-struggle-to-put-a-price-on-it.html",
+      "otherUrls": [],
+      "source": "Payscale",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "web-search"
+      ],
+      "collected_at": "2026-11-11T02:09:48+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Unreal Engine 5.9プレビュー版、生成AI「Unreal Canvas」を搭載",
+      "summary": "Epic GamesがUnreal Engine 5.9のプレビュー版を公開した。制作中のシーンから画像や3D素材の案を生成する生成AI機能「Unreal Canvas」を搭載する。",
+      "url": "https://gamespark.jp/article/2026/11/10/174714.html",
+      "otherUrls": [],
+      "source": "Game*Spark",
+      "topic": "3D生成・制作（クリエイティブ）",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-11T02:09:48+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Yahoo、AI検索「Scout」を正式版に、検索を再構築した「Pivot Search」も発表",
+      "summary": "Yahooが11月10日、AIアンサーエンジン「Scout」をベータから正式版に移行したと発表した。1月の公開以来30億超の回答を処理。検索を根本から再構築した「Pivot Search」や、Scoutアプリ（iOS／Android）、Yahoo各サービスやFirefoxへの展開も発表した。",
+      "url": "https://searchengineland.com/yahoo-scout-out-of-beta-and-yahoo-adds-pivot-search-501262",
+      "otherUrls": [],
+      "source": "Search Engine Land",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "web-search"
+      ],
+      "collected_at": "2026-11-11T02:09:48+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "カンタス航空、AI活用で管理部門850人を削減へ",
+      "summary": "カンタス航空が11月10日、管理部門業務の一部をアクセンチュアに委託し、国内で約850人を削減すると発表した。第1弾は財務・調達・人事・マーケティングが対象で2027年半ばまでに実施する。削減人数は豪国内従業員約2万8000人の約3％に当たる。AIによる業界の急速な変化に対応する措置と説明している。",
+      "url": "https://www.reuters.com/jp/economy/L7YPJM5YOFPEDOMNYQYKGTN2AQ-2026-11-10/",
+      "otherUrls": [],
+      "source": "ロイター",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "web-search"
+      ],
+      "collected_at": "2026-11-11T02:09:48+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "マイナビ調査：新卒採用でAI活用の企業は20.8％、前年から約2倍",
+      "summary": "マイナビが11月10日に「2027年卒マイナビ企業新卒内定状況調査＜新卒採用とAI＞」を発表した。新卒採用でAIを「すでに活用している」企業は20.8％で、前年の9.6％から約2倍に増えた。AIの普及で新卒採用数が「減る」と答えた企業は6.3％で、事務・管理系の職種では19.6％が採用減を見込む。調査期間は9月7日〜10月4日、有効回答1667社。",
+      "url": "https://prtimes.jp/main/html/rd/p/000002528.000002955.html",
+      "otherUrls": [],
+      "source": "マイナビ",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "web-search"
+      ],
+      "collected_at": "2026-11-11T02:09:48+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "ChatGPT Businessプラン、Notion・v0など外部ツールで利用可能に",
+      "summary": "OpenAIが、ChatGPT BusinessプランをNotion、v0、amp、Kilo Code、Warp、Hermes、OpenClaw、OpenCodeなどの外部ツールで使えるようにした。「Sign in with ChatGPT」で連携する。",
+      "url": "https://x.com/OpenAIDevs/status/2120212596850663712",
+      "otherUrls": [],
+      "source": "OpenAI",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-11T03:36:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Claude、Whiteboards・Sheets・Dataの提供を開始",
+      "summary": "AnthropicがClaudeの新機能「Whiteboards」「Sheets」「Data」の提供を開始した。Whiteboardsは計画をチームで編集できるボード、Sheetsは聞くだけで作れる共同編集可能なスプレッドシート、Data（旧Dashboards）は有料プランで一般提供となりデータストーリーの下書きも可能。ツール全体をClaude内で開くインタラクティブコネクターも追加された。",
+      "url": "https://x.com/claudeai/status/2120206365759094857",
+      "otherUrls": [],
+      "source": "Anthropic",
+      "topic": "Claude／Codex",
+      "section": "エージェント",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-11T03:36:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "NVIDIA、自動運転向け推論モデル「Alpamayo 2 Edge」（2B）を公開",
+      "summary": "NVIDIAが自動運転向けの2Bパラメータ推論型ビジョン・言語・アクションモデル「Alpamayo 2 Edge」を公開した。適応的推論で走行軌跡と因果説明を生成し、NVIDIA DRIVE AGX Thor上でのリアルタイム推論に最適化。重みはOpenMDW-1.1ライセンスで公開されている。",
+      "url": "https://huggingface.co/nvidia/Alpamayo2-Edge",
+      "otherUrls": [],
+      "source": "NVIDIA",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-11T03:36:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "OpenAI、AI旅行エージェント「Odessia」を買収か",
+      "summary": "AI旅行エージェントOdessiaの創業者フランシス・デイビッドソン氏が、OdessiaがOpenAIに買収され、自身も旅行の未来に取り組むためOpenAIに入社すると発表した。OpenAI側からの発表は現時点で確認できていない。",
+      "url": "https://x.com/FDavidsonT/status/2120214953349263473",
+      "otherUrls": [],
+      "source": "Francis Davidson",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-11T03:36:00+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "OpenAI、ChatGPTに「Businesses in ChatGPT」をベータ開始",
+      "summary": "OpenAIがChatGPTに「Businesses in ChatGPT」のベータ版を開始した。企業が自社情報を登録・管理し、ユーザーがどう関わっているかのインサイトを得られるほか、顧客の質問に答えるBusiness Agentも構築できる。事業者は自社の情報がChatGPTでどう表示されているかを把握し、ユーザーの関心を行動につなげられる。",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+      "otherUrls": [],
+      "source": "OpenAI",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "claude-code",
+        "x"
+      ],
+      "collected_at": "2026-11-11T03:36:00+09:00",
+      "published_at": "2026-11-10T19:00:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Claude、MCP Apps拡張を拡充—アプリ全体をClaude内で実行可能に",
+      "summary": "AnthropicのClaude Devsが、MCP Apps拡張への対応を拡大したと発表した。アプリツールや埋め込みサイトに対応し、アプリ全体をClaude内で実行できるようになる。",
+      "url": "https://x.com/ClaudeDevs/status/2120227979041341943",
+      "otherUrls": [],
+      "source": "Anthropic",
+      "topic": "Claude／Codex",
+      "section": "エージェント",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-11T06:03:48+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Google DeepMindとArtificial Analysis、視覚的知識労働の新ベンチマーク「MKA」を公開",
+      "summary": "Google DeepMindとArtificial Analysisが、図面や設計図、臨床スキャンなど視覚的に複雑な実務ファイルを扱うエージェント向けの新ベンチマーク「MKA」を公開した。10業種・83職種の専門家と設計した200タスクで評価し、Gemini 4 Carbonは品質2位で、首位モデルの約6分の1のコストだった。",
+      "url": "https://x.com/GoogleDeepMind/status/2120219377601560854",
+      "otherUrls": [],
+      "source": "Google DeepMind",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-11T06:03:48+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "「AIの方が遅いと分かっていてもAIを使う」労働者が52％（JobAssist調査）",
+      "summary": "JobAssistの調査（TechRadar報道）によると、労働者の52％が自分でやった方が速いと思いながらもAIを使ったと答えた。63％が雇用主からAI利用を奨励・期待されているとし、34％は期待に応えるため否定的な結果を報告しなかったという。",
+      "url": "https://tech-insider.org/workers-pressure-use-ai-show-off-bosses-jobassist-52-percent-2026/",
+      "otherUrls": [],
+      "source": "JobAssist",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "web-search"
+      ],
+      "collected_at": "2026-11-11T06:03:48+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "アドビ、GenStudioにAIエージェント「CX Enterprise Coworker」を統合",
+      "summary": "アドビはAdobe MAX 2026で、企業向けコンテンツサプライチェーン「GenStudio」にAIエージェント「CX Enterprise Coworker」を統合したと発表した。対話型インターフェースでキャンペーンの企画から制作・実行までを調整するほか、Workfrontへの「アイデア創出スペース」追加や3Dデジタルツインの拡張も発表した。",
+      "url": "https://www.businesswire.com/news/home/20261110090454/en/Adobe-Brings-Agentic-AI-to-the-Content-Supply-Chain-with-CX-Enterprise-Coworker",
+      "otherUrls": [],
+      "source": "Adobe",
+      "topic": "3D生成・制作（クリエイティブ）",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-11T06:03:48+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "生成AIで業務が速くなっても「やりがいが高まった」は46.4％にとどまる（GPTW Japan調査）",
+      "summary": "GPTW Japanの調査で、生成AIによって業務が効率化しても「仕事のやりがいが高まった」と答えた人は46.4％と半数未満だった。AI活用で上司や同僚との相談・協働が減った人もいるという。",
+      "url": "https://x.com/kyodonewsprwire/status/2118146367352905971",
+      "otherUrls": [],
+      "source": "GPTW Japan",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-11T06:03:48+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Claude、全有料プランに使用量の無料リセットを1回付与",
+      "summary": "Anthropicが、ClaudeのPro／Max／Ultra／Teamユーザー全員に、全モデル・全制限対象の無料フルリセットを1回付与した。12月10日14:00（米太平洋時間）までに利用可能。制限を意図以上に消費する不具合の修正に伴う措置で、Fableのリセットでは救済しきれなかったユーザー向け。",
+      "url": "https://x.com/ClaudeDevs/status/2120275296637321476",
+      "otherUrls": [],
+      "source": "Anthropic",
+      "topic": "Claude／Codex",
+      "section": "エージェント",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-11T07:22:22+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Fish Audio、全二重音声モデル「Live 3」を発表",
+      "summary": "Fish Audioが、聞きながら話す全二重音声モデル「Live 3」を発表した。相手の発話を聞き取りつつ「mm-hmm」などの相づちを入れ、割り込みにも対応するという。Fish Audio側の発表ポストのみで確認。",
+      "url": "https://x.com/rissa_cao/status/2120214987633467626",
+      "otherUrls": [],
+      "source": "Fish Audio",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x-likes"
+      ],
+      "collected_at": "2026-11-11T07:22:22+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Google Cloud が医療向けの「Gemini for healthcare」をプレビューで提供",
+      "summary": "Google Cloudが、Geminiエージェントを医療機関・健康保険向けに拡張した「Gemini for healthcare」を米国でプレビュー公開した。電子カルテ・請求・臨床ガイドライン・Medicareのデータにコネクタでつなぎ、診療記録の要約や受診前準備、事前承認書類の作成、給付説明などの多段の業務を人の監督つきで実行する。EpicやOracle Healthへの読み取り専用連携や27のコネクタを備え、HCA HealthcareやNorthwell Healthなどが導入顧客。",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "otherUrls": [
+        "https://x.com/googlecloud/status/2120141472636789026"
+      ],
+      "source": "Google Cloud",
+      "topic": "Gemini",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code",
+        "x-likes"
+      ],
+      "collected_at": "2026-11-11T07:22:22+09:00",
+      "published_at": "2026-11-10T22:00:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Hedra、実世界向けモデルの自律学習基盤「Model Factory」を発表",
+      "summary": "Hedraが、ロボティクスや製造、バイオ、防衛向けにモデルを継続的に学習・改善する「Hedra Model Factory」を発表した。GPUサンドボックス、研究者と自律エージェントによるポストトレーニング、低遅延デプロイ、運用データのフィードバックを一体化する。H3を物理一貫性向けに再学習し、Physics-IQで34.9を記録したという。",
+      "url": "https://x.com/hedra_labs/status/2120207555263905973",
+      "otherUrls": [],
+      "source": "Hedra",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x-likes"
+      ],
+      "collected_at": "2026-11-11T07:22:22+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "IFM、オープンのワールドモデル「PAN 2」を発表",
+      "summary": "MBZUAIのInstitute of Foundation Modelsが、物理的知能向けのオープンワールドモデル「PAN 2」を発表した。言語モデルが次の単語を予測するのに対し、PAN 2は各アクションの後に世界がどうなるかを予測し、29Bの拡散モデルで映像として描画する。Apache-2.0で、Hugging Faceで公開。",
+      "url": "https://x.com/IFM_AI/status/2120199814696828942",
+      "otherUrls": [],
+      "source": "Institute of Foundation Models",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x-likes"
+      ],
+      "collected_at": "2026-11-11T07:22:22+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "RunwayプラグインがCodexとChatGPTに対応",
+      "summary": "OpenAIが、RunwayのプラグインがCodexとChatGPTで使えるようになったと発表した。プロトタイプのキャラクターの動きを確認したり、予告編の別オープニングを試したり、商品写真から動画広告を作ったりできる。",
+      "url": "https://x.com/OpenAIDevs/status/2120258357533749755",
+      "otherUrls": [],
+      "source": "OpenAI",
+      "topic": "Claude／Codex",
+      "section": "エージェント",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-11T07:22:22+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "duplexio、全二重会話AI「Duo」を発表",
+      "summary": "duplexioが、聞きながら話す全二重会話AI「Duo」を発表した。文字起こしではなく音声そのものを直接聞き取り、間や「mm-hm」、割り込みにその場で反応するという。",
+      "url": "https://x.com/duplexio_ai/status/2120170260259316060",
+      "otherUrls": [],
+      "source": "duplexio",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x-likes"
+      ],
+      "collected_at": "2026-11-11T07:22:22+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "オープンソースのAI同僚プラットフォーム「OpenBot 1.0」が公開",
+      "summary": "CopilotKitの「OpenBot 1.0」が公開された。自社で所有・セルフホストできるAI同僚プラットフォームで、コンピュータ利用やWeb検索・連携、ルーティン、セキュリティ機能を備える。GitHubの最新タグはv1.0.0（11月9日）、MITライセンス。",
+      "url": "https://x.com/ataiiam/status/2120170276302524488",
+      "otherUrls": [],
+      "source": "CopilotKit",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x-likes"
+      ],
+      "collected_at": "2026-11-11T07:22:22+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "ブラウザエージェント「Browser Use 1.0.0」が安定版に",
+      "summary": "ブラウザ自動化ライブラリ「Browser Use」が初の安定版1.0.0を公開した。DOMシリアライザやアクションスキーマを捨て、エージェントがChrome DevTools Protocol上で直接Pythonを書く設計に刷新し、約13.7万行（80％）を削除。同じモデルで最大50％の精度向上、2〜5倍の低コスト、2〜3倍の高速化をうたう。",
+      "url": "https://x.com/browser_use/status/2119983662162952278",
+      "otherUrls": [],
+      "source": "Browser Use",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x-likes"
+      ],
+      "collected_at": "2026-11-11T07:22:22+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Claude Fable 5.2、70万行超の全コード監査1回でUltra枠25%を消費",
+      "summary": "70万行超のコードベースの一覧化だけでUltra枠の25%を消費したとの報告。公式プロンプトガイドは「This codebase is yours」。タスク単価が5.1から倍増したとの評価もある。",
+      "url": "https://x.com/kenn/status/2120094467906748862",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "Claude／Codex",
+      "section": "エージェント",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-11T07:35:00+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "DeepMind、Signalの本番機械語の安全性をAIで形式検証",
+      "summary": "Signalプロトコルの本番機械語コードの主要なセキュリティ特性を証明した。Gemini 4 CarbonのAgentチームが4週間で650万行の機械検証済み証明を生成したという。",
+      "url": "https://x.com/pushmeet/status/2120127611137634376",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-11T07:35:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Grok 4.8、今週Grok Botで一部展開へ、基盤をC/C++に書き直し",
+      "summary": "Musk氏が、JAX／SGLangを捨てRL・推論スタックをC／C++で書き直したと明かした。現在RL段階で、今週中に一部Grok Botユーザーへ先行展開する見込み。Grok 5は2〜3か月でOpus 5.5を超えるとの見通しも示した。",
+      "url": "https://x.com/elonmusk/status/2120088070443655190",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-11T07:35:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Stripe、OpenRouterの買収を完了、中立性は維持",
+      "summary": "8月に正式発表したOpenRouterの買収が完了した。1,000万超の開発者・企業が利用しており、OpenRouterは中立性の維持を表明している。",
+      "url": "https://x.com/stripe/status/2120240651778355306",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-11T07:35:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "佐藤竜馬氏の新刊『推薦システム』、LLM推薦を10種以上解説",
+      "summary": "佐藤竜馬氏の新刊『推薦システム』が、LLMを使った推薦アルゴリズムだけで10種類以上を解説している。LLM関連の5.8節が好評だという。",
+      "url": "https://x.com/iwiwi/status/2120137514044244352",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-11T07:35:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "読みにくいDB設計でAI開発コストが約1.9倍との検証",
+      "summary": "略語カラム名や文字列日付だけのDB設計では、AIが実DBを何度も叩きに行き開発コストが約1.9倍になったとの検証（各5回の試行）。",
+      "url": "https://x.com/KeisukeShibata_/status/2120276563849523260",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-11T07:35:00+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Blender 5.3 をリリース。3D Gaussian Splats をネイティブで扱えるように",
+      "summary": "PLY・SPZ・glTF の Gaussian Splats を点群として読み込み、Geometry Nodes で処理し、EEVEE・Cycles・Workbench でレンダリングできます。現時点では初期の実装で、リライティングは簡易対応、性能は最適化中です。",
+      "url": "https://www.blender.org/download/releases/5-3/",
+      "otherUrls": [],
+      "source": "Blender Foundation",
+      "topic": "3DGS×AI",
+      "section": "建設×AI",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00",
+      "published_at": "2026-11-10T00:00:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Ceipal が人材派遣・採用向けのエージェント型 AI「Ceipal Ora」を発表",
+      "summary": "ATS・VMS・労務管理にまたがり、候補者探し・音声での選考・コンプライアンス対応をエージェントが行います。顧客650社が利用中としています。顧客の報告として、候補者探しの時間が2〜3時間から4分未満に、採用までの期間が3倍改善したとありますが、独立した検証はありません。",
+      "url": "https://prnewswire.com/news-releases/ceipal-launches-ceipal-ora-its-agentic-ai-for-staffing-and-recruiting-302934034.html",
+      "otherUrls": [],
+      "source": "Ceipal",
+      "topic": "AIビジネス",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00",
+      "published_at": "2026-11-10T19:30:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Codex CLI 0.167.1 を公開（修正版）",
+      "summary": "0.167.0 からの修正版です。リリースには差分リンクしかなく、変更内容は書かれていません。",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.1",
+      "otherUrls": [],
+      "source": "OpenAI（GitHub Releases）",
+      "topic": "Codex",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00",
+      "published_at": "2026-11-11T06:33:57+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Copilot CLI の C++ Language Server が MSBuild のビルド設定を自動で構成",
+      "summary": "Copilot CLI 向けの Microsoft C++ Language Server が、同梱の MSBuild compile commands 抽出ツールを自動で実行するようになりました。有効な Copilot サブスクリプションが必要です。",
+      "url": "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds",
+      "otherUrls": [],
+      "source": "GitHub",
+      "topic": "GitHub Copilot",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00",
+      "published_at": "2026-11-11T02:04:10+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Copilot の Claude モデルが EU データ境界の対象に。12月9日から EU/EFTA で既定で有効に",
+      "summary": "MC1546438：EU・EFTA の対象テナントでは、2026年12月9日から Copilot の Claude モデルが既定で有効になります。管理者はそれまでにオプトアウトするか、利用を制限できます（要対応の可能性あり）。",
+      "url": "https://mc.merill.net/message/MC1546438",
+      "otherUrls": [],
+      "source": "Microsoft 365 メッセージセンター（公開アーカイブ）",
+      "topic": "Microsoft 365 Copilot",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00",
+      "published_at": "2026-11-10T10:07:53+09:00",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Gemini CLI v0.68.0：拡張機能の検証コマンド、SubagentStop フック、429 時のカウントダウン表示など",
+      "summary": "拡張機能の検証コマンドと、同時インストールを防ぐロックを追加しました。SubagentStop フックの対応付け、429 レート制限時のクールダウン表示も加わりました。Windows の修正や、rootless podman への --userns=keep-id の追加などもあります。",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.68.0",
+      "otherUrls": [],
+      "source": "Google（GitHub Releases）",
+      "topic": "Gemini CLI",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00",
+      "published_at": "2026-11-11T06:17:07+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "GitHub Copilot で Gemini 4 Carbon が一般提供に",
+      "summary": "複雑なコーディング・エージェント・推論タスク向けです。Copilot Pro+・Max・Business・Enterprise のユーザーに段階的に展開されます。",
+      "url": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot",
+      "otherUrls": [],
+      "source": "GitHub",
+      "topic": "GitHub Copilot",
+      "section": "モデル",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00",
+      "published_at": "2026-11-11T04:26:51+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Microsoft Copilot に新しいホーム画面。Code・Autopilot の従量課金と、SharePoint/OneDrive での一般提供",
+      "summary": "MC1479277：新しいホーム画面、Office との連携強化、Code・Autopilot 機能の従量課金（UBB）、SharePoint と OneDrive での一般提供が含まれます。管理者は支出ポリシーを設定する必要があります。",
+      "url": "https://mc.merill.net/message/MC1479277",
+      "otherUrls": [],
+      "source": "Microsoft 365 メッセージセンター（公開アーカイブ）",
+      "topic": "Microsoft 365 Copilot",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00",
+      "published_at": "2026-11-10T08:03:39+09:00",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "OpenAI Academy が米国5都市で介護者向けの無料 ChatGPT ワークショップ",
+      "summary": "OpenAI Academy が、米国5都市で介護者向けに無料・実践型の ChatGPT ワークショップを開きます。",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "otherUrls": [],
+      "source": "OpenAI",
+      "topic": "ChatGPT",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00",
+      "published_at": "2026-11-10T21:00:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "OpenAI が教育での AI ガイダンス不足について ThinkYoung の調査と EMEA の連携事例を公表",
+      "summary": "ThinkYoung の新しい調査と、OpenAI の EMEA 地域の教育パートナーシップから得た知見で、教員の支援、AI リテラシー、自律的な学習について論じています。数値は本文が 403 で確かめられていません。",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "otherUrls": [],
+      "source": "OpenAI",
+      "topic": "ChatGPT",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00",
+      "published_at": "2026-11-10T18:00:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "OpenAI と Upwork の調査「Work at the Frontier」：AI 関連のフリーランス案件は予算・稼働時間が大きい",
+      "summary": "フリーランス仕事の需要の変化、新しいスキルの組み合わせ、AI 関連案件の予算と稼働時間が大きいことを報告する研究です。具体的な数値は本文が 403 で確かめられていません。",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "otherUrls": [],
+      "source": "OpenAI",
+      "topic": "ChatGPT",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00",
+      "published_at": "2026-11-10T16:00:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Power BI の単独 Copilot（プレビュー）を2027年1月に終了。Microsoft 365 Copilot が後継に",
+      "summary": "MC1546429：Power BI の単独 Copilot プレビューは2027年1月に終了します。後継の Microsoft 365 Copilot での体験は、2026年12月8日から既定で有効になります。",
+      "url": "https://mc.merill.net/message/MC1546429",
+      "otherUrls": [],
+      "source": "Microsoft 365 メッセージセンター（公開アーカイブ）",
+      "topic": "Microsoft 365 Copilot",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00",
+      "published_at": "2026-11-10T09:22:19+09:00",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "PowerPoint Copilot に、スライドから解説動画を作る「Add explainer video」スキル",
+      "summary": "MC1546430：静的なスライドをアニメーション付きの解説動画にするスキルです。2026年11月上旬〜中旬に Frontier プログラムのユーザーへ展開されます。管理者の対応は不要です。",
+      "url": "https://mc.merill.net/message/MC1546430",
+      "otherUrls": [],
+      "source": "Microsoft 365 メッセージセンター（公開アーカイブ）",
+      "topic": "Microsoft 365 Copilot",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00",
+      "published_at": "2026-11-10T09:23:09+09:00",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "マイナビ調査：AI の普及で事務・管理系の新卒採用を「減らす」企業が19.6%",
+      "summary": "1,667社が回答（調査期間 2026年9月7日〜10月4日）。AI で新卒採用数が「変わらない」は90.8%、「減る」は6.3%でした。職種別では事務・管理系で「減らす」が19.6%、IT系で「増やす」が10.3%です。新卒採用で AI を「すでに活用している」企業は20.8%で、前年の約2倍でした。",
+      "url": "https://www.mynavi.jp/news/2026/11/post_55128.html",
+      "otherUrls": [],
+      "source": "株式会社マイナビ",
+      "topic": "AIビジネス",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-11T08:17:42+09:00",
+      "published_at": "2026-11-10T00:00:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    }
+  ]
+}
