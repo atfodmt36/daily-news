@@ -6,8 +6,41 @@
     "to": "2026-11-12T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 6,
+  "itemCount": 9,
   "items": [
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T11:27:12+09:00",
+      "headline": "Qwen、次世代モデル「Qwen4」を予告——最上位Qwen4-Maxはプレビュー中",
+      "source": "Alibaba Qwen",
+      "summary": "Alibabaの公式アカウントが次世代モデル「Qwen4」を予告した。より深い知識、高度なコーディングとエージェント能力をうたい、最上位のQwen4-Maxは現在プレビュー提供中と案内している。4段階（Max／Plus／Flash／27B）の構成で、公開時期や価格などの詳細は未発表。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://x.com/Alibaba_Qwen/status/2120335993643684315",
+      "x_url": "https://x.com/Alibaba_Qwen/status/2120335993643684315"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T11:27:12+09:00",
+      "headline": "Claude Fable 5.2、Artificial Analysisの知能指数で65を記録し首位に",
+      "source": "Artificial Analysis",
+      "summary": "11月10日時点のArtificial Analysis Intelligence Indexで、Claude Fable 5.2（Max）が65を記録し74モデル中1位になった。Gemini 4 Carbon（60）、Opus 5.5（59）を上回る。ただし1タスクあたりの平均コストは26.54ドルと、Opus 5.5（10.04ドル）の2倍以上。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://x.com/ycnewsdigest/status/2120288836160729303",
+      "x_url": "https://x.com/ycnewsdigest/status/2120288836160729303"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T11:27:12+09:00",
+      "headline": "新ベンチマーク「WorkflowArena」公開——最強のOpus 5.5でも完了率37%",
+      "source": "Einsia.AI",
+      "summary": "Navers Lab、Einsia.AI、清華大学が、AIエージェントに4時間で部下ワーカーを指揮させ成果物を出させる長期タスク型ベンチマーク「WorkflowArena」を公開した。145タスク・8領域で、最強構成のClaude Opus 5.5（Claude Code、max）でも全条件を満たして完了できたのは平均36.95%。Sonnet 5.5が33.21%、GPT-6.1 Solが28.04%だった。論文はarXiv:2611.12856。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://lab.einsia.ai/workflowarena/home.html",
+      "x_url": "https://x.com/AIQuanting/status/2120331633861730627"
+    },
     {
       "breaking": false,
       "collected_at": "2026-11-11T10:07:22+09:00",

@@ -6,8 +6,19 @@
     "to": "2026-11-12T08:00:00+09:00"
   },
   "source": "x-likes",
-  "itemCount": 2,
+  "itemCount": 3,
   "items": [
+    {
+      "breaking": false,
+      "collected_at": "2026-11-11T11:27:12+09:00",
+      "headline": "“年内入試”での生成AI活用、大学の対応分かれる",
+      "source": "NHK",
+      "summary": "年内の大学入試で生成AIをどう扱うかをめぐり、大学ごとに対応が分かれているとNHKが報じた（11月11日）。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://news.web.nhk/newsweb/na/nd-20261111de73858",
+      "x_url": "https://x.com/nhk_news/status/2120295198806974504"
+    },
     {
       "breaking": false,
       "collected_at": "2026-11-11T10:07:22+09:00",
