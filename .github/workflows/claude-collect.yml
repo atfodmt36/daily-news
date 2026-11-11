@@ -64,6 +64,7 @@ jobs:
       - name: Run the collect driver
         id: collect
         run: |
+          set -o pipefail
           args=()
           if [ "${{ inputs.commit }}" = "true" ] || [ "${{ github.event_name }}" = "schedule" ]; then args+=(--commit); fi
           if [ -n "${{ inputs.from }}" ]; then args+=(--from "${{ inputs.from }}"); fi
