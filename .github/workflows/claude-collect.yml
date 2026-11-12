@@ -2,12 +2,18 @@ name: Claude Code collect
 
 # AI Radar Claude Code collect, running in GitHub Actions (moved from the
 # owner's PC pipeline on 2026-11-11 after a successful trial; see
-# collect/README.md). Scheduled daily at 23:09 UTC = 08:09 JST; scheduled
-# runs always commit. Manual dispatch defaults to a no-commit trial run.
+# collect/README.md). Scheduled daily at 23:09 UTC = 08:09 JST, with a
+# redundant second trigger at 23:24 UTC: GitHub's schedule delivery
+# proved unreliable here (the 2026-11-11 23:09 slot fired 4h36m late;
+# the 2026-11-12 slot had not fired by 08:30 JST), so a "skip if
+# already registered" precheck below makes duplicate/late triggers
+# harmless. Scheduled runs always commit. Manual dispatch defaults to
+# a no-commit trial run.
 
 on:
   schedule:
     - cron: "9 23 * * *"
+    - cron: "24 23 * * *"
   workflow_dispatch:
     inputs:
       commit:
@@ -61,8 +67,21 @@ jobs:
           fi
           claude --version
 
+      - name: Skip if this window's collect is already registered
+        id: precheck
+        if: ${{ (github.event_name == 'schedule' || inputs.commit) && inputs.from == '' && inputs.to == '' }}
+        run: |
+          folder=$(TZ=Asia/Tokyo date +%Y%m%d)
+          if [ -f "inputs_muse/${folder}/claude-code.json" ]; then
+            echo "already=true" >> "${GITHUB_OUTPUT}"
+            echo "inputs_muse/${folder}/claude-code.json already exists - skipping the collect."
+          else
+            echo "already=false" >> "${GITHUB_OUTPUT}"
+          fi
+
       - name: Run the collect driver
         id: collect
+        if: ${{ steps.precheck.outputs.already != 'true' }}
         run: |
           set -o pipefail
           args=()
