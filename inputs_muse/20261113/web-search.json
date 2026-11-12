@@ -6,7 +6,7 @@
     "to": "2026-11-13T08:00:00+09:00"
   },
   "source": "web-search",
-  "itemCount": 2,
+  "itemCount": 3,
   "items": [
     {
       "breaking": false,
@@ -28,6 +28,16 @@
       "unconfirmed": false,
       "url": "https://landing.redwoodlogistics.com/the-state-of-4pl-2027",
       "x_url": "https://x.com/logi_today/status/2120783051194290513"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-12T22:09:51+09:00",
+      "headline": "Genpact調査、AIエージェント本番導入は79%でも投資と損益の直結は15%—経営層2000人超調査",
+      "source": "Genpact",
+      "summary": "Genpactが11月12日に発表した調査レポート「Autonomy in Practice」によると、AIエージェントを本番運用している企業は79%に達する一方、AI投資を損益（P&L）成果に完全に結びつけられている企業は15%にとどまった。資金を投入したAI施策のうち期待どおりの価値を生んだのは平均49%で、全社的に一貫してエージェントを使う企業は20%、AIが主導・完結する意思決定は40%に上った。17業種の経営層2000人超への調査。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://www.prnewswire.com/news-releases/79-of-enterprises-report-ai-agents-in-production-but-only-15-have-fully-tied-ai-investment-to-pl-outcomes-302937385.html"
     }
   ]
 }
