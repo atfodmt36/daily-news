@@ -1,0 +1,319 @@
+{
+  "date": "2026/11/12",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-11T08:00:00+09:00",
+    "to": "2026-11-12T08:00:00+09:00"
+  },
+  "source": "claude-code",
+  "itemCount": 19,
+  "items": [
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Copilot Coworkで「Work IQ」経由の業務アプリケーション連携を開発中",
+      "summary": "Copilot CoworkからWork IQを通じて業務アプリケーションにアクセスし、Business Skillsを使って企業データ・アプリに基づくエンドツーエンドの業務プロセスを実行できる機能(ロードマップID 573293)。対象はWeb、GA予定は2026年12月でステータスは開発中。",
+      "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573293",
+      "source": "Microsoft 365 Roadmap",
+      "published_at": "2026-11-11T09:53:34+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "roadmap",
+        "work-iq",
+        "cowork"
+      ],
+      "related_urls": [
+        "https://www.microsoft.com/releasecommunications/api/v2/m365/rss"
+      ],
+      "collected_at": "2026-11-12T09:01:34+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Work IQ MCPで業務プロセスを管理する「Business Skills」を開発中",
+      "summary": "組織の業務プロセス・ポリシー・ドメイン知識を自然言語の指示として表現し、エージェントがWork IQ MCP経由で実行時に参照して一貫処理を行える「Business Skills」(ロードマップID 573290)。対象はWeb、GA予定は2026年11月でステータスは開発中。",
+      "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573290",
+      "source": "Microsoft 365 Roadmap",
+      "published_at": "2026-11-11T09:53:34+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "roadmap",
+        "work-iq",
+        "mcp",
+        "business-skills"
+      ],
+      "related_urls": [
+        "https://www.microsoft.com/releasecommunications/api/v2/m365/rss"
+      ],
+      "collected_at": "2026-11-12T09:01:34+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Copilot生成PowerPointアウトラインのPages編集機能がキャンセル",
+      "summary": "ChatのPagesでCopilot生成のPowerPointアウトラインをデッキ作成前に編集・共同編集できる機能(ロードマップID 501785)が「もはや正確でない」としてロードマップから削除・キャンセルに変更された(2026-11-11更新)。対象はMicrosoft 365 Copilot(Web)、旧GA予定は2026年10月。",
+      "url": "https://www.microsoft.com/microsoft-365/roadmap?id=501785",
+      "source": "Microsoft 365 Roadmap",
+      "published_at": "2026-11-11T10:23:34+09:00",
+      "unconfirmed": false,
+      "status": "deprecated",
+      "tags": [
+        "roadmap",
+        "cancelled",
+        "powerpoint"
+      ],
+      "related_urls": [
+        "https://www.microsoft.com/releasecommunications/api/v2/m365/rss"
+      ],
+      "collected_at": "2026-11-12T09:01:34+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "PowerPoint Copilotの「Add explainer video」スキル展開が一時停止",
+      "summary": "静的スライドをアニメーション解説動画に変換するPowerPoint Copilotの実験的機能「Add explainer video」の展開が一時停止された(メッセージセンターMC1546430)。対象はFrontierユーザー向けのデスクトップ/Mac/Web、全世界。再開時はメッセージセンターで通知予定。テナント要ログインのため非公式アーカイブで確認(公式ページ未確認)。",
+      "url": "https://mc.merill.net/message/MC1546430",
+      "source": "Microsoft 365 Message center (public archive)",
+      "published_at": "2026-11-12T03:37:46+09:00",
+      "unconfirmed": true,
+      "status": "deprecated",
+      "tags": [
+        "secondary",
+        "message-center",
+        "powerpoint",
+        "paused",
+        "borderline"
+      ],
+      "related_urls": [
+        "https://mc.merill.net/rss.xml"
+      ],
+      "collected_at": "2026-11-12T09:01:34+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "OpenAI、退役軍人・現役軍人向け無償ChatGPT Plusの請求が2万人超に",
+      "summary": "OpenAIは、退役軍人・移行期の軍人向けに提供する1年間無償のChatGPT Plusを2万人以上が請求したと発表。キャリア移行支援としての活用が進んでいるとしている。",
+      "url": "https://openai.com/index/chatgpt-plus-for-veterans/",
+      "source": "OpenAI",
+      "published_at": "2026-11-11T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "date-only",
+        "borderline",
+        "chatgpt-plus",
+        "offering"
+      ],
+      "related_urls": [
+        "https://openai.com/news/rss.xml"
+      ],
+      "collected_at": "2026-11-12T09:01:34+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "JioStarの主席アーキテクト、5億ユーザー規模でのAIディスカバリーを語る",
+      "summary": "JioStarのVijay Seshadri氏が、評価・ガードレール・本番導入を含む大規模なAIディスカバリー運用について解説する顧客事例をOpenAIが公開。",
+      "url": "https://openai.com/index/jiostar-vijay-seshadri/",
+      "source": "OpenAI",
+      "published_at": "2026-11-11T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "date-only",
+        "borderline",
+        "customer-story"
+      ],
+      "related_urls": [
+        "https://openai.com/news/rss.xml"
+      ],
+      "collected_at": "2026-11-12T09:01:34+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "法律事務所Gilbert + Tobin、AIで法務ビジネスを再構築",
+      "summary": "OpenAIが、Gilbert + TobinのCEO Sam Nickless氏とのインタビューを公開。同社はChatGPT EnterpriseとCodexを全社展開し、有効化ユーザーの87%が利用するなどの成果を共有した。",
+      "url": "https://openai.com/index/gilbert-tobin/",
+      "source": "OpenAI",
+      "published_at": "2026-11-12T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "date-only",
+        "borderline",
+        "customer-story"
+      ],
+      "related_urls": [
+        "https://openai.com/news/rss.xml"
+      ],
+      "collected_at": "2026-11-12T09:01:34+09:00"
+    },
+    {
+      "topic": "Codex",
+      "headline": "Codex CLI 0.167.2 公開 — Vertex AIでツール更新を既定で増分送信",
+      "summary": "Google Cloud Vertex AI上でCodexがツール更新を既定で増分的に送信するようになった。従来挙動に戻すにはconfig.tomlの[features]でincremental_tools_legacy_gcp = falseを設定する。",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.2",
+      "source": "OpenAI",
+      "published_at": "2026-11-11T22:46:17+00:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "related_urls": [
+        "https://github.com/openai/codex/pull/60617",
+        "https://learn.chatgpt.com/docs/changelog"
+      ],
+      "collected_at": "2026-11-12T09:01:34+09:00"
+    },
+    {
+      "topic": "日本政府・行政",
+      "headline": "古川デジタル大臣、AI制度・関連規制の見直しを進める方針を表明(10月設置のAIガバナンス検討会で検討)",
+      "summary": "デジタル庁が古川大臣記者会見(令和8年11月10日)要旨を公表。大臣は10月下旬に設置したAIガバナンスに関するワーキンググループでAI法を含む制度・規制の見直しを進める方針を示し、AIの機会とリスクの両立、セーフティとセキュリティ両面の確保、AI安全性機関を活用した国際協調を強調した。",
+      "url": "https://www.digital.go.jp/speech/minister-261110-01",
+      "source": "デジタル庁",
+      "published_at": "2026-11-11T18:57:11+09:00",
+      "unconfirmed": false,
+      "status": "policy",
+      "tags": [
+        "borderline"
+      ],
+      "collected_at": "2026-11-12T09:01:34+09:00"
+    },
+    {
+      "topic": "Gemini",
+      "headline": "Googleがマルチモーダル判定モデル「Gemini Decision」とDecisions APIを提供開始",
+      "summary": "Googleは高速かつ較正済みの二値・カテゴリ・ルーブリック判定を行う新モデル「gemini-decision-1」とDecisions APIを一般提供として発表。テキスト・画像・音声・動画・PDFを単一リクエストで処理し、出力トークン課金なしで入力100万トークンあたり0.10ドル。",
+      "url": "https://aistudio.google.com/docs/changelog",
+      "source": "Google",
+      "published_at": "2026-11-11T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "date-only"
+      ],
+      "related_urls": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+      ],
+      "collected_at": "2026-11-12T09:01:34+09:00"
+    },
+    {
+      "topic": "Microsoft Foundry",
+      "headline": "Azure Content UnderstandingがGPT-5.6・GPT-6・GPT-6.1に対応、ワークロード別に最適モデルを選択可能に",
+      "summary": "Azure Content Understandingに新たにGPT-5.6、GPT-6、GPT-6.1の各モデルファミリーが追加され、品質とコストをワークロードごとに調整できるようになった。標準的なドキュメント抽出にはGPT-6.1 Sol、コスト重視にはGPT-6 Luna、誤りが高コストなレビューにはGPT-6 Astraの利用が案内されている。",
+      "url": "https://devblogs.microsoft.com/foundry/content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-choose-the-right-model-for-your-workload/",
+      "source": "Microsoft",
+      "published_at": "2026-11-12T03:24:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "collected_at": "2026-11-12T09:01:34+09:00"
+    },
+    {
+      "topic": "建設×AI",
+      "headline": "SHO-SAN、工務店のAI活用実態調査2026を公開 壁は「導入」でなく「定着」",
+      "summary": "株式会社SHO-SANが工務店のAI活用実態調査2026を発表。集客(63%)・提案(58%)など入口業務は約6割が活用する一方、見積(19%)・現場管理(16%)・契約(13%)など出口業務は1〜2割にとどまり、見積でAIを試した人の44%が定着しなかったと回答した。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000046.000057281.html",
+      "source": "株式会社SHO-SAN",
+      "published_at": "2026-11-11T18:30:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "survey",
+        "建築",
+        "工務店"
+      ],
+      "collected_at": "2026-11-12T09:01:34+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "SpAItial、世界モデルEcho-3のAPIを全開発者に公開",
+      "summary": "SpAItialがワールドモデル「Echo-3」のAPIを全開発者アカウントに開放。スマホ撮影フレームのZIPをアップロードするとメトリックスケールのGaussian Splatへ変換でき、料金は900クレジット+1フレームあたり1クレジット。",
+      "url": "https://docs.spaitial.ai/api/getting-started",
+      "source": "SpAItial / Radiance Fields",
+      "published_at": "2026-11-11T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "date-only",
+        "borderline"
+      ],
+      "related_urls": [
+        "https://radiancefields.com/spaitial-echo-3-api-opens-to-every-developer-account",
+        "https://spaitial.ai/echo-3"
+      ],
+      "collected_at": "2026-11-12T09:01:34+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "design4real、無料ブラウザ版Gaussian Splatエディタ「Splatmania」を公開",
+      "summary": "design4realがSuperSplatベースの無料ブラウザ型Gaussian Splatエディタ「Splatmania」を公開。マルチカメラのカットタイムライン、深度選択、ステレオ360出力に対応する。",
+      "url": "https://radiancefields.com/design4real-releases-splatmania-a-free-splat-editor",
+      "source": "design4real / Radiance Fields",
+      "published_at": "2026-11-11T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "date-only"
+      ],
+      "related_urls": [
+        "https://github.com/clarencedad-cloud/d4r-Splatmania"
+      ],
+      "collected_at": "2026-11-12T09:01:34+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "Esri、ArcGIS Maps SDK for JavaScript 5.2でGaussian Splatレイヤーに解析ツールを追加",
+      "summary": "EsriがArcGIS Maps SDK for JavaScript 5.2でGaussian Splatレイヤーに対する可視領域(Viewshed)と影の落下(Shadow Cast)解析機能を統合した。",
+      "url": "https://radiancefields.com/esri-adds-viewshed-and-shadow-cast-analysis-to-splats",
+      "source": "Esri / Radiance Fields",
+      "published_at": "2026-11-11T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "date-only"
+      ],
+      "collected_at": "2026-11-12T09:01:34+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "レバレジーズ調査、28卒ITエンジニア採用「維持・拡大」9割超、AI普及下でも新卒採用は縮小せず",
+      "summary": "企業担当者553名への調査で、2028年卒ITエンジニア採用を「維持・拡大」する企業が9割超、「増やす」は44.1%。一方で将来の管理職候補不足を懸念47.9%、社内育成文化の毀損懸念36.5%、28卒で増員する企業の過半が提示年収を引き上げと回答。",
+      "url": "https://prtimes.jp/main/html/rd/p/000001005.000010591.html",
+      "source": "レバレジーズ",
+      "published_at": "2026-11-11T11:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "collected_at": "2026-11-12T09:01:34+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "GVA TECH、法務AI「リーガルAIキット」に販路拡大・パートナーシップ契約のプレイブックを追加",
+      "summary": "生成AI(ChatGPT/Copilot/Gemini/Claude等)を自社基準で契約レビューに活用する「リーガルAIキット」を拡張。販売代理店・販売代理・顧客紹介/仲介の3契約類型で計6種のプレイブックを追加し、定型的な契約レビュー業務の効率化を図る。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000495.000033386.html",
+      "source": "GVA TECH",
+      "published_at": "2026-11-11T10:20:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "collected_at": "2026-11-12T09:01:34+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "オークローンマーケティング、Shop JapanコンタクトセンターにCrestaのCS向けAIプラットフォームを導入",
+      "summary": "通販「Shop Japan」の顧客対応にCrestaのAIプラットフォームを導入。定型問い合わせの自動応答、通話中オペレーターへのリアルタイム支援(カスハラ対応含む)、会話分析を一元化。2026年12月に電話対応から開始し段階的に拡大予定。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000474.000001915.html",
+      "source": "オークローンマーケティング／Cresta",
+      "published_at": "2026-11-11T13:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "related_urls": [
+        "https://prtimes.jp/main/html/rd/p/000000005.000191836.html"
+      ],
+      "collected_at": "2026-11-12T09:01:34+09:00"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "headline": "Enterprise向けGitHub AppがCopilotシート管理APIに対応",
+      "summary": "Enterprise GitHub Appが新たなきめ細かい権限「Enterprise Copilot license management」を通じて、エンタープライズレベルのCopilotシート管理APIを利用可能に。ユーザーやエンタープライズチームへのCopilotシート割り当てをプログラムで管理できる。",
+      "url": "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management",
+      "source": "GitHub",
+      "published_at": "2026-11-11T09:10:31+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "collected_at": "2026-11-12T09:01:34+09:00"
+    }
+  ]
+}
