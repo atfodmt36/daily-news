@@ -6,7 +6,7 @@
     "to": "2026-11-13T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 29,
+  "itemCount": 30,
   "items": [
     {
       "breaking": false,
@@ -326,6 +326,17 @@
       "unconfirmed": false,
       "url": "https://huggingface.co/salesforce-sovereign-intelligence/SOV-Transcribe-1",
       "x_url": "https://x.com/ArtificialAnlys/status/2120917242439409788"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-13T06:03:32+09:00",
+      "headline": "Anthropic、製造業向けClaudeプラグイン「Claude for Manufacturing」を公開—17スキルとAutodesk Fusion連携",
+      "source": "Anthropic",
+      "summary": "Anthropicが11月12日、製造業の現場チーム向けプラグイン「Claude for Manufacturing」をTeam/Enterprise向けに公開した。見積もり作成、品質不良の調査、故障診断、仕入先比較、生産レポート作成など17のスキルを備え、Autodesk Fusion、Infor、Microsoft 365、Oracle NetSuiteへのコネクターで自社の記録から作業する。出力は担当者がレビュー・承認してから顧客や仕入先に渡る設計で、工場設備そのものは操作しない。Autodesk Fusion連携では既存モデルから設計バリエーションを生成し、エンジニアの目標に対してスコア付けして比較メモを作成できる。",
+      "topic": "Claude／Codex",
+      "unconfirmed": false,
+      "url": "https://claude.com/resources/articles/claude-for-manufacturing",
+      "x_url": "https://x.com/nurhayatdev/status/2120963717705728258"
     }
   ]
 }
