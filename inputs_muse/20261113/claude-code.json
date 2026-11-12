@@ -1,0 +1,263 @@
+{
+  "date": "2026/11/13",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-12T08:00:00+09:00",
+    "to": "2026-11-13T08:00:00+09:00"
+  },
+  "source": "claude-code",
+  "itemCount": 13,
+  "items": [
+    {
+      "topic": "Claude",
+      "headline": "Claude Meetings を Team/Enterprise プランでベータ提供開始",
+      "summary": "Claude および Claude Desktop の Team/Enterprise プランで「Claude Meetings」をベータ提供開始。Google Meet 通話に Claude を可視の参加者として追加でき、メモ取り・質問応答・通話中のドキュメント/ホワイトボード/スライド等のアーティファクト作成に対応。",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "source": "Anthropic (Claude Support)",
+      "published_at": "2026-11-12T00:00:00-08:00",
+      "unconfirmed": false,
+      "status": "beta",
+      "tags": [
+        "claude.ai",
+        "Team",
+        "Enterprise",
+        "meetings",
+        "date-only"
+      ],
+      "collected_at": "2026-11-13T08:34:38+09:00"
+    },
+    {
+      "topic": "Claude",
+      "headline": "セルフホスト型 Claude Managed Agents を提供開始",
+      "summary": "Managed Agents サービス全体を自社インフラ上で実行できるセルフホスト型が利用可能に。エージェント・セッション・セッション履歴を自社インフラに保存し、モデルリクエストは選択プロバイダ（既定は Anthropic）へ送信。利用には Anthropic アカウントチームへの申請が必要。",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "source": "Anthropic (Claude Platform)",
+      "published_at": "2026-11-12T00:00:00-08:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "API",
+        "Managed Agents",
+        "self-hosted",
+        "enterprise",
+        "date-only"
+      ],
+      "related_urls": [
+        "https://platform.claude.com/docs/en/managed-agents/self-hosted"
+      ],
+      "collected_at": "2026-11-13T08:34:38+09:00"
+    },
+    {
+      "topic": "Claude Code",
+      "headline": "Claude Code v2.1.323、実験的な「Code Mode」などを追加",
+      "summary": "Claude が JavaScript を書いてツールを呼び出す実験的オプトイン機能「Code Mode」を追加。plugin.json の engines[\"claude-code\"] によるバージョン範囲指定、claude plugin validate でのプラグイン TypeScript フックの型チェック、Artifact ツールアップロードでの .docx サポートも追加。",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
+      "source": "Anthropic (GitHub)",
+      "published_at": "2026-11-12T22:12:13+00:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "release",
+        "Code Mode",
+        "plugins",
+        "MCP"
+      ],
+      "related_urls": [
+        "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md"
+      ],
+      "collected_at": "2026-11-13T08:34:38+09:00"
+    },
+    {
+      "topic": "Codex",
+      "headline": "Codex CLI v0.168.0 を安定版としてリリース",
+      "summary": "OpenAI は Codex CLI の安定版 v0.168.0 を公開。GitHub リリースには詳細な変更履歴（リリースノート本文）がなく「Release 0.168.0」とのみ記載されている。",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0",
+      "source": "GitHub (openai/codex)",
+      "published_at": "2026-11-12T21:29:07+00:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "codex-cli",
+        "release"
+      ],
+      "related_urls": [
+        "https://github.com/openai/codex/releases.atom"
+      ],
+      "collected_at": "2026-11-13T08:34:38+09:00"
+    },
+    {
+      "topic": "Gemini",
+      "headline": "Gemini 4 Hydrogen が一般提供開始、新しい xhigh 思考レベルを搭載",
+      "summary": "Google は Gemini API / AI Studio で Gemini 4 Hydrogen（gemini-4-hydrogen）を一般提供開始。新たな xhigh 思考レベルを備え、Antigravity エージェントの既定モデルとなる。開発者向け価格は入力100万トークンあたり$1.50、出力100万トークンあたり$7.50。",
+      "url": "https://aistudio.google.com/docs/changelog",
+      "source": "Google AI Studio / Gemini API Changelog",
+      "published_at": "2026-11-12T00:00:00-08:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "gemini-4-hydrogen",
+        "model",
+        "pricing",
+        "date-only"
+      ],
+      "related_urls": [
+        "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/"
+      ],
+      "collected_at": "2026-11-13T08:34:38+09:00"
+    },
+    {
+      "topic": "日本政府・行政",
+      "headline": "デジタル庁、「令和8年度AIを活用した情報システム調達の評価に係る調査等業務」を一般競争入札で公告",
+      "summary": "デジタル庁は2026年11月12日、AIを活用した情報システム調達の評価に係る調査等業務の一般競争入札を公告した（調達番号0000000000000630386、WTO対象外）。政府の情報システム調達評価手法へのAI活用に関する調査・研究を委託するもの。",
+      "url": "https://www.digital.go.jp/procurement",
+      "source": "デジタル庁",
+      "published_at": "2026-11-12T15:00:00+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "AI",
+        "政府調達",
+        "情報システム",
+        "一般競争入札"
+      ],
+      "collected_at": "2026-11-13T08:34:38+09:00"
+    },
+    {
+      "topic": "建設×AI",
+      "headline": "ACIMUS、ChatBIM「ACIMUS」の建築AI「KIWARI」をリリース——スケッチや写真1枚からBIMモデルを一括生成",
+      "summary": "株式会社ACIMUSは2026年11月12日、ChatBIM「ACIMUS」の新機能として建築AI「KIWARI」をリリース。2D図面・手書きスケッチ・間取り図・建物写真・文章から、柱・梁・壁・床・屋根・窓・ドア・家具・設備を含む編集可能なBIMモデルを一括生成し、給水・給湯・排水の配管ルートも提案する。IFC/DXF形式で出力可能。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000023.000152114.html",
+      "source": "PR TIMES（株式会社ACIMUS）",
+      "published_at": "2026-11-12T10:10:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "BIM",
+        "生成AI",
+        "ChatBIM",
+        "設計",
+        "建築",
+        "IFC"
+      ],
+      "related_urls": [
+        "https://www.zaikei.co.jp/releases/3711731/"
+      ],
+      "collected_at": "2026-11-13T08:34:38+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "Spirula Studio、v2026.11.12を公開——ローリングシャッター補正とGLOMAP型SfMマッパーを追加",
+      "summary": "クロスベンダー対応の3Dガウシアンスプラッティング学習ツール Spirula Studio が v2026.11.12 をリリース。学習中のローリングシャッター等のカメラ校正残差補正、GLOMAP型グローバルマッパーとFlexGlue特徴マッチャーのSfM追加、3段階（弱/中/強）のフローター抑制、Apple Silicon高速化などを含む。",
+      "url": "https://github.com/harry7557558/spirula-studio/releases/tag/v2026.11.12",
+      "source": "GitHub (harry7557558/spirula-studio)",
+      "published_at": "2026-11-12T08:02:00+00:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "3DGS",
+        "GaussianSplatting",
+        "SfM",
+        "GLOMAP",
+        "OSS",
+        "release"
+      ],
+      "related_urls": [
+        "https://radiancefields.com/platforms/spirula-studio"
+      ],
+      "collected_at": "2026-11-13T08:34:38+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "AWS調査、日本企業のAI導入率が43%→54%に上昇 導入企業の81%が生産性向上を実感",
+      "summary": "AWSがStrand Partnersに委託した調査「2026年、日本のAIの未来を切り拓く」で、日本企業のAI導入率が前年43%から54%（約198万社）に上昇。導入企業の81%が生産性向上、55%が増収、44%が初期投資を上回るリターンを実感した一方、60%は基礎的活用にとどまり、最も変革的な段階は19%（前年13%）。ビジネスリーダー1,000人・一般市民1,000人対象。",
+      "url": "https://prtimes.jp/main/html/rd/p/000002211.000004612.html",
+      "source": "アマゾンジャパン合同会社（AWS）",
+      "published_at": "2026-11-12T10:30:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "調査",
+        "AI導入率",
+        "生産性",
+        "エンタープライズAI"
+      ],
+      "related_urls": [
+        "https://news.mynavi.jp/techplus/article/20261112-5307407/"
+      ],
+      "collected_at": "2026-11-13T08:34:38+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "GenAI HR Awards 2026 受賞結果発表、SHIFTがAIエージェント約6,500体で営業利益約10億円改善",
+      "summary": "生成AI活用普及協会がGenAI HR Awards 2026の受賞を発表。大企業部門グランプリのSHIFTは892業務の可視化からAIエージェント約6,500体を開発し営業利益約10億円改善・100名の戦略再配置・AI売上比率28.4%。準グランプリのDeNAは生成AI活用で人事レビュー工数を約30%（約118時間）削減。中小企業部門のアイトリアは生成AIパスポート取得率100%、年間1,565時間削減。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000111.000121559.html",
+      "source": "一般社団法人生成AI活用普及協会（GUGA）",
+      "published_at": "2026-11-12T11:00:00+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "人事",
+        "表彰",
+        "生成AI",
+        "業務効率化",
+        "事例"
+      ],
+      "collected_at": "2026-11-13T08:34:38+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "immedio、AIパーソナル営業アシスタント「Cuei AI」を提供開始",
+      "summary": "immedioがインサイドセールス・フィールドセールス・カスタマーサクセス向けAIパーソナル営業アシスタント「Cuei AI」を提供開始。顧客履歴や社内データから次のアクションを先回り提案し、Salesforce・HubSpot・Slack・Gmail等と連携。自社検証（2026年4-5月の5週間）では約1,100回利用され、約半数が営業業務、30-40%が顧客対応文面の下書きに使われた。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000327.000106428.html",
+      "source": "株式会社immedio",
+      "published_at": "2026-11-12T15:10:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "営業",
+        "AIアシスタント",
+        "製品ローンチ",
+        "セールステック"
+      ],
+      "collected_at": "2026-11-13T08:34:38+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "Waris、人事職のAI関連案件が約2.8倍に プロ人事向け「AIエージェント実践講座」第2期募集開始",
+      "summary": "Warisは人事職のAI関連案件の割合が2024年度7.6%→2025年度21.1%へ約2.8倍に増加したと発表し、プロ人事向け「AIエージェント実践講座（第2期）」の募集を開始。Claudeを用いて求人票作成や規程レビュー等を自動化するAIエージェント構築を学ぶ内容で、第1期満足度は4.75/5.0。受講料79,800円、定員10名、2026年12月23日開講。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000060.000018325.html",
+      "source": "株式会社Waris",
+      "published_at": "2026-11-12T10:10:00+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "人事",
+        "AI人材育成",
+        "AIエージェント",
+        "スキル"
+      ],
+      "collected_at": "2026-11-13T08:34:38+09:00"
+    },
+    {
+      "topic": "その他",
+      "headline": "Perplexity、オープンウェイトの意思決定モデル「pplx-decider-v1.3」と「flash-v1.3」を公開",
+      "summary": "Perplexityはオープンウェイトの意思決定モデルの新版 pplx-decider-v1.3 および軽量版 flash-v1.3 を公開。指示や型に基づき該当スパンを抽出する新機能「locate」を追加し、Decisions API・Hugging Face・OpenRouter で提供する。",
+      "url": "https://community.perplexity.ai/t/were-rolling-out-pplx-decider-v1-3-and-pplx-decider-flash-v1-3-the-latest-version-of-our-open-weight-decision-models/6606",
+      "source": "Perplexity (API Platform Forum)",
+      "published_at": "2026-11-12T00:00:00-08:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "Perplexity",
+        "open-weights",
+        "API",
+        "decision-models",
+        "date-only"
+      ],
+      "related_urls": [
+        "https://openrouter.ai/perplexity/pplx-decider-v1.3:free"
+      ],
+      "collected_at": "2026-11-13T08:34:38+09:00"
+    }
+  ]
+}
