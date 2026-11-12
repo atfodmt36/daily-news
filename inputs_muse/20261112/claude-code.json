@@ -6,7 +6,7 @@
     "to": "2026-11-12T08:00:00+09:00"
   },
   "source": "claude-code",
-  "itemCount": 19,
+  "itemCount": 26,
   "items": [
     {
       "topic": "Microsoft 365 Copilot",
@@ -314,6 +314,121 @@
       "unconfirmed": false,
       "status": "ga",
       "collected_at": "2026-11-12T09:01:34+09:00"
+    },
+    {
+      "topic": "Gemini",
+      "headline": "Google、Gemini Decisions APIと専用モデルgemini-decision-1を提供開始",
+      "summary": "テキスト・画像・音声・動画・PDFに対し高速で較正されたバイナリ/カテゴリ/ルーブリック判定を単一フォワードパスで行う専用API「Gemini Decisions API」をGemini API(Google AI Studio)で提供開始。出力トークン課金なしで入力100万トークンあたり$0.10、プロトタイピング用の無料枠あり。OpenRouter、LangChain、Vercel、LiteLLM、Pydantic AI等への統合も順次展開。",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "source": "Google Blog / Gemini API Changelog",
+      "published_at": "2026-11-11T18:00:00+00:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "related_urls": [
+        "https://aistudio.google.com/docs/changelog"
+      ],
+      "collected_at": "2026-11-12T12:52:20+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Microsoft Copilotアプリ、Home刷新とProjects・Workspaces導入(メッセージセンター更新)",
+      "summary": "Copilotアプリが刷新されたHome(Chat/Cowork統合、Projects、Workspaces)を導入。ProjectsはコンテンツをOneDriveに保存したまま関連タスク・ファイルを整理し、WorkspacesはNotebooksを置き換える。標準提供は10月下旬〜、Workspacesは2027年1月〜展開。メッセージセンターアーカイブ(MC1535647、11/2公開・11/11更新)より。",
+      "url": "https://mc.merill.net/message/MC1535647",
+      "source": "Message Center archive (merill.net)",
+      "published_at": "2026-11-11T22:15:05+00:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "secondary",
+        "borderline"
+      ],
+      "collected_at": "2026-11-12T12:52:20+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Word・Excel・PowerPointのCopilotボタンから直接プロンプト入力が可能に(メッセージセンター更新)",
+      "summary": "Microsoft 365 CopilotがWord、Excel、PowerPointのCopilotボタン上に直接プロンプト入力欄を追加し、ワークフローを中断せず素早くコンテンツ作成が可能に。Windows・macOS・Webで2026年9月〜12月に展開。メッセージセンターアーカイブ(MC1470885、11/11更新)より。",
+      "url": "https://mc.merill.net/message/MC1470885",
+      "source": "Message Center archive (merill.net)",
+      "published_at": "2026-11-11T21:51:22+00:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "secondary"
+      ],
+      "collected_at": "2026-11-12T12:52:20+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "AWS調査：日本企業のAI導入率が54%に上昇、導入企業の81%が生産性向上を実感",
+      "summary": "AWSがStrand Partnersに委託した調査で、日本企業のAI導入率が前年43%から54%(約198万社)に上昇。AI導入企業の81%が生産性向上、55%が収益増加を実感する一方、60%は基礎的活用にとどまり、次世代AIに「万全/非常に準備ができている」は18%にとどまる。経営層・一般市民各1,000人が対象。",
+      "url": "https://prtimes.jp/main/html/rd/p/000002211.000004612.html",
+      "source": "アマゾン ウェブ サービス ジャパン(PR TIMES)",
+      "published_at": "2026-11-12T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "date-only",
+        "調査",
+        "AI導入",
+        "生産性",
+        "borderline"
+      ],
+      "related_urls": [
+        "https://news.mynavi.jp/techplus/article/20261112-5307407/"
+      ],
+      "collected_at": "2026-11-12T12:52:20+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "taiziii調査：AI活用のROIを「数値で説明できている」企業は18.8%にとどまる",
+      "summary": "taiziiiが従業員300人以上かつ部門でAIを利用する企業の管理職を対象に実施(有効回答170件)。AI活用の投資対効果を「数値で説明できている」との回答は18.8%、投資対効果まで測定しているとの回答は3.5%にとどまった。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000072.000163598.html",
+      "source": "株式会社taiziii(PR TIMES)",
+      "published_at": "2026-11-11T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "date-only",
+        "調査",
+        "効果測定",
+        "ROI"
+      ],
+      "collected_at": "2026-11-12T12:52:20+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "弁護士ドットコムの法務AIエージェント「LegalBrain エージェント」がARR10億円を突破",
+      "summary": "弁護士ドットコムは統合型・法務AIエージェント「LegalBrain エージェント」のARRが2026年11月時点で10億円を突破したと発表。2025年5月の提供開始から17.3カ月での到達で、前年同月比15倍とする。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000612.000044347.html",
+      "source": "弁護士ドットコム株式会社(PR TIMES)",
+      "published_at": "2026-11-11T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "date-only",
+        "法務AI",
+        "AIエージェント",
+        "ARR"
+      ],
+      "collected_at": "2026-11-12T12:52:20+09:00"
+    },
+    {
+      "topic": "建設×AI",
+      "headline": "スペースデータ、空間知能で施工管理を自動演算する新機能を「SpaceBrain」に搭載",
+      "summary": "スペースデータは、道路工事の人・機械の把握と工期を空間知能で自動演算する施工管理シミュレーション機能をSpaceBrainに搭載したと発表。サンプルは延長約14km・3工区(6.3/4.8/2.8km)で工期464日・ピーク人員258人を自動算出する(いずれもサンプルデータに基づく想定値)。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000268.000080352.html",
+      "source": "PR TIMES(スペースデータ公式リリース)",
+      "published_at": "2026-11-11T10:00:00+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "施工管理",
+        "空間知能",
+        "シミュレーション",
+        "SpaceBrain"
+      ],
+      "collected_at": "2026-11-12T12:52:20+09:00"
     }
   ]
 }
