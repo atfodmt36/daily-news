@@ -1,56 +1,67 @@
 {
- "date": "2026/11/13",
- "timezone": "Asia/Tokyo",
- "window": {
-  "from": "2026-11-12T08:00:00+09:00",
-  "to": "2026-11-13T08:00:00+09:00"
- },
- "source": "x-likes",
- "itemCount": 4,
- "items": [
-  {
-   "breaking": false,
-   "collected_at": "2026-11-12T11:17:57+09:00",
-   "headline": "NVIDIA、複数視点の写真から3D形状を復元するモデル「Déjà View」を公開",
-   "source": "NVIDIA",
-   "summary": "NVIDIAが11月11日、複数視点の写真から3D形状とカメラ位置を復元するモデル「Déjà View」を発表した。単一のTransformerブロックをループさせて繰り返し精緻化する設計で、117Mパラメータながら5つのベンチマークで10倍大きなモデルと同等以上の性能を示した。NeurIPS 2026のオーラル論文で、コードとモデルを公開している。",
-   "topic": "3D生成・制作（クリエイティブ）",
-   "unconfirmed": false,
-   "url": "https://research.nvidia.com/labs/dvl/projects/dvlt/",
-   "x_url": "https://x.com/NVIDIAAI/status/2120617173286883692"
+  "date": "2026/11/13",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-12T08:00:00+09:00",
+    "to": "2026-11-13T08:00:00+09:00"
   },
-  {
-   "breaking": false,
-   "collected_at": "2026-11-12T11:17:57+09:00",
-   "headline": "Beeble、動画変換ツール「SwitchX 3.0」を公開——MiniMax H3ベース",
-   "source": "Beeble",
-   "summary": "Beebleが11月11日、プロ向け動画変換ツール「SwitchX 3.0」を公開した。MiniMax H3をベースに再構築し、最大4枚の参照画像、動く背景、カメラ追従、プロンプトによる演出指示に対応。15秒・最大4K出力で、従来と同じクレジット価格で利用できる。",
-   "topic": "映像生成・動画AI",
-   "unconfirmed": false,
-   "url": "https://docs.beeble.ai/beeble/switchx",
-   "x_url": "https://x.com/beeble_ai/status/2120434837597380873"
-  },
-  {
-   "breaking": false,
-   "collected_at": "2026-11-12T18:15:00+09:00",
-   "headline": "「Mutiny BIM」がオープンソースで公開、ブラウザ型BIMエンジン",
-   "source": "PermitZIP",
-   "summary": "PermitZIPが11月11日、ブラウザ型のBIMエンジン「Mutiny BIM」をオープンソースで公開した。Apache 2.0でGitHubに公開され、建築・構造・土木・設備など各職種とAIエージェントが同じモデルを同時に編集できる共有カーネルをうたう。IFC 4.3エクスポートや25万要素モデルの性能ゲートを備え、まだ初期段階としている。",
-   "topic": "建設×AI",
-   "unconfirmed": false,
-   "url": "https://github.com/permitzip/mutinybim",
-   "x_url": "https://x.com/PermitZIPhvac/status/2120659880650637442"
-  },
-  {
-   "breaking": false,
-   "collected_at": "2026-11-12T19:17:40+09:00",
-   "headline": "Apple系Claris、Macを私設AIサーバー化する「Harbor」を非公開プレビュー—複数Macのメモリ共有も",
-   "source": "Claris",
-   "summary": "Apple傘下のClarisが、Appleシリコン搭載Macを私設AIサーバーにするアプリ「Harbor」の非公開プレビュー用ページを公開した。オープンウェイトモデルをローカルで実行し、データはクラウドに送らない。Thunderbolt 5でつないだ複数Macの統合メモリを共有し、1台では載らない大型モデルも実行できる。App Storeの掲載は一時出現後に削除され、価格・提供時期は未発表。",
-   "topic": "生成AI・その他",
-   "unconfirmed": true,
-   "url": "https://www.macobserver.com/news/claris-harbor-local-ai-server-mac/",
-   "x_url": "https://x.com/gigazine/status/2120725850123321818/photo/1"
-  }
- ]
+  "source": "x-likes",
+  "itemCount": 5,
+  "items": [
+    {
+      "breaking": false,
+      "collected_at": "2026-11-12T11:17:57+09:00",
+      "headline": "NVIDIA、複数視点の写真から3D形状を復元するモデル「Déjà View」を公開",
+      "source": "NVIDIA",
+      "summary": "NVIDIAが11月11日、複数視点の写真から3D形状とカメラ位置を復元するモデル「Déjà View」を発表した。単一のTransformerブロックをループさせて繰り返し精緻化する設計で、117Mパラメータながら5つのベンチマークで10倍大きなモデルと同等以上の性能を示した。NeurIPS 2026のオーラル論文で、コードとモデルを公開している。",
+      "topic": "3D生成・制作（クリエイティブ）",
+      "unconfirmed": false,
+      "url": "https://research.nvidia.com/labs/dvl/projects/dvlt/",
+      "x_url": "https://x.com/NVIDIAAI/status/2120617173286883692"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-12T11:17:57+09:00",
+      "headline": "Beeble、動画変換ツール「SwitchX 3.0」を公開——MiniMax H3ベース",
+      "source": "Beeble",
+      "summary": "Beebleが11月11日、プロ向け動画変換ツール「SwitchX 3.0」を公開した。MiniMax H3をベースに再構築し、最大4枚の参照画像、動く背景、カメラ追従、プロンプトによる演出指示に対応。15秒・最大4K出力で、従来と同じクレジット価格で利用できる。",
+      "topic": "映像生成・動画AI",
+      "unconfirmed": false,
+      "url": "https://docs.beeble.ai/beeble/switchx",
+      "x_url": "https://x.com/beeble_ai/status/2120434837597380873"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-12T18:15:00+09:00",
+      "headline": "「Mutiny BIM」がオープンソースで公開、ブラウザ型BIMエンジン",
+      "source": "PermitZIP",
+      "summary": "PermitZIPが11月11日、ブラウザ型のBIMエンジン「Mutiny BIM」をオープンソースで公開した。Apache 2.0でGitHubに公開され、建築・構造・土木・設備など各職種とAIエージェントが同じモデルを同時に編集できる共有カーネルをうたう。IFC 4.3エクスポートや25万要素モデルの性能ゲートを備え、まだ初期段階としている。",
+      "topic": "建設×AI",
+      "unconfirmed": false,
+      "url": "https://github.com/permitzip/mutinybim",
+      "x_url": "https://x.com/PermitZIPhvac/status/2120659880650637442"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-12T19:17:40+09:00",
+      "headline": "Apple系Claris、Macを私設AIサーバー化する「Harbor」を非公開プレビュー—複数Macのメモリ共有も",
+      "source": "Claris",
+      "summary": "Apple傘下のClarisが、Appleシリコン搭載Macを私設AIサーバーにするアプリ「Harbor」の非公開プレビュー用ページを公開した。オープンウェイトモデルをローカルで実行し、データはクラウドに送らない。Thunderbolt 5でつないだ複数Macの統合メモリを共有し、1台では載らない大型モデルも実行できる。App Storeの掲載は一時出現後に削除され、価格・提供時期は未発表。",
+      "topic": "生成AI・その他",
+      "unconfirmed": true,
+      "url": "https://www.macobserver.com/news/claris-harbor-local-ai-server-mac/",
+      "x_url": "https://x.com/gigazine/status/2120725850123321818/photo/1"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-13T07:20:27+09:00",
+      "headline": "Perplexity、意思決定モデル「Decider v1.3」と「Decider Flash v1.3」をオープン公開—新機能「locate」で該当スパン抽出",
+      "source": "Perplexity",
+      "summary": "Perplexityが11月12日、テキストを生成せず確率付きの判定を返す意思決定モデルの新版「Decider v1.3」と蒸留版「Decider Flash v1.3」を公開した。重みはApacheライセンスでHugging Faceに公開され、OpenRouterとPerplexityのDecisions APIでも提供される。新機能「locate」は、固有表現抽出や個人情報の検出など、条件に合うテキストスパンとその位置を返す。本体はQwen3.8-27Bベース、FlashはQwen3.5-4Bへの蒸留。実APIリクエスト100万件のサンプルではフロンティア判定モデルとの一致率が93.98%だったとしている。オーナーのいいねが端緒。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+      "x_url": "https://x.com/perplexitydevs/status/2120948200232419356"
+    }
+  ]
 }
