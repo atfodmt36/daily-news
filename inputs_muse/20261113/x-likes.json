@@ -6,7 +6,7 @@
     "to": "2026-11-13T08:00:00+09:00"
   },
   "source": "x-likes",
-  "itemCount": 5,
+  "itemCount": 6,
   "items": [
     {
       "breaking": false,
@@ -62,6 +62,17 @@
       "unconfirmed": false,
       "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
       "x_url": "https://x.com/perplexitydevs/status/2120948200232419356"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-13T08:03:49+09:00",
+      "headline": "Microsoft、音声認識モデル「MAI-Transcribe-2」が正式提供開始—Foundryで本番利用可能、音声1時間0.10ドル",
+      "source": "Microsoft",
+      "summary": "Microsoftが11月12日、自社開発の音声認識モデル「MAI-Transcribe-2」がMicrosoft Foundryで正式提供（GA）となり、本番利用が可能になったと発表した。価格は音声1時間あたり0.10ドル。60言語に対応し、話者分離、単語単位のタイムスタンプ、自動言語識別、キーワードバイアス、コードスイッチングなどを備える（Microsoft Learnで確認）。同モデルは9月3日にパブリックプレビューとして発表されていた。オーナーのいいねが端緒。",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "unconfirmed": false,
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-transcribe",
+      "x_url": "https://x.com/MicrosoftAI/status/2121005429744447647"
     }
   ]
 }
