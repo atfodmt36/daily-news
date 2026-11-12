@@ -1,0 +1,22 @@
+{
+  "date": "2026/11/13",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-12T08:00:00+09:00",
+    "to": "2026-11-13T08:00:00+09:00"
+  },
+  "source": "web-search",
+  "itemCount": 1,
+  "items": [
+    {
+      "breaking": false,
+      "collected_at": "2026-11-12T14:30:30+09:00",
+      "headline": "AWS調査、日本のAI導入率は54％に上昇——導入企業の81％が生産性向上を実感",
+      "source": "AWS",
+      "summary": "AWSが11月12日、Strand Partnersに委託した調査「2026年、日本のAIの未来を切り拓く」を発表。日本企業のAI導入率は前年の43％から54％に上昇し、導入企業は198万社に。導入企業の81％が生産性の向上、55％が収益の増加を実感。一方、ROIの測定に自信がない・測定していない企業は40％に上る。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://press.aboutamazon.com/jp/2026/11/aws-research-finds-ai-adoption-accelerating-in-japan-with-a-narrowing-gap-between-advanced-and-basic-adopters"
+    }
+  ]
+}
