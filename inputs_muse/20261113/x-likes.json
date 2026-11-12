@@ -6,7 +6,7 @@
     "to": "2026-11-13T08:00:00+09:00"
   },
   "source": "x-likes",
-  "itemCount": 2,
+  "itemCount": 3,
   "items": [
     {
       "breaking": false,
@@ -29,6 +29,17 @@
       "unconfirmed": false,
       "url": "https://docs.beeble.ai/beeble/switchx",
       "x_url": "https://x.com/beeble_ai/status/2120434837597380873"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-12T18:15:00+09:00",
+      "headline": "「Mutiny BIM」がオープンソースで公開、ブラウザ型BIMエンジン",
+      "source": "PermitZIP",
+      "summary": "PermitZIPが11月11日、ブラウザ型のBIMエンジン「Mutiny BIM」をオープンソースで公開した。Apache 2.0でGitHubに公開され、建築・構造・土木・設備など各職種とAIエージェントが同じモデルを同時に編集できる共有カーネルをうたう。IFC 4.3エクスポートや25万要素モデルの性能ゲートを備え、まだ初期段階としている。",
+      "topic": "建設×AI",
+      "unconfirmed": false,
+      "url": "https://github.com/permitzip/mutinybim",
+      "x_url": "https://x.com/PermitZIPhvac/status/2120659880650637442"
     }
   ]
 }

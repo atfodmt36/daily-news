@@ -6,7 +6,7 @@
     "to": "2026-11-13T08:00:00+09:00"
   },
   "source": "web-search",
-  "itemCount": 1,
+  "itemCount": 2,
   "items": [
     {
       "breaking": false,
@@ -17,6 +17,17 @@
       "topic": "ビジネス・人材",
       "unconfirmed": false,
       "url": "https://press.aboutamazon.com/jp/2026/11/aws-research-finds-ai-adoption-accelerating-in-japan-with-a-narrowing-gap-between-advanced-and-basic-adopters"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-12T18:15:00+09:00",
+      "headline": "物流DX、AI導入で定量的成果は13%にとどまる—Redwood調査",
+      "source": "Redwood Logistics",
+      "summary": "米Redwood Logisticsが11月11日に公開した報告書「The State of 4PL 2027」によると、AIを導入している荷主のうち定量的な成果を確認できたのは13%にとどまる。データの未統合とツールの分断が障壁で、同社はAI対応の統合オーケストレーション層「オープン4PL」を提唱している。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://landing.redwoodlogistics.com/the-state-of-4pl-2027",
+      "x_url": "https://x.com/logi_today/status/2120783051194290513"
     }
   ]
 }
