@@ -6,7 +6,7 @@
     "to": "2026-11-13T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 22,
+  "itemCount": 24,
   "items": [
     {
       "breaking": false,
@@ -249,6 +249,28 @@
       "unconfirmed": false,
       "url": "https://www.zyphra.com/our-work/zonos3-mini",
       "x_url": "https://x.com/ai_hakase_/status/2120820657537585500"
+    },
+    {
+      "breaking": true,
+      "collected_at": "2026-11-12T23:26:10+09:00",
+      "headline": "NVIDIA、Jensen Huang CEOが辞任—CFO Colette Kress氏が暫定CEOに",
+      "source": "TechCrunch",
+      "summary": "NVIDIAが11月12日、共同創業者のJensen Huang氏が社長・CEO・取締役を即時辞任したと発表した（規制当局への届出で取締役会が辞任を受理）。CFOのColette Kress氏が暫定CEOに就きCFOを兼務、取締役会は後任CEOの選定を開始し、Harvey C. Jones氏が初の取締役会議長に就任した。11月17日の第3四半期決算発表を控えたタイミングで、先行する疑惑報道をめぐる一連の続報が確定した。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
+      "x_url": "https://x.com/MarkusEicher70/status/2120879795185529116"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-12T23:26:10+09:00",
+      "headline": "大企業の約6割がオープンウェイトAIの利用拡大を計画—Capgemini調査、AI支出は予算を平均24%超過",
+      "source": "Reuters",
+      "summary": "Capgeminiが11月12日に公表した調査（売上10億ドル超の企業幹部500人、10カ国）によると、59%がAI支出が想定を大幅に上回り予算を平均24%超過したと回答し、コストを懸念する幹部は53%（前年45%）。オープンウェイトモデルのトークンはクローズドより平均87%安く、約6割が今後1年でオープンウェイトAIの利用を増やす計画とした。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://www.reuters.com/business/most-large-firms-plan-higher-open-weight-ai-use-cap-bills-study-shows-2026-11-12/",
+      "x_url": "https://x.com/DanteMMartin/status/2120872994663018562"
     }
   ]
 }
