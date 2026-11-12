@@ -1,199 +1,210 @@
 {
-  "date": "2026/11/13",
-  "timezone": "Asia/Tokyo",
-  "window": {
-    "from": "2026-11-12T08:00:00+09:00",
-    "to": "2026-11-13T08:00:00+09:00"
+ "date": "2026/11/13",
+ "timezone": "Asia/Tokyo",
+ "window": {
+  "from": "2026-11-12T08:00:00+09:00",
+  "to": "2026-11-13T08:00:00+09:00"
+ },
+ "source": "x",
+ "itemCount": 18,
+ "items": [
+  {
+   "breaking": false,
+   "collected_at": "2026-11-12T14:30:30+09:00",
+   "headline": "豪Trellis Data、主権AIモデル「Agentaus 1」（220B）を発表",
+   "source": "Trellis Data",
+   "summary": "オーストラリアのTrellis Dataが11月10日、2200億パラメータの主権AIモデル「Agentaus 1」を発表した。MMLU-Proで世界43位とされ、従来モデルの約1.5倍の規模。無料・サブスクリプション・企業・APIの4層で提供し、豪国内でのデータ処理と国防級の暗号化をうたう。",
+   "topic": "モデル",
+   "unconfirmed": false,
+   "url": "https://australiancybersecuritymagazine.com.au/trellis-data-launches-near-frontier-model-agentaus-1/",
+   "x_url": "https://x.com/_TK_YM_/status/2120728409361854476"
   },
-  "source": "x",
-  "itemCount": 17,
-  "items": [
-    {
-      "breaking": false,
-      "collected_at": "2026-11-12T14:30:30+09:00",
-      "headline": "豪Trellis Data、主権AIモデル「Agentaus 1」（220B）を発表",
-      "source": "Trellis Data",
-      "summary": "オーストラリアのTrellis Dataが11月10日、2200億パラメータの主権AIモデル「Agentaus 1」を発表した。MMLU-Proで世界43位とされ、従来モデルの約1.5倍の規模。無料・サブスクリプション・企業・APIの4層で提供し、豪国内でのデータ処理と国防級の暗号化をうたう。",
-      "topic": "モデル",
-      "unconfirmed": false,
-      "url": "https://australiancybersecuritymagazine.com.au/trellis-data-launches-near-frontier-model-agentaus-1/",
-      "x_url": "https://x.com/_TK_YM_/status/2120728409361854476"
-    },
-    {
-      "breaking": false,
-      "collected_at": "2026-11-12T14:30:30+09:00",
-      "headline": "NTT、少量データで専門LLMを育成するチューニング技術を開発——tsuzumi 2の正答率83.1％に",
-      "source": "NTT",
-      "summary": "NTTが11月12日、業務マニュアルなど少量の社内資料から専門知識をLLMに定着させるチューニング技術を発表した。LLM自身がFAQ・表・対話形式など多様な教材を自動生成して学ぶことで、tsuzumi 2の正答率は65.3％から83.1％へ向上。Llama 3でも有効性を確認した。NTT R&D FORUM 2026で展示予定。",
-      "topic": "モデル",
-      "unconfirmed": false,
-      "url": "https://ai.watch.impress.co.jp/docs/news/2155674.html",
-      "x_url": "https://x.com/mnishi41/status/2120690552668623067"
-    },
-    {
-      "breaking": false,
-      "collected_at": "2026-11-12T14:30:30+09:00",
-      "headline": "Claude Fable 5.2、ロボティクス評価「AA-Robotics v0.1」で首位——75点",
-      "source": "Artificial Analysis",
-      "summary": "Artificial Analysisのロボティクス評価「AA-Robotics v0.1」で、Claude Fable 5.2が75点を記録し首位に立った。GPT-6 Astra（69点）、GPT-6.1 Sol（65点）を上回る。計測ボックスタスクで初めてスコアを獲得したモデルで、ビデオ映像のみでテープメジャーの目盛りを読み取って計測したという。",
-      "topic": "論文・ベンチマーク",
-      "unconfirmed": false,
-      "url": "https://x.com/ArtificialAnlys/status/2120698177016005029",
-      "x_url": "https://x.com/ArtificialAnlys/status/2120698177016005029"
-    },
-    {
-      "breaking": false,
-      "collected_at": "2026-11-12T14:30:30+09:00",
-      "headline": "Microsoft Research、10個未満のニューロン書き換えでAIエージェントを乗っ取る手法「Lazarus」を公開",
-      "source": "Microsoft Research",
-      "summary": "Microsoft Researchが11月10日、LLMの休眠ニューロン10個未満を書き換えて隠しバックドアを仕込む手法「Lazarus」を発表した。再学習なしで、トリガー文字列が現れると攻撃者のコマンドを出力する。Nemotron-Terminal-8Bでは7個の書き換えでトリガー成功率98.8％以上。実在の悪用は未確認で、防御ガイダンスも公開した。",
-      "topic": "生成AI・その他",
-      "unconfirmed": false,
-      "url": "https://www.infoworld.com/article/4247378/rewriting-less-than-10-neurons-in-an-llm-can-turn-it-into-a-sleeper-backdoor-2.html",
-      "x_url": "https://x.com/AlexNguyen65/status/2120719796119511254"
-    },
-    {
-      "breaking": false,
-      "collected_at": "2026-11-12T14:30:30+09:00",
-      "headline": "ユナイテッド航空、個人のAIエージェントによる航空券予約を禁止——米大手で初",
-      "source": "United Airlines",
-      "summary": "ユナイテッド航空が11月11日、運送約款を改定し、個人のAIエージェントによる航空券の予約・変更・購入を禁止した。旅行代理店経由も対象で、AIエージェントが関わった予約は予告なしに取り消すことができる。米大手航空会社で初の措置。CEOのカービー氏は「新たな仲介業者を作りたくない」と述べた。",
-      "topic": "ビジネス・人材",
-      "unconfirmed": false,
-      "url": "https://viewfromthewing.com/united-airlines-ceo-scott-kirby-bans-ai-agents-from-booking-tickets-doesnt-want-another-middleman/",
-      "x_url": "https://x.com/NFTTYO60939595/status/2120736346373280001"
-    },
-    {
-      "breaking": false,
-      "collected_at": "2026-11-12T14:30:30+09:00",
-      "headline": "ACIMUS、図面や手書きスケッチからBIMモデルを一括生成する建築AI「KIWARI」をリリース",
-      "source": "ACIMUS",
-      "summary": "ACIMUSが11月12日、ChatBIM「ACIMUS」の新機能として建築AI「KIWARI」をリリースした。2D図面や手書きスケッチ、建物の写真、文章から、柱・梁・壁・家具・設備まで備えた建物全体のBIMモデルを一括生成し、給排水の配管ルート案まで提案する。",
-      "topic": "建設×AI",
-      "unconfirmed": false,
-      "url": "https://prtimes.jp/main/html/rd/p/000000023.000152114.html",
-      "x_url": "https://x.com/koki_kikuchi6/status/2120716139357745377"
-    },
-    {
-      "breaking": false,
-      "collected_at": "2026-11-12T14:30:30+09:00",
-      "headline": "サイエンスアーツのAI無線アプリ「Buddycom」、国土交通省「NETIS」に登録",
-      "source": "サイエンスアーツ",
-      "summary": "サイエンスアーツのAI無線アプリ「Buddycom」が11月12日、国土交通省の新技術情報提供システム「NETIS」に登録された（登録番号KT-260006-A）。音声通話に加え映像・位置情報の共有や通話内容のテキスト化に対応し、公共工事・建設現場の施工管理と情報伝達を支援する。",
-      "topic": "建設×AI",
-      "unconfirmed": false,
-      "url": "https://prtimes.jp/main/html/rd/p/000000266.000006457.html",
-      "x_url": "https://x.com/Buddycom_SAI/status/2120706899079573975"
-    },
-    {
-      "breaking": false,
-      "collected_at": "2026-11-12T14:30:30+09:00",
-      "headline": "Adobe、AIアシスタント搭載の「Premiere」27.0を公開——生成音楽や音声分離も",
-      "source": "Adobe",
-      "summary": "アドビが11月10日のAdobe MAX 2026で映像編集ソフト「Premiere」27.0を公開した。自然言語で編集作業を支援するAIアシスタント（ベータ）、音楽・効果音・環境音の生成、重なった2人の話し声を分離する「クロストークを分離」などを追加。Photoshopなど4アプリへの外部AIエージェント接続（MCP、2027年初にプライベートベータ）も発表した。",
-      "topic": "映像生成・動画AI",
-      "unconfirmed": false,
-      "url": "https://jp.pronews.com/news/202611121216799212.html",
-      "x_url": "https://x.com/pronews/status/2120717688255434991"
-    },
-    {
-      "breaking": false,
-      "collected_at": "2026-11-12T14:30:30+09:00",
-      "headline": "PKSHA、製造業向け「暗黙知伝承AI」を本格展開——初動対応時間を約70％短縮",
-      "source": "PKSHA Technology",
-      "summary": "PKSHA Technologyが11月11日、熟練者の暗黙知をAIが引き出して形式知化する「暗黙知伝承AI」を製造業向けに本格展開すると発表した。AIが業務を担いながら不明点を熟練者に質問して学ぶ仕組みで、ある製造現場では初動対応時間を約70％短縮。技能継承に問題がある製造業の事業所は65.8％に上るという。",
-      "topic": "ビジネス・人材",
-      "unconfirmed": false,
-      "url": "https://prtimes.jp/main/html/rd/p/000000280.000022705.html",
-      "x_url": "https://x.com/HRzine_jp/status/2120728349769396530"
-    },
-    {
-      "breaking": false,
-      "collected_at": "2026-11-12T14:30:30+09:00",
-      "headline": "矢野経済研究所、タレントマネジメントシステム市場は450億円に——前年比18.7％増",
-      "source": "矢野経済研究所",
-      "summary": "矢野経済研究所がタレントマネジメントシステム市場に関する調査（2026年）を発表。2025年の市場規模は前年比118.7％の450億2,000万円。AIによる分析機能の高度化が進み、人材データを経営の意思決定に活用する動きが広がっているという。",
-      "topic": "ビジネス・人材",
-      "unconfirmed": false,
-      "url": "https://yano.co.jp/press-release/show/press_id/4205",
-      "x_url": "https://x.com/yanokeizai/status/2120698099421049228"
-    },
-    {
-      "breaking": false,
-      "collected_at": "2026-11-12T14:30:30+09:00",
-      "headline": "Meta、InstagramのAI年齢推定を世界展開——虚偽の誕生日でもティーン向け保護へ",
-      "source": "Meta",
-      "summary": "Metaが11月9日、InstagramのAI年齢推定技術を世界展開した。成人として登録したティーンと推定されるアカウントを自動でティーンアカウントの保護設定に移行する。Facebookへの展開も進行中で、Threadsは年内に同様の仕組みを導入予定。11月9日の発表をレーダーが見落としていた後追い。",
-      "topic": "生成AI・その他",
-      "unconfirmed": false,
-      "url": "https://www.aljazeera.com/news/2026/11/10/metas-ai-age-check-goes-global-can-it-protect-teens",
-      "x_url": "https://x.com/techweez/status/2120730300049195438"
-    },
-    {
-      "breaking": false,
-      "collected_at": "2026-11-12T14:30:30+09:00",
-      "headline": "ElevenLabs、13の新製品・アップグレードを発表——「Scribe v3」や「ElevenAI」など",
-      "source": "ElevenLabs",
-      "summary": "ElevenLabsが11月11日のニューヨーク・サミットで13の新製品・アップグレードを発表した。文字起こし「Scribe v3」（102言語、Scribe v2比で誤り27％減）、読み上げ「Eleven v4」、リアルタイム音声「Eleven Realtime」、会議を聞いて要約するアプリ「ElevenAI」、会話を指揮する「Interaction Engine」など。NVIDIAとの提携拡大も発表した。",
-      "topic": "音声AI（合成・認識・翻訳）",
-      "unconfirmed": false,
-      "url": "https://mumbrella.com.au/elevenlabs-launches-13-new-products-and-upgrades-944467",
-      "x_url": "https://x.com/superdoccimo/status/2120744658762375311"
-    },
-    {
-      "breaking": false,
-      "collected_at": "2026-11-12T10:09:22+09:00",
-      "headline": "AWS、自律AIエージェントだけで作ったローカルエミュレータ「AWS Emulator」を公開",
-      "source": "AWS",
-      "summary": "AWSが11月11日、AWSのAPIをローカルで再現する「AWS Emulator」を公開した。200以上のAWSサービスをカバーし、CLIやSDK、コーディングエージェントがクラウドと同じAPIでテストできる。コードは自律AIエージェント（Kiro）が全て記述・テストしたもので、CC0としてGitHubで公開され、無料でオフライン動作する。",
-      "topic": "生成AI・その他",
-      "unconfirmed": false,
-      "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
-      "x_url": "https://x.com/Shadowfetch/status/2120655294246334664"
-    },
-    {
-      "breaking": false,
-      "collected_at": "2026-11-12T10:09:22+09:00",
-      "headline": "DeepL、感情や抑揚をリアルタイム翻訳に反映する音声AIモデル「Aure」を発表",
-      "source": "DeepL",
-      "summary": "DeepLが11月11日、リアルタイム音声翻訳「DeepL Voice」を支える新たな音声AIモデル「Aure」を発表した。話者のトーンや感情、強調の仕方、話すペースの変化を翻訳音声にリアルタイムで反映する。日本語を含む8言語に対応し、オンライン会議・対面での会話・APIに設定不要で自動適用される。",
-      "topic": "音声AI（合成・認識・翻訳）",
-      "unconfirmed": false,
-      "url": "https://x.com/impress_watch/status/2120652828687667294",
-      "x_url": "https://x.com/impress_watch/status/2120652828687667294"
-    },
-    {
-      "breaking": false,
-      "collected_at": "2026-11-12T10:09:22+09:00",
-      "headline": "LangChain 1.5.0を公開、Python 3.10のサポートを終了",
-      "source": "LangChain",
-      "summary": "LangChainが11月11日に「langchain 1.5.0」を公開した。langchain-core 1.8.0とあわせてPython 3.11以上が必須となり、Python 3.10のサポートを終了した。エージェント開発の主要フレームワークのアップデート。",
-      "topic": "生成AI・その他",
-      "unconfirmed": false,
-      "url": "https://x.com/TaylorChristof2/status/2120652459622514933",
-      "x_url": "https://x.com/TaylorChristof2/status/2120652459622514933"
-    },
-    {
-      "breaking": false,
-      "collected_at": "2026-11-12T10:09:22+09:00",
-      "headline": "マイナビ調査、新卒採用でのAI活用は20.8％で前年の約2倍に",
-      "source": "マイナビ",
-      "summary": "マイナビが1,667社を対象にした「2027年卒マイナビ企業新卒内定状況調査＜新卒採用とAI＞」を発表した。AIの浸透で新卒採用数が「変わらない」と答えた企業は90.8％。事務職の採用を「減らす」企業は約2割、IT職を「増やす」企業は10.3％。新卒採用でAIを「すでに活用している」企業は20.8％で前年の約2倍となった。",
-      "topic": "ビジネス・人材",
-      "unconfirmed": false,
-      "url": "https://prtimes.jp/main/html/rd/p/000002528.000002955.html",
-      "x_url": "https://x.com/career_iro/status/2120657981062672832"
-    },
-    {
-      "breaking": false,
-      "collected_at": "2026-11-12T10:09:22+09:00",
-      "headline": "Grok Buildの共有リンク、3万5千件超が認証なしで公開状態に——Claroc調査",
-      "source": "Claroc",
-      "summary": "セキュリティ企業Clarocの調査（11月10日）で、Grok Buildで作られたアプリのうちオンラインの37,571件中35,578件（94.7％）がサインインなしで開ける状態だったことが判明した。SpaceXSIとXの社員が作った24件には機密の営業計画や594件の営業アカウント地図も含まれ、SpaceXSIは報道後に削除。共有リンクがホスト名に含まれるためパッシブDNSから発見可能だったという。",
-      "topic": "生成AI・その他",
-      "unconfirmed": false,
-      "url": "https://x.com/jpAIlab/status/2120622791628120523",
-      "x_url": "https://x.com/jpAIlab/status/2120622791628120523"
-    }
-  ]
+  {
+   "breaking": false,
+   "collected_at": "2026-11-12T14:30:30+09:00",
+   "headline": "NTT、少量データで専門LLMを育成するチューニング技術を開発——tsuzumi 2の正答率83.1％に",
+   "source": "NTT",
+   "summary": "NTTが11月12日、業務マニュアルなど少量の社内資料から専門知識をLLMに定着させるチューニング技術を発表した。LLM自身がFAQ・表・対話形式など多様な教材を自動生成して学ぶことで、tsuzumi 2の正答率は65.3％から83.1％へ向上。Llama 3でも有効性を確認した。NTT R&D FORUM 2026で展示予定。",
+   "topic": "モデル",
+   "unconfirmed": false,
+   "url": "https://ai.watch.impress.co.jp/docs/news/2155674.html",
+   "x_url": "https://x.com/mnishi41/status/2120690552668623067"
+  },
+  {
+   "breaking": false,
+   "collected_at": "2026-11-12T14:30:30+09:00",
+   "headline": "Claude Fable 5.2、ロボティクス評価「AA-Robotics v0.1」で首位——75点",
+   "source": "Artificial Analysis",
+   "summary": "Artificial Analysisのロボティクス評価「AA-Robotics v0.1」で、Claude Fable 5.2が75点を記録し首位に立った。GPT-6 Astra（69点）、GPT-6.1 Sol（65点）を上回る。計測ボックスタスクで初めてスコアを獲得したモデルで、ビデオ映像のみでテープメジャーの目盛りを読み取って計測したという。",
+   "topic": "論文・ベンチマーク",
+   "unconfirmed": false,
+   "url": "https://x.com/ArtificialAnlys/status/2120698177016005029",
+   "x_url": "https://x.com/ArtificialAnlys/status/2120698177016005029"
+  },
+  {
+   "breaking": false,
+   "collected_at": "2026-11-12T14:30:30+09:00",
+   "headline": "Microsoft Research、10個未満のニューロン書き換えでAIエージェントを乗っ取る手法「Lazarus」を公開",
+   "source": "Microsoft Research",
+   "summary": "Microsoft Researchが11月10日、LLMの休眠ニューロン10個未満を書き換えて隠しバックドアを仕込む手法「Lazarus」を発表した。再学習なしで、トリガー文字列が現れると攻撃者のコマンドを出力する。Nemotron-Terminal-8Bでは7個の書き換えでトリガー成功率98.8％以上。実在の悪用は未確認で、防御ガイダンスも公開した。",
+   "topic": "生成AI・その他",
+   "unconfirmed": false,
+   "url": "https://www.infoworld.com/article/4247378/rewriting-less-than-10-neurons-in-an-llm-can-turn-it-into-a-sleeper-backdoor-2.html",
+   "x_url": "https://x.com/AlexNguyen65/status/2120719796119511254"
+  },
+  {
+   "breaking": false,
+   "collected_at": "2026-11-12T14:30:30+09:00",
+   "headline": "ユナイテッド航空、個人のAIエージェントによる航空券予約を禁止——米大手で初",
+   "source": "United Airlines",
+   "summary": "ユナイテッド航空が11月11日、運送約款を改定し、個人のAIエージェントによる航空券の予約・変更・購入を禁止した。旅行代理店経由も対象で、AIエージェントが関わった予約は予告なしに取り消すことができる。米大手航空会社で初の措置。CEOのカービー氏は「新たな仲介業者を作りたくない」と述べた。",
+   "topic": "ビジネス・人材",
+   "unconfirmed": false,
+   "url": "https://viewfromthewing.com/united-airlines-ceo-scott-kirby-bans-ai-agents-from-booking-tickets-doesnt-want-another-middleman/",
+   "x_url": "https://x.com/NFTTYO60939595/status/2120736346373280001"
+  },
+  {
+   "breaking": false,
+   "collected_at": "2026-11-12T14:30:30+09:00",
+   "headline": "ACIMUS、図面や手書きスケッチからBIMモデルを一括生成する建築AI「KIWARI」をリリース",
+   "source": "ACIMUS",
+   "summary": "ACIMUSが11月12日、ChatBIM「ACIMUS」の新機能として建築AI「KIWARI」をリリースした。2D図面や手書きスケッチ、建物の写真、文章から、柱・梁・壁・家具・設備まで備えた建物全体のBIMモデルを一括生成し、給排水の配管ルート案まで提案する。",
+   "topic": "建設×AI",
+   "unconfirmed": false,
+   "url": "https://prtimes.jp/main/html/rd/p/000000023.000152114.html",
+   "x_url": "https://x.com/koki_kikuchi6/status/2120716139357745377"
+  },
+  {
+   "breaking": false,
+   "collected_at": "2026-11-12T14:30:30+09:00",
+   "headline": "サイエンスアーツのAI無線アプリ「Buddycom」、国土交通省「NETIS」に登録",
+   "source": "サイエンスアーツ",
+   "summary": "サイエンスアーツのAI無線アプリ「Buddycom」が11月12日、国土交通省の新技術情報提供システム「NETIS」に登録された（登録番号KT-260006-A）。音声通話に加え映像・位置情報の共有や通話内容のテキスト化に対応し、公共工事・建設現場の施工管理と情報伝達を支援する。",
+   "topic": "建設×AI",
+   "unconfirmed": false,
+   "url": "https://prtimes.jp/main/html/rd/p/000000266.000006457.html",
+   "x_url": "https://x.com/Buddycom_SAI/status/2120706899079573975"
+  },
+  {
+   "breaking": false,
+   "collected_at": "2026-11-12T14:30:30+09:00",
+   "headline": "Adobe、AIアシスタント搭載の「Premiere」27.0を公開——生成音楽や音声分離も",
+   "source": "Adobe",
+   "summary": "アドビが11月10日のAdobe MAX 2026で映像編集ソフト「Premiere」27.0を公開した。自然言語で編集作業を支援するAIアシスタント（ベータ）、音楽・効果音・環境音の生成、重なった2人の話し声を分離する「クロストークを分離」などを追加。Photoshopなど4アプリへの外部AIエージェント接続（MCP、2027年初にプライベートベータ）も発表した。",
+   "topic": "映像生成・動画AI",
+   "unconfirmed": false,
+   "url": "https://jp.pronews.com/news/202611121216799212.html",
+   "x_url": "https://x.com/pronews/status/2120717688255434991"
+  },
+  {
+   "breaking": false,
+   "collected_at": "2026-11-12T14:30:30+09:00",
+   "headline": "PKSHA、製造業向け「暗黙知伝承AI」を本格展開——初動対応時間を約70％短縮",
+   "source": "PKSHA Technology",
+   "summary": "PKSHA Technologyが11月11日、熟練者の暗黙知をAIが引き出して形式知化する「暗黙知伝承AI」を製造業向けに本格展開すると発表した。AIが業務を担いながら不明点を熟練者に質問して学ぶ仕組みで、ある製造現場では初動対応時間を約70％短縮。技能継承に問題がある製造業の事業所は65.8％に上るという。",
+   "topic": "ビジネス・人材",
+   "unconfirmed": false,
+   "url": "https://prtimes.jp/main/html/rd/p/000000280.000022705.html",
+   "x_url": "https://x.com/HRzine_jp/status/2120728349769396530"
+  },
+  {
+   "breaking": false,
+   "collected_at": "2026-11-12T14:30:30+09:00",
+   "headline": "矢野経済研究所、タレントマネジメントシステム市場は450億円に——前年比18.7％増",
+   "source": "矢野経済研究所",
+   "summary": "矢野経済研究所がタレントマネジメントシステム市場に関する調査（2026年）を発表。2025年の市場規模は前年比118.7％の450億2,000万円。AIによる分析機能の高度化が進み、人材データを経営の意思決定に活用する動きが広がっているという。",
+   "topic": "ビジネス・人材",
+   "unconfirmed": false,
+   "url": "https://yano.co.jp/press-release/show/press_id/4205",
+   "x_url": "https://x.com/yanokeizai/status/2120698099421049228"
+  },
+  {
+   "breaking": false,
+   "collected_at": "2026-11-12T14:30:30+09:00",
+   "headline": "Meta、InstagramのAI年齢推定を世界展開——虚偽の誕生日でもティーン向け保護へ",
+   "source": "Meta",
+   "summary": "Metaが11月9日、InstagramのAI年齢推定技術を世界展開した。成人として登録したティーンと推定されるアカウントを自動でティーンアカウントの保護設定に移行する。Facebookへの展開も進行中で、Threadsは年内に同様の仕組みを導入予定。11月9日の発表をレーダーが見落としていた後追い。",
+   "topic": "生成AI・その他",
+   "unconfirmed": false,
+   "url": "https://www.aljazeera.com/news/2026/11/10/metas-ai-age-check-goes-global-can-it-protect-teens",
+   "x_url": "https://x.com/techweez/status/2120730300049195438"
+  },
+  {
+   "breaking": false,
+   "collected_at": "2026-11-12T14:30:30+09:00",
+   "headline": "ElevenLabs、13の新製品・アップグレードを発表——「Scribe v3」や「ElevenAI」など",
+   "source": "ElevenLabs",
+   "summary": "ElevenLabsが11月11日のニューヨーク・サミットで13の新製品・アップグレードを発表した。文字起こし「Scribe v3」（102言語、Scribe v2比で誤り27％減）、読み上げ「Eleven v4」、リアルタイム音声「Eleven Realtime」、会議を聞いて要約するアプリ「ElevenAI」、会話を指揮する「Interaction Engine」など。NVIDIAとの提携拡大も発表した。",
+   "topic": "音声AI（合成・認識・翻訳）",
+   "unconfirmed": false,
+   "url": "https://mumbrella.com.au/elevenlabs-launches-13-new-products-and-upgrades-944467",
+   "x_url": "https://x.com/superdoccimo/status/2120744658762375311"
+  },
+  {
+   "breaking": false,
+   "collected_at": "2026-11-12T10:09:22+09:00",
+   "headline": "AWS、自律AIエージェントだけで作ったローカルエミュレータ「AWS Emulator」を公開",
+   "source": "AWS",
+   "summary": "AWSが11月11日、AWSのAPIをローカルで再現する「AWS Emulator」を公開した。200以上のAWSサービスをカバーし、CLIやSDK、コーディングエージェントがクラウドと同じAPIでテストできる。コードは自律AIエージェント（Kiro）が全て記述・テストしたもので、CC0としてGitHubで公開され、無料でオフライン動作する。",
+   "topic": "生成AI・その他",
+   "unconfirmed": false,
+   "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+   "x_url": "https://x.com/Shadowfetch/status/2120655294246334664"
+  },
+  {
+   "breaking": false,
+   "collected_at": "2026-11-12T10:09:22+09:00",
+   "headline": "DeepL、感情や抑揚をリアルタイム翻訳に反映する音声AIモデル「Aure」を発表",
+   "source": "DeepL",
+   "summary": "DeepLが11月11日、リアルタイム音声翻訳「DeepL Voice」を支える新たな音声AIモデル「Aure」を発表した。話者のトーンや感情、強調の仕方、話すペースの変化を翻訳音声にリアルタイムで反映する。日本語を含む8言語に対応し、オンライン会議・対面での会話・APIに設定不要で自動適用される。",
+   "topic": "音声AI（合成・認識・翻訳）",
+   "unconfirmed": false,
+   "url": "https://x.com/impress_watch/status/2120652828687667294",
+   "x_url": "https://x.com/impress_watch/status/2120652828687667294"
+  },
+  {
+   "breaking": false,
+   "collected_at": "2026-11-12T10:09:22+09:00",
+   "headline": "LangChain 1.5.0を公開、Python 3.10のサポートを終了",
+   "source": "LangChain",
+   "summary": "LangChainが11月11日に「langchain 1.5.0」を公開した。langchain-core 1.8.0とあわせてPython 3.11以上が必須となり、Python 3.10のサポートを終了した。エージェント開発の主要フレームワークのアップデート。",
+   "topic": "生成AI・その他",
+   "unconfirmed": false,
+   "url": "https://x.com/TaylorChristof2/status/2120652459622514933",
+   "x_url": "https://x.com/TaylorChristof2/status/2120652459622514933"
+  },
+  {
+   "breaking": false,
+   "collected_at": "2026-11-12T10:09:22+09:00",
+   "headline": "マイナビ調査、新卒採用でのAI活用は20.8％で前年の約2倍に",
+   "source": "マイナビ",
+   "summary": "マイナビが1,667社を対象にした「2027年卒マイナビ企業新卒内定状況調査＜新卒採用とAI＞」を発表した。AIの浸透で新卒採用数が「変わらない」と答えた企業は90.8％。事務職の採用を「減らす」企業は約2割、IT職を「増やす」企業は10.3％。新卒採用でAIを「すでに活用している」企業は20.8％で前年の約2倍となった。",
+   "topic": "ビジネス・人材",
+   "unconfirmed": false,
+   "url": "https://prtimes.jp/main/html/rd/p/000002528.000002955.html",
+   "x_url": "https://x.com/career_iro/status/2120657981062672832"
+  },
+  {
+   "breaking": false,
+   "collected_at": "2026-11-12T10:09:22+09:00",
+   "headline": "Grok Buildの共有リンク、3万5千件超が認証なしで公開状態に——Claroc調査",
+   "source": "Claroc",
+   "summary": "セキュリティ企業Clarocの調査（11月10日）で、Grok Buildで作られたアプリのうちオンラインの37,571件中35,578件（94.7％）がサインインなしで開ける状態だったことが判明した。SpaceXSIとXの社員が作った24件には機密の営業計画や594件の営業アカウント地図も含まれ、SpaceXSIは報道後に削除。共有リンクがホスト名に含まれるためパッシブDNSから発見可能だったという。",
+   "topic": "生成AI・その他",
+   "unconfirmed": false,
+   "url": "https://x.com/jpAIlab/status/2120622791628120523",
+   "x_url": "https://x.com/jpAIlab/status/2120622791628120523"
+  },
+  {
+   "breaking": false,
+   "collected_at": "2026-11-12T15:18:56+09:00",
+   "headline": "Tether、デバイス上で動く0.8Bエージェントモデル「BotPsy」をオープン公開",
+   "source": "Tether AI Research",
+   "summary": "TetherのAI研究部門QVACが11月11日、デバイス上で動作する0.8Bパラメータのエージェントモデル「BotPsy」を発表した。Qwen3.5-0.8Bを基にツール呼び出しとマルチステップのエージェント作業向けに学習し、カレンダー・メール・ファイル操作などを端末内で処理する。重みはApache 2.0でHugging Faceに公開（BF16・GGUF）。自社評価ではBFCL v4が23.4→44.0、ACEBench 30.1→58.7、tau-bench 23.2→51.5とベースの約2倍。",
+   "topic": "モデル",
+   "unconfirmed": false,
+   "url": "https://huggingface.blog/blog/qvac-botpsy/",
+   "x_url": "https://x.com/AasenVS/status/2120756799909585169"
+  }
+ ]
 }
