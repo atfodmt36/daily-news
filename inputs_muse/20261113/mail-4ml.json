@@ -1,0 +1,102 @@
+{
+  "date": "2026/11/13",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-12T08:00:00+09:00",
+    "to": "2026-11-13T08:00:00+09:00"
+  },
+  "source": "mail-4ml",
+  "itemCount": 10,
+  "items": [
+    {
+      "headline": "NVIDIA取締役会、Huang CEOの解任を協議か——NYT報道",
+      "summary": "NYTによると、NVIDIAの取締役会がJensen Huang CEOの部下との関係報道を受けて解任を協議している。暫定CEO候補にCFOのColette Kress氏、恒久候補にAppleのJohny Srouji氏の名が挙がり、株価は時間外で約9%下落した。報道ベースで未確認。",
+      "url": "https://x.com/business/status/2120646511042183254",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-12T19:34:00+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Google、今週3度目のGeminiリリースを予告——Gemini 4 Hydrogenの観測も",
+      "summary": "GoogleのLogan Kilpatrick氏が「Gemini」とだけ投稿し、今週3回目となる新モデル発表を予告した。Gemini 4 Hydrogen登場の観測が出ているが、正式発表はまだない。",
+      "url": "https://x.com/OfficialLoganK/status/2120738935261585576",
+      "source": "ML_Bear Times",
+      "topic": "Gemini",
+      "collected_at": "2026-11-12T19:34:00+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Fableの司令塔構成に指示劣化の指摘、Opus単独を推す声も",
+      "summary": "Claude Fable 5.2で計画、Opusで実装、Haikuで検証する3段構成がコスト抑制策として広まる一方、司令塔役が指示を書き直すと細かなニュアンスが失われ、Opus単独の方が質が良いとの声が出ている。",
+      "url": "https://x.com/kenn/status/2120766422490194376",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-12T19:34:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "米商務省、中国AIの海外DC経由GPU利用を防ぐ規則を最終調整か",
+      "summary": "米商務省が、中国AI企業による海外データセンター経由の先端AIチップ利用を防ぐ規則の最終調整に入ったと報じられた。Warren・Coons両上院議員はNVIDIAチップ対中輸出の全記録保全を要求し、中国AI株は急落した。報道ベースで未確認。",
+      "url": "https://x.com/jukan05/status/2120715380687786442",
+      "source": "ML_Bear Times",
+      "topic": "政府・政策",
+      "collected_at": "2026-11-12T19:34:00+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "NVIDIA Rubinが再遅延か、原因はマザーボードの反りとの情報",
+      "summary": "NVIDIAの次世代GPU Rubinが再び遅延しており、原因はマザーボードの反りだとする情報が共有された。HBM問題は10月に解決済みとされる。SemiAnalysisはvLLMでのRubin NVL72初期結果をGB300 NVL72比でTCO当たり6.5倍と報告した。報道ベースで未確認。",
+      "url": "https://x.com/jukan05/status/2120798532177125572",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-12T19:34:00+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Plurai Simulationを無料公開、デジタルツインでAI Agentをテスト",
+      "summary": "Plurai AIが、AI Agentを実ユーザーの前に出す前に仮想環境でテストできるPlurai Simulationを無料公開した。リポジトリからデジタルツインを構築し、Agentを壊すだけのペルソナを送り込む。Claude Code・Codex・Copilot向けプラグインがある。",
+      "url": "https://x.com/ilan_kadar/status/2120524450831413518",
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "collected_at": "2026-11-12T19:34:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "TPU 8i MaxはHBM 384GB、8-hi構成に変更か——SemiAnalysis",
+      "summary": "SemiAnalysisによると、通称WhalefishのGoogle TPU 8i Maxはチップ当たり384GBのHBMを搭載し、積層は元のTPU 8iの12-hiから8-hi構成に変更された。報道ベースで未確認。",
+      "url": "https://x.com/SemiAnalysis_/status/2120578135594791297",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-12T19:34:00+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "GoogleのAnthropic持分は約10%・$132B相当か——The Information",
+      "summary": "The Informationによると、Googleの約$33Bの投資はAnthropicの約10%、$132B相当の持ち分になる見込み。最新の届出では2033年7月までGoogle Cloudに最低$121Bを支出すると約束し、募集価格は1株$70〜78とされる。報道ベースで未確認。",
+      "url": "https://x.com/theinformation/status/2120637749560508466",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-12T19:34:00+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Continual-ARC発表、既存Agentは経験から学習できず",
+      "summary": "Unify AIが、Agentが経験から学べるかを測る新ベンチマークContinual-ARCを発表した。OpenClaw・Hermes Agent・Prime Agentは有用な記憶も新タスクへの汎化もできず、9Bモデルの重み学習では両方できたとしている。",
+      "url": "https://x.com/DanielLenton1/status/2120535187587268777",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-12T19:34:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "SKILL++、類似スキルとのメタデータ比較でAgentのルーティング改善",
+      "summary": "新規スキルのメタデータだけを既存の類似スキルと比較して最適化する手法SKILL++が紹介された。スキル数が増えても比較的軽量に運用できるとされ、Agent Skillsを多用する開発者の参考になると評価されている。",
+      "url": "https://x.com/po3rin/status/2120762882719920396",
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "collected_at": "2026-11-12T19:34:00+09:00",
+      "unconfirmed": false
+    }
+  ]
+}
