@@ -6,7 +6,7 @@
     "to": "2026-11-13T08:00:00+09:00"
   },
   "source": "mail-4ml",
-  "itemCount": 10,
+  "itemCount": 18,
   "items": [
     {
       "headline": "NVIDIA取締役会、Huang CEOの解任を協議か——NYT報道",
@@ -97,6 +97,78 @@
       "topic": "エージェント",
       "collected_at": "2026-11-12T19:34:00+09:00",
       "unconfirmed": false
+    },
+    {
+      "headline": "Claude Meetings公開、ビデオ会議中に資料を共同作成",
+      "summary": "Anthropicがチームのビデオ通話にClaudeを参加させられるClaude Meetingsをベータ公開した。会話しながらドキュメントやホワイトボードなどのArtifactを作成でき、Team・Enterpriseプランから順次提供される。",
+      "url": "https://x.com/claudeai/status/2120973994191094179",
+      "source": "ML_Bear Times",
+      "topic": "Claude／Codex",
+      "collected_at": "2026-11-13T07:34:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Instaboxが正式公開、AI Agent向けクラウドPCを即時起動",
+      "summary": "AI Agent向けクラウドコンピュータのInstaboxがベータを終え、ウェイトリストなしで正式公開された。Linux・Android・Mac・WindowsのサンドボックスをGPU/CPU付きで提供し、ベータ開始1か月未満で100万以上のboxが作られた。CodexやClaude Code入りのクラウドPCを約0.5秒で起動できるとされる。",
+      "url": "https://x.com/hanghuang_/status/2120909505290756137",
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "collected_at": "2026-11-13T07:34:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Inkling 2 Smallの重みをHF公開、総594B・アクティブ17BのMoE",
+      "summary": "Thinking MachinesがInkling 2 Smallの重みをApache 2.0でHugging Faceに公開した。総パラメータ594B・アクティブ17BのマルチモーダルMoEで最大1Mコンテキストに対応し、Together AIでも即日提供が始まった。",
+      "url": "https://x.com/thinkymachines/status/2120982625582195011",
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "collected_at": "2026-11-13T07:34:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "OpenAIサイバー配信で未公開モデル披露、GPT-6.2は出ず",
+      "summary": "OpenAIが「Cyber at frontier」と題したライブ配信を行い、Anthropic Mythos 5.2のほぼ2倍の能力とされる未公開の内部モデルのベンチマークを示した。一方、期待されたGPT-6.2 Astraの発表はなかった。",
+      "url": "https://x.com/kimmonismus/status/2120945075291140365",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-13T07:34:00+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Fireworks侵害の原因は委託先ネオクラウドの脆弱性か",
+      "summary": "The Informationによると、Fireworksのデータ侵害は同社がサーバーを借りる小規模クラウド事業者（ネオクラウド）のセキュリティの弱さが原因だった。BasetenやModal、Falなど競合も同様の事業者に依存しており、顧客の一部は自社DCやハイパースケーラーへの移行を検討している。報道ベース。",
+      "url": "https://x.com/theinformation/status/2120917075904352661",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-13T07:34:00+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "TileRTでGB300 NVL72が1725 tok/s/user達成",
+      "summary": "SemiAnalysisによると、推論ソフトTileRTのMegaKernelsとTP24構成で、GB300 NVL72上でDeepSeek v4.1 Flashを1ユーザー当たり1725 tok/sで実行できた。デコードでは汎用推論エンジンの2倍の速度とされ、マルチ並列時の結果も今後公開予定。",
+      "url": "https://x.com/SemiAnalysis_/status/2120932283544748251",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-13T07:34:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Flash ALOHA、50デモで人間並み速度のロボット操作を学習",
+      "summary": "Chelsea Finn氏らのチームが高速かつ精密なロボット操作を学習するFlash ALOHAを発表した。人が直接ロボットを導いて高速データを集める方式で、50回のデモで動的・精密なタスクをほぼ人間の速度で自律実行できる。論文・コード・ハードウェアは全て公開されている。",
+      "url": "https://x.com/JohnHYao/status/2120719263992565828",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-13T07:34:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Zeromatterがステルス解除、物理AI向けシミュレーション基盤",
+      "summary": "物理AIの学習・テスト用シミュレーション基盤を開発するZeromatterが4年ぶりにステルスを解除した。独自物理エンジンでカメラ・LiDAR・レーダー・赤外線やレンズの雨粒まで再現し、車・ドローン・航空機・ロボットに共通で使える。調達額$160M・評価額$1.1Bとされる。",
+      "url": "https://x.com/ZeromatterTech/status/2120904178042323276",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-13T07:34:00+09:00",
+      "unconfirmed": true
     }
   ]
 }
