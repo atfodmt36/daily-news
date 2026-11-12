@@ -6,7 +6,7 @@
     "to": "2026-11-13T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 26,
+  "itemCount": 29,
   "items": [
     {
       "breaking": false,
@@ -293,6 +293,39 @@
       "unconfirmed": false,
       "url": "https://prtimes.jp/main/html/rd/p/000000047.000061037.html",
       "x_url": "https://x.com/shibasaki_k/status/2120662952986476999"
+    },
+    {
+      "breaking": true,
+      "collected_at": "2026-11-13T03:21:51+09:00",
+      "headline": "Google、高速・低価格の新モデル「Gemini 4 Hydrogen」を公開—AA指数51でArgon超え、100万トークン一律1.5ドル/7.5ドル",
+      "source": "Google",
+      "summary": "Googleが11月12日、Gemini 4シリーズの高速モデル「Gemini 4 Hydrogen」を発表した。日常のコーディングとエージェント実行に最適化し、Artificial Analysis Intelligence Indexはデフォルト51（最高設定54）で上位のArgon（50）を上回り、Terminal-Benchは57%。価格は100万トークンの全コンテキストで一律、入力100万トークン1.5ドル・出力7.5ドル。Gemini 3.8 Flashの2.5倍速とされ、Google検索・Geminiアプリ・Gemini API・AI Studioへ本日展開、AntigravityではCarbonと組み合わせる「Orchestrator」も提供される。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "x_url": "https://x.com/GoogleDeepMind/status/2120940338869055788"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-13T03:21:51+09:00",
+      "headline": "Anthropic、Claude Managed Agentsのセルフホスト版をプライベートベータで提供開始",
+      "source": "Claude (Anthropic)",
+      "summary": "Anthropicが11月12日、Claude Managed Agentsのセルフホスト版をプライベートベータとして発表した。エージェントハーネス、サンドボックス、認証情報、セッション履歴を含むサービス全体を自社クラウドやオンプレミスで運用でき、Claudeへのリクエスト送信先はAnthropic直接、Amazon Bedrock、Google Agent Platform、Microsoft Foundry、自社ゲートウェイから選べる。利用にはAnthropicのアカウントチームへの申請が必要。",
+      "topic": "Claude／Codex",
+      "unconfirmed": false,
+      "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+      "x_url": "https://x.com/ClaudeDevs/status/2120938988165091693"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-13T03:21:51+09:00",
+      "headline": "Salesforce、オープンウェイト音声認識モデル「SOV-Transcribe-1」を公開—AA-WER指数でWER 2.3%、オープン勢トップ",
+      "source": "Salesforce (Hugging Face)",
+      "summary": "Salesforceが11月12日、音声認識モデル「SOV-Transcribe-1」（総パラメータ26.6B）をHugging Faceで公開した。Artificial AnalysisのAA-WER Indexで単語誤り率2.3%を記録し、オープンウェイトの音声モデルで首位、全体でも44モデル中7位。Earnings22で4.1%、VoxPopuliで1.5%のWERを達成した。同社のSovereign AI initiativeの一環で、自社インフラ上で運用できる。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://huggingface.co/salesforce-sovereign-intelligence/SOV-Transcribe-1",
+      "x_url": "https://x.com/ArtificialAnlys/status/2120917242439409788"
     }
   ]
 }
