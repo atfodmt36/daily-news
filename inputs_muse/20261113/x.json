@@ -6,7 +6,7 @@
     "to": "2026-11-13T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 24,
+  "itemCount": 26,
   "items": [
     {
       "breaking": false,
@@ -271,6 +271,28 @@
       "unconfirmed": false,
       "url": "https://www.reuters.com/business/most-large-firms-plan-higher-open-weight-ai-use-cap-bills-study-shows-2026-11-12/",
       "x_url": "https://x.com/DanteMMartin/status/2120872994663018562"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-13T02:04:49+09:00",
+      "headline": "SamsungとGoogle、Gemini搭載スマートグラス「Intelligent Eyewear」30機種の予約を開始—12月10日発売、395ドルから",
+      "source": "Samsung Newsroom",
+      "summary": "SamsungとGoogleが11月12日、Geminiを内蔵したスマートグラス「Intelligent Eyewear」の全ラインアップを発表し、予約受付を開始した。Warby Parker（14種・395ドルから）とGentle Monster（16種・449〜489ドル）の計30モデルで、米国と韓国で12月10日に発売。12MPカメラとマイクを備え、見ているものについてGeminiに質問したり、リアルタイム翻訳や経路案内が使える。Android XRプラットフォーム採用の初のグラスとなる。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://news.samsung.com/global/samsung-announces-december-release-for-intelligent-eyewear-bringing-a-smarter-way-to-see-the-world",
+      "x_url": "https://x.com/GeminiApp/status/2120901953505177996"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-13T02:04:49+09:00",
+      "headline": "生成AI利用者の34.8%が「業務を引き継げない」—RCIJ調査、引き継ぎ困難者の88.6%は週数回以下の利用層",
+      "source": "日本リスクコミュニケーション協会",
+      "summary": "日本リスクコミュニケーション協会（RCIJ）が11月10日に公表した調査（ビジネスパーソン408人、うち直近3か月に業務で生成AIを使った227人を分析）によると、34.8%が異動・退職・休職時にAIを使った業務の進め方を「引き継げない」と回答した。引き継げないと答えた人の88.6%は週に数回以下しか使わない層で、ほぼ毎日使う層では88.0%が「引き継げる」と回答。AIへの指示内容や修正理由を十分に記録できていない人も37.0%に上り、協会は属人化を「シン・属人化」と名付けた。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://prtimes.jp/main/html/rd/p/000000047.000061037.html",
+      "x_url": "https://x.com/shibasaki_k/status/2120662952986476999"
     }
   ]
 }
