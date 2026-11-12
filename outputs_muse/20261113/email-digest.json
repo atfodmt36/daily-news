@@ -1,0 +1,426 @@
+{
+  "date": "2026/11/13",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-12T08:00:00+09:00",
+    "to": "2026-11-13T08:00:00+09:00"
+  },
+  "itemCount": 56,
+  "top5": [
+    {
+      "headline": "Google、高速・低価格の新モデル「Gemini 4 Hydrogen」を一般提供開始",
+      "summary": "Googleが11月12日、Gemini 4シリーズの高速モデル「Gemini 4 Hydrogen」を一般提供開始した。日常のコーディングとエージェント実行に最適化し、新しいxhigh思考レベルを搭載、Antigravityエージェントの既定モデルとなる。Artificial Analysis Intelligence Indexはデフォルト51（最高設定54）で上位のArgon（50）を上回り、Terminal-Benchは57%。価格は全コンテキスト一律で入力100万トークンあたり1.5ドル、出力7.5ドル。Gemini APIとAI Studioで利用できる。今週3度目のGeminiリリースを予告する投稿の正式発表にあたる。",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "source": "Google",
+      "unconfirmed": false,
+      "whyItMatters": "Gemini 4シリーズの高速モデルが一般提供開始。AA指数51で上位モデルを上回り、100万トークン1.5ドル/7.5ドルの低価格とxhigh思考レベルで、コーディングとエージェント実行の標準が変わる。"
+    },
+    {
+      "headline": "Anthropic、ビデオ会議にClaudeが参加する「Claude Meetings」をベータ提供開始",
+      "summary": "AnthropicがTeam/Enterpriseプラン向けに「Claude Meetings」をベータ提供開始した。Google Meet通話にClaudeを可視の参加者として追加でき、メモ取り・質問応答に加え、通話中にドキュメントやホワイトボード、スライドなどのアーティファクトを共同作成できる。",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "source": "Anthropic",
+      "unconfirmed": false,
+      "whyItMatters": "Claudeがビデオ会議の参加者になり、その場で資料を共同作成する新しい会議形態。Team/Enterprise向けベータとして提供が始まった。"
+    },
+    {
+      "headline": "Anthropic、Claude Managed Agentsのセルフホスト版を提供開始",
+      "summary": "AnthropicがClaude Managed Agentsのセルフホスト版をプライベートベータで提供開始した。エージェントハーネス、サンドボックス、認証情報、セッション履歴を含むサービス全体を自社クラウドやオンプレミスで運用でき、エージェント・セッション・履歴は自社インフラに保存される。モデルリクエストの送信先はAnthropic直接、Amazon Bedrock、Google Agent Platform、Microsoft Foundry、自社ゲートウェイから選べ、利用にはAnthropicアカウントチームへの申請が必要。",
+      "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+      "source": "Anthropic",
+      "unconfirmed": false,
+      "whyItMatters": "Managed Agents全体を自社インフラで運用できるセルフホスト版が登場。規制業種やデータ主権を理由にクラウド型を使えなかった組織でもエージェント基盤を導入できる。"
+    },
+    {
+      "headline": "NVIDIA、Jensen Huang CEOが辞任—CFO Colette Kress氏が暫定CEOに",
+      "summary": "NVIDIAが11月12日、共同創業者のJensen Huang氏が社長・CEO・取締役を即時辞任したと発表した（規制当局への届出で取締役会が辞任を受理）。CFOのColette Kress氏が暫定CEOに就きCFOを兼務し、取締役会は後任CEOの選定を開始、Harvey C. Jones氏が初の取締役会議長に就任した。11月17日の第3四半期決算発表を控えたタイミングで、これに先立ちNYTは取締役会が部下との関係報道を受け解任を協議していると報じ、株価は時間外で約9%下落していた。",
+      "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
+      "source": "TechCrunch",
+      "unconfirmed": false,
+      "whyItMatters": "AI半導体の中心企業NVIDIAで共同創業者CEOが即時辞任し、CFOが暫定CEOに。決算発表直前のトップ交代で、後任選定と経営への影響が注目される。"
+    },
+    {
+      "headline": "ACIMUS、スケッチや写真1枚からBIMモデルを一括生成する建築AI「KIWARI」をリリース",
+      "summary": "株式会社ACIMUSが11月12日、ChatBIM「ACIMUS」の新機能として建築AI「KIWARI」をリリースした。2D図面・手書きスケッチ・間取り図・建物写真・文章から、柱・梁・壁・床・屋根・窓・ドア・家具・設備を含む編集可能なBIMモデルを一括生成し、給水・給湯・排水の配管ルートも提案する。IFC/DXF形式で出力可能。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000023.000152114.html",
+      "source": "PR TIMES（株式会社ACIMUS）",
+      "unconfirmed": false,
+      "whyItMatters": "手書きスケッチや写真1枚から編集可能なBIMモデルと配管ルート案まで一括生成する国産の建築AI。建設×AIの実務適用として注目される。"
+    }
+  ],
+  "sections": {
+    "エージェント": [
+      {
+        "headline": "Plurai Simulationを無料公開、デジタルツインでAI Agentをテスト",
+        "summary": "Plurai AIが、AI Agentを実ユーザーの前に出す前に仮想環境でテストできるPlurai Simulationを無料公開した。リポジトリからデジタルツインを構築し、Agentを壊すだけのペルソナを送り込む。Claude Code・Codex・Copilot向けプラグインがある。",
+        "url": "https://x.com/ilan_kadar/status/2120524450831413518",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Anthropic、製造業向けClaudeプラグイン「Claude for Manufacturing」を公開—17スキルとAutodesk Fusion連携",
+        "summary": "Anthropicが11月12日、製造業の現場チーム向けプラグイン「Claude for Manufacturing」をTeam/Enterprise向けに公開した。見積もり作成、品質不良の調査、故障診断、仕入先比較、生産レポート作成など17のスキルを備え、Autodesk Fusion、Infor、Microsoft 365、Oracle NetSuiteへのコネクターで自社の記録から作業する。出力は担当者がレビュー・承認してから顧客や仕入先に渡る設計で、工場設備そのものは操作しない。Autodesk Fusion連携では既存モデルから設計バリエーションを生成し、エンジニアの目標に対してスコア付けして比較メモを作成できる。",
+        "url": "https://claude.com/resources/articles/claude-for-manufacturing",
+        "source": "Anthropic",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Instaboxが正式公開、AI Agent向けクラウドPCを即時起動",
+        "summary": "AI Agent向けクラウドコンピュータのInstaboxがベータを終え、ウェイトリストなしで正式公開された。Linux・Android・Mac・WindowsのサンドボックスをGPU/CPU付きで提供し、ベータ開始1か月未満で100万以上のboxが作られた。CodexやClaude Code入りのクラウドPCを約0.5秒で起動できるとされる。",
+        "url": "https://x.com/hanghuang_/status/2120909505290756137",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Claude Code v2.1.323、実験的な「Code Mode」などを追加",
+        "summary": "Claude が JavaScript を書いてツールを呼び出す実験的オプトイン機能「Code Mode」を追加。plugin.json の engines[\"claude-code\"] によるバージョン範囲指定、claude plugin validate でのプラグイン TypeScript フックの型チェック、Artifact ツールアップロードでの .docx サポートも追加。",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
+        "source": "Anthropic (GitHub)",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Codex CLI v0.168.0 を安定版としてリリース",
+        "summary": "OpenAI は Codex CLI の安定版 v0.168.0 を公開。GitHub リリースには詳細な変更履歴（リリースノート本文）がなく「Release 0.168.0」とのみ記載されている。",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0",
+        "source": "GitHub (openai/codex)",
+        "unconfirmed": false
+      }
+    ],
+    "モデル": [
+      {
+        "headline": "NTT、少量データで専門LLMを育成するチューニング技術を開発——tsuzumi 2の正答率83.1％に",
+        "summary": "NTTが11月12日、業務マニュアルなど少量の社内資料から専門知識をLLMに定着させるチューニング技術を発表した。LLM自身がFAQ・表・対話形式など多様な教材を自動生成して学ぶことで、tsuzumi 2の正答率は65.3％から83.1％へ向上。Llama 3でも有効性を確認した。NTT R&D FORUM 2026で展示予定。",
+        "url": "https://ai.watch.impress.co.jp/docs/news/2155674.html",
+        "source": "NTT",
+        "unconfirmed": false
+      },
+      {
+        "headline": "豪Trellis Data、主権AIモデル「Agentaus 1」（220B）を発表",
+        "summary": "オーストラリアのTrellis Dataが11月10日、2200億パラメータの主権AIモデル「Agentaus 1」を発表した。MMLU-Proで世界43位とされ、従来モデルの約1.5倍の規模。無料・サブスクリプション・企業・APIの4層で提供し、豪国内でのデータ処理と国防級の暗号化をうたう。",
+        "url": "https://australiancybersecuritymagazine.com.au/trellis-data-launches-near-frontier-model-agentaus-1/",
+        "source": "Trellis Data",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Salesforce、オープンウェイト音声認識モデル「SOV-Transcribe-1」を公開—AA-WER指数でWER 2.3%、オープン勢トップ",
+        "summary": "Salesforceが11月12日、音声認識モデル「SOV-Transcribe-1」（総パラメータ26.6B）をHugging Faceで公開した。Artificial AnalysisのAA-WER Indexで単語誤り率2.3%を記録し、オープンウェイトの音声モデルで首位、全体でも44モデル中7位。Earnings22で4.1%、VoxPopuliで1.5%のWERを達成した。同社のSovereign AI initiativeの一環で、自社インフラ上で運用できる。",
+        "url": "https://huggingface.co/salesforce-sovereign-intelligence/SOV-Transcribe-1",
+        "source": "Salesforce (Hugging Face)",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Perplexity、意思決定モデル「Decider v1.3」と「Decider Flash v1.3」をオープン公開",
+        "summary": "Perplexityが11月12日、テキストを生成せず確率付きの判定を返すオープンウェイトの意思決定モデル「Decider v1.3」と軽量版「Decider Flash v1.3」を公開した。指示や型に基づき該当スパンを抽出する新機能「locate」を追加し、固有表現抽出や個人情報検出など条件に合うテキストスパンと位置を返せる。重みはHugging Faceで公開され、Decisions APIとOpenRouterでも提供される。",
+        "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+        "source": "Perplexity",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Inkling 2 Smallの重みをHF公開、総594B・アクティブ17BのMoE",
+        "summary": "Thinking MachinesがInkling 2 Smallの重みをApache 2.0でHugging Faceに公開した。総パラメータ594B・アクティブ17BのマルチモーダルMoEで最大1Mコンテキストに対応し、Together AIでも即日提供が始まった。",
+        "url": "https://x.com/thinkymachines/status/2120982625582195011",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      }
+    ],
+    "論文・ベンチマーク": [
+      {
+        "headline": "Claude Fable 5.2、ロボティクス評価「AA-Robotics v0.1」で首位——75点",
+        "summary": "Artificial Analysisのロボティクス評価「AA-Robotics v0.1」で、Claude Fable 5.2が75点を記録し首位に立った。GPT-6 Astra（69点）、GPT-6.1 Sol（65点）を上回る。計測ボックスタスクで初めてスコアを獲得したモデルで、ビデオ映像のみでテープメジャーの目盛りを読み取って計測したという。",
+        "url": "https://x.com/ArtificialAnlys/status/2120698177016005029",
+        "source": "Artificial Analysis",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Continual-ARC発表、既存Agentは経験から学習できず",
+        "summary": "Unify AIが、Agentが経験から学べるかを測る新ベンチマークContinual-ARCを発表した。OpenClaw・Hermes Agent・Prime Agentは有用な記憶も新タスクへの汎化もできず、9Bモデルの重み学習では両方できたとしている。",
+        "url": "https://x.com/DanielLenton1/status/2120535187587268777",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Flash ALOHA、50デモで人間並み速度のロボット操作を学習",
+        "summary": "Chelsea Finn氏らのチームが高速かつ精密なロボット操作を学習するFlash ALOHAを発表した。人が直接ロボットを導いて高速データを集める方式で、50回のデモで動的・精密なタスクをほぼ人間の速度で自律実行できる。論文・コード・ハードウェアは全て公開されている。",
+        "url": "https://x.com/JohnHYao/status/2120719263992565828",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      }
+    ],
+    "建設×AI": [
+      {
+        "headline": "サイエンスアーツのAI無線アプリ「Buddycom」、国土交通省「NETIS」に登録",
+        "summary": "サイエンスアーツのAI無線アプリ「Buddycom」が11月12日、国土交通省の新技術情報提供システム「NETIS」に登録された（登録番号KT-260006-A）。音声通話に加え映像・位置情報の共有や通話内容のテキスト化に対応し、公共工事・建設現場の施工管理と情報伝達を支援する。",
+        "url": "https://prtimes.jp/main/html/rd/p/000000266.000006457.html",
+        "source": "サイエンスアーツ",
+        "unconfirmed": false
+      },
+      {
+        "headline": "「Mutiny BIM」がオープンソースで公開、ブラウザ型BIMエンジン",
+        "summary": "PermitZIPが11月11日、ブラウザ型のBIMエンジン「Mutiny BIM」をオープンソースで公開した。Apache 2.0でGitHubに公開され、建築・構造・土木・設備など各職種とAIエージェントが同じモデルを同時に編集できる共有カーネルをうたう。IFC 4.3エクスポートや25万要素モデルの性能ゲートを備え、まだ初期段階としている。",
+        "url": "https://github.com/permitzip/mutinybim",
+        "source": "PermitZIP",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Spirula Studio、v2026.11.12を公開——ローリングシャッター補正とGLOMAP型SfMマッパーを追加",
+        "summary": "クロスベンダー対応の3Dガウシアンスプラッティング学習ツール Spirula Studio が v2026.11.12 をリリース。学習中のローリングシャッター等のカメラ校正残差補正、GLOMAP型グローバルマッパーとFlexGlue特徴マッチャーのSfM追加、3段階（弱/中/強）のフローター抑制、Apple Silicon高速化などを含む。",
+        "url": "https://github.com/harry7557558/spirula-studio/releases/tag/v2026.11.12",
+        "source": "GitHub (harry7557558/spirula-studio)",
+        "unconfirmed": false
+      }
+    ],
+    "政策・政府": [
+      {
+        "headline": "デジタル庁、「令和8年度AIを活用した情報システム調達の評価に係る調査等業務」を一般競争入札で公告",
+        "summary": "デジタル庁は2026年11月12日、AIを活用した情報システム調達の評価に係る調査等業務の一般競争入札を公告した（調達番号0000000000000630386、WTO対象外）。政府の情報システム調達評価手法へのAI活用に関する調査・研究を委託するもの。",
+        "url": "https://www.digital.go.jp/procurement",
+        "source": "デジタル庁",
+        "unconfirmed": false
+      }
+    ],
+    "ビジネス・人材": [
+      {
+        "headline": "AWS調査、日本企業のAI導入率が43%から54%に上昇——導入企業の81%が生産性向上を実感",
+        "summary": "AWSがStrand Partnersに委託した調査「2026年、日本のAIの未来を切り拓く」で、日本企業のAI導入率が前年43%から54%（約198万社）に上昇した。導入企業の81%が生産性向上、55%が増収、44%が初期投資を上回るリターンを実感した一方、60%は基礎的活用にとどまり、最も変革的な段階は19%（前年13%）。ROIの測定に自信がない・測定していない企業は40%に上る。ビジネスリーダー1,000人・一般市民1,000人が対象。",
+        "url": "https://press.aboutamazon.com/jp/2026/11/aws-research-finds-ai-adoption-accelerating-in-japan-with-a-narrowing-gap-between-advanced-and-basic-adopters",
+        "source": "AWS",
+        "unconfirmed": false
+      },
+      {
+        "headline": "PKSHA、製造業向け「暗黙知伝承AI」を本格展開——初動対応時間を約70％短縮",
+        "summary": "PKSHA Technologyが11月11日、熟練者の暗黙知をAIが引き出して形式知化する「暗黙知伝承AI」を製造業向けに本格展開すると発表した。AIが業務を担いながら不明点を熟練者に質問して学ぶ仕組みで、ある製造現場では初動対応時間を約70％短縮。技能継承に問題がある製造業の事業所は65.8％に上るという。",
+        "url": "https://prtimes.jp/main/html/rd/p/000000280.000022705.html",
+        "source": "PKSHA Technology",
+        "unconfirmed": false
+      },
+      {
+        "headline": "ユナイテッド航空、個人のAIエージェントによる航空券予約を禁止——米大手で初",
+        "summary": "ユナイテッド航空が11月11日、運送約款を改定し、個人のAIエージェントによる航空券の予約・変更・購入を禁止した。旅行代理店経由も対象で、AIエージェントが関わった予約は予告なしに取り消すことができる。米大手航空会社で初の措置。CEOのカービー氏は「新たな仲介業者を作りたくない」と述べた。",
+        "url": "https://viewfromthewing.com/united-airlines-ceo-scott-kirby-bans-ai-agents-from-booking-tickets-doesnt-want-another-middleman/",
+        "source": "United Airlines",
+        "unconfirmed": false
+      },
+      {
+        "headline": "矢野経済研究所、タレントマネジメントシステム市場は450億円に——前年比18.7％増",
+        "summary": "矢野経済研究所がタレントマネジメントシステム市場に関する調査（2026年）を発表。2025年の市場規模は前年比118.7％の450億2,000万円。AIによる分析機能の高度化が進み、人材データを経営の意思決定に活用する動きが広がっているという。",
+        "url": "https://yano.co.jp/press-release/show/press_id/4205",
+        "source": "矢野経済研究所",
+        "unconfirmed": false
+      },
+      {
+        "headline": "物流DX、AI導入で定量的成果は13%にとどまる—Redwood調査",
+        "summary": "米Redwood Logisticsが11月11日に公開した報告書「The State of 4PL 2027」によると、AIを導入している荷主のうち定量的な成果を確認できたのは13%にとどまる。データの未統合とツールの分断が障壁で、同社はAI対応の統合オーケストレーション層「オープン4PL」を提唱している。",
+        "url": "https://landing.redwoodlogistics.com/the-state-of-4pl-2027",
+        "source": "Redwood Logistics",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Genpact調査、AIエージェント本番導入は79%でも投資と損益の直結は15%—経営層2000人超調査",
+        "summary": "Genpactが11月12日に発表した調査レポート「Autonomy in Practice」によると、AIエージェントを本番運用している企業は79%に達する一方、AI投資を損益（P&L）成果に完全に結びつけられている企業は15%にとどまった。資金を投入したAI施策のうち期待どおりの価値を生んだのは平均49%で、全社的に一貫してエージェントを使う企業は20%、AIが主導・完結する意思決定は40%に上った。17業種の経営層2000人超への調査。",
+        "url": "https://www.prnewswire.com/news-releases/79-of-enterprises-report-ai-agents-in-production-but-only-15-have-fully-tied-ai-investment-to-pl-outcomes-302937385.html",
+        "source": "Genpact",
+        "unconfirmed": false
+      },
+      {
+        "headline": "大企業の約6割がオープンウェイトAIの利用拡大を計画—Capgemini調査、AI支出は予算を平均24%超過",
+        "summary": "Capgeminiが11月12日に公表した調査（売上10億ドル超の企業幹部500人、10カ国）によると、59%がAI支出が想定を大幅に上回り予算を平均24%超過したと回答し、コストを懸念する幹部は53%（前年45%）。オープンウェイトモデルのトークンはクローズドより平均87%安く、約6割が今後1年でオープンウェイトAIの利用を増やす計画とした。",
+        "url": "https://www.reuters.com/business/most-large-firms-plan-higher-open-weight-ai-use-cap-bills-study-shows-2026-11-12/",
+        "source": "Reuters",
+        "unconfirmed": false
+      },
+      {
+        "headline": "生成AI利用者の34.8%が「業務を引き継げない」—RCIJ調査、引き継ぎ困難者の88.6%は週数回以下の利用層",
+        "summary": "日本リスクコミュニケーション協会（RCIJ）が11月10日に公表した調査（ビジネスパーソン408人、うち直近3か月に業務で生成AIを使った227人を分析）によると、34.8%が異動・退職・休職時にAIを使った業務の進め方を「引き継げない」と回答した。引き継げないと答えた人の88.6%は週に数回以下しか使わない層で、ほぼ毎日使う層では88.0%が「引き継げる」と回答。AIへの指示内容や修正理由を十分に記録できていない人も37.0%に上り、協会は属人化を「シン・属人化」と名付けた。",
+        "url": "https://prtimes.jp/main/html/rd/p/000000047.000061037.html",
+        "source": "日本リスクコミュニケーション協会",
+        "unconfirmed": false
+      },
+      {
+        "headline": "GenAI HR Awards 2026 受賞結果発表、SHIFTがAIエージェント約6,500体で営業利益約10億円改善",
+        "summary": "生成AI活用普及協会がGenAI HR Awards 2026の受賞を発表。大企業部門グランプリのSHIFTは892業務の可視化からAIエージェント約6,500体を開発し営業利益約10億円改善・100名の戦略再配置・AI売上比率28.4%。準グランプリのDeNAは生成AI活用で人事レビュー工数を約30%（約118時間）削減。中小企業部門のアイトリアは生成AIパスポート取得率100%、年間1,565時間削減。",
+        "url": "https://prtimes.jp/main/html/rd/p/000000111.000121559.html",
+        "source": "一般社団法人生成AI活用普及協会（GUGA）",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Waris、人事職のAI関連案件が約2.8倍に プロ人事向け「AIエージェント実践講座」第2期募集開始",
+        "summary": "Warisは人事職のAI関連案件の割合が2024年度7.6%→2025年度21.1%へ約2.8倍に増加したと発表し、プロ人事向け「AIエージェント実践講座（第2期）」の募集を開始。Claudeを用いて求人票作成や規程レビュー等を自動化するAIエージェント構築を学ぶ内容で、第1期満足度は4.75/5.0。受講料79,800円、定員10名、2026年12月23日開講。",
+        "url": "https://prtimes.jp/main/html/rd/p/000000060.000018325.html",
+        "source": "株式会社Waris",
+        "unconfirmed": false
+      },
+      {
+        "headline": "immedio、AIパーソナル営業アシスタント「Cuei AI」を提供開始",
+        "summary": "immedioがインサイドセールス・フィールドセールス・カスタマーサクセス向けAIパーソナル営業アシスタント「Cuei AI」を提供開始。顧客履歴や社内データから次のアクションを先回り提案し、Salesforce・HubSpot・Slack・Gmail等と連携。自社検証（2026年4-5月の5週間）では約1,100回利用され、約半数が営業業務、30-40%が顧客対応文面の下書きに使われた。",
+        "url": "https://prtimes.jp/main/html/rd/p/000000327.000106428.html",
+        "source": "株式会社immedio",
+        "unconfirmed": false
+      }
+    ],
+    "生成AI・その他": [
+      {
+        "headline": "AWS、自律AIエージェントだけで作ったローカルエミュレータ「AWS Emulator」を公開",
+        "summary": "AWSが11月11日、AWSのAPIをローカルで再現する「AWS Emulator」を公開した。200以上のAWSサービスをカバーし、CLIやSDK、コーディングエージェントがクラウドと同じAPIでテストできる。コードは自律AIエージェント（Kiro）が全て記述・テストしたもので、CC0としてGitHubで公開され、無料でオフライン動作する。",
+        "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+        "source": "AWS",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Grok Buildの共有リンク、3万5千件超が認証なしで公開状態に——Claroc調査",
+        "summary": "セキュリティ企業Clarocの調査（11月10日）で、Grok Buildで作られたアプリのうちオンラインの37,571件中35,578件（94.7％）がサインインなしで開ける状態だったことが判明した。SpaceXSIとXの社員が作った24件には機密の営業計画や594件の営業アカウント地図も含まれ、SpaceXSIは報道後に削除。共有リンクがホスト名に含まれるためパッシブDNSから発見可能だったという。",
+        "url": "https://x.com/jpAIlab/status/2120622791628120523",
+        "source": "Claroc",
+        "unconfirmed": false
+      },
+      {
+        "headline": "LangChain 1.5.0を公開、Python 3.10のサポートを終了",
+        "summary": "LangChainが11月11日に「langchain 1.5.0」を公開した。langchain-core 1.8.0とあわせてPython 3.11以上が必須となり、Python 3.10のサポートを終了した。エージェント開発の主要フレームワークのアップデート。",
+        "url": "https://x.com/TaylorChristof2/status/2120652459622514933",
+        "source": "LangChain",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Beeble、動画変換ツール「SwitchX 3.0」を公開——MiniMax H3ベース",
+        "summary": "Beebleが11月11日、プロ向け動画変換ツール「SwitchX 3.0」を公開した。MiniMax H3をベースに再構築し、最大4枚の参照画像、動く背景、カメラ追従、プロンプトによる演出指示に対応。15秒・最大4K出力で、従来と同じクレジット価格で利用できる。",
+        "url": "https://docs.beeble.ai/beeble/switchx",
+        "source": "Beeble",
+        "unconfirmed": false
+      },
+      {
+        "headline": "NVIDIA、複数視点の写真から3D形状を復元するモデル「Déjà View」を公開",
+        "summary": "NVIDIAが11月11日、複数視点の写真から3D形状とカメラ位置を復元するモデル「Déjà View」を発表した。単一のTransformerブロックをループさせて繰り返し精緻化する設計で、117Mパラメータながら5つのベンチマークで10倍大きなモデルと同等以上の性能を示した。NeurIPS 2026のオーラル論文で、コードとモデルを公開している。",
+        "url": "https://research.nvidia.com/labs/dvl/projects/dvlt/",
+        "source": "NVIDIA",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Adobe、AIアシスタント搭載の「Premiere」27.0を公開——生成音楽や音声分離も",
+        "summary": "アドビが11月10日のAdobe MAX 2026で映像編集ソフト「Premiere」27.0を公開した。自然言語で編集作業を支援するAIアシスタント（ベータ）、音楽・効果音・環境音の生成、重なった2人の話し声を分離する「クロストークを分離」などを追加。Photoshopなど4アプリへの外部AIエージェント接続（MCP、2027年初にプライベートベータ）も発表した。",
+        "url": "https://jp.pronews.com/news/202611121216799212.html",
+        "source": "Adobe",
+        "unconfirmed": false
+      },
+      {
+        "headline": "ElevenLabs、13の新製品・アップグレードを発表——「Scribe v3」や「ElevenAI」など",
+        "summary": "ElevenLabsが11月11日のニューヨーク・サミットで13の新製品・アップグレードを発表した。文字起こし「Scribe v3」（102言語、Scribe v2比で誤り27％減）、読み上げ「Eleven v4」、リアルタイム音声「Eleven Realtime」、会議を聞いて要約するアプリ「ElevenAI」、会話を指揮する「Interaction Engine」など。NVIDIAとの提携拡大も発表した。",
+        "url": "https://mumbrella.com.au/elevenlabs-launches-13-new-products-and-upgrades-944467",
+        "source": "ElevenLabs",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Meta、InstagramのAI年齢推定を世界展開——虚偽の誕生日でもティーン向け保護へ",
+        "summary": "Metaが11月9日、InstagramのAI年齢推定技術を世界展開した。成人として登録したティーンと推定されるアカウントを自動でティーンアカウントの保護設定に移行する。Facebookへの展開も進行中で、Threadsは年内に同様の仕組みを導入予定。11月9日の発表をレーダーが見落としていた後追い。",
+        "url": "https://www.aljazeera.com/news/2026/11/10/metas-ai-age-check-goes-global-can-it-protect-teens",
+        "source": "Meta",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Adobe、Firefly Graphを公開ベータに—AIワークフローを再利用可能に",
+        "summary": "Adobeが11月10日のAdobe MAX 2026で、Fireflyの新機能「Firefly Graph」を公開ベータとして提供開始した。AIモデルとAdobeツールをノードでつないだ制作ワークフローを保存・再利用でき、内蔵のAIアシスタントが各工程の作成と最適化を支援する。Firefly Designも公開ベータ、Firefly Builderはプライベートベータ。",
+        "url": "https://www.businesswire.com/news/home/20261110476316/en/",
+        "source": "Adobe",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Adobe、Lightroom 10.0を公開—AIシミ除去や「Open Eyes」など",
+        "summary": "Adobeが11月10日、Lightroom 10.0（デスクトップ）およびLightroom Classic 16.0を公開した。AIによるシミ除去、別写真の目元を使ってまばたきを補正する「Open Eyes」（早期アクセス）、AI生成の深度マップによるマスク、AIシャープなどを追加。デスクトップ版はテザー撮影にも初めて対応した。",
+        "url": "https://helpx.adobe.com/lightroom/desktop/introduction/release-notes.html",
+        "source": "Adobe",
+        "unconfirmed": false
+      },
+      {
+        "headline": "ChatGPT Finances、Macアプリに対応—米国の全プランで利用可能に",
+        "summary": "OpenAIが11月11日、個人向け金融機能「ChatGPT Finances」をMacデスクトップアプリで提供開始した。銀行・証券口座をPlaid経由で接続し、支出・投資・請求を把握できる。5月にPro向けプレビューで始まり、夏にPlus、10月に無料を含む全プランへ拡大し、Mac対応で主要プラットフォームが揃った。米国ユーザーのみ。",
+        "url": "https://openai.com/index/personal-finance-chatgpt/",
+        "source": "OpenAI",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Zyphra、音声クローンTTS「ZONOS3-Mini」をオープン公開—ブラウザでもリアルタイム動作",
+        "summary": "Zyphraが11月9日、ゼロショット音声クローン対応のTTSモデル「ZONOS3-Mini」をApache 2.0で公開した。800MパラメータのスパースMoEで、推論時の活性化は約100M。新コーデックZAC-1（15Hz）を採用し、WebGPUブラウザ（Pixel 9で初回音声570ms未満、M3 MacBook Airで150ms未満）のほかMLX、ggml、SGLangなど複数ランタイムでリアルタイム動作する。自社評価ZTTS2-Evalではオープンモデル首位としている（ベンダー公表値）。重みはHugging Faceで公開。",
+        "url": "https://www.zyphra.com/our-work/zonos3-mini",
+        "source": "Zyphra",
+        "unconfirmed": false
+      },
+      {
+        "headline": "SamsungとGoogle、Gemini搭載スマートグラス「Intelligent Eyewear」30機種の予約を開始—12月10日発売、395ドルから",
+        "summary": "SamsungとGoogleが11月12日、Geminiを内蔵したスマートグラス「Intelligent Eyewear」の全ラインアップを発表し、予約受付を開始した。Warby Parker（14種・395ドルから）とGentle Monster（16種・449〜489ドル）の計30モデルで、米国と韓国で12月10日に発売。12MPカメラとマイクを備え、見ているものについてGeminiに質問したり、リアルタイム翻訳や経路案内が使える。Android XRプラットフォーム採用の初のグラスとなる。",
+        "url": "https://news.samsung.com/global/samsung-announces-december-release-for-intelligent-eyewear-bringing-a-smarter-way-to-see-the-world",
+        "source": "Samsung Newsroom",
+        "unconfirmed": false
+      },
+      {
+        "headline": "TileRTでGB300 NVL72が1725 tok/s/user達成",
+        "summary": "SemiAnalysisによると、推論ソフトTileRTのMegaKernelsとTP24構成で、GB300 NVL72上でDeepSeek v4.1 Flashを1ユーザー当たり1725 tok/sで実行できた。デコードでは汎用推論エンジンの2倍の速度とされ、マルチ並列時の結果も今後公開予定。",
+        "url": "https://x.com/SemiAnalysis_/status/2120932283544748251",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Microsoft、音声認識モデル「MAI-Transcribe-2」が正式提供開始—Foundryで本番利用可能、音声1時間0.10ドル",
+        "summary": "Microsoftが11月12日、自社開発の音声認識モデル「MAI-Transcribe-2」がMicrosoft Foundryで正式提供（GA）となり、本番利用が可能になったと発表した。価格は音声1時間あたり0.10ドル。60言語に対応し、話者分離、単語単位のタイムスタンプ、自動言語識別、キーワードバイアス、コードスイッチングなどを備える（Microsoft Learnで確認）。同モデルは9月3日にパブリックプレビューとして発表されていた。オーナーのいいねが端緒。",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-transcribe",
+        "source": "Microsoft",
+        "unconfirmed": false
+      }
+    ]
+  },
+  "unconfirmed": [
+    {
+      "headline": "Apple系Claris、Macを私設AIサーバー化する「Harbor」を非公開プレビュー—複数Macのメモリ共有も",
+      "summary": "Apple傘下のClarisが、Appleシリコン搭載Macを私設AIサーバーにするアプリ「Harbor」の非公開プレビュー用ページを公開した。オープンウェイトモデルをローカルで実行し、データはクラウドに送らない。Thunderbolt 5でつないだ複数Macの統合メモリを共有し、1台では載らない大型モデルも実行できる。App Storeの掲載は一時出現後に削除され、価格・提供時期は未発表。",
+      "url": "https://www.macobserver.com/news/claris-harbor-local-ai-server-mac/",
+      "source": "Claris",
+      "unconfirmed": true
+    },
+    {
+      "headline": "GoogleのAnthropic持分は約10%・$132B相当か——The Information",
+      "summary": "The Informationによると、Googleの約$33Bの投資はAnthropicの約10%、$132B相当の持ち分になる見込み。最新の届出では2033年7月までGoogle Cloudに最低$121Bを支出すると約束し、募集価格は1株$70〜78とされる。報道ベースで未確認。",
+      "url": "https://x.com/theinformation/status/2120637749560508466",
+      "source": "ML_Bear Times",
+      "unconfirmed": true
+    },
+    {
+      "headline": "NVIDIA Rubinが再遅延か、原因はマザーボードの反りとの情報",
+      "summary": "NVIDIAの次世代GPU Rubinが再び遅延しており、原因はマザーボードの反りだとする情報が共有された。HBM問題は10月に解決済みとされる。SemiAnalysisはvLLMでのRubin NVL72初期結果をGB300 NVL72比でTCO当たり6.5倍と報告した。報道ベースで未確認。",
+      "url": "https://x.com/jukan05/status/2120798532177125572",
+      "source": "ML_Bear Times",
+      "unconfirmed": true
+    },
+    {
+      "headline": "TPU 8i MaxはHBM 384GB、8-hi構成に変更か——SemiAnalysis",
+      "summary": "SemiAnalysisによると、通称WhalefishのGoogle TPU 8i Maxはチップ当たり384GBのHBMを搭載し、積層は元のTPU 8iの12-hiから8-hi構成に変更された。報道ベースで未確認。",
+      "url": "https://x.com/SemiAnalysis_/status/2120578135594791297",
+      "source": "ML_Bear Times",
+      "unconfirmed": true
+    },
+    {
+      "headline": "米商務省、中国AIの海外DC経由GPU利用を防ぐ規則を最終調整か",
+      "summary": "米商務省が、中国AI企業による海外データセンター経由の先端AIチップ利用を防ぐ規則の最終調整に入ったと報じられた。Warren・Coons両上院議員はNVIDIAチップ対中輸出の全記録保全を要求し、中国AI株は急落した。報道ベースで未確認。",
+      "url": "https://x.com/jukan05/status/2120715380687786442",
+      "source": "ML_Bear Times",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Fireworks侵害の原因は委託先ネオクラウドの脆弱性か",
+      "summary": "The Informationによると、Fireworksのデータ侵害は同社がサーバーを借りる小規模クラウド事業者（ネオクラウド）のセキュリティの弱さが原因だった。BasetenやModal、Falなど競合も同様の事業者に依存しており、顧客の一部は自社DCやハイパースケーラーへの移行を検討している。報道ベース。",
+      "url": "https://x.com/theinformation/status/2120917075904352661",
+      "source": "ML_Bear Times",
+      "unconfirmed": true
+    },
+    {
+      "headline": "OpenAIサイバー配信で未公開モデル披露、GPT-6.2は出ず",
+      "summary": "OpenAIが「Cyber at frontier」と題したライブ配信を行い、Anthropic Mythos 5.2のほぼ2倍の能力とされる未公開の内部モデルのベンチマークを示した。一方、期待されたGPT-6.2 Astraの発表はなかった。",
+      "url": "https://x.com/kimmonismus/status/2120945075291140365",
+      "source": "ML_Bear Times",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Zeromatterがステルス解除、物理AI向けシミュレーション基盤",
+      "summary": "物理AIの学習・テスト用シミュレーション基盤を開発するZeromatterが4年ぶりにステルスを解除した。独自物理エンジンでカメラ・LiDAR・レーダー・赤外線やレンズの雨粒まで再現し、車・ドローン・航空機・ロボットに共通で使える。調達額$160M・評価額$1.1Bとされる。",
+      "url": "https://x.com/ZeromatterTech/status/2120904178042323276",
+      "source": "ML_Bear Times",
+      "unconfirmed": true
+    }
+  ]
+}
