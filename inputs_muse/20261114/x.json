@@ -6,7 +6,7 @@
     "to": "2026-11-14T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 1,
+  "itemCount": 2,
   "items": [
     {
       "breaking": false,
@@ -18,6 +18,17 @@
       "unconfirmed": false,
       "url": "https://prtimes.jp/main/html/rd/p/000000082.000058841.html",
       "x_url": "https://x.com/PRTIMES_STUP/status/2121032239928783222"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-13T11:17:04+09:00",
+      "headline": "Edge0、145Bオープンモデル「Edge0-145B／120B」を公開—消費者向けGPU1枚で動作、Terminal-Bench 2.1で86.5",
+      "source": "Edge0公式ブログ",
+      "summary": "Edge0が145Bと120Bのオープンウェイト・スパースMoEモデルを推論フレームワークとともに公開した。Qwen3.8-Flash-Next派生でトークンあたりの活性は約10B、ピークメモリ29GBでノートPC級ハードでも80tok/s超のデコードをうたう。自社測定ではTerminal-Bench 2.1で86.52（Claude Opus 4.6の78.2を上回る）、DeepSWE 1.1で64.6、GPQA-Diamondで90.4。重みはHugging Faceで公開され、ライセンスは独自コミュニティライセンス（出力の商用利用可、モデル販売・商用サービス提供は別途許可）。数値はEdge0自社測定。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+      "x_url": "https://x.com/nawariokra/status/2121039475681972241"
     }
   ]
 }
