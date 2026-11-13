@@ -121,6 +121,27 @@
         "url": "https://x.com/thinkymachines/status/2120982625582195011",
         "source": "ML_Bear Times",
         "unconfirmed": false
+      },
+      {
+        "headline": "NVIDIA、複数視点の写真から3D形状を復元するモデル「Déjà View」を公開",
+        "summary": "NVIDIAが11月11日、複数視点の写真から3D形状とカメラ位置を復元するモデル「Déjà View」を発表した。単一のTransformerブロックをループさせて繰り返し精緻化する設計で、117Mパラメータながら5つのベンチマークで10倍大きなモデルと同等以上の性能を示した。NeurIPS 2026のオーラル論文で、コードとモデルを公開している。",
+        "url": "https://research.nvidia.com/labs/dvl/projects/dvlt/",
+        "source": "NVIDIA",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Zyphra、音声クローンTTS「ZONOS3-Mini」をオープン公開—ブラウザでもリアルタイム動作",
+        "summary": "Zyphraが11月9日、ゼロショット音声クローン対応のTTSモデル「ZONOS3-Mini」をApache 2.0で公開した。800MパラメータのスパースMoEで、推論時の活性化は約100M。新コーデックZAC-1（15Hz）を採用し、WebGPUブラウザ（Pixel 9で初回音声570ms未満、M3 MacBook Airで150ms未満）のほかMLX、ggml、SGLangなど複数ランタイムでリアルタイム動作する。自社評価ZTTS2-Evalではオープンモデル首位としている（ベンダー公表値）。重みはHugging Faceで公開。",
+        "url": "https://www.zyphra.com/our-work/zonos3-mini",
+        "source": "Zyphra",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Microsoft、音声認識モデル「MAI-Transcribe-2」が正式提供開始—Foundryで本番利用可能、音声1時間0.10ドル",
+        "summary": "Microsoftが11月12日、自社開発の音声認識モデル「MAI-Transcribe-2」がMicrosoft Foundryで正式提供（GA）となり、本番利用が可能になったと発表した。価格は音声1時間あたり0.10ドル。60言語に対応し、話者分離、単語単位のタイムスタンプ、自動言語識別、キーワードバイアス、コードスイッチングなどを備える（Microsoft Learnで確認）。同モデルは9月3日にパブリックプレビューとして発表されていた。オーナーのいいねが端緒。",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-transcribe",
+        "source": "Microsoft",
+        "unconfirmed": false
       }
     ],
     "論文・ベンチマーク": [
@@ -287,13 +308,6 @@
         "unconfirmed": false
       },
       {
-        "headline": "NVIDIA、複数視点の写真から3D形状を復元するモデル「Déjà View」を公開",
-        "summary": "NVIDIAが11月11日、複数視点の写真から3D形状とカメラ位置を復元するモデル「Déjà View」を発表した。単一のTransformerブロックをループさせて繰り返し精緻化する設計で、117Mパラメータながら5つのベンチマークで10倍大きなモデルと同等以上の性能を示した。NeurIPS 2026のオーラル論文で、コードとモデルを公開している。",
-        "url": "https://research.nvidia.com/labs/dvl/projects/dvlt/",
-        "source": "NVIDIA",
-        "unconfirmed": false
-      },
-      {
         "headline": "Adobe、AIアシスタント搭載の「Premiere」27.0を公開——生成音楽や音声分離も",
         "summary": "アドビが11月10日のAdobe MAX 2026で映像編集ソフト「Premiere」27.0を公開した。自然言語で編集作業を支援するAIアシスタント（ベータ）、音楽・効果音・環境音の生成、重なった2人の話し声を分離する「クロストークを分離」などを追加。Photoshopなど4アプリへの外部AIエージェント接続（MCP、2027年初にプライベートベータ）も発表した。",
         "url": "https://jp.pronews.com/news/202611121216799212.html",
@@ -336,13 +350,6 @@
         "unconfirmed": false
       },
       {
-        "headline": "Zyphra、音声クローンTTS「ZONOS3-Mini」をオープン公開—ブラウザでもリアルタイム動作",
-        "summary": "Zyphraが11月9日、ゼロショット音声クローン対応のTTSモデル「ZONOS3-Mini」をApache 2.0で公開した。800MパラメータのスパースMoEで、推論時の活性化は約100M。新コーデックZAC-1（15Hz）を採用し、WebGPUブラウザ（Pixel 9で初回音声570ms未満、M3 MacBook Airで150ms未満）のほかMLX、ggml、SGLangなど複数ランタイムでリアルタイム動作する。自社評価ZTTS2-Evalではオープンモデル首位としている（ベンダー公表値）。重みはHugging Faceで公開。",
-        "url": "https://www.zyphra.com/our-work/zonos3-mini",
-        "source": "Zyphra",
-        "unconfirmed": false
-      },
-      {
         "headline": "SamsungとGoogle、Gemini搭載スマートグラス「Intelligent Eyewear」30機種の予約を開始—12月10日発売、395ドルから",
         "summary": "SamsungとGoogleが11月12日、Geminiを内蔵したスマートグラス「Intelligent Eyewear」の全ラインアップを発表し、予約受付を開始した。Warby Parker（14種・395ドルから）とGentle Monster（16種・449〜489ドル）の計30モデルで、米国と韓国で12月10日に発売。12MPカメラとマイクを備え、見ているものについてGeminiに質問したり、リアルタイム翻訳や経路案内が使える。Android XRプラットフォーム採用の初のグラスとなる。",
         "url": "https://news.samsung.com/global/samsung-announces-december-release-for-intelligent-eyewear-bringing-a-smarter-way-to-see-the-world",
@@ -354,13 +361,6 @@
         "summary": "SemiAnalysisによると、推論ソフトTileRTのMegaKernelsとTP24構成で、GB300 NVL72上でDeepSeek v4.1 Flashを1ユーザー当たり1725 tok/sで実行できた。デコードでは汎用推論エンジンの2倍の速度とされ、マルチ並列時の結果も今後公開予定。",
         "url": "https://x.com/SemiAnalysis_/status/2120932283544748251",
         "source": "ML_Bear Times",
-        "unconfirmed": false
-      },
-      {
-        "headline": "Microsoft、音声認識モデル「MAI-Transcribe-2」が正式提供開始—Foundryで本番利用可能、音声1時間0.10ドル",
-        "summary": "Microsoftが11月12日、自社開発の音声認識モデル「MAI-Transcribe-2」がMicrosoft Foundryで正式提供（GA）となり、本番利用が可能になったと発表した。価格は音声1時間あたり0.10ドル。60言語に対応し、話者分離、単語単位のタイムスタンプ、自動言語識別、キーワードバイアス、コードスイッチングなどを備える（Microsoft Learnで確認）。同モデルは9月3日にパブリックプレビューとして発表されていた。オーナーのいいねが端緒。",
-        "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-transcribe",
-        "source": "Microsoft",
         "unconfirmed": false
       }
     ]

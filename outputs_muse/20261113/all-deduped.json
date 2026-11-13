@@ -110,7 +110,7 @@
       "otherUrls": [],
       "source": "NVIDIA",
       "topic": "3D生成・制作（クリエイティブ）",
-      "section": "生成AI・その他",
+      "section": "モデル",
       "collectedFrom": [
         "x-likes"
       ],
@@ -594,7 +594,7 @@
       "otherUrls": [],
       "source": "Zyphra",
       "topic": "音声AI（合成・認識・翻訳）",
-      "section": "生成AI・その他",
+      "section": "モデル",
       "collectedFrom": [
         "x"
       ],
@@ -898,7 +898,7 @@
       "otherUrls": [],
       "source": "Microsoft",
       "topic": "音声AI（合成・認識・翻訳）",
-      "section": "生成AI・その他",
+      "section": "モデル",
       "collectedFrom": [
         "x-likes"
       ],
