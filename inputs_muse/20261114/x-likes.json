@@ -1,0 +1,43 @@
+{
+  "date": "2026/11/14",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-13T08:00:00+09:00",
+    "to": "2026-11-14T08:00:00+09:00"
+  },
+  "source": "x-likes",
+  "itemCount": 3,
+  "items": [
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T08:05:21+09:00",
+      "headline": "SierraとMeta、パーソナルエージェント向け標準「Personal Agent Protocol（Poppy）」v1.0を公開——Shopify全加盟店とMetaのMuseで有効化",
+      "source": "Sierra",
+      "summary": "Sierraが11月13日、個人向けAIエージェントが企業の業務エージェント・Webサイト・APIとやり取りするための標準「Personal Agent Protocol（Poppy）」のv1.0を公開した。Shopifyの全加盟店で自動的に有効化され、MetaのパーソナルエージェントMuseは訪問先でPoppyを最初に確認するようになった。デザインパートナーは新規60社を加えて100社を超え、Mercury、Synchrony、Turkish Airlinesなどが稼働を開始している。MCP・OpenAPI・UCPなどの既存標準の上に構築され、認証はOAuthで顧客がエージェントの権限を管理できる。Sierra公式ブログで確認した。オーナーのいいねが端緒。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://sierra.ai/blog/releasing-poppy",
+      "x_url": "https://x.com/SierraPlatform/status/2121296788766519431"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T08:05:21+09:00",
+      "headline": "Cognition、Devinのクラウド上で動く非公開Webアプリ「Devin Apps」を発表",
+      "source": "Cognition",
+      "summary": "Cognitionが11月13日、自律型コーディングエージェントDevinの新機能「Devin Apps」を発表した。Devinのクラウドコンピュータ上で直接動く、非公開で共有可能なWebアプリケーションで、社内ツールやプレビューデプロイ、Devin自体の拡張を想定する。アプリはDevinのマシン上でホストされ、既存のMCP連携やコードベースへのアクセスを引き継ぎ、安定したURLで共有できる。利用していない間はマシンが休止し、稼働時間に応じて課金される。Cognition公式発表と複数報道で確認した。オーナーのいいねが端緒。",
+      "topic": "Claude／Codex",
+      "unconfirmed": false,
+      "url": "https://x.com/cognition/status/2121255137914077300"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T08:05:21+09:00",
+      "headline": "Google Antigravity、新機能「Dynamic Workflows」を展開——/run-workflowで並列・逐次サブエージェントを統率",
+      "source": "Google Antigravity",
+      "summary": "Googleが11月13日、コーディングエージェント基盤Antigravityの新機能「Dynamic Workflows」の展開を開始した。新しいスラッシュコマンド /run-workflow を使うと、エージェントがPythonスクリプトを書いて並列・逐次のサブエージェントを構造化された引き継ぎで統率し、プロンプトのぶれではなく決定的な制御フローで作業を進められる。スクリプトは実行前にレビューでき、保存して同じフローを再実行することもできる。Google AI ProとUltraで、AntigravityアプリとCLIが対象。Google公式発表と報道で確認した。オーナーのいいねが端緒。",
+      "topic": "Claude／Codex",
+      "unconfirmed": false,
+      "url": "https://x.com/antigravity/status/2121327669534933025"
+    }
+  ]
+}
