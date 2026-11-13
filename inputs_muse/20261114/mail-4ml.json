@@ -1,0 +1,129 @@
+{
+  "date": "2026/11/14",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-13T08:00:00+09:00",
+    "to": "2026-11-14T08:00:00+09:00"
+  },
+  "source": "mail-4ml",
+  "itemCount": 13,
+  "items": [
+    {
+      "headline": "中国主要4ラボのBlackwell学習痕跡、初期重みとシード照合で判明",
+      "summary": "will depue氏が、DeepSeek・Moonshot・MiniMax・Ant Groupの最新モデルについて、チップとシードから初期重みを再生成して公開モデルと照合する手法で、輸出が禁止されているNVIDIA Blackwellで学習されたとするフォレンジック証拠を公開した。DeepSeek-V4-Flashでも検証している。検証主張であり未確認。",
+      "url": "https://x.com/willdepue/status/2120992457630326841",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-13T19:35:00+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "NVIDIA、Huang氏退任でAI投資減速の見通し【続報】",
+      "summary": "The Informationによると、暫定CEOのKress氏は過去にHuang氏主導の案件に反対したこともあり、同じ投資ペースは見込まれていない。スタートアップへの数十億ドル規模の出資や信用保証に影響が及ぶ可能性が指摘される。Bloombergは密輸チップが上海のデータセンターで使われた件や、トランプ大統領がTim Cook氏を後任に推したことも報じた。報道ベースで未確認。",
+      "url": "https://x.com/theinformation/status/2120997755514466811",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-13T19:35:00+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "関西Kaggler会でポケカコンペ運営と強化学習解法を共有",
+      "summary": "関西Kaggler会で、ポケカコンペの運営者と上位入賞者が登壇した。参加約6800人の約半数がKaggle初参加で、上位解法は公開エピソードでBehavioral Cloningした後に強化学習している。盤面と合法手を埋め込んだ12MのTransformerで、合法手をQueryにcross-attentionする構成が紹介された。",
+      "url": "https://x.com/mipypf/status/2121141514692923832",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-13T19:35:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Kaggricultureの強化学習、批評家の予熱で自己対戦の壁を突破",
+      "summary": "Kaggricultureコンペを題材に、強化学習の難しさと環境変化への対応策が発表された。ゼロからの自己対戦は効かず、批評家を先に育てる予熱や自作の非同期学習基盤・エンジンで学習を回した。上位陣が互いの棋譜から学びメタが速く回るため、LB上の分布を学習に反映させることが鍵とされた。",
+      "url": "https://x.com/mipypf/status/2121152558379184154",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-13T19:35:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "RSNAコンペ解法、装置ごとのラベル基準ずれを補正",
+      "summary": "RSNAコンペの解法発表で、医療画像タスクではラベルの正しさが重要だと強調された。装置ごとにレポートの判断基準がずれていたため予測から補正し、YOLOでROIを切り出した。LLMでのラベル付与ではskillsで専門家を模倣し、このコンペではClaude系よりGPT系が強かったとされる。",
+      "url": "https://x.com/mipypf/status/2121146448901517787",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-13T19:35:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Kaggleコミュニティコンペ、クローン・Rescore・賞金設定に対応",
+      "summary": "50件以上のコンペをホストしてきた経験から、Kaggleコミュニティコンペ機能のアップデートが紹介された。コンペのクローンと再利用、ホストによるRescore/Invalidate、賞金の設定ができるようになったとされる。LLM as a Judgeで定型文によりスコアを稼ぐ参加者が続出した事例など、評価指標ハック対策の重要性も共有された。",
+      "url": "https://x.com/mipypf/status/2121120661934604395",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-13T19:35:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "OpenAI、Daybreak Defense FactoryとRed Teamを発表",
+      "summary": "OpenAIが、自動パッチ適用ツールDaybreak Defense Factoryと自動レッドチーミングツールDaybreak Red Teamを発表した。内部サイバーモデルはExploitGymで77.0%を記録し、Anthropic Mythos 5.2の39.2%のほぼ2倍とされる。脆弱性の修正と攻撃検証の自動化に向けた製品で、配信の録画も公開されている。今朝の未公開モデル報道の続報。",
+      "url": "https://x.com/gdb/status/2121004237413142656",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-13T19:35:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "OpenAI、社内のpersistent agents運用法を解説",
+      "summary": "OpenAIのチームが、社内で常駐型のpersistent agentsをどう運用しているかを解説する記事を公開した。OpenclawやDotsのようなAgentはSaaSより請負人に近く、人の介入なしにバックグラウンドで動くため企業ITの課題になるとしている。SemiAnalysisのDylan Patel氏は自社AI支出の45%がpersistent agentsだと述べた。",
+      "url": "https://x.com/steipete/status/2121058770767982997",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-13T19:35:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "国産Full-duplex音声対話モデルが相次ぎオープンウェイト公開",
+      "summary": "日本語に対応したFull-duplex音声対話モデルが相次いでオープンウェイトで公開された。一つは日英を含む4,000万時間の多言語データで事前学習した4Bモデル、もう一つは音声を同時に入出力する構造のHaru。GENIACで作られた国産モデルとして注目され、日本語特有の間や相槌まで自然に制御できているとの評価が出ている。",
+      "url": "https://x.com/HigurashiAI/status/2121043937762889832",
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "collected_at": "2026-11-13T19:35:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Octen Pulse公開、10msで応答するOSS検索エンジン",
+      "summary": "OctenAIが、オープンソースの低レイテンシ検索エンジンOcten Pulseを公開した。サーバー側の中央値レイテンシは約10msとされ、個人開発者は月$20で無制限に検索でき、画像検索にも対応する。Agentが1タスクで数十回検索する時代には検索速度が重要になるとして注目されている。",
+      "url": "https://x.com/KZouAPT/status/2120924733768380655",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-13T19:35:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "vLLM、Vera Rubin NVL72でGB300比58倍のスループット【続報】",
+      "summary": "vLLMがDeepSeek-V4.1-FlashをVera Rubin NVL72向けに最適化し、SemiAnalysis AgentXで1.7M tokens/s/GPU・387 tokens/s/userにおいてGB300 NVL72の58倍のスループットを達成した。カーブ全体ではピーク時2.52M tokens/s/GPU（GB300の2.7倍）とされる。",
+      "url": "https://x.com/vllm_project/status/2121008091538092393",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-13T19:35:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Fable 5.2、コードの所有者を明記すると自発的にリファクタ",
+      "summary": "Claude Fable 5.2のPrompting Guideにある一節が話題になっている。プロンプトにコードの所有者を明記すると挙動が変わり、自分がオーナーだと伝えると自発的にリファクタしながら作業するとされる。役割の与え方でモデルの振る舞いを引き出す実践的なヒントとして参考になる。",
+      "url": "https://x.com/MLBear2/status/2121059724393361588",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-13T19:35:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Sakana AI、ゼロから事前学習するSakana Sawaraの狙いを解説",
+      "summary": "Sakana AIが開発予定のLLM Sakana Sawara（仮称）について、ITmedia AI+が背景を解説する記事を公開した。10月のシンポジウムで秋葉拓哉氏が発表した計画で、なぜ今ゼロから事前学習に取り組むのかが説明されている。Sakana Namazuなどで取り組んできた事後学習からの流れも語られた。",
+      "url": "https://x.com/SakanaAILabs/status/2121109880098713622",
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "collected_at": "2026-11-13T19:35:00+09:00",
+      "unconfirmed": false
+    }
+  ]
+}
