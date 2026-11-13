@@ -1,0 +1,238 @@
+{
+  "date": "2026/11/14",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-13T08:00:00+09:00",
+    "to": "2026-11-14T08:00:00+09:00"
+  },
+  "source": "claude-code",
+  "itemCount": 12,
+  "items": [
+    {
+      "topic": "GitHub Copilot",
+      "headline": "GitHub CopilotでGemini 4 Hydrogenが一般提供開始",
+      "summary": "GoogleのFlash系最新モデル「Gemini 4 Hydrogen」がGitHub Copilotで一般提供(段階ロールアウト)。Gemini 3.8 Flashより指示追従が向上し、エージェント型コーディングやツール利用、複数ステップのワークフロー向け。対象はPro/Pro+/Max/Business/Enterpriseで、VS Code・Visual Studio・Copilot CLI・coding agent・github.com・GitHub Mobile・JetBrains・Xcode・Eclipse・Copilot SDK等で利用可。課金はプロバイダー定価の従量制で、Business/Enterpriseでは既定で有効(モデルポリシーで管理可)。",
+      "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-14T03:23:48+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "model",
+        "availability"
+      ],
+      "collected_at": "2026-11-14T08:27:03+09:00"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "headline": "GitHub Copilotで6モデルを2026年12月14日に廃止予定",
+      "summary": "GitHub Copilotは2026-12-14にClaude Fable 5(→Fable 5.2)、Claude Haiku 4.5(→Haiku 5.5)、Gemini 3.8 Flash(→Gemini 4 Hydrogen)、Gemini 4 Argon(→Gemini 4 Carbon)、Grok 4.6(→Grok 4.7)、Kimi K3(代替は追って告知)の6モデルを廃止予定。BusinessおよびEnterpriseでは代替が既定で有効化される。なおClaude Haiku 4.5は年間プランの個人サブスクライバー向けには引き続き提供。",
+      "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-14T05:40:05+09:00",
+      "unconfirmed": false,
+      "status": "deprecated",
+      "tags": [
+        "model",
+        "deprecation"
+      ],
+      "collected_at": "2026-11-14T08:27:03+09:00"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "headline": "GitHub CopilotアプリがGitHub Enterprise Server連携を一般提供",
+      "summary": "GitHub Copilotアプリ(v1.2.0以降)でGitHub Enterprise Server(GHES)アカウントを追加し、リモートのリポジトリ・Issue・PRを扱えるようになり、オプトインプレビューから一般提供へ移行。初回はGitHub.comまたはGHE.comでサインイン後、設定>アカウント>アカウント追加からGHESを追加。GHESではクラウドセッションは非対応。",
+      "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-14T03:27:13+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "feature",
+        "enterprise"
+      ],
+      "collected_at": "2026-11-14T08:27:03+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Sales agentでリード/商談の推奨アクションを提示(開発中)",
+      "summary": "Sales agentで、営業担当者が優先順位付け済みのリード・商談の推奨アクションを確認して実行できる機能。M365ロードマップに2026-11-13付で追加され、ステータスは「In development(開発中)」。提供時期・対象プランの詳細は未記載。ロードマップ個別ページはJSレンダリングのため本文を直接確認できず、ロードマップRSSを一次ソースとした。",
+      "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579977",
+      "source": "Microsoft 365 Roadmap",
+      "published_at": "2026-11-13T08:00:00+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "roadmap",
+        "borderline"
+      ],
+      "related_urls": [
+        "https://www.microsoft.com/releasecommunications/api/v2/m365/rss"
+      ],
+      "collected_at": "2026-11-14T08:27:03+09:00"
+    },
+    {
+      "topic": "Claude Code",
+      "headline": "Claude Code v2.1.325公開：zstdセキュリティ修正、Bashサンドボックス権限フロー変更、MCP/サブエージェント改善",
+      "summary": "Claude Code v2.1.325がリリースされ、zstd圧縮レスポンスのデコードに関するセキュリティ問題を修正。サンドボックス実行のBashコマンドを既定で通常の権限フローに従わせ(sandbox.autoAllowBashIfSandboxedで従来動作)、未信頼リポジトリでの読み取り専用gitコマンドも確認を求めるよう変更。MCP認証・タスクやサブエージェントのモデル処理、ゲートウェイでのコンテキスト長エラーなど多数の修正を含む。",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
+      "source": "Anthropic (GitHub Releases)",
+      "published_at": "2026-11-14T05:39:41+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "security",
+        "sandbox",
+        "permissions",
+        "mcp",
+        "subagents",
+        "borderline"
+      ],
+      "related_urls": [
+        "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md",
+        "https://github.com/anthropics/claude-code/releases.atom"
+      ],
+      "collected_at": "2026-11-14T08:27:03+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "OpenAI、AIエージェントが決済できる「ChatGPT Wallet」を発表",
+      "summary": "ChatGPT Work・Codex・dots内のエージェントがユーザー承認のもとで購入を完了できる決済機能を発表。American Express・Mastercard・Visaと提携し、カード情報を共有しない決済トークン方式を採用。初期は米国のChatGPT Pro加入者(18歳以上・米国発行カード/米国請求先住所)向けにdotsで段階提供。",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "source": "OpenAI",
+      "published_at": "2026-11-14T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "borderline",
+        "payments",
+        "agents"
+      ],
+      "related_urls": [
+        "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
+        "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+      ],
+      "collected_at": "2026-11-14T08:27:03+09:00"
+    },
+    {
+      "topic": "Codex",
+      "headline": "Codex CLI 0.169.0 リリース",
+      "summary": "ターミナルのサイドチャット複数タブ対応、コマンドセンターからのタスク履歴検索、全画面トランスクリプトでのターン詳細折りたたみ、ターミナルからのカスタムモデルプロバイダ管理、Ctrl+Sでの診断ZIP保存、macOS/Linuxでのクラウド接続強化(画像共有・モデル選択)などを追加。SQLiteを3.54に更新。",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0",
+      "source": "openai/codex (GitHub Releases)",
+      "published_at": "2026-11-13T17:37:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "related_urls": [
+        "https://learn.chatgpt.com/docs/changelog",
+        "https://github.com/openai/codex/releases.atom"
+      ],
+      "collected_at": "2026-11-14T08:27:03+09:00"
+    },
+    {
+      "topic": "建設×AI",
+      "headline": "建設業クラウドCONOC、建設業向けAI研修の相談が100社超え、12月にAI合同研修を開講",
+      "summary": "CONOCは2026年8月以降「建設業のためのAI研修」への相談が100社を超えたと発表し、線だけの図面から約3分で完成予想パースを作るAI活用の実演を公開。12月に内装・住宅リフォーム・設備・土木の4分野向け「AI合同研修」を開講する。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000083.000012493.html",
+      "source": "株式会社CONOC（PR TIMES）",
+      "published_at": "2026-11-13T17:00:00+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "AI研修",
+        "生成AI",
+        "建設DX",
+        "パース生成"
+      ],
+      "collected_at": "2026-11-14T08:27:03+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "World Labs、ワールドモデル「Atlas」を全ユーザーに公開、画像から3Dガウシアンスプラットを生成",
+      "summary": "Fei-Fei Li率いるWorld Labsが空間知能ワールドモデル「Atlas」を全ユーザーに一般公開。単一画像や最大64枚の入力から3D世界を生成し、画像・動画・3D Gaussian splatとして出力できるWebアプリ(Viewfinder、Chisel、Splats to Mesh)と開発者向けAPIを提供する。",
+      "url": "https://www.vp-land.com/stories/world-labs-atlas-world-model-opens-to-everyone-turning-photos-into-video-and-3d-gaussian-s",
+      "source": "World Labs（公式X告知）",
+      "published_at": "2026-11-13T09:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "World Labs",
+        "Atlas",
+        "world-model",
+        "Gaussian Splatting",
+        "3D生成",
+        "borderline"
+      ],
+      "related_urls": [
+        "https://x.com/theworldlabs/status/2120942033401717108",
+        "https://x.com/drfeifei/status/2120942509786558671",
+        "https://radiancefields.com/"
+      ],
+      "collected_at": "2026-11-14T08:27:03+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "SCSK、商社の営業・見積・需給調整を支援する「専門商社向けAIエージェント」を提供開始",
+      "summary": "SCSKは2026年11月13日、専門商社・卸売業の営業活動、見積作成、需給・納期調整、顧客・仕入先対応を支援する「専門商社向けAIエージェント」の提供を開始した。熟練者の対応履歴・判断理由を蓄積するデータ/ナレッジ基盤と組み合わせ、CRM/SFAやERPとの連携や業務プロセス見直しまで一貫して伴走支援する。",
+      "url": "https://www.scsk.jp/news/2026/press/product/20261113.html",
+      "source": "SCSK",
+      "published_at": "2026-11-13T11:10:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "営業×AI",
+        "AIエージェント",
+        "商社",
+        "バックオフィス"
+      ],
+      "related_urls": [
+        "https://prtimes.jp/main/html/rd/p/000000091.000152961.html"
+      ],
+      "collected_at": "2026-11-14T08:27:03+09:00"
+    },
+    {
+      "topic": "その他",
+      "headline": "DeepSeek、アプリ向けAPIスイートを全面公開 Web検索・ファイル入力・音声に対応",
+      "summary": "DeepSeekが従来アプリ限定だった機能をAPIで開放し、Web検索(deepseek_web_searchツール)、PDF/Office/画像のファイル入力、URL読み取り、モデルセーフティ、ASR/TTS音声機能をdeepseek-flash(DeepSeek-V4.1-Flash-1017)で提供。エージェント開発向け「DeepSeek Harness」もdeveloper previewで公開。",
+      "url": "https://api-docs.deepseek.com/updates/",
+      "source": "DeepSeek",
+      "published_at": "2026-11-13T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "borderline",
+        "date-only",
+        "api",
+        "web-search",
+        "voice",
+        "developer-preview"
+      ],
+      "related_urls": [
+        "https://api-docs.deepseek.com/"
+      ],
+      "collected_at": "2026-11-14T08:27:03+09:00"
+    },
+    {
+      "topic": "その他",
+      "headline": "Cohere、AISLE買収完了とcubic買収でソブリンAIにサイバー防御を追加",
+      "summary": "Cohereが脆弱性発見企業AISLEの買収を完了(Cohere Cyberとして運営)し、AIコードレビューの英cubicを買収。サイバー防御とセキュアなソフトウェア開発機能をソブリンAIプラットフォームに統合し、2026年の戦略的買収は計4件に。",
+      "url": "https://cohere.com/blog",
+      "source": "Cohere",
+      "published_at": "2026-11-13T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "borderline",
+        "date-only",
+        "acquisition",
+        "security",
+        "sovereign-ai"
+      ],
+      "related_urls": [
+        "https://cohere.com/blog/cohere-and-aisle-sign-letter-of-intent-to-advance-cyber-resilient-sovereign-ai"
+      ],
+      "collected_at": "2026-11-14T08:27:03+09:00"
+    }
+  ]
+}
