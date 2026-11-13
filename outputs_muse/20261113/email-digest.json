@@ -123,13 +123,6 @@
         "unconfirmed": false
       },
       {
-        "headline": "NVIDIA、複数視点の写真から3D形状を復元するモデル「Déjà View」を公開",
-        "summary": "NVIDIAが11月11日、複数視点の写真から3D形状とカメラ位置を復元するモデル「Déjà View」を発表した。単一のTransformerブロックをループさせて繰り返し精緻化する設計で、117Mパラメータながら5つのベンチマークで10倍大きなモデルと同等以上の性能を示した。NeurIPS 2026のオーラル論文で、コードとモデルを公開している。",
-        "url": "https://research.nvidia.com/labs/dvl/projects/dvlt/",
-        "source": "NVIDIA",
-        "unconfirmed": false
-      },
-      {
         "headline": "Zyphra、音声クローンTTS「ZONOS3-Mini」をオープン公開—ブラウザでもリアルタイム動作",
         "summary": "Zyphraが11月9日、ゼロショット音声クローン対応のTTSモデル「ZONOS3-Mini」をApache 2.0で公開した。800MパラメータのスパースMoEで、推論時の活性化は約100M。新コーデックZAC-1（15Hz）を採用し、WebGPUブラウザ（Pixel 9で初回音声570ms未満、M3 MacBook Airで150ms未満）のほかMLX、ggml、SGLangなど複数ランタイムでリアルタイム動作する。自社評価ZTTS2-Evalではオープンモデル首位としている（ベンダー公表値）。重みはHugging Faceで公開。",
         "url": "https://www.zyphra.com/our-work/zonos3-mini",
@@ -187,6 +180,13 @@
         "summary": "クロスベンダー対応の3Dガウシアンスプラッティング学習ツール Spirula Studio が v2026.11.12 をリリース。学習中のローリングシャッター等のカメラ校正残差補正、GLOMAP型グローバルマッパーとFlexGlue特徴マッチャーのSfM追加、3段階（弱/中/強）のフローター抑制、Apple Silicon高速化などを含む。",
         "url": "https://github.com/harry7557558/spirula-studio/releases/tag/v2026.11.12",
         "source": "GitHub (harry7557558/spirula-studio)",
+        "unconfirmed": false
+      },
+      {
+        "headline": "NVIDIA、複数視点の写真から3D形状を復元するモデル「Déjà View」を公開",
+        "summary": "NVIDIAが11月11日、複数視点の写真から3D形状とカメラ位置を復元するモデル「Déjà View」を発表した。単一のTransformerブロックをループさせて繰り返し精緻化する設計で、117Mパラメータながら5つのベンチマークで10倍大きなモデルと同等以上の性能を示した。NeurIPS 2026のオーラル論文で、コードとモデルを公開している。",
+        "url": "https://research.nvidia.com/labs/dvl/projects/dvlt/",
+        "source": "NVIDIA",
         "unconfirmed": false
       }
     ],
