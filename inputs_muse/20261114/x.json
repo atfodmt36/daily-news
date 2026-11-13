@@ -1,0 +1,23 @@
+{
+  "date": "2026/11/14",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-13T08:00:00+09:00",
+    "to": "2026-11-14T08:00:00+09:00"
+  },
+  "source": "x",
+  "itemCount": 1,
+  "items": [
+    {
+      "breaking": false,
+      "collected_at": "2026-11-13T10:02:29+09:00",
+      "headline": "NITACO、建設会社向け「CAD図面AI」の受託開発を開始—文で頼むだけでAIが作図しDXF保存",
+      "source": "PR TIMES（NITACO）",
+      "summary": "株式会社NITACOが11月13日、建設会社向けの図面作成AI「CAD図面AI」の受託開発開始を発表した。「8階の平面図を書いて。3LDKを8戸」と文で頼むだけで、AIが通り芯から寸法まで作図してDXFで保存し、平面図から立面図や3Dモデルも生成する。AIがJw_cadを操作して作図する動画は公開から約3週間で21万回再生された。会社ごとの書き方に合わせる受託型で、保存形式はDXF（2D・3D）とOBJに対応する。",
+      "topic": "建設×AI",
+      "unconfirmed": false,
+      "url": "https://prtimes.jp/main/html/rd/p/000000082.000058841.html",
+      "x_url": "https://x.com/PRTIMES_STUP/status/2121032239928783222"
+    }
+  ]
+}
