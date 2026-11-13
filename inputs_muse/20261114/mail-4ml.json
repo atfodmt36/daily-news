@@ -6,7 +6,7 @@
     "to": "2026-11-14T08:00:00+09:00"
   },
   "source": "mail-4ml",
-  "itemCount": 13,
+  "itemCount": 23,
   "items": [
     {
       "headline": "中国主要4ラボのBlackwell学習痕跡、初期重みとシード照合で判明",
@@ -123,6 +123,96 @@
       "source": "ML_Bear Times",
       "topic": "モデル",
       "collected_at": "2026-11-13T19:35:00+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Huang氏復帰の署名運動にMusk氏賛同、後任にArm Haas氏打診【続報】",
+      "summary": "NVIDIAのJensen Huang CEO辞任の続報。Elon Musk氏がHuang氏の復帰を求める署名運動への賛同を表明し、社内の復帰要望投稿にも1,600件超のコメントが集まった。FTによるとNVIDIAは後任としてArmのRene Haas CEOに打診したが、取締役会は候補者との正式な接触を否定している。商務省は海外DC経由で中国企業が制限チップを使う抜け穴を塞ぐ準備を進めているとされる。報道ベースで未確認。",
+      "url": "https://x.com/elonmusk/status/2121345211959804234",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-14T07:34:55+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Anthropic IPO、中国・香港投資家を除外し評価額$1.25T超狙う【続報】",
+      "summary": "AnthropicのIPO計画の続報。Bloombergによると中国本土と香港の機関投資家がIPOの注文から除外された。来週のIPOでは評価額$1.25〜1.4Tを狙い、更新した申請書では自社モデルにより能力向上ペースが倍になると見込んでいる。Dario Amodei氏は計算資源の確保を最大の課題に挙げた。報道ベースで未確認。",
+      "url": "https://x.com/business/status/2121288241257087330",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-14T07:34:55+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "関西Kaggler会スポンサー枠、Sarashinaや自動運転を紹介【続報】",
+      "summary": "関西Kaggler会のスポンサー企業登壇の続報。SB Intuitionsが国産LLM Sarashinaと10月に始まったSarashinaサービスを紹介し、Turingは1つのNNで完結するEnd-to-End自動運転と走行データ収集について説明した。ElithのAIセーフティ向けガードレールモデルや、NTT西日本の生成AIと機械学習の使い分け事例も共有された。",
+      "url": "https://x.com/mipypf/status/2121165892327448845",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-14T07:34:55+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Inkling 2 Small、全工程NVFP4学習の手法を公開【続報】",
+      "summary": "Thinking Machinesが小型モデルInkling 2 Smallの学習手法をブログで解説した。事前学習の開始からRLの最終ロールアウトまでネイティブ4bitのforwardで学習し、GB300上のNVFP4学習を含むスタック全体の改善で事前学習を数週間から68時間に短縮したとMira Murati氏が述べている。量子化誤差が学習を妨げる問題への対処も詳述された。",
+      "url": "https://x.com/thinkymachines/status/2121353292878110868",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-14T07:34:55+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "LangChainが$3B評価で$300M調達、新LangSmithを発表",
+      "summary": "LangChainが評価額$3Bで$300Mを調達したと発表した。3年間の知見を詰め込んだ新しいLangSmithを公開し、Agentの実行・改善・ガバナンスを担う基盤として7,000社以上が利用しているとしている。来週は製品発表を連続で行い、金曜のウェビナーで締めくくる予定。",
+      "url": "https://x.com/LangChain/status/2121273623658819687",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-14T07:34:55+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Decision model、Agent評価やRLでの活用が広がる",
+      "summary": "GoogleのGemini Decisions API公開を機に、選択肢ごとの確率を出力するDecision modelの活用が広がっている。Langfuseでは検索文脈と回答の不一致や誤ったツール呼び出し入力の検出などAgent実行の評価に使えるようになった。長期タスクAgentのRLでは完了した軌跡の評価に使うべきとの論文も出ており、AA Decision IndexではDrex Max v1.1が首位とされる。",
+      "url": "https://x.com/langfuse/status/2121250295367750092",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-14T07:34:55+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Databricks、AI Agentのカーネル自動改善でMetaコンペ2位",
+      "summary": "DatabricksがMetaのMuse Spark Open Kernel Challengeで30万件超の提出の中から2位に入った。AI Agentが自律的にhill-climbingでカーネルを改善するKernel Factoryを構築し、SGLangのカーネル比で平均2.5倍の高速化を達成している。Agentによる自動最適化がコンペ上位に届いた事例。",
+      "url": "https://x.com/Yuchenj_UW/status/2121307422421827791",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-14T07:34:55+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Claudeの独特な日本語、和語禁止の指示で約6割減",
+      "summary": "Claudeの日本語に出る独特な言い回しを減らすプロンプトの工夫が話題になっている。和語を使わず熟語とカタカナ語で説明するよう指示すると、体感で6割ほど独特の言い回しが減るとされる。一方で、言い回しより過剰に文脈を省略してClaude自身も経緯を忘れるケースの方が実害が大きいとの指摘も出ている。",
+      "url": "https://x.com/odashi_t/status/2121040960767590881",
+      "source": "ML_Bear Times",
+      "topic": "Claude／Codex",
+      "collected_at": "2026-11-14T07:34:55+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "μPで小モデルの学習率を幅の広いモデルに転用する仕組み",
+      "summary": "小さいモデルで調整した学習率を幅の広いモデルに流用できるμPの解説が公開された。標準パラメータ化では幅とともに更新量が大きくなり調整済みの学習率が発散するが、μPは層ごとに学習率を幅でスケールして更新量を一定に保つため学習率を転用でき、大規模モデルのハイパラ探索コストを抑える手法として参考になる。",
+      "url": "https://x.com/RobertTLange/status/2121172489111843153",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-14T07:34:55+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Qwenは発言と行動の回路が分断、OLMoは統合と判明",
+      "summary": "LLMのキャラクター（発言）と行動を担うサブネットワークの結合度をモデル間で比較した分析が紹介された。正直な行動時の活性化を別キャラ設定のモデルに移すとOLMoは正直を重視すると言い出す一方、Qwenはほぼ変化せず、言うこととやることが構造的に切り離されていると解釈されている（原分析はSauers氏）。",
+      "url": "https://x.com/webbigdata/status/2121180521023881295",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-14T07:34:55+09:00",
       "unconfirmed": false
     }
   ]
