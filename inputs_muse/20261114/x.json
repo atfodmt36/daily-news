@@ -1,155 +1,188 @@
 {
- "date": "2026/11/14",
- "timezone": "Asia/Tokyo",
- "window": {
-  "from": "2026-11-13T08:00:00+09:00",
-  "to": "2026-11-14T08:00:00+09:00"
- },
- "source": "x",
- "itemCount": 13,
- "items": [
-  {
-   "breaking": false,
-   "collected_at": "2026-11-13T18:15:51+09:00",
-   "headline": "ピクスタ、ByteDanceと提携開始—動画生成AI「Seedance」とショートアニメ配信「Anipops」を連携",
-   "source": "PR TIMES（ピクスタ）",
-   "summary": "ピクスタが11月13日、ByteDanceとの提携開始を発表した。ByteDanceの動画生成AI「Seedance」を活用したAIアニメの制作と、ピクスタのショートアニメ配信プラットフォーム「Anipops」での配信を両社で推進する。AnipopsではSeedanceを活用したアニメ作品の原作とコラボレーションも広く募集する。",
-   "topic": "映像生成・動画AI",
-   "unconfirmed": false,
-   "url": "https://prtimes.jp/main/html/rd/p/000000380.000008963.html",
-   "x_url": "https://x.com/pixta_corporate/status/2121139281721012285"
+  "date": "2026/11/14",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-13T08:00:00+09:00",
+    "to": "2026-11-14T08:00:00+09:00"
   },
-  {
-   "breaking": false,
-   "collected_at": "2026-11-13T18:15:51+09:00",
-   "headline": "NTT西日本、京都大学とフィジカルAI人材育成で連携強化—実機ハンズオン含む実践型プログラムを開発",
-   "source": "NTT西日本（プレスリリース）",
-   "summary": "NTT西日本が11月13日、フィジカルAIの発展・振興と次世代人材の育成に向け、京都大学成長戦略本部との連携強化を発表した。基礎理論から実機を用いた開発・検証まで体系的に学べる実践型人材育成プログラムの開発を京都大学に委託し、カリキュラムの設計・構築は一般社団法人次世代フィジカルAI育成機構（XPAC）が担う。プログラムは11月18日からのNTT R&D FORUM 2026などで展示される。",
-   "topic": "ビジネス・人材",
-   "unconfirmed": false,
-   "url": "https://toyokeizai.net/ud/pressrelease/6af6851e126217802400000b",
-   "x_url": "https://x.com/nikkei_kyoto/status/2121090777984147955"
-  },
-  {
-   "breaking": false,
-   "collected_at": "2026-11-13T18:15:51+09:00",
-   "headline": "Cohere、日本法人設立を計画—ソブリンAIへの投資を拡大、富士通との日本語LLM「Takane」も推進",
-   "source": "ZDNET Japan",
-   "summary": "カナダのCohereが11月12日、日本法人の設立計画と、日本の規制・言語・産業要件に対応したソブリンAIへの投資拡大を発表した。国内パートナーとの連携で導入を進め、富士通との協業による日本市場向けLLM「Takane」は、デジタル庁の生成AI利用環境GENAIにおいて評価対象の国産LLMの一つに選定されている。",
-   "topic": "モデル",
-   "unconfirmed": false,
-   "url": "https://japan.zdnet.com/article/35254775/",
-   "x_url": "https://x.com/_TK_YM_/status/2121090706731106664"
-  },
-  {
-   "breaking": false,
-   "collected_at": "2026-11-13T18:15:51+09:00",
-   "headline": "矢野経済研究所、コールセンターのAI活用調査を発表—利用中・利用意向あり計65.1%",
-   "source": "矢野経済研究所",
-   "summary": "矢野経済研究所が11月11日、民間企業のコールセンター部門におけるAIサービスの活用に関する調査結果を発表した。自社コールセンターでAIサービスを「利用している」企業は23.0%、「利用していないが利用意向はある」が42.1%で、合計65.1%がAI活用に前向きだった。利用企業の活用業務はオペレーター支援が51.7%、フロント（顧客対応）業務が48.3%だった。",
-   "topic": "ビジネス・人材",
-   "unconfirmed": false,
-   "url": "https://www.yano.co.jp/press-release/show/press_id/4228",
-   "x_url": "https://x.com/yanokeizai/status/2121068031929708955/photo/1"
-  },
-  {
-   "breaking": false,
-   "collected_at": "2026-11-13T18:15:51+09:00",
-   "headline": "リバスタ、「Buildee 電子KY」にAI危険予知の新機能β版—作業内容から危険ポイントと対策候補を提示",
-   "source": "PR TIMES（リバスタ）",
-   "summary": "株式会社リバスタが11月13日、建設現場施工管理サービス「Buildee」のオプション「Buildee 電子KY」で、AIが危険ポイントと対策候補を提示する新機能のβ版開発を発表した。職長が記入した作業内容や現場状況をもとに提示し、判断は人が行う設計。2026年10月から利用企業の複数現場で試行中で、電子KYは提供開始から約半年で導入企業数が約50社に達している。",
-   "topic": "建設×AI",
-   "unconfirmed": false,
-   "url": "https://prtimes.jp/main/html/rd/p/000000135.000025005.html",
-   "x_url": "https://x.com/RVSTA_official/status/2121066820669166038"
-  },
-  {
-   "breaking": false,
-   "collected_at": "2026-11-13T18:15:51+09:00",
-   "headline": "アルティウスリンク、電話応対を完結するAIオペレーター「AI Voice サービス」を提供開始",
-   "source": "アルティウスリンク",
-   "summary": "アルティウスリンクが11月11日、人と自然に会話し電話応対業務を完結するAIオペレーターの導入から育成・運用までを一体化した「AI Voice サービス」の提供を開始した。曖昧な発話や言い直し、会話途中の割り込みにも対応し、導入後もAIを評価・改善して対応範囲を広げる。2026年5月にKDDI・Rechoと発表したAIコンタクトセンターの協業構想を踏まえたサービス化。",
-   "topic": "ビジネス・人材",
-   "unconfirmed": false,
-   "url": "https://www.altius-link.com/news/detail20261111_02.html",
-   "x_url": "https://x.com/bs_studioJP/status/2121047995127087411"
-  },
-  {
-   "breaking": false,
-   "collected_at": "2026-11-13T10:02:29+09:00",
-   "headline": "NITACO、建設会社向け「CAD図面AI」の受託開発を開始—文で頼むだけでAIが作図しDXF保存",
-   "source": "PR TIMES（NITACO）",
-   "summary": "株式会社NITACOが11月13日、建設会社向けの図面作成AI「CAD図面AI」の受託開発開始を発表した。「8階の平面図を書いて。3LDKを8戸」と文で頼むだけで、AIが通り芯から寸法まで作図してDXFで保存し、平面図から立面図や3Dモデルも生成する。AIがJw_cadを操作して作図する動画は公開から約3週間で21万回再生された。会社ごとの書き方に合わせる受託型で、保存形式はDXF（2D・3D）とOBJに対応する。",
-   "topic": "建設×AI",
-   "unconfirmed": false,
-   "url": "https://prtimes.jp/main/html/rd/p/000000082.000058841.html",
-   "x_url": "https://x.com/PRTIMES_STUP/status/2121032239928783222"
-  },
-  {
-   "breaking": false,
-   "collected_at": "2026-11-13T11:17:04+09:00",
-   "headline": "Edge0、145Bオープンモデル「Edge0-145B／120B」を公開—消費者向けGPU1枚で動作、Terminal-Bench 2.1で86.5",
-   "source": "Edge0公式ブログ",
-   "summary": "Edge0が145Bと120Bのオープンウェイト・スパースMoEモデルを推論フレームワークとともに公開した。Qwen3.8-Flash-Next派生でトークンあたりの活性は約10B、ピークメモリ29GBでノートPC級ハードでも80tok/s超のデコードをうたう。自社測定ではTerminal-Bench 2.1で86.52（Claude Opus 4.6の78.2を上回る）、DeepSWE 1.1で64.6、GPQA-Diamondで90.4。重みはHugging Faceで公開され、ライセンスは独自コミュニティライセンス（出力の商用利用可、モデル販売・商用サービス提供は別途許可）。数値はEdge0自社測定。",
-   "topic": "モデル",
-   "unconfirmed": false,
-   "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
-   "x_url": "https://x.com/nawariokra/status/2121039475681972241"
-  },
-  {
-   "breaking": false,
-   "collected_at": "2026-11-13T21:28:15+09:00",
-   "headline": "錢高組、Kencopa工程AIエージェントの製品利用を開始——全国6拠点・25の建築現場へ展開",
-   "source": "株式会社KENCOPA（PR TIMES）",
-   "summary": "建設特化AIのKENCOPAは、錢高組が建設業務特化型AIエージェント「Kencopa工程AIエージェント」の製品利用を開始したと発表した（11月9日）。設計図書や過去工事の情報をもとに、自社歩掛を学習したAIが工程案を自動生成し、工程表作成から実施工程の運用、ナレッジ蓄積までを支援する。東北から九州までの全国6拠点・25の建築現場へ展開し、工程業務の効率化とベテランの技術継承を目指す。",
-   "topic": "建設×AI",
-   "unconfirmed": false,
-   "url": "https://toyokeizai.net/ud/pressrelease/6af130f4126217985300006b",
-   "x_url": "https://x.com/Bitman0404/status/2121206739936686092"
-  },
-  {
-   "breaking": false,
-   "collected_at": "2026-11-13T21:28:15+09:00",
-   "headline": "ウォンテッドリー調査、AI関連の募集・応募は生成AI普及前の約4.3倍に——直近1年では全体の約8%",
-   "source": "ウォンテッドリー株式会社（PR TIMES）",
-   "summary": "ウォンテッドリーが11月10日に発表した「AI時代の募集・求職者動向調査」によると、Wantedly上のAI関連の募集・応募は生成AI普及前（2021年9月〜2022年8月）と比べていずれも約4.3倍に増え、直近1年（2025年9月〜2026年8月）では募集・応募全体のそれぞれ約8%を占めた。伸びはビジネス職が大きく、募集で約5.7倍・応募で約8.6倍とエンジニア職を上回った。",
-   "topic": "ビジネス・人材",
-   "unconfirmed": false,
-   "url": "https://prtimes.jp/main/html/rd/p/000000313.000021198.html",
-   "x_url": "https://x.com/ren19961021/status/2121191594091049380"
-  },
-  {
-   "breaking": false,
-   "collected_at": "2026-11-13T21:28:15+09:00",
-   "headline": "ByteDance、動画生成モデル「Seedance 2.5 Flash」を発表——速度2倍・720p価格は約34%安く",
-   "source": "ByteDance（火山引擎）",
-   "summary": "ByteDanceのクラウド部門・火山引擎（Volcano Engine）が11月12日、動画生成モデルSeedance 2.5の軽量版「Seedance 2.5 Flash」を発表した。生成速度は2.5の約2倍で、720pの文生動画・図生動画は1秒あたり約0.99元と約34%安い。1本最長30秒、画像10枚・動画5本・音声5本まで入力でき、即夢などで提供開始、APIは11月15日に火山方舟で公開予定。効果は前旗艦Seedance 2.0を上回るとしている。",
-   "topic": "モデル",
-   "unconfirmed": false,
-   "url": "https://tech.ifeng.com/c/8xzc8FAi9Ng",
-   "x_url": "https://x.com/_TK_YM_/status/2121186310589194395"
-  },
-  {
-   "breaking": false,
-   "collected_at": "2026-11-13T21:28:15+09:00",
-   "headline": "クラウドワークス、AIと採用のプロが伴走する「AI-RPO」を提供開始——先行支援で応募率3.1倍・採用コスト34%減",
-   "source": "株式会社クラウドワークス（PR TIMES）",
-   "summary": "クラウドワークスが11月13日、AI人材マッチング基盤「AIクラウドワークス」の新サービスとして、採用支援パートナー「AI-RPO」の提供を開始した。求人票作成・スカウト文・日程調整はAIが担い、採用戦略や候補者への魅力付けは採用のプロが担当する「社外の人事部」型のサービス。先行支援した2社では応募率が約3.1倍（1.16%→3.57%）、採用コストが34%減という成果が出ている。",
-   "topic": "ビジネス・人材",
-   "unconfirmed": false,
-   "url": "https://prtimes.jp/main/html/rd/p/000000327.000050142.html",
-   "x_url": "https://x.com/CrowdWorksjp/status/2121169514759164082"
-  },
-  {
-   "breaking": false,
-   "collected_at": "2026-11-13T23:15:41+09:00",
-   "headline": "Google DeepMind、WeatherNext 3の基盤データセット「PARDIG」と「SatWeave」をオープン公開",
-   "source": "Google DeepMind",
-   "summary": "Google DeepMindが11月13日、AI気象モデルWeatherNext 3の基盤となった2つのデータセットを公開した。SatWeaveは静止衛星画像の全球モザイクで毎時更新され10年超のアーカイブを含む。PARDIGはNASA GPMの衛星レーダー観測から学習した全球降水データセットで、1999〜2026年のアーカイブとライブフィードを提供し、軽〜中程度の降水の時間別検出スキルはNASA IMERG-Final比で30%超改善したとしている。いずれもGoogle Cloud Storageで公開され、PARDIGはGoogle Earth Engineでも利用できる。",
-   "topic": "生成AI・その他",
-   "unconfirmed": false,
-   "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
-   "x_url": "https://x.com/GoogleDeepMind/status/2121229774865527097"
-  }
- ]
+  "source": "x",
+  "itemCount": 16,
+  "items": [
+    {
+      "breaking": false,
+      "collected_at": "2026-11-13T18:15:51+09:00",
+      "headline": "ピクスタ、ByteDanceと提携開始—動画生成AI「Seedance」とショートアニメ配信「Anipops」を連携",
+      "source": "PR TIMES（ピクスタ）",
+      "summary": "ピクスタが11月13日、ByteDanceとの提携開始を発表した。ByteDanceの動画生成AI「Seedance」を活用したAIアニメの制作と、ピクスタのショートアニメ配信プラットフォーム「Anipops」での配信を両社で推進する。AnipopsではSeedanceを活用したアニメ作品の原作とコラボレーションも広く募集する。",
+      "topic": "映像生成・動画AI",
+      "unconfirmed": false,
+      "url": "https://prtimes.jp/main/html/rd/p/000000380.000008963.html",
+      "x_url": "https://x.com/pixta_corporate/status/2121139281721012285"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-13T18:15:51+09:00",
+      "headline": "NTT西日本、京都大学とフィジカルAI人材育成で連携強化—実機ハンズオン含む実践型プログラムを開発",
+      "source": "NTT西日本（プレスリリース）",
+      "summary": "NTT西日本が11月13日、フィジカルAIの発展・振興と次世代人材の育成に向け、京都大学成長戦略本部との連携強化を発表した。基礎理論から実機を用いた開発・検証まで体系的に学べる実践型人材育成プログラムの開発を京都大学に委託し、カリキュラムの設計・構築は一般社団法人次世代フィジカルAI育成機構（XPAC）が担う。プログラムは11月18日からのNTT R&D FORUM 2026などで展示される。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://toyokeizai.net/ud/pressrelease/6af6851e126217802400000b",
+      "x_url": "https://x.com/nikkei_kyoto/status/2121090777984147955"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-13T18:15:51+09:00",
+      "headline": "Cohere、日本法人設立を計画—ソブリンAIへの投資を拡大、富士通との日本語LLM「Takane」も推進",
+      "source": "ZDNET Japan",
+      "summary": "カナダのCohereが11月12日、日本法人の設立計画と、日本の規制・言語・産業要件に対応したソブリンAIへの投資拡大を発表した。国内パートナーとの連携で導入を進め、富士通との協業による日本市場向けLLM「Takane」は、デジタル庁の生成AI利用環境GENAIにおいて評価対象の国産LLMの一つに選定されている。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://japan.zdnet.com/article/35254775/",
+      "x_url": "https://x.com/_TK_YM_/status/2121090706731106664"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-13T18:15:51+09:00",
+      "headline": "矢野経済研究所、コールセンターのAI活用調査を発表—利用中・利用意向あり計65.1%",
+      "source": "矢野経済研究所",
+      "summary": "矢野経済研究所が11月11日、民間企業のコールセンター部門におけるAIサービスの活用に関する調査結果を発表した。自社コールセンターでAIサービスを「利用している」企業は23.0%、「利用していないが利用意向はある」が42.1%で、合計65.1%がAI活用に前向きだった。利用企業の活用業務はオペレーター支援が51.7%、フロント（顧客対応）業務が48.3%だった。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://www.yano.co.jp/press-release/show/press_id/4228",
+      "x_url": "https://x.com/yanokeizai/status/2121068031929708955/photo/1"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-13T18:15:51+09:00",
+      "headline": "リバスタ、「Buildee 電子KY」にAI危険予知の新機能β版—作業内容から危険ポイントと対策候補を提示",
+      "source": "PR TIMES（リバスタ）",
+      "summary": "株式会社リバスタが11月13日、建設現場施工管理サービス「Buildee」のオプション「Buildee 電子KY」で、AIが危険ポイントと対策候補を提示する新機能のβ版開発を発表した。職長が記入した作業内容や現場状況をもとに提示し、判断は人が行う設計。2026年10月から利用企業の複数現場で試行中で、電子KYは提供開始から約半年で導入企業数が約50社に達している。",
+      "topic": "建設×AI",
+      "unconfirmed": false,
+      "url": "https://prtimes.jp/main/html/rd/p/000000135.000025005.html",
+      "x_url": "https://x.com/RVSTA_official/status/2121066820669166038"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-13T18:15:51+09:00",
+      "headline": "アルティウスリンク、電話応対を完結するAIオペレーター「AI Voice サービス」を提供開始",
+      "source": "アルティウスリンク",
+      "summary": "アルティウスリンクが11月11日、人と自然に会話し電話応対業務を完結するAIオペレーターの導入から育成・運用までを一体化した「AI Voice サービス」の提供を開始した。曖昧な発話や言い直し、会話途中の割り込みにも対応し、導入後もAIを評価・改善して対応範囲を広げる。2026年5月にKDDI・Rechoと発表したAIコンタクトセンターの協業構想を踏まえたサービス化。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://www.altius-link.com/news/detail20261111_02.html",
+      "x_url": "https://x.com/bs_studioJP/status/2121047995127087411"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-13T10:02:29+09:00",
+      "headline": "NITACO、建設会社向け「CAD図面AI」の受託開発を開始—文で頼むだけでAIが作図しDXF保存",
+      "source": "PR TIMES（NITACO）",
+      "summary": "株式会社NITACOが11月13日、建設会社向けの図面作成AI「CAD図面AI」の受託開発開始を発表した。「8階の平面図を書いて。3LDKを8戸」と文で頼むだけで、AIが通り芯から寸法まで作図してDXFで保存し、平面図から立面図や3Dモデルも生成する。AIがJw_cadを操作して作図する動画は公開から約3週間で21万回再生された。会社ごとの書き方に合わせる受託型で、保存形式はDXF（2D・3D）とOBJに対応する。",
+      "topic": "建設×AI",
+      "unconfirmed": false,
+      "url": "https://prtimes.jp/main/html/rd/p/000000082.000058841.html",
+      "x_url": "https://x.com/PRTIMES_STUP/status/2121032239928783222"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-13T11:17:04+09:00",
+      "headline": "Edge0、145Bオープンモデル「Edge0-145B／120B」を公開—消費者向けGPU1枚で動作、Terminal-Bench 2.1で86.5",
+      "source": "Edge0公式ブログ",
+      "summary": "Edge0が145Bと120Bのオープンウェイト・スパースMoEモデルを推論フレームワークとともに公開した。Qwen3.8-Flash-Next派生でトークンあたりの活性は約10B、ピークメモリ29GBでノートPC級ハードでも80tok/s超のデコードをうたう。自社測定ではTerminal-Bench 2.1で86.52（Claude Opus 4.6の78.2を上回る）、DeepSWE 1.1で64.6、GPQA-Diamondで90.4。重みはHugging Faceで公開され、ライセンスは独自コミュニティライセンス（出力の商用利用可、モデル販売・商用サービス提供は別途許可）。数値はEdge0自社測定。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+      "x_url": "https://x.com/nawariokra/status/2121039475681972241"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-13T21:28:15+09:00",
+      "headline": "錢高組、Kencopa工程AIエージェントの製品利用を開始——全国6拠点・25の建築現場へ展開",
+      "source": "株式会社KENCOPA（PR TIMES）",
+      "summary": "建設特化AIのKENCOPAは、錢高組が建設業務特化型AIエージェント「Kencopa工程AIエージェント」の製品利用を開始したと発表した（11月9日）。設計図書や過去工事の情報をもとに、自社歩掛を学習したAIが工程案を自動生成し、工程表作成から実施工程の運用、ナレッジ蓄積までを支援する。東北から九州までの全国6拠点・25の建築現場へ展開し、工程業務の効率化とベテランの技術継承を目指す。",
+      "topic": "建設×AI",
+      "unconfirmed": false,
+      "url": "https://toyokeizai.net/ud/pressrelease/6af130f4126217985300006b",
+      "x_url": "https://x.com/Bitman0404/status/2121206739936686092"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-13T21:28:15+09:00",
+      "headline": "ウォンテッドリー調査、AI関連の募集・応募は生成AI普及前の約4.3倍に——直近1年では全体の約8%",
+      "source": "ウォンテッドリー株式会社（PR TIMES）",
+      "summary": "ウォンテッドリーが11月10日に発表した「AI時代の募集・求職者動向調査」によると、Wantedly上のAI関連の募集・応募は生成AI普及前（2021年9月〜2022年8月）と比べていずれも約4.3倍に増え、直近1年（2025年9月〜2026年8月）では募集・応募全体のそれぞれ約8%を占めた。伸びはビジネス職が大きく、募集で約5.7倍・応募で約8.6倍とエンジニア職を上回った。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://prtimes.jp/main/html/rd/p/000000313.000021198.html",
+      "x_url": "https://x.com/ren19961021/status/2121191594091049380"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-13T21:28:15+09:00",
+      "headline": "ByteDance、動画生成モデル「Seedance 2.5 Flash」を発表——速度2倍・720p価格は約34%安く",
+      "source": "ByteDance（火山引擎）",
+      "summary": "ByteDanceのクラウド部門・火山引擎（Volcano Engine）が11月12日、動画生成モデルSeedance 2.5の軽量版「Seedance 2.5 Flash」を発表した。生成速度は2.5の約2倍で、720pの文生動画・図生動画は1秒あたり約0.99元と約34%安い。1本最長30秒、画像10枚・動画5本・音声5本まで入力でき、即夢などで提供開始、APIは11月15日に火山方舟で公開予定。効果は前旗艦Seedance 2.0を上回るとしている。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://tech.ifeng.com/c/8xzc8FAi9Ng",
+      "x_url": "https://x.com/_TK_YM_/status/2121186310589194395"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-13T21:28:15+09:00",
+      "headline": "クラウドワークス、AIと採用のプロが伴走する「AI-RPO」を提供開始——先行支援で応募率3.1倍・採用コスト34%減",
+      "source": "株式会社クラウドワークス（PR TIMES）",
+      "summary": "クラウドワークスが11月13日、AI人材マッチング基盤「AIクラウドワークス」の新サービスとして、採用支援パートナー「AI-RPO」の提供を開始した。求人票作成・スカウト文・日程調整はAIが担い、採用戦略や候補者への魅力付けは採用のプロが担当する「社外の人事部」型のサービス。先行支援した2社では応募率が約3.1倍（1.16%→3.57%）、採用コストが34%減という成果が出ている。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://prtimes.jp/main/html/rd/p/000000327.000050142.html",
+      "x_url": "https://x.com/CrowdWorksjp/status/2121169514759164082"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-13T23:15:41+09:00",
+      "headline": "Google DeepMind、WeatherNext 3の基盤データセット「PARDIG」と「SatWeave」をオープン公開",
+      "source": "Google DeepMind",
+      "summary": "Google DeepMindが11月13日、AI気象モデルWeatherNext 3の基盤となった2つのデータセットを公開した。SatWeaveは静止衛星画像の全球モザイクで毎時更新され10年超のアーカイブを含む。PARDIGはNASA GPMの衛星レーダー観測から学習した全球降水データセットで、1999〜2026年のアーカイブとライブフィードを提供し、軽〜中程度の降水の時間別検出スキルはNASA IMERG-Final比で30%超改善したとしている。いずれもGoogle Cloud Storageで公開され、PARDIGはGoogle Earth Engineでも利用できる。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "x_url": "https://x.com/GoogleDeepMind/status/2121229774865527097"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T01:28:15+09:00",
+      "headline": "OpenAI、エージェントが買い物代行する「ChatGPT Wallet」を開始——カード情報は渡さず毎回セキュリティ確認",
+      "source": "Reuters",
+      "summary": "OpenAIは11月13日、AIエージェント「dots」がユーザーの代わりに購入手続きを行える決済機能「ChatGPT Wallet」を開始した。American Express、Mastercard、Visaと提携し、実際のカード番号は加盟店にもエージェントにも渡さず、取引ごとにセキュリティ確認を必須とする。当初は米国のChatGPT Pro加入者（18歳以上、米国発行の対象カード保有者）に限定提供される。ReutersおよびTechCrunchの報道で確認した。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://www.reuters.com/technology/openai-launches-chatgpt-wallet-letting-ai-agents-pay-purchases-2026-11-13/",
+      "x_url": "https://x.com/ashleycapoot/status/2121258877056328084"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T01:28:15+09:00",
+      "headline": "DeepSeek、アプリの検索・ファイル・音声機能をAPIで全面開放——「full suite of application APIs」を公開",
+      "source": "DeepSeek API Docs",
+      "summary": "DeepSeekは11月13日、公式アプリ（Web版含む）で提供してきたWeb検索、ファイル入力、URL読み取り、音声対話、安全チェックの各機能を開発者向けAPIとして開放した。既存のMessages／Responses／Chat Completions APIでパラメータを有効化すると、deepseek-flashが検索（deepseek_web_search）やURL取得（deepseek_read_url）をサーバー側で実行する。基盤機能と音声機能はSearch・Fetch・OCR・ASR・TTSの単体APIとしても提供され、デモ用チャットクライアントもオープンソース公開された。公式APIドキュメントの変更履歴（2026-11-13）で確認した。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://api-docs.deepseek.com/updates/?date=2026-10-17",
+      "x_url": "https://x.com/deepseek_ai/status/2121247896918253875"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T01:28:15+09:00",
+      "headline": "llama.cpp、初の安定版「v1.0.0」を公開——ggmlとともにセマンティックバージョニングを正式採用",
+      "source": "Hugging Face（ggml-org）",
+      "summary": "ローカルLLM推論ライブラリのllama.cppと基盤テンソルライブラリggmlが11月13日、ともに初の安定版となるv1.0.0を公開した。3年半の開発を経て、公開APIの互換性をセマンティックバージョニングで保証する方針を正式化し、llama.cppでは非推奨APIの削除やNextN投機的デコーディングAPIの正式ヘッダーへの昇格など大規模な整理が行われた。150超のモデルアーキテクチャ変種に対応する。Hugging Faceの公式ブログと作者ggerganovの投稿で確認した（前回runでは一次確認が取れず見送った件）。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "x_url": "https://x.com/ggerganov/status/2121246103312212124"
+    }
+  ]
 }
