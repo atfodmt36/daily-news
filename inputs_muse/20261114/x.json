@@ -6,7 +6,7 @@
     "to": "2026-11-14T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 16,
+  "itemCount": 19,
   "items": [
     {
       "breaking": false,
@@ -183,6 +183,39 @@
       "unconfirmed": false,
       "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
       "x_url": "https://x.com/ggerganov/status/2121246103312212124"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T05:24:53+09:00",
+      "headline": "経産省、生成AIによる声・肖像の無断利用を不正競争防止法で規制する具体案を提示——物まねや偶然の類似は除外",
+      "source": "読売新聞オンライン",
+      "summary": "経済産業省は11月13日、生成AIによる声や肖像の無断使用を防ぐため、不正競争防止法で新たに規制する行為の具体案を有識者会議に示した。肖像や声の魅力を商業的に利用する行為（鑑賞用商品への使用、商品の差別化目的の使用、広告への使用）を規制対象とし、物まね・声まねや偶然似た人が自身の肖像・声を使う行為は対象外とする案。今後、有識者会議で議論を重ねて制度設計を進める。読売新聞オンライン（11月14日付）で確認した。",
+      "topic": "政府・政策",
+      "unconfirmed": false,
+      "url": "https://www.yomiuri.co.jp/economy/20261114-GYT1T00086/",
+      "x_url": "https://x.com/Yomiuri_Online/status/2121332957491429615"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T05:24:53+09:00",
+      "headline": "CERT/CC、ComfyUI拡張機能「ComfyUI-Easy-Use」にコード実行の脆弱性（CVE-2026-123790）を公表",
+      "source": "CERT/CC",
+      "summary": "米CERT/CCは11月12日、画像生成AIツールComfyUIの拡張機能「ComfyUI-Easy-Use」1.4.1以前に、認証なしで他のカスタムノードのPythonファイルを書き換えられ、再起動時に攻撃者のコードが実行され得る脆弱性（CVE-2026-123790、VU#944667）を公表した。深刻度は高く、CERT/CCは拡張機能の削除かComfyUIへのアクセス制限を案内している。CERT/CCの注意喚起とASCII.jpの報道で確認した。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://kb.cert.org/vuls/id/944667",
+      "x_url": "https://x.com/Bearia/status/2121319505733484763"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T05:24:53+09:00",
+      "headline": "シスメット、建設現場の気象を複数拠点で一元管理する「ZEROSAI X-AI フィールドビュー」をリリース",
+      "source": "PR TIMES（シスメット）",
+      "summary": "シスメットは11月12日、建設業向け気象総合プラットフォーム「ZEROSAI X-AI」（NETIS登録番号QS-260002-A）の新機能「フィールドビュー」をリリースした。最大10現場の500mメッシュ気象予測を地図上でまとめて確認・管理でき、管理者は全現場を俯瞰し、現場担当者は自現場専用ページへ切り替えられる。土木・建築工事における強風・大雨などの気象リスク対応を支援する。PR TIMESのプレスリリースで確認した。",
+      "topic": "建設×AI",
+      "unconfirmed": false,
+      "url": "https://prtimes.jp/main/html/rd/p/000000010.000176510.html",
+      "x_url": "https://x.com/_digicon/status/2121286524931346472"
     }
   ]
 }

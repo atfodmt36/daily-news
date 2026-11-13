@@ -6,7 +6,7 @@
     "to": "2026-11-14T08:00:00+09:00"
   },
   "source": "web-search",
-  "itemCount": 1,
+  "itemCount": 2,
   "items": [
     {
       "breaking": false,
@@ -17,6 +17,16 @@
       "topic": "ビジネス・人材",
       "unconfirmed": false,
       "url": "https://toyokeizai.net/ud/pressrelease/6af14d151262170273000039"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T05:24:53+09:00",
+      "headline": "IDC調査、AI先行企業の投資収益率は平均4倍——成熟度の低い企業の2.7倍を上回る",
+      "summary": "Microsoftの委託でIDCが世界の経営層・ITリーダー5,200人超（28業種）を対象に実施した調査によると、AI成熟度上位10%の企業（Frontier Firms）はAI投資の平均収益率が4倍と、成熟度の低い企業の2.7倍を上回った。収益率5倍以上と答えた割合は39%対4%で、AIエージェントを大規模に展開する企業は96%に達する一方、全社的なAI研修戦略を持つ組織は20%にとどまり、ガバナンスと人材育成が成果の差を生むと分析された。Microsoft Ignite（11月18日）を前に公表された内容を報道で確認した。",
+      "source": "IDC（Microsoft委託調査）",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://beinsure.com/ai-leaders-achieve-4x-roi/"
     }
   ]
 }
