@@ -135,6 +135,13 @@
         "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-transcribe",
         "source": "Microsoft",
         "unconfirmed": false
+      },
+      {
+        "headline": "NVIDIA、複数視点の写真から3D形状を復元するモデル「Déjà View」を公開",
+        "summary": "NVIDIAが11月11日、複数視点の写真から3D形状とカメラ位置を復元するモデル「Déjà View」を発表した。単一のTransformerブロックをループさせて繰り返し精緻化する設計で、117Mパラメータながら5つのベンチマークで10倍大きなモデルと同等以上の性能を示した。NeurIPS 2026のオーラル論文で、コードとモデルを公開している。",
+        "url": "https://research.nvidia.com/labs/dvl/projects/dvlt/",
+        "source": "NVIDIA",
+        "unconfirmed": false
       }
     ],
     "論文・ベンチマーク": [
@@ -180,13 +187,6 @@
         "summary": "クロスベンダー対応の3Dガウシアンスプラッティング学習ツール Spirula Studio が v2026.11.12 をリリース。学習中のローリングシャッター等のカメラ校正残差補正、GLOMAP型グローバルマッパーとFlexGlue特徴マッチャーのSfM追加、3段階（弱/中/強）のフローター抑制、Apple Silicon高速化などを含む。",
         "url": "https://github.com/harry7557558/spirula-studio/releases/tag/v2026.11.12",
         "source": "GitHub (harry7557558/spirula-studio)",
-        "unconfirmed": false
-      },
-      {
-        "headline": "NVIDIA、複数視点の写真から3D形状を復元するモデル「Déjà View」を公開",
-        "summary": "NVIDIAが11月11日、複数視点の写真から3D形状とカメラ位置を復元するモデル「Déjà View」を発表した。単一のTransformerブロックをループさせて繰り返し精緻化する設計で、117Mパラメータながら5つのベンチマークで10倍大きなモデルと同等以上の性能を示した。NeurIPS 2026のオーラル論文で、コードとモデルを公開している。",
-        "url": "https://research.nvidia.com/labs/dvl/projects/dvlt/",
-        "source": "NVIDIA",
         "unconfirmed": false
       }
     ],
