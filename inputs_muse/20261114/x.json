@@ -6,7 +6,7 @@
     "to": "2026-11-14T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 19,
+  "itemCount": 22,
   "items": [
     {
       "breaking": false,
@@ -216,6 +216,39 @@
       "unconfirmed": false,
       "url": "https://prtimes.jp/main/html/rd/p/000000010.000176510.html",
       "x_url": "https://x.com/_digicon/status/2121286524931346472"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T07:32:32+09:00",
+      "headline": "米NPO4団体、最先端AI開発の凍結を求めてOpenAI・Google・Anthropic・Meta・SpaceXを提訴",
+      "source": "Public Citizen",
+      "summary": "Public Citizen、Heat Initiative、Alliance for Secure AI、Irreplaceable Education Fundの4団体は11月12日、サンフランシスコ郡上級裁判所にAnthropic、Google、Meta、OpenAI、SpaceXのAI部門を提訴した。カリフォルニア州の不正競争防止法に基づき、11月12日時点で各社が持つ最も高性能なシステムを超えるAIの開発・提供の差し止めと、人間による制御が証明できるまでの訓練・展開の凍結を求めている。弁護団は元ニュージャージー州司法長官のMatthew Platkinが率いる。裁判所の判断はまだ出ていない。原告側Public Citizenの発表と複数報道で確認した。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/",
+      "x_url": "https://x.com/ArcyDev/status/2121367208974483874"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T07:32:32+09:00",
+      "headline": "Google、GeminiアプリにGoogle Wallet連携を全米展開——支出傾向をもとに家計を分析",
+      "source": "Google公式ブログ",
+      "summary": "Googleは11月13日、Geminiアプリの連携アプリにGoogle Walletを追加し、米国の全Geminiアプリユーザーへの展開を開始したと公式ブログで発表した。チャットで@Google Walletとメンションすると支出習慣に基づく回答が得られ、Plaid経由で銀行口座やクレジットカードを任意で連携できる。アクセスは読み取り専用で、送金や決済はできない。Web・Android・iOSが対象。Google公式ブログで確認した。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/",
+      "x_url": "https://x.com/Kingfish737/status/2121367178406445176"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T07:32:32+09:00",
+      "headline": "FAA、AI管制支援ツール「SMART」を全米22センターへ展開——3日後に全米グラウンドストップ、関連は未確認",
+      "source": "Men's Journal",
+      "summary": "米連邦航空局（FAA）は11月10日、AI管制支援ツール「SMART」（8億7500万ドル規模）を全米22の管制センターへ展開した。9月21日の首都圏での運用開始以来、180便の経路変更で1便あたり平均約10分の短縮と約80ガロンの燃料節約があったとしている。11月13日には管制センターの通信問題を理由に全米で出発便のグラウンドストップが発令されたが、FAAはSMARTとの関連を認めておらず、通信問題の原因は調査中としている。Men's Journalほかの報道で確認した。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://www.mensjournal.com/news/faa-smart-ai-air-traffic-tool-what-we-know",
+      "x_url": "https://x.com/thetomzone/status/2121357429430751435"
     }
   ]
 }
