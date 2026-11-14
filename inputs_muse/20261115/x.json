@@ -6,7 +6,7 @@
     "to": "2026-11-15T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 7,
+  "itemCount": 8,
   "items": [
     {
       "breaking": false,
@@ -84,6 +84,17 @@
       "unconfirmed": false,
       "url": "https://x.com/ArtificialAnlys/status/2121351856005984583",
       "x_url": "https://x.com/ArtificialAnlys/status/2121351856005984583/photo/1"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T17:25:32+09:00",
+      "headline": "route-D、河淳に「AI受注エージェント」を導入——月1万枚のFAX注文書を自動化、1か月で精度99.5%",
+      "source": "route-D（PR TIMES）",
+      "summary": "route-Dは11月12日、住宅設備メーカー河淳のグローバルハードウェア事業部に受注自動化エージェント「route-D AI受注エージェント」を導入したと発表した。約10名が手入力していた月10,000枚のFAX注文書を、様式の違いを吸収して得意先・納品先・商品コードへ変換し基幹システム登録まで自動化。導入1か月でセル単位の精度99.5%を達成し、10件の受注登録が2〜3分で完了するようになった。東京店の成果をもとに全国拠点へ展開中。PR TIMESのプレスリリース（産経ニュース掲載）で確認した。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://www.sankei.com/pressrelease/prtimes/VI4Q77R3QRL7LJKC23BGN3HWEQ/",
+      "x_url": "https://x.com/SHDKT3/status/2121469284350402911"
     }
   ]
 }
