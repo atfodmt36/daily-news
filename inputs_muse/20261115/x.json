@@ -6,7 +6,7 @@
     "to": "2026-11-15T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 8,
+  "itemCount": 9,
   "items": [
     {
       "breaking": false,
@@ -95,6 +95,17 @@
       "unconfirmed": false,
       "url": "https://www.sankei.com/pressrelease/prtimes/VI4Q77R3QRL7LJKC23BGN3HWEQ/",
       "x_url": "https://x.com/SHDKT3/status/2121469284350402911"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T19:14:06+09:00",
+      "headline": "Google、Agent Anomaly Detectionの外部ベンチマーク評価を公開——実行された有害指示の87%を検出",
+      "source": "Google Developers Blog",
+      "summary": "Googleは11月12日、Gemini Enterprise Agent PlatformのAgent Anomaly Detection（Private Preview）を自社製でない公開ベンチマーク5種（AgentDojo、InjecAgent、Agent Security Bench、AgentDyn、AgentHarm）で評価した結果を公開した。ADK＋Gemini 2.5 Flashのエージェントによる計1,774セッションで、エージェントが実行してしまった有害指示の87%を事後レビュー対象として検出。良性セッションへの誤検知は2〜16%で、長期メモリへの毒入れ（poisoned memory）は18件中4件と明確な弱点だった。Google Developers公式ブログで確認した。",
+      "topic": "論文・ベンチマーク",
+      "unconfirmed": false,
+      "url": "https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write/",
+      "x_url": "https://x.com/TheGEOCommunity/status/2121541149126979601/photo/1"
     }
   ]
 }
