@@ -1,0 +1,77 @@
+{
+  "date": "2026/11/15",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-14T08:00:00+09:00",
+    "to": "2026-11-15T08:00:00+09:00"
+  },
+  "source": "claude-code",
+  "itemCount": 3,
+  "items": [
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Microsoft 365 Copilot：Copilot Coworkに「Workforce Intelligence」プラグインが登場（11/16よりパブリックプレビュー）",
+      "summary": "リーダーやマネージャーが自然言語で組織構造・人員構成・スキルを照会できるWorkforce Intelligenceプラグインが、Copilot Coworkで2026-11-16よりパブリックプレビュー（Frontier Worldwide）として提供される。Microsoft 365 CopilotライセンスとCopilot Coworkアクセス、Frontier登録・Workforce Insights構成が前提で、従業員の監視・評価・人事判断目的での利用は想定されていない。",
+      "url": "https://mc.merill.net/message/MC1552389",
+      "source": "Microsoft 365 メッセージセンター（MC1552389、公開アーカイブ経由）",
+      "published_at": "2026-11-14T08:45:06+09:00",
+      "unconfirmed": false,
+      "status": "preview",
+      "tags": [
+        "message-center",
+        "secondary",
+        "copilot-cowork",
+        "frontier",
+        "preview",
+        "borderline"
+      ],
+      "related_urls": [
+        "https://mc.merill.net/rss.xml"
+      ],
+      "collected_at": "2026-11-15T08:29:11+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Microsoft 365 Copilot：デスクトップアプリ内蔵ブラウザの開いているタブをコンテキストとして利用",
+      "summary": "Copilotデスクトップアプリが、内蔵ブラウザで開いているタブの内容を回答や要約のコンテキストとして利用できるようになり、単一タブへの質問や複数タブの比較が可能になる。内蔵ブラウザ有効時のみ動作し現在の会話スレッドに限定され、2026年11月中旬〜下旬にWorldwideで展開、管理者の必須アクションはなし。",
+      "url": "https://mc.merill.net/message/MC1552386",
+      "source": "Microsoft 365 メッセージセンター（MC1552386、公開アーカイブ経由）",
+      "published_at": "2026-11-14T08:43:26+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "message-center",
+        "secondary",
+        "copilot-desktop-app",
+        "built-in-browser",
+        "rollout"
+      ],
+      "related_urls": [
+        "https://mc.merill.net/rss.xml"
+      ],
+      "collected_at": "2026-11-15T08:29:11+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Copilot Studio：ワークフローのRun view／Monitorでクレジット消費量を可視化（11/11よりGA）",
+      "summary": "Copilot Studioの作成者が、デザイナー上で各ワークフロー実行・ステップごとのCopilot Credit推定消費量を確認でき、Monitorタブで複数実行にわたる消費を追跡できるようになった。容量逼迫時の警告やクレジット枯渇時のテスト実行ブロックを含み、2026-11-11にPower Platform向けにGA（管理者アクション不要の情報提供）。",
+      "url": "https://mc.merill.net/message/MC1552503",
+      "source": "Microsoft 365 メッセージセンター（MC1552503、公開アーカイブ経由）",
+      "published_at": "2026-11-14T12:38:06+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "message-center",
+        "secondary",
+        "copilot-studio",
+        "power-platform",
+        "ga",
+        "borderline"
+      ],
+      "related_urls": [
+        "https://mc.merill.net/rss.xml"
+      ],
+      "collected_at": "2026-11-15T08:29:11+09:00"
+    }
+  ]
+}
