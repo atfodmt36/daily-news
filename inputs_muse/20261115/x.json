@@ -1,0 +1,89 @@
+{
+  "date": "2026/11/15",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-14T08:00:00+09:00",
+    "to": "2026-11-15T08:00:00+09:00"
+  },
+  "source": "x",
+  "itemCount": 7,
+  "items": [
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T09:36:04+09:00",
+      "headline": "Subquadratic、意思決定モデル「SubQ Snap 1.2」を公開——Decision Index v2.1で前版から5ポイント向上",
+      "source": "Artificial Analysis",
+      "summary": "Artificial Analysisは、Subquadraticの意思決定モデル「SubQ Snap 1.2」が同社のDecision Index v2.1で前版Snap 1.1から5ポイント向上し、Drex Max v1.1やGLiDE v1.2と並ぶ首位になったと発表した。意思決定に特化したモデルの新版リリースで、価格情報もあわせて公表された。ベンチマーク運営元Artificial Analysisの公式投稿で確認した。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://x.com/ArtificialAnlys/status/2121396191024071088",
+      "x_url": "https://x.com/ArtificialAnlys/status/2121396191024071088/photo/1"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T09:36:04+09:00",
+      "headline": "SpaceXのAI部門、動画生成「Grok Imagine」チームの約60人をレイオフ——コーディングとエージェントへ資源を移行",
+      "source": "AI Weekly",
+      "summary": "The Informationは11月13日、SpaceXのAI部門（SpaceX Super Intelligence）が動画・画像生成ツール「Grok Imagine」の開発チームの大半、約60人をレイオフし、製品維持に必要な少人数を残したと報じた。AIコーディングツールと自律エージェント「Grok Bot」へ計算資源と人材を移す方針とされる。同社からの公式コメントはない。複数メディアの報道で確認した。",
+      "topic": "映像生成・動画AI",
+      "unconfirmed": false,
+      "url": "https://aiweekly.co/alerts/spacex-super-intelligence-cuts-60-from-grok-imagine-video-team",
+      "x_url": "https://x.com/tmiyatake1/status/2121393926489649172"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T09:36:04+09:00",
+      "headline": "Artificial Analysis、Coding Agent Index v2.1を公開——Claude Fable 5.2とOpus 5.5が58で首位を分け合う",
+      "source": "Artificial Analysis",
+      "summary": "Artificial Analysisは11月13日、コーディングエージェントのベンチマーク「Coding Agent Index」をv2.1に更新し、FrontierCodeとTerminal-Benchの評価を刷新したと発表した。新しいランキングではClaude Fable 5.2とClaude Opus 5.5が58で首位を分け合っている。ベンチマーク運営元の公式投稿で確認した。",
+      "topic": "論文・ベンチマーク",
+      "unconfirmed": false,
+      "url": "https://x.com/ArtificialAnlys/status/2121393821955334328",
+      "x_url": "https://x.com/ArtificialAnlys/status/2121393821955334328/photo/1"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T09:36:04+09:00",
+      "headline": "BudgetAnyファミリー公開——トークン予算に応じて画像から3Dを生成する「Budget3D」をリリース",
+      "source": "BudgetAny (Hugging Face)",
+      "summary": "研究チームは、処理トークン数を予算として調整できる生成モデル群「BudgetAny」を公開し、その第一弾として画像から3Dを生成する「Budget3D」をリリースした。BudgetPixの手法でSperid LabsのIdol／Idol-turboを蒸留し、より少ないトークンで3D生成を行う。Hugging Faceで公開されており、今後モダリティを広げる予定という。開発者の公式投稿とHugging Faceページで確認した。",
+      "topic": "3D生成・制作（クリエイティブ）",
+      "unconfirmed": false,
+      "url": "https://huggingface.co/BudgetAny",
+      "x_url": "https://x.com/ozgurkara99/status/2121372830147445214"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T09:36:04+09:00",
+      "headline": "SHINING 3D、AI搭載モバイル3Dスキャナー「EINSTAR EZ GO」を発表——クラウド3DGSにも対応",
+      "source": "SHINING 3D",
+      "summary": "Shining3D Technology Japanは11月13日、AI搭載モバイル3Dスキャナー「EINSTAR EZ GO」を発表した。スマートフォンやタブレットとワイヤレス接続して片手でスキャンでき、AIトラッキングや背景分離、クラウドでの3D Gaussian Splatting（3DGS）処理に対応する。レーザーと赤外線を組み合わせたスキャン方式で最大60fps、ハンドグリップ内蔵バッテリーで最長約2時間のスキャンが可能。プレスリリースで確認した。",
+      "topic": "建設×AI",
+      "unconfirmed": false,
+      "url": "https://toyokeizai.net/ud/pressrelease/6af6cb711262170237000000",
+      "x_url": "https://x.com/appbank/status/2121365681086017682"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T09:36:04+09:00",
+      "headline": "ブルーイノベーション、Elithと業務提携——ドローン統合基盤「BEP」にAIを組み合わせインフラ点検を高度化",
+      "source": "ブルーイノベーション",
+      "summary": "ブルーイノベーションは11月11日、AI研究開発のElithと戦略的業務提携を締結したと発表した。複数のドローンやロボットを遠隔で統合制御する独自プラットフォーム「Blue Earth Platform（BEP）」とElithのAI・データ解析技術を組み合わせ、社会インフラの点検・維持管理で現場データの収集から分析、状況把握・判断支援までを一貫支援する仕組みの開発・検証を進め、省人化と安全性向上を目指す。両社の発表と業界紙報道で確認した。",
+      "topic": "建設×AI",
+      "unconfirmed": false,
+      "url": "https://built.itmedia.co.jp/bt/articles/2611/13/news095.html",
+      "x_url": "https://x.com/Bitman0404/status/2121355186090164526"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T09:36:04+09:00",
+      "headline": "Artificial Analysis、話者ダイアライゼーションの新ベンチマーク「Diarization Index」を公開",
+      "source": "Artificial Analysis",
+      "summary": "Artificial Analysisは、音声文字起こしで「誰が話したか」を評価する新ベンチマーク「Diarization Index」を発表した。97本の会話を対象に、単語が誤った話者に割り当てられた割合を示すWord Diarization Error Rate（WDER）で各社のAPIをスコア化する。ベンチマーク運営元の公式投稿で確認した。",
+      "topic": "論文・ベンチマーク",
+      "unconfirmed": false,
+      "url": "https://x.com/ArtificialAnlys/status/2121351856005984583",
+      "x_url": "https://x.com/ArtificialAnlys/status/2121351856005984583/photo/1"
+    }
+  ]
+}

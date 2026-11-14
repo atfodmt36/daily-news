@@ -1,0 +1,22 @@
+{
+  "date": "2026/11/15",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-14T08:00:00+09:00",
+    "to": "2026-11-15T08:00:00+09:00"
+  },
+  "source": "web-search",
+  "itemCount": 1,
+  "items": [
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T09:36:04+09:00",
+      "headline": "PYMNTS調査、AIを使う米中小企業の60%が人員を増やさず事業を拡大——74%がAIを活用",
+      "summary": "PYMNTS Intelligenceが11月13日に報じた調査（米国の中小企業533社）によると、74%が少なくとも時々AIを使っており、利用企業の60%が人員を増やさずに業務量を拡大できたと回答した。72%がタスク完了の高速化を実感し、13%はAIがなければ行っていたはずの正社員採用を見送ったという。AIが中小企業の採用抑制と生産性向上の両方に効いている実態を示す。PYMNTSの記事で確認した。",
+      "source": "PYMNTS",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/60percent-small-business-ai-users-do-more-without-adding-staff/"
+    }
+  ]
+}
