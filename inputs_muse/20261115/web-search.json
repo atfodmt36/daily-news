@@ -6,7 +6,7 @@
     "to": "2026-11-15T08:00:00+09:00"
   },
   "source": "web-search",
-  "itemCount": 1,
+  "itemCount": 2,
   "items": [
     {
       "breaking": false,
@@ -17,6 +17,16 @@
       "topic": "ビジネス・人材",
       "unconfirmed": false,
       "url": "https://www.pymnts.com/news/artificial-intelligence/2026/60percent-small-business-ai-users-do-more-without-adding-staff/"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T21:27:07+09:00",
+      "headline": "HFS Research×Rackspace調査、AI投資で期待以上の成果を得た大企業は33%のみ——ガバナンスの欠陥は96%が報告",
+      "source": "HFS Research / Rackspace（GlobeNewswire）",
+      "summary": "HFS ResearchがRackspaceと共同で年商1億ドル以上の企業のAI意思決定者502人を対象に実施した調査（2026年8〜9月）によると、最も重要なAIプログラムでビジネスケースを達成または上回った企業は33%にとどまり、複数部門へ展開する企業では28%に低下した。一方で58%が労働生産性の向上、42%が測定可能なコスト削減を報告し、96%がAIのガバナンスに重大な欠陥があると答えた。11月12日のGlobeNewswire発表で確認した。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://www.manilatimes.net/2026/11/12/tmt-newswire/globenewswire/new-hfs-research-and-rackspace-study-finds-only-one-third-of-enterprises-realize-expected-ai-value/2468583"
     }
   ]
 }

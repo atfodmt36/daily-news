@@ -6,7 +6,7 @@
     "to": "2026-11-15T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 9,
+  "itemCount": 10,
   "items": [
     {
       "breaking": false,
@@ -106,6 +106,17 @@
       "unconfirmed": false,
       "url": "https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write/",
       "x_url": "https://x.com/TheGEOCommunity/status/2121541149126979601/photo/1"
+    },
+    {
+      "breaking": false,
+      "collected_at": "2026-11-14T21:27:07+09:00",
+      "headline": "ELEMENTS、国内業務向けAIリーダーボード「Kurabe」を無償公開——40モデル・7種のAI半導体を精度・速度・コストで比較",
+      "source": "ELEMENTS（PR TIMES）",
+      "summary": "ELEMENTSは11月12日、国内企業の業務に適したAIモデルと実行環境の組み合わせを精度・処理速度・推定コストの3指標で比較できる国産AIリーダーボード「Kurabe（クラベ）」の無償提供を開始した。評価対象は2026年10月時点で問い合わせ対応とドキュメント解析の2ユースケース、40モデル、7種類のAI半導体で、登録不要で閲覧できる。NEDOの研究開発事業（産総研が代表機関）の成果の一部を活用したもので、今後金融・製造分野の評価項目も追加予定。PR TIMESのプレスリリースで確認した。",
+      "topic": "論文・ベンチマーク",
+      "unconfirmed": false,
+      "url": "https://www.sankei.com/pressrelease/prtimes/A47T6SPDW5NNTKW3H3AGPVM2NM/",
+      "x_url": "https://x.com/NewsMyPrecious/status/2121575480851902831"
     }
   ]
 }
