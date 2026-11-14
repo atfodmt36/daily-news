@@ -6,7 +6,7 @@
     "to": "2026-11-15T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 10,
+  "itemCount": 14,
   "items": [
     {
       "breaking": false,
@@ -117,6 +117,46 @@
       "unconfirmed": false,
       "url": "https://www.sankei.com/pressrelease/prtimes/A47T6SPDW5NNTKW3H3AGPVM2NM/",
       "x_url": "https://x.com/NewsMyPrecious/status/2121575480851902831"
+    },
+    {
+      "headline": "Torchcast AI、意思決定モデル「Torchcast Decision 31B v1.0」をオープン公開——JevBenchでオープンウェイト首位（89.5）",
+      "summary": "Torchcast AIは意思決定特化モデル「Torchcast Decision 31B v1.0」の重みをHugging Faceで公開した。Gemma 4 31B系のファインチューンで、独立ベンチマークJevBench v1.8.10のCapability（公式のコスト・速度上限内）で89.5を記録し、オープンウェイトモデル首位となった。Torchcast AI公式投稿とJevBenchのランキングで確認した。",
+      "url": "https://huggingface.co/torchcast-ai/torchcast-decision-31b",
+      "source": "Torchcast AI",
+      "topic": "モデル",
+      "collected_at": "2026-11-15T05:30:11+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/airesearch12/status/2121259414581842400/photo/1"
+    },
+    {
+      "headline": "オープンソース3D CAD「SolidCraft」が公開5週間で150万ダウンロード——AIエージェント連携対応のパラメトリックCAD",
+      "summary": "米国の個人開発者Brennen Herbruck氏がAIを活用して開発したオープンソースのパラメトリック3D CAD「SolidCraft」が、2026年10月の公開から約5週間で正式版58リリースを重ね、GitHubダウンロード約150万回・スター約1万6000に達した。Rust製でWindows/macOS/Linux/FreeBSDとブラウザで動作し、MCP経由でAIエージェントによるモデリング操作にも対応する。11月14日公開のFabSceneのインタビュー記事で確認した。",
+      "url": "https://fabscene.com/new/interview/solidcraft-open-source-cad-ai-1-5m-downloads-brennen-herbruck/",
+      "source": "FabScene",
+      "topic": "建設×AI",
+      "collected_at": "2026-11-15T05:30:11+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/spam_813/status/2121616536049967456"
+    },
+    {
+      "headline": "ファミリーマート、フィジカルAI飲料補充ロボットを2027年1月から全国店舗へ本格導入へ——補充時間を約7割削減見込み",
+      "summary": "ファミリーマートは人手不足対策として、飲料を自動で補充するフィジカルAI活用ロボットを2027年1月から全国の店舗に本格導入する方針を固めた。東京のベンチャー企業と共同開発し、カメラで売り場の欠品を判断して1日最大1,800本を補充でき、飲料補充にかかる時間を約7割削減できる見込み。2022年から一部店舗へ導入し、補充速度などの改良を重ねてきた。11月12日のNHK報道で確認した。",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261111de74472",
+      "source": "NHK",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-15T05:30:11+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/mohno/status/2121618311775703164"
+    },
+    {
+      "headline": "Cursor、偽Claude Code拡張機能事件の調査結果を公表——発端はFireworksの鍵露出、最大5,000人が悪性ビルドを受領",
+      "summary": "Cursorは11月13日、10月29日に同社の拡張機能マーケットプレイスへClaude Code拡張機能の悪性コピーが置かれた事件の調査結果を公表した。発端は取引先FireworksがCursor発行のアクセスキーを露出させたことで、攻撃者は改ざん版（2.1.312／2.1.313）を約11時間公開し、最大5,000人が受領した可能性がある。非Privacy Modeのコーディングエージェントのトレースが流出した利用者は0.05%未満で全員に通知済みとし、攻撃者の活動は11月1日を最後に封じ込めたとしている。Cursor公式ブログで確認した。",
+      "url": "https://cursor.com/blog/security-incident-update",
+      "source": "Cursor",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-15T05:30:11+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/iRandeepRana/status/2121611614281773112/photo/1"
     }
   ]
 }
