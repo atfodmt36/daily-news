@@ -1,0 +1,299 @@
+{
+  "date": "2026/11/16",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-15T08:00:00+09:00",
+    "to": "2026-11-16T08:00:00+09:00"
+  },
+  "itemCount": 18,
+  "items": [
+    {
+      "headline": "Autodesk傘下MaintainX、設備保全AI「Asset Intelligence」を発表",
+      "summary": "Autodesk傘下のMaintainXが設備保全向け新機能「Asset Intelligence」を発表した。OTデータや振動などの機械データを接続し、AIが異常を検知して推奨対応付きアラートを作業指示（ワークオーダー）化することで、故障前の保全につなげる。公式ブログで一次情報を確認済み。",
+      "url": "https://www.getmaintainx.com/blog/introducing-asset-intelligence",
+      "otherUrls": [],
+      "source": "MaintainX",
+      "topic": "建設×AI",
+      "section": "建設×AI",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-15T09:26:11+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Framer、Agentによる画像生成と生成シェーダーを公開",
+      "summary": "Framerが11月12日、サイト制作Agentに画像生成と生成シェーダー機能を追加した。サイトに合うカスタム画像・テクスチャ・イラストをAgentへ依頼できるほか、キャンバス上の画像の差し替え、背景除去、再スタイルや、ハーフトーン等のシェーダー生成・調整にも対応する。公式アップデートで確認済み。",
+      "url": "https://www.framer.com/updates",
+      "otherUrls": [],
+      "source": "Framer",
+      "topic": "画像生成・編集",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-15T13:25:42+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Recraft、高速画像モデル「V4.1 Flash V2」を公開——生成中央値1.1秒、価格は据え置き",
+      "summary": "Recraftが11月13日、高速画像モデル「V4.1 Flash V2」を公開した。プロンプトから画像までの生成時間は中央値1.1秒（初代1.3秒）で、画像内テキストや細部の描写、写真らしさが改善された。価格は初代と同じ1枚0.007ドルで、StudioとAPI（モデルID recraftv4_1_flash_v2）で利用できる。公式ブログと変更履歴で確認済み。",
+      "url": "https://www.recraft.ai/blog/meet-recraft-v4-1-flash",
+      "otherUrls": [],
+      "source": "Recraft",
+      "topic": "画像生成・編集",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-15T13:25:42+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "ワークス・ジャパン、生成AI標準搭載の中途採用ATS「e2R Career」を発表——12月1日提供開始",
+      "summary": "ワークス・ジャパンが11月13日、生成AIを標準搭載した中途採用向け採用管理システム「e2R Career」を2026年12月1日より提供開始すると発表した。AIアシスタントが書類要約や面接質問案など選考の判断材料を整え、合否判断は人が担う設計。全プランに追加費用なしで標準搭載され、先行デモの受付を開始した。PR TIMESのプレスリリースで確認済み。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000162.000046760.html",
+      "otherUrls": [],
+      "source": "株式会社ワークス・ジャパン（PR TIMES）",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-15T13:25:42+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "AWS、Bedrock AgentCoreの次世代ランタイムを新規ランタイムのデフォルトに——2GBイメージのP75起動は29.7秒から2秒未満へ",
+      "summary": "AWSが11月12日、Amazon Bedrock AgentCoreの次世代ランタイム（V2）を東京を含む19リージョンで新規ランタイムのデフォルトにした。初期化済みエージェントのスナップショットからセッションを復元し、最大8 vCPU・32GBメモリ、コンテナイメージ10GBまで対応。マルチターンAgentでは課金メモリが最大68%減るとする。既存ランタイムは自動移行されず、platformVersionをV2に設定して移行する。AWS What's New公式発表で確認済み。",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/new-agentcore-runtime-default/",
+      "otherUrls": [],
+      "source": "AWS (What's New)",
+      "topic": "エージェント",
+      "section": "エージェント",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-15T15:16:36+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Microsoft Frontier Company、約500件のAI案件の知見を公表——成果の鍵は技術より運用",
+      "summary": "Microsoftが11月12日、Frontier Companyが28カ国・200社超の顧客と約500件のAI案件に取り組んだと公式ブログで公表した。初期案件を完了した顧客の大半が追加案件に進み、数百件の継続プロジェクトが生まれたとする。引用されたIDC調査では66%の組織が大きな成果を報告する一方、継続的に価値を引き出せているのは48%にとどまり、AI導入の課題は技術の準備状況より運用面に移ったと分析した。Microsoft公式ブログで確認済み。",
+      "url": "https://blogs.microsoft.com/blog/2026/11/12/from-ai-ambition-to-business-impact/",
+      "otherUrls": [],
+      "source": "Microsoft（公式ブログ）",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-15T21:23:23+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "AI開発の重心は周辺設計へ、ハーネス等4概念を整理した記事が話題",
+      "summary": "AI開発の重心がモデルの賢さからモデルを囲む仕組みの設計へ移っていると整理した記事が紹介された。ハーネス、ループ、グラフ、ファクトリーという4つの概念の関係をすっきり整理している点が評価されている。エージェント開発の方法論が体系化されつつある流れを把握するのに役立つ記事として共有されている。",
+      "url": "https://x.com/kkitase/status/2121750537347690739",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-16T07:34:02+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Agent開発は検証器と決定論的ステップの設計が鍵との議論",
+      "summary": "AIエージェントによる開発で信頼性を高める設計の考え方が話題になっている。先に検証器を作り、通るまでエージェントにコードを生成させるのが新しい開発スタイルだとの見方が支持された。また、優れたエージェントシステムほど地味な決定論的ステップを多く含み、あらゆる問題にLLMエージェントを追加しても信頼性は上がらず誤差が累積するとの指摘も出ている。",
+      "url": "https://x.com/Yuchenj_UW/status/2122034320823247091",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "section": "エージェント",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-16T07:34:02+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Anthropic、Q3営業損失$567M、アナリスト評価額$1.7T【続報】",
+      "summary": "AnthropicのIPO計画の続報。The Informationによると、Q3の営業損失$567Mは主に短期の計算資源コストと$2Bの従業員寄付マッチングによるものだった。アナリストによる評価額は$1.7Tで、強気シナリオでは$3.4Tに達するとの見方も示されている。IPOでの調達目標は$90.4Bで実現すれば史上最大規模となり、AI投資の回収を示せるかが試されている。報道ベースで未確認。",
+      "url": "https://x.com/business/status/2122043214370594979",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-16T07:34:02+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Appleのスマートグラス、Siriのアプリ連携が目玉機能に【続報】",
+      "summary": "AppleのAIスマートグラス開発の続報。Mark Gurman氏によると、ペアリングしたiPhoneのアプリ経由でSiriがUberや飲食店の予約、コーヒーの注文を行えるアプリ連携が目玉機能とされる。社内では「顔のためのAirPods」と呼ばれ、WWDC 2027での発表と年内の出荷を目指してきたが、ソフトウェア開発が遅れており時期は不透明だと伝えられている。報道ベースで未確認。",
+      "url": "https://x.com/markgurman/status/2121982333238612094",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-16T07:34:02+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "DeepSeekの$92B評価ラウンドにCATLや闇チップ供給元も参加と報道【続報】",
+      "summary": "DeepSeekの資金調達の続報。The Informationが評価額$92Bの調達ラウンドの参加企業を独占報道し、TencentやCATLの名が挙がった。闇市場でのNVIDIAチップの主要な供給源と目される企業群もこのラウンドに加わったとされる。米議会がAIチップ輸出規制の強化に動く中で、対中規制の実効性を問う報道として注目を集めている。報道ベースで未確認。",
+      "url": "https://x.com/theinformation/status/2122079699648082281",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-16T07:34:02+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Fable 5.2、正答率Opus 5.5並みで解決コスト2.8倍との比較分析【続報】",
+      "summary": "Claude Fable 5.2とOpus 5.5の使い分けに関する続報。Claude Code 2.1.322での52件のコーディングタスクで両者の正答率は84.6%と82.7%とほぼ同等だったが、Fable 5.2は解決1件あたり2.80倍のコストだったと報告された。普段はOpus 5.5を使い、苦戦したらeffortを上げ、大規模移行など本当に難しい作業だけFableに回す運用が勧められている。投稿ベースの分析で未確認。",
+      "url": "https://x.com/addyosmani/status/2121732470118965298",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "Claude",
+      "section": "エージェント",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-16T07:34:02+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "HF transformers、ONNX等へのエクスポート機能を追加",
+      "summary": "Hugging Faceのtransformersに、モデルを各種形式へ書き出すエクスポート機能が追加された。ONNX、ExecuTorch、OpenVINOなどへの変換や量子化を手軽に行え、同じ入力で同じ出力が得られるとされる。手パッチやサイズ増、精度低下が起きがちだったモデル変換の手間をかなり吸収していると評価されている。",
+      "url": "https://x.com/webbigdata/status/2121852915652644950",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-16T07:34:02+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Huang氏がNVIDIA CEO復帰を側近と協議とFT報道【続報】",
+      "summary": "NVIDIAのJensen Huang CEO辞任の続報。FTによると、Huang氏は側近とCEO復帰の可能性を協議し、支持者は取締役会やホワイトハウスに働きかけている。一方でBessent財務長官は外部CEOによる経営の劇的な刷新が必要と述べ、Dan Ives氏も復帰はないとみている。Huang氏は議会の非公開証言に応じたとされ、議会では対中AIチップ輸出規制の強化も進んでいる。報道ベースで未確認。",
+      "url": "https://x.com/FT/status/2122045928987123914",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-16T07:34:02+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "PostgreSQL 19が延期、AIコードレビューで新機能取り下げか",
+      "summary": "PostgreSQL 19のリリース延期の背景を解説する記事が公開された。β4で多くの新機能の取り下げが発生しており、その原因はAIによるコードレビューではないかとされている。大規模OSSの開発プロセスにAIレビューが与える影響を示す事例として注目される。原因は推測ベースで未確認。",
+      "url": "https://x.com/publickey/status/2121963288183574889",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-16T07:34:02+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Uber、契約書修正AgentにLoop学習を組み込んだ事例が紹介",
+      "summary": "UberのLegal Redlining Agentを紹介する記事が共有された。契約書の修正提案を行うAgentに、ループ学習をソフトウェアとして組み込む実践的な取り組みで、運用しながらAgentを改善していく仕組みづくりの参考になる事例として評価されている。",
+      "url": "https://x.com/po3rin/status/2121855773869474180",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-16T07:34:02+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "関西Kaggler会発でKaggle「Name That LLM」コンペに参加の動き",
+      "summary": "関西Kaggler会でKaggleのName That LLMコンペに取り組もうと盛り上がり、参加を表明する声が出ている。コンペの締切は1月14日で、年末年始に取り組むコンペの候補になる。あわせてKaggle関連の勉強会用アカウントも作られ、2月までの勉強会開催が予定されている。",
+      "url": "https://x.com/currypurin/status/2121854912900591902",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-16T07:34:02+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Tontaube、音声クローン対応のTTSモデル「Tontaube V1.1」を公開——4ビット版は1.8GBでCPUでも動作、話し方の調整スライダーを追加",
+      "summary": "TontaubeAIがテキスト読み上げモデル「Tontaube V1.1」をHugging Faceで公開した。Qwen3ベースの計2.9Bパラメータで、5〜60秒の参照音声から声をクローンでき、英語・ドイツ語を中心に7言語に対応する。前版からは話速や間、抑揚などを調整する5種のスタイルスライダーと音質を整えるアダプターが加わり、4ビット量子化版（1.8GB）は小型GPUやCPUでも動く。評価数値は前版V1の提供元公表に基づく。Hugging Faceのモデルカードで確認した。オーナーのいいねが端緒。",
+      "url": "https://huggingface.co/TontaubeAI/TontaubeV1.1-int4",
+      "otherUrls": [],
+      "source": "TontaubeAI (Hugging Face)",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "section": "モデル",
+      "collectedFrom": [
+        "x-likes"
+      ],
+      "collected_at": "2026-11-16T08:03:00+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    }
+  ]
+}
