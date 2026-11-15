@@ -1,0 +1,23 @@
+{
+  "date": "2026/11/16",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-15T08:00:00+09:00",
+    "to": "2026-11-16T08:00:00+09:00"
+  },
+  "source": "x-likes",
+  "itemCount": 1,
+  "items": [
+    {
+      "breaking": false,
+      "collected_at": "2026-11-16T08:03:00+09:00",
+      "headline": "Tontaube、音声クローン対応のTTSモデル「Tontaube V1.1」を公開——4ビット版は1.8GBでCPUでも動作、話し方の調整スライダーを追加",
+      "source": "TontaubeAI (Hugging Face)",
+      "summary": "TontaubeAIがテキスト読み上げモデル「Tontaube V1.1」をHugging Faceで公開した。Qwen3ベースの計2.9Bパラメータで、5〜60秒の参照音声から声をクローンでき、英語・ドイツ語を中心に7言語に対応する。前版からは話速や間、抑揚などを調整する5種のスタイルスライダーと音質を整えるアダプターが加わり、4ビット量子化版（1.8GB）は小型GPUやCPUでも動く。評価数値は前版V1の提供元公表に基づく。Hugging Faceのモデルカードで確認した。オーナーのいいねが端緒。",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "unconfirmed": false,
+      "url": "https://huggingface.co/TontaubeAI/TontaubeV1.1-int4",
+      "x_url": "https://x.com/TeksEdge/status/2121756314682708184"
+    }
+  ]
+}
