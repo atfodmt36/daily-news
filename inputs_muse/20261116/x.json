@@ -1,22 +1,52 @@
 {
-  "date": "2026/11/16",
-  "timezone": "Asia/Tokyo",
-  "window": {
-    "from": "2026-11-15T08:00:00+09:00",
-    "to": "2026-11-16T08:00:00+09:00"
+ "date": "2026/11/16",
+ "timezone": "Asia/Tokyo",
+ "window": {
+  "from": "2026-11-15T08:00:00+09:00",
+  "to": "2026-11-16T08:00:00+09:00"
+ },
+ "source": "x",
+ "itemCount": 4,
+ "items": [
+  {
+   "headline": "Autodesk傘下MaintainX、設備保全AI「Asset Intelligence」を発表",
+   "summary": "Autodesk傘下のMaintainXが設備保全向け新機能「Asset Intelligence」を発表した。OTデータや振動などの機械データを接続し、AIが異常を検知して推奨対応付きアラートを作業指示（ワークオーダー）化することで、故障前の保全につなげる。公式ブログで一次情報を確認済み。",
+   "url": "https://www.getmaintainx.com/blog/introducing-asset-intelligence",
+   "source": "MaintainX",
+   "topic": "建設×AI",
+   "collected_at": "2026-11-15T09:26:11+09:00",
+   "unconfirmed": false,
+   "x_url": "https://x.com/maintainx/status/2121758428213170292"
   },
-  "source": "x",
-  "itemCount": 1,
-  "items": [
-    {
-      "headline": "Autodesk傘下MaintainX、設備保全AI「Asset Intelligence」を発表",
-      "summary": "Autodesk傘下のMaintainXが設備保全向け新機能「Asset Intelligence」を発表した。OTデータや振動などの機械データを接続し、AIが異常を検知して推奨対応付きアラートを作業指示（ワークオーダー）化することで、故障前の保全につなげる。公式ブログで一次情報を確認済み。",
-      "url": "https://www.getmaintainx.com/blog/introducing-asset-intelligence",
-      "source": "MaintainX",
-      "topic": "建設×AI",
-      "collected_at": "2026-11-15T09:26:11+09:00",
-      "unconfirmed": false,
-      "x_url": "https://x.com/maintainx/status/2121758428213170292"
-    }
-  ]
+  {
+   "headline": "Recraft、高速画像モデル「V4.1 Flash V2」を公開——生成中央値1.1秒、価格は据え置き",
+   "summary": "Recraftが11月13日、高速画像モデル「V4.1 Flash V2」を公開した。プロンプトから画像までの生成時間は中央値1.1秒（初代1.3秒）で、画像内テキストや細部の描写、写真らしさが改善された。価格は初代と同じ1枚0.007ドルで、StudioとAPI（モデルID recraftv4_1_flash_v2）で利用できる。公式ブログと変更履歴で確認済み。",
+   "url": "https://www.recraft.ai/blog/meet-recraft-v4-1-flash",
+   "source": "Recraft",
+   "topic": "画像生成・編集",
+   "collected_at": "2026-11-15T13:25:42+09:00",
+   "unconfirmed": false,
+   "x_url": "https://x.com/recraftai/status/2121261691363299749"
+  },
+  {
+   "headline": "Framer、Agentによる画像生成と生成シェーダーを公開",
+   "summary": "Framerが11月12日、サイト制作Agentに画像生成と生成シェーダー機能を追加した。サイトに合うカスタム画像・テクスチャ・イラストをAgentへ依頼できるほか、キャンバス上の画像の差し替え、背景除去、再スタイルや、ハーフトーン等のシェーダー生成・調整にも対応する。公式アップデートで確認済み。",
+   "url": "https://www.framer.com/updates",
+   "source": "Framer",
+   "topic": "画像生成・編集",
+   "collected_at": "2026-11-15T13:25:42+09:00",
+   "unconfirmed": false,
+   "x_url": "https://x.com/duckai_lab/status/2121810249698988518"
+  },
+  {
+   "headline": "ワークス・ジャパン、生成AI標準搭載の中途採用ATS「e2R Career」を発表——12月1日提供開始",
+   "summary": "ワークス・ジャパンが11月13日、生成AIを標準搭載した中途採用向け採用管理システム「e2R Career」を2026年12月1日より提供開始すると発表した。AIアシスタントが書類要約や面接質問案など選考の判断材料を整え、合否判断は人が担う設計。全プランに追加費用なしで標準搭載され、先行デモの受付を開始した。PR TIMESのプレスリリースで確認済み。",
+   "url": "https://prtimes.jp/main/html/rd/p/000000162.000046760.html",
+   "source": "株式会社ワークス・ジャパン（PR TIMES）",
+   "topic": "ビジネス・人材",
+   "collected_at": "2026-11-15T13:25:42+09:00",
+   "unconfirmed": false,
+   "x_url": "https://x.com/ahkuhmy/status/2121773324770361537"
+  }
+ ]
 }
