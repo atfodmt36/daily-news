@@ -1,0 +1,22 @@
+{
+  "date": "2026/11/16",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-15T08:00:00+09:00",
+    "to": "2026-11-16T08:00:00+09:00"
+  },
+  "source": "x",
+  "itemCount": 1,
+  "items": [
+    {
+      "headline": "Autodesk傘下MaintainX、設備保全AI「Asset Intelligence」を発表",
+      "summary": "Autodesk傘下のMaintainXが設備保全向け新機能「Asset Intelligence」を発表した。OTデータや振動などの機械データを接続し、AIが異常を検知して推奨対応付きアラートを作業指示（ワークオーダー）化することで、故障前の保全につなげる。公式ブログで一次情報を確認済み。",
+      "url": "https://www.getmaintainx.com/blog/introducing-asset-intelligence",
+      "source": "MaintainX",
+      "topic": "建設×AI",
+      "collected_at": "2026-11-15T09:26:11+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/maintainx/status/2121758428213170292"
+    }
+  ]
+}
