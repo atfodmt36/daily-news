@@ -1,0 +1,367 @@
+{
+  "date": "2026/11/17",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-16T08:00:00+09:00",
+    "to": "2026-11-17T08:00:00+09:00"
+  },
+  "source": "claude-code",
+  "itemCount": 19,
+  "items": [
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Copilot CoworkにWorkforce Intelligenceプラグインが提供開始(2026年11月16日)",
+      "summary": "Copilot CoworkのWorkforce Intelligenceプラグインが2026年11月16日より提供開始され、リーダーが組織構造・スキル・人員数・レポートライン等を自然言語で照会できる。ステータスはFrontierプログラム(ワールドワイド)のパブリックプレビューで、Microsoft 365 Copilotライセンス・Coworkアクセス・Frontier参加・Workforce Insightsの設定が前提。追加のデータアクセス権は付与されず、従業員評価や人事判断には使用不可。",
+      "url": "https://mc.merill.net/message/MC1552389",
+      "source": "Microsoft 365 Message Center (MC1552389)",
+      "published_at": "2026-11-16T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "preview",
+      "tags": [
+        "date-only",
+        "cowork",
+        "frontier",
+        "admin"
+      ],
+      "related_urls": [
+        "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/copilot-that-understands-your-organization-introducing-people-and-org-context-in/4573356"
+      ],
+      "collected_at": "2026-11-17T08:27:15+09:00"
+    },
+    {
+      "topic": "Claude",
+      "headline": "Claudeモデルの生成テキストに電子透かしを導入",
+      "summary": "Opus 4.6/4.5、Sonnet 4.5、Haiku 4.5が生成するテキストに、対応プラットフォーム上でAnthropicの電子透かしが付与されるようになった。ただしtemperature・top_p・top_kを既定値以外に設定したリクエストでは透かしが付かない場合がある。",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "source": "Claude Platform Release Notes",
+      "published_at": "2026-11-16T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "date-only",
+        "api",
+        "safety"
+      ],
+      "related_urls": [
+        "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+        "https://platform.claude.com/docs/en/build-with-claude/text-watermark"
+      ],
+      "collected_at": "2026-11-17T08:27:15+09:00"
+    },
+    {
+      "topic": "Claude Code",
+      "headline": "Claude Code v2.1.326:エージェントチーム有効時のCode Mode対応と権限・サンドボックス強化",
+      "summary": "エージェントチーム有効時にもCode Modeが利用可能になり、以前チームを有効化していたセッションはCode Modeで起動する。加えてBashサンドボックス保護とCode Modeの権限チェックを強化し、機微なホームフォルダへの書き込みを既定で制限(sandbox.filesystem.allowWriteで許可可)、MCPツールのanyOf/oneOfスキーマ処理やリモートコントロールのストリーミングなど多数の改善を含む。",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
+      "source": "Claude Code GitHub Releases",
+      "published_at": "2026-11-17T07:11:05+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "borderline",
+        "sandbox",
+        "permissions",
+        "mcp",
+        "subagents"
+      ],
+      "related_urls": [
+        "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md"
+      ],
+      "collected_at": "2026-11-17T08:27:15+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "OpenAI、研究者向け無料プログラムを拡大し世界20万人にフロンティアモデルを提供",
+      "summary": "OpenAIは「ChatGPT for Academic Researchers」を拡大し、世界で最大20万人の研究者にフロンティアモデルへの無料アクセスを提供すると発表した。新たに5万件の助成枠を先着順で付与し、各助成は本人と最大2名の共同研究者にChatGPT Plusを無料提供する(次回応募受付は11月23日開始)。",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "source": "OpenAI News",
+      "published_at": "2026-11-16T17:00:00+00:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "chatgpt",
+        "research",
+        "access-program"
+      ],
+      "related_urls": [
+        "https://www.semafor.com/article/11/16/2026/openai-announces-program-boosting-access-to-ai-for-scientists"
+      ],
+      "collected_at": "2026-11-17T08:27:15+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "OpenAI、ChatGPT for Healthcareにコンピュータ操作エージェントと20以上のプラグインを追加",
+      "summary": "OpenAIはChatGPT for Healthcareを拡張し、既存の医療ソフト上で多段階業務(事前承認・紹介・退院計画など)をこなすコンピュータ操作エージェント、改善された臨床検索、20以上の医療プラグインを導入した。対象組織はAWS Marketplace経由でも購入可能になった。",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "source": "OpenAI News",
+      "published_at": "2026-11-16T06:00:00+00:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "chatgpt",
+        "healthcare",
+        "agents"
+      ],
+      "related_urls": [
+        "https://openai.com/index/advancing-computer-use-for-healthcare-teams"
+      ],
+      "collected_at": "2026-11-17T08:27:15+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "OpenAI、AI生成を識別できるCSAM画像分類器をAPIで無償提供開始",
+      "summary": "OpenAIはCSAM(児童性的虐待素材)およびAI生成CSAMの可能性を個別に示す画像分類モデル「omni-moderation-csam-latest」を、承認された組織向けにAPIで無償提供すると発表した。NCMECと共同開発し、従来比48%少ないフラグで同数の虐待画像を検出する。",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "source": "OpenAI API Changelog",
+      "published_at": "2026-11-16T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "api",
+        "moderation",
+        "safety",
+        "date-only"
+      ],
+      "related_urls": [
+        "https://openai.com/index/strengthening-online-child-safety"
+      ],
+      "collected_at": "2026-11-17T08:27:15+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "OpenAI、オンライン児童性的虐待対策の新ツール・ガイダンス・提携を発表",
+      "summary": "OpenAIは、オンラインでの児童性的搾取・虐待の防止・検出・対応を目的とした新ツール、実務ガイダンス、パートナーシップを発表した。ChatGPT上での警告表示やCSAM関連利用に対する措置も含まれる。",
+      "url": "https://openai.com/index/strengthening-online-child-safety",
+      "source": "OpenAI News",
+      "published_at": "2026-11-16T17:00:00+00:00",
+      "unconfirmed": false,
+      "status": "policy",
+      "tags": [
+        "chatgpt",
+        "safety",
+        "trust-and-safety"
+      ],
+      "collected_at": "2026-11-17T08:27:15+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "OpenAI、独立評価機関4社による「埋め込み型評価」第1段階を開始",
+      "summary": "OpenAIはApollo Research、METR、Transluce、Goodfireの4社と協力し、モデルのアラインメント・セーフガード・監視システムを独立的に評価する「embedded assessments(埋め込み型評価)」の第1段階を開始すると発表した。",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "source": "OpenAI News",
+      "published_at": "2026-11-16T08:00:00+00:00",
+      "unconfirmed": false,
+      "status": "policy",
+      "tags": [
+        "safety",
+        "evaluation",
+        "alignment"
+      ],
+      "related_urls": [
+        "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/"
+      ],
+      "collected_at": "2026-11-17T08:27:15+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "OpenAI、科学者のChatGPT活用実態を調査した「Science at the Frontier」を公開",
+      "summary": "OpenAIは1,800人超の科学者が研究でChatGPTをどう活用しているかを調査した報告「Science at the Frontier」を公開し、ワークフロー・生産性・発見への期待を分析した。",
+      "url": "https://openai.com/index/science-at-the-frontier",
+      "source": "OpenAI News",
+      "published_at": "2026-11-16T12:00:00+00:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "chatgpt",
+        "research",
+        "report"
+      ],
+      "collected_at": "2026-11-17T08:27:15+09:00"
+    },
+    {
+      "topic": "建設×AI",
+      "headline": "フィーチャ、建築図面の不整合をAIで検出する『建築図面照合AI』を開発し無償検証の受付を開始",
+      "summary": "フィーチャは意匠・構造・設備・電気など分野や版の異なる図面一式を一つの建物として読み解き、図面間の食い違いや版の混在を根拠付きで提示する『建築図面照合AI』を開発した。ブラウザ上の3Dビューアで関係者と共有でき、DXF・DWGに対応、顧客図面を用いた無償検証の受付を開始した。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000013.000049228.html",
+      "source": "フィーチャ株式会社（PR TIMES）",
+      "published_at": "2026-11-16T10:30:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "建築",
+        "設計",
+        "検図",
+        "図面解析"
+      ],
+      "related_urls": [
+        "https://ficha.jp/drawing-ai/",
+        "https://www.zaikei.co.jp/releases/3716826/"
+      ],
+      "collected_at": "2026-11-17T08:27:15+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "Voyager、動画1本から3DGSを生成する「Vauss」をリサーチプレビュー公開",
+      "summary": "Voyagerが、1本の動画からキャプチャ検証・フレーム選択・カメラ推定・学習までを単一コマンドで実行するGaussian Splatトレーナー「Vauss」をソース公開型で発表。ブラウザビューア、Blender/Unity向けメッシュ、一人称ボクセルゲーム出力やClaude Code等のAIエージェント連携に対応。",
+      "url": "https://github.com/voyager-so/vauss",
+      "source": "Voyager (GitHub)",
+      "published_at": "2026-11-16T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "date-only",
+        "Gaussian Splatting",
+        "tool",
+        "video-to-3D"
+      ],
+      "related_urls": [
+        "https://radiancefields.com/voyager-releases-vauss-splat-trainer-as-a-research-preview"
+      ],
+      "collected_at": "2026-11-17T08:27:15+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "Blender 5.3向けGaussian Splatエクスポート拡張「Splat Prep」登場",
+      "summary": "Nico Hartl(Polyhart)が、Blenderの標準スプラット機能を補うBlender 5.3拡張「Splat Prep」($19)を公開。トランスフォームのベイク、スプラット結合、フロータ除去などのクリーンアップ、PLY/圧縮PLY/SPZ/.splat形式での書き出しに対応。",
+      "url": "https://nico-hartl.itch.io/splat-prep-import-fix-clean-up-and-export-gaussian-splats",
+      "source": "itch.io (Polyhart)",
+      "published_at": "2026-11-16T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "date-only",
+        "Gaussian Splatting",
+        "Blender",
+        "tool"
+      ],
+      "related_urls": [
+        "https://radiancefields.com/splat-prep-brings-splat-export-to-blender-5-3"
+      ],
+      "collected_at": "2026-11-17T08:27:15+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "District Cinema、3DGS対応のブラウザ型映像制作プラットフォーム「Terra」を一般公開",
+      "summary": "District Cinemaが、3DスキャンやGaussian Splat(PLY/SPZ/SPLAT/KSPLAT等)をアップロードして共同編集できるブラウザ型映像制作プラットフォーム「Terra」を一般公開。ロケハン、バーチャルカメラ(CineCam)、セット計画、天候表現などに対応し、無料枠と月額$29のStarterプランを提供。",
+      "url": "https://districtcinema.com/terra",
+      "source": "District Cinema",
+      "published_at": "2026-11-16T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "date-only",
+        "Gaussian Splatting",
+        "platform"
+      ],
+      "related_urls": [
+        "https://radiancefields.com/district-cinema-opens-terra-to-the-public"
+      ],
+      "collected_at": "2026-11-17T08:27:15+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "Pipefy調査：米企業の34.2%が「統制なし」で従業員が公開AIツールを利用、業務別AIエージェント導入はカスタマーサービス35%が最多",
+      "summary": "Pipefyが米・ブラジルの148社を対象に実施した調査で、米企業の34.2%が従業員による公開AIツール利用を管理・可視化・方針なしで放置していると回答。AIエージェントの業務別導入はカスタマーサービス35%、財務19%、シェアードサービス13%、人事10%の順で、AI活用ポテンシャルはデータ分析32%・顧客対応22%・営業11%だった。",
+      "url": "https://globenewswire.com/news-release/2026/11/16/3403731/0/en/more-than-34-of-u-s-companies-report-that-employees-use-ai-tools-with-no-governance-policy-according-to-pipefy-survey.html",
+      "source": "Pipefy（GlobeNewswire）",
+      "published_at": "2026-11-16T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "date-only",
+        "調査",
+        "企業AI導入",
+        "ガバナンス"
+      ],
+      "collected_at": "2026-11-17T08:27:15+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "ラクス、インボイス記載要件を自動判定する「適格請求書チェックAI」を発表（経理バックオフィス向け）",
+      "summary": "ラクスは経費精算システム利用の2万社超に向け、領収書・請求書が適格請求書の記載要件(発行者名・登録番号・税率別金額・消費税等)を満たすかをAIで自動判定し「適格/適格簡易/要確認」に分類する「適格請求書チェックAI」を発表。30ユーザー以上で月額5,000円(税別)、機能提供は11月6日開始。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000248.000017058.html",
+      "source": "株式会社ラクス（PR TIMES）",
+      "published_at": "2026-11-16T10:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "borderline",
+        "業務×AI",
+        "経理",
+        "製品ローンチ"
+      ],
+      "collected_at": "2026-11-17T08:27:15+09:00"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "headline": "GitHub Copilot週次リリース(11/9版): GitHub Enterprise Serverリポジトリ対応や新モデル追加",
+      "summary": "2026年11月16日公開の週次リリースで、GitHub Enterprise ServerリポジトリのCopilotアプリ取り込みがGA、VS Codeでの対応待ちエージェントセッション表示(実験的)、新モデルClaude Fable 5.2とGemini 4 Carbonの追加(Pro+/Max/Business/Enterprise向け)、モバイルでのクラウドセッション継続、会話中のMCPサーバー再認証、Project自動化の分単位スケジュールに対応。",
+      "url": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9/",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-16T21:34:53+00:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "weekly-release",
+        "models",
+        "vscode"
+      ],
+      "collected_at": "2026-11-17T08:27:15+09:00"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "headline": "GitHub Copilotで3モデルを非推奨化(Claude Opus 4.8 / Opus 5 / GPT-5.6 Terra)",
+      "summary": "2026年11月16日付でClaude Opus 4.8、Claude Opus 5、GPT-5.6 Terraの3モデルがCopilot Chat・インライン編集・ask/agentモード・コード補完を含む大半のCopilot体験で非推奨化。代替はOpus系がClaude Opus 5.5、GPT-5.6 TerraがGPT-6.1 SolまたはGPT-6 Luna。ただしClaude Opus 4.8は年間プランの個人サブスクライバーには引き続き提供される。",
+      "url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026/",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-16T20:25:20+00:00",
+      "unconfirmed": false,
+      "status": "deprecated",
+      "tags": [
+        "models",
+        "deprecation"
+      ],
+      "collected_at": "2026-11-17T08:27:15+09:00"
+    },
+    {
+      "topic": "その他",
+      "headline": "NVIDIA、科学研究向け「Nemotron for Science」を発表",
+      "summary": "NVIDIAはSC26で科学研究を加速する「Nemotron for Science」を発表した。マルチモーダルオープンモデル「Nemotron 3.5 Super VL」と約5万問の化学推論データセット「LitmusBench v0.2」、ポストトレーニング手法を含み、化学・ライフサイエンス・タンパク質設計・材料科学向けの専門エージェント構築を支援する。モデルとデータセットはHugging Faceで即時提供。",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents",
+      "source": "NVIDIA Newsroom",
+      "published_at": "2026-11-16T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "date-only",
+        "NVIDIA",
+        "Nemotron",
+        "オープンモデル"
+      ],
+      "related_urls": [
+        "https://www.hpcwire.com/aiwire/2026/11/16/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents/"
+      ],
+      "collected_at": "2026-11-17T08:27:15+09:00"
+    },
+    {
+      "topic": "その他",
+      "headline": "Perplexity、自律研究AIを目指す「Frontier Research」を始動",
+      "summary": "Perplexityは、自律的に研究を遂行する「自動研究者(automatic research scientist)」の構築を目指す新研究部門「Perplexity Frontier Research」を発表した。マルチエージェント協調、強化学習、継続学習、システム、事前学習などに注力し、1万基を超えるGPUを投入。論文・モデル・データ・ベンチマークをオープンに公開する方針。",
+      "url": "https://www.perplexity.ai/hub/blog/introducing-perplexity-frontier-research",
+      "source": "Perplexity",
+      "published_at": "2026-11-16T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "date-only",
+        "Perplexity",
+        "研究部門",
+        "自律エージェント"
+      ],
+      "related_urls": [
+        "https://research.perplexity.ai/"
+      ],
+      "collected_at": "2026-11-17T08:27:15+09:00"
+    }
+  ]
+}
