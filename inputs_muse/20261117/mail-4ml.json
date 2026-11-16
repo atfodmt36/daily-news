@@ -1,0 +1,102 @@
+{
+  "date": "2026/11/17",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-16T08:00:00+09:00",
+    "to": "2026-11-17T08:00:00+09:00"
+  },
+  "source": "mail-4ml",
+  "itemCount": 10,
+  "items": [
+    {
+      "headline": "Huang氏復帰を求める公開書簡にMusk氏も賛同、署名16万件超【続報】",
+      "summary": "NVIDIAのJensen Huang前CEO辞任の続報。FTによると、取締役会に「Bring Jensen Back」を求める公開書簡にElon Musk氏ら経営者が賛同し、復帰を求める署名は16万件を超えた。日本からの署名を呼びかける声も出ている。一方、議会では民主党がNVIDIAと商務省に輸出規制の不備を問う可能性があると報じられている。報道ベースで未確認。",
+      "url": "https://x.com/FT/status/2122120482228932738",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-16T19:33:39+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Google TPU、OpenAIとAnthropic向けに2028〜29年で計2600万個の需要観測",
+      "summary": "Ming-Chi Kuo氏がGoogle TPUの新規受注とv10ラインナップ変更に関する調査結果を公開した。2028〜29年の需要はOpenAI向けTPU 8tが約1200万個、Anthropic向け8iが約1400万個とされる。一方でEMIB-T基板の歩留まりや電力面から、この数量は現実的でないとの懐疑的な見方も出ている。調査ベースで未確認。",
+      "url": "https://x.com/mingchikuo/status/2122133109630194098",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-16T19:33:39+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Tencent、最安モデル「Hy4 Flash」を公開——Haiku 5.5並みで入力$0.070",
+      "summary": "TencentがHyシリーズで最速かつ最安のモデルHy4 Flashを公開した。人間のブラインドテストでClaude Haiku 5.5 (high)並みとされ、価格は1Mトークンあたり入力$0.070/出力$0.281。1Mコンテキストのマルチモーダルで、OpenCodeでは2週間ほぼ無制限に無料で使える。公式発表に基づく。",
+      "url": "https://x.com/TencentHunyuan/status/2122217770314301469",
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "collected_at": "2026-11-16T19:33:39+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Antigravity、Argon等3モデルのコンテキストウィンドウを2倍に拡大",
+      "summary": "Google AntigravityでArgon、Carbon、Hydrogenの3モデルのコンテキストウィンドウが2倍に拡大された。ユーザーターンあたりのcompaction発生が3.5分の1に減るとされる。あわせてアカウントBANの対象がAntigravityとGemini CLIのアカウントに限定されるよう規約が明確化された。",
+      "url": "https://x.com/_mohansolo/status/2122119826575646918",
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "collected_at": "2026-11-16T19:33:39+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Samsung、13B LLMを1GB未満に圧縮する手法「LittleBit」をOSS公開",
+      "summary": "SamsungがLLMの重みを極限まで圧縮する手法LittleBitをオープンソース化した。潜在因子分解を用いて重みを1ビット未満で表現し、13BパラメータのLLMを1GB未満に縮小できるとされる。エッジ端末でのLLM推論の可能性を広げる量子化手法として注目されている。",
+      "url": "https://x.com/dr_cintas/status/2122068412335608227",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-16T19:33:39+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "社内GPUのQwen3.8-27Bで探索的テストを大量実行する取り組みが公開",
+      "summary": "社内のBackground Coding Agent「haro」を基盤にした探索的テストの取り組みがブログで公開された。社内GPUで動かすQwen3.8-27Bを使い、探索的テストを長時間かつ大量に回している。AIによる探索的テストにはWhittakerのツアーが相性が良いとの知見も示されている。",
+      "url": "https://x.com/po3rin/status/2122121205876756671",
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "collected_at": "2026-11-16T19:33:39+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "外部LLM不要で重みを修正する手法「AHA」、繰り返し出力を改善",
+      "summary": "外部LLMを使わずに重み空間を直接書き換える手法AHAがブログで紹介された。ループ状態と正常状態の差をベクトルで抽出し、線形計画法で修正対象ニューロンを特定する。重みの0.002%を書き換えるだけでGSM8Kなどのスコアが向上したと報告されている。",
+      "url": "https://x.com/webbigdata/status/2122220238926393467",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-16T19:33:39+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "チューリング、カメラ座標系とAI可視化の基礎を解説する技術ブログを公開",
+      "summary": "チューリングが、AIの予測をカメラ映像に重ねる可視化を題材にした技術ブログを公開した。カメラ、座標系、運動制御の基礎を図解しながら解説している。ロボットやドローンにも通じるフィジカルAI開発向けの内容として歓迎する声が出ている。",
+      "url": "https://x.com/ymg_aq/status/2122239498138345742",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-16T19:33:39+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Anthropic調査、日本のClaude利用水準は世界32位と報道",
+      "summary": "AnthropicがClaudeの利用水準に応じて世界を4段階に分類した調査が報じられた。日本は上から2つ目の「上位中堅国」で世界32位とされ、「先進国」に大きく見劣りするとされる。日本のClaude利用度の低さを嘆く声が開発者からも上がっている。報道ベースで未確認。",
+      "url": "https://x.com/nkinvestigation/status/2122193763468788041",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-16T19:33:39+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Cloudflare、AI専用の軽量ヘッドレスブラウザ「Kitesurf」をOSS公開",
+      "summary": "CloudflareがAI専用の軽量ヘッドレスブラウザKitesurfをオープンソースで公開した。タブやテーマ、拡張機能などを持たず、AIによる利用に特化した設計とされる。ブラウザ操作Agentの実行基盤の選択肢として注目される。",
+      "url": "https://x.com/publickey/status/2122164626309947528",
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "collected_at": "2026-11-16T19:33:39+09:00",
+      "unconfirmed": false
+    }
+  ]
+}
