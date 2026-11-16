@@ -6,7 +6,7 @@
     "to": "2026-11-17T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 3,
+  "itemCount": 5,
   "items": [
     {
       "collected_at": "2026-11-16T09:27:07+09:00",
@@ -37,6 +37,24 @@
       "unconfirmed": false,
       "url": "https://www.toonippo.co.jp/articles/-/2403538",
       "x_url": "https://x.com/theokinawatimes/status/2122089389421629494"
+    },
+    {
+      "headline": "Qwen、Qwen4-Maxの詳細を公表——新MoEアーキテクチャとネイティブ視覚、Qwen3.8-Max比で使用トークン最大約50%削減を主張",
+      "summary": "AlibabaのQwen公式アカウントが11月16日、Qwen4-Maxの詳細を公表した。新しいMoEアーキテクチャとネイティブな視覚理解、100万トークンのコンテキストを備え、Qwen3.8-Maxを上回る性能を使用トークン最大約50%削減で達成し、タスクあたりの平均コストも下がるとしている。11月11日にプレビューが始まった同モデルについて、公式が性能・効率の主張を新たに提示した形（数値はQwen公式の主張）。",
+      "url": "https://x.com/Alibaba_Qwen/status/2122148127520289151",
+      "source": "Alibaba Qwen",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "x_url": "https://x.com/Alibaba_Qwen/status/2122148127520289151"
+    },
+    {
+      "headline": "OpenAI、新科学ブログの初回記事を公開——GPT-6 Astraが標準模型の格子定義候補の証明構築を主導",
+      "summary": "OpenAIが新設した科学ブログの初回記事として、物理学者Nathaniel Craig氏がGPT-6 Astraと取り組んだ標準模型の格子定義候補を公開した。50年以上未解決だった非摂動的な格子定義に向け、Astraが詳細な証明の展開を主導し、格子場理論の専門家が検証に協力したという。10月のプレプリントに基づく解説記事で、OpenAIのGreg Brockman氏もXで紹介した。",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model/",
+      "source": "OpenAI",
+      "topic": "論文・ベンチマーク",
+      "unconfirmed": false,
+      "x_url": "https://x.com/gdb/status/2122126010691060185"
     }
   ]
 }
