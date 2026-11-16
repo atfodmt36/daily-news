@@ -6,7 +6,7 @@
     "to": "2026-11-17T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 13,
+  "itemCount": 15,
   "items": [
     {
       "collected_at": "2026-11-16T09:27:07+09:00",
@@ -131,6 +131,26 @@
       "url": "https://cxotoday.com/media-coverage/squadstack-ai-launches-maya-the-worlds-first-sales-llm-beating-openai-google-and-leading-open-source-models-on-real-sales-calls/",
       "x_url": "https://x.com/MrAsifShah/status/2122294045946904848",
       "collected_at": "2026-11-16T21:29:06+09:00"
+    },
+    {
+      "collected_at": "2026-11-17T01:26:09+09:00",
+      "headline": "Liquid AI、意思決定モデル「d1.2」「d1.2-ultra」を公開—音声入力と5つの新タスクに対応、Decision Index v2.1で首位",
+      "source": "Liquid AI",
+      "summary": "Liquid AIが11月16日、意思決定モデルの新版「d1.2」と「d1.2-ultra」を公開した。テキスト・画像に加えて音声入力に対応し、値の読み取り、該当スパンの抽出、画像内の物体の位置特定、個数の推定、複数選択という5つの新タスクを追加した。d1.2-ultraはArtificial AnalysisのDecision Index v2.1で75点を記録して首位に立ち、確率の較正誤差も0.8ポイントと最小だった（いずれも同社公表値）。料金は入力100万トークンあたりd1.2が0.02ドル、d1.2-ultraが0.042ドルで、Liquid APIで即日利用できる。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://www.liquid.ai/blog/d1-2",
+      "x_url": "https://x.com/sandor_bal6746/status/2122360368614060352"
+    },
+    {
+      "collected_at": "2026-11-17T01:26:09+09:00",
+      "headline": "上海AIラボ、科学特化マルチモーダルモデル「Sage-S2.1-Flash」（321B）をオープン公開—MLE-bench Liteで首位",
+      "source": "Shanghai AI Laboratory（InternLM）",
+      "summary": "上海人工知能実験室（InternLM）が、321Bパラメータの科学特化マルチモーダルモデル「Sage-S2.1-Flash」をHugging FaceにMITライセンスで公開した。分子グラフ、結晶構造、タンパク質の配列・立体構造など10種を超える科学入力を統合表現「Sage SciPerception」で扱い、MLE-bench Liteでは90.3でDeepSeek V4.1 Flash（89.2）を上回って首位、評価した15ベンチマークのうち4つで1位だったとしている（同ラボ公表値）。重みはBF16版とFP8版が併せて公開された。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://huggingface.co/internlm/Sage-S2.1-Flash",
+      "x_url": "https://x.com/DanteMMartin/status/2122345584820695169"
     }
   ]
 }
