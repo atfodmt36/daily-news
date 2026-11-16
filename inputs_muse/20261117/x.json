@@ -6,7 +6,7 @@
     "to": "2026-11-17T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 9,
+  "itemCount": 13,
   "items": [
     {
       "collected_at": "2026-11-16T09:27:07+09:00",
@@ -91,6 +91,46 @@
       "topic": "モデル",
       "unconfirmed": false,
       "x_url": "https://x.com/poweredbymuse/status/2122221414938017947"
+    },
+    {
+      "headline": "Sakana AI、日本の金融資格試験6種・全321問のベンチマーク「JFinBench」を公開",
+      "source": "Sakana AI",
+      "summary": "Sakana AIが、公認会計士試験・税理士試験・FP技能検定1級など日本の金融資格試験6種の2026年度実施分から全321問を収録した日本語金融ベンチマーク「JFinBench」を公開し、データセット・コード・リーダーボードを併せて公開した。ツールなし設定の結果ではClaude Fable 5が95.8点、GPT-6 Astraが93.6点、オープンウェイト最上位のKimi K3.1 Proは83.4点で、閉源モデルとの知識差が示された（いずれもSakana AI公表値）。",
+      "topic": "論文・ベンチマーク",
+      "unconfirmed": false,
+      "url": "https://sakana.ai/jfinbench",
+      "x_url": "https://x.com/SakanaAILabs/status/2122251724564070518",
+      "collected_at": "2026-11-16T21:29:06+09:00"
+    },
+    {
+      "headline": "Huawei Cloud、昇騰原生の具身世界モデル「CloudRobo-WM1.2」を発表・オープンソース化",
+      "source": "第一财经／鳳凰網科技",
+      "summary": "Huawei Cloudが11月16日のオンライン発表会で、昇騰（Ascend）算力で訓練した具身世界モデル「CloudRobo-WM1.2」を発表し、重み・推論・コードのオープンソース化を表明した。世界モデル原生のDualActアーキテクチャを採用し、RoboTwin 2.0で平均成功率88.98%、Libero Pro 2.0で81.7%と、両ベンチマークで首位と同社は主張する。同日、福龍馬と共同開発した新世代清掃ロボットの先行販売も始まった。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://original.ifeng.com/c/8y6VQqOTYtg",
+      "x_url": "https://x.com/superdoccimo/status/2122284430412661224",
+      "collected_at": "2026-11-16T21:29:06+09:00"
+    },
+    {
+      "headline": "ベースミー、採用AIエージェント「BaseMe AI Agent」を提供開始—丸井グループが秋インターンで先行導入",
+      "source": "ベースミー（PR TIMES）",
+      "summary": "ベースミーが11月16日、採用企業向けの新サービス「BaseMe AI Agent」の提供開始を発表した。8万人超の学生のキャリア選択を支援してきた就活生向けAIキャリアエージェント「BaseMe」の知見をもとに開発した採用AIエージェントで、学生との対話を通じて一人ひとりの志向や関心を把握し、企業と学生の相互理解を促す。丸井グループが2026年秋のインターンシップ募集で先駆けて導入した。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://prtimes.jp/main/html/rd/p/000000085.000076773.html",
+      "x_url": "https://x.com/HRzine_jp/status/2122268458067079211",
+      "collected_at": "2026-11-16T21:29:06+09:00"
+    },
+    {
+      "headline": "SquadStack.ai、営業通話専用LLM「Maya」を発表—自社ベンチマークで96.7%",
+      "source": "SquadStack.ai（CXOToday）",
+      "summary": "インドのSquadStack.aiが11月16日、ライブ営業通話専用のLLM「Maya」を発表した。オープンウェイト基盤モデルを、6年間に集めた4億件超の実営業インタラクション（成約・コールバック・離脱の結果タグ付き）で事後学習した。自社開発のTelesales LLM Benchmark（実際の営業通話471件・9,962場面）では96.7%の合格率でOpenAIやGoogle等のモデルを上回ったと主張し、応答開始の中央値は278ミリ秒、すでに1日500万件超の会話を処理しているという（いずれも同社公表値）。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://cxotoday.com/media-coverage/squadstack-ai-launches-maya-the-worlds-first-sales-llm-beating-openai-google-and-leading-open-source-models-on-real-sales-calls/",
+      "x_url": "https://x.com/MrAsifShah/status/2122294045946904848",
+      "collected_at": "2026-11-16T21:29:06+09:00"
     }
   ]
 }
