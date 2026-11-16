@@ -1,0 +1,23 @@
+{
+  "date": "2026/11/17",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-16T08:00:00+09:00",
+    "to": "2026-11-17T08:00:00+09:00"
+  },
+  "source": "x-likes",
+  "itemCount": 1,
+  "items": [
+    {
+      "breaking": false,
+      "collected_at": "2026-11-17T08:03:19+09:00",
+      "headline": "ダッソー・システムズ、「SOLIDWORKS 2027」を11月21日に発売——AIが設計データの分析からCAD操作まで支援",
+      "source": "MONOist（ダッソー・システムズ発表）",
+      "summary": "ダッソー・システムズは11月13日、年次ユーザーイベントに併せた記者説明会で、3D設計開発ソリューション「SOLIDWORKS 2027」（11月21日発売）を紹介した。製品群全体で数百に及ぶ機能強化に加え、AIによるアセンブリのパフォーマンス分析やモデルの軽量化、設計変更に伴う影響範囲の確認など、設計業務を支援するAI機能を拡充した。仕様の組み合わせをモデルを増やさずに検討できる「バリアビリティテーブル」、締め付け手順を再現するボルト予荷重の段階的付与、SOLIDWORKS PDMのサポートバージョン拡大も含む。MONOistの記事（11月16日）で確認した。オーナーのいいねが端緒。",
+      "topic": "建設×AI",
+      "unconfirmed": false,
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/16/news037.html",
+      "x_url": "https://x.com/MONOist_itmedia/status/2122111182412853598"
+    }
+  ]
+}
