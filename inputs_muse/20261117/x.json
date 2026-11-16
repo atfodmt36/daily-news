@@ -6,7 +6,7 @@
     "to": "2026-11-17T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 15,
+  "itemCount": 18,
   "items": [
     {
       "collected_at": "2026-11-16T09:27:07+09:00",
@@ -151,6 +151,36 @@
       "unconfirmed": false,
       "url": "https://huggingface.co/internlm/Sage-S2.1-Flash",
       "x_url": "https://x.com/DanteMMartin/status/2122345584820695169"
+    },
+    {
+      "collected_at": "2026-11-17T03:20:00+09:00",
+      "headline": "OpenAI、研究者向け無料提供を最大20万人へ拡大—ChatGPT利用で研究作業の生産性が約1.9倍との調査も公表",
+      "source": "OpenAI",
+      "summary": "OpenAIが11月16日、ChatGPT for Academic Researchersの拡大を発表した。7月開始のパイロットは33カ国・2万人が参加し、11月23日から先着で5万件の新規グラント（受給者＋共同研究者2人まで、ChatGPT Plusを無料提供）の申請を受け付け、全体で最大20万人の研究者への提供を目指す。併せて公表した1,800人超の参加者調査では、同じ品質の研究作業をAIなしで行うと約1.9倍の時間がかかるとの自己申告ベースの推定が示された。共有データはデフォルトで学習に使われない。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://openai.com/index/chatgpt-for-academic-researchers/",
+      "x_url": "https://x.com/OpenAI/status/2122380010287960095"
+    },
+    {
+      "collected_at": "2026-11-17T03:20:00+09:00",
+      "headline": "Perplexity、自律研究システムを目指す新研究組織「Frontier Research」を設立—1万基超のGPUで支援",
+      "source": "Perplexity",
+      "summary": "Perplexityが11月16日、自律的に研究を行えるシステムの構築を目指す新研究組織「Perplexity Frontier Research」の設立を公式発表した。マルチエージェント連携、強化学習、継続学習、システム、事前学習に取り組み、成果は論文・モデル・データ・ベンチマークとして公開し、同社製品でも検証する。計算資源は1万基超のGPUで支援し、サンフランシスコ、パロアルト、ニューヨーク、ロンドンで研究者・エンジニアを採用中。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/perplexity_ai/status/2122352071295009156",
+      "x_url": "https://x.com/perplexity_ai/status/2122352071295009156"
+    },
+    {
+      "collected_at": "2026-11-17T03:20:00+09:00",
+      "headline": "Databricks、企業AI利用の公開指標「AI Index」を開始—オープンウェイトが企業トークンの約31%に",
+      "source": "Databricks",
+      "summary": "Databricksが、Unity Gatewayを利用する1万社超の集計・匿名化データに基づく公開指標「Databricks AI Index」を開始した。初回データでは、オープンウェイトモデルの企業トークン比率が7月の7.3%から約30.9%へ拡大し、単一プロバイダのみを使う企業は約64%から28%（11月2日時点）へ低下。Claude Opus 5.5はプロプライエタリ内シェアが6週間で7.2%から37.9%へ伸びた。指標は毎週更新される。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://developers.databricks.com/ai-index",
+      "x_url": "https://x.com/pwendell/status/2122377960132940170/photo/1"
     }
   ]
 }
