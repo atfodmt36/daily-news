@@ -1,0 +1,42 @@
+{
+  "date": "2026/11/17",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-16T08:00:00+09:00",
+    "to": "2026-11-17T08:00:00+09:00"
+  },
+  "source": "x",
+  "itemCount": 3,
+  "items": [
+    {
+      "collected_at": "2026-11-16T09:27:07+09:00",
+      "headline": "Canva、初の自社画像生成モデル「Craft」を発表——2K・任意の縦横比対応、公開APIも提供",
+      "source": "Canva",
+      "summary": "Canva Researchが初めて自社開発した画像生成基盤モデル「Craft」を発表し、Canva全ユーザーと公開APIで提供を開始した。生成前に構図を計画する2段階アーキテクチャで、2K解像度と30超の縦横比に対応する。DesignArenaでは人物・ポートレートと風景の両カテゴリで1位としている（同社発表）。",
+      "topic": "画像生成・編集",
+      "unconfirmed": false,
+      "url": "https://www.canva.com/newsroom/news/canva-craft/",
+      "x_url": "https://x.com/AsteaZD/status/2122117474309070854"
+    },
+    {
+      "collected_at": "2026-11-16T09:27:07+09:00",
+      "headline": "World Labs、次世代ワールドモデル「Atlas」を一般公開——ツールと開発者APIを提供",
+      "source": "World Labs",
+      "summary": "World Labsが9月に発表した次世代ワールドモデル「Atlas」を一般公開した（公式ブログ11月12日付「Atlas: Releasing our next generation world model」）。写真などからワールドを生成・再構成でき、同社のツールと開発者APIを通じて自分のワークフローへ組み込める。一般提供の主張は11月13日のwatchでは一次確認できず見送ったが、今回公式ブログで確認した。",
+      "topic": "3D生成・制作（クリエイティブ）",
+      "unconfirmed": false,
+      "url": "https://worldlabs.ai/blog",
+      "x_url": "https://x.com/Tyr_Nippon/status/2122077365052514516"
+    },
+    {
+      "collected_at": "2026-11-16T09:27:07+09:00",
+      "headline": "内閣府、地域データサイト「RAIDA」を強化——AIが人口減・観光の課題を分析し、市町村指標を偏差値表示",
+      "source": "共同通信",
+      "summary": "内閣府は地域活性化に関するデータを公開するウェブサイト「RAIDA（レイダ）」の機能を強化した。AIが人口減少対策や観光振興などの分野でデータを分析して課題を整理し、出生率や経済・雇用状況などの指標を市区町村ごとに偏差値で表示できるようにした。自治体や研究機関の地域活性化策づくりに役立ててもらう（共同通信、11月15日）。",
+      "topic": "政府・政策",
+      "unconfirmed": false,
+      "url": "https://www.toonippo.co.jp/articles/-/2403538",
+      "x_url": "https://x.com/theokinawatimes/status/2122089389421629494"
+    }
+  ]
+}
