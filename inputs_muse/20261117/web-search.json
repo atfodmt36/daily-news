@@ -1,0 +1,28 @@
+{
+  "date": "2026/11/17",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-16T08:00:00+09:00",
+    "to": "2026-11-17T08:00:00+09:00"
+  },
+  "source": "web-search",
+  "itemCount": 2,
+  "items": [
+    {
+      "headline": "Forrester「State of AI Survey 2026」——生成AIの本番運用は82%に達する一方、スケール可能な技術基盤があると答えたのは20%どまり",
+      "summary": "Forresterが11月16日に公表した「State of AI Survey 2026」によると、生成AIアプリケーションを本番運用している組織は82%、エージェント型AIは77%に達した。一方、AI施策をスケールできる技術基盤が整っていると考えるAI意思決定者は20%にとどまり、多数のAIアプリを事業レベルで展開できているのは11%。準備度の高い組織は本番ユースケース数が低準備度組織の2.4倍で、その42%がAI施策と損益を結び付けて説明できる（Forresterブログ）。",
+      "url": "https://dailyaibrief.com/news/forrester-survey-technology-scale-ai-UgbQNZl3",
+      "source": "Forrester",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false
+    },
+    {
+      "headline": "デロイト アジア太平洋「CEO AIリーダーシップレポート」——AIの大規模展開は71%の一方、変革の最先行層は7%",
+      "summary": "デロイト アジア太平洋が11月16日、APEC 18エコノミーとインドの経営リーダー1,278人への調査と先進企業50件のインタビューに基づく「CEO AI Leadership Report」を公表した。AIを大規模に展開しているリーダーは71%で、52%が「全社へのAI浸透」を最優先課題の上位3つに挙げた。一方、展開の深さ・働き方の変化・競争優位の3条件を全て満たす最先行層「AI Compounders」は7%にとどまり、この層の64%が全社規模の実質的な価値を報告した（一般層は13%）。",
+      "url": "https://www.deloitte.com/global/en/what-we-do/capabilities/ai/research/ceo-ai-leadership-report.html",
+      "source": "Deloitte Asia Pacific",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false
+    }
+  ]
+}
