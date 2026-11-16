@@ -6,7 +6,7 @@
     "to": "2026-11-17T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 18,
+  "itemCount": 21,
   "items": [
     {
       "collected_at": "2026-11-16T09:27:07+09:00",
@@ -181,6 +181,36 @@
       "unconfirmed": false,
       "url": "https://developers.databricks.com/ai-index",
       "x_url": "https://x.com/pwendell/status/2122377960132940170/photo/1"
+    },
+    {
+      "collected_at": "2026-11-17T05:23:58+09:00",
+      "headline": "OpenAI、医療向けコンピュータ操作エージェントを本格展開—EHRタスクの99%が「臨床的に安全」と評価、医療プラグインも20超追加",
+      "source": "OpenAI",
+      "summary": "OpenAIが11月16日、ChatGPT for Healthcare／ChatGPT for Clinicians／API向けに、既存の医療ソフトを画面操作で扱うコンピュータ操作エージェントの展開を発表した。GPT-6 AstraはEHR受信箱タスク325件の99%が臨床的に安全と評価され、Stanford発のHealthAdminBenchでは94.3%（Lunaは91.8%、1タスク8.5セント）を記録。Abridge、Ambience、Cigna、CVS Healthが紹介・事前承認・退院計画などで活用する。同時に臨床検索を強化し、医療プラグインを20超追加した。",
+      "topic": "エージェント",
+      "unconfirmed": false,
+      "url": "https://x.com/OpenAI/status/2122419941756531150",
+      "x_url": "https://x.com/OpenAI/status/2122419941756531150"
+    },
+    {
+      "collected_at": "2026-11-17T05:23:58+09:00",
+      "headline": "Hugging Face、推論ルーターをOpenRouterへ移行—Hub上の160モデルを単一APIで呼び出し可能に",
+      "source": "Hugging Face",
+      "summary": "Hugging Faceが11月16日、Inference Providersのルーターを自社製からOpenRouter製へ切り替えたと発表した。Hubにページのある160モデル（38ラボ）が対象で、価格・速度・信頼性のライブ指標でプロバイダが自動選択され、失敗時は別プロバイダへ再試行する。料金はプロバイダ価格のままHFアカウントに請求され上乗せはない。OpenRouter側からはリクエストのトレースをHF Storage Bucketへ送る機能（ベータ）も始まった。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://huggingface.co/blog/openrouter",
+      "x_url": "https://x.com/huggingface/status/2122393775314264519"
+    },
+    {
+      "collected_at": "2026-11-17T05:23:58+09:00",
+      "headline": "Artificial Analysis、TTSの新指標「Time to First Audio」を開始—主要モデルは76ミリ秒〜1秒弱",
+      "source": "Artificial Analysis",
+      "summary": "Artificial Analysisが11月16日、音声合成（TTS）モデルが話し始めるまでの速さを測る新ベンチマーク指標「Time to First Audio」を発表した。既存のTTSベンチマークが品質・発音・生成速度を測るのに対し、会話の応答感を決める初声までの遅延を独立に測る。主要モデルでは76ミリ秒から1秒弱の幅があるという。",
+      "topic": "評価",
+      "unconfirmed": false,
+      "url": "https://x.com/ArtificialAnlys/status/2122374288653373870/photo/1",
+      "x_url": "https://x.com/ArtificialAnlys/status/2122374288653373870/photo/1"
     }
   ]
 }
