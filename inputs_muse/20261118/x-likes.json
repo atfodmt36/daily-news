@@ -1,0 +1,89 @@
+{
+  "date": "2026/11/18",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-17T08:00:00+09:00",
+    "to": "2026-11-18T08:00:00+09:00"
+  },
+  "source": "x-likes",
+  "itemCount": 7,
+  "items": [
+    {
+      "headline": "Genesis AI、$500MのシリーズAを調達——汎用ロボット「Eno」の量産と展開を加速",
+      "summary": "ロボティクス企業Genesis AIは11月17日、$500MのシリーズA調達を発表した。調達後の評価額は$3.5Bで、Premji Invest、Khosla Ventures、Eclipseが共同主導し、NVIDIAやAMD Venturesなども参加した。両腕と器用な手を持つ汎用ロボット「Eno」（30〜40台を製作済み）の生産拡大と顧客展開、AIモデル「GENE」のデータ収集・学習基盤の拡充に充てる。量産は2027年に米国で開始予定で、製造・物流・研究施設への導入をまず目指す。同社のプレスリリースとCrunchbase Newsなどで確認した。オーナーのいいねが端緒。",
+      "url": "https://www.roboticstomorrow.com/news/2026/11/17/genesis-ai-raises-500m-series-a-at-35b-valuation-to-master-human-level-dexterity-in-general-purpose-robots-and-deploy-at-scale/27402/",
+      "source": "Genesis AI（プレスリリース）",
+      "topic": "生成AI・その他",
+      "breaking": false,
+      "unconfirmed": false,
+      "x_url": "https://x.com/zhou_xian_/status/2122752003197833357",
+      "collected_at": "2026-11-18T08:04:25+09:00"
+    },
+    {
+      "headline": "Cognition、Devinエージェント群を統括する「Devin Bots」を発表",
+      "summary": "Cognitionは11月17日、コーディングエージェントDevinのチームを統括する持続型エージェント「Devin Bots」を発表した。Botが大規模プロジェクトを分割して個別のDevinへ割り当て、ファームウェア開発から週に数千件のPRマージまで、数日〜数週間にわたる作業を主導する。Fortuneによれば、Decagon、Fireworks AI、Reductoなど初期顧客でのBots利用は2週間で10倍に増えたという。Cognition公式発表とFortune報道で確認した。オーナーのいいねが端緒。",
+      "url": "https://x.com/cognition/status/2122737511684587551",
+      "source": "Cognition",
+      "topic": "Claude／Codex",
+      "breaking": false,
+      "unconfirmed": false,
+      "x_url": "https://x.com/cognition/status/2122737511684587551",
+      "collected_at": "2026-11-18T08:04:25+09:00"
+    },
+    {
+      "headline": "Microsoft、「Copilot SDK 2.0」を発表——Rust製コアでセッション作成が5.25秒から55ミリ秒に",
+      "summary": "Microsoftは11月17日、IgniteでMicrosoft Copilot SDK 2.0（旧GitHub Copilot SDK）を発表した。単一の共有ランタイムで多数のセッションをホストでき、各セッションのID・ツール・権限を制御し、再起動をまたいで再開できる。コアをRustで再構築し、セッション作成と1ターンの完了は5.25秒から55.3ミリ秒に、10クライアント時のメモリは1,383MBから126MBに削減、スループットは秒間7.55から120セッションに向上したという。TypeScript、Python、Go、.NET、Java、Rust向けに提供する。Microsoft公式ブログで確認した。オーナーのいいねが端緒。",
+      "url": "https://commandline.microsoft.com/microsoft-copilot-sdk-2-0-github/",
+      "source": "Microsoft",
+      "topic": "Claude／Codex",
+      "breaking": false,
+      "unconfirmed": false,
+      "x_url": "https://x.com/msdev/status/2122763655817339343",
+      "collected_at": "2026-11-18T08:04:25+09:00"
+    },
+    {
+      "headline": "GitHub Copilotアプリ、Azure DevOps連携を公開プレビュー——GHES対応はGA、ブラウザ操作も追加",
+      "summary": "GitHubは11月17日、Igniteに合わせGitHub Copilotアプリの拡張を発表した。Azure DevOpsリポジトリのクローンからブランチ作成、コード変更、PRの完了までをアプリ内で行える連携を公開プレビューとして提供する（実行はローカル環境のみ）。GitHub Enterprise Server対応は一般提供となり、Chromium系ブラウザを分離タブグループで操作するブラウザ利用も公開プレビューで追加した。GitHub Changelogで確認した。オーナーのいいねが端緒。",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases/",
+      "source": "GitHub",
+      "topic": "Claude／Codex",
+      "breaking": false,
+      "unconfirmed": false,
+      "x_url": "https://x.com/github/status/2122768911749796156",
+      "collected_at": "2026-11-18T08:04:25+09:00"
+    },
+    {
+      "headline": "SenseTime、マルチモーダルモデル「SenseNova-Loop-9B」正式版をオープン公開——GAIAが37.86から69.90に",
+      "summary": "SenseTimeは11月17日、ループ型マルチモーダルモデル「SenseNova-Loop-9B」の正式版をApache 2.0でオープン公開した。9Bパラメータながら24層のブロックを共有重みで2回実行し（固有32層で56層分の計算）、512Kコンテキストに対応する。10月30日のプレビュー版から大きく伸び、GAIAは37.86から69.90、NL2Repoは19.91から41.36、AutomationBenchは14.33から36.67となり、Qwen3.8-27Bと競合する水準だとしている（同社公表値）。SenseTime公式発表で確認した。オーナーのいいねが端緒。",
+      "url": "https://x.com/SenseTime_AI/status/2122702684985938356",
+      "source": "SenseTime",
+      "topic": "モデル",
+      "breaking": false,
+      "unconfirmed": false,
+      "x_url": "https://x.com/SenseTime_AI/status/2122702684985938356",
+      "collected_at": "2026-11-18T08:04:25+09:00"
+    },
+    {
+      "headline": "Liberty図面AI、大手自動車メーカーの検図工数を90％削減——新旧図面の差分から重要な変更点を判別",
+      "summary": "Curiositasが運営するLiberty Dataは11月16日、生成AIで図面業務を自動化する「Liberty図面AI」の2図面差分抽出機能の導入事例を公開した。図面の形状や位置関係、設計指示の意図を理解して新旧図面を比較し、設計指示単位で「確認すべき重要な変更」と軽微な変更を判別して色分け表示する。大手自動車メーカーの設計開発部門では検図工数を90％削減し、大手プラントエンジニアリング企業では改訂ごとの検図が数日から約6時間に短縮したという。PR TimesのプレスリリースとMONOistの記事（11月17日）で確認した。オーナーのいいねが端緒。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000037.000107091.html",
+      "source": "Curiositas（Liberty Data）",
+      "topic": "建設×AI",
+      "breaking": false,
+      "unconfirmed": false,
+      "x_url": "https://x.com/MONOist_itmedia/status/2122481121749533000",
+      "collected_at": "2026-11-18T08:04:25+09:00"
+    },
+    {
+      "headline": "Microsoft、Igniteで「Copilot Workspaces」を発表——Agent 365 Business AnalyticsとPerception GAも",
+      "summary": "Microsoftは11月17日のIgnite基調講演で、人とエージェントが共有空間で協働する「Copilot Workspaces」を発表した。定期タスクを自律的に進める長時間エージェントAutopilotも併せて示した。エージェント管理基盤Agent 365（登録エージェントは5,000万超と基調講演で説明）には、AIの支出をタスク成功率や支援時間などの成果と結び付けるBusiness Analyticsを追加。専門エージェント群が脆弱性の発見・防御・修復を行うセキュリティ基盤「Perception」は、MAI-Cyberモデルを活用し一般提供となった。Microsoft公式記事で確認した。オーナーのいいねが端緒。",
+      "url": "https://news.microsoft.com/source/2026/11/17/microsoft-ignite-2026-empowering-human-ambition-intelligence-and-trust/",
+      "source": "Microsoft",
+      "topic": "エージェント",
+      "breaking": false,
+      "unconfirmed": false,
+      "x_url": "https://x.com/satyanadella/status/2122793041773944956",
+      "collected_at": "2026-11-18T08:04:25+09:00"
+    }
+  ]
+}
