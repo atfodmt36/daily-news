@@ -6,7 +6,7 @@
     "to": "2026-11-18T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 3,
+  "itemCount": 6,
   "items": [
     {
       "headline": "OpenAI、CSAM検出の新分類器を審査済み組織に無料提供—AI生成画像も検出、確認対象を48%削減と試算",
@@ -37,6 +37,36 @@
       "url": "https://x.com/PreferredNetJP/status/2122457395553251759",
       "x_url": "https://x.com/PreferredNetJP/status/2122457395553251759",
       "collected_at": "2026-11-17T09:27:26+09:00"
+    },
+    {
+      "headline": "ElevenLabs、日本の音声AIスタートアップKotoba Technologiesの買収に合意—同社初の日本企業買収、従業員15名が参画",
+      "source": "ElevenLabs",
+      "summary": "音声AIのElevenLabsが11月17日、日本語音声モデル「Koto」を開発するKotoba Technologiesの買収合意を発表した。ElevenLabsにとって日本初の買収で、Kotobaの従業員15名が加わり、日本での音声エージェント普及を加速する。Kotoは日本語の音声合成・音声認識・同時通訳向け音声変換に強みを持つ。買収完了は2026年第4四半期後半の見込み。Kotobaは経産省GENIACの支援先でもあった。",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "unconfirmed": false,
+      "url": "https://www.watch.impress.co.jp/docs/news/2156921.html",
+      "x_url": "https://x.com/tama_program/status/2122538970907349134",
+      "collected_at": "2026-11-17T13:24:05+09:00"
+    },
+    {
+      "headline": "AssemblyAI、音声認識モデル「AssemblyAI-STT-3.7」を公開—録音用・会議/通話向けRealtime・音声エージェント向けの3種、32言語を自動判別",
+      "source": "AssemblyAI",
+      "summary": "AssemblyAIが11月17日、音声認識モデルAssemblyAI-STT-3.7を公開した。録音用、会議や通話向けのRealtime、音声エージェント向けRealtime-Agentの3バリアントで、32言語を自動判別する。Realtimeは話者ラベルがターン終了時点で確定し、後からの修正を待たずに使える点を特徴とする。公式ブログと変更履歴で提供開始を確認した。",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "unconfirmed": false,
+      "url": "https://assemblyai.com/blog/introducing-assemblyai-stt-3-7",
+      "x_url": "https://x.com/akasan_ml/status/2122510511141237165",
+      "collected_at": "2026-11-17T13:24:05+09:00"
+    },
+    {
+      "headline": "AIworker「AI導入相談 定点調査」—導入が止まる理由の1位は「推進役がいない」34%、相談でCopilotとGeminiがChatGPTを上回る",
+      "source": "AIworker",
+      "summary": "AI導入支援のAIworkerが11月17日、同社が受けたAI導入の新規相談（2025年5月〜2026年11月上旬、録画・文字起こしのある会議）を集計した定点調査を公開した。導入が止まる理由は「使いこなせる人・推進役がいない」が34%で最多、「社内の理解・手続き」30%、「予算・費用の根拠」29%が続いた。相談で名前が挙がるツールではCopilotとGeminiがChatGPTを上回ったという。同社への相談企業の集計であり、日本企業全体の平均ではない点は明記されている。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://prtimes.jp/main/html/rd/p/000000045.000169819.html",
+      "x_url": "https://x.com/PRTIMES_BIZ/status/2122527169830330612",
+      "collected_at": "2026-11-17T13:24:05+09:00"
     }
   ]
 }
