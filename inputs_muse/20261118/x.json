@@ -6,7 +6,7 @@
     "to": "2026-11-18T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 20,
+  "itemCount": 23,
   "items": [
     {
       "headline": "OpenAI、CSAM検出の新分類器を審査済み組織に無料提供—AI生成画像も検出、確認対象を48%削減と試算",
@@ -206,6 +206,36 @@
       "url": "https://www.paconsulting.com/newsroom/ai-risks-widening-the-workplace-divide-new-report-finds-9-november-2026",
       "x_url": "https://x.com/EXINglobal/status/2122705066742472916",
       "collected_at": "2026-11-18T01:26:07+09:00"
+    },
+    {
+      "headline": "OpenAI、新モデル「GPT-6.2 Astra」と「GPT-6.2 Sol」を公開",
+      "summary": "OpenAIは11月17日、新フロンティアモデルGPT-6.2 Astraと日常業務向けのGPT-6.2 Solを公開し、ChatGPT WorkとCodex（Plus、Pro、Enterprise、Edu）およびAPIで提供を開始した。AstraはAgents' Last ExamでGPT-6 Astraを5.2ポイント上回り、コストは3分の1未満。API価格は入力100万トークンあたり8ドル、出力40ドルでGPT-6 Astra比20%安い。SolはGPT-6.1 Solと同価格を維持し、Ultrafastが初めてPro 200契約者にも提供される。",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "source": "OpenAI",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "x_url": "https://x.com/OpenAI/status/2122750124543926515",
+      "collected_at": "2026-11-18T03:40:23+09:00"
+    },
+    {
+      "headline": "Anthropic、Claude Platformの「リンク課金」をベータ公開—APIキーを渡さず第三者アプリの利用料を直接課金",
+      "summary": "Anthropicは11月17日、Claude Platformのlinked billing（リンク課金）をベータ公開した。Factory、Linear、Ramp、Asana、Warpなど19のプラットフォームで、顧客はAPIキーを共有せず自分のClaude組織へ直接課金でき、プラットフォームごとに月次の支出上限を設定し、いつでも連携を解除できる。顧客別の利用量を確認できるUsage and Cost Analytics APIもベータ提供される。",
+      "url": "https://claude.com/resources/articles/linked-billing-on-claude-platform",
+      "source": "Anthropic",
+      "topic": "Claude／Codex",
+      "unconfirmed": false,
+      "x_url": "https://x.com/ClaudeDevs/status/2122751844455956760",
+      "collected_at": "2026-11-18T03:40:23+09:00"
+    },
+    {
+      "headline": "Google、Geminiのエージェント機能「Tasks」を日本など6カ国で無料提供開始",
+      "summary": "Googleは11月17日、Geminiアプリのエージェント機能「Tasks」（旧Spark）を、米国・日本・韓国・カナダ・オーストラリア・インドの数億人の対象ユーザーへ無料で展開すると発表した。Gemini 4 Hydrogenを基盤に、店への電話予約、請求書の分析、買い物などを代行する。米国ではメール転送（gemini@google.com）やテキストメッセージ経由でタスクを依頼する機能も始まる。",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "source": "Google",
+      "topic": "エージェント",
+      "unconfirmed": false,
+      "x_url": "https://x.com/GeminiApp/status/2122737596971503885",
+      "collected_at": "2026-11-18T03:40:23+09:00"
     }
   ]
 }
