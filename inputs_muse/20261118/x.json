@@ -6,7 +6,7 @@
     "to": "2026-11-18T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 12,
+  "itemCount": 15,
   "items": [
     {
       "headline": "OpenAI、CSAM検出の新分類器を審査済み組織に無料提供—AI生成画像も検出、確認対象を48%削減と試算",
@@ -126,6 +126,36 @@
       "unconfirmed": false,
       "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/",
       "x_url": "https://x.com/TechnikSam/status/2122626912451182993"
+    },
+    {
+      "headline": "Isomorphic Labs、50億ドルのシリーズC調達を発表—GreenoaksとSequoiaが共同リード、Alphabetも継続出資",
+      "summary": "Google DeepMind発のAI創薬企業Isomorphic Labsが11月17日、50億ドルのシリーズC調達を発表した（PR Newswire、応募超過のラウンド）。GreenoaksとSequoia Capitalが共同リードし、Andreessen Horowitz（a16z）などが新規参加、Alphabetが継続出資したほか、Thrive Capital、MGX、GV、CapitalG、Temasek、UK Sovereign AI Fundなど既存投資家全社も参加した。調達資金は基盤シミュレーションモデルの前進、自社・提携の医薬品候補パイプラインの進展と拡大、AI主導のバイオエンジニアリング基盤の構築に充てる。",
+      "url": "https://www.prnewswire.com/news-releases/isomorphic-labs-announces-5-billion-series-c-funding-302942062.html",
+      "source": "Isomorphic Labs",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "x_url": "https://x.com/demishassabis/status/2122662616367853670",
+      "collected_at": "2026-11-17T21:25:49+09:00"
+    },
+    {
+      "headline": "Google Pics、画像生成・編集モデルが「Nano Banana 2.1」にアップグレード—11月16日から全展開開始",
+      "summary": "Googleは11月16日、Google Picsの画像生成・編集機能を新モデル「Nano Banana 2.1」に切り替えるとGoogle Workspace公式ブログで発表した。高精細なディテールと自然なライティングで画質と実在感を高め、編集時は依頼していない周辺の被写体や背景の変更を大幅に減らし、画像内テキストの描画精度も改善した。処理速度は従来モデルと同等。PicsアプリのほかGoogleドキュメントやスライド内でも利用でき、Rapid Release／Scheduled Releaseとも11月16日から1〜3日で全展開する。対象はBusiness Standard/Plus、Enterprise Standard/Plus、Google AI Plus/Pro/Ultraなど。",
+      "url": "https://workspaceupdates.googleblog.com/2026/11/google-pics-upgrades-to-nano-banana-21-for-higher-quality-image-generation-and-editing.html",
+      "source": "Google",
+      "topic": "画像生成・編集",
+      "unconfirmed": false,
+      "x_url": "https://x.com/PromptBible_dev/status/2122619224279650797",
+      "collected_at": "2026-11-17T21:25:49+09:00"
+    },
+    {
+      "headline": "Geminiアプリ、地域のアクセントに合わせた66種の新しい音声を展開開始—Android・iOS向け",
+      "summary": "Googleは11月16日、Geminiアプリに66種の地域別音声を追加し、AndroidとiOSで展開を開始したと公式ブログで発表した。米国英語、英国英語、インド英語、ヒンディー語、ブラジルポルトガル語、インドネシア語、韓国語などに対応し、各音声は誇張したアクセントではなく自然な抑揚やリズム、ピッチに調整されている。選択した音声はGemini Liveでの会話やチャット応答の読み上げなど、アプリ全体で共通して使える。",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/",
+      "source": "Google",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "unconfirmed": false,
+      "x_url": "https://x.com/zoomtraffic/status/2122648952466014449",
+      "collected_at": "2026-11-17T21:25:49+09:00"
     }
   ]
 }
