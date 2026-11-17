@@ -1,0 +1,84 @@
+{
+  "date": "2026/11/18",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-17T08:00:00+09:00",
+    "to": "2026-11-18T08:00:00+09:00"
+  },
+  "source": "mail-4ml",
+  "itemCount": 8,
+  "items": [
+    {
+      "headline": "Apple、macOS 27.3でAIアプリへの全権限付与に強い警告を追加",
+      "summary": "Appleが、AIエージェントなどのアプリがもたらすリスクに対応するため、macOS 27.3に導入される権限管理・警告・透明性機能の詳細を明らかにした。フルディスクアクセスなどMac全体の操作権限をAIアプリに与える前に強い警告が表示されるようになる。10月の発表に続くもので、Agent利用者からは権限アラートが増えるとの声も出ている。",
+      "url": "https://x.com/TechCrunch/status/2122435308092268646",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-17T19:33:23+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "コーディングAgentのprefix cachingを壊す落とし穴、Together AIとollamaが知見を公開",
+      "summary": "Together AIとollamaが、コーディングAgentの長いセッションを高速に保つprefix cachingの知見をまとめた。システムプロンプト内のタイムスタンプ1つやreasoning effortの変更でキャッシュ全体が無効になると指摘し、Claude CodeやCodexなどでハーネスと推論エンジンの両側が対応すべき点を整理している。",
+      "url": "https://x.com/ollama/status/2122531964154712541",
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "collected_at": "2026-11-17T19:33:23+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Google Labs、AI秘書サービスHowieを買収—中小企業向け次世代AIツール開発へ",
+      "summary": "スケジュール調整とカレンダー管理に取り組むAI秘書サービスHowieが、Google Labsに加わると発表した。既存顧客へのサービスは継続し、Google Labsは同チームと中小企業向けの次世代の直感的なAIツールを開発する方針。",
+      "url": "https://x.com/GoogleLabs/status/2122461899178820069",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-17T19:33:23+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Gemini Webのコードに未発表モデル「gemini-4-neon」への参照",
+      "summary": "GeminiのWebアプリのコードから「gemini-4-neon」というモデルへの参照が見つかった。現時点ではコード上の記述のみで一般には利用できない状態で、新しいFlash Liteモデルではないかとの推測も出ている。未確認情報。",
+      "url": "https://x.com/testingcatalog/status/2122427521211785388",
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "collected_at": "2026-11-17T19:33:23+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "AgentがRL学習を監督する「AutoRL」、Qwen3のAIME 2024スコアを46.67%から66.67%に",
+      "summary": "エージェントに実行中の強化学習を監督させるAutoRLという論文が紹介された。Qwen3のAIME 2024スコアを46.67%から66.67%に引き上げたと報告されており、自己改善AIに関する最近の論文の中でも特に注目すべきものとして推薦されている。",
+      "url": "https://x.com/omarsar0/status/2122429507756069008",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-17T19:33:23+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Together AI、Agent評価の実践手順を公開—タスク完了率が67%から96%に向上",
+      "summary": "Together AIが、自社で実践しているエージェント評価の手順を共有した。約10の代表タスクを定義し、サンドボックス上のClaude Codeでbaseline、MCP、skillsの3構成を比較、軌跡を分析してドキュメントとAPIを改善した結果、タスク完了率が67%から96%に向上したという。",
+      "url": "https://x.com/togethercompute/status/2122543623183208778",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-17T19:33:23+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Hub、ロボット学習用の一人称視点データセット「HubEgo-100K」を公開—10万時間の熟練作業映像、最初の1万時間をOSS化",
+      "summary": "YC出身のHubが、ロボット学習向けの一人称視点データセットHubEgo-100KをHugging Faceで公開した。10万人超の協力者による10万時間の熟練作業を収録し、最初の1万時間をオープンソース化。マイクロはんだ付けや配線、レンガ積み、時計修理など多様な作業を含み、研究・商用ともに無料で使える。",
+      "url": "https://x.com/hubdotxyz/status/2122408735897423962",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-17T19:33:23+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Sakana AIの推薦手法「QD-Rec」、進化計算で推薦の多様性を拡張",
+      "summary": "Sakana AIの推薦手法QD-Recが、進化計算のQuality-Diversityを推薦に応用した研究として紹介された。バンディットで未開拓領域のアイテムを探索し、LLMが推薦理由として説明するストーリーの新規性で採否を決めるなど、多様性を距離で測る従来手法とは異なるアプローチとして話題になっている。",
+      "url": "https://x.com/kazunori_279/status/2122585555221594189",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-17T19:33:23+09:00",
+      "unconfirmed": false
+    }
+  ]
+}
