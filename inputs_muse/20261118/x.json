@@ -6,7 +6,7 @@
     "to": "2026-11-18T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 6,
+  "itemCount": 7,
   "items": [
     {
       "headline": "OpenAI、CSAM検出の新分類器を審査済み組織に無料提供—AI生成画像も検出、確認対象を48%削減と試算",
@@ -67,6 +67,15 @@
       "url": "https://prtimes.jp/main/html/rd/p/000000045.000169819.html",
       "x_url": "https://x.com/PRTIMES_BIZ/status/2122527169830330612",
       "collected_at": "2026-11-17T13:24:05+09:00"
+    },
+    {
+      "headline": "UAEのdu、ソブリンAI推論プラットフォーム「National HyperAI」を開始—GPU・モデル・エージェントを単一契約で提供",
+      "summary": "UAEの通信事業者duが11月16日、子ブランドdu Techを通じてソブリンAI推論・エージェント基盤「National HyperAI」の開始を発表した。データとモデルウェイトをUAE国内に保持し、ソブリンAI推論、GPU as a Service、Model as a Service、自律エージェントのワークフローを単一契約で政府機関・大企業・中小企業向けに提供し、即日利用可能としている。基盤はUAEサイバーセキュリティ評議会の認証を受けたNational Hypercloudで、国内5か所のデータセンターで運用される。",
+      "url": "https://channelpostmea.com/2026/11/16/du-launches-national-hyperai-to-power-sovereign-ai-inference-and-agentic-transformation/",
+      "topic": "生成AI・その他",
+      "source": "du",
+      "x_url": "https://x.com/raqi_ai_uae/status/2122555908761022860/photo/1",
+      "collected_at": "2026-11-17T15:14:42+09:00"
     }
   ]
 }
