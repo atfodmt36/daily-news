@@ -1,84 +1,165 @@
 {
-  "date": "2026/11/18",
-  "timezone": "Asia/Tokyo",
-  "window": {
-    "from": "2026-11-17T08:00:00+09:00",
-    "to": "2026-11-18T08:00:00+09:00"
+ "date": "2026/11/18",
+ "timezone": "Asia/Tokyo",
+ "window": {
+  "from": "2026-11-17T08:00:00+09:00",
+  "to": "2026-11-18T08:00:00+09:00"
+ },
+ "source": "mail-4ml",
+ "itemCount": 17,
+ "items": [
+  {
+   "headline": "Apple、macOS 27.3でAIアプリへの全権限付与に強い警告を追加",
+   "summary": "Appleが、AIエージェントなどのアプリがもたらすリスクに対応するため、macOS 27.3に導入される権限管理・警告・透明性機能の詳細を明らかにした。フルディスクアクセスなどMac全体の操作権限をAIアプリに与える前に強い警告が表示されるようになる。10月の発表に続くもので、Agent利用者からは権限アラートが増えるとの声も出ている。",
+   "url": "https://x.com/TechCrunch/status/2122435308092268646",
+   "source": "ML_Bear Times",
+   "topic": "生成AI・その他",
+   "collected_at": "2026-11-17T19:33:23+09:00",
+   "unconfirmed": false
   },
-  "source": "mail-4ml",
-  "itemCount": 8,
-  "items": [
-    {
-      "headline": "Apple、macOS 27.3でAIアプリへの全権限付与に強い警告を追加",
-      "summary": "Appleが、AIエージェントなどのアプリがもたらすリスクに対応するため、macOS 27.3に導入される権限管理・警告・透明性機能の詳細を明らかにした。フルディスクアクセスなどMac全体の操作権限をAIアプリに与える前に強い警告が表示されるようになる。10月の発表に続くもので、Agent利用者からは権限アラートが増えるとの声も出ている。",
-      "url": "https://x.com/TechCrunch/status/2122435308092268646",
-      "source": "ML_Bear Times",
-      "topic": "生成AI・その他",
-      "collected_at": "2026-11-17T19:33:23+09:00",
-      "unconfirmed": false
-    },
-    {
-      "headline": "コーディングAgentのprefix cachingを壊す落とし穴、Together AIとollamaが知見を公開",
-      "summary": "Together AIとollamaが、コーディングAgentの長いセッションを高速に保つprefix cachingの知見をまとめた。システムプロンプト内のタイムスタンプ1つやreasoning effortの変更でキャッシュ全体が無効になると指摘し、Claude CodeやCodexなどでハーネスと推論エンジンの両側が対応すべき点を整理している。",
-      "url": "https://x.com/ollama/status/2122531964154712541",
-      "source": "ML_Bear Times",
-      "topic": "エージェント",
-      "collected_at": "2026-11-17T19:33:23+09:00",
-      "unconfirmed": false
-    },
-    {
-      "headline": "Google Labs、AI秘書サービスHowieを買収—中小企業向け次世代AIツール開発へ",
-      "summary": "スケジュール調整とカレンダー管理に取り組むAI秘書サービスHowieが、Google Labsに加わると発表した。既存顧客へのサービスは継続し、Google Labsは同チームと中小企業向けの次世代の直感的なAIツールを開発する方針。",
-      "url": "https://x.com/GoogleLabs/status/2122461899178820069",
-      "source": "ML_Bear Times",
-      "topic": "ビジネス・人材",
-      "collected_at": "2026-11-17T19:33:23+09:00",
-      "unconfirmed": false
-    },
-    {
-      "headline": "Gemini Webのコードに未発表モデル「gemini-4-neon」への参照",
-      "summary": "GeminiのWebアプリのコードから「gemini-4-neon」というモデルへの参照が見つかった。現時点ではコード上の記述のみで一般には利用できない状態で、新しいFlash Liteモデルではないかとの推測も出ている。未確認情報。",
-      "url": "https://x.com/testingcatalog/status/2122427521211785388",
-      "source": "ML_Bear Times",
-      "topic": "モデル",
-      "collected_at": "2026-11-17T19:33:23+09:00",
-      "unconfirmed": true
-    },
-    {
-      "headline": "AgentがRL学習を監督する「AutoRL」、Qwen3のAIME 2024スコアを46.67%から66.67%に",
-      "summary": "エージェントに実行中の強化学習を監督させるAutoRLという論文が紹介された。Qwen3のAIME 2024スコアを46.67%から66.67%に引き上げたと報告されており、自己改善AIに関する最近の論文の中でも特に注目すべきものとして推薦されている。",
-      "url": "https://x.com/omarsar0/status/2122429507756069008",
-      "source": "ML_Bear Times",
-      "topic": "論文・ベンチマーク",
-      "collected_at": "2026-11-17T19:33:23+09:00",
-      "unconfirmed": false
-    },
-    {
-      "headline": "Together AI、Agent評価の実践手順を公開—タスク完了率が67%から96%に向上",
-      "summary": "Together AIが、自社で実践しているエージェント評価の手順を共有した。約10の代表タスクを定義し、サンドボックス上のClaude Codeでbaseline、MCP、skillsの3構成を比較、軌跡を分析してドキュメントとAPIを改善した結果、タスク完了率が67%から96%に向上したという。",
-      "url": "https://x.com/togethercompute/status/2122543623183208778",
-      "source": "ML_Bear Times",
-      "topic": "論文・ベンチマーク",
-      "collected_at": "2026-11-17T19:33:23+09:00",
-      "unconfirmed": false
-    },
-    {
-      "headline": "Hub、ロボット学習用の一人称視点データセット「HubEgo-100K」を公開—10万時間の熟練作業映像、最初の1万時間をOSS化",
-      "summary": "YC出身のHubが、ロボット学習向けの一人称視点データセットHubEgo-100KをHugging Faceで公開した。10万人超の協力者による10万時間の熟練作業を収録し、最初の1万時間をオープンソース化。マイクロはんだ付けや配線、レンガ積み、時計修理など多様な作業を含み、研究・商用ともに無料で使える。",
-      "url": "https://x.com/hubdotxyz/status/2122408735897423962",
-      "source": "ML_Bear Times",
-      "topic": "生成AI・その他",
-      "collected_at": "2026-11-17T19:33:23+09:00",
-      "unconfirmed": false
-    },
-    {
-      "headline": "Sakana AIの推薦手法「QD-Rec」、進化計算で推薦の多様性を拡張",
-      "summary": "Sakana AIの推薦手法QD-Recが、進化計算のQuality-Diversityを推薦に応用した研究として紹介された。バンディットで未開拓領域のアイテムを探索し、LLMが推薦理由として説明するストーリーの新規性で採否を決めるなど、多様性を距離で測る従来手法とは異なるアプローチとして話題になっている。",
-      "url": "https://x.com/kazunori_279/status/2122585555221594189",
-      "source": "ML_Bear Times",
-      "topic": "論文・ベンチマーク",
-      "collected_at": "2026-11-17T19:33:23+09:00",
-      "unconfirmed": false
-    }
-  ]
+  {
+   "headline": "コーディングAgentのprefix cachingを壊す落とし穴、Together AIとollamaが知見を公開",
+   "summary": "Together AIとollamaが、コーディングAgentの長いセッションを高速に保つprefix cachingの知見をまとめた。システムプロンプト内のタイムスタンプ1つやreasoning effortの変更でキャッシュ全体が無効になると指摘し、Claude CodeやCodexなどでハーネスと推論エンジンの両側が対応すべき点を整理している。",
+   "url": "https://x.com/ollama/status/2122531964154712541",
+   "source": "ML_Bear Times",
+   "topic": "エージェント",
+   "collected_at": "2026-11-17T19:33:23+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "Google Labs、AI秘書サービスHowieを買収—中小企業向け次世代AIツール開発へ",
+   "summary": "スケジュール調整とカレンダー管理に取り組むAI秘書サービスHowieが、Google Labsに加わると発表した。既存顧客へのサービスは継続し、Google Labsは同チームと中小企業向けの次世代の直感的なAIツールを開発する方針。",
+   "url": "https://x.com/GoogleLabs/status/2122461899178820069",
+   "source": "ML_Bear Times",
+   "topic": "ビジネス・人材",
+   "collected_at": "2026-11-17T19:33:23+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "Gemini Webのコードに未発表モデル「gemini-4-neon」への参照",
+   "summary": "GeminiのWebアプリのコードから「gemini-4-neon」というモデルへの参照が見つかった。現時点ではコード上の記述のみで一般には利用できない状態で、新しいFlash Liteモデルではないかとの推測も出ている。未確認情報。",
+   "url": "https://x.com/testingcatalog/status/2122427521211785388",
+   "source": "ML_Bear Times",
+   "topic": "モデル",
+   "collected_at": "2026-11-17T19:33:23+09:00",
+   "unconfirmed": true
+  },
+  {
+   "headline": "AgentがRL学習を監督する「AutoRL」、Qwen3のAIME 2024スコアを46.67%から66.67%に",
+   "summary": "エージェントに実行中の強化学習を監督させるAutoRLという論文が紹介された。Qwen3のAIME 2024スコアを46.67%から66.67%に引き上げたと報告されており、自己改善AIに関する最近の論文の中でも特に注目すべきものとして推薦されている。",
+   "url": "https://x.com/omarsar0/status/2122429507756069008",
+   "source": "ML_Bear Times",
+   "topic": "論文・ベンチマーク",
+   "collected_at": "2026-11-17T19:33:23+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "Together AI、Agent評価の実践手順を公開—タスク完了率が67%から96%に向上",
+   "summary": "Together AIが、自社で実践しているエージェント評価の手順を共有した。約10の代表タスクを定義し、サンドボックス上のClaude Codeでbaseline、MCP、skillsの3構成を比較、軌跡を分析してドキュメントとAPIを改善した結果、タスク完了率が67%から96%に向上したという。",
+   "url": "https://x.com/togethercompute/status/2122543623183208778",
+   "source": "ML_Bear Times",
+   "topic": "論文・ベンチマーク",
+   "collected_at": "2026-11-17T19:33:23+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "Hub、ロボット学習用の一人称視点データセット「HubEgo-100K」を公開—10万時間の熟練作業映像、最初の1万時間をOSS化",
+   "summary": "YC出身のHubが、ロボット学習向けの一人称視点データセットHubEgo-100KをHugging Faceで公開した。10万人超の協力者による10万時間の熟練作業を収録し、最初の1万時間をオープンソース化。マイクロはんだ付けや配線、レンガ積み、時計修理など多様な作業を含み、研究・商用ともに無料で使える。",
+   "url": "https://x.com/hubdotxyz/status/2122408735897423962",
+   "source": "ML_Bear Times",
+   "topic": "生成AI・その他",
+   "collected_at": "2026-11-17T19:33:23+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "Sakana AIの推薦手法「QD-Rec」、進化計算で推薦の多様性を拡張",
+   "summary": "Sakana AIの推薦手法QD-Recが、進化計算のQuality-Diversityを推薦に応用した研究として紹介された。バンディットで未開拓領域のアイテムを探索し、LLMが推薦理由として説明するストーリーの新規性で採否を決めるなど、多様性を距離で測る従来手法とは異なるアプローチとして話題になっている。",
+   "url": "https://x.com/kazunori_279/status/2122585555221594189",
+   "source": "ML_Bear Times",
+   "topic": "論文・ベンチマーク",
+   "collected_at": "2026-11-17T19:33:23+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "NVIDIA決算は売上$115.8B、データセンター売上は初の$100B超え",
+   "summary": "NVIDIAが第3四半期決算を発表し、売上$115.8B、EPS $2.68と市場予想を上回った。データセンター売上は初めて$100Bを超える$107.6Bで、次四半期ガイダンスは$130Bと強気。複数年のメモリ供給契約で部品購入コミットメントが$279Bから$390Bに増え、HBM4各社への追い風とみられている。取締役会はJensen Huang氏をCEOに復帰させる意向はないと表明した。",
+   "url": "https://x.com/StockMKTNewz/status/2122802069551644767",
+   "source": "ML_Bear Times",
+   "topic": "ビジネス・人材",
+   "collected_at": "2026-11-18T07:35:20+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "Sciforium、投機的デコードでAMD MI355X上のDeepSeek-V4.1-Flashを1,129tok/sに高速化",
+   "summary": "SciforiumがAMD MI355X 4枚でDeepSeek-V4.1-FlashをP90で1,129出力tok/sで動かしたと報告した。顧客トラフィックでドラフターを調整して受理長を伸ばし、ドラフト長を5から7トークンに増やすことで、元の重みのまま835tok/sから高速化した。vLLMでも新カーネルでMI355Xの性能が4倍になったとの報告がある。",
+   "url": "https://x.com/hassanience/status/2122777279004827921",
+   "source": "ML_Bear Times",
+   "topic": "論文・ベンチマーク",
+   "collected_at": "2026-11-18T07:35:20+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "Anthropic IPO価格が1株$80超の見通し、Microsoftは$1B出資計画【続報】",
+   "summary": "AnthropicのIPO計画に関する続報。WSJによると、木曜の上場を前に公開価格を想定レンジ上限以上の1株$80超に設定する見込みで、評価額は$1.5〜1.6Tに達し得るとされる。The InformationによるとMicrosoftはIPOで$1Bを投資する計画で、Anthropicは7年間で$49B分のNVIDIAサーバーをAzureから借りる一方、MicrosoftはCopilotのモデルをOpenAIへ置き換えているとされる。報道ベースで未確認。",
+   "url": "https://x.com/theinformation/status/2122736655232647273",
+   "source": "ML_Bear Times",
+   "topic": "ビジネス・人材",
+   "collected_at": "2026-11-18T07:35:20+09:00",
+   "unconfirmed": true
+  },
+  {
+   "headline": "Google ColabにAPIとMCPエンドポイント、AIエージェントから実行可能に",
+   "summary": "Google Colabが新しいColab APIとMCPエンドポイントを公開した。AIエージェントからColabランタイムを直接プロビジョニングし、Pythonをヘッドレスで実行できる。設定だけでAgentにGPU付きの実行環境を持たせられるため、実験の自動化に使える機能として大きな反響を集めている。",
+   "url": "https://x.com/GoogleColab/status/2122676129009975544",
+   "source": "ML_Bear Times",
+   "topic": "エージェント",
+   "collected_at": "2026-11-18T07:35:20+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "Google等、変更理由を記憶しエージェントのハーネスを継続改善する手法を提案",
+   "summary": "GoogleとPenn Stateが、エージェントのハーネスを別のAIが継続的に書き換えて改善する手法を提案した。最適化器向けの自己改善型メモリで各変更の理由を残すと、新しいモデルにも改善効果が引き継がれやすくなるとしている。トレースの重要性を示す研究として、ブックマーク推奨の注目論文と紹介されている。",
+   "url": "https://x.com/omarsar0/status/2122701047118635485",
+   "source": "ML_Bear Times",
+   "topic": "論文・ベンチマーク",
+   "collected_at": "2026-11-18T07:35:20+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "HF、DeepSeek Flashエージェント1,000体で60万行のChatbot「PyBot」を構築",
+   "summary": "Hugging Faceのチームが、DeepSeek Flashのエージェント1,000体を協調させてチャットボットPyBotを作る実験を公開した。1週間で60万行のPythonによるルールベース実装を書き、重みも学習もなしでSmolLM 360M並みの性能だとしている。閉じたラボ外でAgent Swarmのスケールを検証する試みで、手元では15体程度で速度向上が頭打ちになるとの声も出ている。",
+   "url": "https://x.com/Thom_Wolf/status/2122673947409858730",
+   "source": "ML_Bear Times",
+   "topic": "論文・ベンチマーク",
+   "collected_at": "2026-11-18T07:35:20+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "SGLang v1.0公開、NVIDIA・AMD等9社でコンソーシアム発足",
+   "summary": "初のSGLang Summitが2,000人超を集めて開催され、推論エンジンSGLang v1.0が発表された。Miles v0.2も公開され、NVIDIA、AMD、Intel、Google、Meta、Thinking Machines Lab、Cloudflare、Modal、RadixArkの9社でコンソーシアムが発足した。競合するチップベンダーが同じ推論エンジンの運営に加わる形となり、エコシステムの標準化が進むとみられる。",
+   "url": "https://x.com/sgl_project/status/2122736431009595422",
+   "source": "ML_Bear Times",
+   "topic": "生成AI・その他",
+   "collected_at": "2026-11-18T07:35:20+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "mizchi、テスト品質を測るMutation Testの解説記事を公開",
+   "summary": "mizchiさんが、Mutation Testでテスト品質を測る方法を解説するZenn記事を公開した。比較演算子などのソースコードを意図的に書き換え、既存テストがその変化を検出できるかでテストの質を測る。AIが書くコードやPRが増えて人のレビューが形骸化しがちな中、検証を自動化する手段として参考になる。",
+   "url": "https://x.com/mizchi/status/2122653063446212795",
+   "source": "ML_Bear Times",
+   "topic": "生成AI・その他",
+   "collected_at": "2026-11-18T07:35:20+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "重み直接記述の発展研究、LLMが特徴量のズルを自ら発見【続報】",
+   "summary": "モデルにニューラルネットの重みを直接書かせるWeight-Space Programmingに関する続報。LLMにスコアを見ながら重みや特徴量をコードで書かせ、仕様を200語以内で文書化させる研究が紹介された。言語化によりスキャン位置を特徴量に使うようなズルを発見でき、166パラメータまで削減した例もある。一方で実験コストは280万円かかったとされ、効率化と費用のバランスが話題になっている。",
+   "url": "https://x.com/webbigdata/status/2122610035855692099",
+   "source": "ML_Bear Times",
+   "topic": "論文・ベンチマーク",
+   "collected_at": "2026-11-18T07:35:20+09:00",
+   "unconfirmed": false
+  }
+ ]
 }
