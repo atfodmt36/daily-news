@@ -6,7 +6,7 @@
     "to": "2026-11-18T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 7,
+  "itemCount": 11,
   "items": [
     {
       "headline": "OpenAI、CSAM検出の新分類器を審査済み組織に無料提供—AI生成画像も検出、確認対象を48%削減と試算",
@@ -76,6 +76,46 @@
       "source": "du",
       "x_url": "https://x.com/raqi_ai_uae/status/2122555908761022860/photo/1",
       "collected_at": "2026-11-17T15:14:42+09:00"
+    },
+    {
+      "headline": "Google Cloud、日本のサイバーセキュリティ強化とAI導入・人材育成の新たな取り組みを発表—行政・重要インフラにセキュリティ向けフロンティアAIを早期提供、2030年までに100万人育成",
+      "source": "Google Cloud",
+      "summary": "Google Cloudが11月17日、CEOのThomas Kurianと片山さつき財務大臣の会談を踏まえ、日本向けの新たな取り組みを公式ブログで発表した。国家サイバー統括室やデジタル庁、金融機関、重要インフラ事業者に、セキュリティ強化版フロンティアモデル「Gemini 4 Carbon for Cyber」と脆弱性検知・コード修復支援のCodeMenderへの早期アクセスを提供する。あわせて国内パートナーと2030年までにAI・クラウド・セキュリティ人材100万人の育成を目指し、「Google AI プロフェッショナル認定証」の無料受講アカウント1万名分を日本リスキリングコンソーシアムと連携して配布する。12月9日からはGoogle WorkspaceへのGeminiエージェント標準搭載も始まる。",
+      "topic": "政府・政策",
+      "unconfirmed": false,
+      "url": "https://cloud.google.com/blog/ja/products/gcp/announces-initiatives-to-strengthen-cybersecurity-and-accelerate-ai",
+      "x_url": "https://x.com/googlecloud_jp/status/2122577984288686315",
+      "collected_at": "2026-11-17T17:23:47+09:00"
+    },
+    {
+      "headline": "韓国銀行、生成AIの業務利用66.5%・労働時間9.2%削減の一方で生産性向上との結びつきは弱いとの調査報告を公表",
+      "source": "韓国銀行",
+      "summary": "韓国銀行（中央銀行）が11月17日、AIの普及と生産性効果に関する調査報告を公表した。18〜64歳の就業者16,342人への調査（2026年8〜9月）で、生成AIの業務利用率は66.5%と前年の51.8%から14.7ポイント上昇し、米国の43%を上回った。利用者の労働時間削減率は3.8%から9.2%へ2.4倍に拡大し、週40時間換算で約3.7時間の削減となった。一方、時間削減と作業量の増加の相関は0.08、品質改善との相関も0.09と弱く、削減時間が生産性向上に結びついている証拠は限定的だとした。削減時間をすべて生産活動に回した場合の潜在的な産出押し上げは2.6%と試算した。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://en.yna.co.kr/view/AEN20261117002800320",
+      "x_url": "https://x.com/np_nationpress/status/2122573561479283032",
+      "collected_at": "2026-11-17T17:23:47+09:00"
+    },
+    {
+      "headline": "NVIDIA、科学研究エージェント構築のための「Nemotron for Science」を発表—化学データセット約5万問と事後学習レシピをオープン公開",
+      "source": "NVIDIA",
+      "summary": "NVIDIAが11月16日、SC26で「Nemotron for Science」を発表した。オープンモデルNemotron 3.5 Super VL（10月公開）を基盤に、科学評価、化学推論の学習・評価用オープンデータセット「LitmusBench v0.2」（約5万問）、分野特化エージェントを作るための事後学習レシピをまとめたパッケージで、モデルとデータセットはHugging Faceで提供を開始した。米アルゴンヌ国立研究所がタンパク質治療候補の設計・評価を行うマルチエージェントシステムへの統合を進めているほか、理化学研究所もRIKYUプラットフォームでモデルを提供している。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://www.globenewswire.com/news-release/2026/11/16/3403880/0/en/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents.html",
+      "x_url": "https://x.com/MikeyJNicholls/status/2122579862200205768",
+      "collected_at": "2026-11-17T17:23:47+09:00"
+    },
+    {
+      "headline": "Meituan、音声駆動アバター動画生成モデル「LongCat-Video-Avatar 1.6」をオープン公開—10分超の長尺でも口の動きと一貫性を維持",
+      "source": "Meituan LongCat",
+      "summary": "MeituanのLongCatチームが11月15日、音声駆動の人物動画生成モデルLongCat-Video-Avatar 1.6を公開した。1.5から口の動きの自然さ、表情・頭部・体の協調動作、長尺生成時の一貫性を改善し、10分を超える動画でも品質を保つとしている。33,051票の人間選好アリーナではElo 1068.1で6システム中2位だった（同社実施）。重みはMITライセンスでHugging Faceに公開されている。",
+      "topic": "映像生成・動画AI",
+      "unconfirmed": false,
+      "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6",
+      "x_url": "https://x.com/aiweb_daily/status/2122593978566783060",
+      "collected_at": "2026-11-17T17:23:47+09:00"
     }
   ]
 }
