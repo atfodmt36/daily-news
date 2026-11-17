@@ -6,7 +6,7 @@
     "to": "2026-11-18T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 17,
+  "itemCount": 20,
   "items": [
     {
       "headline": "OpenAI、CSAM検出の新分類器を審査済み組織に無料提供—AI生成画像も検出、確認対象を48%削減と試算",
@@ -176,6 +176,36 @@
       "url": "https://gsys.cx/3UGHq5z",
       "x_url": "https://x.com/Genesys/status/2122692498103419100",
       "collected_at": "2026-11-17T23:18:28+09:00"
+    },
+    {
+      "headline": "Sarvam AI、推論基盤「Token Factory」を一般提供開始—自社105BやDeepSeek・Gemmaなどをインド国内GPUから単一APIで提供",
+      "source": "Inc42",
+      "summary": "インドのSarvam AIは推論サービス「Token Factory」を開発者・企業向けに一般提供開始した（Sarvam公式ブログで発表、Inc42が11月17日に報道）。自社モデルSarvam 105BのほかDeepSeek V4.1 Flash、GLM 5.3、Kimi K3.1 Pro、Gemma 4 31Bなど世界のオープンウェイトモデルを、インド国内のGPUクラスタからOpenAI互換の単一APIで提供し、ルピー建ての従量課金とする。Sarvam 105Bは初回トークン0.2秒をうたう。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://inc42.com/buzz/sarvam-ai-opens-token-factory-to-run-global-ai-models-on-indian-servers/",
+      "x_url": "https://x.com/eltc9584/status/2122696057301963006",
+      "collected_at": "2026-11-18T01:26:07+09:00"
+    },
+    {
+      "headline": "デジタル庁、ガバメントAI「源内」のAIエージェント・ワークショップを政府で初開催—27組織34人が試作、答弁支援AIは来年1月に本格提供",
+      "source": "日本時事新聞",
+      "summary": "デジタル庁は11月17日、政府職員向け生成AI環境「ガバメントAI 源内」を使い、職員自らAIエージェントの試作品を作るワークショップを政府で初めて開催した。17府省庁等の27組織から職員34人が参加し、AI関連企業11社が技術アドバイザーとして加わった。源内は10月20日から職員が自分でAIエージェントを作成・実行できる環境を各府省庁へ展開中で、利用者1人当たり週約1.83時間の業務時間短縮と推計される。答弁支援AIは2027年1月の通常国会で本格提供し、仕組みは2027年2月をめどに「源内OSS Ver.2.0」として商用利用可能なライセンスで無償公開する予定。",
+      "topic": "政府・政策",
+      "unconfirmed": false,
+      "url": "https://jpjj.jp/articles/gennai-ai-agent-workshop/",
+      "x_url": "https://x.com/news24ntv/status/2122692863247220909",
+      "collected_at": "2026-11-18T01:26:07+09:00"
+    },
+    {
+      "headline": "PA Consulting調査、AIの恩恵に職階格差—仕事の質が高まった割合はシニアリーダー72%に対し若手43%",
+      "source": "PA Consulting",
+      "summary": "PA Consultingが英国の従業員2,000人を対象に実施した調査で、AIで仕事の質が高まったと答えた割合はシニアリーダーの72%に対し、エントリーレベル・若手社員は43%にとどまった。「これまでできなかったことができるようになった」もシニアリーダー70%対若手38%で、意味のある恩恵をまだ感じていない従業員は32%に上る。シニアリーダーは若手の3倍以上の頻度（1日平均6.9回）でAIを使っており、同社は導入と効率化だけに注力すると職場内の格差が広がると警告している。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://www.paconsulting.com/newsroom/ai-risks-widening-the-workplace-divide-new-report-finds-9-november-2026",
+      "x_url": "https://x.com/EXINglobal/status/2122705066742472916",
+      "collected_at": "2026-11-18T01:26:07+09:00"
     }
   ]
 }

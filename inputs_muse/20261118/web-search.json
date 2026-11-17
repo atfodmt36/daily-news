@@ -1,0 +1,21 @@
+{
+  "date": "2026/11/18",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-17T08:00:00+09:00",
+    "to": "2026-11-18T08:00:00+09:00"
+  },
+  "source": "web-search",
+  "itemCount": 1,
+  "items": [
+    {
+      "headline": "LSEとProtiviti調査、職場のAI利用率は74%に上昇—研修を受けた従業員の導入率は93%で未研修の50%を大きく上回る",
+      "source": "Protiviti",
+      "summary": "ロンドン・スクール・オブ・エコノミクス（LSE）のThe Inclusion InitiativeとProtivitiは11月17日、年次レポート「Beyond the Technology: Who Really Captures AI's Gains at Work」を発表した。世界の専門職3,001人を対象とした調査で、職場でAIを使う割合は74%と2024年の29%から急増した。利用者は平均で週の労働時間の19%を節約し、その72%を他の仕事に再投資している一方、AIを十分に使っていないと評価されることを心配する人は48%に上った。AI研修を受けた従業員の導入率は93%で、受けていない従業員の50%を大きく上回った。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://www.newswire.ca/news-releases/ai-at-work-48-of-employees-worry-they-will-be-judged-for-not-using-ai-enough-lse-and-protiviti-research-finds-836845879.html",
+      "collected_at": "2026-11-18T01:26:07+09:00"
+    }
+  ]
+}
