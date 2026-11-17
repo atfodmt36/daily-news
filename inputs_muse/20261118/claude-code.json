@@ -1,0 +1,466 @@
+{
+  "date": "2026/11/18",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-17T08:00:00+09:00",
+    "to": "2026-11-18T08:00:00+09:00"
+  },
+  "source": "claude-code",
+  "itemCount": 26,
+  "items": [
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Microsoft 365 Copilotの自律エージェント「Autopilot」がFrontierで提供開始",
+      "summary": "Ignite 2026で発表。Microsoft Entra Agent IDによる独自のID・メモリ・ツールを持つ常時稼働クラウドエージェントが、2026年11月17日よりFrontier Publicで展開開始。利用には管理者による有効化とMicrosoft 365 Copilotライセンスが必要。",
+      "url": "https://mc.merill.net/message/MC1557730",
+      "source": "Microsoft 365 Message Center",
+      "published_at": "2026-11-18T03:38:43+09:00",
+      "unconfirmed": false,
+      "status": "preview",
+      "tags": [
+        "Ignite2026",
+        "Autopilot",
+        "Frontier",
+        "agent"
+      ],
+      "related_urls": [
+        "https://www.microsoft.com/en-us/copilot/blog/2026/11/17/copilot-at-microsoft-ignite-expanding-whats-possible-with-intelligence-built-for-work/"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "「Copilot Code」がFrontierで展開、一般提供は数週間以内",
+      "summary": "自然言語でアプリやダッシュボードを構築できるCopilot Codeがモバイル(iOS/Android)・Macへ拡大し、WindowsでローカルSandboxが利用可能に。アプリはGA済みのCopilot Managed Runtimeでホストされ、使用量ベース課金は管理者のライセンス・ポリシー設定が必要。GAは数週間以内の予定。",
+      "url": "https://mc.merill.net/message/MC1519871",
+      "source": "Microsoft 365 Message Center",
+      "published_at": "2026-11-18T05:17:06+09:00",
+      "unconfirmed": false,
+      "status": "preview",
+      "tags": [
+        "Ignite2026",
+        "CopilotCode",
+        "Frontier"
+      ],
+      "related_urls": [
+        "https://www.microsoft.com/en-us/copilot/blog/2026/11/17/copilot-at-microsoft-ignite-expanding-whats-possible-with-intelligence-built-for-work/"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Copilot Notebooksを進化させた「Copilot Workspaces」をIgniteで発表",
+      "summary": "人とエージェントが協働できるマルチプレイヤー型のCopilot Workspacesを発表。Work IQによりワークスペースの活動コンテキストを保持し、応答をより関連性が高くパーソナライズされたものにする。ロードマップ上の一般提供は2026年12月予定。",
+      "url": "https://www.microsoft.com/en-us/copilot/blog/2026/11/17/copilot-at-microsoft-ignite-expanding-whats-possible-with-intelligence-built-for-work/",
+      "source": "Microsoft Copilot Blog",
+      "published_at": "2026-11-18T02:00:00+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "Ignite2026",
+        "Workspaces",
+        "WorkIQ"
+      ],
+      "related_urls": [
+        "https://www.microsoft.com/releasecommunications/api/v2/m365/rss"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Agent 365 Business Analytics体験が提供開始",
+      "summary": "Microsoft 365管理センターでAIの支出・利用状況のインサイトを提供する新しいAgent 365 Business Analyticsが2026年11月17日に提供開始。コスト予測やマルチテナント管理、アクセス制御を統合する。",
+      "url": "https://mc.merill.net/message/MC1557727",
+      "source": "Microsoft 365 Message Center",
+      "published_at": "2026-11-18T03:36:21+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "Ignite2026",
+        "Agent365",
+        "analytics",
+        "admin"
+      ],
+      "related_urls": [
+        "https://techcommunity.microsoft.com/blog/agent-365-blog/microsoft-ignite-2026-your-guide-to-agent-365/4571750"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "エージェントセッションとCopilot Coworkのユースケース分類がFrontierパブリックプレビューに",
+      "summary": "AI利用状況を分析するユースケース分類機能を導入。2026年11月中旬より対象Frontierテナントで既定で有効化され、管理者による設定管理とユーザーのオプトアウトが可能。",
+      "url": "https://mc.merill.net/message/MC1557759",
+      "source": "Microsoft 365 Message Center",
+      "published_at": "2026-11-18T04:12:58+09:00",
+      "unconfirmed": false,
+      "status": "preview",
+      "tags": [
+        "Ignite2026",
+        "Frontier",
+        "Cowork",
+        "governance"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "Claude",
+      "headline": "Claude Platformで「Linked billing」ベータを提供開始",
+      "summary": "ベータヘッダー user-profiles-billing-2026-10-01 で有効化するLinked billingをベータ提供。顧客が自身のClaude組織経由でアプリ内のClaude利用料を支払えるようになり、各リクエストで billing_policy により支払者を選択できる。対象はAnthropicへ直接API利用料を支払う組織。",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "source": "Claude Platform Release Notes",
+      "published_at": "2026-11-17T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "beta",
+      "tags": [
+        "billing",
+        "API",
+        "beta",
+        "date-only"
+      ],
+      "related_urls": [
+        "https://platform.claude.com/docs/en/manage-claude/oauth-apps/organization-billing-connections"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "Claude",
+      "headline": "Claude Desktopでリリースチャネル選択が可能に",
+      "summary": "Claude Desktopで更新チャネルを選択可能に。既定の「Stable」はテストを経て更新頻度が低く、「Latest」は約1日1回の更新でより早く修正・機能を受け取れる。",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "source": "Claude App Release Notes",
+      "published_at": "2026-11-17T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "ClaudeDesktop",
+        "app",
+        "update",
+        "date-only"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "OpenAI、GPT-6.2 AstraとSolを発表 ChatGPT Work・Codex・APIで提供",
+      "summary": "OpenAIは専門的タスク向けのGPT-6.2 Astraと日常業務向けの効率重視モデルGPT-6.2 Solを公開。ChatGPT Work・Codex・APIで利用でき、Astraは標準入出力価格を20%引き下げ、SolはGPT-6.1 Sol同等の価格(入力100万トークンあたり$2、出力$10)を維持する。",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "source": "OpenAI",
+      "published_at": "2026-11-18T02:45:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "model",
+        "pricing",
+        "api",
+        "chatgpt",
+        "codex"
+      ],
+      "related_urls": [
+        "https://developers.openai.com/api/docs/changelog",
+        "https://learn.chatgpt.com/docs/changelog"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "OpenAI、営業向け「ChatGPT for Sales」を発表",
+      "summary": "OpenAIは見込み客調査やCRM更新を支援する営業向けプラグインと30以上のパートナープラグインを備えたChatGPT for Salesを発表した。",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "source": "OpenAI",
+      "published_at": "2026-11-17T17:00:00+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "chatgpt",
+        "product"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "Codex",
+      "headline": "Codex CLI 0.169.1をリリース",
+      "summary": "OpenAIはCodex CLIのメンテナンス更新版0.169.1をGitHubで公開した。公式の確認済みリリースハイライトは記載されておらず、0.169.0からの差分修正となる。",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.1",
+      "source": "GitHub (openai/codex)",
+      "published_at": "2026-11-18T07:22:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "codex",
+        "cli",
+        "release",
+        "borderline"
+      ],
+      "related_urls": [
+        "https://github.com/openai/codex/releases.atom"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "Codex",
+      "headline": "Codexで GPT-6.2 Astra/Sol が利用可能に",
+      "summary": "learn.chatgpt.comの変更履歴によると、GPT-6.2 AstraとGPT-6.2 SolがChatGPT WorkおよびCodexで利用可能となった。Astraはコードベースにまたがる変更などの高難度プロジェクト、Solは日常的なタスク向け。",
+      "url": "https://learn.chatgpt.com/docs/changelog",
+      "source": "OpenAI (ChatGPT & Codex Changelog)",
+      "published_at": "2026-11-17T09:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "codex",
+        "model"
+      ],
+      "related_urls": [
+        "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "日本政府・行政",
+      "headline": "日ASEAN首脳会議、高性能AIの脅威対処へ新枠組み創設を確認",
+      "summary": "高市首相は2026年11月17日、フィリピンで開かれた第29回日・ASEAN首脳会議に出席し、高性能な人工知能(AI)を巡る脅威に対処するため各国と連携する新たな枠組みの創設を確認した。重要鉱物やエネルギー安全保障での協力も打ち出した。",
+      "url": "https://www.kantei.go.jp/jp/105/actions/202611/17asean.html",
+      "source": "首相官邸",
+      "published_at": "2026-11-17T12:50:00+09:00",
+      "unconfirmed": true,
+      "status": "policy",
+      "tags": [
+        "AI安全保障",
+        "国際連携",
+        "ASEAN"
+      ],
+      "related_urls": [
+        "https://www.mofa.go.jp/mofaj/a_o/rp/pageit_000001_00010.html"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "自動運転シミュレータ『CARLA 1.0』正式リリース、NVIDIA NuRecによるニューラル再構成に対応",
+      "summary": "オープンソースの自動運転シミュレータCARLAがメジャーバージョン1.0を公開。NVIDIA NuRec(ニューラル再構成/放射輝度場系)を統合し、実走行の記録からフォトリアルなカメラ映像・LiDARを生成してシミュレーション可能にした。Unreal Engine 5.8ベースでNVIDIA CosmosやDLSS 4.5にも対応。",
+      "url": "https://github.com/carla-simulator/carla/releases",
+      "source": "CARLA (carla-simulator, GitHub Release)",
+      "published_at": "2026-11-17T10:01:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "3DGS",
+        "NeuralReconstruction",
+        "NuRec",
+        "CARLA",
+        "autonomous-driving",
+        "NVIDIA"
+      ],
+      "related_urls": [
+        "https://radiancefields.com/carla-1-0-adds-nvidia-nurec-26-04-support"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "ふくおかFG、Agentforceを傘下3行で全店展開　総合営業担当の66％が活用",
+      "summary": "セールスフォース・ジャパンは11月17日、ふくおかフィナンシャルグループが傘下3行でSalesforceのAI/AIエージェント機能を全店展開し、プロジェクト開始から9か月で完了したと発表。総合営業担当者1,427人のうち945人(66％)が活用し、Agentforceの累計実行回数は15,000回以上に達した。",
+      "url": "https://www.salesforce.com/jp/news/press-releases/2026/11/17/fukuoka-financial-group-customer-news/",
+      "source": "セールスフォース・ジャパン",
+      "published_at": "2026-11-17T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "営業AI",
+        "AIエージェント",
+        "金融",
+        "導入事例",
+        "date-only"
+      ],
+      "related_urls": [
+        "https://enterprisezine.jp/news/detail/25509",
+        "https://prtimes.jp/main/html/rd/p/000000422.000041550.html"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "AIworker、生成AIが社内で使われない会社の共通点を集計した調査レポートを公開",
+      "summary": "株式会社AIworkerは11月17日、顧客の声を集計した調査レポートを公開。何らかの業務で生成AIを利用する企業は86.4％に達する一方、未活用46社のうち23社(50％)は利用が一部の得意な社員に限定され、不活用の主因43件が組織・運用面にあると分析した。",
+      "url": "https://ascii.jp/elem/000/004/450/4450240/",
+      "source": "株式会社AIworker",
+      "published_at": "2026-11-17T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "調査",
+        "全社展開",
+        "生成AI活用",
+        "効果測定",
+        "date-only"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "headline": "GitHub Copilotで「GPT-6.2 Astra」「GPT-6.2 Sol」が利用可能に",
+      "summary": "OpenAIの新モデルGPT-6.2 AstraとGPT-6.2 SolがGitHub Copilotで利用可能になった。エージェント型コーディングとコードレビュー向けに、従来のGPT-6世代より強いコーディング判断力を備える。",
+      "url": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-18T05:20:29+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "OpenAI",
+        "モデル追加"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "headline": "GitHub Copilot Fusionがweb/モバイル/Visual Studioに拡大、ベンチマークとモデルを強化",
+      "summary": "Copilot FusionがWeb、モバイル、Visual Studioで利用可能になった。Terminal-Bench 4.1リーダーボードで71.2%の解決率を達成したと発表。",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-18T03:04:48+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "Fusion"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "headline": "GitHub Copilotアプリ、Microsoft Ignite向け機能を追加",
+      "summary": "CopilotアプリがAzure DevOpsリポジトリ、GitHub Enterprise Server、ブラウザ利用機能に対応した。",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-18T03:03:42+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "Ignite"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "headline": "Copilotコードレビューに適応的レビュー深度とシークレット検出を追加",
+      "summary": "Copilotコードレビューが適応的なレビュー深度、クロスリポジトリ文脈、プルリクエストでのシークレット検出に対応した。",
+      "url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-18T03:02:05+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "コードレビュー"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "headline": "GitHub Copilotで「MAI Code 2」「MAI Code 2 Flash」が利用可能に",
+      "summary": "Microsoftの次世代コーディングモデルMAI Code 2およびMAI Code 2 Flashが複数のCopilotプラットフォームで利用可能になった。",
+      "url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-18T03:01:45+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "Microsoft",
+        "モデル追加"
+      ],
+      "related_urls": [
+        "https://microsoft.ai/news/microsoft-ignite-2026/"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "headline": "JetBrains向けGitHub Copilotにクラウドサンドボックスやブラウザ操作を追加",
+      "summary": "JetBrains IDE統合にクラウドサンドボックス、リモートアクセス、ブラウザ利用、音声ディクテーション機能が追加された。",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-in-jetbrains-ignite-releases",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-18T03:00:59+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "JetBrains"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "headline": "Microsoft Agent 365でGitHub Copilotのアクティビティを監視可能に",
+      "summary": "企業はCopilotエージェントのアクティビティをMicrosoft Agent 365へストリーミングし、一元的に監視できるようになった。",
+      "url": "https://github.blog/changelog/2026-11-17-monitor-github-copilot-activity-through-microsoft-agent-365",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-18T03:00:59+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "エンタープライズ"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "headline": "GitHub Copilot CLIがMicrosoft Entraサインインをプレビュー提供",
+      "summary": "CLIがMicrosoft Entra認証に対応し、Enterprise Managed Users向けのサイレントSSOが可能になった(プレビュー)。",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-cli-adds-microsoft-entra-sign-in-as-a-preview",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-18T03:00:35+09:00",
+      "unconfirmed": false,
+      "status": "preview",
+      "tags": [
+        "CLI",
+        "Entra"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "headline": "リポジトリインサイトでCopilotコードレビューの成果を追跡可能に",
+      "summary": "新しいリポジトリインサイトページで、開発者がCopilotのコードレビュー提案にどう対応したかの指標を確認できる。",
+      "url": "https://github.blog/changelog/2026-11-17-track-copilot-code-review-outcomes-in-repository-insights",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-18T03:00:35+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "インサイト"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "headline": "GitHub Copilot Evalsがパブリックプレビューに",
+      "summary": "Copilotのカスタマイズ最適化を支援するテストツールがパブリックプレビューで公開。再現可能なAI挙動テストの作成と比較が可能になる。",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-18T03:00:33+09:00",
+      "unconfirmed": false,
+      "status": "preview",
+      "tags": [
+        "Evals"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    },
+    {
+      "topic": "その他",
+      "headline": "Microsoft、Ignite 2026で7つの新MAIモデルを発表",
+      "summary": "MicrosoftはIgnite 2026でコーディング・サイバーセキュリティ・画像・音声・文字起こし・意思決定向けの7つの新MAIモデル(MAI Code 2、MAI Cyber 2 Flash、MAI Image 2.7、MAI Realtime 1、MAI Transcribe 2、MAI Decision 1.1など)を発表した。低価格・高性能を強調し、第2世代AIアクセラレータMaia 200が本番稼働に入ったことも明らかにした。",
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "source": "Microsoft AI",
+      "published_at": "2026-11-17T09:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "Microsoft",
+        "MAI",
+        "Ignite",
+        "モデル発表"
+      ],
+      "related_urls": [
+        "https://news.microsoft.com/events/ignite/2026/book-of-news/"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00"
+    }
+  ]
+}
