@@ -1,0 +1,1241 @@
+{
+  "date": "2026/11/18",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-17T08:00:00+09:00",
+    "to": "2026-11-18T08:00:00+09:00"
+  },
+  "itemCount": 76,
+  "items": [
+    {
+      "headline": "AMD、World Labsの買収を完了—約82億ドルの全株式取引、Fei-Fei Li氏が最高科学責任者に就任",
+      "summary": "AMDが11月16日、Fei-Fei Li氏率いる空間知能ラボWorld Labsの買収完了を発表した。9月28日に合意した約82億ドルの全株式取引で、Li氏は上級副社長兼最高科学責任者としてCEOのLisa Su氏直属となる。2024年設立・約70人のラボで、ワールドモデル「Atlas」などの研究チームがAMDの物理AI・空間知能戦略の中核を担う。",
+      "url": "https://www.unite.ai/amd-closes-world-labs-acquisition-and-names-fei-fei-li-chief-scientist/",
+      "otherUrls": [],
+      "source": "AMD",
+      "topic": "3D生成・制作（クリエイティブ）",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-17T09:27:26+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "OpenAI、CSAM検出の新分類器を審査済み組織に無料提供—AI生成画像も検出、確認対象を48%削減と試算",
+      "summary": "OpenAIが11月16日、AI生成画像を含む児童性的虐待コンテンツ（CSAM）の疑いを検出する新しい画像分類器を発表した。米NCMECの協力で開発し、審査を通過した組織にAPI経由で無料提供する。初期評価では従来とほぼ同数の虐待画像を検出しながら、人による確認対象を48%減らせると試算した。あわせてChatGPTでは、CSAMを探そうとする利用者への警告と24時間の利用停止措置を導入する。",
+      "url": "https://developers.openai.com/api/docs/guides/csam-guidance",
+      "otherUrls": [],
+      "source": "OpenAI",
+      "topic": "生成AI・その他",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-17T09:27:26+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": true
+    },
+    {
+      "headline": "PFN、AI推論向け次世代半導体「MN-Core L2000」開発でSEMIFIVEを選定—メモリ帯域はL1000の2倍超へ",
+      "summary": "Preferred Networksが11月17日、AI推論向け次世代半導体MN-Core L2000シリーズの開発でSEMIFIVEをターンキーベンダーとして選定したと発表した。メモリ帯域幅を現在開発中のL1000シリーズの2倍以上に拡大し、より高速で高効率なAI推論基盤の実現を目指す。",
+      "url": "https://x.com/PreferredNetJP/status/2122457395553251759",
+      "otherUrls": [],
+      "source": "Preferred Networks",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-17T09:27:26+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "AIworker「AI導入相談 定点調査」—導入が止まる理由の1位は「推進役がいない」34%、相談でCopilotとGeminiがChatGPTを上回る",
+      "summary": "AI導入支援のAIworkerが11月17日、同社が受けたAI導入の新規相談（2025年5月〜2026年11月上旬、録画・文字起こしのある会議）を集計した定点調査を公開した。導入が止まる理由は「使いこなせる人・推進役がいない」が34%で最多、「社内の理解・手続き」30%、「予算・費用の根拠」29%が続いた。相談で名前が挙がるツールではCopilotとGeminiがChatGPTを上回ったという。同社への相談企業の集計であり、日本企業全体の平均ではない点は明記されている。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000045.000169819.html",
+      "otherUrls": [],
+      "source": "AIworker",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-17T13:24:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "AssemblyAI、音声認識モデル「AssemblyAI-STT-3.7」を公開—録音用・会議/通話向けRealtime・音声エージェント向けの3種、32言語を自動判別",
+      "summary": "AssemblyAIが11月17日、音声認識モデルAssemblyAI-STT-3.7を公開した。録音用、会議や通話向けのRealtime、音声エージェント向けRealtime-Agentの3バリアントで、32言語を自動判別する。Realtimeは話者ラベルがターン終了時点で確定し、後からの修正を待たずに使える点を特徴とする。公式ブログと変更履歴で提供開始を確認した。",
+      "url": "https://assemblyai.com/blog/introducing-assemblyai-stt-3-7",
+      "otherUrls": [],
+      "source": "AssemblyAI",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-17T13:24:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "ElevenLabs、日本の音声AIスタートアップKotoba Technologiesの買収に合意—同社初の日本企業買収、従業員15名が参画",
+      "summary": "音声AIのElevenLabsが11月17日、日本語音声モデル「Koto」を開発するKotoba Technologiesの買収合意を発表した。ElevenLabsにとって日本初の買収で、Kotobaの従業員15名が加わり、日本での音声エージェント普及を加速する。Kotoは日本語の音声合成・音声認識・同時通訳向け音声変換に強みを持つ。買収完了は2026年第4四半期後半の見込み。Kotobaは経産省GENIACの支援先でもあった。",
+      "url": "https://www.watch.impress.co.jp/docs/news/2156921.html",
+      "otherUrls": [],
+      "source": "ElevenLabs",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-17T13:24:05+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "UAEのdu、ソブリンAI推論プラットフォーム「National HyperAI」を開始—GPU・モデル・エージェントを単一契約で提供",
+      "summary": "UAEの通信事業者duが11月16日、子ブランドdu Techを通じてソブリンAI推論・エージェント基盤「National HyperAI」の開始を発表した。データとモデルウェイトをUAE国内に保持し、ソブリンAI推論、GPU as a Service、Model as a Service、自律エージェントのワークフローを単一契約で政府機関・大企業・中小企業向けに提供し、即日利用可能としている。基盤はUAEサイバーセキュリティ評議会の認証を受けたNational Hypercloudで、国内5か所のデータセンターで運用される。",
+      "url": "https://channelpostmea.com/2026/11/16/du-launches-national-hyperai-to-power-sovereign-ai-inference-and-agentic-transformation/",
+      "otherUrls": [],
+      "source": "du",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-17T15:14:42+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Google Cloud、日本のサイバーセキュリティ強化とAI導入・人材育成の新たな取り組みを発表—行政・重要インフラにセキュリティ向けフロンティアAIを早期提供、2030年までに100万人育成",
+      "summary": "Google Cloudが11月17日、CEOのThomas Kurianと片山さつき財務大臣の会談を踏まえ、日本向けの新たな取り組みを公式ブログで発表した。国家サイバー統括室やデジタル庁、金融機関、重要インフラ事業者に、セキュリティ強化版フロンティアモデル「Gemini 4 Carbon for Cyber」と脆弱性検知・コード修復支援のCodeMenderへの早期アクセスを提供する。あわせて国内パートナーと2030年までにAI・クラウド・セキュリティ人材100万人の育成を目指し、「Google AI プロフェッショナル認定証」の無料受講アカウント1万名分を日本リスキリングコンソーシアムと連携して配布する。12月9日からはGoogle WorkspaceへのGeminiエージェント標準搭載も始まる。",
+      "url": "https://cloud.google.com/blog/ja/products/gcp/announces-initiatives-to-strengthen-cybersecurity-and-accelerate-ai",
+      "otherUrls": [],
+      "source": "Google Cloud",
+      "topic": "政府・政策",
+      "section": "政策・政府",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-17T17:23:47+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Meituan、音声駆動アバター動画生成モデル「LongCat-Video-Avatar 1.6」をオープン公開—10分超の長尺でも口の動きと一貫性を維持",
+      "summary": "MeituanのLongCatチームが11月15日、音声駆動の人物動画生成モデルLongCat-Video-Avatar 1.6を公開した。1.5から口の動きの自然さ、表情・頭部・体の協調動作、長尺生成時の一貫性を改善し、10分を超える動画でも品質を保つとしている。33,051票の人間選好アリーナではElo 1068.1で6システム中2位だった（同社実施）。重みはMITライセンスでHugging Faceに公開されている。",
+      "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6",
+      "otherUrls": [],
+      "source": "Meituan LongCat",
+      "topic": "映像生成・動画AI",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-17T17:23:47+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "NVIDIA、科学研究エージェント構築のための「Nemotron for Science」を発表—化学データセット約5万問と事後学習レシピをオープン公開",
+      "summary": "NVIDIAが11月16日、SC26で「Nemotron for Science」を発表した。オープンモデルNemotron 3.5 Super VL（10月公開）を基盤に、科学評価、化学推論の学習・評価用オープンデータセット「LitmusBench v0.2」（約5万問）、分野特化エージェントを作るための事後学習レシピをまとめたパッケージで、モデルとデータセットはHugging Faceで提供を開始した。米アルゴンヌ国立研究所がタンパク質治療候補の設計・評価を行うマルチエージェントシステムへの統合を進めているほか、理化学研究所もRIKYUプラットフォームでモデルを提供している。",
+      "url": "https://www.globenewswire.com/news-release/2026/11/16/3403880/0/en/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents.html",
+      "otherUrls": [],
+      "source": "NVIDIA",
+      "topic": "生成AI・その他",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-17T17:23:47+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": true
+    },
+    {
+      "headline": "韓国銀行、生成AIの業務利用66.5%・労働時間9.2%削減の一方で生産性向上との結びつきは弱いとの調査報告を公表",
+      "summary": "韓国銀行（中央銀行）が11月17日、AIの普及と生産性効果に関する調査報告を公表した。18〜64歳の就業者16,342人への調査（2026年8〜9月）で、生成AIの業務利用率は66.5%と前年の51.8%から14.7ポイント上昇し、米国の43%を上回った。利用者の労働時間削減率は3.8%から9.2%へ2.4倍に拡大し、週40時間換算で約3.7時間の削減となった。一方、時間削減と作業量の増加の相関は0.08、品質改善との相関も0.09と弱く、削減時間が生産性向上に結びついている証拠は限定的だとした。削減時間をすべて生産活動に回した場合の潜在的な産出押し上げは2.6%と試算した。",
+      "url": "https://en.yna.co.kr/view/AEN20261117002800320",
+      "otherUrls": [],
+      "source": "韓国銀行",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-17T17:23:47+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Google、Gemini Notebookにノートのソースから対話型サイトを生成する機能を追加—Web版で全世界に展開開始",
+      "summary": "Googleが11月16日、Gemini Notebook（旧NotebookLM）で、ノートに集めたソースから対話型サイトを生成できる機能を公式ブログで発表した。チャットに「make me a site」と入力して作りたいものを説明すると、試験対策用のビジュアル解説（対話型の周期表や歴史年表など）、四半期売上などのデータを探索できるダッシュボード、タスクと期限を並べるプロジェクト管理トラッカーを生成でき、新しいタブで開いて共有もできる。Web版で18歳以上のGemini Notebookユーザー（Google Workspace契約者を含む）に全世界で展開を開始し、モバイルアプリ版は近日提供予定としている。",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/",
+      "otherUrls": [],
+      "source": "Google",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-17T19:15:55+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "AgentがRL学習を監督する「AutoRL」、Qwen3のAIME 2024スコアを46.67%から66.67%に",
+      "summary": "エージェントに実行中の強化学習を監督させるAutoRLという論文が紹介された。Qwen3のAIME 2024スコアを46.67%から66.67%に引き上げたと報告されており、自己改善AIに関する最近の論文の中でも特に注目すべきものとして推薦されている。",
+      "url": "https://x.com/omarsar0/status/2122429507756069008",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-17T19:33:23+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Apple、macOS 27.3でAIアプリへの全権限付与に強い警告を追加",
+      "summary": "Appleが、AIエージェントなどのアプリがもたらすリスクに対応するため、macOS 27.3に導入される権限管理・警告・透明性機能の詳細を明らかにした。フルディスクアクセスなどMac全体の操作権限をAIアプリに与える前に強い警告が表示されるようになる。10月の発表に続くもので、Agent利用者からは権限アラートが増えるとの声も出ている。",
+      "url": "https://x.com/TechCrunch/status/2122435308092268646",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-17T19:33:23+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Gemini Webのコードに未発表モデル「gemini-4-neon」への参照",
+      "summary": "GeminiのWebアプリのコードから「gemini-4-neon」というモデルへの参照が見つかった。現時点ではコード上の記述のみで一般には利用できない状態で、新しいFlash Liteモデルではないかとの推測も出ている。未確認情報。",
+      "url": "https://x.com/testingcatalog/status/2122427521211785388",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-17T19:33:23+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Google Labs、AI秘書サービスHowieを買収—中小企業向け次世代AIツール開発へ",
+      "summary": "スケジュール調整とカレンダー管理に取り組むAI秘書サービスHowieが、Google Labsに加わると発表した。既存顧客へのサービスは継続し、Google Labsは同チームと中小企業向けの次世代の直感的なAIツールを開発する方針。",
+      "url": "https://x.com/GoogleLabs/status/2122461899178820069",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-17T19:33:23+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Hub、ロボット学習用の一人称視点データセット「HubEgo-100K」を公開—10万時間の熟練作業映像、最初の1万時間をOSS化",
+      "summary": "YC出身のHubが、ロボット学習向けの一人称視点データセットHubEgo-100KをHugging Faceで公開した。10万人超の協力者による10万時間の熟練作業を収録し、最初の1万時間をオープンソース化。マイクロはんだ付けや配線、レンガ積み、時計修理など多様な作業を含み、研究・商用ともに無料で使える。",
+      "url": "https://x.com/hubdotxyz/status/2122408735897423962",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-17T19:33:23+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Sakana AIの推薦手法「QD-Rec」、進化計算で推薦の多様性を拡張",
+      "summary": "Sakana AIの推薦手法QD-Recが、進化計算のQuality-Diversityを推薦に応用した研究として紹介された。バンディットで未開拓領域のアイテムを探索し、LLMが推薦理由として説明するストーリーの新規性で採否を決めるなど、多様性を距離で測る従来手法とは異なるアプローチとして話題になっている。",
+      "url": "https://x.com/kazunori_279/status/2122585555221594189",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-17T19:33:23+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Together AI、Agent評価の実践手順を公開—タスク完了率が67%から96%に向上",
+      "summary": "Together AIが、自社で実践しているエージェント評価の手順を共有した。約10の代表タスクを定義し、サンドボックス上のClaude Codeでbaseline、MCP、skillsの3構成を比較、軌跡を分析してドキュメントとAPIを改善した結果、タスク完了率が67%から96%に向上したという。",
+      "url": "https://x.com/togethercompute/status/2122543623183208778",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-17T19:33:23+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "コーディングAgentのprefix cachingを壊す落とし穴、Together AIとollamaが知見を公開",
+      "summary": "Together AIとollamaが、コーディングAgentの長いセッションを高速に保つprefix cachingの知見をまとめた。システムプロンプト内のタイムスタンプ1つやreasoning effortの変更でキャッシュ全体が無効になると指摘し、Claude CodeやCodexなどでハーネスと推論エンジンの両側が対応すべき点を整理している。",
+      "url": "https://x.com/ollama/status/2122531964154712541",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "section": "エージェント",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-17T19:33:23+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Geminiアプリ、地域のアクセントに合わせた66種の新しい音声を展開開始—Android・iOS向け",
+      "summary": "Googleは11月16日、Geminiアプリに66種の地域別音声を追加し、AndroidとiOSで展開を開始したと公式ブログで発表した。米国英語、英国英語、インド英語、ヒンディー語、ブラジルポルトガル語、インドネシア語、韓国語などに対応し、各音声は誇張したアクセントではなく自然な抑揚やリズム、ピッチに調整されている。選択した音声はGemini Liveでの会話やチャット応答の読み上げなど、アプリ全体で共通して使える。",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/",
+      "otherUrls": [],
+      "source": "Google",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-17T21:25:49+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Google Pics、画像生成・編集モデルが「Nano Banana 2.1」にアップグレード—11月16日から全展開開始",
+      "summary": "Googleは11月16日、Google Picsの画像生成・編集機能を新モデル「Nano Banana 2.1」に切り替えるとGoogle Workspace公式ブログで発表した。高精細なディテールと自然なライティングで画質と実在感を高め、編集時は依頼していない周辺の被写体や背景の変更を大幅に減らし、画像内テキストの描画精度も改善した。処理速度は従来モデルと同等。PicsアプリのほかGoogleドキュメントやスライド内でも利用でき、Rapid Release／Scheduled Releaseとも11月16日から1〜3日で全展開する。対象はBusiness Standard/Plus、Enterprise Standard/Plus、Google AI Plus/Pro/Ultraなど。",
+      "url": "https://workspaceupdates.googleblog.com/2026/11/google-pics-upgrades-to-nano-banana-21-for-higher-quality-image-generation-and-editing.html",
+      "otherUrls": [],
+      "source": "Google",
+      "topic": "画像生成・編集",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-17T21:25:49+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Isomorphic Labs、50億ドルのシリーズC調達を発表—GreenoaksとSequoiaが共同リード、Alphabetも継続出資",
+      "summary": "Google DeepMind発のAI創薬企業Isomorphic Labsが11月17日、50億ドルのシリーズC調達を発表した（PR Newswire、応募超過のラウンド）。GreenoaksとSequoia Capitalが共同リードし、Andreessen Horowitz（a16z）などが新規参加、Alphabetが継続出資したほか、Thrive Capital、MGX、GV、CapitalG、Temasek、UK Sovereign AI Fundなど既存投資家全社も参加した。調達資金は基盤シミュレーションモデルの前進、自社・提携の医薬品候補パイプラインの進展と拡大、AI主導のバイオエンジニアリング基盤の構築に充てる。",
+      "url": "https://www.prnewswire.com/news-releases/isomorphic-labs-announces-5-billion-series-c-funding-302942062.html",
+      "otherUrls": [],
+      "source": "Isomorphic Labs",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-17T21:25:49+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Genesys、既存のカスタマーサービス環境で使える「Standalone AI Agents」とAgent Kit集「Genesys Arena」を発表",
+      "summary": "Genesysは11月17日、Genesys Cloudへ移行しなくても既存のカスタマーサービス環境にAgentic Virtual Agentを数日で導入できる「Standalone AI Agents」（一般提供開始）と、50超の業界別ユースケース向けAgent Kitで最短10分で機能するAIエージェントを作成できる「Genesys Arena」（Agent Kitは今月後半に一般提供）を発表した。AIの作業量に応じて課金するeffort-based pricingもあわせて導入する。",
+      "url": "https://gsys.cx/3UGHq5z",
+      "otherUrls": [],
+      "source": "Genesys",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-17T23:18:28+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Karpo、意思決定モデル「Karpo Decision 31B」をオープン公開—Decision Indexで首位",
+      "summary": "MachinePulseAIのKarpoは、Gemma 4 31Bをベースにしたマルチモーダル意思決定モデル「Karpo Decision 31B」を公開した。Webページや文書などの状態と型付きの質問を受け取り、テキストを生成せず1回のフォワードパスで全選択肢の確率を返す。公式計測ではDecision Index Fullスコア73.9で約300モデル中1位、中央値レイテンシは95ms。0.8B〜12Bの小型版を含む6サイズのファミリーとしてHugging Faceで重みを公開した。",
+      "url": "https://karpo.ai/blog/karpo-decision-31b",
+      "otherUrls": [],
+      "source": "Karpo",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-17T23:18:28+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "LSEとProtiviti調査、職場のAI利用率は74%に上昇—研修を受けた従業員の導入率は93%で未研修の50%を大きく上回る",
+      "summary": "ロンドン・スクール・オブ・エコノミクス（LSE）のThe Inclusion InitiativeとProtivitiは11月17日、年次レポート「Beyond the Technology: Who Really Captures AI's Gains at Work」を発表した。世界の専門職3,001人を対象とした調査で、職場でAIを使う割合は74%と2024年の29%から急増した。利用者は平均で週の労働時間の19%を節約し、その72%を他の仕事に再投資している一方、AIを十分に使っていないと評価されることを心配する人は48%に上った。AI研修を受けた従業員の導入率は93%で、受けていない従業員の50%を大きく上回った。",
+      "url": "https://www.newswire.ca/news-releases/ai-at-work-48-of-employees-worry-they-will-be-judged-for-not-using-ai-enough-lse-and-protiviti-research-finds-836845879.html",
+      "otherUrls": [],
+      "source": "Protiviti",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "web-search"
+      ],
+      "collected_at": "2026-11-18T01:26:07+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "PA Consulting調査、AIの恩恵に職階格差—仕事の質が高まった割合はシニアリーダー72%に対し若手43%",
+      "summary": "PA Consultingが英国の従業員2,000人を対象に実施した調査で、AIで仕事の質が高まったと答えた割合はシニアリーダーの72%に対し、エントリーレベル・若手社員は43%にとどまった。「これまでできなかったことができるようになった」もシニアリーダー70%対若手38%で、意味のある恩恵をまだ感じていない従業員は32%に上る。シニアリーダーは若手の3倍以上の頻度（1日平均6.9回）でAIを使っており、同社は導入と効率化だけに注力すると職場内の格差が広がると警告している。",
+      "url": "https://www.paconsulting.com/newsroom/ai-risks-widening-the-workplace-divide-new-report-finds-9-november-2026",
+      "otherUrls": [],
+      "source": "PA Consulting",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-18T01:26:07+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Sarvam AI、推論基盤「Token Factory」を一般提供開始—自社105BやDeepSeek・Gemmaなどをインド国内GPUから単一APIで提供",
+      "summary": "インドのSarvam AIは推論サービス「Token Factory」を開発者・企業向けに一般提供開始した（Sarvam公式ブログで発表、Inc42が11月17日に報道）。自社モデルSarvam 105BのほかDeepSeek V4.1 Flash、GLM 5.3、Kimi K3.1 Pro、Gemma 4 31Bなど世界のオープンウェイトモデルを、インド国内のGPUクラスタからOpenAI互換の単一APIで提供し、ルピー建ての従量課金とする。Sarvam 105Bは初回トークン0.2秒をうたう。",
+      "url": "https://inc42.com/buzz/sarvam-ai-opens-token-factory-to-run-global-ai-models-on-indian-servers/",
+      "otherUrls": [],
+      "source": "Inc42",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-18T01:26:07+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "デジタル庁、ガバメントAI「源内」のAIエージェント・ワークショップを政府で初開催—27組織34人が試作、答弁支援AIは来年1月に本格提供",
+      "summary": "デジタル庁は11月17日、政府職員向け生成AI環境「ガバメントAI 源内」を使い、職員自らAIエージェントの試作品を作るワークショップを政府で初めて開催した。17府省庁等の27組織から職員34人が参加し、AI関連企業11社が技術アドバイザーとして加わった。源内は10月20日から職員が自分でAIエージェントを作成・実行できる環境を各府省庁へ展開中で、利用者1人当たり週約1.83時間の業務時間短縮と推計される。答弁支援AIは2027年1月の通常国会で本格提供し、仕組みは2027年2月をめどに「源内OSS Ver.2.0」として商用利用可能なライセンスで無償公開する予定。",
+      "url": "https://jpjj.jp/articles/gennai-ai-agent-workshop/",
+      "otherUrls": [],
+      "source": "日本時事新聞",
+      "topic": "政府・政策",
+      "section": "政策・政府",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-18T01:26:07+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Anthropic、Claude Platformの「リンク課金」をベータ公開—APIキーを渡さず第三者アプリの利用料を直接課金",
+      "summary": "Anthropicは11月17日、Claude Platformのlinked billing（リンク課金）をベータ公開した。Factory、Linear、Ramp、Asana、Warpなど19のプラットフォームで、顧客はAPIキーを共有せず自分のClaude組織へ直接課金でき、プラットフォームごとに月次の支出上限を設定し、いつでも連携を解除できる。顧客別の利用量を確認できるUsage and Cost Analytics APIもベータ提供される。リリースノートではベータヘッダー user-profiles-billing-2026-10-01 で有効化し、各リクエストで billing_policy により支払者を選択できることも案内された。",
+      "url": "https://claude.com/resources/articles/linked-billing-on-claude-platform",
+      "otherUrls": [
+        "https://platform.claude.com/docs/en/release-notes/overview"
+      ],
+      "source": "Anthropic",
+      "topic": "エージェント",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code",
+        "x"
+      ],
+      "collected_at": "2026-11-18T03:40:23+09:00",
+      "published_at": "2026-11-17T00:00:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Google、Geminiのエージェント機能「Tasks」を日本など6カ国で無料提供開始",
+      "summary": "Googleは11月17日、Geminiアプリのエージェント機能「Tasks」（旧Spark）を、米国・日本・韓国・カナダ・オーストラリア・インドの数億人の対象ユーザーへ無料で展開すると発表した。Gemini 4 Hydrogenを基盤に、店への電話予約、請求書の分析、買い物などを代行する。米国ではメール転送（gemini@google.com）やテキストメッセージ経由でタスクを依頼する機能も始まる。",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "otherUrls": [],
+      "source": "Google",
+      "topic": "エージェント",
+      "section": "エージェント",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-18T03:40:23+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "OpenAI、新モデル「GPT-6.2 Astra」と「GPT-6.2 Sol」を公開",
+      "summary": "OpenAIは11月17日、新フロンティアモデルGPT-6.2 Astraと日常業務向けのGPT-6.2 Solを公開し、ChatGPT WorkとCodex（Plus、Pro、Enterprise、Edu）およびAPIで提供を開始した。AstraはAgents' Last ExamでGPT-6 Astraを5.2ポイント上回り、コストは3分の1未満。API価格は入力100万トークンあたり8ドル、出力40ドルでGPT-6 Astra比20%安い。SolはGPT-6.1 Solと同価格を維持し、Ultrafastが初めてPro 200契約者にも提供される。Codexの変更履歴でも両モデルの利用開始が案内された。",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "otherUrls": [
+        "https://learn.chatgpt.com/docs/changelog"
+      ],
+      "source": "OpenAI",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "claude-code",
+        "x"
+      ],
+      "collected_at": "2026-11-18T03:40:23+09:00",
+      "published_at": "2026-11-18T02:45:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "GitHub、Copilot Fusionの提供範囲を拡大—Terminal-Bench 4.1で71.2%を記録し首位に",
+      "summary": "GitHubは11月17日、Copilot Fusionの更新を発表した。web、Visual Studio、GitHub Mobileベータへ提供を広げ、Fusion MaxにClaude Sonnet 5.5など新モデルを追加。公開リーダーボードTerminal-Bench 4.1ではFusion Maxが71.2%の解決率でClaude Opus 5.5とFable 5.2を5.4ポイント上回り、コストはFable 5.2比で88%低かったとしている。",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models/",
+      "otherUrls": [],
+      "source": "GitHub",
+      "topic": "エージェント",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code",
+        "x"
+      ],
+      "collected_at": "2026-11-18T05:25:15+09:00",
+      "published_at": "2026-11-18T03:04:48+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Google、Antigravity向け「Roboticsプラグイン」を公開—Gemini 4 Hydrogenでロボット制御を対話で実行",
+      "summary": "Googleは11月17日、Gemini 4 Hydrogenを活用するGoogle Antigravity向けRoboticsプラグインを公開した。対応ロボットアームのドライバ導入やカメラ検出、キャリブレーション（約10分で準備完了）、MuJoCoシミュレーションの内蔵実行、空間理解による物体認識・把持計画と閉ループ制御をスキルとしてまとめ、会話の指示で実機タスクを実行できるようにする。",
+      "url": "https://developers.googleblog.com/gemini-hydrogen-for-robotics/",
+      "otherUrls": [],
+      "source": "Google",
+      "topic": "エージェント",
+      "section": "エージェント",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-18T05:25:15+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Hugging Face、Qwen3.8-27B向けpi適応LoRAを公開—SWE-bench Pro Hardが29.4%から62.7%に改善",
+      "summary": "Hugging Faceのharness-hubは、コーディングエージェントpi向けに強化学習で適応させたQwen3.8-27B用LoRAアダプタを公開した。pi実行時のpass@1はSWE-bench Pro（Hard 51）で29.4%から62.7%、Terminal-Bench 2.1で39.5%から55.8%に向上し、ツール呼び出しは55〜62%減った。アダプタは無料で公開され、vLLMやllama.cppなどで利用できる。",
+      "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+      "otherUrls": [],
+      "source": "Hugging Face",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-18T05:25:15+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Microsoft、IgniteでMAIモデル7種を発表—MAI Code 2はGPT-6.1 Solの98%性能を約40%の価格で提供",
+      "summary": "Microsoftは11月17日のIgnite 2026で、コーディング・サイバーセキュリティ・画像・音声・文字起こし・意思決定向けの自社MAIモデル7種（MAI Code 2、MAI Cyber 2 Flash、MAI Image 2.7、MAI Realtime 1、MAI Transcribe 2、MAI Decision 1.1など）を発表した。コーディング用MAI Code 2／Code 2 FlashはGitHub Copilotで提供が始まり、Code 2はGPT-6.1 Solの98%の性能を約40%の価格、Claude Opus 5.5の96%を5%の価格でうたう。MAI Cyber 2 FlashはCyberGym-E2EでGPT-6 Astraを上回り、MAI Image 2.7はArtificial Analysisの画像編集で1位。第2世代AIアクセラレータMaia 200が本番稼働に入ったことも明らかにした。",
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026-mai-keynote/",
+      "otherUrls": [
+        "https://microsoft.ai/news/microsoft-ignite-2026/"
+      ],
+      "source": "Microsoft AI",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "claude-code",
+        "x"
+      ],
+      "collected_at": "2026-11-18T05:25:15+09:00",
+      "published_at": "2026-11-17T09:00:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "OpenAI、法務特化の「Astra for Law 6.2」を公開—Harvey LAB-AAで全基準合格率20.8%の首位",
+      "summary": "OpenAIは11月17日、GPT-6.2 Astraに拡張した法務検索インデックスなどを組み合わせた法務特化構成「Astra for Law 6.2」を公開した。Harvey LAB-AA v1.1（24分野・120課題）では全基準合格率20.8%で首位となり、Vals AIの法務リサーチ評価でも53.8%を記録。全てのChatGPT Enterprise顧客がTrusted Access Program経由で利用を申請できる。",
+      "url": "https://openai.com/index/astra-law-6-2/",
+      "otherUrls": [],
+      "source": "OpenAI",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-18T05:25:15+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "コンカー、「自律型エンタープライズ」構想と2027年AI進化計画を発表—出張費11%削減などを見込む",
+      "summary": "コンカーは11月17日の戦略発表会見で、SAPグループのAIコンセプト「自律型エンタープライズ」と、経費レポート自動作成「Expense Automation Agent」などSAP ConcurのAI新機能、2027年に向けたAI進化計画を発表した。同社の調査では、この実現により出張費の11%削減、経費レポート作成時間の30%削減、経費作成エラーの52%削減、再処理にかかる承認時間の93%削減などの効果が見込まれるという。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000237.000048283.html",
+      "otherUrls": [],
+      "source": "コンカー",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-18T05:25:15+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Anthropic、Claude Codeの実験機能「Code Mode」を公式案内—ツール呼び出しをJavaScriptで一括実行",
+      "summary": "Anthropicの開発者向け公式アカウントClaudeDevsは11月17日、Claude Codeの実験機能「Code Mode」を案内した。ClaudeがJavaScriptを書いて複数のツール呼び出しをまとめて実行し、長いコマンドの実行中にも応答できる。v2.1.323以降で利用でき、環境変数CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1で有効化するオプトイン機能で、デフォルトはオフ、実験扱いのため変更・削除の可能性がある。",
+      "url": "https://code.claude.com/docs/en/code-mode",
+      "otherUrls": [],
+      "source": "Anthropic",
+      "topic": "Claude／Codex",
+      "section": "エージェント",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-18T07:20:21+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "HeyGen、音声駆動アバターモデル「Avatar 6」を公開—文脈に合わせたジェスチャー生成でAvatar Arena 1位",
+      "summary": "HeyGenは11月17日、アバターモデル「Avatar 6」をプラットフォームとAPIで提供開始した。音声の内容と話し方から文脈を読み取り、リップシンクやジェスチャーを生成する。New MeasureのAvatar Arena（ブラインドテスト）で1位となり、同社のチューリング式テストでは84%が実人物と同等にリアルと評価したという（同社発表）。",
+      "url": "https://www.prnewswire.com/news-releases/heygen-introduces-avatar-6-an-audio-driven-context-aware-ai-model-that-alleviates-repetitive-or-unnatural-motion-in-ai-generated-video-302942527.html",
+      "otherUrls": [],
+      "source": "HeyGen",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-18T07:20:21+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Proton、AIアシスタント「Lumo」のデスクトップ版を公開—Connectors・Schedules・Skillsを追加",
+      "summary": "Protonは11月17日、プライバシー重視AIアシスタントLumoのデスクトップ版をWindows／macOS／Linux向けに公開した。アプリやローカルファイルと連携するConnectors、定期実行のSchedules、指示を再利用するSkillsを備え、これらはデスクトップ版専用機能として提供する。ツールのソースコードも公開し、検査可能にするとしている。",
+      "url": "https://proton.me/lumo/download?ref=bannerredirect",
+      "otherUrls": [],
+      "source": "Proton",
+      "topic": "エージェント",
+      "section": "エージェント",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-18T07:20:21+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Anthropic IPO価格が1株$80超の見通し、Microsoftは$1B出資計画【続報】",
+      "summary": "AnthropicのIPO計画に関する続報。WSJによると、木曜の上場を前に公開価格を想定レンジ上限以上の1株$80超に設定する見込みで、評価額は$1.5〜1.6Tに達し得るとされる。The InformationによるとMicrosoftはIPOで$1Bを投資する計画で、Anthropicは7年間で$49B分のNVIDIAサーバーをAzureから借りる一方、MicrosoftはCopilotのモデルをOpenAIへ置き換えているとされる。報道ベースで未確認。",
+      "url": "https://x.com/theinformation/status/2122736655232647273",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-18T07:35:20+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Google ColabにAPIとMCPエンドポイント、AIエージェントから実行可能に",
+      "summary": "Google Colabが新しいColab APIとMCPエンドポイントを公開した。AIエージェントからColabランタイムを直接プロビジョニングし、Pythonをヘッドレスで実行できる。設定だけでAgentにGPU付きの実行環境を持たせられるため、実験の自動化に使える機能として大きな反響を集めている。",
+      "url": "https://x.com/GoogleColab/status/2122676129009975544",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "section": "エージェント",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-18T07:35:20+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Google等、変更理由を記憶しエージェントのハーネスを継続改善する手法を提案",
+      "summary": "GoogleとPenn Stateが、エージェントのハーネスを別のAIが継続的に書き換えて改善する手法を提案した。最適化器向けの自己改善型メモリで各変更の理由を残すと、新しいモデルにも改善効果が引き継がれやすくなるとしている。トレースの重要性を示す研究として、ブックマーク推奨の注目論文と紹介されている。",
+      "url": "https://x.com/omarsar0/status/2122701047118635485",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-18T07:35:20+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "HF、DeepSeek Flashエージェント1,000体で60万行のChatbot「PyBot」を構築",
+      "summary": "Hugging Faceのチームが、DeepSeek Flashのエージェント1,000体を協調させてチャットボットPyBotを作る実験を公開した。1週間で60万行のPythonによるルールベース実装を書き、重みも学習もなしでSmolLM 360M並みの性能だとしている。閉じたラボ外でAgent Swarmのスケールを検証する試みで、手元では15体程度で速度向上が頭打ちになるとの声も出ている。",
+      "url": "https://x.com/Thom_Wolf/status/2122673947409858730",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-18T07:35:20+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "NVIDIA決算は売上$115.8B、データセンター売上は初の$100B超え",
+      "summary": "NVIDIAが第3四半期決算を発表し、売上$115.8B、EPS $2.68と市場予想を上回った。データセンター売上は初めて$100Bを超える$107.6Bで、次四半期ガイダンスは$130Bと強気。複数年のメモリ供給契約で部品購入コミットメントが$279Bから$390Bに増え、HBM4各社への追い風とみられている。取締役会はJensen Huang氏をCEOに復帰させる意向はないと表明した。",
+      "url": "https://x.com/StockMKTNewz/status/2122802069551644767",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-18T07:35:20+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "SGLang v1.0公開、NVIDIA・AMD等9社でコンソーシアム発足",
+      "summary": "初のSGLang Summitが2,000人超を集めて開催され、推論エンジンSGLang v1.0が発表された。Miles v0.2も公開され、NVIDIA、AMD、Intel、Google、Meta、Thinking Machines Lab、Cloudflare、Modal、RadixArkの9社でコンソーシアムが発足した。競合するチップベンダーが同じ推論エンジンの運営に加わる形となり、エコシステムの標準化が進むとみられる。",
+      "url": "https://x.com/sgl_project/status/2122736431009595422",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-18T07:35:20+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Sciforium、投機的デコードでAMD MI355X上のDeepSeek-V4.1-Flashを1,129tok/sに高速化",
+      "summary": "SciforiumがAMD MI355X 4枚でDeepSeek-V4.1-FlashをP90で1,129出力tok/sで動かしたと報告した。顧客トラフィックでドラフターを調整して受理長を伸ばし、ドラフト長を5から7トークンに増やすことで、元の重みのまま835tok/sから高速化した。vLLMでも新カーネルでMI355Xの性能が4倍になったとの報告がある。",
+      "url": "https://x.com/hassanience/status/2122777279004827921",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-18T07:35:20+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "mizchi、テスト品質を測るMutation Testの解説記事を公開",
+      "summary": "mizchiさんが、Mutation Testでテスト品質を測る方法を解説するZenn記事を公開した。比較演算子などのソースコードを意図的に書き換え、既存テストがその変化を検出できるかでテストの質を測る。AIが書くコードやPRが増えて人のレビューが形骸化しがちな中、検証を自動化する手段として参考になる。",
+      "url": "https://x.com/mizchi/status/2122653063446212795",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-18T07:35:20+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "重み直接記述の発展研究、LLMが特徴量のズルを自ら発見【続報】",
+      "summary": "モデルにニューラルネットの重みを直接書かせるWeight-Space Programmingに関する続報。LLMにスコアを見ながら重みや特徴量をコードで書かせ、仕様を200語以内で文書化させる研究が紹介された。言語化によりスキャン位置を特徴量に使うようなズルを発見でき、166パラメータまで削減した例もある。一方で実験コストは280万円かかったとされ、効率化と費用のバランスが話題になっている。",
+      "url": "https://x.com/webbigdata/status/2122610035855692099",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-18T07:35:20+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Cognition、Devinエージェント群を統括する「Devin Bots」を発表",
+      "summary": "Cognitionは11月17日、コーディングエージェントDevinのチームを統括する持続型エージェント「Devin Bots」を発表した。Botが大規模プロジェクトを分割して個別のDevinへ割り当て、ファームウェア開発から週に数千件のPRマージまで、数日〜数週間にわたる作業を主導する。Fortuneによれば、Decagon、Fireworks AI、Reductoなど初期顧客でのBots利用は2週間で10倍に増えたという。Cognition公式発表とFortune報道で確認した。オーナーのいいねが端緒。",
+      "url": "https://x.com/cognition/status/2122737511684587551",
+      "otherUrls": [],
+      "source": "Cognition",
+      "topic": "Claude／Codex",
+      "section": "エージェント",
+      "collectedFrom": [
+        "x-likes"
+      ],
+      "collected_at": "2026-11-18T08:04:25+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Genesis AI、$500MのシリーズAを調達——汎用ロボット「Eno」の量産と展開を加速",
+      "summary": "ロボティクス企業Genesis AIは11月17日、$500MのシリーズA調達を発表した。調達後の評価額は$3.5Bで、Premji Invest、Khosla Ventures、Eclipseが共同主導し、NVIDIAやAMD Venturesなども参加した。両腕と器用な手を持つ汎用ロボット「Eno」（30〜40台を製作済み）の生産拡大と顧客展開、AIモデル「GENE」のデータ収集・学習基盤の拡充に充てる。量産は2027年に米国で開始予定で、製造・物流・研究施設への導入をまず目指す。同社のプレスリリースとCrunchbase Newsなどで確認した。オーナーのいいねが端緒。",
+      "url": "https://www.roboticstomorrow.com/news/2026/11/17/genesis-ai-raises-500m-series-a-at-35b-valuation-to-master-human-level-dexterity-in-general-purpose-robots-and-deploy-at-scale/27402/",
+      "otherUrls": [],
+      "source": "Genesis AI（プレスリリース）",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x-likes"
+      ],
+      "collected_at": "2026-11-18T08:04:25+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "GitHub Copilotアプリ、Azure DevOps連携を公開プレビュー——GHES対応はGA、ブラウザ操作も追加",
+      "summary": "GitHubは11月17日、Igniteに合わせGitHub Copilotアプリの拡張を発表した。Azure DevOpsリポジトリのクローンからブランチ作成、コード変更、PRの完了までをアプリ内で行える連携を公開プレビューとして提供する（実行はローカル環境のみ）。GitHub Enterprise Server対応は一般提供となり、Chromium系ブラウザを分離タブグループで操作するブラウザ利用も公開プレビューで追加した。",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases/",
+      "otherUrls": [],
+      "source": "GitHub",
+      "topic": "エージェント",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code",
+        "x-likes"
+      ],
+      "collected_at": "2026-11-18T08:04:25+09:00",
+      "published_at": "2026-11-18T03:03:42+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Liberty図面AI、大手自動車メーカーの検図工数を90％削減——新旧図面の差分から重要な変更点を判別",
+      "summary": "Curiositasが運営するLiberty Dataは11月16日、生成AIで図面業務を自動化する「Liberty図面AI」の2図面差分抽出機能の導入事例を公開した。図面の形状や位置関係、設計指示の意図を理解して新旧図面を比較し、設計指示単位で「確認すべき重要な変更」と軽微な変更を判別して色分け表示する。大手自動車メーカーの設計開発部門では検図工数を90％削減し、大手プラントエンジニアリング企業では改訂ごとの検図が数日から約6時間に短縮したという。PR TimesのプレスリリースとMONOistの記事（11月17日）で確認した。オーナーのいいねが端緒。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000037.000107091.html",
+      "otherUrls": [],
+      "source": "Curiositas（Liberty Data）",
+      "topic": "建設×AI",
+      "section": "建設×AI",
+      "collectedFrom": [
+        "x-likes"
+      ],
+      "collected_at": "2026-11-18T08:04:25+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Microsoft、Igniteで「Copilot Workspaces」を発表——Agent 365 Business AnalyticsとPerception GAも",
+      "summary": "Microsoftは11月17日のIgnite基調講演で、人とエージェントが共有空間で協働するマルチプレイヤー型の「Copilot Workspaces」を発表した。Work IQによりワークスペースの活動コンテキストを保持し、応答をパーソナライズする。一般提供は2026年12月予定。定期タスクを自律的に進める長時間エージェントAutopilotも併せて示した。エージェント管理基盤Agent 365（登録エージェントは5,000万超と基調講演で説明）には、AIの支出をタスク成功率や支援時間などの成果と結び付けるBusiness Analyticsを追加。専門エージェント群が脆弱性の発見・防御・修復を行うセキュリティ基盤「Perception」は一般提供となった。",
+      "url": "https://www.microsoft.com/en-us/copilot/blog/2026/11/17/copilot-at-microsoft-ignite-expanding-whats-possible-with-intelligence-built-for-work/",
+      "otherUrls": [
+        "https://news.microsoft.com/source/2026/11/17/microsoft-ignite-2026-empowering-human-ambition-intelligence-and-trust/"
+      ],
+      "source": "Microsoft",
+      "topic": "エージェント",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code",
+        "x-likes"
+      ],
+      "collected_at": "2026-11-18T08:04:25+09:00",
+      "published_at": "2026-11-18T02:00:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Microsoft、「Copilot SDK 2.0」を発表——Rust製コアでセッション作成が5.25秒から55ミリ秒に",
+      "summary": "Microsoftは11月17日、IgniteでMicrosoft Copilot SDK 2.0（旧GitHub Copilot SDK）を発表した。単一の共有ランタイムで多数のセッションをホストでき、各セッションのID・ツール・権限を制御し、再起動をまたいで再開できる。コアをRustで再構築し、セッション作成と1ターンの完了は5.25秒から55.3ミリ秒に、10クライアント時のメモリは1,383MBから126MBに削減、スループットは秒間7.55から120セッションに向上したという。TypeScript、Python、Go、.NET、Java、Rust向けに提供する。Microsoft公式ブログで確認した。オーナーのいいねが端緒。",
+      "url": "https://commandline.microsoft.com/microsoft-copilot-sdk-2-0-github/",
+      "otherUrls": [],
+      "source": "Microsoft",
+      "topic": "Claude／Codex",
+      "section": "エージェント",
+      "collectedFrom": [
+        "x-likes"
+      ],
+      "collected_at": "2026-11-18T08:04:25+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "SenseTime、マルチモーダルモデル「SenseNova-Loop-9B」正式版をオープン公開——GAIAが37.86から69.90に",
+      "summary": "SenseTimeは11月17日、ループ型マルチモーダルモデル「SenseNova-Loop-9B」の正式版をApache 2.0でオープン公開した。9Bパラメータながら24層のブロックを共有重みで2回実行し（固有32層で56層分の計算）、512Kコンテキストに対応する。10月30日のプレビュー版から大きく伸び、GAIAは37.86から69.90、NL2Repoは19.91から41.36、AutomationBenchは14.33から36.67となり、Qwen3.8-27Bと競合する水準だとしている（同社公表値）。SenseTime公式発表で確認した。オーナーのいいねが端緒。",
+      "url": "https://x.com/SenseTime_AI/status/2122702684985938356",
+      "otherUrls": [],
+      "source": "SenseTime",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x-likes"
+      ],
+      "collected_at": "2026-11-18T08:04:25+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "AIworker、生成AIが社内で使われない会社の共通点を集計した調査レポートを公開",
+      "summary": "株式会社AIworkerは11月17日、顧客の声を集計した調査レポートを公開。何らかの業務で生成AIを利用する企業は86.4％に達する一方、未活用46社のうち23社(50％)は利用が一部の得意な社員に限定され、不活用の主因43件が組織・運用面にあると分析した。",
+      "url": "https://ascii.jp/elem/000/004/450/4450240/",
+      "otherUrls": [],
+      "source": "株式会社AIworker",
+      "topic": "AIビジネス",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00",
+      "published_at": "2026-11-17T00:00:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Agent 365 Business Analytics体験が提供開始",
+      "summary": "Microsoft 365管理センターでAIの支出・利用状況のインサイトを提供する新しいAgent 365 Business Analyticsが2026年11月17日に提供開始。コスト予測やマルチテナント管理、アクセス制御を統合する。",
+      "url": "https://mc.merill.net/message/MC1557727",
+      "otherUrls": [],
+      "source": "Microsoft 365 Message Center",
+      "topic": "Microsoft 365 Copilot",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00",
+      "published_at": "2026-11-18T03:36:21+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Claude Desktopでリリースチャネル選択が可能に",
+      "summary": "Claude Desktopで更新チャネルを選択可能に。既定の「Stable」はテストを経て更新頻度が低く、「Latest」は約1日1回の更新でより早く修正・機能を受け取れる。",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "otherUrls": [],
+      "source": "Claude App Release Notes",
+      "topic": "Claude",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00",
+      "published_at": "2026-11-17T00:00:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Codex CLI 0.169.1をリリース",
+      "summary": "OpenAIはCodex CLIのメンテナンス更新版0.169.1をGitHubで公開した。公式の確認済みリリースハイライトは記載されておらず、0.169.0からの差分修正となる。",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.1",
+      "otherUrls": [],
+      "source": "GitHub (openai/codex)",
+      "topic": "Codex",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00",
+      "published_at": "2026-11-18T07:22:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Copilotコードレビューに適応的レビュー深度とシークレット検出を追加",
+      "summary": "Copilotコードレビューが適応的なレビュー深度、クロスリポジトリ文脈、プルリクエストでのシークレット検出に対応した。",
+      "url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
+      "otherUrls": [],
+      "source": "GitHub Changelog",
+      "topic": "GitHub Copilot",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00",
+      "published_at": "2026-11-18T03:02:05+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "GitHub Copilot CLIがMicrosoft Entraサインインをプレビュー提供",
+      "summary": "CLIがMicrosoft Entra認証に対応し、Enterprise Managed Users向けのサイレントSSOが可能になった(プレビュー)。",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-cli-adds-microsoft-entra-sign-in-as-a-preview",
+      "otherUrls": [],
+      "source": "GitHub Changelog",
+      "topic": "GitHub Copilot",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00",
+      "published_at": "2026-11-18T03:00:35+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "GitHub Copilot Evalsがパブリックプレビューに",
+      "summary": "Copilotのカスタマイズ最適化を支援するテストツールがパブリックプレビューで公開。再現可能なAI挙動テストの作成と比較が可能になる。",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview",
+      "otherUrls": [],
+      "source": "GitHub Changelog",
+      "topic": "GitHub Copilot",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00",
+      "published_at": "2026-11-18T03:00:33+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "GitHub Copilotで「GPT-6.2 Astra」「GPT-6.2 Sol」が利用可能に",
+      "summary": "OpenAIの新モデルGPT-6.2 AstraとGPT-6.2 SolがGitHub Copilotで利用可能になった。エージェント型コーディングとコードレビュー向けに、従来のGPT-6世代より強いコーディング判断力を備える。",
+      "url": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
+      "otherUrls": [],
+      "source": "GitHub Changelog",
+      "topic": "GitHub Copilot",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00",
+      "published_at": "2026-11-18T05:20:29+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "GitHub Copilotで「MAI Code 2」「MAI Code 2 Flash」が利用可能に",
+      "summary": "Microsoftの次世代コーディングモデルMAI Code 2およびMAI Code 2 Flashが複数のCopilotプラットフォームで利用可能になった。",
+      "url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot",
+      "otherUrls": [],
+      "source": "GitHub Changelog",
+      "topic": "GitHub Copilot",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00",
+      "published_at": "2026-11-18T03:01:45+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "JetBrains向けGitHub Copilotにクラウドサンドボックスやブラウザ操作を追加",
+      "summary": "JetBrains IDE統合にクラウドサンドボックス、リモートアクセス、ブラウザ利用、音声ディクテーション機能が追加された。",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-in-jetbrains-ignite-releases",
+      "otherUrls": [],
+      "source": "GitHub Changelog",
+      "topic": "GitHub Copilot",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00",
+      "published_at": "2026-11-18T03:00:59+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Microsoft 365 Copilotの自律エージェント「Autopilot」がFrontierで提供開始",
+      "summary": "Ignite 2026で発表。Microsoft Entra Agent IDによる独自のID・メモリ・ツールを持つ常時稼働クラウドエージェントが、2026年11月17日よりFrontier Publicで展開開始。利用には管理者による有効化とMicrosoft 365 Copilotライセンスが必要。",
+      "url": "https://mc.merill.net/message/MC1557730",
+      "otherUrls": [],
+      "source": "Microsoft 365 Message Center",
+      "topic": "Microsoft 365 Copilot",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00",
+      "published_at": "2026-11-18T03:38:43+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Microsoft Agent 365でGitHub Copilotのアクティビティを監視可能に",
+      "summary": "企業はCopilotエージェントのアクティビティをMicrosoft Agent 365へストリーミングし、一元的に監視できるようになった。",
+      "url": "https://github.blog/changelog/2026-11-17-monitor-github-copilot-activity-through-microsoft-agent-365",
+      "otherUrls": [],
+      "source": "GitHub Changelog",
+      "topic": "GitHub Copilot",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00",
+      "published_at": "2026-11-18T03:00:59+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "OpenAI、営業向け「ChatGPT for Sales」を発表",
+      "summary": "OpenAIは見込み客調査やCRM更新を支援する営業向けプラグインと30以上のパートナープラグインを備えたChatGPT for Salesを発表した。",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "otherUrls": [],
+      "source": "OpenAI",
+      "topic": "ChatGPT",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00",
+      "published_at": "2026-11-17T17:00:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "「Copilot Code」がFrontierで展開、一般提供は数週間以内",
+      "summary": "自然言語でアプリやダッシュボードを構築できるCopilot Codeがモバイル(iOS/Android)・Macへ拡大し、WindowsでローカルSandboxが利用可能に。アプリはGA済みのCopilot Managed Runtimeでホストされ、使用量ベース課金は管理者のライセンス・ポリシー設定が必要。GAは数週間以内の予定。",
+      "url": "https://mc.merill.net/message/MC1519871",
+      "otherUrls": [],
+      "source": "Microsoft 365 Message Center",
+      "topic": "Microsoft 365 Copilot",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00",
+      "published_at": "2026-11-18T05:17:06+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "ふくおかFG、Agentforceを傘下3行で全店展開　総合営業担当の66％が活用",
+      "summary": "セールスフォース・ジャパンは11月17日、ふくおかフィナンシャルグループが傘下3行でSalesforceのAI/AIエージェント機能を全店展開し、プロジェクト開始から9か月で完了したと発表。総合営業担当者1,427人のうち945人(66％)が活用し、Agentforceの累計実行回数は15,000回以上に達した。",
+      "url": "https://www.salesforce.com/jp/news/press-releases/2026/11/17/fukuoka-financial-group-customer-news/",
+      "otherUrls": [],
+      "source": "セールスフォース・ジャパン",
+      "topic": "AIビジネス",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00",
+      "published_at": "2026-11-17T00:00:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "エージェントセッションとCopilot Coworkのユースケース分類がFrontierパブリックプレビューに",
+      "summary": "AI利用状況を分析するユースケース分類機能を導入。2026年11月中旬より対象Frontierテナントで既定で有効化され、管理者による設定管理とユーザーのオプトアウトが可能。",
+      "url": "https://mc.merill.net/message/MC1557759",
+      "otherUrls": [],
+      "source": "Microsoft 365 Message Center",
+      "topic": "Microsoft 365 Copilot",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00",
+      "published_at": "2026-11-18T04:12:58+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "リポジトリインサイトでCopilotコードレビューの成果を追跡可能に",
+      "summary": "新しいリポジトリインサイトページで、開発者がCopilotのコードレビュー提案にどう対応したかの指標を確認できる。",
+      "url": "https://github.blog/changelog/2026-11-17-track-copilot-code-review-outcomes-in-repository-insights",
+      "otherUrls": [],
+      "source": "GitHub Changelog",
+      "topic": "GitHub Copilot",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00",
+      "published_at": "2026-11-18T03:00:35+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "日ASEAN首脳会議、高性能AIの脅威対処へ新枠組み創設を確認",
+      "summary": "高市首相は2026年11月17日、フィリピンで開かれた第29回日・ASEAN首脳会議に出席し、高性能な人工知能(AI)を巡る脅威に対処するため各国と連携する新たな枠組みの創設を確認した。重要鉱物やエネルギー安全保障での協力も打ち出した。",
+      "url": "https://www.kantei.go.jp/jp/105/actions/202611/17asean.html",
+      "otherUrls": [],
+      "source": "首相官邸",
+      "topic": "日本政府・行政",
+      "section": "政策・政府",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00",
+      "published_at": "2026-11-17T12:50:00+09:00",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "自動運転シミュレータ『CARLA 1.0』正式リリース、NVIDIA NuRecによるニューラル再構成に対応",
+      "summary": "オープンソースの自動運転シミュレータCARLAがメジャーバージョン1.0を公開。NVIDIA NuRec(ニューラル再構成/放射輝度場系)を統合し、実走行の記録からフォトリアルなカメラ映像・LiDARを生成してシミュレーション可能にした。Unreal Engine 5.8ベースでNVIDIA CosmosやDLSS 4.5にも対応。",
+      "url": "https://github.com/carla-simulator/carla/releases",
+      "otherUrls": [],
+      "source": "CARLA (carla-simulator, GitHub Release)",
+      "topic": "3DGS×AI",
+      "section": "建設×AI",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-18T08:26:55+09:00",
+      "published_at": "2026-11-17T10:01:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    }
+  ]
+}
