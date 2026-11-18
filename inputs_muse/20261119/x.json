@@ -6,7 +6,7 @@
     "to": "2026-11-19T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 8,
+  "itemCount": 13,
   "items": [
     {
       "headline": "Apple、動画生成モデル「FastFrames」をHugging Faceで公開—対話的レイテンシで生成、14Bと1.3Bの2サイズ",
@@ -87,6 +87,56 @@
       "unconfirmed": false,
       "x_url": "https://x.com/krishnan/status/2122873972488569031",
       "collected_at": "2026-11-18T11:16:48+09:00"
+    },
+    {
+      "headline": "NTT、ソースコードを外部に出さない「ソブリン型」セキュリティAIを開発——CyberGym成功率48%→63%",
+      "source": "NTT（Digital PR Platform）",
+      "summary": "NTTが11月16日、検査対象のソースコードを外部AIサービスに送信せず自ら管理する環境で脆弱性を解析するサイバーセキュリティAI技術を開発したと発表した。複数のオープンウェイトモデルと独自の解析ワークフローを組み合わせ、脆弱性解析ベンチマークCyberGymのメモリ破壊150課題で解析成功率が既存手法の48%から63%へ15ポイント向上した。成果はNTT R&D FORUM 2026で展示される。",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "url": "https://news.infoseek.co.jp/article/digitalprplatform_148367/",
+      "x_url": "https://x.com/AIplexjp/status/2122894170868343208",
+      "collected_at": "2026-11-18T13:27:39+09:00"
+    },
+    {
+      "headline": "政府、AI駆動型シンクタンク「重要技術戦略研究所（ICETS）」を設立",
+      "source": "時事通信",
+      "summary": "政府は11月17日、AIや量子など先端技術の情報を収集・分析するシンクタンク「重要技術戦略研究所（ICETS）」を設立したと発表した。一般社団法人として登記し、理事長にコマツの小川啓之会長、所長にJSTの中山智弘氏が就き、10人体制で始動。査読前論文や特許・求人情報などをAIで網羅的に読み込み新興技術の兆しを捉え、経済安全保障や科学技術政策への提言と人材育成を担う。",
+      "topic": "政府・政策",
+      "unconfirmed": false,
+      "url": "https://www.jiji.com/jc/article?k=2026111700749&g=soc",
+      "x_url": "https://x.com/dr_visioneo/status/2122900002444128422",
+      "collected_at": "2026-11-18T13:27:39+09:00"
+    },
+    {
+      "headline": "MetAI、写真から使える3Dデータまで一貫処理するローカルアプリ「Studio3D」を提供開始",
+      "source": "合同会社MetAI（PR TIMES）",
+      "summary": "合同会社MetAIが11月18日、ローカル3D制作アプリ「Studio3D」の提供を開始した。写真やイラストからの3Dモデル生成、パーツ分割、リトポロジー、UV、マテリアル、ライティング、書き出しまでの8工程を1画面で完結でき、全て利用者のPC内で動作するため未公開デザインを社外に送る必要がない。自社計測ではリトポで三角ポリゴン数を約70万から約7.1万へ削減した。",
+      "topic": "3D生成・制作（クリエイティブ）",
+      "unconfirmed": false,
+      "url": "https://prtimes.jp/main/html/rd/p/000000015.000126494.html",
+      "x_url": "https://x.com/GenAI_Creative/status/2122895061285548072",
+      "collected_at": "2026-11-18T13:27:39+09:00"
+    },
+    {
+      "headline": "ソフトバンク、スマホ撮影のバスケ試合映像をAI解析する技術を国内大会で実証",
+      "source": "ソフトバンク",
+      "summary": "ソフトバンクは11月18日、日本バスケットボール協会（JBA）と連携し、スマートフォンで撮影したバスケットボールの試合映像をAIで解析してハイライト動画やスタッツを自動生成する技術を国内大会で実証したと発表した。米Built Different AIの解析アプリ「HOOPER」を活用し、1日最大36試合分のハイライトを翌日までに自動生成、シュート検出精度は平均94%を達成した。",
+      "topic": "映像生成・動画AI",
+      "unconfirmed": false,
+      "url": "https://www.softbank.jp/corp/news/press/sbkk/2026/20261118_01/",
+      "x_url": "https://x.com/MDB_HiRO/status/2122901790480072757",
+      "collected_at": "2026-11-18T13:27:39+09:00"
+    },
+    {
+      "headline": "Higgsfield、台本から短編ドラマシリーズを生成する「Short Drama Studio」を公開",
+      "source": "Higgsfield",
+      "summary": "Higgsfieldが11月16日、完成した台本をアップロードするとエピソード分割、キャスト・ロケーション・小道具の構築、同一キャストでのエピソード生成までを行う「Short Drama Studio」を発表した。最大100エピソードの一括生成に対応し、15種以上のスタイルと6種のアスペクト比を選べる。現在はデスクトップ向け早期プレビューで、HiggsfieldのWebアプリとMCP経由のClaude/ChatGPTから利用できる。",
+      "topic": "映像生成・動画AI",
+      "unconfirmed": false,
+      "url": "https://higgsfield.ai/short-drama",
+      "x_url": "https://x.com/peng_agent/status/2122861180653822142",
+      "collected_at": "2026-11-18T13:27:39+09:00"
     }
   ]
 }
