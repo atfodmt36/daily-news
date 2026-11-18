@@ -6,7 +6,7 @@
     "to": "2026-11-19T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 7,
+  "itemCount": 8,
   "items": [
     {
       "headline": "Apple、動画生成モデル「FastFrames」をHugging Faceで公開—対話的レイテンシで生成、14Bと1.3Bの2サイズ",
@@ -77,6 +77,16 @@
       "url": "https://prtimes.jp/main/html/rd/p/000000290.000066482.html",
       "x_url": "https://x.com/stes01/status/2122841437461233836",
       "collected_at": "2026-11-18T09:27:26+09:00"
+    },
+    {
+      "headline": "H2O.ai、時系列基盤モデル「TimeH2O」と表形式基盤モデル「TabH2O」を一般提供開始",
+      "summary": "H2O.aiが11月17日、時系列基盤モデルTimeH2O（108Mパラメータ、ゼロショット予測、fev-benchで32モデル中1位＝2026年10月23日時点）と表形式データ向け基盤モデルTabH2Oを、H2O AI Cloudで一般提供開始したと発表した。両モデルは自社データでのファインチューニングに対応し、TimeH2O-v1の重みはHugging Faceで研究・評価向けに公開されている。",
+      "url": "https://www.businesswire.com/news/home/20261117925321/en/H2O.ai-Tops-the-Generative-Pre-Trained-Model-Era-of-Predictive-AI-Powered-by-Leading-Foundation-Models-for-Time-Series-and-Tabular-Data",
+      "source": "H2O.ai (Business Wire)",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "x_url": "https://x.com/krishnan/status/2122873972488569031",
+      "collected_at": "2026-11-18T11:16:48+09:00"
     }
   ]
 }
