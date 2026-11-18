@@ -1,0 +1,82 @@
+{
+  "date": "2026/11/19",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-18T08:00:00+09:00",
+    "to": "2026-11-19T08:00:00+09:00"
+  },
+  "source": "x",
+  "itemCount": 7,
+  "items": [
+    {
+      "headline": "Apple、動画生成モデル「FastFrames」をHugging Faceで公開—対話的レイテンシで生成、14Bと1.3Bの2サイズ",
+      "source": "Hugging Face（Apple公式モデルカード）",
+      "summary": "Appleが動画生成モデルFastFrames-L（14B）とFastFrames-S（1.3B）をHugging Faceで公開した。対話的な低レイテンシでの動画生成をうたうモデルで、Apple公式のモデルカードから利用できる。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://huggingface.co/apple/FastFrames-L",
+      "x_url": "https://x.com/_akhaliq/status/2122824565185503427",
+      "collected_at": "2026-11-18T09:27:26+09:00"
+    },
+    {
+      "headline": "Kling AI、画像生成モデル「Kling Image 4.0」を公開—ネイティブ8K出力と最大2,000字の文字描画に対応",
+      "source": "Kling AI公式ブログ",
+      "summary": "KuaishouのKling AIが画像生成モデルKling Image 4.0を11月17日に公開した。業界初のネイティブ8K生成、1枚に最大2,000字（日本語など7言語）の文字描画、1プロンプトで最大10枚のシリーズ生成に対応し、Kling Creative Studioと企業・開発者向けAPIで提供される。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+      "x_url": "https://x.com/PromptBible_dev/status/2122830085187305884",
+      "collected_at": "2026-11-18T09:27:26+09:00"
+    },
+    {
+      "headline": "Anthropic、脆弱性の公開期限を短縮—深刻な問題は90日から30日へ、AIによる発見加速に対応",
+      "source": "Anthropic公式",
+      "summary": "Anthropicは11月16日、調整された脆弱性開示（CVD）方針の期限短縮を発表した。2027年1月1日以降の報告では、深刻度High/Criticalは90日から30日、その他は45日に短縮し、修正後の技術詳細公開も45日から30日とする。AIの進歩で同じ脆弱性が他者にも見つかりやすくなったことを理由に挙げている。",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines?ref=thestack.technology",
+      "x_url": "https://x.com/Syynya/status/2122838504774529193",
+      "collected_at": "2026-11-18T09:27:26+09:00"
+    },
+    {
+      "headline": "Perplexity、モデル自動選択の「Orchestrator API」を発表",
+      "source": "Perplexity公式X",
+      "summary": "PerplexityがOrchestrator APIを発表した。タスクに適したモデルを選べるほか、可用性・容量・レイテンシに応じてプロバイダを自動選択し、オープンウェイトとプロプライエタリの全モデルを単一API・統一課金で利用できる。",
+      "topic": "エージェント",
+      "unconfirmed": false,
+      "url": "https://x.com/perplexity_ai/status/2122785177135096053",
+      "x_url": "https://x.com/perplexity_ai/status/2122785177135096053",
+      "collected_at": "2026-11-18T09:27:26+09:00"
+    },
+    {
+      "headline": "Perplexity、Computerに複数エージェント協調の「Multiagent」を展開開始",
+      "source": "Perplexity公式X",
+      "summary": "PerplexityがComputerとteammates向けの新しい労力レベル「Multiagent」の展開を開始した。リードエージェントがタスクを複数のフロンティアモデルを使うエージェントチームに分割し、発見を共有しながら統合した回答を作る。",
+      "topic": "エージェント",
+      "unconfirmed": false,
+      "url": "https://x.com/perplexity_ai/status/2122728603909783741",
+      "x_url": "https://x.com/perplexity_ai/status/2122728603909783741",
+      "collected_at": "2026-11-18T09:27:26+09:00"
+    },
+    {
+      "headline": "Auphonic、DaVinci Resolve Studio用プラグインを公開—タイムラインから音声処理を直接実行",
+      "source": "Auphonic公式ブログ",
+      "summary": "音声ポストプロダクションのAuphonicが、DaVinci Resolve Studio向け公式プラグインを11月17日に公開した。タイムラインの音声トラックをAuphonicへ送り、整音済み音声を同期したまま新規トラックへ戻せる。プラグインは無料で、Windows/macOS/Linux対応。",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "unconfirmed": false,
+      "url": "https://us.auphonic.com/blog/2026/11/17/auphonic-for-davinci-resolve/",
+      "x_url": "https://x.com/auphonic_japan/status/2122634380028039528",
+      "collected_at": "2026-11-18T09:27:26+09:00"
+    },
+    {
+      "headline": "パーフェクト、AIで楽曲制作からMV生成まで完結する「YouCam Muse」を提供開始",
+      "source": "パーフェクト株式会社（PR TIMES）",
+      "summary": "パーフェクト株式会社が11月17日、歌詞やイメージから60秒以内にオリジナル楽曲を生成し、楽曲に合わせたMVまでAIが制作する新サービス「YouCam Muse」の提供をWeb版とiOSアプリで開始した。映像生成にはSeedance 2.5を採用し、賞金総額48万円のAI MVコンテストも11月20日から開催する。",
+      "topic": "映像生成・動画AI",
+      "unconfirmed": false,
+      "url": "https://prtimes.jp/main/html/rd/p/000000290.000066482.html",
+      "x_url": "https://x.com/stes01/status/2122841437461233836",
+      "collected_at": "2026-11-18T09:27:26+09:00"
+    }
+  ]
+}
