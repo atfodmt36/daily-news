@@ -6,7 +6,7 @@
     "to": "2026-11-19T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 19,
+  "itemCount": 24,
   "items": [
     {
       "headline": "Apple、動画生成モデル「FastFrames」をHugging Faceで公開—対話的レイテンシで生成、14Bと1.3Bの2サイズ",
@@ -197,6 +197,56 @@
       "url": "https://www.cpapracticeadvisor.com/2026/11/17/thomson-reuters-synergy-2026-conference-kicks-off-in-las-vegas/194102/",
       "x_url": "https://x.com/Roccat_fi/status/2122978901219807413",
       "collected_at": "2026-11-18T19:14:41+09:00"
+    },
+    {
+      "headline": "Phancy、言語モデル「Phai-A1」と動画生成モデル「Phai-M1」を発表",
+      "source": "Phancy Group（Media OutReach Newswire）",
+      "summary": "中国のPhancy Group（6682.HK）が11月18日、自社開発のPhaiシリーズ2モデルを発表した。言語モデルPhai-A1はネイティブ100万トークンのコンテキストに対応し、PCへのローカル展開も可能。動画生成モデルPhai-M1は実写風映像での人物の表情・動きの自然さと音声の同時生成に注力し、社内テストで720p・15秒の動画を約3分で生成した。両モデルの重みは近く開発者向けに公開予定。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://www.media-outreach.com/news/china/2026/11/18/502315/phancy-launches-phai-a1-language-model-and-phai-m1-video-generation-model/",
+      "x_url": "https://x.com/PromptBible_dev/status/2123023553495011568",
+      "collected_at": "2026-11-18T21:52:47+09:00"
+    },
+    {
+      "headline": "PKU×Tencent Hunyuan、長編動画生成フレームワーク「MovieRoll」を公開",
+      "source": "Tencent Hunyuan / 北京大学（プロジェクトページ）",
+      "summary": "北京大学とTencent Hunyuanの研究チームが、長編動画を連続生成するフレームワークMovieRollを公開した。自己回帰型の生成で最長60秒の動画に対応し、HeliosBenchでは単一イベント・複数イベントの各設定で評価対象手法中トップの総合スコアを記録した（プロジェクトページ公表値）。コードはGitHubで公開されている。",
+      "topic": "映像生成・動画AI",
+      "unconfirmed": false,
+      "url": "https://tencent-hunyuan.github.io/MovieRoll/",
+      "x_url": "https://x.com/LinBin46984/status/2123024222985589142",
+      "collected_at": "2026-11-18T21:52:47+09:00"
+    },
+    {
+      "headline": "Google、検索AIモードに履歴に残らない「一時スレッド」を導入",
+      "source": "Google公式ブログ",
+      "summary": "Googleは11月17日、検索のAIモードに一時スレッド機能を導入した。アカウントから切り離されたセッションで質問でき、回答は過去の好みに影響されず、履歴にも保存されず、今後のパーソナライズにも使われない。AIモードが対応する全言語で、デスクトップとモバイルのブラウザ向けに世界展開を開始した。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/",
+      "x_url": "https://x.com/asifpatel/status/2123025076312297794",
+      "collected_at": "2026-11-18T21:52:47+09:00"
+    },
+    {
+      "headline": "APTO、経産省・NEDOの「GENIAC-PRIZE 2026」自由参加課題に採択—学生向けフィジカルAIチャレンジの参加者を募集",
+      "source": "APTO（PR TIMES）",
+      "summary": "APTOは11月18日、経済産業省とNEDOが実施する懸賞金型コンテストGENIAC-PRIZE 2026のテーマ2（フィジカルAI向け開発者育成）で、自由参加課題「データ設計で競うPhysical AIチャレンジ」に採択されたと発表した。模倣学習用データの設計・収集・選別でロボットアームの動作精度を競い、予選はオンライン、決勝は豊洲の実機で実施。応募締切は11月21日。",
+      "topic": "政府・政策",
+      "unconfirmed": false,
+      "url": "https://prtimes.jp/main/html/rd/p/000000190.000053927.html",
+      "x_url": "https://x.com/industryJapan/status/2122993954992046449",
+      "collected_at": "2026-11-18T21:52:47+09:00"
+    },
+    {
+      "headline": "AWS、Amazon SageMakerにAIデータ準備機能を追加—合成データ生成や自動ラベリングに対応",
+      "source": "AWS Machine Learning Blog",
+      "summary": "AWSは11月17日、Amazon SageMaker AIにAIデータ準備機能を追加した。文書に基づく合成データの生成、データ品質の評価・変換、分類やNERなど複数タスクの自動ラベリングと人手レビューを、SageMaker Python SDKやエージェント向けスキルから利用できる。米国東部（バージニア北部）と米国西部（オレゴン）で一般提供を開始した。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/",
+      "x_url": "https://x.com/kmotohas/status/2122979834167271449",
+      "collected_at": "2026-11-18T21:52:47+09:00"
     }
   ]
 }
