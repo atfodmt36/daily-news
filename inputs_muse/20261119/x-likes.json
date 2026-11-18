@@ -1,0 +1,100 @@
+{
+  "date": "2026/11/19",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-18T08:00:00+09:00",
+    "to": "2026-11-19T08:00:00+09:00"
+  },
+  "source": "x-likes",
+  "itemCount": 8,
+  "items": [
+    {
+      "headline": "Arena、エージェント評価の新指標「Agent Arena Index」を公開——290万超の実利用セッションで測定",
+      "summary": "Arena（旧LMArena）は11月18日、実利用セッションからエージェント性能を測る新指標「Agent Arena Index」を発表した。290万超のユーザーセッションを基に、総合指標に加えてAgentic Work／Coding／Chat／Task Outcome／Tool Use／Steeringの6つの分野別指標を新設し、スコア尺度を刷新して時期をまたいだ比較をしやすくした。CryptoBriefingによれば総合首位はClaude Fable 5.2 (Max)で1463、2位に134点差という。Arena公式ブログで確認した。オーナーのいいねが端緒。",
+      "url": "https://arena.ai/blog/introducing-the-agent-arena-index",
+      "source": "Arena",
+      "topic": "論文・ベンチマーク",
+      "breaking": false,
+      "unconfirmed": false,
+      "x_url": "https://x.com/arena/status/2123126646983332177",
+      "collected_at": "2026-11-19T08:08:46+09:00"
+    },
+    {
+      "headline": "Inworld、音声モデル「Voice Isolator」と「SAVA」をApache 2.0でオープンソース公開——Realtime TTS-2の技術報告も",
+      "summary": "Inworld AIは11月18日、話者の声を保ちながら背景音を除く「Voice Isolator」と、発話検出とターン終了検出を1モデルで行う「SAVA」をオープンソース公開し、Realtime TTS-2の技術報告も公開した。SAVAは25.5Mパラメータで、AMI会議コーパスでのターン終了検出は200ミリ秒以内85.5％（pipecat smart-turn v3.2は30.8％）、検出遅延の中央値は71ミリ秒だった。コードと重みはApache 2.0で提供される。Inworld公式ブログで確認した。オーナーのいいねが端緒。",
+      "url": "https://inworld.ai/blog/introducing-sava",
+      "source": "Inworld AI",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "breaking": false,
+      "unconfirmed": false,
+      "x_url": "https://x.com/inworld/status/2123120546908926300",
+      "collected_at": "2026-11-19T08:08:46+09:00"
+    },
+    {
+      "headline": "LIXIL、設計図面から建材を自動で拾い出す「AI見積システム」を導入——積算時間を約62％削減へ",
+      "summary": "LIXILは11月17日、パートナー企業向け見積りシステム「CRASFL」に、設計図面を読み込ませるとAIが部屋の範囲やインテリア建材を自動認識して製品を拾い出す「AI見積システム」を追加し、同日から展開を始めた。標準物件想定で1棟あたりの積算時間を約40分から約15分へ、約62％削減することを目標とする。KK Generationの積算AI技術とLIXILの建材拾い出しノウハウを組み合わせた。LIXILのプレスリリースとBUILTの記事で確認した。オーナーのいいねが端緒。",
+      "url": "https://built.itmedia.co.jp/bt/articles/2611/18/news081.html",
+      "source": "BUILT（LIXILプレスリリース）",
+      "topic": "建設×AI",
+      "breaking": false,
+      "unconfirmed": false,
+      "x_url": "https://x.com/ITM_BUILT/status/2122983201031524552",
+      "collected_at": "2026-11-19T08:08:46+09:00"
+    },
+    {
+      "headline": "Google Labs、公開後も製品を改善し続ける常駐型製品エージェント「Stitch Loop」を発表",
+      "summary": "Google Labsは11月18日、コードベースと本番メトリクスに接続して公開後の製品を継続改善する長時間稼働型の製品エージェント「Stitch Loop」を実験として発表した。GitHubや180超の連携から文脈を取り込み、セキュリティ（Gemini 4 CarbonとCodeMenderの組み合わせ）・レイテンシ・アクセシビリティの標準ループを持ち、サンドボックスで修正コードを書いて承認待ちのPRを開く。ウェイトリストを全世界で開始し、Google AI Ultra加入者が優先される。Google公式ブログで確認した。オーナーのいいねが端緒。",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/",
+      "source": "Google Labs",
+      "topic": "エージェント",
+      "breaking": false,
+      "unconfirmed": false,
+      "x_url": "https://x.com/stitchbygoogle/status/2123100817863663686",
+      "collected_at": "2026-11-19T08:08:46+09:00"
+    },
+    {
+      "headline": "MicrosoftとSalesforce、「Copilotforce」を発表——Salesforceの顧客文脈と営業ワークフローをCopilot・Teams・Fabricへ",
+      "summary": "MicrosoftとSalesforceは11月17日、Igniteで提携「Copilotforce」を発表した。Salesforce in Microsoft Copilotは38超の営業スキルを備えたプラグインとしてパブリックプレビューを開始し、Teams会議やメール、文書の文脈と合わせて顧客情報の参照やCRM操作ができる。Sales Cloud in Teamsはパイロット中で、Salesforce Data 360とMicrosoft Fabricの双方向ゼロコピー連携も導入する。Accentureが設計・実装パートナー兼パイロット顧客を務める。Microsoft公式発表で確認した。オーナーのいいねが端緒。",
+      "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/",
+      "source": "Microsoft / Salesforce",
+      "topic": "ビジネス・人材",
+      "breaking": false,
+      "unconfirmed": false,
+      "x_url": "https://x.com/salesforce/status/2122798862641291665",
+      "collected_at": "2026-11-19T08:08:46+09:00"
+    },
+    {
+      "headline": "Google、Apps ScriptのコードをGeminiで開発する機能を一般提供開始——自然言語の指示で業務自動化を作成",
+      "summary": "Googleは11月16日（現地時間）、Google Apps ScriptのコードをGeminiで作成・カスタマイズ・トラブルシュートできるサイドパネルの一般提供を開始した。プログラミングの専門知識がなくても日常の言葉で指示するだけで業務自動化のプログラムを作れる。対象はBusiness Standard以上のWorkspaceプランやGoogle AI Pro／Ultraなどで、11月12日から段階的に展開されている。窓の杜の記事（Google Workspace Updatesに基づく）で確認した。オーナーのいいねが端緒。",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2157510.html",
+      "source": "窓の杜（Google Workspace Updates）",
+      "topic": "ビジネス・人材",
+      "breaking": false,
+      "unconfirmed": false,
+      "x_url": "https://x.com/madonomori/status/2122989462712173044",
+      "collected_at": "2026-11-19T08:08:46+09:00"
+    },
+    {
+      "headline": "森林総合研究所、ドローン・航空機の広域森林3Dデータから樹木を1本ずつ高速に自動抽出する技術を開発",
+      "summary": "森林総合研究所などの研究グループは、ドローンや航空機のレーザー測量で得た森林の3D点群から樹木を1本ずつ自動抽出する技術を開発した。伊豆半島周辺約1900平方キロメートル・約6.2TBの航空機レーザーデータに適用し、約3000万本の樹木を自動抽出した。既存のオープンソース樹木抽出法と比べて本数推定の誤差が小さく、航空機データでは処理時間を約1000分の1程度まで短縮したという。森林総合研究所の研究成果ページ（11月9日掲載）で確認した。オーナーのいいねが端緒。",
+      "url": "https://www.ffpri.go.jp/research/saizensen/2026/20261109.html",
+      "source": "森林総合研究所",
+      "topic": "建設×AI",
+      "breaking": false,
+      "unconfirmed": false,
+      "x_url": "https://x.com/FFPRI_JP/status/2122978130877157887",
+      "collected_at": "2026-11-19T08:08:46+09:00"
+    },
+    {
+      "headline": "NGINXに認証不要でリモートコード実行が可能な重大脆弱性5件が開示——一部はAI支援で発見、修正版1.31.9が公開",
+      "summary": "11月18日、NGINX 1.31.8（現行mainline）を含む複数バージョンに、認証不要でリモートコード実行につながり得る重大な脆弱性5件（CVE-2026-123007など、いずれもCVSS 4.0で9.2）が開示された。Wiz、Ikotas Labs、Metnir、Rapid7、Xintの5チームが独立に発見し、一部はAIモデルやOpenAIとの協働を用いたと公表している。F5は修正版としてNGINX Open Source 1.30.7（stable）と1.31.9（mainline）を公開した。野外での悪用は確認されていない。Infosecurity Magazineの報道で確認した。オーナーのいいねが端緒。",
+      "url": "https://www.infosecurity-magazine.com/news/five-critical-vulnerabilities/",
+      "source": "Infosecurity Magazine",
+      "topic": "AIセキュリティ",
+      "breaking": false,
+      "unconfirmed": false,
+      "x_url": "https://x.com/ikotas00/status/2123071157083754677",
+      "collected_at": "2026-11-19T08:08:46+09:00"
+    }
+  ]
+}
