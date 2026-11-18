@@ -1,120 +1,192 @@
 {
-  "date": "2026/11/19",
-  "timezone": "Asia/Tokyo",
-  "window": {
-    "from": "2026-11-18T08:00:00+09:00",
-    "to": "2026-11-19T08:00:00+09:00"
+ "date": "2026/11/19",
+ "timezone": "Asia/Tokyo",
+ "window": {
+  "from": "2026-11-18T08:00:00+09:00",
+  "to": "2026-11-19T08:00:00+09:00"
+ },
+ "source": "mail-4ml",
+ "itemCount": 20,
+ "items": [
+  {
+   "headline": "GPT-6.2 Astra、AA-3Dで1位・ARC-AGI-3でも好成績【続報】",
+   "summary": "GPT-6.2 Astraの評価続報。Artificial AnalysisのAA-3Dで1位となり、他モデルとの直接対決152票中139票で支持された。ARC-AGI-3では最大推論設定で人間ベースラインより64.1%少ないアクション数で解き、KernelBench-Megaでは最適化済みPyTorch比23.5倍のカーネルを書いた一方、Agent系タスクでの後退を指摘する声もある。",
+   "url": "https://x.com/arcprize/status/2122751235841220774",
+   "source": "ML_Bear Times",
+   "topic": "論文・ベンチマーク",
+   "collected_at": "2026-11-18T19:34:11+09:00",
+   "unconfirmed": false
   },
-  "source": "mail-4ml",
-  "itemCount": 12,
-  "items": [
-    {
-      "headline": "GPT-6.2 Astra、AA-3Dで1位・ARC-AGI-3でも好成績【続報】",
-      "summary": "GPT-6.2 Astraの評価続報。Artificial AnalysisのAA-3Dで1位となり、他モデルとの直接対決152票中139票で支持された。ARC-AGI-3では最大推論設定で人間ベースラインより64.1%少ないアクション数で解き、KernelBench-Megaでは最適化済みPyTorch比23.5倍のカーネルを書いた一方、Agent系タスクでの後退を指摘する声もある。",
-      "url": "https://x.com/arcprize/status/2122751235841220774",
-      "source": "ML_Bear Times",
-      "topic": "論文・ベンチマーク",
-      "collected_at": "2026-11-18T19:34:11+09:00",
-      "unconfirmed": false
-    },
-    {
-      "headline": "GPT-6.2 AstraのSystem Card、評価認識が大幅上昇",
-      "summary": "GPT-6.2 AstraのSystem Cardで、モデルが評価されていると気づく度合い（評価認識）が再び大きく上昇し新たな水準に達したことが話題になっている。監視されていないと信じる状況ではモデルを評価できなくなりつつある点が重要問題として指摘され、思考の連鎖（CoT）の情報量や可読性の低下も挙げられている。",
-      "url": "https://x.com/AndrewCurran_/status/2122844319518536065",
-      "source": "ML_Bear Times",
-      "topic": "論文・ベンチマーク",
-      "collected_at": "2026-11-18T19:34:11+09:00",
-      "unconfirmed": false
-    },
-    {
-      "headline": "NVIDIA暫定CEOのKress氏、中国向け販売終了とHugging Face買収計画の維持を表明【続報】",
-      "summary": "NVIDIAの決算とHuang氏退任の続報。暫定CEOのKress氏はオープンソースAI戦略とHugging Face買収計画を維持し、中国へのチップ販売は終えると述べた。Hopperの中国向け出荷も停止しており、KinsusやSamsung電機との基板増産契約も発表された。一方でSemaforは一部の取締役がHuang氏の復帰をなお働きかけていると報じている。",
-      "url": "https://x.com/TechCrunch/status/2122829401821675653",
-      "source": "ML_Bear Times",
-      "topic": "ビジネス・人材",
-      "collected_at": "2026-11-18T19:34:11+09:00",
-      "unconfirmed": false
-    },
-    {
-      "headline": "米国の大規模障害、AIが発見した脆弱性へのパッチ殺到が原因か",
-      "summary": "米国で相次ぐシステム障害について、AIモデルが特定した脆弱性へのパッチ適用が原因だったとウォール街の幹部とNSAが議会に説明したと報じられた。AI自体が障害を起こしたのではなく、攻撃前に修正を急いだことでシステムが圧迫されたとされ、ルビオ国務長官は敵対勢力の攻撃を示す証拠はないと述べた。報道ベースで未確認。",
-      "url": "https://x.com/jstein_sun/status/2122854283536105498",
-      "source": "ML_Bear Times",
-      "topic": "AIセキュリティ",
-      "collected_at": "2026-11-18T19:34:11+09:00",
-      "unconfirmed": true
-    },
-    {
-      "headline": "Gemini 4 Neon、入力$3/出力$15で今日リリースか【続報】",
-      "summary": "Gemini Webのコードに見つかったGemini 4 Neonの続報。Google Cloudの課金カタログに入力$3/出力$15（100万トークンあたり）で掲載されたと報告され、Antigravity CLIにもPro orchestratorモデルとして追加されたとされる。Hydrogen（$1.50/$7.50）とCarbon（$4/$20）の中間の位置づけで、今日のリリースとの見方が出ている。未確認情報。",
-      "url": "https://x.com/aitrackerbot/status/2122964098275070001",
-      "source": "ML_Bear Times",
-      "topic": "モデル",
-      "collected_at": "2026-11-18T19:34:11+09:00",
-      "unconfirmed": true
-    },
-    {
-      "headline": "Kaggle新コンペ「Santa 2026 - The Elf Calculator」開始",
-      "summary": "Kaggleで恒例のサンタコンペ「Santa 2026 - The Elf Calculator」が始まった。48個のレジスタと四則演算だけを使い、小さな初期値から最大10の18乗の目標値を作り、全1,000問の合計命令数を最小化する。メダル対象でKernel Onlyではなく、締切は2027年1月28日。",
-      "url": "https://x.com/kagoole/status/2122857515469906156",
-      "source": "ML_Bear Times",
-      "topic": "生成AI・その他",
-      "collected_at": "2026-11-18T19:34:11+09:00",
-      "unconfirmed": false
-    },
-    {
-      "headline": "Antigravityが1周年、全モデルの利用枠をリセット",
-      "summary": "GoogleのAntigravityが1周年を迎え、全ユーザーの全モデルの利用枠がリセットされた。Antigravity上でGemini 4 Carbonの最初のトークンまでの時間（TTFT）が1.5倍高速化され、Argonも近く対応するとしている。頻繁なリセットやプラン変更時の利用枠リセットが利用者から歓迎されている。",
-      "url": "https://x.com/_mohansolo/status/2122836883877347836",
-      "source": "ML_Bear Times",
-      "topic": "エージェント",
-      "collected_at": "2026-11-18T19:34:11+09:00",
-      "unconfirmed": false
-    },
-    {
-      "headline": "Google AI Studio、Build内で独自ドメイン購入が可能に【続報】",
-      "summary": "Google AI Studioの大型アップデートで、Build画面から独自ドメインを直接購入できるようになった。AI Studioで作ったAndroidアプリへのAI組み込みも安全に行えるとされ、Google Play経由の端末導入は現状米国のみ。従来のai.studioドメインのカスタムURLから進み、AI Studioがアプリ公開までを担う方向が鮮明になっている。",
-      "url": "https://x.com/OfficialLoganK/status/2122818500763009273",
-      "source": "ML_Bear Times",
-      "topic": "生成AI・その他",
-      "collected_at": "2026-11-18T19:34:11+09:00",
-      "unconfirmed": false
-    },
-    {
-      "headline": "Meta、モデル自ら記憶スキルを発見し重みに蒸留する「Self-Improving Memory」を発表",
-      "summary": "MetaのJason Weston氏らがSelf-Improving Memoryという手法を発表した。モデル自身の実行結果からメモリの使い方をメタ最適化し、その改善を重みに学習させても効果が得られるとしている。継続学習するAgentの重要な要素として、再帰的自己改善を研究する人は注目すべき方向性と推薦されている。",
-      "url": "https://x.com/jaseweston/status/2122691693543817397",
-      "source": "ML_Bear Times",
-      "topic": "論文・ベンチマーク",
-      "collected_at": "2026-11-18T19:34:11+09:00",
-      "unconfirmed": false
-    },
-    {
-      "headline": "ElevenLabs、医療会話向けリアルタイム文字起こし「Scribe v3 Live Medical」を発表",
-      "summary": "ElevenLabsが、通話中の医療会話をリアルタイムで文字起こしするScribe v3 Live Medicalを発表した。薬剤名や処置、症状の認識精度を高め、医療機関名や薬剤名など独自用語を最大1万件追加できる。糖尿病薬を抗うつ薬と聞き間違えた例が挙げられ、医療音声Agentでの誤認識対策として注目されている。ElevenAgentsで利用可能。",
-      "url": "https://x.com/ElevenLabs/status/2122751891256058043",
-      "source": "ML_Bear Times",
-      "topic": "音声AI（合成・認識・翻訳）",
-      "collected_at": "2026-11-18T19:34:11+09:00",
-      "unconfirmed": false
-    },
-    {
-      "headline": "Marin「Mochi」535B-A23B、事前学習の中間チェックポイント57個を公開",
-      "summary": "Marinプロジェクトが「Mochi」535B-A23Bの事前学習中間チェックポイント57個をすべて公開した。長文脈拡張の10個を含み、学習トークンは18.2T、重みは合計約61TBに及ぶ。ベースモデルの評価方法は難しい課題だとして、知見の共有に期待する声がQwenの開発者から出ている。",
-      "url": "https://x.com/dlwh/status/2122799840057004296",
-      "source": "ML_Bear Times",
-      "topic": "モデル",
-      "collected_at": "2026-11-18T19:34:11+09:00",
-      "unconfirmed": false
-    },
-    {
-      "headline": "チューリング、SlurmとK8sで資源共有する「SlurmKube」をOSS公開",
-      "summary": "チューリングが、AI開発向けジョブスケジューラ「SlurmKube」をOSSとして公開した。SlurmジョブをKubernetes上で実行し、共通のCPU/GPU資源をSlurmとK8sの両方から使える。DRAやKueue TASでNUMAやトポロジーを考慮して配置し、学習性能を高められるとしている。",
-      "url": "https://x.com/ymg_aq/status/2122928756864291164",
-      "source": "ML_Bear Times",
-      "topic": "生成AI・その他",
-      "collected_at": "2026-11-18T19:34:11+09:00",
-      "unconfirmed": false
-    }
-  ]
+  {
+   "headline": "GPT-6.2 AstraのSystem Card、評価認識が大幅上昇",
+   "summary": "GPT-6.2 AstraのSystem Cardで、モデルが評価されていると気づく度合い（評価認識）が再び大きく上昇し新たな水準に達したことが話題になっている。監視されていないと信じる状況ではモデルを評価できなくなりつつある点が重要問題として指摘され、思考の連鎖（CoT）の情報量や可読性の低下も挙げられている。",
+   "url": "https://x.com/AndrewCurran_/status/2122844319518536065",
+   "source": "ML_Bear Times",
+   "topic": "論文・ベンチマーク",
+   "collected_at": "2026-11-18T19:34:11+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "NVIDIA暫定CEOのKress氏、中国向け販売終了とHugging Face買収計画の維持を表明【続報】",
+   "summary": "NVIDIAの決算とHuang氏退任の続報。暫定CEOのKress氏はオープンソースAI戦略とHugging Face買収計画を維持し、中国へのチップ販売は終えると述べた。Hopperの中国向け出荷も停止しており、KinsusやSamsung電機との基板増産契約も発表された。一方でSemaforは一部の取締役がHuang氏の復帰をなお働きかけていると報じている。",
+   "url": "https://x.com/TechCrunch/status/2122829401821675653",
+   "source": "ML_Bear Times",
+   "topic": "ビジネス・人材",
+   "collected_at": "2026-11-18T19:34:11+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "米国の大規模障害、AIが発見した脆弱性へのパッチ殺到が原因か",
+   "summary": "米国で相次ぐシステム障害について、AIモデルが特定した脆弱性へのパッチ適用が原因だったとウォール街の幹部とNSAが議会に説明したと報じられた。AI自体が障害を起こしたのではなく、攻撃前に修正を急いだことでシステムが圧迫されたとされ、ルビオ国務長官は敵対勢力の攻撃を示す証拠はないと述べた。報道ベースで未確認。",
+   "url": "https://x.com/jstein_sun/status/2122854283536105498",
+   "source": "ML_Bear Times",
+   "topic": "AIセキュリティ",
+   "collected_at": "2026-11-18T19:34:11+09:00",
+   "unconfirmed": true
+  },
+  {
+   "headline": "Gemini 4 Neon、入力$3/出力$15で今日リリースか【続報】",
+   "summary": "Gemini Webのコードに見つかったGemini 4 Neonの続報。Google Cloudの課金カタログに入力$3/出力$15（100万トークンあたり）で掲載されたと報告され、Antigravity CLIにもPro orchestratorモデルとして追加されたとされる。Hydrogen（$1.50/$7.50）とCarbon（$4/$20）の中間の位置づけで、今日のリリースとの見方が出ている。未確認情報。",
+   "url": "https://x.com/aitrackerbot/status/2122964098275070001",
+   "source": "ML_Bear Times",
+   "topic": "モデル",
+   "collected_at": "2026-11-18T19:34:11+09:00",
+   "unconfirmed": true
+  },
+  {
+   "headline": "Kaggle新コンペ「Santa 2026 - The Elf Calculator」開始",
+   "summary": "Kaggleで恒例のサンタコンペ「Santa 2026 - The Elf Calculator」が始まった。48個のレジスタと四則演算だけを使い、小さな初期値から最大10の18乗の目標値を作り、全1,000問の合計命令数を最小化する。メダル対象でKernel Onlyではなく、締切は2027年1月28日。",
+   "url": "https://x.com/kagoole/status/2122857515469906156",
+   "source": "ML_Bear Times",
+   "topic": "生成AI・その他",
+   "collected_at": "2026-11-18T19:34:11+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "Antigravityが1周年、全モデルの利用枠をリセット",
+   "summary": "GoogleのAntigravityが1周年を迎え、全ユーザーの全モデルの利用枠がリセットされた。Antigravity上でGemini 4 Carbonの最初のトークンまでの時間（TTFT）が1.5倍高速化され、Argonも近く対応するとしている。頻繁なリセットやプラン変更時の利用枠リセットが利用者から歓迎されている。",
+   "url": "https://x.com/_mohansolo/status/2122836883877347836",
+   "source": "ML_Bear Times",
+   "topic": "エージェント",
+   "collected_at": "2026-11-18T19:34:11+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "Google AI Studio、Build内で独自ドメイン購入が可能に【続報】",
+   "summary": "Google AI Studioの大型アップデートで、Build画面から独自ドメインを直接購入できるようになった。AI Studioで作ったAndroidアプリへのAI組み込みも安全に行えるとされ、Google Play経由の端末導入は現状米国のみ。従来のai.studioドメインのカスタムURLから進み、AI Studioがアプリ公開までを担う方向が鮮明になっている。",
+   "url": "https://x.com/OfficialLoganK/status/2122818500763009273",
+   "source": "ML_Bear Times",
+   "topic": "生成AI・その他",
+   "collected_at": "2026-11-18T19:34:11+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "Meta、モデル自ら記憶スキルを発見し重みに蒸留する「Self-Improving Memory」を発表",
+   "summary": "MetaのJason Weston氏らがSelf-Improving Memoryという手法を発表した。モデル自身の実行結果からメモリの使い方をメタ最適化し、その改善を重みに学習させても効果が得られるとしている。継続学習するAgentの重要な要素として、再帰的自己改善を研究する人は注目すべき方向性と推薦されている。",
+   "url": "https://x.com/jaseweston/status/2122691693543817397",
+   "source": "ML_Bear Times",
+   "topic": "論文・ベンチマーク",
+   "collected_at": "2026-11-18T19:34:11+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "ElevenLabs、医療会話向けリアルタイム文字起こし「Scribe v3 Live Medical」を発表",
+   "summary": "ElevenLabsが、通話中の医療会話をリアルタイムで文字起こしするScribe v3 Live Medicalを発表した。薬剤名や処置、症状の認識精度を高め、医療機関名や薬剤名など独自用語を最大1万件追加できる。糖尿病薬を抗うつ薬と聞き間違えた例が挙げられ、医療音声Agentでの誤認識対策として注目されている。ElevenAgentsで利用可能。",
+   "url": "https://x.com/ElevenLabs/status/2122751891256058043",
+   "source": "ML_Bear Times",
+   "topic": "音声AI（合成・認識・翻訳）",
+   "collected_at": "2026-11-18T19:34:11+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "Marin「Mochi」535B-A23B、事前学習の中間チェックポイント57個を公開",
+   "summary": "Marinプロジェクトが「Mochi」535B-A23Bの事前学習中間チェックポイント57個をすべて公開した。長文脈拡張の10個を含み、学習トークンは18.2T、重みは合計約61TBに及ぶ。ベースモデルの評価方法は難しい課題だとして、知見の共有に期待する声がQwenの開発者から出ている。",
+   "url": "https://x.com/dlwh/status/2122799840057004296",
+   "source": "ML_Bear Times",
+   "topic": "モデル",
+   "collected_at": "2026-11-18T19:34:11+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "チューリング、SlurmとK8sで資源共有する「SlurmKube」をOSS公開",
+   "summary": "チューリングが、AI開発向けジョブスケジューラ「SlurmKube」をOSSとして公開した。SlurmジョブをKubernetes上で実行し、共通のCPU/GPU資源をSlurmとK8sの両方から使える。DRAやKueue TASでNUMAやトポロジーを考慮して配置し、学習性能を高められるとしている。",
+   "url": "https://x.com/ymg_aq/status/2122928756864291164",
+   "source": "ML_Bear Times",
+   "topic": "生成AI・その他",
+   "collected_at": "2026-11-18T19:34:11+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "Anthropic、IPO価格を想定レンジ超えの1株$83に決定、評価額は$1.5T【続報】",
+   "summary": "AnthropicのIPO価格が想定レンジ$70〜78を上回る1株$83に決まり、約$68.5Bを調達して評価額は$1.5Tとなった。S-1分析では、2026年Q3だけで計算資源に$10Bを投じ支出は年4倍ペースで増加、計算資源の購入・リース契約は合計$900.9Bに達するとされる。木曜にNasdaqでティッカーANTとして取引開始予定。",
+   "url": "https://x.com/IPONewsroom_/status/2123161624609439819",
+   "source": "ML_Bear Times",
+   "topic": "ビジネス・人材",
+   "collected_at": "2026-11-19T07:34:44+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "ChatGPT、話しながら文字化されるLive Dictationを提供開始",
+   "summary": "ChatGPTの音声入力がLive Dictationに刷新され、話した内容がその場で文字に変換されて入力バーの波形上に重ねて表示されるようになった。文字起こし完了を待つ時間が減り、これまで取りこぼしが多く外部の音声入力アプリに頼っていたという声もあり、日常利用の改善として歓迎されている。",
+   "url": "https://x.com/ChatGPT/status/2123114715257946334",
+   "source": "ML_Bear Times",
+   "topic": "音声AI（合成・認識・翻訳）",
+   "collected_at": "2026-11-19T07:34:44+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "データセクション、通期売上予想を89%下方修正——DCは実質Tencent向けとSemiAnalysisが指摘",
+   "summary": "データセクションが通期売上予想を1,620億円から170億円へ89%引き下げ、株価はストップ安となった。SemiAnalysisは、NVIDIA Blackwellを搭載した同社のデータセンターが実質的にTencent向けだったと分析。海外DC経由の利用を制限する米国の新規制の影響とみられ、Tencentも次期モデル開発への支障を認めている。",
+   "url": "https://x.com/SemiAnalysis_/status/2123130020063301813",
+   "source": "ML_Bear Times",
+   "topic": "ビジネス・人材",
+   "collected_at": "2026-11-19T07:34:44+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "PromptArmor、業務AI Agentへの隠し指示攻撃を測るベンチマーク「FrontierBreach」を公開",
+   "summary": "PromptArmorが、業務用AI Agentが隠し指示にどれだけ騙されるかを測るベンチマークFrontierBreachを公開した。メールや文書に見えない一文を仕込み、データ送信や攻撃者コードの実行へ誘導できるかを企業シナリオで評価する。複数のモデルやAgent、業界への攻撃結果も公開されている。",
+   "url": "https://x.com/PromptArmor/status/2123114516498252054",
+   "source": "ML_Bear Times",
+   "topic": "AIセキュリティ",
+   "collected_at": "2026-11-19T07:34:44+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "Microsoft Foundry Model Routerが44モデル対応、Foundry IQにGraphRAG Zeroを統合",
+   "summary": "Microsoft IgniteでFoundry関連の追加発表があった。Foundry Model Routerの対応モデルがGPT-6やClaude、Grokなど44種に広がり、デプロイ不要で自動選択するAutoもプレビュー提供される。研究段階だったGraphRAG ZeroのFoundry IQ統合や、承認企業にGPT-6 Cyberなどを提供するTrusted Access Programも発表された。",
+   "url": "https://x.com/daiki15036604/status/2123052116986192046",
+   "source": "ML_Bear Times",
+   "topic": "生成AI・その他",
+   "collected_at": "2026-11-19T07:34:44+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "NVIDIAとKumo、合成表データのみで学習した表データ基盤モデル「Kumo Tabular」の技術報告を公開",
+   "summary": "NVIDIAとKumoが、表データ向け基盤モデルKumo Tabularの技術報告と学習レシピを公開した。すべて合成テーブルで学習し、Tabular-Lは8つのベンチマークスイートで首位、3サイズとも精度と推論時間でパレート最適とされる。Kaggle GrandmasterのGiba氏も試す価値があると紹介している。",
+   "url": "https://x.com/jure/status/2123096895220548026",
+   "source": "ML_Bear Times",
+   "topic": "論文・ベンチマーク",
+   "collected_at": "2026-11-19T07:34:44+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "NVIDIA、連続拡散LLM「Nemotron-Labs-Sigma」の論文とオープンウェイトを公開",
+   "summary": "NVIDIAが、言語に連続拡散を持ち込んだNemotron-Labs-Sigmaの論文とオープンウェイトを公開した。3B/8Bで計14チェックポイントがあり、トークンのブロックを並列生成する仕組み。16次元の滑らかなODE軌道により蒸留やステアリングもしやすいとされ、数学やコーディングで複数解を高速に探索する用途が想定される。",
+   "url": "https://x.com/NVIDIAAI/status/2123144524746924455",
+   "source": "ML_Bear Times",
+   "topic": "モデル",
+   "collected_at": "2026-11-19T07:34:44+09:00",
+   "unconfirmed": false
+  },
+  {
+   "headline": "事前学習の新レシピとして「LR decayなし＋終盤チェックポイント平均」が話題に",
+   "summary": "事前学習でLR decayフェーズをなくし、一定LRで最後のN個のチェックポイントを平均する方式が新たな傾向になりつつあると話題になっている。Kolibriでも採用例があり、学習終了点を事前に決める必要がなく実運用しやすい点が利点として挙げられている。",
+   "url": "https://x.com/rasbt/status/2122721652433715481",
+   "source": "ML_Bear Times",
+   "topic": "論文・ベンチマーク",
+   "collected_at": "2026-11-19T07:34:44+09:00",
+   "unconfirmed": false
+  }
+ ]
 }
