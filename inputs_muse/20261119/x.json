@@ -6,7 +6,7 @@
     "to": "2026-11-19T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 17,
+  "itemCount": 19,
   "items": [
     {
       "headline": "Apple、動画生成モデル「FastFrames」をHugging Faceで公開—対話的レイテンシで生成、14Bと1.3Bの2サイズ",
@@ -177,6 +177,26 @@
       "url": "https://prtimes.jp/main/html/rd/p/000000070.000156001.html",
       "x_url": "https://x.com/coworker_sec/status/2122950410554200193",
       "collected_at": "2026-11-18T17:24:43+09:00"
+    },
+    {
+      "headline": "MBZUAI・IFM、完全オープンのモデル群「K2-Horizon」を公開——0.9Bから375B-A23Bまで6モデル、学習データとチェックポイントも開示",
+      "source": "arXiv / MBZUAI Institute of Foundation Models",
+      "summary": "MBZUAIのInstitute of Foundation Models（IFM）のK2 Teamは、0.9Bの密モデルから375B-A23BのMoE旗艦まで6モデルからなる完全オープンの言語モデル群「K2-Horizon」の技術報告を11月16日にarXivで公開した（arXiv:2611.21003）。LLM360の定義に沿い、重みだけでなく22兆トークンの学習コーパス、中間チェックポイント380件、学習ログとコードまで公開する。旗艦375B-A23BはTerminal-Bench 2.1で70.2、Toolathlonで65.3を記録したと著者らが報告している（いずれも著者公表値）。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://arxiv.org/abs/2611.21003v1",
+      "x_url": "https://x.com/arimajee/status/2122993337364038105",
+      "collected_at": "2026-11-18T19:14:41+09:00"
+    },
+    {
+      "headline": "Thomson Reuters、CoCounselのエージェント型AIを税務・取引コンプライアンスへ拡大——2027年から順次提供",
+      "source": "CPA Practice Advisor",
+      "summary": "Thomson Reutersは11月17日、年次イベントSynergyで、エージェント型AI「CoCounsel」を税務と取引コンプライアンスの業務へ拡大すると発表した。間接税・Pageroネットワーク経由の電子インボイス・国際貿易を一つの取引ビューで扱うワークフローと、直接税では根拠資料付きの下書きを作成してONESOURCE Tax Provisionへ引き継ぐワークフローを新たに用意し、判断と承認は専門家に残す設計とする。新ワークフローは2027年から順次提供される。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://www.cpapracticeadvisor.com/2026/11/17/thomson-reuters-synergy-2026-conference-kicks-off-in-las-vegas/194102/",
+      "x_url": "https://x.com/Roccat_fi/status/2122978901219807413",
+      "collected_at": "2026-11-18T19:14:41+09:00"
     }
   ]
 }
