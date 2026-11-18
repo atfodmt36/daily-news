@@ -1,0 +1,454 @@
+{
+  "date": "2026/11/19",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-18T08:00:00+09:00",
+    "to": "2026-11-19T08:00:00+09:00"
+  },
+  "source": "claude-code",
+  "itemCount": 23,
+  "items": [
+    {
+      "topic": "Claude Code",
+      "headline": "Claude Code v2.1.327 リリース：GitHub appインストールの確認追加、MCP設定のstdin入力、セッション信頼性の改善",
+      "summary": "`/install-github-app`がリポジトリ変更前に確認を求めるようになり、`claude mcp add-json <name> -`でJSONをstdinから読める(トークンがコマンドライン履歴に残らない)。worktreeモードでサーバー停止時に.env等のgit-ignoreファイルを削除する不具合やセッション再開時のメッセージ消失など多数を修正。",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327",
+      "source": "GitHub Releases (anthropics/claude-code)",
+      "published_at": "2026-11-18T08:17:45+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "release",
+        "mcp",
+        "github-app",
+        "permissions",
+        "bugfix",
+        "borderline"
+      ],
+      "related_urls": [
+        "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md"
+      ],
+      "collected_at": "2026-11-19T08:31:55+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "ChatGPTにライブディクテーションを追加、10分録音制限を撤廃",
+      "summary": "話しながらリアルタイムで音声がテキスト化されるLive Dictationを導入し、従来の10分録音制限を撤廃。iOS/Android/Web/デスクトップの全ChatGPTプラン向けにグローバル展開。help.openai.comは403のためWebSearchで検証。",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source": "ChatGPT release notes",
+      "published_at": "2026-11-18T00:00:00+09:00",
+      "unconfirmed": true,
+      "status": "ga",
+      "tags": [
+        "ChatGPT",
+        "dictation",
+        "voice",
+        "mobile",
+        "desktop",
+        "date-only",
+        "secondary"
+      ],
+      "collected_at": "2026-11-19T08:31:55+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "ChatGPTに会計ワークフロー(Accountingプラグイン)を追加",
+      "summary": "取引の照合、請求書エントリの下書き、月次レポート作成を支援するAccountingプラグインを提供。macOS/Windowsデスクトップアプリでコンピュータ使用を設定し、対象プラン/ワークスペースでインストール可能。help.openai.comは403のためWebSearchで検証。",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source": "ChatGPT release notes",
+      "published_at": "2026-11-18T00:00:00+09:00",
+      "unconfirmed": true,
+      "status": "ga",
+      "tags": [
+        "ChatGPT",
+        "plugin",
+        "accounting",
+        "computer-use",
+        "date-only",
+        "secondary"
+      ],
+      "collected_at": "2026-11-19T08:31:55+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "ChatGPT、個人向けDotsをデフォルトで有効化",
+      "summary": "管理者プレビューが終了し、対象のChatGPT Enterprise/Edu/Healthcareワークスペースで管理者がオプトアウトしない限り個人向けDotsがデフォルトで利用可能に。help.openai.comは403のためWebSearchで検証。",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source": "ChatGPT release notes",
+      "published_at": "2026-11-18T00:00:00+09:00",
+      "unconfirmed": true,
+      "status": "ga",
+      "tags": [
+        "ChatGPT",
+        "Enterprise",
+        "Edu",
+        "dots",
+        "date-only",
+        "secondary"
+      ],
+      "collected_at": "2026-11-19T08:31:55+09:00"
+    },
+    {
+      "topic": "Codex",
+      "headline": "Codex 0.170.0 リリース：音声通話向けWebRTC、OTel認証ヘッダ自動更新、同名MCPサーバの実験対応",
+      "summary": "TUIのリアルタイム音声通話向けWebRTCネゴシエーション、OpenTelemetry HTTPエクスポータの認証ヘッダ自動更新、環境をまたぐ同名MCPサーバの実験的サポートを追加。WebSocketリクエスト処理・MCP OAuth・Cloud会話再接続・Windowsファイル操作などのバグ修正を含む。",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0",
+      "source": "GitHub Releases (openai/codex)",
+      "published_at": "2026-11-18T12:45:39+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "CLI",
+        "release",
+        "WebRTC",
+        "MCP",
+        "OpenTelemetry"
+      ],
+      "related_urls": [
+        "https://github.com/openai/codex/releases/tag/rust-v0.169.1"
+      ],
+      "collected_at": "2026-11-19T08:31:55+09:00"
+    },
+    {
+      "topic": "Codex",
+      "headline": "OpenAI、Codex sandboxの内部構造を公式解説",
+      "summary": "Codexがユーザー環境でコマンドを実行する際に適用するファイルシステム/ネットワーク制限の設計、デフォルト判断、権限のカスタマイズ方法、開発者による再利用方法を解説。",
+      "url": "https://openai.com/index/inside-the-codex-sandbox",
+      "source": "OpenAI News",
+      "published_at": "2026-11-18T17:00:00+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "Codex",
+        "sandbox",
+        "security",
+        "developer"
+      ],
+      "collected_at": "2026-11-19T08:31:55+09:00"
+    },
+    {
+      "topic": "Gemini",
+      "headline": "Gemini 4 Neon が一般提供(GA)を開始",
+      "summary": "フロンティア級の知能と高速なエンドツーエンドのタスク完了を特徴とするgemini-4-neonがGAに。4段階の思考レベル(low/medium/high/xhigh)、1Mトークンのコンテキストに対応し、有料ティア価格は入力100万トークンあたり$3.00、出力$15.00。",
+      "url": "https://aistudio.google.com/docs/changelog",
+      "source": "Gemini API changelog",
+      "published_at": "2026-11-18T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "gemini-4-neon",
+        "model-launch",
+        "pricing",
+        "date-only"
+      ],
+      "related_urls": [
+        "https://aistudio.google.com/docs/deprecations"
+      ],
+      "collected_at": "2026-11-19T08:31:55+09:00"
+    },
+    {
+      "topic": "Gemini",
+      "headline": "Gemini API、Office/OpenDocument形式とマルチモーダルslicingに対応",
+      "summary": "Word・PowerPoint・ExcelなどのOffice/OpenDocument形式の処理に新対応し、ドキュメント・スプレッドシート・動画・音声をプロンプト内でslice(ページ範囲・タブ・セル範囲・時間区間で選択)可能に。処理した部分のみ課金される。",
+      "url": "https://aistudio.google.com/docs/changelog",
+      "source": "Gemini API changelog",
+      "published_at": "2026-11-18T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "multimodal",
+        "file-processing",
+        "office-formats",
+        "slicing",
+        "billing",
+        "date-only"
+      ],
+      "collected_at": "2026-11-19T08:31:55+09:00"
+    },
+    {
+      "topic": "Microsoft Foundry",
+      "headline": "Foundry Agent Serviceのホステッドエージェントが本番運用対応に(Ignite 2026)",
+      "summary": "ホステッドエージェントが共有サブネットIP(GA)、ネットワーク送信制御(GA)、回復性のある実行(GA)で本番対応に。プライベートCA信頼、Azure Policyガバナンス、AKSデプロイ(12月初旬予定)、メモリスナップショット、A2Aパススルーはプレビュー。",
+      "url": "https://devblogs.microsoft.com/foundry/hosted-agents-foundry-agent-service-ignite-2026/",
+      "source": "Microsoft Foundry Blog",
+      "published_at": "2026-11-19T02:00:54+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "Foundry Agent Service",
+        "hosted agents",
+        "Ignite 2026",
+        "network",
+        "preview"
+      ],
+      "collected_at": "2026-11-19T08:31:55+09:00"
+    },
+    {
+      "topic": "Microsoft Foundry",
+      "headline": "Microsoft Foundryのブラウザ自動化ツールを発表(Ignite 2026)",
+      "summary": "エージェント向けエンタープライズ対応クラウドブラウザを提供。MCPアクションのバッチ処理・Live View/Take control・セッション記録はGA、VNet注入・ブラウザプロキシ・Web Bot AuthによるCAPTCHA対応・シークレット管理はプレビュー。",
+      "url": "https://devblogs.microsoft.com/foundry/browser-automation-tool-ignite/",
+      "source": "Microsoft Foundry Blog",
+      "published_at": "2026-11-19T02:00:47+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "browser automation",
+        "agent tools",
+        "Ignite 2026",
+        "preview"
+      ],
+      "collected_at": "2026-11-19T08:31:55+09:00"
+    },
+    {
+      "topic": "Microsoft Foundry",
+      "headline": "Foundry Dev PackがGAに：好みの環境でFoundryエージェントを構築",
+      "summary": "CLI、Foundry Toolkit for VS Code、GitHub Copilot用プラグインを1回のインストールで束ねる開発者向けパックが一般提供開始。ターミナル・エディター・コーディングエージェントを横断してエージェント開発が可能。",
+      "url": "https://devblogs.microsoft.com/foundry/the-foundry-dev-pack-is-here-build-foundry-agents-your-way/",
+      "source": "Microsoft Foundry Blog",
+      "published_at": "2026-11-19T02:00:39+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "Dev Pack",
+        "CLI",
+        "VS Code",
+        "GitHub Copilot",
+        "Ignite 2026"
+      ],
+      "collected_at": "2026-11-19T08:31:55+09:00"
+    },
+    {
+      "topic": "Microsoft Foundry",
+      "headline": "Ignite 2026におけるFoundry Agent Serviceの新機能まとめ",
+      "summary": "Build/Deploy/Operateの各段階で更新。音声エージェント(GA)やブラウザ自動化・コンピューター使用(GA)に加え、Microsoft CopilotハーネスやWork IQ統合はプレビュー。Microsoft 365連携やInsights/Agent Optimizerによる継続的改善も含む。",
+      "url": "https://devblogs.microsoft.com/foundry/whats-new-in-foundry-agent-service-at-ignite-2026/",
+      "source": "Microsoft Foundry Blog",
+      "published_at": "2026-11-19T02:00:28+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "Foundry Agent Service",
+        "voice agents",
+        "Work IQ",
+        "Ignite 2026",
+        "preview"
+      ],
+      "collected_at": "2026-11-19T08:31:55+09:00"
+    },
+    {
+      "topic": "Microsoft Foundry",
+      "headline": "FoundryのToolsとToolboxes：一度作って全エージェントで再利用",
+      "summary": "エージェントフリート横断で共有機能を管理するToolbox機能を拡張。Web IQ搭載のWeb Search、A2Aツール(GA)、Snowflake/MongoDB/Databricks連携、GitHub CopilotへのToolbox統合などを追加。Fabric IQ強化やWork IQ API、tool policyはプレビュー。",
+      "url": "https://devblogs.microsoft.com/foundry/build-once-reuse-across-your-agent-fleet-tools-and-toolboxes-in-foundry/",
+      "source": "Microsoft Foundry Blog",
+      "published_at": "2026-11-19T02:00:18+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "tools",
+        "toolboxes",
+        "Web IQ",
+        "partners",
+        "Ignite 2026",
+        "preview"
+      ],
+      "collected_at": "2026-11-19T08:31:55+09:00"
+    },
+    {
+      "topic": "3Dモデル×AI",
+      "headline": "XGRIDS、3Dスキャナー「Lixel L3」のドローン・車両搭載ソリューションを発表",
+      "summary": "ハンドヘルド型3Dスキャナー Lixel L3 を DJI Matrice 400 ドローンや車両に搭載するマウントを発表。ドローン25m飛行時に水平/垂直2cm、車両20km/h時に3cmの精度(ベスト値・条件付き)を謳い、出荷は2026年12月予定。ただしドローン/車両搭載構成では発表時点で3DGS・メッシュ生成は未対応。",
+      "url": "https://www.heliguy.com/blogs/posts/xgrids-lixel-l3-drone-vehicle-mounts/",
+      "source": "Heliguy(販売代理店ブログ)/ PR TIMES",
+      "published_at": "2026-11-18T14:12:00+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "測量",
+        "point-cloud",
+        "3DGS",
+        "LiDAR",
+        "drone",
+        "XGRIDS",
+        "construction"
+      ],
+      "collected_at": "2026-11-19T08:31:55+09:00"
+    },
+    {
+      "topic": "3Dモデル×AI",
+      "headline": "DJI、3D文化遺産保全イニシアチブのコンテスト受賞者を発表",
+      "summary": "DJIがメッシュ・Gaussian Splatting・点群モデルの投稿を対象とする「World Heritage 3D Conservation Initiative」の受賞者を発表。DJI公式の一次情報は未確認で二次情報(radiancefields.com)のみ。",
+      "url": "https://radiancefields.com/",
+      "source": "radiancefields.com(ニュースメディア)",
+      "published_at": "2026-11-18T00:00:00+09:00",
+      "unconfirmed": true,
+      "status": "announced",
+      "tags": [
+        "3DGS",
+        "point-cloud",
+        "photogrammetry",
+        "DJI",
+        "heritage",
+        "date-only",
+        "secondary"
+      ],
+      "collected_at": "2026-11-19T08:31:55+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "Esri、ArcGIS Reality Serverを一般提供開始(ArcGIS Enterprise 12.2)",
+      "summary": "ドローン画像をGaussian Splats等へ分散処理するセルフホスト型のArcGIS Reality ServerをArcGIS Enterprise 12.2(Windows/Linux)でGA開始。slice、line of sight、標高プロファイル抽出などGaussian splat向け解析機能を追加。本体リリースは米国時間11-17でGA告知は11-18のためborderline/unconfirmed。",
+      "url": "https://www.esri.com/arcgis-blog/products/arcgis-enterprise/announcements/whats-new-in-arcgis-enterprise-12-2",
+      "source": "Esri 公式ブログ / radiancefields.com",
+      "published_at": "2026-11-18T00:00:00+09:00",
+      "unconfirmed": true,
+      "status": "ga",
+      "tags": [
+        "3DGS",
+        "ArcGIS",
+        "reality-capture",
+        "drone",
+        "GIS",
+        "Esri",
+        "date-only",
+        "borderline"
+      ],
+      "related_urls": [
+        "https://radiancefields.com/"
+      ],
+      "collected_at": "2026-11-19T08:31:55+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "アリゾナ州立大学、ジェンロック不要の4D Gaussian Splatting「Open4DGS」をオープンソース公開",
+      "summary": "民生用マルチカメラ映像を、ハードウェアのジェンロック同期なしにサブフレーム同期ソルバで4D Gaussian Splatsへ変換するOpen4DGSをASUが公開。プロジェクトページ/GitHub等の一次情報は未特定で二次情報(radiancefields.com)のみ確認。",
+      "url": "https://radiancefields.com/",
+      "source": "radiancefields.com(ニュースメディア)",
+      "published_at": "2026-11-18T00:00:00+09:00",
+      "unconfirmed": true,
+      "status": "announced",
+      "tags": [
+        "3DGS",
+        "4DGS",
+        "open-source",
+        "multi-camera",
+        "ASU",
+        "date-only",
+        "secondary"
+      ],
+      "collected_at": "2026-11-19T08:31:55+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "ANNX Studio 1.6.1、MacにMCMC・Xsplatトレーニングを追加",
+      "summary": "Apple Silicon Mac向け3DGSアプリ ANNX Studio がv1.6.1でMCMCおよびXsplatトレーニング手法とライブ学習プレビューを追加。一次情報は未特定で二次情報(radiancefields.com)のみ確認。",
+      "url": "https://radiancefields.com/",
+      "source": "radiancefields.com(ニュースメディア)",
+      "published_at": "2026-11-18T00:00:00+09:00",
+      "unconfirmed": true,
+      "status": "ga",
+      "tags": [
+        "3DGS",
+        "ANNX",
+        "Mac",
+        "MCMC",
+        "training-tool",
+        "date-only",
+        "secondary"
+      ],
+      "collected_at": "2026-11-19T08:31:55+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "Salesforce、高付加価値AIエージェント「Piper」「Fin」「Paige」の日本提供を開始(World Tour Tokyo)",
+      "summary": "インバウンド商談創出のPiper、カスタマーサービスのFin、IT/人事の従業員サービスのPaigeの3エージェントを日本で提供開始。AgentExchangeは1年で9社10サービスから26社35サービスへ、資格取得者は約4,300から累計約8,000(約2倍)に拡大し、三菱電機がFA事業の営業高度化でAgentforceを採用中と発表した。",
+      "url": "https://www.salesforce.com/jp/news/press-releases/2026/11/18/salesforce-world-tour-tokyo-2026/",
+      "source": "株式会社セールスフォース・ジャパン",
+      "published_at": "2026-11-18T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "営業AI",
+        "AIエージェント",
+        "全社AI展開",
+        "Agentforce",
+        "導入事例",
+        "date-only"
+      ],
+      "collected_at": "2026-11-19T08:31:55+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "ContractS、ネオキャリアの契約審査AI活用事例を公開——人員減の夏季も審査リードタイム約1.0日を維持",
+      "summary": "ContractSは契約ライフサイクル管理「ContractS CLM」で、ネオキャリア法務部(6名でグループ6社の審査を担当)が審査タスク取得からAIレビュー、Word出力までを自動化した事例を公開。夏季休暇の人員減期間でも審査リードタイムを通常月同水準の約1.0日に維持し、システム起因の不備は実質0%、利用ユーザーは2名から5名に拡大したとする。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000115.000029225.html",
+      "source": "ContractS株式会社(PR TIMES)",
+      "published_at": "2026-11-18T10:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "法務AI",
+        "契約審査",
+        "AIエージェント",
+        "導入事例",
+        "ネオキャリア",
+        "業務効率化"
+      ],
+      "collected_at": "2026-11-19T08:31:55+09:00"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "headline": "GitHub CopilotにSupabase・Box・Calendlyなど8サービスを接続(パブリックプレビュー)",
+      "summary": "GitHub検証済みMCPサーバー経由で、Box・Buildkite・Calendly・ClickUp・Mixpanel・Supabase・Webflow・Wixの8サービスをCopilotに接続可能に。既存コネクタと同じ方法で各Copilotインターフェースから利用できる。",
+      "url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-19T07:04:50+09:00",
+      "unconfirmed": false,
+      "status": "preview",
+      "tags": [
+        "MCP",
+        "connectors",
+        "integrations",
+        "preview"
+      ],
+      "collected_at": "2026-11-19T08:31:55+09:00"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "headline": "GitHub CopilotでGoogleのGemini 4 NeonがGAに",
+      "summary": "エージェント型コーディングや多段ツール利用向けのGemini 4 Neonが一般提供開始。Copilot Pro+/Max/Business/Enterpriseで利用でき、プロバイダー定価の従量課金で請求される。",
+      "url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-19T06:49:21+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "Gemini 4 Neon",
+        "model",
+        "usage-based billing",
+        "ga"
+      ],
+      "collected_at": "2026-11-19T08:31:55+09:00"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "headline": "GitHub Copilotをチーム向けにカスタマイズ可能に(GA)",
+      "summary": "チームのメンテナーが承認済みAgent Pluginをチーム既定として選択でき、各メンバー個別設定なしでCopilot構成を共有可能に。Copilot BusinessおよびEnterpriseで利用可能。",
+      "url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-19T01:00:13+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "team",
+        "agent plugins",
+        "admin",
+        "Business",
+        "Enterprise",
+        "ga"
+      ],
+      "collected_at": "2026-11-19T08:31:55+09:00"
+    }
+  ]
+}
