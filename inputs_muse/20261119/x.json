@@ -6,7 +6,7 @@
     "to": "2026-11-19T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 35,
+  "itemCount": 38,
   "items": [
     {
       "headline": "Google、Gemini 4 Neonを正式リリース——CarbonとHydrogenの中間モデル、入力$3/出力$15",
@@ -357,6 +357,36 @@
       "url": "https://x.com/GeminiApp/status/2123100943604707606",
       "x_url": "https://x.com/GeminiApp/status/2123100943604707606",
       "collected_at": "2026-11-19T04:12:40+09:00"
+    },
+    {
+      "headline": "RadixArk、強化学習モデル「DaisyRose-27B」をオープン公開—Terminal-Bench 4.1を5.6%から12.0%に改善",
+      "source": "RadixArk",
+      "summary": "RadixArkが初のモデルDaisyRose-27BをApache 2.0で公開した。Qwen3.8-27Bを基盤に、1,200件の長期エージェントタスクで18日間・144基のH200を使い強化学習（Miles）を行い、Terminal-Bench 4.1のpass@1を5.6%から12.0%へ、Terminal-Bench 2.1も73.0%から75.5%へ改善した。BF16／FP8／NVFP4のチェックポイントを公開し、256Kコンテキストを維持する。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://www.radixark.com/blog/daisyrose-27b",
+      "x_url": "https://x.com/superdoccimo/status/2123175031538905305",
+      "collected_at": "2026-11-19T07:44:32+09:00"
+    },
+    {
+      "headline": "ElevenLabs、文字起こし「Scribe」の料金を値下げ—バッチ1時間0.20ドル、リアルタイム0.22ドル",
+      "source": "ElevenLabs",
+      "summary": "ElevenLabsが公式変更履歴（11月17日付）で、音声文字起こしScribeの料金改定を発表した。全Scribeモデルを対象に、バッチ文字起こしは音声1時間あたり0.20ドル、リアルタイム文字起こしは0.22ドルとなる。セルフサーブとBusinessの全プランに適用され、Enterpriseの料金は据え置き。",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "unconfirmed": false,
+      "url": "https://elevenlabs.io/docs/changelog",
+      "x_url": "https://x.com/ZST_WIP/status/2123175422821126308",
+      "collected_at": "2026-11-19T07:44:32+09:00"
+    },
+    {
+      "headline": "Palo Alto Networks、オープンウェイトAI基盤のApplied Computeを45億ドルで買収へ",
+      "source": "Palo Alto Networks",
+      "summary": "Palo Alto Networksが11月18日、オープンウェイトAIモデルの事後学習・推論プラットフォームを手がけるApplied Computeを、全株式取引・45億ドルで買収する最終合意を発表した。元OpenAI研究者が2025年に創業した同社は11月2日に32.5億ドルの評価額で3.5億ドルを調達したばかり。買収完了は2027年度第3四半期の見込みで、共同創業者兼CEOのYash Patil氏は完了後に共同最高AI責任者に就任する。",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "url": "https://www.prnewswire.com/news-releases/palo-alto-networks-to-acquire-applied-compute-bringing-secure-open-weight-ai-to-the-enterprise-302944421.html",
+      "x_url": "https://x.com/PaloAltoNtwks/status/2123165024545845701",
+      "collected_at": "2026-11-19T07:44:32+09:00"
     }
   ]
 }
