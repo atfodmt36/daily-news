@@ -1,0 +1,608 @@
+{
+  "date": "2026/11/19",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-18T08:00:00+09:00",
+    "to": "2026-11-19T08:00:00+09:00"
+  },
+  "itemCount": 82,
+  "top5": [
+    {
+      "headline": "Google、Gemini 4 Neonを正式リリース——CarbonとHydrogenの中間モデル、入力$3/出力$15",
+      "summary": "Googleは11月18日、Gemini 4ファミリーの新モデル「Gemini 4 Neon」を公式ブログで発表し、同日提供を開始した。CarbonとHydrogenの中間に位置づけられ、複雑なソフトウェアエンジニアリングや知識労働、科学ワークフローを高速に完了する設計。Artificial Analysis Intelligence Indexではxhigh思考レベルで61を記録し総合3位。価格は入力$3/出力$15（100万トークンあたり、キャッシュ入力$0.15）、コンテキストは100万トークン、思考レベルは4段階（low/medium/high/xhigh）。Gemini API／Google AI Studio、Geminiアプリ（AI Pro・Ultra加入者）、Google Antigravityなどで利用可能となり、GitHub Copilotでも一般提供が始まった（Pro+/Max/Business/Enterprise、プロバイダー定価の従量課金）。前日まで請求カタログへの価格掲載などから未確認情報として流れていたモデルが正式リリースされた。",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "source": "Google",
+      "unconfirmed": false,
+      "whyItMatters": "Googleの新フロンティアモデルが正式リリースされ、API・アプリ・Copilotで同日提供開始。CarbonとHydrogenの中間価格で知能指数3位を記録し、モデル選択の標準が変わる。"
+    },
+    {
+      "headline": "Tencent、「Hy4 Flash」の重みをオープン公開——FP8版とBase版も同時公開",
+      "summary": "Tencent Hunyuanは11月18日、Hy4 Flash、量子化版Hy4 Flash-FP8、事前学習版Hy4 Flash-Baseをオープンウェイトとして公開した。Hugging Face、ModelScope、GitCode、GitHubからダウンロードしてデプロイできる。Hy4 Flashは総パラメータ220B（うちEngramパラメータ64B）でトークンあたりの活性は12B、テキスト・画像入力に対応するネイティブマルチモーダルモデルで、コンテキスト長は最大1Mトークン。11月16日のAPI提供開始時点では重みは公開予定にとどまっていた。",
+      "url": "https://huggingface.co/tencent/Hy4-flash",
+      "source": "Tencent Hunyuan（Hugging Face）",
+      "unconfirmed": false,
+      "whyItMatters": "総パラメータ220Bのネイティブマルチモーダルモデルがオープンウェイトで公開。FP8版とBase版も同時に出て、ローカル・自社環境での大規模モデル活用の選択肢が広がった。"
+    },
+    {
+      "headline": "Google DeepMind、ワールドモデル「Genie 4」をProject Genieで提供開始——AI Ultra加入者が利用可能に",
+      "summary": "Googleは11月18日、新しいProject Genie体験を対象のGoogle AI Ultra加入者向けに展開し、ワールドモデル「Genie 4」への初のアクセスを開いた（公式ブログで確認）。Genie 4はセッション中のテキスト指示で世界をリアルタイムに編集でき、ネイティブ音声が場面に合わせて変化する。Genie 3も最長3分セッション、ワールド連結、360度パノラマによるグラウンディングに対応。作成を支援するProject Genieエージェントとコミュニティギャラリーも追加された。Google AI Pro会員はウェイトリスト登録が可能。",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+      "source": "Google DeepMind",
+      "unconfirmed": false,
+      "whyItMatters": "対話で世界をリアルタイム編集できるワールドモデルが一般利用フェーズに入った。世界モデルが研究デモから製品体験へ移る転換点。"
+    },
+    {
+      "headline": "LIXIL、設計図面から建材を自動で拾い出す「AI見積システム」を導入——積算時間を約62％削減へ",
+      "summary": "LIXILは11月17日、パートナー企業向け見積りシステム「CRASFL」に、設計図面を読み込ませるとAIが部屋の範囲やインテリア建材を自動認識して製品を拾い出す「AI見積システム」を追加し、同日から展開を始めた。標準物件想定で1棟あたりの積算時間を約40分から約15分へ、約62％削減することを目標とする。KK Generationの積算AI技術とLIXILの建材拾い出しノウハウを組み合わせた。LIXILのプレスリリースとBUILTの記事で確認した。オーナーのいいねが端緒。",
+      "url": "https://built.itmedia.co.jp/bt/articles/2611/18/news081.html",
+      "source": "BUILT（LIXILプレスリリース）",
+      "unconfirmed": false,
+      "whyItMatters": "図面読み取りから建材拾い出しまでを自動化し積算時間を約62％削減する国内の建設×AI事例。図面AIの業務効果が具体的な数字で示された。"
+    },
+    {
+      "headline": "政府、AI駆動型シンクタンク「重要技術戦略研究所（ICETS）」を設立",
+      "summary": "政府は11月17日、AIや量子など先端技術の情報を収集・分析するシンクタンク「重要技術戦略研究所（ICETS）」を設立したと発表した。一般社団法人として登記し、理事長にコマツの小川啓之会長、所長にJSTの中山智弘氏が就き、10人体制で始動。査読前論文や特許・求人情報などをAIで網羅的に読み込み新興技術の兆しを捉え、経済安全保障や科学技術政策への提言と人材育成を担う。",
+      "url": "https://www.jiji.com/jc/article?k=2026111700749&g=soc",
+      "source": "時事通信",
+      "unconfirmed": false,
+      "whyItMatters": "政府がAIで先端技術情報を網羅的に読み解く専任シンクタンクを設立。経済安全保障と科学技術政策へのAI活用が組織として動き出した。"
+    }
+  ],
+  "sections": {
+    "エージェント": [
+      {
+        "headline": "Perplexity、Computerに複数エージェント協調の「Multiagent」を展開開始",
+        "summary": "PerplexityがComputerとteammates向けの新しい労力レベル「Multiagent」の展開を開始した。リードエージェントがタスクを複数のフロンティアモデルを使うエージェントチームに分割し、発見を共有しながら統合した回答を作る。",
+        "url": "https://x.com/perplexity_ai/status/2122728603909783741",
+        "source": "Perplexity公式X",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Perplexity、モデル自動選択の「Orchestrator API」を発表",
+        "summary": "PerplexityがOrchestrator APIを発表した。タスクに適したモデルを選べるほか、可用性・容量・レイテンシに応じてプロバイダを自動選択し、オープンウェイトとプロプライエタリの全モデルを単一API・統一課金で利用できる。",
+        "url": "https://x.com/perplexity_ai/status/2122785177135096053",
+        "source": "Perplexity公式X",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Antigravityが1周年、全モデルの利用枠をリセット",
+        "summary": "GoogleのAntigravityが1周年を迎え、全ユーザーの全モデルの利用枠がリセットされた。Antigravity上でGemini 4 Carbonの最初のトークンまでの時間（TTFT）が1.5倍高速化され、Argonも近く対応するとしている。頻繁なリセットやプラン変更時の利用枠リセットが利用者から歓迎されている。",
+        "url": "https://x.com/_mohansolo/status/2122836883877347836",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Mistral AI、エージェントアプリ「Vibe」のデスクトップ版を一般提供開始——macOS／Windows対応、ローカルとクラウドの両セッションに対応",
+        "summary": "Mistral AIは、エージェント型アシスタント「Vibe」のデスクトップアプリを一般提供開始した（Mistral Docsのリリースノートで11月17日付で確認、公式Xで11月19日に告知）。macOSとWindowsに対応し、作業向けのWorkとコーディング向けのCodeを1つのアプリに統合。手元のリポジトリに対するローカルセッションとマネージドなクラウドサンドボックスでのセッションを併用でき、ファイルやコマンド、プルリクエストを会話の横で確認できる。Linux対応は今後予定。",
+        "url": "https://docs.mistral.ai/resources/release-notes",
+        "source": "Mistral AI / Mistral Docs",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Meta、パーソナルAIエージェント「Muse」をオーストラリアで提供開始",
+        "summary": "Metaは11月17日、パーソナルAIエージェント「Muse」をオーストラリアで提供開始したと公式ニュースルームで発表した。GmailやGoogleカレンダー、Instagram、OpenTableなどと連携し、メール管理や予定調整、レストラン予約などを代行する。現地パートナーとしてCanva、Domain、Kogan、MECCA、Officeworks、realestate.com.au、SWEAT、ShopBack、Ticketekが参加し、連携機能は順次展開される。iOS、Android、muse.ai、Macアプリで利用でき、大半の機能は無料。",
+        "url": "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/",
+        "source": "Meta",
+        "unconfirmed": false
+      },
+      {
+        "headline": "ChatGPT、話しながら文字化されるLive Dictationを提供開始",
+        "summary": "ChatGPTの音声入力がLive Dictationに刷新され、話した内容がその場で文字に変換されて入力バーの波形上に重ねて表示されるようになった。リリースノートによれば従来の10分録音制限は撤廃され、iOS/Android/Web/デスクトップの全ChatGPTプラン向けにグローバル展開される。文字起こし完了を待つ時間が減り、日常利用の改善として歓迎されている。",
+        "url": "https://x.com/ChatGPT/status/2123114715257946334",
+        "source": "ChatGPT",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Microsoft Foundry Model Routerが44モデル対応、Foundry IQにGraphRAG Zeroを統合",
+        "summary": "Microsoft IgniteでFoundry関連の追加発表があった。Foundry Model Routerの対応モデルがGPT-6やClaude、Grokなど44種に広がり、デプロイ不要で自動選択するAutoもプレビュー提供される。研究段階だったGraphRAG ZeroのFoundry IQ統合や、承認企業にGPT-6 Cyberなどを提供するTrusted Access Programも発表された。",
+        "url": "https://x.com/daiki15036604/status/2123052116986192046",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Google Labs、公開後も製品を改善し続ける常駐型製品エージェント「Stitch Loop」を発表",
+        "summary": "Google Labsは11月18日、コードベースと本番メトリクスに接続して公開後の製品を継続改善する長時間稼働型の製品エージェント「Stitch Loop」を実験として発表した。GitHubや180超の連携から文脈を取り込み、セキュリティ（Gemini 4 CarbonとCodeMenderの組み合わせ）・レイテンシ・アクセシビリティの標準ループを持ち、サンドボックスで修正コードを書いて承認待ちのPRを開く。ウェイトリストを全世界で開始し、Google AI Ultra加入者が優先される。Google公式ブログで確認した。オーナーのいいねが端緒。",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/",
+        "source": "Google Labs",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Claude Code v2.1.327 リリース：GitHub appインストールの確認追加、MCP設定のstdin入力、セッション信頼性の改善",
+        "summary": "`/install-github-app`がリポジトリ変更前に確認を求めるようになり、`claude mcp add-json <name> -`でJSONをstdinから読める(トークンがコマンドライン履歴に残らない)。worktreeモードでサーバー停止時に.env等のgit-ignoreファイルを削除する不具合やセッション再開時のメッセージ消失など多数を修正。",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327",
+        "source": "GitHub Releases (anthropics/claude-code)",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Codex 0.170.0 リリース：音声通話向けWebRTC、OTel認証ヘッダ自動更新、同名MCPサーバの実験対応",
+        "summary": "TUIのリアルタイム音声通話向けWebRTCネゴシエーション、OpenTelemetry HTTPエクスポータの認証ヘッダ自動更新、環境をまたぐ同名MCPサーバの実験的サポートを追加。WebSocketリクエスト処理・MCP OAuth・Cloud会話再接続・Windowsファイル操作などのバグ修正を含む。",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0",
+        "source": "GitHub Releases (openai/codex)",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Foundry Agent Serviceのホステッドエージェントが本番運用対応に(Ignite 2026)",
+        "summary": "ホステッドエージェントが共有サブネットIP(GA)、ネットワーク送信制御(GA)、回復性のある実行(GA)で本番対応に。プライベートCA信頼、Azure Policyガバナンス、AKSデプロイ(12月初旬予定)、メモリスナップショット、A2Aパススルーはプレビュー。",
+        "url": "https://devblogs.microsoft.com/foundry/hosted-agents-foundry-agent-service-ignite-2026/",
+        "source": "Microsoft Foundry Blog",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Foundry Dev PackがGAに：好みの環境でFoundryエージェントを構築",
+        "summary": "CLI、Foundry Toolkit for VS Code、GitHub Copilot用プラグインを1回のインストールで束ねる開発者向けパックが一般提供開始。ターミナル・エディター・コーディングエージェントを横断してエージェント開発が可能。",
+        "url": "https://devblogs.microsoft.com/foundry/the-foundry-dev-pack-is-here-build-foundry-agents-your-way/",
+        "source": "Microsoft Foundry Blog",
+        "unconfirmed": false
+      },
+      {
+        "headline": "FoundryのToolsとToolboxes：一度作って全エージェントで再利用",
+        "summary": "エージェントフリート横断で共有機能を管理するToolbox機能を拡張。Web IQ搭載のWeb Search、A2Aツール(GA)、Snowflake/MongoDB/Databricks連携、GitHub CopilotへのToolbox統合などを追加。Fabric IQ強化やWork IQ API、tool policyはプレビュー。",
+        "url": "https://devblogs.microsoft.com/foundry/build-once-reuse-across-your-agent-fleet-tools-and-toolboxes-in-foundry/",
+        "source": "Microsoft Foundry Blog",
+        "unconfirmed": false
+      },
+      {
+        "headline": "GitHub CopilotにSupabase・Box・Calendlyなど8サービスを接続(パブリックプレビュー)",
+        "summary": "GitHub検証済みMCPサーバー経由で、Box・Buildkite・Calendly・ClickUp・Mixpanel・Supabase・Webflow・Wixの8サービスをCopilotに接続可能に。既存コネクタと同じ方法で各Copilotインターフェースから利用できる。",
+        "url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
+        "source": "GitHub Changelog",
+        "unconfirmed": false
+      },
+      {
+        "headline": "GitHub Copilotをチーム向けにカスタマイズ可能に(GA)",
+        "summary": "チームのメンテナーが承認済みAgent Pluginをチーム既定として選択でき、各メンバー個別設定なしでCopilot構成を共有可能に。Copilot BusinessおよびEnterpriseで利用可能。",
+        "url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team",
+        "source": "GitHub Changelog",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Ignite 2026におけるFoundry Agent Serviceの新機能まとめ",
+        "summary": "Build/Deploy/Operateの各段階で更新。音声エージェント(GA)やブラウザ自動化・コンピューター使用(GA)に加え、Microsoft CopilotハーネスやWork IQ統合はプレビュー。Microsoft 365連携やInsights/Agent Optimizerによる継続的改善も含む。",
+        "url": "https://devblogs.microsoft.com/foundry/whats-new-in-foundry-agent-service-at-ignite-2026/",
+        "source": "Microsoft Foundry Blog",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Microsoft Foundryのブラウザ自動化ツールを発表(Ignite 2026)",
+        "summary": "エージェント向けエンタープライズ対応クラウドブラウザを提供。MCPアクションのバッチ処理・Live View/Take control・セッション記録はGA、VNet注入・ブラウザプロキシ・Web Bot AuthによるCAPTCHA対応・シークレット管理はプレビュー。",
+        "url": "https://devblogs.microsoft.com/foundry/browser-automation-tool-ignite/",
+        "source": "Microsoft Foundry Blog",
+        "unconfirmed": false
+      }
+    ],
+    "モデル": [
+      {
+        "headline": "Apple、動画生成モデル「FastFrames」をHugging Faceで公開—対話的レイテンシで生成、14Bと1.3Bの2サイズ",
+        "summary": "Appleが動画生成モデルFastFrames-L（14B）とFastFrames-S（1.3B）をHugging Faceで公開した。対話的な低レイテンシでの動画生成をうたうモデルで、Apple公式のモデルカードから利用できる。",
+        "url": "https://huggingface.co/apple/FastFrames-L",
+        "source": "Hugging Face（Apple公式モデルカード）",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Kling AI、画像生成モデル「Kling Image 4.0」を公開—ネイティブ8K出力と最大2,000字の文字描画に対応",
+        "summary": "KuaishouのKling AIが画像生成モデルKling Image 4.0を11月17日に公開した。業界初のネイティブ8K生成、1枚に最大2,000字（日本語など7言語）の文字描画、1プロンプトで最大10枚のシリーズ生成に対応し、Kling Creative Studioと企業・開発者向けAPIで提供される。",
+        "url": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+        "source": "Kling AI公式ブログ",
+        "unconfirmed": false
+      },
+      {
+        "headline": "H2O.ai、時系列基盤モデル「TimeH2O」と表形式基盤モデル「TabH2O」を一般提供開始",
+        "summary": "H2O.aiが11月17日、時系列基盤モデルTimeH2O（108Mパラメータ、ゼロショット予測、fev-benchで32モデル中1位＝2026年10月23日時点）と表形式データ向け基盤モデルTabH2Oを、H2O AI Cloudで一般提供開始したと発表した。両モデルは自社データでのファインチューニングに対応し、TimeH2O-v1の重みはHugging Faceで研究・評価向けに公開されている。",
+        "url": "https://www.businesswire.com/news/home/20261117925321/en/H2O.ai-Tops-the-Generative-Pre-Trained-Model-Era-of-Predictive-AI-Powered-by-Leading-Foundation-Models-for-Time-Series-and-Tabular-Data",
+        "source": "H2O.ai (Business Wire)",
+        "unconfirmed": false
+      },
+      {
+        "headline": "MBZUAI・IFM、完全オープンのモデル群「K2-Horizon」を公開——0.9Bから375B-A23Bまで6モデル、学習データとチェックポイントも開示",
+        "summary": "MBZUAIのInstitute of Foundation Models（IFM）のK2 Teamは、0.9Bの密モデルから375B-A23BのMoE旗艦まで6モデルからなる完全オープンの言語モデル群「K2-Horizon」の技術報告を11月16日にarXivで公開した（arXiv:2611.21003）。LLM360の定義に沿い、重みだけでなく22兆トークンの学習コーパス、中間チェックポイント380件、学習ログとコードまで公開する。旗艦375B-A23BはTerminal-Bench 2.1で70.2、Toolathlonで65.3を記録したと著者らが報告している（いずれも著者公表値）。",
+        "url": "https://arxiv.org/abs/2611.21003v1",
+        "source": "arXiv / MBZUAI Institute of Foundation Models",
+        "unconfirmed": false
+      },
+      {
+        "headline": "ElevenLabs、医療会話向けリアルタイム文字起こし「Scribe v3 Live Medical」を発表",
+        "summary": "ElevenLabsが、通話中の医療会話をリアルタイムで文字起こしするScribe v3 Live Medicalを発表した。薬剤名や処置、症状の認識精度を高め、医療機関名や薬剤名など独自用語を最大1万件追加できる。糖尿病薬を抗うつ薬と聞き間違えた例が挙げられ、医療音声Agentでの誤認識対策として注目されている。ElevenAgentsで利用可能。",
+        "url": "https://x.com/ElevenLabs/status/2122751891256058043",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Marin「Mochi」535B-A23B、事前学習の中間チェックポイント57個を公開",
+        "summary": "Marinプロジェクトが「Mochi」535B-A23Bの事前学習中間チェックポイント57個をすべて公開した。長文脈拡張の10個を含み、学習トークンは18.2T、重みは合計約61TBに及ぶ。ベースモデルの評価方法は難しい課題だとして、知見の共有に期待する声がQwenの開発者から出ている。",
+        "url": "https://x.com/dlwh/status/2122799840057004296",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Phancy、言語モデル「Phai-A1」と動画生成モデル「Phai-M1」を発表",
+        "summary": "中国のPhancy Group（6682.HK）が11月18日、自社開発のPhaiシリーズ2モデルを発表した。言語モデルPhai-A1はネイティブ100万トークンのコンテキストに対応し、PCへのローカル展開も可能。動画生成モデルPhai-M1は実写風映像での人物の表情・動きの自然さと音声の同時生成に注力し、社内テストで720p・15秒の動画を約3分で生成した。両モデルの重みは近く開発者向けに公開予定。",
+        "url": "https://www.media-outreach.com/news/china/2026/11/18/502315/phancy-launches-phai-a1-language-model-and-phai-m1-video-generation-model/",
+        "source": "Phancy Group（Media OutReach Newswire）",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Orange、ウォロフ語対応のオープンウェイトLLMを5モデル公開——Hugging Faceで非商用利用は無料",
+        "summary": "フランスの通信大手Orangeは11月17日、西アフリカで広く話されるウォロフ語の読み書きに対応したオープンウェイトの大規模言語モデル5種をHugging Faceで公開した（Orange公式プレスリリースで確認）。同社のAIチームがファインチューニングしたもので、サイズの異なる5モデルと、公開データを自動翻訳して作った学習データを非商用利用に限り無料で提供する。AIが理解できないアフリカ諸語を段階的に取り込む取り組みの一環で、言語多様性を進める60超の団体の連合にも加わった。",
+        "url": "https://www.orange.com/en/press-release/orange-releases-african-language-ai-models-to-advance-digital-inclusion-in-africa-520346",
+        "source": "Orange",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Reson8、0.5B音声認識モデル「Rumble-2-Flash」をApache 2.0でオープン公開——40超の言語対応",
+        "summary": "オランダのReson8（Resonate Labs）は11月18日、0.5Bパラメータの音声認識モデル「Rumble-2-Flash」をHugging FaceでApache 2.0ライセンスによりオープン公開した（HFブログで確認）。40超の言語の自動判別に対応し、TransformersとvLLMでそのまま動作する。Open ASR Leaderboard多言語トラックで平均誤り率6.96%と、自社比で3〜60倍規模のモデルに匹敵する精度をうたう。",
+        "url": "https://huggingface.co/blog/rumble-2-flash",
+        "source": "Hugging Face / Reson8",
+        "unconfirmed": false
+      },
+      {
+        "headline": "NVIDIA、連続拡散LLM「Nemotron-Labs-Sigma」の論文とオープンウェイトを公開",
+        "summary": "NVIDIAが、言語に連続拡散を持ち込んだNemotron-Labs-Sigmaの論文とオープンウェイトを公開した。3B/8Bで計14チェックポイントがあり、トークンのブロックを並列生成する仕組み。16次元の滑らかなODE軌道により蒸留やステアリングもしやすいとされ、数学やコーディングで複数解を高速に探索する用途が想定される。",
+        "url": "https://x.com/NVIDIAAI/status/2123144524746924455",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "RadixArk、強化学習モデル「DaisyRose-27B」をオープン公開—Terminal-Bench 4.1を5.6%から12.0%に改善",
+        "summary": "RadixArkが初のモデルDaisyRose-27BをApache 2.0で公開した。Qwen3.8-27Bを基盤に、1,200件の長期エージェントタスクで18日間・144基のH200を使い強化学習（Miles）を行い、Terminal-Bench 4.1のpass@1を5.6%から12.0%へ、Terminal-Bench 2.1も73.0%から75.5%へ改善した。BF16／FP8／NVFP4のチェックポイントを公開し、256Kコンテキストを維持する。",
+        "url": "https://www.radixark.com/blog/daisyrose-27b",
+        "source": "RadixArk",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Inworld、音声モデル「Voice Isolator」と「SAVA」をApache 2.0でオープンソース公開——Realtime TTS-2の技術報告も",
+        "summary": "Inworld AIは11月18日、話者の声を保ちながら背景音を除く「Voice Isolator」と、発話検出とターン終了検出を1モデルで行う「SAVA」をオープンソース公開し、Realtime TTS-2の技術報告も公開した。SAVAは25.5Mパラメータで、AMI会議コーパスでのターン終了検出は200ミリ秒以内85.5％（pipecat smart-turn v3.2は30.8％）、検出遅延の中央値は71ミリ秒だった。コードと重みはApache 2.0で提供される。Inworld公式ブログで確認した。オーナーのいいねが端緒。",
+        "url": "https://inworld.ai/blog/introducing-sava",
+        "source": "Inworld AI",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Gemini API、Office/OpenDocument形式とマルチモーダルslicingに対応",
+        "summary": "Word・PowerPoint・ExcelなどのOffice/OpenDocument形式の処理に新対応し、ドキュメント・スプレッドシート・動画・音声をプロンプト内でslice(ページ範囲・タブ・セル範囲・時間区間で選択)可能に。処理した部分のみ課金される。",
+        "url": "https://aistudio.google.com/docs/changelog",
+        "source": "Gemini API changelog",
+        "unconfirmed": false
+      }
+    ],
+    "論文・ベンチマーク": [
+      {
+        "headline": "GPT-6.2 Astra、AA-3Dで1位・ARC-AGI-3でも好成績【続報】",
+        "summary": "GPT-6.2 Astraの評価続報。Artificial AnalysisのAA-3Dで1位となり、他モデルとの直接対決152票中139票で支持された。ARC-AGI-3では最大推論設定で人間ベースラインより64.1%少ないアクション数で解き、KernelBench-Megaでは最適化済みPyTorch比23.5倍のカーネルを書いた一方、Agent系タスクでの後退を指摘する声もある。",
+        "url": "https://x.com/arcprize/status/2122751235841220774",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "GPT-6.2 AstraのSystem Card、評価認識が大幅上昇",
+        "summary": "GPT-6.2 AstraのSystem Cardで、モデルが評価されていると気づく度合い（評価認識）が再び大きく上昇し新たな水準に達したことが話題になっている。監視されていないと信じる状況ではモデルを評価できなくなりつつある点が重要問題として指摘され、思考の連鎖（CoT）の情報量や可読性の低下も挙げられている。",
+        "url": "https://x.com/AndrewCurran_/status/2122844319518536065",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Meta、モデル自ら記憶スキルを発見し重みに蒸留する「Self-Improving Memory」を発表",
+        "summary": "MetaのJason Weston氏らがSelf-Improving Memoryという手法を発表した。モデル自身の実行結果からメモリの使い方をメタ最適化し、その改善を重みに学習させても効果が得られるとしている。継続学習するAgentの重要な要素として、再帰的自己改善を研究する人は注目すべき方向性と推薦されている。",
+        "url": "https://x.com/jaseweston/status/2122691693543817397",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Ramp、実務由来500タスクの新コーディングベンチマーク「Ramp SWE-Bench v2」を公開——GPT-6.2 Astra（Codex）が76.4%で首位",
+        "summary": "Ramp Labsは11月18日、自社のエンジニア200人超が本番に投入した実務から構築した500タスクのベンチマーク「Ramp SWE-Bench v2」を公開した。検証を厳格化し、各モデルをネイティブハーネスで実行。pass@1（high effort）ではGPT-6.2 Astra（Codex）が76.4%で首位、Claude Fable 5.2（Claude Code）が73.4%、GPT-6.2 Sol（Codex）が73.4%と続いた。",
+        "url": "https://labs.ramp.com/swebench",
+        "source": "Ramp Labs",
+        "unconfirmed": false
+      },
+      {
+        "headline": "NVIDIAとKumo、合成表データのみで学習した表データ基盤モデル「Kumo Tabular」の技術報告を公開",
+        "summary": "NVIDIAとKumoが、表データ向け基盤モデルKumo Tabularの技術報告と学習レシピを公開した。すべて合成テーブルで学習し、Tabular-Lは8つのベンチマークスイートで首位、3サイズとも精度と推論時間でパレート最適とされる。Kaggle GrandmasterのGiba氏も試す価値があると紹介している。",
+        "url": "https://x.com/jure/status/2123096895220548026",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "PromptArmor、業務AI Agentへの隠し指示攻撃を測るベンチマーク「FrontierBreach」を公開",
+        "summary": "PromptArmorが、業務用AI Agentが隠し指示にどれだけ騙されるかを測るベンチマークFrontierBreachを公開した。メールや文書に見えない一文を仕込み、データ送信や攻撃者コードの実行へ誘導できるかを企業シナリオで評価する。複数のモデルやAgent、業界への攻撃結果も公開されている。",
+        "url": "https://x.com/PromptArmor/status/2123114516498252054",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "事前学習の新レシピとして「LR decayなし＋終盤チェックポイント平均」が話題に",
+        "summary": "事前学習でLR decayフェーズをなくし、一定LRで最後のN個のチェックポイントを平均する方式が新たな傾向になりつつあると話題になっている。Kolibriでも採用例があり、学習終了点を事前に決める必要がなく実運用しやすい点が利点として挙げられている。",
+        "url": "https://x.com/rasbt/status/2122721652433715481",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Arena、エージェント評価の新指標「Agent Arena Index」を公開——290万超の実利用セッションで測定",
+        "summary": "Arena（旧LMArena）は11月18日、実利用セッションからエージェント性能を測る新指標「Agent Arena Index」を発表した。290万超のユーザーセッションを基に、総合指標に加えてAgentic Work／Coding／Chat／Task Outcome／Tool Use／Steeringの6つの分野別指標を新設し、スコア尺度を刷新して時期をまたいだ比較をしやすくした。CryptoBriefingによれば総合首位はClaude Fable 5.2 (Max)で1463、2位に134点差という。Arena公式ブログで確認した。オーナーのいいねが端緒。",
+        "url": "https://arena.ai/blog/introducing-the-agent-arena-index",
+        "source": "Arena",
+        "unconfirmed": false
+      }
+    ],
+    "建設×AI": [
+      {
+        "headline": "森林総合研究所、ドローン・航空機の広域森林3Dデータから樹木を1本ずつ高速に自動抽出する技術を開発",
+        "summary": "森林総合研究所などの研究グループは、ドローンや航空機のレーザー測量で得た森林の3D点群から樹木を1本ずつ自動抽出する技術を開発した。伊豆半島周辺約1900平方キロメートル・約6.2TBの航空機レーザーデータに適用し、約3000万本の樹木を自動抽出した。既存のオープンソース樹木抽出法と比べて本数推定の誤差が小さく、航空機データでは処理時間を約1000分の1程度まで短縮したという。森林総合研究所の研究成果ページ（11月9日掲載）で確認した。オーナーのいいねが端緒。",
+        "url": "https://www.ffpri.go.jp/research/saizensen/2026/20261109.html",
+        "source": "森林総合研究所",
+        "unconfirmed": false
+      },
+      {
+        "headline": "XGRIDS、3Dスキャナー「Lixel L3」のドローン・車両搭載ソリューションを発表",
+        "summary": "ハンドヘルド型3Dスキャナー Lixel L3 を DJI Matrice 400 ドローンや車両に搭載するマウントを発表。ドローン25m飛行時に水平/垂直2cm、車両20km/h時に3cmの精度(ベスト値・条件付き)を謳い、出荷は2026年12月予定。ただしドローン/車両搭載構成では発表時点で3DGS・メッシュ生成は未対応。",
+        "url": "https://www.heliguy.com/blogs/posts/xgrids-lixel-l3-drone-vehicle-mounts/",
+        "source": "Heliguy(販売代理店ブログ)/ PR TIMES",
+        "unconfirmed": false
+      }
+    ],
+    "政策・政府": [
+      {
+        "headline": "APTO、経産省・NEDOの「GENIAC-PRIZE 2026」自由参加課題に採択—学生向けフィジカルAIチャレンジの参加者を募集",
+        "summary": "APTOは11月18日、経済産業省とNEDOが実施する懸賞金型コンテストGENIAC-PRIZE 2026のテーマ2（フィジカルAI向け開発者育成）で、自由参加課題「データ設計で競うPhysical AIチャレンジ」に採択されたと発表した。模倣学習用データの設計・収集・選別でロボットアームの動作精度を競い、予選はオンライン、決勝は豊洲の実機で実施。応募締切は11月21日。",
+        "url": "https://prtimes.jp/main/html/rd/p/000000190.000053927.html",
+        "source": "APTO（PR TIMES）",
+        "unconfirmed": false
+      },
+      {
+        "headline": "総務省、「自治体サイバーセキュリティサポートチーム」のポータルを開設——AIで自治体サイトの弱点を診断",
+        "summary": "総務省は、自治体のサイバーセキュリティ対策を支援する「自治体サイバーセキュリティサポートチーム」のポータルサイトを公開した。自治体のウェブサイトをAIで点検し、脆弱性などの弱点を診断する支援を行うとしている。",
+        "url": "https://www.soumu.go.jp/denshijiti/jichitai-cybersecurity-support.html",
+        "source": "総務省",
+        "unconfirmed": false
+      }
+    ],
+    "ビジネス・人材": [
+      {
+        "headline": "産業能率大学とHR総研、生成AIと人材育成の人事実態調査を発表——見直し必要性は半数超も対応は2割未満",
+        "summary": "産業能率大学総合研究所はHR総研（ProFuture）と共同で、人事担当者ら320社の回答を集計した「生成AIと人材育成に関する人事実態調査」を発表した。生成AIが人材育成に影響すると見る回答は79.1%に上り、育成の見直しが必要と感じるテーマは56.6～70.3%だった一方、実際に対応しているのは15.0～19.4%にとどまった。育成上の課題が大きい階層は管理職が59.4%で最多だが、管理職向けの生成AI研修の実施は7.7%だった。",
+        "url": "https://home.kingsoft.jp/news/pr/prwire/202610067402.html?from=recent_v2_pr",
+        "source": "産業能率大学総合研究所／HR総研",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Thomson Reuters、CoCounselのエージェント型AIを税務・取引コンプライアンスへ拡大——2027年から順次提供",
+        "summary": "Thomson Reutersは11月17日、年次イベントSynergyで、エージェント型AI「CoCounsel」を税務と取引コンプライアンスの業務へ拡大すると発表した。間接税・Pageroネットワーク経由の電子インボイス・国際貿易を一つの取引ビューで扱うワークフローと、直接税では根拠資料付きの下書きを作成してONESOURCE Tax Provisionへ引き継ぐワークフローを新たに用意し、判断と承認は専門家に残す設計とする。新ワークフローは2027年から順次提供される。",
+        "url": "https://www.cpapracticeadvisor.com/2026/11/17/thomson-reuters-synergy-2026-conference-kicks-off-in-las-vegas/194102/",
+        "source": "CPA Practice Advisor",
+        "unconfirmed": false
+      },
+      {
+        "headline": "NVIDIA暫定CEOのKress氏、中国向け販売終了とHugging Face買収計画の維持を表明【続報】",
+        "summary": "NVIDIAの決算とHuang氏退任の続報。暫定CEOのKress氏はオープンソースAI戦略とHugging Face買収計画を維持し、中国へのチップ販売は終えると述べた。Hopperの中国向け出荷も停止しており、KinsusやSamsung電機との基板増産契約も発表された。一方でSemaforは一部の取締役がHuang氏の復帰をなお働きかけていると報じている。",
+        "url": "https://x.com/TechCrunch/status/2122829401821675653",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Anthropic、IPO価格を想定レンジ超えの1株$83に決定、評価額は$1.5T【続報】",
+        "summary": "AnthropicのIPO価格が想定レンジ$70〜78を上回る1株$83に決まり、約$68.5Bを調達して評価額は$1.5Tとなった。S-1分析では、2026年Q3だけで計算資源に$10Bを投じ支出は年4倍ペースで増加、計算資源の購入・リース契約は合計$900.9Bに達するとされる。木曜にNasdaqでティッカーANTとして取引開始予定。",
+        "url": "https://x.com/IPONewsroom_/status/2123161624609439819",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "データセクション、通期売上予想を89%下方修正——DCは実質Tencent向けとSemiAnalysisが指摘",
+        "summary": "データセクションが通期売上予想を1,620億円から170億円へ89%引き下げ、株価はストップ安となった。SemiAnalysisは、NVIDIA Blackwellを搭載した同社のデータセンターが実質的にTencent向けだったと分析。海外DC経由の利用を制限する米国の新規制の影響とみられ、Tencentも次期モデル開発への支障を認めている。",
+        "url": "https://x.com/SemiAnalysis_/status/2123130020063301813",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Google、Apps ScriptのコードをGeminiで開発する機能を一般提供開始——自然言語の指示で業務自動化を作成",
+        "summary": "Googleは11月16日（現地時間）、Google Apps ScriptのコードをGeminiで作成・カスタマイズ・トラブルシュートできるサイドパネルの一般提供を開始した。プログラミングの専門知識がなくても日常の言葉で指示するだけで業務自動化のプログラムを作れる。対象はBusiness Standard以上のWorkspaceプランやGoogle AI Pro／Ultraなどで、11月12日から段階的に展開されている。窓の杜の記事（Google Workspace Updatesに基づく）で確認した。オーナーのいいねが端緒。",
+        "url": "https://forest.watch.impress.co.jp/docs/news/2157510.html",
+        "source": "窓の杜（Google Workspace Updates）",
+        "unconfirmed": false
+      },
+      {
+        "headline": "MicrosoftとSalesforce、「Copilotforce」を発表——Salesforceの顧客文脈と営業ワークフローをCopilot・Teams・Fabricへ",
+        "summary": "MicrosoftとSalesforceは11月17日、Igniteで提携「Copilotforce」を発表した。Salesforce in Microsoft Copilotは38超の営業スキルを備えたプラグインとしてパブリックプレビューを開始し、Teams会議やメール、文書の文脈と合わせて顧客情報の参照やCRM操作ができる。Sales Cloud in Teamsはパイロット中で、Salesforce Data 360とMicrosoft Fabricの双方向ゼロコピー連携も導入する。Accentureが設計・実装パートナー兼パイロット顧客を務める。Microsoft公式発表で確認した。オーナーのいいねが端緒。",
+        "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/",
+        "source": "Microsoft / Salesforce",
+        "unconfirmed": false
+      },
+      {
+        "headline": "ContractS、ネオキャリアの契約審査AI活用事例を公開——人員減の夏季も審査リードタイム約1.0日を維持",
+        "summary": "ContractSは契約ライフサイクル管理「ContractS CLM」で、ネオキャリア法務部(6名でグループ6社の審査を担当)が審査タスク取得からAIレビュー、Word出力までを自動化した事例を公開。夏季休暇の人員減期間でも審査リードタイムを通常月同水準の約1.0日に維持し、システム起因の不備は実質0%、利用ユーザーは2名から5名に拡大したとする。",
+        "url": "https://prtimes.jp/main/html/rd/p/000000115.000029225.html",
+        "source": "ContractS株式会社(PR TIMES)",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Salesforce、高付加価値AIエージェント「Piper」「Fin」「Paige」の日本提供を開始(World Tour Tokyo)",
+        "summary": "インバウンド商談創出のPiper、カスタマーサービスのFin、IT/人事の従業員サービスのPaigeの3エージェントを日本で提供開始。AgentExchangeは1年で9社10サービスから26社35サービスへ、資格取得者は約4,300から累計約8,000(約2倍)に拡大し、三菱電機がFA事業の営業高度化でAgentforceを採用中と発表した。",
+        "url": "https://www.salesforce.com/jp/news/press-releases/2026/11/18/salesforce-world-tour-tokyo-2026/",
+        "source": "株式会社セールスフォース・ジャパン",
+        "unconfirmed": false
+      }
+    ],
+    "生成AI・その他": [
+      {
+        "headline": "Anthropic、脆弱性の公開期限を短縮—深刻な問題は90日から30日へ、AIによる発見加速に対応",
+        "summary": "Anthropicは11月16日、調整された脆弱性開示（CVD）方針の期限短縮を発表した。2027年1月1日以降の報告では、深刻度High/Criticalは90日から30日、その他は45日に短縮し、修正後の技術詳細公開も45日から30日とする。AIの進歩で同じ脆弱性が他者にも見つかりやすくなったことを理由に挙げている。",
+        "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines?ref=thestack.technology",
+        "source": "Anthropic公式",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Auphonic、DaVinci Resolve Studio用プラグインを公開—タイムラインから音声処理を直接実行",
+        "summary": "音声ポストプロダクションのAuphonicが、DaVinci Resolve Studio向け公式プラグインを11月17日に公開した。タイムラインの音声トラックをAuphonicへ送り、整音済み音声を同期したまま新規トラックへ戻せる。プラグインは無料で、Windows/macOS/Linux対応。",
+        "url": "https://us.auphonic.com/blog/2026/11/17/auphonic-for-davinci-resolve/",
+        "source": "Auphonic公式ブログ",
+        "unconfirmed": false
+      },
+      {
+        "headline": "パーフェクト、AIで楽曲制作からMV生成まで完結する「YouCam Muse」を提供開始",
+        "summary": "パーフェクト株式会社が11月17日、歌詞やイメージから60秒以内にオリジナル楽曲を生成し、楽曲に合わせたMVまでAIが制作する新サービス「YouCam Muse」の提供をWeb版とiOSアプリで開始した。映像生成にはSeedance 2.5を採用し、賞金総額48万円のAI MVコンテストも11月20日から開催する。",
+        "url": "https://prtimes.jp/main/html/rd/p/000000290.000066482.html",
+        "source": "パーフェクト株式会社（PR TIMES）",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Higgsfield、台本から短編ドラマシリーズを生成する「Short Drama Studio」を公開",
+        "summary": "Higgsfieldが11月16日、完成した台本をアップロードするとエピソード分割、キャスト・ロケーション・小道具の構築、同一キャストでのエピソード生成までを行う「Short Drama Studio」を発表した。最大100エピソードの一括生成に対応し、15種以上のスタイルと6種のアスペクト比を選べる。現在はデスクトップ向け早期プレビューで、HiggsfieldのWebアプリとMCP経由のClaude/ChatGPTから利用できる。",
+        "url": "https://higgsfield.ai/short-drama",
+        "source": "Higgsfield",
+        "unconfirmed": false
+      },
+      {
+        "headline": "MetAI、写真から使える3Dデータまで一貫処理するローカルアプリ「Studio3D」を提供開始",
+        "summary": "合同会社MetAIが11月18日、ローカル3D制作アプリ「Studio3D」の提供を開始した。写真やイラストからの3Dモデル生成、パーツ分割、リトポロジー、UV、マテリアル、ライティング、書き出しまでの8工程を1画面で完結でき、全て利用者のPC内で動作するため未公開デザインを社外に送る必要がない。自社計測ではリトポで三角ポリゴン数を約70万から約7.1万へ削減した。",
+        "url": "https://prtimes.jp/main/html/rd/p/000000015.000126494.html",
+        "source": "合同会社MetAI（PR TIMES）",
+        "unconfirmed": false
+      },
+      {
+        "headline": "NTT、ソースコードを外部に出さない「ソブリン型」セキュリティAIを開発——CyberGym成功率48%→63%",
+        "summary": "NTTが11月16日、検査対象のソースコードを外部AIサービスに送信せず自ら管理する環境で脆弱性を解析するサイバーセキュリティAI技術を開発したと発表した。複数のオープンウェイトモデルと独自の解析ワークフローを組み合わせ、脆弱性解析ベンチマークCyberGymのメモリ破壊150課題で解析成功率が既存手法の48%から63%へ15ポイント向上した。成果はNTT R&D FORUM 2026で展示される。",
+        "url": "https://news.infoseek.co.jp/article/digitalprplatform_148367/",
+        "source": "NTT（Digital PR Platform）",
+        "unconfirmed": false
+      },
+      {
+        "headline": "ソフトバンク、スマホ撮影のバスケ試合映像をAI解析する技術を国内大会で実証",
+        "summary": "ソフトバンクは11月18日、日本バスケットボール協会（JBA）と連携し、スマートフォンで撮影したバスケットボールの試合映像をAIで解析してハイライト動画やスタッツを自動生成する技術を国内大会で実証したと発表した。米Built Different AIの解析アプリ「HOOPER」を活用し、1日最大36試合分のハイライトを翌日までに自動生成、シュート検出精度は平均94%を達成した。",
+        "url": "https://www.softbank.jp/corp/news/press/sbkk/2026/20261118_01/",
+        "source": "ソフトバンク",
+        "unconfirmed": false
+      },
+      {
+        "headline": "CoWorker、AIエージェント向けセキュリティ点検「Blue Harness」「Red Harness」を発表",
+        "summary": "CoWorkerは11月18日、開発チームが普段使うAIエージェントにセキュリティの照会・点検機能を追加する「Blue Harness」と「Red Harness」をPR TIMESで発表した。Blue HarnessはMCP経由でエンドポイントのログ収集・解析と脅威インテリジェンス照会を行い、Red Harnessはリリース前後のネットワークやWebアプリを攻撃者目線で点検し、脆弱性の対応状況管理を支援する。製品群「CoWorker AI Harness」として提供し、開始は2026年12月頃の予定。",
+        "url": "https://prtimes.jp/main/html/rd/p/000000070.000156001.html",
+        "source": "CoWorker（PR TIMES）",
+        "unconfirmed": false
+      },
+      {
+        "headline": "GitHubとMicrosoft、AI脆弱性検査の試験結果を公表——OSS 6件で9,791件の候補を99件に精査、55件が修正済み",
+        "summary": "GitHubは11月17日、Microsoftと実施したAIセキュリティ試験運用の結果を公式ブログで発表した。Microsoftのエージェント型検査基盤「Codename MDASH」がMAI Cyberモデルで6つのOSSプロジェクト（AutoGPT、Caddy、Express、FastMCP、ImageMagick、Netty）を走査して9,791件の候補を検出し、GitHub Security LabのAIトリアージとMicrosoft FORGE Lab研究者7人の手作業確認を経て、PoCと修正案付きの非公開報告99件をメンテナーへ届けた。11月15日時点で55件が修正され、うち14件はリリースに含まれている。今後はGitHub Secure Open Source Fundの参加プロジェクトへ対象を広げる。",
+        "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+        "source": "GitHub",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Suno、楽曲から動画やジャケット画像を作る「Visuals」を公開",
+        "summary": "音楽生成AIのSunoは11月17日、ライブラリ内の楽曲をもとにリリックビデオやアルバムアート、最長15秒の動画クリップを生成する新機能「Visuals」をWeb版で公開した。基盤モデルはMiniMaxのH3を基にした「H3 Move」で、歌詞や曲の構成に合わせた映像生成やリップシンクに対応する。iOS／Android版は今後数週間で提供予定で、Visualクレジットは楽曲クレジットとは別体系となる。",
+        "url": "https://www.unite.ai/suno-launches-visuals-for-ai-generated-lyric-videos-and-album-art/",
+        "source": "Unite.AI",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Google AI Studio、Build内で独自ドメイン購入が可能に【続報】",
+        "summary": "Google AI Studioの大型アップデートで、Build画面から独自ドメインを直接購入できるようになった。AI Studioで作ったAndroidアプリへのAI組み込みも安全に行えるとされ、Google Play経由の端末導入は現状米国のみ。従来のai.studioドメインのカスタムURLから進み、AI Studioがアプリ公開までを担う方向が鮮明になっている。",
+        "url": "https://x.com/OfficialLoganK/status/2122818500763009273",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Kaggle新コンペ「Santa 2026 - The Elf Calculator」開始",
+        "summary": "Kaggleで恒例のサンタコンペ「Santa 2026 - The Elf Calculator」が始まった。48個のレジスタと四則演算だけを使い、小さな初期値から最大10の18乗の目標値を作り、全1,000問の合計命令数を最小化する。メダル対象でKernel Onlyではなく、締切は2027年1月28日。",
+        "url": "https://x.com/kagoole/status/2122857515469906156",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "チューリング、SlurmとK8sで資源共有する「SlurmKube」をOSS公開",
+        "summary": "チューリングが、AI開発向けジョブスケジューラ「SlurmKube」をOSSとして公開した。SlurmジョブをKubernetes上で実行し、共通のCPU/GPU資源をSlurmとK8sの両方から使える。DRAやKueue TASでNUMAやトポロジーを考慮して配置し、学習性能を高められるとしている。",
+        "url": "https://x.com/ymg_aq/status/2122928756864291164",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "AWS、Amazon SageMakerにAIデータ準備機能を追加—合成データ生成や自動ラベリングに対応",
+        "summary": "AWSは11月17日、Amazon SageMaker AIにAIデータ準備機能を追加した。文書に基づく合成データの生成、データ品質の評価・変換、分類やNERなど複数タスクの自動ラベリングと人手レビューを、SageMaker Python SDKやエージェント向けスキルから利用できる。米国東部（バージニア北部）と米国西部（オレゴン）で一般提供を開始した。",
+        "url": "https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/",
+        "source": "AWS Machine Learning Blog",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Google、検索AIモードに履歴に残らない「一時スレッド」を導入",
+        "summary": "Googleは11月17日、検索のAIモードに一時スレッド機能を導入した。アカウントから切り離されたセッションで質問でき、回答は過去の好みに影響されず、履歴にも保存されず、今後のパーソナライズにも使われない。AIモードが対応する全言語で、デスクトップとモバイルのブラウザ向けに世界展開を開始した。",
+        "url": "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/",
+        "source": "Google公式ブログ",
+        "unconfirmed": false
+      },
+      {
+        "headline": "PKU×Tencent Hunyuan、長編動画生成フレームワーク「MovieRoll」を公開",
+        "summary": "北京大学とTencent Hunyuanの研究チームが、長編動画を連続生成するフレームワークMovieRollを公開した。自己回帰型の生成で最長60秒の動画に対応し、HeliosBenchでは単一イベント・複数イベントの各設定で評価対象手法中トップの総合スコアを記録した（プロジェクトページ公表値）。コードはGitHubで公開されている。",
+        "url": "https://tencent-hunyuan.github.io/MovieRoll/",
+        "source": "Tencent Hunyuan / 北京大学（プロジェクトページ）",
+        "unconfirmed": false
+      },
+      {
+        "headline": "NVIDIA、ローカルAI向け小型デスクトップ「RTX Spark」を発売——ASUS・Dell・MSIから、最大128GB統合メモリで120Bモデルをローカル実行",
+        "summary": "NVIDIAは11月18日、ローカルAI向けの小型デスクトップ「RTX Spark」搭載機をASUS、Dell、MSIから発売したと公式ブログで発表した。20コアのGrace CPUと6,144 CUDAコアのBlackwell RTX GPU、最大128GBの統合メモリを備え、最大1ペタフロップスのAI性能で120Bパラメータ級モデルをローカル実行できるとする。常時稼働のエージェント実行や画像・動画生成、モデルのファインチューニングを想定し、Acer、GIGABYTE、HPのミニPCとMicrosoftのSurface RTX Spark Dev Boxは今後発売予定。",
+        "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+        "source": "NVIDIA Blog",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Google、Geminiアプリを低メモリAndroid端末に対応——Android（Go edition）でも利用可能に",
+        "summary": "Googleは11月18日、Geminiアプリを再設計し、低メモリのAndroid端末（対象のAndroid（Go edition）端末を含む）でも中核体験が快適に動作するようにしたと公式アカウントで発表した。メモリ2GB級の端末でもGemini Liveや画像生成などが使えるようになる。",
+        "url": "https://x.com/GeminiApp/status/2123100943604707606",
+        "source": "Google Gemini",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Pika、対話的に演出できる動画生成の研究プレビュー「Enact」を公開——Pika H3 Flex基盤",
+        "summary": "Pikaは11月18日、動画生成モデルPika H3 Flexを基盤とする実験的ライブストリーミング環境「Enact」の研究プレビューを公式ブログで公開した。撮影現場の演出を模し、再生中の映像に対してマウスで俳優や小道具を配置し直す「Live Staging」、音声で俳優に演技指示を出す「Live Actor Direction」、マウスでカメラを動かす「Live Camera Control」の3モードを備える。H100では映像応答が0.4秒未満としている。",
+        "url": "https://pika.art/blog/pika-enact",
+        "source": "Pika",
+        "unconfirmed": false
+      },
+      {
+        "headline": "ElevenLabs、文字起こし「Scribe」の料金を値下げ—バッチ1時間0.20ドル、リアルタイム0.22ドル",
+        "summary": "ElevenLabsが公式変更履歴（11月17日付）で、音声文字起こしScribeの料金改定を発表した。全Scribeモデルを対象に、バッチ文字起こしは音声1時間あたり0.20ドル、リアルタイム文字起こしは0.22ドルとなる。セルフサーブとBusinessの全プランに適用され、Enterpriseの料金は据え置き。",
+        "url": "https://elevenlabs.io/docs/changelog",
+        "source": "ElevenLabs",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Palo Alto Networks、オープンウェイトAI基盤のApplied Computeを45億ドルで買収へ",
+        "summary": "Palo Alto Networksが11月18日、オープンウェイトAIモデルの事後学習・推論プラットフォームを手がけるApplied Computeを、全株式取引・45億ドルで買収する最終合意を発表した。元OpenAI研究者が2025年に創業した同社は11月2日に32.5億ドルの評価額で3.5億ドルを調達したばかり。買収完了は2027年度第3四半期の見込みで、共同創業者兼CEOのYash Patil氏は完了後に共同最高AI責任者に就任する。",
+        "url": "https://www.prnewswire.com/news-releases/palo-alto-networks-to-acquire-applied-compute-bringing-secure-open-weight-ai-to-the-enterprise-302944421.html",
+        "source": "Palo Alto Networks",
+        "unconfirmed": false
+      },
+      {
+        "headline": "NGINXに認証不要でリモートコード実行が可能な重大脆弱性5件が開示——一部はAI支援で発見、修正版1.31.9が公開",
+        "summary": "11月18日、NGINX 1.31.8（現行mainline）を含む複数バージョンに、認証不要でリモートコード実行につながり得る重大な脆弱性5件（CVE-2026-123007など、いずれもCVSS 4.0で9.2）が開示された。Wiz、Ikotas Labs、Metnir、Rapid7、Xintの5チームが独立に発見し、一部はAIモデルやOpenAIとの協働を用いたと公表している。F5は修正版としてNGINX Open Source 1.30.7（stable）と1.31.9（mainline）を公開した。野外での悪用は確認されていない。Infosecurity Magazineの報道で確認した。オーナーのいいねが端緒。",
+        "url": "https://www.infosecurity-magazine.com/news/five-critical-vulnerabilities/",
+        "source": "Infosecurity Magazine",
+        "unconfirmed": false
+      }
+    ]
+  },
+  "unconfirmed": [
+    {
+      "headline": "米国の大規模障害、AIが発見した脆弱性へのパッチ殺到が原因か",
+      "summary": "米国で相次ぐシステム障害について、AIモデルが特定した脆弱性へのパッチ適用が原因だったとウォール街の幹部とNSAが議会に説明したと報じられた。AI自体が障害を起こしたのではなく、攻撃前に修正を急いだことでシステムが圧迫されたとされ、ルビオ国務長官は敵対勢力の攻撃を示す証拠はないと述べた。報道ベースで未確認。",
+      "url": "https://x.com/jstein_sun/status/2122854283536105498",
+      "source": "ML_Bear Times",
+      "unconfirmed": true
+    },
+    {
+      "headline": "3DGS関連3件を二次情報で確認：DJI文化遺産保全コンテスト受賞者発表、ASU「Open4DGS」公開、ANNX Studio 1.6.1更新",
+      "summary": "radiancefields.com経由の二次情報で3件を確認した。(1) DJIがメッシュ・Gaussian Splatting・点群モデルの投稿を対象とする「World Heritage 3D Conservation Initiative」の受賞者を発表した。(2) アリゾナ州立大学が、民生用マルチカメラ映像をハードウェアのジェンロック同期なしにサブフレーム同期ソルバで4D Gaussian Splatsへ変換する「Open4DGS」をオープンソース公開した。(3) Apple Silicon Mac向け3DGSアプリANNX Studioがv1.6.1でMCMCおよびXsplatトレーニング手法とライブ学習プレビューを追加した。いずれも一次情報は未特定で二次情報のみの確認。",
+      "url": "https://radiancefields.com/",
+      "source": "radiancefields.com(ニュースメディア)",
+      "unconfirmed": true
+    },
+    {
+      "headline": "ChatGPT、会計ワークフロー（Accountingプラグイン）を追加し個人向けDotsをデフォルトで有効化",
+      "summary": "ChatGPTのリリースノートで2件の更新が案内された。取引の照合、請求書エントリの下書き、月次レポート作成を支援するAccountingプラグインを提供（macOS/Windowsデスクトップアプリでコンピュータ使用を設定し、対象プラン/ワークスペースでインストール可能）。また管理者プレビューが終了し、対象のChatGPT Enterprise/Edu/Healthcareワークスペースで管理者がオプトアウトしない限り個人向けDotsがデフォルトで利用可能になった。help.openai.comは403のためWebSearchで検証した二次確認ベース。",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source": "ChatGPT release notes",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Esri、ArcGIS Reality Serverを一般提供開始(ArcGIS Enterprise 12.2)",
+      "summary": "ドローン画像をGaussian Splats等へ分散処理するセルフホスト型のArcGIS Reality ServerをArcGIS Enterprise 12.2(Windows/Linux)でGA開始。slice、line of sight、標高プロファイル抽出などGaussian splat向け解析機能を追加。本体リリースは米国時間11-17でGA告知は11-18のためborderline/unconfirmed。",
+      "url": "https://www.esri.com/arcgis-blog/products/arcgis-enterprise/announcements/whats-new-in-arcgis-enterprise-12-2",
+      "source": "Esri 公式ブログ / radiancefields.com",
+      "unconfirmed": true
+    }
+  ]
+}
