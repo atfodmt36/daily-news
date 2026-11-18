@@ -6,7 +6,7 @@
     "to": "2026-11-19T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 13,
+  "itemCount": 14,
   "items": [
     {
       "headline": "Apple、動画生成モデル「FastFrames」をHugging Faceで公開—対話的レイテンシで生成、14Bと1.3Bの2サイズ",
@@ -137,6 +137,16 @@
       "url": "https://higgsfield.ai/short-drama",
       "x_url": "https://x.com/peng_agent/status/2122861180653822142",
       "collected_at": "2026-11-18T13:27:39+09:00"
+    },
+    {
+      "collected_at": "2026-11-18T15:17:38+09:00",
+      "headline": "Tencent、「Hy4 Flash」の重みをオープン公開——FP8版とBase版も同時公開",
+      "source": "Tencent Hunyuan（Hugging Face）",
+      "summary": "Tencent Hunyuanは11月18日、Hy4 Flash、量子化版Hy4 Flash-FP8、事前学習版Hy4 Flash-Baseをオープンウェイトとして公開した。Hugging Face、ModelScope、GitCode、GitHubからダウンロードしてデプロイできる。Hy4 Flashは総パラメータ220B（うちEngramパラメータ64B）でトークンあたりの活性は12B、テキスト・画像入力に対応するネイティブマルチモーダルモデルで、コンテキスト長は最大1Mトークン。11月16日のAPI提供開始時点では重みは公開予定にとどまっていた。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://huggingface.co/tencent/Hy4-flash",
+      "x_url": "https://x.com/TencentHunyuan/status/2122912575302119554/photo/1"
     }
   ]
 }
