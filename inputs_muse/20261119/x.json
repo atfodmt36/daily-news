@@ -1,352 +1,362 @@
 {
- "date": "2026/11/19",
- "timezone": "Asia/Tokyo",
- "window": {
-  "from": "2026-11-18T08:00:00+09:00",
-  "to": "2026-11-19T08:00:00+09:00"
- },
- "source": "x",
- "itemCount": 34,
- "items": [
-  {
-   "headline": "Google DeepMind、ワールドモデル「Genie 4」をProject Genieで提供開始——AI Ultra加入者が利用可能に",
-   "source": "Google DeepMind",
-   "summary": "Googleは11月18日、新しいProject Genie体験を対象のGoogle AI Ultra加入者向けに展開し、ワールドモデル「Genie 4」への初のアクセスを開いた（公式ブログで確認）。Genie 4はセッション中のテキスト指示で世界をリアルタイムに編集でき、ネイティブ音声が場面に合わせて変化する。Genie 3も最長3分セッション、ワールド連結、360度パノラマによるグラウンディングに対応。作成を支援するProject Genieエージェントとコミュニティギャラリーも追加された。Google AI Pro会員はウェイトリスト登録が可能。",
-   "topic": "モデル",
-   "unconfirmed": false,
-   "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
-   "x_url": "https://x.com/GoogleDeepMind/status/2123117733709586849",
-   "collected_at": "2026-11-19T05:25:34+09:00"
+  "date": "2026/11/19",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-18T08:00:00+09:00",
+    "to": "2026-11-19T08:00:00+09:00"
   },
-  {
-   "headline": "Pika、対話的に演出できる動画生成の研究プレビュー「Enact」を公開——Pika H3 Flex基盤",
-   "source": "Pika",
-   "summary": "Pikaは11月18日、動画生成モデルPika H3 Flexを基盤とする実験的ライブストリーミング環境「Enact」の研究プレビューを公式ブログで公開した。撮影現場の演出を模し、再生中の映像に対してマウスで俳優や小道具を配置し直す「Live Staging」、音声で俳優に演技指示を出す「Live Actor Direction」、マウスでカメラを動かす「Live Camera Control」の3モードを備える。H100では映像応答が0.4秒未満としている。",
-   "topic": "映像生成・動画AI",
-   "unconfirmed": false,
-   "url": "https://pika.art/blog/pika-enact",
-   "x_url": "https://x.com/pika_labs/status/2123127584342921652",
-   "collected_at": "2026-11-19T05:25:34+09:00"
-  },
-  {
-   "headline": "Apple、動画生成モデル「FastFrames」をHugging Faceで公開—対話的レイテンシで生成、14Bと1.3Bの2サイズ",
-   "source": "Hugging Face（Apple公式モデルカード）",
-   "summary": "Appleが動画生成モデルFastFrames-L（14B）とFastFrames-S（1.3B）をHugging Faceで公開した。対話的な低レイテンシでの動画生成をうたうモデルで、Apple公式のモデルカードから利用できる。",
-   "topic": "モデル",
-   "unconfirmed": false,
-   "url": "https://huggingface.co/apple/FastFrames-L",
-   "x_url": "https://x.com/_akhaliq/status/2122824565185503427",
-   "collected_at": "2026-11-18T09:27:26+09:00"
-  },
-  {
-   "headline": "Kling AI、画像生成モデル「Kling Image 4.0」を公開—ネイティブ8K出力と最大2,000字の文字描画に対応",
-   "source": "Kling AI公式ブログ",
-   "summary": "KuaishouのKling AIが画像生成モデルKling Image 4.0を11月17日に公開した。業界初のネイティブ8K生成、1枚に最大2,000字（日本語など7言語）の文字描画、1プロンプトで最大10枚のシリーズ生成に対応し、Kling Creative Studioと企業・開発者向けAPIで提供される。",
-   "topic": "モデル",
-   "unconfirmed": false,
-   "url": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
-   "x_url": "https://x.com/PromptBible_dev/status/2122830085187305884",
-   "collected_at": "2026-11-18T09:27:26+09:00"
-  },
-  {
-   "headline": "Anthropic、脆弱性の公開期限を短縮—深刻な問題は90日から30日へ、AIによる発見加速に対応",
-   "source": "Anthropic公式",
-   "summary": "Anthropicは11月16日、調整された脆弱性開示（CVD）方針の期限短縮を発表した。2027年1月1日以降の報告では、深刻度High/Criticalは90日から30日、その他は45日に短縮し、修正後の技術詳細公開も45日から30日とする。AIの進歩で同じ脆弱性が他者にも見つかりやすくなったことを理由に挙げている。",
-   "topic": "AIセキュリティ",
-   "unconfirmed": false,
-   "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines?ref=thestack.technology",
-   "x_url": "https://x.com/Syynya/status/2122838504774529193",
-   "collected_at": "2026-11-18T09:27:26+09:00"
-  },
-  {
-   "headline": "Perplexity、モデル自動選択の「Orchestrator API」を発表",
-   "source": "Perplexity公式X",
-   "summary": "PerplexityがOrchestrator APIを発表した。タスクに適したモデルを選べるほか、可用性・容量・レイテンシに応じてプロバイダを自動選択し、オープンウェイトとプロプライエタリの全モデルを単一API・統一課金で利用できる。",
-   "topic": "エージェント",
-   "unconfirmed": false,
-   "url": "https://x.com/perplexity_ai/status/2122785177135096053",
-   "x_url": "https://x.com/perplexity_ai/status/2122785177135096053",
-   "collected_at": "2026-11-18T09:27:26+09:00"
-  },
-  {
-   "headline": "Perplexity、Computerに複数エージェント協調の「Multiagent」を展開開始",
-   "source": "Perplexity公式X",
-   "summary": "PerplexityがComputerとteammates向けの新しい労力レベル「Multiagent」の展開を開始した。リードエージェントがタスクを複数のフロンティアモデルを使うエージェントチームに分割し、発見を共有しながら統合した回答を作る。",
-   "topic": "エージェント",
-   "unconfirmed": false,
-   "url": "https://x.com/perplexity_ai/status/2122728603909783741",
-   "x_url": "https://x.com/perplexity_ai/status/2122728603909783741",
-   "collected_at": "2026-11-18T09:27:26+09:00"
-  },
-  {
-   "headline": "Auphonic、DaVinci Resolve Studio用プラグインを公開—タイムラインから音声処理を直接実行",
-   "source": "Auphonic公式ブログ",
-   "summary": "音声ポストプロダクションのAuphonicが、DaVinci Resolve Studio向け公式プラグインを11月17日に公開した。タイムラインの音声トラックをAuphonicへ送り、整音済み音声を同期したまま新規トラックへ戻せる。プラグインは無料で、Windows/macOS/Linux対応。",
-   "topic": "音声AI（合成・認識・翻訳）",
-   "unconfirmed": false,
-   "url": "https://us.auphonic.com/blog/2026/11/17/auphonic-for-davinci-resolve/",
-   "x_url": "https://x.com/auphonic_japan/status/2122634380028039528",
-   "collected_at": "2026-11-18T09:27:26+09:00"
-  },
-  {
-   "headline": "パーフェクト、AIで楽曲制作からMV生成まで完結する「YouCam Muse」を提供開始",
-   "source": "パーフェクト株式会社（PR TIMES）",
-   "summary": "パーフェクト株式会社が11月17日、歌詞やイメージから60秒以内にオリジナル楽曲を生成し、楽曲に合わせたMVまでAIが制作する新サービス「YouCam Muse」の提供をWeb版とiOSアプリで開始した。映像生成にはSeedance 2.5を採用し、賞金総額48万円のAI MVコンテストも11月20日から開催する。",
-   "topic": "映像生成・動画AI",
-   "unconfirmed": false,
-   "url": "https://prtimes.jp/main/html/rd/p/000000290.000066482.html",
-   "x_url": "https://x.com/stes01/status/2122841437461233836",
-   "collected_at": "2026-11-18T09:27:26+09:00"
-  },
-  {
-   "headline": "H2O.ai、時系列基盤モデル「TimeH2O」と表形式基盤モデル「TabH2O」を一般提供開始",
-   "summary": "H2O.aiが11月17日、時系列基盤モデルTimeH2O（108Mパラメータ、ゼロショット予測、fev-benchで32モデル中1位＝2026年10月23日時点）と表形式データ向け基盤モデルTabH2Oを、H2O AI Cloudで一般提供開始したと発表した。両モデルは自社データでのファインチューニングに対応し、TimeH2O-v1の重みはHugging Faceで研究・評価向けに公開されている。",
-   "url": "https://www.businesswire.com/news/home/20261117925321/en/H2O.ai-Tops-the-Generative-Pre-Trained-Model-Era-of-Predictive-AI-Powered-by-Leading-Foundation-Models-for-Time-Series-and-Tabular-Data",
-   "source": "H2O.ai (Business Wire)",
-   "topic": "モデル",
-   "unconfirmed": false,
-   "x_url": "https://x.com/krishnan/status/2122873972488569031",
-   "collected_at": "2026-11-18T11:16:48+09:00"
-  },
-  {
-   "headline": "NTT、ソースコードを外部に出さない「ソブリン型」セキュリティAIを開発——CyberGym成功率48%→63%",
-   "source": "NTT（Digital PR Platform）",
-   "summary": "NTTが11月16日、検査対象のソースコードを外部AIサービスに送信せず自ら管理する環境で脆弱性を解析するサイバーセキュリティAI技術を開発したと発表した。複数のオープンウェイトモデルと独自の解析ワークフローを組み合わせ、脆弱性解析ベンチマークCyberGymのメモリ破壊150課題で解析成功率が既存手法の48%から63%へ15ポイント向上した。成果はNTT R&D FORUM 2026で展示される。",
-   "topic": "AIセキュリティ",
-   "unconfirmed": false,
-   "url": "https://news.infoseek.co.jp/article/digitalprplatform_148367/",
-   "x_url": "https://x.com/AIplexjp/status/2122894170868343208",
-   "collected_at": "2026-11-18T13:27:39+09:00"
-  },
-  {
-   "headline": "政府、AI駆動型シンクタンク「重要技術戦略研究所（ICETS）」を設立",
-   "source": "時事通信",
-   "summary": "政府は11月17日、AIや量子など先端技術の情報を収集・分析するシンクタンク「重要技術戦略研究所（ICETS）」を設立したと発表した。一般社団法人として登記し、理事長にコマツの小川啓之会長、所長にJSTの中山智弘氏が就き、10人体制で始動。査読前論文や特許・求人情報などをAIで網羅的に読み込み新興技術の兆しを捉え、経済安全保障や科学技術政策への提言と人材育成を担う。",
-   "topic": "政府・政策",
-   "unconfirmed": false,
-   "url": "https://www.jiji.com/jc/article?k=2026111700749&g=soc",
-   "x_url": "https://x.com/dr_visioneo/status/2122900002444128422",
-   "collected_at": "2026-11-18T13:27:39+09:00"
-  },
-  {
-   "headline": "MetAI、写真から使える3Dデータまで一貫処理するローカルアプリ「Studio3D」を提供開始",
-   "source": "合同会社MetAI（PR TIMES）",
-   "summary": "合同会社MetAIが11月18日、ローカル3D制作アプリ「Studio3D」の提供を開始した。写真やイラストからの3Dモデル生成、パーツ分割、リトポロジー、UV、マテリアル、ライティング、書き出しまでの8工程を1画面で完結でき、全て利用者のPC内で動作するため未公開デザインを社外に送る必要がない。自社計測ではリトポで三角ポリゴン数を約70万から約7.1万へ削減した。",
-   "topic": "3D生成・制作（クリエイティブ）",
-   "unconfirmed": false,
-   "url": "https://prtimes.jp/main/html/rd/p/000000015.000126494.html",
-   "x_url": "https://x.com/GenAI_Creative/status/2122895061285548072",
-   "collected_at": "2026-11-18T13:27:39+09:00"
-  },
-  {
-   "headline": "ソフトバンク、スマホ撮影のバスケ試合映像をAI解析する技術を国内大会で実証",
-   "source": "ソフトバンク",
-   "summary": "ソフトバンクは11月18日、日本バスケットボール協会（JBA）と連携し、スマートフォンで撮影したバスケットボールの試合映像をAIで解析してハイライト動画やスタッツを自動生成する技術を国内大会で実証したと発表した。米Built Different AIの解析アプリ「HOOPER」を活用し、1日最大36試合分のハイライトを翌日までに自動生成、シュート検出精度は平均94%を達成した。",
-   "topic": "映像生成・動画AI",
-   "unconfirmed": false,
-   "url": "https://www.softbank.jp/corp/news/press/sbkk/2026/20261118_01/",
-   "x_url": "https://x.com/MDB_HiRO/status/2122901790480072757",
-   "collected_at": "2026-11-18T13:27:39+09:00"
-  },
-  {
-   "headline": "Higgsfield、台本から短編ドラマシリーズを生成する「Short Drama Studio」を公開",
-   "source": "Higgsfield",
-   "summary": "Higgsfieldが11月16日、完成した台本をアップロードするとエピソード分割、キャスト・ロケーション・小道具の構築、同一キャストでのエピソード生成までを行う「Short Drama Studio」を発表した。最大100エピソードの一括生成に対応し、15種以上のスタイルと6種のアスペクト比を選べる。現在はデスクトップ向け早期プレビューで、HiggsfieldのWebアプリとMCP経由のClaude/ChatGPTから利用できる。",
-   "topic": "映像生成・動画AI",
-   "unconfirmed": false,
-   "url": "https://higgsfield.ai/short-drama",
-   "x_url": "https://x.com/peng_agent/status/2122861180653822142",
-   "collected_at": "2026-11-18T13:27:39+09:00"
-  },
-  {
-   "collected_at": "2026-11-18T15:17:38+09:00",
-   "headline": "Tencent、「Hy4 Flash」の重みをオープン公開——FP8版とBase版も同時公開",
-   "source": "Tencent Hunyuan（Hugging Face）",
-   "summary": "Tencent Hunyuanは11月18日、Hy4 Flash、量子化版Hy4 Flash-FP8、事前学習版Hy4 Flash-Baseをオープンウェイトとして公開した。Hugging Face、ModelScope、GitCode、GitHubからダウンロードしてデプロイできる。Hy4 Flashは総パラメータ220B（うちEngramパラメータ64B）でトークンあたりの活性は12B、テキスト・画像入力に対応するネイティブマルチモーダルモデルで、コンテキスト長は最大1Mトークン。11月16日のAPI提供開始時点では重みは公開予定にとどまっていた。",
-   "topic": "モデル",
-   "unconfirmed": false,
-   "url": "https://huggingface.co/tencent/Hy4-flash",
-   "x_url": "https://x.com/TencentHunyuan/status/2122912575302119554/photo/1"
-  },
-  {
-   "headline": "GitHubとMicrosoft、AI脆弱性検査の試験結果を公表——OSS 6件で9,791件の候補を99件に精査、55件が修正済み",
-   "source": "GitHub",
-   "summary": "GitHubは11月17日、Microsoftと実施したAIセキュリティ試験運用の結果を公式ブログで発表した。Microsoftのエージェント型検査基盤「Codename MDASH」がMAI Cyberモデルで6つのOSSプロジェクト（AutoGPT、Caddy、Express、FastMCP、ImageMagick、Netty）を走査して9,791件の候補を検出し、GitHub Security LabのAIトリアージとMicrosoft FORGE Lab研究者7人の手作業確認を経て、PoCと修正案付きの非公開報告99件をメンテナーへ届けた。11月15日時点で55件が修正され、うち14件はリリースに含まれている。今後はGitHub Secure Open Source Fundの参加プロジェクトへ対象を広げる。",
-   "topic": "AIセキュリティ",
-   "unconfirmed": false,
-   "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
-   "x_url": "https://x.com/TechnoEdgeJP/status/2122928045359276453",
-   "collected_at": "2026-11-18T17:24:43+09:00"
-  },
-  {
-   "headline": "Suno、楽曲から動画やジャケット画像を作る「Visuals」を公開",
-   "source": "Unite.AI",
-   "summary": "音楽生成AIのSunoは11月17日、ライブラリ内の楽曲をもとにリリックビデオやアルバムアート、最長15秒の動画クリップを生成する新機能「Visuals」をWeb版で公開した。基盤モデルはMiniMaxのH3を基にした「H3 Move」で、歌詞や曲の構成に合わせた映像生成やリップシンクに対応する。iOS／Android版は今後数週間で提供予定で、Visualクレジットは楽曲クレジットとは別体系となる。",
-   "topic": "映像生成・動画AI",
-   "unconfirmed": false,
-   "url": "https://www.unite.ai/suno-launches-visuals-for-ai-generated-lyric-videos-and-album-art/",
-   "x_url": "https://x.com/_creatorzz_/status/2122961772756062631",
-   "collected_at": "2026-11-18T17:24:43+09:00"
-  },
-  {
-   "headline": "CoWorker、AIエージェント向けセキュリティ点検「Blue Harness」「Red Harness」を発表",
-   "source": "CoWorker（PR TIMES）",
-   "summary": "CoWorkerは11月18日、開発チームが普段使うAIエージェントにセキュリティの照会・点検機能を追加する「Blue Harness」と「Red Harness」をPR TIMESで発表した。Blue HarnessはMCP経由でエンドポイントのログ収集・解析と脅威インテリジェンス照会を行い、Red Harnessはリリース前後のネットワークやWebアプリを攻撃者目線で点検し、脆弱性の対応状況管理を支援する。製品群「CoWorker AI Harness」として提供し、開始は2026年12月頃の予定。",
-   "topic": "AIセキュリティ",
-   "unconfirmed": false,
-   "url": "https://prtimes.jp/main/html/rd/p/000000070.000156001.html",
-   "x_url": "https://x.com/coworker_sec/status/2122950410554200193",
-   "collected_at": "2026-11-18T17:24:43+09:00"
-  },
-  {
-   "headline": "MBZUAI・IFM、完全オープンのモデル群「K2-Horizon」を公開——0.9Bから375B-A23Bまで6モデル、学習データとチェックポイントも開示",
-   "source": "arXiv / MBZUAI Institute of Foundation Models",
-   "summary": "MBZUAIのInstitute of Foundation Models（IFM）のK2 Teamは、0.9Bの密モデルから375B-A23BのMoE旗艦まで6モデルからなる完全オープンの言語モデル群「K2-Horizon」の技術報告を11月16日にarXivで公開した（arXiv:2611.21003）。LLM360の定義に沿い、重みだけでなく22兆トークンの学習コーパス、中間チェックポイント380件、学習ログとコードまで公開する。旗艦375B-A23BはTerminal-Bench 2.1で70.2、Toolathlonで65.3を記録したと著者らが報告している（いずれも著者公表値）。",
-   "topic": "モデル",
-   "unconfirmed": false,
-   "url": "https://arxiv.org/abs/2611.21003v1",
-   "x_url": "https://x.com/arimajee/status/2122993337364038105",
-   "collected_at": "2026-11-18T19:14:41+09:00"
-  },
-  {
-   "headline": "Thomson Reuters、CoCounselのエージェント型AIを税務・取引コンプライアンスへ拡大——2027年から順次提供",
-   "source": "CPA Practice Advisor",
-   "summary": "Thomson Reutersは11月17日、年次イベントSynergyで、エージェント型AI「CoCounsel」を税務と取引コンプライアンスの業務へ拡大すると発表した。間接税・Pageroネットワーク経由の電子インボイス・国際貿易を一つの取引ビューで扱うワークフローと、直接税では根拠資料付きの下書きを作成してONESOURCE Tax Provisionへ引き継ぐワークフローを新たに用意し、判断と承認は専門家に残す設計とする。新ワークフローは2027年から順次提供される。",
-   "topic": "ビジネス・人材",
-   "unconfirmed": false,
-   "url": "https://www.cpapracticeadvisor.com/2026/11/17/thomson-reuters-synergy-2026-conference-kicks-off-in-las-vegas/194102/",
-   "x_url": "https://x.com/Roccat_fi/status/2122978901219807413",
-   "collected_at": "2026-11-18T19:14:41+09:00"
-  },
-  {
-   "headline": "Phancy、言語モデル「Phai-A1」と動画生成モデル「Phai-M1」を発表",
-   "source": "Phancy Group（Media OutReach Newswire）",
-   "summary": "中国のPhancy Group（6682.HK）が11月18日、自社開発のPhaiシリーズ2モデルを発表した。言語モデルPhai-A1はネイティブ100万トークンのコンテキストに対応し、PCへのローカル展開も可能。動画生成モデルPhai-M1は実写風映像での人物の表情・動きの自然さと音声の同時生成に注力し、社内テストで720p・15秒の動画を約3分で生成した。両モデルの重みは近く開発者向けに公開予定。",
-   "topic": "モデル",
-   "unconfirmed": false,
-   "url": "https://www.media-outreach.com/news/china/2026/11/18/502315/phancy-launches-phai-a1-language-model-and-phai-m1-video-generation-model/",
-   "x_url": "https://x.com/PromptBible_dev/status/2123023553495011568",
-   "collected_at": "2026-11-18T21:52:47+09:00"
-  },
-  {
-   "headline": "PKU×Tencent Hunyuan、長編動画生成フレームワーク「MovieRoll」を公開",
-   "source": "Tencent Hunyuan / 北京大学（プロジェクトページ）",
-   "summary": "北京大学とTencent Hunyuanの研究チームが、長編動画を連続生成するフレームワークMovieRollを公開した。自己回帰型の生成で最長60秒の動画に対応し、HeliosBenchでは単一イベント・複数イベントの各設定で評価対象手法中トップの総合スコアを記録した（プロジェクトページ公表値）。コードはGitHubで公開されている。",
-   "topic": "映像生成・動画AI",
-   "unconfirmed": false,
-   "url": "https://tencent-hunyuan.github.io/MovieRoll/",
-   "x_url": "https://x.com/LinBin46984/status/2123024222985589142",
-   "collected_at": "2026-11-18T21:52:47+09:00"
-  },
-  {
-   "headline": "Google、検索AIモードに履歴に残らない「一時スレッド」を導入",
-   "source": "Google公式ブログ",
-   "summary": "Googleは11月17日、検索のAIモードに一時スレッド機能を導入した。アカウントから切り離されたセッションで質問でき、回答は過去の好みに影響されず、履歴にも保存されず、今後のパーソナライズにも使われない。AIモードが対応する全言語で、デスクトップとモバイルのブラウザ向けに世界展開を開始した。",
-   "topic": "生成AI・その他",
-   "unconfirmed": false,
-   "url": "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/",
-   "x_url": "https://x.com/asifpatel/status/2123025076312297794",
-   "collected_at": "2026-11-18T21:52:47+09:00"
-  },
-  {
-   "headline": "APTO、経産省・NEDOの「GENIAC-PRIZE 2026」自由参加課題に採択—学生向けフィジカルAIチャレンジの参加者を募集",
-   "source": "APTO（PR TIMES）",
-   "summary": "APTOは11月18日、経済産業省とNEDOが実施する懸賞金型コンテストGENIAC-PRIZE 2026のテーマ2（フィジカルAI向け開発者育成）で、自由参加課題「データ設計で競うPhysical AIチャレンジ」に採択されたと発表した。模倣学習用データの設計・収集・選別でロボットアームの動作精度を競い、予選はオンライン、決勝は豊洲の実機で実施。応募締切は11月21日。",
-   "topic": "政府・政策",
-   "unconfirmed": false,
-   "url": "https://prtimes.jp/main/html/rd/p/000000190.000053927.html",
-   "x_url": "https://x.com/industryJapan/status/2122993954992046449",
-   "collected_at": "2026-11-18T21:52:47+09:00"
-  },
-  {
-   "headline": "AWS、Amazon SageMakerにAIデータ準備機能を追加—合成データ生成や自動ラベリングに対応",
-   "source": "AWS Machine Learning Blog",
-   "summary": "AWSは11月17日、Amazon SageMaker AIにAIデータ準備機能を追加した。文書に基づく合成データの生成、データ品質の評価・変換、分類やNERなど複数タスクの自動ラベリングと人手レビューを、SageMaker Python SDKやエージェント向けスキルから利用できる。米国東部（バージニア北部）と米国西部（オレゴン）で一般提供を開始した。",
-   "topic": "生成AI・その他",
-   "unconfirmed": false,
-   "url": "https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/",
-   "x_url": "https://x.com/kmotohas/status/2122979834167271449",
-   "collected_at": "2026-11-18T21:52:47+09:00"
-  },
-  {
-   "collected_at": "2026-11-19T01:21:13+09:00",
-   "headline": "Mistral AI、エージェントアプリ「Vibe」のデスクトップ版を一般提供開始——macOS／Windows対応、ローカルとクラウドの両セッションに対応",
-   "source": "Mistral AI / Mistral Docs",
-   "summary": "Mistral AIは、エージェント型アシスタント「Vibe」のデスクトップアプリを一般提供開始した（Mistral Docsのリリースノートで11月17日付で確認、公式Xで11月19日に告知）。macOSとWindowsに対応し、作業向けのWorkとコーディング向けのCodeを1つのアプリに統合。手元のリポジトリに対するローカルセッションとマネージドなクラウドサンドボックスでのセッションを併用でき、ファイルやコマンド、プルリクエストを会話の横で確認できる。Linux対応は今後予定。",
-   "topic": "生成AI・その他",
-   "unconfirmed": false,
-   "url": "https://docs.mistral.ai/resources/release-notes",
-   "x_url": "https://x.com/MistralAI/status/2123073168659141119"
-  },
-  {
-   "collected_at": "2026-11-19T01:21:13+09:00",
-   "headline": "Orange、ウォロフ語対応のオープンウェイトLLMを5モデル公開——Hugging Faceで非商用利用は無料",
-   "source": "Orange",
-   "summary": "フランスの通信大手Orangeは11月17日、西アフリカで広く話されるウォロフ語の読み書きに対応したオープンウェイトの大規模言語モデル5種をHugging Faceで公開した（Orange公式プレスリリースで確認）。同社のAIチームがファインチューニングしたもので、サイズの異なる5モデルと、公開データを自動翻訳して作った学習データを非商用利用に限り無料で提供する。AIが理解できないアフリカ諸語を段階的に取り込む取り組みの一環で、言語多様性を進める60超の団体の連合にも加わった。",
-   "topic": "モデル",
-   "unconfirmed": false,
-   "url": "https://www.orange.com/en/press-release/orange-releases-african-language-ai-models-to-advance-digital-inclusion-in-africa-520346",
-   "x_url": "https://x.com/aiassemblage/status/2123081522412765476"
-  },
-  {
-   "collected_at": "2026-11-19T01:21:13+09:00",
-   "headline": "NVIDIA、ローカルAI向け小型デスクトップ「RTX Spark」を発売——ASUS・Dell・MSIから、最大128GB統合メモリで120Bモデルをローカル実行",
-   "source": "NVIDIA Blog",
-   "summary": "NVIDIAは11月18日、ローカルAI向けの小型デスクトップ「RTX Spark」搭載機をASUS、Dell、MSIから発売したと公式ブログで発表した。20コアのGrace CPUと6,144 CUDAコアのBlackwell RTX GPU、最大128GBの統合メモリを備え、最大1ペタフロップスのAI性能で120Bパラメータ級モデルをローカル実行できるとする。常時稼働のエージェント実行や画像・動画生成、モデルのファインチューニングを想定し、Acer、GIGABYTE、HPのミニPCとMicrosoftのSurface RTX Spark Dev Boxは今後発売予定。",
-   "topic": "生成AI・その他",
-   "unconfirmed": false,
-   "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
-   "x_url": "https://x.com/Janidushman07/status/2123083872275689708"
-  },
-  {
-   "headline": "Ramp、実務由来500タスクの新コーディングベンチマーク「Ramp SWE-Bench v2」を公開——GPT-6.2 Astra（Codex）が76.4%で首位",
-   "source": "Ramp Labs",
-   "summary": "Ramp Labsは11月18日、自社のエンジニア200人超が本番に投入した実務から構築した500タスクのベンチマーク「Ramp SWE-Bench v2」を公開した。検証を厳格化し、各モデルをネイティブハーネスで実行。pass@1（high effort）ではGPT-6.2 Astra（Codex）が76.4%で首位、Claude Fable 5.2（Claude Code）が73.4%、GPT-6.2 Sol（Codex）が73.4%と続いた。",
-   "topic": "論文・ベンチマーク",
-   "unconfirmed": false,
-   "url": "https://labs.ramp.com/swebench",
-   "x_url": "https://x.com/RampLabs/status/2123114980597731666",
-   "collected_at": "2026-11-19T04:12:40+09:00"
-  },
-  {
-   "headline": "総務省、「自治体サイバーセキュリティサポートチーム」のポータルを開設——AIで自治体サイトの弱点を診断",
-   "source": "総務省",
-   "summary": "総務省は、自治体のサイバーセキュリティ対策を支援する「自治体サイバーセキュリティサポートチーム」のポータルサイトを公開した。自治体のウェブサイトをAIで点検し、脆弱性などの弱点を診断する支援を行うとしている。",
-   "topic": "政府・政策",
-   "unconfirmed": false,
-   "url": "https://www.soumu.go.jp/denshijiti/jichitai-cybersecurity-support.html",
-   "x_url": "https://x.com/arigatou_jp_net/status/2123060312190648500",
-   "collected_at": "2026-11-19T04:12:40+09:00"
-  },
-  {
-   "headline": "Meta、パーソナルAIエージェント「Muse」をオーストラリアで提供開始",
-   "source": "Meta",
-   "summary": "Metaは11月17日、パーソナルAIエージェント「Muse」をオーストラリアで提供開始したと公式ニュースルームで発表した。GmailやGoogleカレンダー、Instagram、OpenTableなどと連携し、メール管理や予定調整、レストラン予約などを代行する。現地パートナーとしてCanva、Domain、Kogan、MECCA、Officeworks、realestate.com.au、SWEAT、ShopBack、Ticketekが参加し、連携機能は順次展開される。iOS、Android、muse.ai、Macアプリで利用でき、大半の機能は無料。",
-   "topic": "エージェント",
-   "unconfirmed": false,
-   "url": "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/",
-   "x_url": "https://x.com/window98se/status/2123108550486753580",
-   "collected_at": "2026-11-19T04:12:40+09:00"
-  },
-  {
-   "headline": "Reson8、0.5B音声認識モデル「Rumble-2-Flash」をApache 2.0でオープン公開——40超の言語対応",
-   "source": "Hugging Face / Reson8",
-   "summary": "オランダのReson8（Resonate Labs）は11月18日、0.5Bパラメータの音声認識モデル「Rumble-2-Flash」をHugging FaceでApache 2.0ライセンスによりオープン公開した（HFブログで確認）。40超の言語の自動判別に対応し、TransformersとvLLMでそのまま動作する。Open ASR Leaderboard多言語トラックで平均誤り率6.96%と、自社比で3〜60倍規模のモデルに匹敵する精度をうたう。",
-   "topic": "音声AI（合成・認識・翻訳）",
-   "unconfirmed": false,
-   "url": "https://huggingface.co/blog/rumble-2-flash",
-   "x_url": "https://x.com/superdoccimo/status/2123083905813131329",
-   "collected_at": "2026-11-19T04:12:40+09:00"
-  },
-  {
-   "headline": "Google、Geminiアプリを低メモリAndroid端末に対応——Android（Go edition）でも利用可能に",
-   "source": "Google Gemini",
-   "summary": "Googleは11月18日、Geminiアプリを再設計し、低メモリのAndroid端末（対象のAndroid（Go edition）端末を含む）でも中核体験が快適に動作するようにしたと公式アカウントで発表した。メモリ2GB級の端末でもGemini Liveや画像生成などが使えるようになる。",
-   "topic": "生成AI・その他",
-   "unconfirmed": false,
-   "url": "https://x.com/GeminiApp/status/2123100943604707606",
-   "x_url": "https://x.com/GeminiApp/status/2123100943604707606",
-   "collected_at": "2026-11-19T04:12:40+09:00"
-  }
- ]
+  "source": "x",
+  "itemCount": 35,
+  "items": [
+    {
+      "headline": "Google、Gemini 4 Neonを正式リリース——CarbonとHydrogenの中間モデル、入力$3/出力$15",
+      "summary": "Googleは11月18日、Gemini 4ファミリーの新モデル「Gemini 4 Neon」を公式ブログで発表し、同日提供を開始した。CarbonとHydrogenの中間に位置づけられ、複雑なソフトウェアエンジニアリングや知識労働、科学ワークフローを高速に完了する設計。Artificial Analysis Intelligence Indexではxhigh思考レベルで61を記録し総合3位。価格は入力$3/出力$15（100万トークンあたり、キャッシュ入力$0.15）、コンテキストは100万トークン。Gemini API／Google AI Studio、Geminiアプリ（AI Pro・Ultra加入者）、Google Antigravityなどで利用可能。前日まで請求カタログへの価格掲載などから未確認情報として流れていたモデルが正式リリースされた（Grok日次スイープが公式ポストを検出）。",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "source": "Google",
+      "topic": "モデル",
+      "collected_at": "2026-11-19T07:42:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/GoogleDeepMind/status/2123167884411077030"
+    },
+    {
+      "headline": "Google DeepMind、ワールドモデル「Genie 4」をProject Genieで提供開始——AI Ultra加入者が利用可能に",
+      "source": "Google DeepMind",
+      "summary": "Googleは11月18日、新しいProject Genie体験を対象のGoogle AI Ultra加入者向けに展開し、ワールドモデル「Genie 4」への初のアクセスを開いた（公式ブログで確認）。Genie 4はセッション中のテキスト指示で世界をリアルタイムに編集でき、ネイティブ音声が場面に合わせて変化する。Genie 3も最長3分セッション、ワールド連結、360度パノラマによるグラウンディングに対応。作成を支援するProject Genieエージェントとコミュニティギャラリーも追加された。Google AI Pro会員はウェイトリスト登録が可能。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+      "x_url": "https://x.com/GoogleDeepMind/status/2123117733709586849",
+      "collected_at": "2026-11-19T05:25:34+09:00"
+    },
+    {
+      "headline": "Pika、対話的に演出できる動画生成の研究プレビュー「Enact」を公開——Pika H3 Flex基盤",
+      "source": "Pika",
+      "summary": "Pikaは11月18日、動画生成モデルPika H3 Flexを基盤とする実験的ライブストリーミング環境「Enact」の研究プレビューを公式ブログで公開した。撮影現場の演出を模し、再生中の映像に対してマウスで俳優や小道具を配置し直す「Live Staging」、音声で俳優に演技指示を出す「Live Actor Direction」、マウスでカメラを動かす「Live Camera Control」の3モードを備える。H100では映像応答が0.4秒未満としている。",
+      "topic": "映像生成・動画AI",
+      "unconfirmed": false,
+      "url": "https://pika.art/blog/pika-enact",
+      "x_url": "https://x.com/pika_labs/status/2123127584342921652",
+      "collected_at": "2026-11-19T05:25:34+09:00"
+    },
+    {
+      "headline": "Apple、動画生成モデル「FastFrames」をHugging Faceで公開—対話的レイテンシで生成、14Bと1.3Bの2サイズ",
+      "source": "Hugging Face（Apple公式モデルカード）",
+      "summary": "Appleが動画生成モデルFastFrames-L（14B）とFastFrames-S（1.3B）をHugging Faceで公開した。対話的な低レイテンシでの動画生成をうたうモデルで、Apple公式のモデルカードから利用できる。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://huggingface.co/apple/FastFrames-L",
+      "x_url": "https://x.com/_akhaliq/status/2122824565185503427",
+      "collected_at": "2026-11-18T09:27:26+09:00"
+    },
+    {
+      "headline": "Kling AI、画像生成モデル「Kling Image 4.0」を公開—ネイティブ8K出力と最大2,000字の文字描画に対応",
+      "source": "Kling AI公式ブログ",
+      "summary": "KuaishouのKling AIが画像生成モデルKling Image 4.0を11月17日に公開した。業界初のネイティブ8K生成、1枚に最大2,000字（日本語など7言語）の文字描画、1プロンプトで最大10枚のシリーズ生成に対応し、Kling Creative Studioと企業・開発者向けAPIで提供される。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+      "x_url": "https://x.com/PromptBible_dev/status/2122830085187305884",
+      "collected_at": "2026-11-18T09:27:26+09:00"
+    },
+    {
+      "headline": "Anthropic、脆弱性の公開期限を短縮—深刻な問題は90日から30日へ、AIによる発見加速に対応",
+      "source": "Anthropic公式",
+      "summary": "Anthropicは11月16日、調整された脆弱性開示（CVD）方針の期限短縮を発表した。2027年1月1日以降の報告では、深刻度High/Criticalは90日から30日、その他は45日に短縮し、修正後の技術詳細公開も45日から30日とする。AIの進歩で同じ脆弱性が他者にも見つかりやすくなったことを理由に挙げている。",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines?ref=thestack.technology",
+      "x_url": "https://x.com/Syynya/status/2122838504774529193",
+      "collected_at": "2026-11-18T09:27:26+09:00"
+    },
+    {
+      "headline": "Perplexity、モデル自動選択の「Orchestrator API」を発表",
+      "source": "Perplexity公式X",
+      "summary": "PerplexityがOrchestrator APIを発表した。タスクに適したモデルを選べるほか、可用性・容量・レイテンシに応じてプロバイダを自動選択し、オープンウェイトとプロプライエタリの全モデルを単一API・統一課金で利用できる。",
+      "topic": "エージェント",
+      "unconfirmed": false,
+      "url": "https://x.com/perplexity_ai/status/2122785177135096053",
+      "x_url": "https://x.com/perplexity_ai/status/2122785177135096053",
+      "collected_at": "2026-11-18T09:27:26+09:00"
+    },
+    {
+      "headline": "Perplexity、Computerに複数エージェント協調の「Multiagent」を展開開始",
+      "source": "Perplexity公式X",
+      "summary": "PerplexityがComputerとteammates向けの新しい労力レベル「Multiagent」の展開を開始した。リードエージェントがタスクを複数のフロンティアモデルを使うエージェントチームに分割し、発見を共有しながら統合した回答を作る。",
+      "topic": "エージェント",
+      "unconfirmed": false,
+      "url": "https://x.com/perplexity_ai/status/2122728603909783741",
+      "x_url": "https://x.com/perplexity_ai/status/2122728603909783741",
+      "collected_at": "2026-11-18T09:27:26+09:00"
+    },
+    {
+      "headline": "Auphonic、DaVinci Resolve Studio用プラグインを公開—タイムラインから音声処理を直接実行",
+      "source": "Auphonic公式ブログ",
+      "summary": "音声ポストプロダクションのAuphonicが、DaVinci Resolve Studio向け公式プラグインを11月17日に公開した。タイムラインの音声トラックをAuphonicへ送り、整音済み音声を同期したまま新規トラックへ戻せる。プラグインは無料で、Windows/macOS/Linux対応。",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "unconfirmed": false,
+      "url": "https://us.auphonic.com/blog/2026/11/17/auphonic-for-davinci-resolve/",
+      "x_url": "https://x.com/auphonic_japan/status/2122634380028039528",
+      "collected_at": "2026-11-18T09:27:26+09:00"
+    },
+    {
+      "headline": "パーフェクト、AIで楽曲制作からMV生成まで完結する「YouCam Muse」を提供開始",
+      "source": "パーフェクト株式会社（PR TIMES）",
+      "summary": "パーフェクト株式会社が11月17日、歌詞やイメージから60秒以内にオリジナル楽曲を生成し、楽曲に合わせたMVまでAIが制作する新サービス「YouCam Muse」の提供をWeb版とiOSアプリで開始した。映像生成にはSeedance 2.5を採用し、賞金総額48万円のAI MVコンテストも11月20日から開催する。",
+      "topic": "映像生成・動画AI",
+      "unconfirmed": false,
+      "url": "https://prtimes.jp/main/html/rd/p/000000290.000066482.html",
+      "x_url": "https://x.com/stes01/status/2122841437461233836",
+      "collected_at": "2026-11-18T09:27:26+09:00"
+    },
+    {
+      "headline": "H2O.ai、時系列基盤モデル「TimeH2O」と表形式基盤モデル「TabH2O」を一般提供開始",
+      "summary": "H2O.aiが11月17日、時系列基盤モデルTimeH2O（108Mパラメータ、ゼロショット予測、fev-benchで32モデル中1位＝2026年10月23日時点）と表形式データ向け基盤モデルTabH2Oを、H2O AI Cloudで一般提供開始したと発表した。両モデルは自社データでのファインチューニングに対応し、TimeH2O-v1の重みはHugging Faceで研究・評価向けに公開されている。",
+      "url": "https://www.businesswire.com/news/home/20261117925321/en/H2O.ai-Tops-the-Generative-Pre-Trained-Model-Era-of-Predictive-AI-Powered-by-Leading-Foundation-Models-for-Time-Series-and-Tabular-Data",
+      "source": "H2O.ai (Business Wire)",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "x_url": "https://x.com/krishnan/status/2122873972488569031",
+      "collected_at": "2026-11-18T11:16:48+09:00"
+    },
+    {
+      "headline": "NTT、ソースコードを外部に出さない「ソブリン型」セキュリティAIを開発——CyberGym成功率48%→63%",
+      "source": "NTT（Digital PR Platform）",
+      "summary": "NTTが11月16日、検査対象のソースコードを外部AIサービスに送信せず自ら管理する環境で脆弱性を解析するサイバーセキュリティAI技術を開発したと発表した。複数のオープンウェイトモデルと独自の解析ワークフローを組み合わせ、脆弱性解析ベンチマークCyberGymのメモリ破壊150課題で解析成功率が既存手法の48%から63%へ15ポイント向上した。成果はNTT R&D FORUM 2026で展示される。",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "url": "https://news.infoseek.co.jp/article/digitalprplatform_148367/",
+      "x_url": "https://x.com/AIplexjp/status/2122894170868343208",
+      "collected_at": "2026-11-18T13:27:39+09:00"
+    },
+    {
+      "headline": "政府、AI駆動型シンクタンク「重要技術戦略研究所（ICETS）」を設立",
+      "source": "時事通信",
+      "summary": "政府は11月17日、AIや量子など先端技術の情報を収集・分析するシンクタンク「重要技術戦略研究所（ICETS）」を設立したと発表した。一般社団法人として登記し、理事長にコマツの小川啓之会長、所長にJSTの中山智弘氏が就き、10人体制で始動。査読前論文や特許・求人情報などをAIで網羅的に読み込み新興技術の兆しを捉え、経済安全保障や科学技術政策への提言と人材育成を担う。",
+      "topic": "政府・政策",
+      "unconfirmed": false,
+      "url": "https://www.jiji.com/jc/article?k=2026111700749&g=soc",
+      "x_url": "https://x.com/dr_visioneo/status/2122900002444128422",
+      "collected_at": "2026-11-18T13:27:39+09:00"
+    },
+    {
+      "headline": "MetAI、写真から使える3Dデータまで一貫処理するローカルアプリ「Studio3D」を提供開始",
+      "source": "合同会社MetAI（PR TIMES）",
+      "summary": "合同会社MetAIが11月18日、ローカル3D制作アプリ「Studio3D」の提供を開始した。写真やイラストからの3Dモデル生成、パーツ分割、リトポロジー、UV、マテリアル、ライティング、書き出しまでの8工程を1画面で完結でき、全て利用者のPC内で動作するため未公開デザインを社外に送る必要がない。自社計測ではリトポで三角ポリゴン数を約70万から約7.1万へ削減した。",
+      "topic": "3D生成・制作（クリエイティブ）",
+      "unconfirmed": false,
+      "url": "https://prtimes.jp/main/html/rd/p/000000015.000126494.html",
+      "x_url": "https://x.com/GenAI_Creative/status/2122895061285548072",
+      "collected_at": "2026-11-18T13:27:39+09:00"
+    },
+    {
+      "headline": "ソフトバンク、スマホ撮影のバスケ試合映像をAI解析する技術を国内大会で実証",
+      "source": "ソフトバンク",
+      "summary": "ソフトバンクは11月18日、日本バスケットボール協会（JBA）と連携し、スマートフォンで撮影したバスケットボールの試合映像をAIで解析してハイライト動画やスタッツを自動生成する技術を国内大会で実証したと発表した。米Built Different AIの解析アプリ「HOOPER」を活用し、1日最大36試合分のハイライトを翌日までに自動生成、シュート検出精度は平均94%を達成した。",
+      "topic": "映像生成・動画AI",
+      "unconfirmed": false,
+      "url": "https://www.softbank.jp/corp/news/press/sbkk/2026/20261118_01/",
+      "x_url": "https://x.com/MDB_HiRO/status/2122901790480072757",
+      "collected_at": "2026-11-18T13:27:39+09:00"
+    },
+    {
+      "headline": "Higgsfield、台本から短編ドラマシリーズを生成する「Short Drama Studio」を公開",
+      "source": "Higgsfield",
+      "summary": "Higgsfieldが11月16日、完成した台本をアップロードするとエピソード分割、キャスト・ロケーション・小道具の構築、同一キャストでのエピソード生成までを行う「Short Drama Studio」を発表した。最大100エピソードの一括生成に対応し、15種以上のスタイルと6種のアスペクト比を選べる。現在はデスクトップ向け早期プレビューで、HiggsfieldのWebアプリとMCP経由のClaude/ChatGPTから利用できる。",
+      "topic": "映像生成・動画AI",
+      "unconfirmed": false,
+      "url": "https://higgsfield.ai/short-drama",
+      "x_url": "https://x.com/peng_agent/status/2122861180653822142",
+      "collected_at": "2026-11-18T13:27:39+09:00"
+    },
+    {
+      "collected_at": "2026-11-18T15:17:38+09:00",
+      "headline": "Tencent、「Hy4 Flash」の重みをオープン公開——FP8版とBase版も同時公開",
+      "source": "Tencent Hunyuan（Hugging Face）",
+      "summary": "Tencent Hunyuanは11月18日、Hy4 Flash、量子化版Hy4 Flash-FP8、事前学習版Hy4 Flash-Baseをオープンウェイトとして公開した。Hugging Face、ModelScope、GitCode、GitHubからダウンロードしてデプロイできる。Hy4 Flashは総パラメータ220B（うちEngramパラメータ64B）でトークンあたりの活性は12B、テキスト・画像入力に対応するネイティブマルチモーダルモデルで、コンテキスト長は最大1Mトークン。11月16日のAPI提供開始時点では重みは公開予定にとどまっていた。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://huggingface.co/tencent/Hy4-flash",
+      "x_url": "https://x.com/TencentHunyuan/status/2122912575302119554/photo/1"
+    },
+    {
+      "headline": "GitHubとMicrosoft、AI脆弱性検査の試験結果を公表——OSS 6件で9,791件の候補を99件に精査、55件が修正済み",
+      "source": "GitHub",
+      "summary": "GitHubは11月17日、Microsoftと実施したAIセキュリティ試験運用の結果を公式ブログで発表した。Microsoftのエージェント型検査基盤「Codename MDASH」がMAI Cyberモデルで6つのOSSプロジェクト（AutoGPT、Caddy、Express、FastMCP、ImageMagick、Netty）を走査して9,791件の候補を検出し、GitHub Security LabのAIトリアージとMicrosoft FORGE Lab研究者7人の手作業確認を経て、PoCと修正案付きの非公開報告99件をメンテナーへ届けた。11月15日時点で55件が修正され、うち14件はリリースに含まれている。今後はGitHub Secure Open Source Fundの参加プロジェクトへ対象を広げる。",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+      "x_url": "https://x.com/TechnoEdgeJP/status/2122928045359276453",
+      "collected_at": "2026-11-18T17:24:43+09:00"
+    },
+    {
+      "headline": "Suno、楽曲から動画やジャケット画像を作る「Visuals」を公開",
+      "source": "Unite.AI",
+      "summary": "音楽生成AIのSunoは11月17日、ライブラリ内の楽曲をもとにリリックビデオやアルバムアート、最長15秒の動画クリップを生成する新機能「Visuals」をWeb版で公開した。基盤モデルはMiniMaxのH3を基にした「H3 Move」で、歌詞や曲の構成に合わせた映像生成やリップシンクに対応する。iOS／Android版は今後数週間で提供予定で、Visualクレジットは楽曲クレジットとは別体系となる。",
+      "topic": "映像生成・動画AI",
+      "unconfirmed": false,
+      "url": "https://www.unite.ai/suno-launches-visuals-for-ai-generated-lyric-videos-and-album-art/",
+      "x_url": "https://x.com/_creatorzz_/status/2122961772756062631",
+      "collected_at": "2026-11-18T17:24:43+09:00"
+    },
+    {
+      "headline": "CoWorker、AIエージェント向けセキュリティ点検「Blue Harness」「Red Harness」を発表",
+      "source": "CoWorker（PR TIMES）",
+      "summary": "CoWorkerは11月18日、開発チームが普段使うAIエージェントにセキュリティの照会・点検機能を追加する「Blue Harness」と「Red Harness」をPR TIMESで発表した。Blue HarnessはMCP経由でエンドポイントのログ収集・解析と脅威インテリジェンス照会を行い、Red Harnessはリリース前後のネットワークやWebアプリを攻撃者目線で点検し、脆弱性の対応状況管理を支援する。製品群「CoWorker AI Harness」として提供し、開始は2026年12月頃の予定。",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "url": "https://prtimes.jp/main/html/rd/p/000000070.000156001.html",
+      "x_url": "https://x.com/coworker_sec/status/2122950410554200193",
+      "collected_at": "2026-11-18T17:24:43+09:00"
+    },
+    {
+      "headline": "MBZUAI・IFM、完全オープンのモデル群「K2-Horizon」を公開——0.9Bから375B-A23Bまで6モデル、学習データとチェックポイントも開示",
+      "source": "arXiv / MBZUAI Institute of Foundation Models",
+      "summary": "MBZUAIのInstitute of Foundation Models（IFM）のK2 Teamは、0.9Bの密モデルから375B-A23BのMoE旗艦まで6モデルからなる完全オープンの言語モデル群「K2-Horizon」の技術報告を11月16日にarXivで公開した（arXiv:2611.21003）。LLM360の定義に沿い、重みだけでなく22兆トークンの学習コーパス、中間チェックポイント380件、学習ログとコードまで公開する。旗艦375B-A23BはTerminal-Bench 2.1で70.2、Toolathlonで65.3を記録したと著者らが報告している（いずれも著者公表値）。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://arxiv.org/abs/2611.21003v1",
+      "x_url": "https://x.com/arimajee/status/2122993337364038105",
+      "collected_at": "2026-11-18T19:14:41+09:00"
+    },
+    {
+      "headline": "Thomson Reuters、CoCounselのエージェント型AIを税務・取引コンプライアンスへ拡大——2027年から順次提供",
+      "source": "CPA Practice Advisor",
+      "summary": "Thomson Reutersは11月17日、年次イベントSynergyで、エージェント型AI「CoCounsel」を税務と取引コンプライアンスの業務へ拡大すると発表した。間接税・Pageroネットワーク経由の電子インボイス・国際貿易を一つの取引ビューで扱うワークフローと、直接税では根拠資料付きの下書きを作成してONESOURCE Tax Provisionへ引き継ぐワークフローを新たに用意し、判断と承認は専門家に残す設計とする。新ワークフローは2027年から順次提供される。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://www.cpapracticeadvisor.com/2026/11/17/thomson-reuters-synergy-2026-conference-kicks-off-in-las-vegas/194102/",
+      "x_url": "https://x.com/Roccat_fi/status/2122978901219807413",
+      "collected_at": "2026-11-18T19:14:41+09:00"
+    },
+    {
+      "headline": "Phancy、言語モデル「Phai-A1」と動画生成モデル「Phai-M1」を発表",
+      "source": "Phancy Group（Media OutReach Newswire）",
+      "summary": "中国のPhancy Group（6682.HK）が11月18日、自社開発のPhaiシリーズ2モデルを発表した。言語モデルPhai-A1はネイティブ100万トークンのコンテキストに対応し、PCへのローカル展開も可能。動画生成モデルPhai-M1は実写風映像での人物の表情・動きの自然さと音声の同時生成に注力し、社内テストで720p・15秒の動画を約3分で生成した。両モデルの重みは近く開発者向けに公開予定。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://www.media-outreach.com/news/china/2026/11/18/502315/phancy-launches-phai-a1-language-model-and-phai-m1-video-generation-model/",
+      "x_url": "https://x.com/PromptBible_dev/status/2123023553495011568",
+      "collected_at": "2026-11-18T21:52:47+09:00"
+    },
+    {
+      "headline": "PKU×Tencent Hunyuan、長編動画生成フレームワーク「MovieRoll」を公開",
+      "source": "Tencent Hunyuan / 北京大学（プロジェクトページ）",
+      "summary": "北京大学とTencent Hunyuanの研究チームが、長編動画を連続生成するフレームワークMovieRollを公開した。自己回帰型の生成で最長60秒の動画に対応し、HeliosBenchでは単一イベント・複数イベントの各設定で評価対象手法中トップの総合スコアを記録した（プロジェクトページ公表値）。コードはGitHubで公開されている。",
+      "topic": "映像生成・動画AI",
+      "unconfirmed": false,
+      "url": "https://tencent-hunyuan.github.io/MovieRoll/",
+      "x_url": "https://x.com/LinBin46984/status/2123024222985589142",
+      "collected_at": "2026-11-18T21:52:47+09:00"
+    },
+    {
+      "headline": "Google、検索AIモードに履歴に残らない「一時スレッド」を導入",
+      "source": "Google公式ブログ",
+      "summary": "Googleは11月17日、検索のAIモードに一時スレッド機能を導入した。アカウントから切り離されたセッションで質問でき、回答は過去の好みに影響されず、履歴にも保存されず、今後のパーソナライズにも使われない。AIモードが対応する全言語で、デスクトップとモバイルのブラウザ向けに世界展開を開始した。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/",
+      "x_url": "https://x.com/asifpatel/status/2123025076312297794",
+      "collected_at": "2026-11-18T21:52:47+09:00"
+    },
+    {
+      "headline": "APTO、経産省・NEDOの「GENIAC-PRIZE 2026」自由参加課題に採択—学生向けフィジカルAIチャレンジの参加者を募集",
+      "source": "APTO（PR TIMES）",
+      "summary": "APTOは11月18日、経済産業省とNEDOが実施する懸賞金型コンテストGENIAC-PRIZE 2026のテーマ2（フィジカルAI向け開発者育成）で、自由参加課題「データ設計で競うPhysical AIチャレンジ」に採択されたと発表した。模倣学習用データの設計・収集・選別でロボットアームの動作精度を競い、予選はオンライン、決勝は豊洲の実機で実施。応募締切は11月21日。",
+      "topic": "政府・政策",
+      "unconfirmed": false,
+      "url": "https://prtimes.jp/main/html/rd/p/000000190.000053927.html",
+      "x_url": "https://x.com/industryJapan/status/2122993954992046449",
+      "collected_at": "2026-11-18T21:52:47+09:00"
+    },
+    {
+      "headline": "AWS、Amazon SageMakerにAIデータ準備機能を追加—合成データ生成や自動ラベリングに対応",
+      "source": "AWS Machine Learning Blog",
+      "summary": "AWSは11月17日、Amazon SageMaker AIにAIデータ準備機能を追加した。文書に基づく合成データの生成、データ品質の評価・変換、分類やNERなど複数タスクの自動ラベリングと人手レビューを、SageMaker Python SDKやエージェント向けスキルから利用できる。米国東部（バージニア北部）と米国西部（オレゴン）で一般提供を開始した。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/",
+      "x_url": "https://x.com/kmotohas/status/2122979834167271449",
+      "collected_at": "2026-11-18T21:52:47+09:00"
+    },
+    {
+      "collected_at": "2026-11-19T01:21:13+09:00",
+      "headline": "Mistral AI、エージェントアプリ「Vibe」のデスクトップ版を一般提供開始——macOS／Windows対応、ローカルとクラウドの両セッションに対応",
+      "source": "Mistral AI / Mistral Docs",
+      "summary": "Mistral AIは、エージェント型アシスタント「Vibe」のデスクトップアプリを一般提供開始した（Mistral Docsのリリースノートで11月17日付で確認、公式Xで11月19日に告知）。macOSとWindowsに対応し、作業向けのWorkとコーディング向けのCodeを1つのアプリに統合。手元のリポジトリに対するローカルセッションとマネージドなクラウドサンドボックスでのセッションを併用でき、ファイルやコマンド、プルリクエストを会話の横で確認できる。Linux対応は今後予定。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://docs.mistral.ai/resources/release-notes",
+      "x_url": "https://x.com/MistralAI/status/2123073168659141119"
+    },
+    {
+      "collected_at": "2026-11-19T01:21:13+09:00",
+      "headline": "Orange、ウォロフ語対応のオープンウェイトLLMを5モデル公開——Hugging Faceで非商用利用は無料",
+      "source": "Orange",
+      "summary": "フランスの通信大手Orangeは11月17日、西アフリカで広く話されるウォロフ語の読み書きに対応したオープンウェイトの大規模言語モデル5種をHugging Faceで公開した（Orange公式プレスリリースで確認）。同社のAIチームがファインチューニングしたもので、サイズの異なる5モデルと、公開データを自動翻訳して作った学習データを非商用利用に限り無料で提供する。AIが理解できないアフリカ諸語を段階的に取り込む取り組みの一環で、言語多様性を進める60超の団体の連合にも加わった。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://www.orange.com/en/press-release/orange-releases-african-language-ai-models-to-advance-digital-inclusion-in-africa-520346",
+      "x_url": "https://x.com/aiassemblage/status/2123081522412765476"
+    },
+    {
+      "collected_at": "2026-11-19T01:21:13+09:00",
+      "headline": "NVIDIA、ローカルAI向け小型デスクトップ「RTX Spark」を発売——ASUS・Dell・MSIから、最大128GB統合メモリで120Bモデルをローカル実行",
+      "source": "NVIDIA Blog",
+      "summary": "NVIDIAは11月18日、ローカルAI向けの小型デスクトップ「RTX Spark」搭載機をASUS、Dell、MSIから発売したと公式ブログで発表した。20コアのGrace CPUと6,144 CUDAコアのBlackwell RTX GPU、最大128GBの統合メモリを備え、最大1ペタフロップスのAI性能で120Bパラメータ級モデルをローカル実行できるとする。常時稼働のエージェント実行や画像・動画生成、モデルのファインチューニングを想定し、Acer、GIGABYTE、HPのミニPCとMicrosoftのSurface RTX Spark Dev Boxは今後発売予定。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+      "x_url": "https://x.com/Janidushman07/status/2123083872275689708"
+    },
+    {
+      "headline": "Ramp、実務由来500タスクの新コーディングベンチマーク「Ramp SWE-Bench v2」を公開——GPT-6.2 Astra（Codex）が76.4%で首位",
+      "source": "Ramp Labs",
+      "summary": "Ramp Labsは11月18日、自社のエンジニア200人超が本番に投入した実務から構築した500タスクのベンチマーク「Ramp SWE-Bench v2」を公開した。検証を厳格化し、各モデルをネイティブハーネスで実行。pass@1（high effort）ではGPT-6.2 Astra（Codex）が76.4%で首位、Claude Fable 5.2（Claude Code）が73.4%、GPT-6.2 Sol（Codex）が73.4%と続いた。",
+      "topic": "論文・ベンチマーク",
+      "unconfirmed": false,
+      "url": "https://labs.ramp.com/swebench",
+      "x_url": "https://x.com/RampLabs/status/2123114980597731666",
+      "collected_at": "2026-11-19T04:12:40+09:00"
+    },
+    {
+      "headline": "総務省、「自治体サイバーセキュリティサポートチーム」のポータルを開設——AIで自治体サイトの弱点を診断",
+      "source": "総務省",
+      "summary": "総務省は、自治体のサイバーセキュリティ対策を支援する「自治体サイバーセキュリティサポートチーム」のポータルサイトを公開した。自治体のウェブサイトをAIで点検し、脆弱性などの弱点を診断する支援を行うとしている。",
+      "topic": "政府・政策",
+      "unconfirmed": false,
+      "url": "https://www.soumu.go.jp/denshijiti/jichitai-cybersecurity-support.html",
+      "x_url": "https://x.com/arigatou_jp_net/status/2123060312190648500",
+      "collected_at": "2026-11-19T04:12:40+09:00"
+    },
+    {
+      "headline": "Meta、パーソナルAIエージェント「Muse」をオーストラリアで提供開始",
+      "source": "Meta",
+      "summary": "Metaは11月17日、パーソナルAIエージェント「Muse」をオーストラリアで提供開始したと公式ニュースルームで発表した。GmailやGoogleカレンダー、Instagram、OpenTableなどと連携し、メール管理や予定調整、レストラン予約などを代行する。現地パートナーとしてCanva、Domain、Kogan、MECCA、Officeworks、realestate.com.au、SWEAT、ShopBack、Ticketekが参加し、連携機能は順次展開される。iOS、Android、muse.ai、Macアプリで利用でき、大半の機能は無料。",
+      "topic": "エージェント",
+      "unconfirmed": false,
+      "url": "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/",
+      "x_url": "https://x.com/window98se/status/2123108550486753580",
+      "collected_at": "2026-11-19T04:12:40+09:00"
+    },
+    {
+      "headline": "Reson8、0.5B音声認識モデル「Rumble-2-Flash」をApache 2.0でオープン公開——40超の言語対応",
+      "source": "Hugging Face / Reson8",
+      "summary": "オランダのReson8（Resonate Labs）は11月18日、0.5Bパラメータの音声認識モデル「Rumble-2-Flash」をHugging FaceでApache 2.0ライセンスによりオープン公開した（HFブログで確認）。40超の言語の自動判別に対応し、TransformersとvLLMでそのまま動作する。Open ASR Leaderboard多言語トラックで平均誤り率6.96%と、自社比で3〜60倍規模のモデルに匹敵する精度をうたう。",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "unconfirmed": false,
+      "url": "https://huggingface.co/blog/rumble-2-flash",
+      "x_url": "https://x.com/superdoccimo/status/2123083905813131329",
+      "collected_at": "2026-11-19T04:12:40+09:00"
+    },
+    {
+      "headline": "Google、Geminiアプリを低メモリAndroid端末に対応——Android（Go edition）でも利用可能に",
+      "source": "Google Gemini",
+      "summary": "Googleは11月18日、Geminiアプリを再設計し、低メモリのAndroid端末（対象のAndroid（Go edition）端末を含む）でも中核体験が快適に動作するようにしたと公式アカウントで発表した。メモリ2GB級の端末でもGemini Liveや画像生成などが使えるようになる。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/GeminiApp/status/2123100943604707606",
+      "x_url": "https://x.com/GeminiApp/status/2123100943604707606",
+      "collected_at": "2026-11-19T04:12:40+09:00"
+    }
+  ]
 }
