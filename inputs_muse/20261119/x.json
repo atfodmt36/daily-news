@@ -6,7 +6,7 @@
     "to": "2026-11-19T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 24,
+  "itemCount": 27,
   "items": [
     {
       "headline": "Apple、動画生成モデル「FastFrames」をHugging Faceで公開—対話的レイテンシで生成、14Bと1.3Bの2サイズ",
@@ -247,6 +247,36 @@
       "url": "https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/",
       "x_url": "https://x.com/kmotohas/status/2122979834167271449",
       "collected_at": "2026-11-18T21:52:47+09:00"
+    },
+    {
+      "collected_at": "2026-11-19T01:21:13+09:00",
+      "headline": "Mistral AI、エージェントアプリ「Vibe」のデスクトップ版を一般提供開始——macOS／Windows対応、ローカルとクラウドの両セッションに対応",
+      "source": "Mistral AI / Mistral Docs",
+      "summary": "Mistral AIは、エージェント型アシスタント「Vibe」のデスクトップアプリを一般提供開始した（Mistral Docsのリリースノートで11月17日付で確認、公式Xで11月19日に告知）。macOSとWindowsに対応し、作業向けのWorkとコーディング向けのCodeを1つのアプリに統合。手元のリポジトリに対するローカルセッションとマネージドなクラウドサンドボックスでのセッションを併用でき、ファイルやコマンド、プルリクエストを会話の横で確認できる。Linux対応は今後予定。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://docs.mistral.ai/resources/release-notes",
+      "x_url": "https://x.com/MistralAI/status/2123073168659141119"
+    },
+    {
+      "collected_at": "2026-11-19T01:21:13+09:00",
+      "headline": "Orange、ウォロフ語対応のオープンウェイトLLMを5モデル公開——Hugging Faceで非商用利用は無料",
+      "source": "Orange",
+      "summary": "フランスの通信大手Orangeは11月17日、西アフリカで広く話されるウォロフ語の読み書きに対応したオープンウェイトの大規模言語モデル5種をHugging Faceで公開した（Orange公式プレスリリースで確認）。同社のAIチームがファインチューニングしたもので、サイズの異なる5モデルと、公開データを自動翻訳して作った学習データを非商用利用に限り無料で提供する。AIが理解できないアフリカ諸語を段階的に取り込む取り組みの一環で、言語多様性を進める60超の団体の連合にも加わった。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://www.orange.com/en/press-release/orange-releases-african-language-ai-models-to-advance-digital-inclusion-in-africa-520346",
+      "x_url": "https://x.com/aiassemblage/status/2123081522412765476"
+    },
+    {
+      "collected_at": "2026-11-19T01:21:13+09:00",
+      "headline": "NVIDIA、ローカルAI向け小型デスクトップ「RTX Spark」を発売——ASUS・Dell・MSIから、最大128GB統合メモリで120Bモデルをローカル実行",
+      "source": "NVIDIA Blog",
+      "summary": "NVIDIAは11月18日、ローカルAI向けの小型デスクトップ「RTX Spark」搭載機をASUS、Dell、MSIから発売したと公式ブログで発表した。20コアのGrace CPUと6,144 CUDAコアのBlackwell RTX GPU、最大128GBの統合メモリを備え、最大1ペタフロップスのAI性能で120Bパラメータ級モデルをローカル実行できるとする。常時稼働のエージェント実行や画像・動画生成、モデルのファインチューニングを想定し、Acer、GIGABYTE、HPのミニPCとMicrosoftのSurface RTX Spark Dev Boxは今後発売予定。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+      "x_url": "https://x.com/Janidushman07/status/2123083872275689708"
     }
   ]
 }
