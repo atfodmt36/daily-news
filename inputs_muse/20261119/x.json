@@ -6,7 +6,7 @@
     "to": "2026-11-19T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 27,
+  "itemCount": 32,
   "items": [
     {
       "headline": "Apple、動画生成モデル「FastFrames」をHugging Faceで公開—対話的レイテンシで生成、14Bと1.3Bの2サイズ",
@@ -277,6 +277,56 @@
       "unconfirmed": false,
       "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
       "x_url": "https://x.com/Janidushman07/status/2123083872275689708"
+    },
+    {
+      "headline": "Ramp、実務由来500タスクの新コーディングベンチマーク「Ramp SWE-Bench v2」を公開——GPT-6.2 Astra（Codex）が76.4%で首位",
+      "source": "Ramp Labs",
+      "summary": "Ramp Labsは11月18日、自社のエンジニア200人超が本番に投入した実務から構築した500タスクのベンチマーク「Ramp SWE-Bench v2」を公開した。検証を厳格化し、各モデルをネイティブハーネスで実行。pass@1（high effort）ではGPT-6.2 Astra（Codex）が76.4%で首位、Claude Fable 5.2（Claude Code）が73.4%、GPT-6.2 Sol（Codex）が73.4%と続いた。",
+      "topic": "論文・ベンチマーク",
+      "unconfirmed": false,
+      "url": "https://labs.ramp.com/swebench",
+      "x_url": "https://x.com/RampLabs/status/2123114980597731666",
+      "collected_at": "2026-11-19T04:12:40+09:00"
+    },
+    {
+      "headline": "総務省、「自治体サイバーセキュリティサポートチーム」のポータルを開設——AIで自治体サイトの弱点を診断",
+      "source": "総務省",
+      "summary": "総務省は、自治体のサイバーセキュリティ対策を支援する「自治体サイバーセキュリティサポートチーム」のポータルサイトを公開した。自治体のウェブサイトをAIで点検し、脆弱性などの弱点を診断する支援を行うとしている。",
+      "topic": "政府・政策",
+      "unconfirmed": false,
+      "url": "https://www.soumu.go.jp/denshijiti/jichitai-cybersecurity-support.html",
+      "x_url": "https://x.com/arigatou_jp_net/status/2123060312190648500",
+      "collected_at": "2026-11-19T04:12:40+09:00"
+    },
+    {
+      "headline": "Meta、パーソナルAIエージェント「Muse」をオーストラリアで提供開始",
+      "source": "Meta",
+      "summary": "Metaは11月17日、パーソナルAIエージェント「Muse」をオーストラリアで提供開始したと公式ニュースルームで発表した。GmailやGoogleカレンダー、Instagram、OpenTableなどと連携し、メール管理や予定調整、レストラン予約などを代行する。現地パートナーとしてCanva、Domain、Kogan、MECCA、Officeworks、realestate.com.au、SWEAT、ShopBack、Ticketekが参加し、連携機能は順次展開される。iOS、Android、muse.ai、Macアプリで利用でき、大半の機能は無料。",
+      "topic": "エージェント",
+      "unconfirmed": false,
+      "url": "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/",
+      "x_url": "https://x.com/window98se/status/2123108550486753580",
+      "collected_at": "2026-11-19T04:12:40+09:00"
+    },
+    {
+      "headline": "Reson8、0.5B音声認識モデル「Rumble-2-Flash」をApache 2.0でオープン公開——40超の言語対応",
+      "source": "Hugging Face / Reson8",
+      "summary": "オランダのReson8（Resonate Labs）は11月18日、0.5Bパラメータの音声認識モデル「Rumble-2-Flash」をHugging FaceでApache 2.0ライセンスによりオープン公開した（HFブログで確認）。40超の言語の自動判別に対応し、TransformersとvLLMでそのまま動作する。Open ASR Leaderboard多言語トラックで平均誤り率6.96%と、自社比で3〜60倍規模のモデルに匹敵する精度をうたう。",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "unconfirmed": false,
+      "url": "https://huggingface.co/blog/rumble-2-flash",
+      "x_url": "https://x.com/superdoccimo/status/2123083905813131329",
+      "collected_at": "2026-11-19T04:12:40+09:00"
+    },
+    {
+      "headline": "Google、Geminiアプリを低メモリAndroid端末に対応——Android（Go edition）でも利用可能に",
+      "source": "Google Gemini",
+      "summary": "Googleは11月18日、Geminiアプリを再設計し、低メモリのAndroid端末（対象のAndroid（Go edition）端末を含む）でも中核体験が快適に動作するようにしたと公式アカウントで発表した。メモリ2GB級の端末でもGemini Liveや画像生成などが使えるようになる。",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "url": "https://x.com/GeminiApp/status/2123100943604707606",
+      "x_url": "https://x.com/GeminiApp/status/2123100943604707606",
+      "collected_at": "2026-11-19T04:12:40+09:00"
     }
   ]
 }
