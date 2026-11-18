@@ -6,7 +6,7 @@
     "to": "2026-11-19T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 14,
+  "itemCount": 17,
   "items": [
     {
       "headline": "Apple、動画生成モデル「FastFrames」をHugging Faceで公開—対話的レイテンシで生成、14Bと1.3Bの2サイズ",
@@ -147,6 +147,36 @@
       "unconfirmed": false,
       "url": "https://huggingface.co/tencent/Hy4-flash",
       "x_url": "https://x.com/TencentHunyuan/status/2122912575302119554/photo/1"
+    },
+    {
+      "headline": "GitHubとMicrosoft、AI脆弱性検査の試験結果を公表——OSS 6件で9,791件の候補を99件に精査、55件が修正済み",
+      "source": "GitHub",
+      "summary": "GitHubは11月17日、Microsoftと実施したAIセキュリティ試験運用の結果を公式ブログで発表した。Microsoftのエージェント型検査基盤「Codename MDASH」がMAI Cyberモデルで6つのOSSプロジェクト（AutoGPT、Caddy、Express、FastMCP、ImageMagick、Netty）を走査して9,791件の候補を検出し、GitHub Security LabのAIトリアージとMicrosoft FORGE Lab研究者7人の手作業確認を経て、PoCと修正案付きの非公開報告99件をメンテナーへ届けた。11月15日時点で55件が修正され、うち14件はリリースに含まれている。今後はGitHub Secure Open Source Fundの参加プロジェクトへ対象を広げる。",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+      "x_url": "https://x.com/TechnoEdgeJP/status/2122928045359276453",
+      "collected_at": "2026-11-18T17:24:43+09:00"
+    },
+    {
+      "headline": "Suno、楽曲から動画やジャケット画像を作る「Visuals」を公開",
+      "source": "Unite.AI",
+      "summary": "音楽生成AIのSunoは11月17日、ライブラリ内の楽曲をもとにリリックビデオやアルバムアート、最長15秒の動画クリップを生成する新機能「Visuals」をWeb版で公開した。基盤モデルはMiniMaxのH3を基にした「H3 Move」で、歌詞や曲の構成に合わせた映像生成やリップシンクに対応する。iOS／Android版は今後数週間で提供予定で、Visualクレジットは楽曲クレジットとは別体系となる。",
+      "topic": "映像生成・動画AI",
+      "unconfirmed": false,
+      "url": "https://www.unite.ai/suno-launches-visuals-for-ai-generated-lyric-videos-and-album-art/",
+      "x_url": "https://x.com/_creatorzz_/status/2122961772756062631",
+      "collected_at": "2026-11-18T17:24:43+09:00"
+    },
+    {
+      "headline": "CoWorker、AIエージェント向けセキュリティ点検「Blue Harness」「Red Harness」を発表",
+      "source": "CoWorker（PR TIMES）",
+      "summary": "CoWorkerは11月18日、開発チームが普段使うAIエージェントにセキュリティの照会・点検機能を追加する「Blue Harness」と「Red Harness」をPR TIMESで発表した。Blue HarnessはMCP経由でエンドポイントのログ収集・解析と脅威インテリジェンス照会を行い、Red Harnessはリリース前後のネットワークやWebアプリを攻撃者目線で点検し、脆弱性の対応状況管理を支援する。製品群「CoWorker AI Harness」として提供し、開始は2026年12月頃の予定。",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "url": "https://prtimes.jp/main/html/rd/p/000000070.000156001.html",
+      "x_url": "https://x.com/coworker_sec/status/2122950410554200193",
+      "collected_at": "2026-11-18T17:24:43+09:00"
     }
   ]
 }
