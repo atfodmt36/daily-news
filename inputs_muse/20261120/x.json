@@ -6,7 +6,7 @@
     "to": "2026-11-20T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 24,
+  "itemCount": 27,
   "items": [
     {
       "headline": "Google、Geminiアプリを低メモリAndroid端末に対応——Android (Go edition)でも利用可能に",
@@ -246,6 +246,36 @@
       "url": "https://www.soumu.go.jp/main_sosiki/kenkyu/data_protection/02kiban18_02000516.html",
       "x_url": "https://x.com/kaetn/status/2123428605372121347",
       "collected_at": "2026-11-20T03:25:02+09:00"
+    },
+    {
+      "headline": "OpenAI、音声モデル「GPT-Live-1.1」をAPIで提供開始——新スタンバイ設定も追加",
+      "source": "OpenAI",
+      "summary": "OpenAIは11月19日、ChatGPTの音声を担うモデルGPT-Live-1.1を開発者向けAPIで提供開始したと発表した。言語をまたいでより自然で一貫したアクセントで話し、タスク完了の信頼性も高めたという。あわせて、会話を中断せず無音期間を管理できる新設定「Standby」をGPT-Live-1／1.1向けに公開した（アイドルタイムアウト5〜60秒）。GPT-Live-1.1は10月15日にChatGPT向けに先行展開され、API提供は「近日」とされていた。OpenAI公式X（OpenAI Developers）で確認した。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://x.com/OpenAIDevs/status/2123506733524136446",
+      "x_url": "https://x.com/OpenAIDevs/status/2123506733524136446",
+      "collected_at": "2026-11-20T05:15:34+09:00"
+    },
+    {
+      "headline": "Google、Gemini Macアプリに「computer use」を展開開始——デスクトップアプリを代行操作",
+      "source": "Google",
+      "summary": "Googleは11月19日、Geminiアプリ（Mac版）にcomputer use機能の展開を開始した。ローカルファイル、デスクトップアプリ、Webをまたぐ複数ステップの作業を、クリック・入力・メニュー操作・フォーム記入までGeminiが代行する。作業はライブプレビュー付きの独立したバックグラウンドウィンドウで行われ、本体の画面とカーソルは自由に使える。利用アプリはユーザーが選び、ログインや支払いでは一時停止して確認を求める。英語・米国で、Google AI Plus／Pro／Ultra加入者向けに提供する。Google公式ブログで確認した。",
+      "topic": "エージェント",
+      "unconfirmed": false,
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+      "x_url": "https://x.com/iCleanAI/status/2123503923436868038",
+      "collected_at": "2026-11-20T05:15:34+09:00"
+    },
+    {
+      "headline": "Perplexity、Computerの「Brain」を拡張——エージェントスキルを自動作成・更新",
+      "source": "Perplexity",
+      "summary": "Perplexityは、Computerのパーソナル自己改善システム「Brain」を拡張し、ユーザーの記憶とセッション履歴からエージェントスキルを自動で作成・更新する仕組みを公式ブログで発表した。過去セッションの証拠をもとに改善エージェントが改訂案を作り、検証を経て有効化するループで、組み込みスキルの改善には再プレイ評価と人間のレビューも挟む。8月1日〜11月14日にBrainが2万人超のユーザー向けに8万件超のパーソナルスキルを作成し、既存スキルへの自動更新は10万件超適用されたという。Perplexity公式ブログで確認した。",
+      "topic": "エージェント",
+      "unconfirmed": false,
+      "url": "https://www.perplexity.ai/en-GB/hub/blog/self-improving-skills",
+      "x_url": "https://x.com/perplexity_ai/status/2123449395882701224",
+      "collected_at": "2026-11-20T05:15:34+09:00"
     }
   ]
 }
