@@ -6,7 +6,7 @@
     "to": "2026-11-20T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 21,
+  "itemCount": 24,
   "items": [
     {
       "headline": "Google、Geminiアプリを低メモリAndroid端末に対応——Android (Go edition)でも利用可能に",
@@ -216,6 +216,36 @@
       "url": "https://www.synthesia.io/post/synthesia-connector-claude",
       "x_url": "https://x.com/alexvoica/status/2123439743304135025",
       "collected_at": "2026-11-20T01:16:12+09:00"
+    },
+    {
+      "headline": "OpenAI、Codex駆動の性能改善システム「Performance Factory」を公開",
+      "source": "OpenAI",
+      "summary": "OpenAIは11月19日、Codexエージェント群がChatGPTの性能リグレッションを調査し、修正案を提示して本番で検証する社内システム「Performance Factory」を公開した。調査手順を再利用可能なスキル「perf-forensics」に落とし込み、3か月余りで1,700件超の調査を追跡し600件超の根本原因を特定、1日平均17件の自動調査を行ったという。OpenAI公式XスレッドとVentureBeatの独占取材で確認した。",
+      "topic": "Claude／Codex",
+      "unconfirmed": false,
+      "url": "https://venturebeat.com/orchestration/exclusive-openai-reveals-performance-factory-a-codex-powered-software-optimization-system-that-keeps-chatgpt-fast",
+      "x_url": "https://x.com/OpenAIDevs/status/2123471880292299171",
+      "collected_at": "2026-11-20T03:25:02+09:00"
+    },
+    {
+      "headline": "アデコ調査、AIが業務に組み込まれた職場では1日の時間節約が20%増——36カ国4万500人調査",
+      "source": "The Adecco Group",
+      "summary": "アデコグループは11月19日、年次レポート「Global Workforce of the Future」第7版を公表した。36カ国・21業界の労働者40,500人への調査で、AIが業務フローに十分組み込まれている利用者はそうでない利用者より1日の節約時間が20%多く、業務の再設計に関与した労働者の96%が環境変化への適応に前向きだった（関与なしでは29%）。職場でAIエージェントを使う人は74%（2025年64%）に増えた一方、AI研修の受講率は77%から67%に低下した。GlobeNewswireの公式発表で確認した。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://www.globenewswire.com/news-release/2026/11/19/3406312/0/en/the-adecco-group-global-study-ai-delivers-more-value-when-people-are-involved-in-work-redesign.html",
+      "x_url": "https://x.com/europawire/status/2123457334701965675",
+      "collected_at": "2026-11-20T03:25:02+09:00"
+    },
+    {
+      "headline": "総務省検討会が第2回会合、通信事業者のサイバー防御で論点整理案——大規模事業者は制度で担保へ",
+      "source": "総務省",
+      "summary": "総務省の有識者会議「フロンティアAI時代の通信事業におけるデータの保護・セキュリティの在り方に関する検討会」は11月19日に第2回会合を開き、2027年1月の中間取りまとめを見据えた論点整理のイメージ案を示した。事業規模やリスクに応じ、大規模事業者の対策は制度で担保し、中小事業者は支援する方向。楽天モバイルとLINEヤフーへの聞き取りでは、製品提供前のAIによる脆弱性検査の義務付けや、被害拡大を防ぐサービス停止の制度化を求める声が出た。総務省公式ページで確認した。",
+      "topic": "政府・政策",
+      "unconfirmed": false,
+      "url": "https://www.soumu.go.jp/main_sosiki/kenkyu/data_protection/02kiban18_02000516.html",
+      "x_url": "https://x.com/kaetn/status/2123428605372121347",
+      "collected_at": "2026-11-20T03:25:02+09:00"
     }
   ]
 }
