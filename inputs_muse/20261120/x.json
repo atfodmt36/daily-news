@@ -6,7 +6,7 @@
     "to": "2026-11-20T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 20,
+  "itemCount": 21,
   "items": [
     {
       "headline": "Google、Geminiアプリを低メモリAndroid端末に対応——Android (Go edition)でも利用可能に",
@@ -206,6 +206,16 @@
       "url": "https://voisona.com/song/artist/tanaka-san_ja_JP/",
       "x_url": "https://x.com/VoiSonaOfficial/status/2123253868352225434/photo/1",
       "collected_at": "2026-11-19T23:28:19+09:00"
+    },
+    {
+      "headline": "Synthesia、Claude向けコネクタを提供開始——チャット内でエージェント動画を生成",
+      "source": "Synthesia",
+      "summary": "Synthesiaは11月18日、AI動画プラットフォームをClaude内で使えるカスタムコネクタの提供を発表した。動画の内容を言葉で指示するか、文書・スライド・表計算ファイルを取り込むと、Syrenによるエージェント動画がチャット内で生成される。Claudeに接続済みの他のコネクタとも連携でき、Starter／Pro／Enterpriseプランで利用できる。Synthesia公式ブログで確認した。",
+      "topic": "映像生成・動画AI",
+      "unconfirmed": false,
+      "url": "https://www.synthesia.io/post/synthesia-connector-claude",
+      "x_url": "https://x.com/alexvoica/status/2123439743304135025",
+      "collected_at": "2026-11-20T01:16:12+09:00"
     }
   ]
 }
