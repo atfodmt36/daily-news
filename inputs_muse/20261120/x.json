@@ -6,8 +6,17 @@
     "to": "2026-11-20T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 5,
+  "itemCount": 6,
   "items": [
+    {
+      "headline": "Google、Geminiアプリを低メモリAndroid端末に対応——Android (Go edition)でも利用可能に",
+      "summary": "Googleは11月18日、Geminiアプリを低メモリのAndroid (Go edition)対象端末でも利用できるようにしたと公式ブログで発表した。アプリを再設計し、メモリの少ないハードウェアでも中核のGemini体験が滑らかに動作するようにした。45言語以上でのGemini Liveによる音声対話、カメラで撮影したノートや書類の学習・翻訳支援、Nano Bananaによるカスタム画像作成が利用できる。Google Playからのダウンロードのほか、対応端末では電源ボタンの長押しで起動でき、Transsionなどパートナーの今後の端末にはプリインストールされる。",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "topic": "モデル",
+      "source": "Google公式ブログ",
+      "x_url": "https://x.com/tokukatsu/status/2123245897727512978",
+      "collected_at": "2026-11-19T13:15:17+09:00"
+    },
     {
       "headline": "Cloudflare、抽出モデル「Clairic」と軽量版「Clairic-flash」をオープンウェイト公開",
       "source": "Cloudflare",
