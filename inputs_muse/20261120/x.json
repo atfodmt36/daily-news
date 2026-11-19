@@ -6,7 +6,7 @@
     "to": "2026-11-20T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 2,
+  "itemCount": 5,
   "items": [
     {
       "headline": "Cloudflare、抽出モデル「Clairic」と軽量版「Clairic-flash」をオープンウェイト公開",
@@ -27,6 +27,36 @@
       "url": "https://developers.openai.com/api/docs/changelog",
       "x_url": "https://x.com/OpenAIDevs/status/2123188195202617408",
       "collected_at": "2026-11-19T09:21:56+09:00"
+    },
+    {
+      "headline": "Google GTIG、人間の介入なしに脆弱性発見から侵入までを完結させた初の完全自動AIサイバー攻撃を確認",
+      "source": "Impress AI Watch（Google GTIG報告）",
+      "summary": "Google Threat Intelligence Group（GTIG）が11月16日公表のAI脅威トラッカー第4四半期版で、ロシア語話者とみられる攻撃者が複数AIエージェントを連携させる「exploit_agent」を使い、パッチ前後のコード差分から脆弱性を特定し、人間の介入なしに悪用プログラムの開発・侵入・データ持ち出しまで自動で完結させた事例を初めて確認したと報告した。金銭目的やスパイ活動とみられる攻撃者によるCAIRNやPentAGI等のオープンソース侵入テスト用エージェントツールの利用も確認された。Impress AI Watchの報道で確認した。",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "url": "https://ai.watch.impress.co.jp/docs/news/2157085.html",
+      "x_url": "https://x.com/Shumpei/status/2123227291606262215",
+      "collected_at": "2026-11-19T11:30:03+09:00"
+    },
+    {
+      "headline": "Resonate AI、AI映像制作プラットフォーム「Newtake」を日本向けにプレローンチ",
+      "source": "Resonate AI（PR TIMES）",
+      "summary": "Resonate AI株式会社が11月18日、AI映像制作プラットフォーム「Newtake（ニューテイク）」の日本向けプレローンチを開始した。複数の画像・動画生成AIモデルと演出・編集機能を無限キャンバス上に集約し、脚本・絵コンテ制作から素材生成、ショット制作、スマート編集、音声生成までを一つの環境で進められる。プレローンチでは日本の利用者の制作を通じた意見を正式提供に向けた改善に活かすとし、毎日のチェックインで100クレジットを受け取れる特典と年間プラン初年度最大56%OFFの早期利用特典を用意した。PR TIMESのプレスリリース（産経ニュース掲載）で確認した。",
+      "topic": "映像生成・動画AI",
+      "unconfirmed": false,
+      "url": "https://www.sankei.com/pressrelease/prtimes/FD3CWWP6FBMVRDS3AQHQ2JYGBY/",
+      "x_url": "https://x.com/GenAI_Creative/status/2123218668985471405",
+      "collected_at": "2026-11-19T11:30:03+09:00"
+    },
+    {
+      "headline": "FREECS、完全オフラインで文字起こしからAI要約まで行うWindows用ソフト『オトモジ2』を発売",
+      "source": "AppBank（FREECS発表）",
+      "summary": "株式会社FREECSは11月19日、Windows用文字起こしソフト『オトモジ2』を発売した。インターネットに接続せず、文字起こしからAI要約までをパソコン内だけで処理するローカルAIを採用し、ライセンス認証も不要なため外部と切り離されたネットワークでも使える。同社測定の認識率は95.2%〜96.5%。個人版は9,800円（税込）の買い切りで、法人向け3プランと3日間の無料トライアルも用意した。開発は十楽ソフトウェア開発合同会社。AppBankの報道で確認した。",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "unconfirmed": false,
+      "url": "https://www.appbank.net/2026/11/19/iphone-news/3170477.php",
+      "x_url": "https://x.com/appbank/status/2123222864740438190",
+      "collected_at": "2026-11-19T11:30:03+09:00"
     }
   ]
 }
