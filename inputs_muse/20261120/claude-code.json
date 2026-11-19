@@ -1,0 +1,351 @@
+{
+  "date": "2026/11/20",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-19T08:00:00+09:00",
+    "to": "2026-11-20T08:00:00+09:00"
+  },
+  "source": "claude-code",
+  "itemCount": 18,
+  "items": [
+    {
+      "topic": "Claude Code",
+      "headline": "Claude Code v2.1.328・v2.1.329をリリース、autoモードをOpus 4.6/Sonnet 4.6に拡大しバグ修正多数",
+      "summary": "v2.1.328でautoモードをBedrock/Google Cloud/Microsoft FoundryのOpus 4.6・Sonnet 4.6に対応、MCPツールフックに\"onFailure\":\"block\"を追加。v2.1.329では信頼ダイアログでのフォルダフック警告表示、Code Modeのメモリ最適化、各種UI・端末表示の修正を実施。",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+      "source": "Anthropic (GitHub)",
+      "published_at": "2026-11-19T22:14:41+00:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "claude-code",
+        "auto-mode",
+        "mcp",
+        "bugfix"
+      ],
+      "related_urls": [
+        "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
+        "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md"
+      ],
+      "collected_at": "2026-11-20T08:39:26+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "OpenAIがGPT-Live-1.1をリリース、多言語音声の精度向上とスタンバイ課金を追加",
+      "summary": "多言語音声会話での発音・アクセント一貫性・文字起こしを改善し、非アクティブ時に推論を一時停止するスタンバイモードを設定可能に。音声セッションは1アクティブ分$0.05を維持しつつ、一時停止中のWebRTCセッションに1スタンバイ分$0.02(アイドル時間が約60%低減)を追加、6言語13音声を追加。",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "source": "OpenAI",
+      "published_at": "2026-11-19T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "gpt-live",
+        "voice",
+        "api",
+        "pricing",
+        "date-only"
+      ],
+      "collected_at": "2026-11-20T08:39:26+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "OpenAIがCodex駆動の「Performance Factory」を公開、ChatGPTの性能回帰を自律調査",
+      "summary": "Codexエージェントを協調させてChatGPTの性能回帰を調査しエンジニアレビュー用の修正案を提示、本番で検証する社内システム。3か月強で1,700件超の調査を実施し600件超で根本原因を特定、約400件が修正案に繋がった(最終的な変更承認は人間が保持)。",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/",
+      "source": "OpenAI",
+      "published_at": "2026-11-19T08:00:00+00:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "codex",
+        "engineering",
+        "case-study"
+      ],
+      "related_urls": [
+        "https://x.com/OpenAIDevs/status/2123471880292299171"
+      ],
+      "collected_at": "2026-11-20T08:39:26+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Copilot Studio: ワークフローのステップとしてPythonコードを実行可能に",
+      "summary": "Copilot Studioワークフローに「Codeノード」が追加され、データ変換・計算・正規表現・高度な解析、ファイル変換、AI生成コードなどをPythonで実行できる。開発中(In development)、GA予定、Worldwide(Standard Multi-Tenant)環境対象。",
+      "url": "https://www.microsoft.com/microsoft-365/roadmap?id=580866",
+      "source": "Microsoft 365 Release Communications (RSS)",
+      "published_at": "2026-11-19T21:30:10+00:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "copilot-studio",
+        "workflows",
+        "roadmap"
+      ],
+      "related_urls": [
+        "https://www.microsoft.com/releasecommunications/api/v2/m365/rss"
+      ],
+      "collected_at": "2026-11-20T08:39:26+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Copilot Studio: ワークフローのAgentノードからドキュメント生成が可能に",
+      "summary": "Agentノードがワークフロー出力としてPDF・Word・Excel・PowerPoint・CSVファイルを生成し、下流コネクタ(メール送信や保存)に渡せるようになる。開発中、GA予定、Worldwide対象。",
+      "url": "https://www.microsoft.com/microsoft-365/roadmap?id=580865",
+      "source": "Microsoft 365 Release Communications (RSS)",
+      "published_at": "2026-11-19T21:30:10+00:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "copilot-studio",
+        "workflows",
+        "roadmap"
+      ],
+      "related_urls": [
+        "https://www.microsoft.com/releasecommunications/api/v2/m365/rss"
+      ],
+      "collected_at": "2026-11-20T08:39:26+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Copilot Studio: 共同所有者とのワークフロー共有(共同編集)に対応",
+      "summary": "メーカーがワークフローを共同所有者と共有して共同編集できるようになり、権限や可視性のレビューも可能。開発中、GA予定、Worldwide対象。",
+      "url": "https://www.microsoft.com/microsoft-365/roadmap?id=580864",
+      "source": "Microsoft 365 Release Communications (RSS)",
+      "published_at": "2026-11-19T21:30:10+00:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "copilot-studio",
+        "workflows",
+        "collaboration",
+        "roadmap"
+      ],
+      "related_urls": [
+        "https://www.microsoft.com/releasecommunications/api/v2/m365/rss"
+      ],
+      "collected_at": "2026-11-20T08:39:26+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Copilot Studio: ワークフローのサービスプリンシパル所有に対応",
+      "summary": "ワークフローを個人ユーザーアカウントではなくサービスプリンシパル(Microsoft Entraアプリ登録)が所有できるようになり、プログラムによる所有モデルを実現。開発中、GA予定、Worldwide対象。",
+      "url": "https://www.microsoft.com/microsoft-365/roadmap?id=580863",
+      "source": "Microsoft 365 Release Communications (RSS)",
+      "published_at": "2026-11-19T21:30:10+00:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "copilot-studio",
+        "workflows",
+        "admin",
+        "identity",
+        "roadmap"
+      ],
+      "related_urls": [
+        "https://www.microsoft.com/releasecommunications/api/v2/m365/rss"
+      ],
+      "collected_at": "2026-11-20T08:39:26+09:00"
+    },
+    {
+      "topic": "Microsoft Foundry",
+      "headline": "Microsoft Foundry: 独自のMicrosoft Entra IDを持つ信頼できる自律エージェントを構築可能に",
+      "summary": "Microsoft Foundryで、独自のMicrosoft Entra IDとユーザーアカウントを持つ自律エージェントを作成でき、Microsoft 365アプリ間で独立して動作する。マネージャーによる説明責任と既存のエンタープライズセキュリティ制御の下でGA(一般提供)。",
+      "url": "https://devblogs.microsoft.com/foundry/build-trusted-autonomous-agents-for-your-team-with-microsoft-foundry/",
+      "source": "Microsoft Foundry Blog",
+      "published_at": "2026-11-19T19:53:30+00:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "foundry",
+        "agents",
+        "entra-identity",
+        "security"
+      ],
+      "related_urls": [
+        "https://devblogs.microsoft.com/foundry/feed/"
+      ],
+      "collected_at": "2026-11-20T08:39:26+09:00"
+    },
+    {
+      "topic": "Gemini",
+      "headline": "Genie 4がGemini Interactions APIで一般提供を開始",
+      "summary": "リアルタイム双方向ワールド生成モデル「models/genie-4」がv1beta Interactions APIでGA。WebRTC経由で24fps 16:9のステアリング可能なストリーミング映像と48kHzステレオ音声を同期生成し、テキスト/画像シード・キーボードによるライブ操作に対応。価格は入力100万トークンあたり$1.50、テキスト出力$9.00、映像出力$17.50。",
+      "url": "https://aistudio.google.com/docs/changelog",
+      "source": "Google AI Studio (Gemini API changelog)",
+      "published_at": "2026-11-19T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "date-only",
+        "model",
+        "world-model",
+        "realtime",
+        "pricing"
+      ],
+      "collected_at": "2026-11-20T08:39:26+09:00"
+    },
+    {
+      "topic": "Gemini",
+      "headline": "Gemini APIでTool Retrievalがプレビュー公開",
+      "summary": "多数のツールを使う際に必要なツールのスキーマのみをオンデマンドで読み込みトークン消費を削減する機能がプレビュー提供。リクエストに`tool_search`ツールを追加し各ツールに`defer_loading: true`を設定する方式で、Gemini 3.6以降および全Gemini 4モデル、リモートMCPサーバーに対応。追加課金はなく、tool_search自体は小さな固定入力トークンのみ消費。",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "source": "Google blog / Gemini API changelog",
+      "published_at": "2026-11-19T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "preview",
+      "tags": [
+        "date-only",
+        "tools",
+        "mcp",
+        "agents",
+        "tokens"
+      ],
+      "related_urls": [
+        "https://aistudio.google.com/docs/changelog"
+      ],
+      "collected_at": "2026-11-20T08:39:26+09:00"
+    },
+    {
+      "topic": "Gemini CLI",
+      "headline": "Gemini CLI v0.69.0 (stable) 公開",
+      "summary": "日次トークン使用量を表示する`/stats heatmap`サブコマンドを追加。PowerShell置換・ポリシー処理、再開時のターミナルモデルターン400エラー、JSONLによるメインスレッド停止、PDF inlineDataやテレメトリバッファのメモリリークなどを修正。",
+      "url": "https://github.com/google-gemini/gemini-cli/releases",
+      "source": "GitHub (google-gemini/gemini-cli releases)",
+      "published_at": "2026-11-19T01:45:47+00:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "cli",
+        "release"
+      ],
+      "related_urls": [
+        "https://github.com/google-gemini/gemini-cli/releases.atom"
+      ],
+      "collected_at": "2026-11-20T08:39:26+09:00"
+    },
+    {
+      "topic": "Gemini CLI",
+      "headline": "Gemini CLI v0.70.0 (stable) 公開",
+      "summary": "セッションプレビューでANSI断片を除去しつつUnicodeプロンプトを保持。認証再起動後のworktree選択の永続化、`${VAR:-default}`の空変数時デフォルト適用、300秒超のタイムアウト処理、モデル一覧の出力トークン上限表示、commandPrefix/commandRegexポリシー照合、MCPサーバーのセキュリティ権限検証を修正。JST窓内(11/19 21:08 UTC)。",
+      "url": "https://github.com/google-gemini/gemini-cli/releases",
+      "source": "GitHub (google-gemini/gemini-cli releases)",
+      "published_at": "2026-11-19T21:08:05+00:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "cli",
+        "release",
+        "borderline"
+      ],
+      "related_urls": [
+        "https://github.com/google-gemini/gemini-cli/releases.atom"
+      ],
+      "collected_at": "2026-11-20T08:39:26+09:00"
+    },
+    {
+      "topic": "建設×AI",
+      "headline": "KK Generation、「BIM生成AI」が最新生成AI比3倍以上の精度を達成と公表",
+      "summary": "株式会社KK Generation(KKG)は2026年11月19日、建設図面(PDF)からBIMモデルを自動生成する「BIM生成AI」のベンチマーク結果を公表。意匠66枚・構造18枚の計84枚から3階建て鉄骨造オフィス1棟を生成する実務想定テストで、IFC再現性スコア91.79点(カスタマイズ後96.3点)を記録し、GPT-6 Pro・Claude Fable 5.2・Gemini 4 Argon等の最高28.2点に対し3倍超、数量精度でも76.1点(同96.7点)で他社最高15.5点の4倍超とした。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000026.000143310.html",
+      "source": "PR TIMES(株式会社KK Generation)",
+      "published_at": "2026-11-19T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "BIM",
+        "生成AI",
+        "建築",
+        "ベンチマーク",
+        "date-only"
+      ],
+      "collected_at": "2026-11-20T08:39:26+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "ウィルソン・ラーニング調査：営業現場の生成AI活用、資料作成の時短は50.9%も受注率向上は5.2%どまり",
+      "summary": "営業担当者・マネージャー計1,057名調査で、生成AIで「資料・提案書の作成時間短縮」を実感したのは50.9%だが「受注率の向上」はわずか5.2%。最も成果を出す「AI協働型」層は成果認識48.8%対17.8%で最下層の2.7倍、顧客研究への再投資も41.4%対7.3%(5.7倍)と差が開いた。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000007.000185987.html",
+      "source": "PR TIMES(ウィルソン・ラーニング ワールドワイド)",
+      "published_at": "2026-11-19T15:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "営業",
+        "調査",
+        "効果測定",
+        "生成AI"
+      ],
+      "collected_at": "2026-11-20T08:39:26+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "taiziii調査：効果を数値化できなくてもAI追加投資を拡大が32.9%で最多",
+      "summary": "従業員300名以上でAIを使う部署の管理職170名の有効回答で、今後のAI追加投資は「効果を数値化できなくても拡大」が32.9%で最多。判断の質を高める取り組みは「業務と役割分担の見直し」32.4%、「適切なAI利用・検証の教育」31.8%が続いた(調査期間2026年9月1〜4日)。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000076.000163598.html",
+      "source": "PR TIMES(株式会社taiziii)",
+      "published_at": "2026-11-19T14:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "調査",
+        "AIガバナンス",
+        "効果測定",
+        "全社展開"
+      ],
+      "collected_at": "2026-11-20T08:39:26+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "マーシュ・マーサー調査：職場でのAI利用経験が71%に、2024年の39%からほぼ倍増も日常利用は約3分の1",
+      "summary": "10カ国6,700名超の従業員調査で、業務でAIを利用した経験がある従業員は71%と2024年の39%からほぼ倍増。一方で日常的に使うのは約37%にとどまり、IT/技術59%・医療22%・政府19%、経営層64%対若手20%と格差が大きい(米国で11/18、日本で11/19発表)。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000153.000035512.html",
+      "source": "PR TIMES(マーシュ・マーサー・ジャパン)",
+      "published_at": "2026-11-19T14:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "調査",
+        "海外",
+        "AI利用実態",
+        "borderline"
+      ],
+      "collected_at": "2026-11-20T08:39:26+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "ユニヴィス法律事務所、独自AIで最速2週間納品の法務デューデリジェンス支援を提供開始",
+      "summary": "M&Aリーグテーブル9位(LSEG 2026年1-3Q)の同事務所が、独自AIを活用し最速2週間でレポートを納品する法務DD支援を開始。Minimum/Limited/Fullの3段階で、料金は規模・範囲に応じ税別100万円から、重要度(High/Medium/Low)別のリスク評価を提供する。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000009.000136611.html",
+      "source": "PR TIMES(ユニヴィス法律事務所)",
+      "published_at": "2026-11-19T10:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "法務",
+        "製品ローンチ",
+        "M&A",
+        "法律事務所"
+      ],
+      "collected_at": "2026-11-20T08:39:26+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "弁護士ドットコム、法務AIエージェント「LegalBrain エージェント」をMicrosoft Copilotに対応",
+      "summary": "法務担当者がCopilot上から日本の法令・判例・ガイドラインを出典付きで調査でき、ツール切替の手間を削減。2026年9月のClaudeコネクタ提供に続くエコシステム戦略の第2弾で、MCPを接続標準に採用し追加インストール不要・管理者承認で利用可能。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000614.000044347.html",
+      "source": "PR TIMES(弁護士ドットコム)",
+      "published_at": "2026-11-19T15:30:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "法務",
+        "製品ローンチ",
+        "AIエージェント",
+        "Microsoft"
+      ],
+      "related_urls": [
+        "https://www.yayafa.com/2938886/"
+      ],
+      "collected_at": "2026-11-20T08:39:26+09:00"
+    }
+  ]
+}
