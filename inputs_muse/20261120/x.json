@@ -1,0 +1,32 @@
+{
+  "date": "2026/11/20",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-19T08:00:00+09:00",
+    "to": "2026-11-20T08:00:00+09:00"
+  },
+  "source": "x",
+  "itemCount": 2,
+  "items": [
+    {
+      "headline": "Cloudflare、抽出モデル「Clairic」と軽量版「Clairic-flash」をオープンウェイト公開",
+      "source": "Cloudflare",
+      "summary": "Cloudflareが11月18日、文書・画像・PDFからの情報抽出に特化したモデルClairicの改良版（27B）と軽量版Clairic-flash（9B）を発表し、両モデルをHugging Faceでオープンウェイト公開した。Workers AIでも提供し、12月1日までは両モデルとも入力100万トークンあたり0.10ドルのキャンペーン価格、その後はClairicが0.24ドル、flashが0.10ドル。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://blog.cloudflare.com/open-clairic/",
+      "x_url": "https://x.com/finemargins2026/status/2123195772535472249",
+      "collected_at": "2026-11-19T09:21:56+09:00"
+    },
+    {
+      "headline": "OpenAI、Responses APIに割引バックグラウンド枠を追加—2時間枠で30%引、8時間枠で40%引",
+      "source": "OpenAI",
+      "summary": "OpenAIがResponses APIのバックグラウンドモード（公開ベータ）に、初回応答までの目標時間を選べる割引枠を追加した。2時間枠で標準料金から30%引、8時間枠で40%引となり、GPT-6.2 Astra／Sol、GPT-6.1 Terra、GPT-6 Lunaが対象。即時応答が不要な単発・複数ターンのワークフローを安く回せる。",
+      "topic": "Claude／Codex",
+      "unconfirmed": false,
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "x_url": "https://x.com/OpenAIDevs/status/2123188195202617408",
+      "collected_at": "2026-11-19T09:21:56+09:00"
+    }
+  ]
+}
