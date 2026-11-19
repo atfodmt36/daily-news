@@ -6,7 +6,7 @@
     "to": "2026-11-20T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 6,
+  "itemCount": 8,
   "items": [
     {
       "headline": "Google、Geminiアプリを低メモリAndroid端末に対応——Android (Go edition)でも利用可能に",
@@ -66,6 +66,26 @@
       "url": "https://www.appbank.net/2026/11/19/iphone-news/3170477.php",
       "x_url": "https://x.com/appbank/status/2123222864740438190",
       "collected_at": "2026-11-19T11:30:03+09:00"
+    },
+    {
+      "headline": "Rebuild Factoryz、住設見積もりサイト「sumica」に3D・AR機能を公開——仕様選択で価格と3D完成イメージが連動、組み合わせ約211万通り",
+      "summary": "埼玉県春日部市の工務店・株式会社Rebuild Factoryzは11月19日、住設見積もりサイト「sumica（スミカ）」の3D・AR機能を公開したと発表した（2026年11月公開）。ユニットバスやシステムキッチンの仕様（本体タイプ・壁柄・床・浴槽等、主要仕様だけで約211万通り）を選ぶと、標準工事費込みの概算金額と3D完成イメージがその場で同時に切り替わり、選んだプランはARで自宅に実物大表示できる。対応はTOTO・クリナップ・ハウステックの6シリーズ、部材2,000点超の価格を収録。エンジニア経験のない工務店社長である代表が生成AIを活用して自ら開発した。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000001.000194832.html",
+      "source": "PR TIMES（Rebuild Factoryz発表）",
+      "topic": "建設×AI",
+      "unconfirmed": false,
+      "x_url": "https://x.com/value_press/status/2123295503542800622",
+      "collected_at": "2026-11-19T15:36:20+09:00"
+    },
+    {
+      "headline": "dotData、「dotData Insight 3.1」を発表——AIエージェントが特徴量分析の洞察を解釈しレポート・スライド・説明動画を自動生成、AutoML統合がGAに",
+      "summary": "dotData, Inc.は11月19日、AIデータ分析プラットフォームの最新版「dotData Insight 3.1」を発表した。特徴量自動設計に基づくセグメント分析の結果をAIエージェントが網羅的に解釈し、注目すべき層やKPI差の要因、打ち手を整理したレポート・スライド（PowerPoint/Word/PDF出力対応）と説明動画を自動生成する（本機能はプレビュー版）。あわせて予測分析（AutoML）機能の統合がGAとなり、Databricks Unity CatalogやSnowflake Horizon Catalogの特徴量をデータコピーなしで活用できる連携とガバナンスも強化された。",
+      "url": "https://jp.dotdata.com/news/pressrelease-20261119/",
+      "source": "dotData公式プレスリリース",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "x_url": "https://x.com/dotDataJapan/status/2123252420641763607",
+      "collected_at": "2026-11-19T15:36:20+09:00"
     }
   ]
 }
