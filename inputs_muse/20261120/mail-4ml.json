@@ -6,7 +6,7 @@
     "to": "2026-11-20T08:00:00+09:00"
   },
   "source": "mail-4ml",
-  "itemCount": 7,
+  "itemCount": 16,
   "items": [
     {
       "headline": "Anthropic IPOが増額し$81.3B調達、史上最大に【続報】",
@@ -69,6 +69,87 @@
       "source": "ML_Bear Times",
       "topic": "ビジネス・人材",
       "collected_at": "2026-11-19T19:33:48+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Gemini 4 Neon、LiveBenchで首位に【続報】",
+      "summary": "Gemini 4 NeonがLiveBenchで首位となり、Claude Fable 5.2やGPT-6.2 Astraも上回ったと報告された。GoogleのPhilipp Schmid氏は、Neonをコーディング・Agentの日常使いの主力（$3/$15）に、Hydrogenを軽いタスクやサブAgentに使う指針を示した。一方でHydrogenは既定の思考レベルが上がっており、そのまま移行すると実質値上がりになるとの指摘も出ている。",
+      "url": "https://x.com/bindureddy/status/2123473243457925131",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-20T07:34:30+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Anthropic上場初日、終値$97.17で公開価格比17%高【続報】",
+      "summary": "AnthropicはNasdaqでの取引初日、公開価格$83に対し$111.50で寄り付き、一時は時価総額$2Tを超えた。その後は上げ幅を縮め、終値は公開価格比17%高の$97.17となった。IPO後の現金・短期投資は$232Bに達し、CFOは計算資源の約75%を研究開発に充てていると説明した。",
+      "url": "https://x.com/business/status/2123525150410989788",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-20T07:34:30+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Antigravityの使いにくさが話題、T3 Codeなど別UIで回避する動き",
+      "summary": "Gemini 4 Neonの性能は高い一方、公式ハーネスAntigravityの使い勝手に不満の声が出ている。Auto Modeでも頻繁に止まる点や、agy -pで他のAgentから呼び出すと規約違反になる点が挙げられた。Gemini利用を容認するT3 Codeや、Kanaryで指揮をClaude・実装をAntigravity・レビューをCodexと分担する使い方が共有されている。",
+      "url": "https://x.com/gosrum/status/2123324899636961565",
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "collected_at": "2026-11-20T07:34:30+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Apple、Siriを超えるComputer Use Agentを開発中と報道【続報】",
+      "summary": "AppleがSiriを超える自律型のComputer Use Agentを開発中で、早ければ2027年末の投入を目指すとMark Gurman氏が報じた。端末操作やアプリ連携、Web閲覧、コーディングまで担う構想で、課題とされていたComputer Use能力の獲得を狙う。一方、macOS 27.3ではChatGPTのサードパーティComputer Useの有効化手順が4手順から14手順に増えたとも指摘されている。",
+      "url": "https://x.com/markgurman/status/2123534050585460964",
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "collected_at": "2026-11-20T07:34:30+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Moonshot、インドネシアでのBlackwell利用計画を撤回【続報】",
+      "summary": "Kimiを開発するMoonshotが、インドネシアでの$150M相当のBlackwellリースを、米国の規制強化を受けて断念したと報じられた。ByteDanceのSamsung Foundry関連の案件やXiaomiのTSMCでの生産も停止・保留になったとされる。規模から事前学習ではなくRL用途だったとの見方や、海外での事前学習は中国のデータ規則に抵触しうるとの指摘も出ている。",
+      "url": "https://x.com/jukan05/status/2123362806015901697",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-20T07:34:30+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Google、自己改善Agentハーネス手法GUARDを発表",
+      "summary": "Googleが自己改善型Agentハーネスの課題に取り組む論文でGUARDを提案した。ベースモデルを固定し、1モジュールずつ検証付きで変更する方式で、局所過学習や破滅的忘却、メモリ汚染を抑える。検証なしで全体を書き換える方式は精度は同等でもタスクあたり約10倍のトークンを消費したとされる。",
+      "url": "https://x.com/rohanpaul_ai/status/2123523115498312010",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-20T07:34:30+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "GPT-6.2 Astra/SolのAPI料金急増、原因はキャッシュ不具合か",
+      "summary": "GPT-6.2 AstraとSolのAPI料金が急に上がった原因として、キャッシュの不具合が報告されている。Responses APIのトップレベルinstructionsに置いた内容がキャッシュされないとされ、OpenAI Codexのissueで共有された。OpenClawは組み込みハーネス向けに修正済みだが、多くのハーネスは未対応とされ注意が必要。",
+      "url": "https://x.com/bebuu_ai/status/2123291268814094409",
+      "source": "ML_Bear Times",
+      "topic": "Claude／Codex",
+      "collected_at": "2026-11-20T07:34:30+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Unsloth DesktopがAMDのNPUに対応",
+      "summary": "Unsloth DesktopがAMDと協力し、NPUでのローカルモデル実行に対応した。Strix、Krackan、GorgonのXDNA 2 NPUをサポートし、今後のNPU搭載デバイスも標準で対応するとしている。NPUはGPUに比べトークンあたりの消費電力が2〜4倍少ないとされ、省電力なローカル推論の選択肢になる。",
+      "url": "https://x.com/danielhanchen/status/2123428317949010390",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-20T07:34:30+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Kong、コーディングAgent向けクラウドVolcanoを公開",
+      "summary": "Kongが、コーディングAgentが構築・デプロイするためのクラウドVolcanoを公開した。サンドボックス、durable workflow、Postgres、認証・ストレージ、ホスティングを一つにまとめ、自己修復機能LavaFlowも備える。Webサイト向けクラウドは長時間稼働や人待ちのAgentに合わないという問題意識から生まれた基盤。",
+      "url": "https://x.com/subnetmarco/status/2123424142569714004",
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "collected_at": "2026-11-20T07:34:30+09:00",
       "unconfirmed": false
     }
   ]
