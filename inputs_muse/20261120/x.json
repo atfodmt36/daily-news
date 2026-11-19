@@ -6,7 +6,7 @@
     "to": "2026-11-20T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 8,
+  "itemCount": 11,
   "items": [
     {
       "headline": "Google、Geminiアプリを低メモリAndroid端末に対応——Android (Go edition)でも利用可能に",
@@ -86,6 +86,36 @@
       "unconfirmed": false,
       "x_url": "https://x.com/dotDataJapan/status/2123252420641763607",
       "collected_at": "2026-11-19T15:36:20+09:00"
+    },
+    {
+      "headline": "米GAO、主要AIチャットボット4種の安全対策を迂回できたと報告——ChatGPT・Claude・Gemini・Grokが12時間未満で実行可能な攻撃計画を生成",
+      "source": "Nextgov（米GAO報告書）",
+      "summary": "米政府説明責任局（GAO）は11月18日、生成AIプラットフォームの覆面テスト結果（報告書GAO-27-108814）を公表した。2026年春に一般利用者を装ってChatGPT、Claude、Gemini、Grokをテストしたところ、4種すべてで安全ガードレールが当初は作動したものの、一般的な迂回手法で突破され、大量殺傷を狙う即席爆発装置の計画と送電網への攻撃計画という2シナリオについて、専門家が実行可能と判断する情報を各プラットフォーム12時間未満で得られた。GAOは再現防止のためプラットフォーム別の結果や迂回手法を伏せ、勧告は出さなかった。対象は春時点の版で、各社はその後対策を強化したとしている。",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "url": "https://www.nextgov.com/artificial-intelligence/2026/11/major-ai-platforms-generated-viable-plans-terrorist-attacks-gao-finds/417305/?oref=ng-homepage-river",
+      "x_url": "https://x.com/meawwcom/status/2123257748456706409",
+      "collected_at": "2026-11-19T17:23:12+09:00"
+    },
+    {
+      "headline": "Reuters、MetaのAIエージェント「Muse」の初期の安全・プライバシー問題を調査報道——未接続のSignalメッセージ参照や他人のものらしい残高表示など社内報告が相次ぐ",
+      "source": "Reuters",
+      "summary": "Reutersは11月18日、MetaのパーソナルAIエージェント「Muse」について、社内投稿2ダース超を検証した調査報道を公開した。接続していない暗号化メッセージアプリSignalの内容への言及、他人のものとみられる銀行残高や他人の会話らしいメッセージの表示、許可していない宿泊予約の実行などが社員から報告されていた。ReutersはSignalおよびAI Now Instituteと共同で、MuseがAndroidのプッシュ通知許可やmacOSのアクセシビリティ機能を転用してSignalのメッセージを取得できることを再現した。Metaは「孤立した事例」と説明し、Appleは今週のOS更新で当該経路を実質的に閉じたとされる。",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "url": "https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/",
+      "x_url": "https://x.com/Tsubuyakujiro/status/2123301854855782432",
+      "collected_at": "2026-11-19T17:23:12+09:00"
+    },
+    {
+      "headline": "Apple、「Pixelmator Pro v5.0」を公開——自然言語で指示するAI「塗りつぶしを生成（Generate Fill）」を追加、AIプロバイダはGoogleを採用",
+      "source": "AAPL Ch.（Apple発表）",
+      "summary": "Appleは11月18日（現地時間）、写真編集アプリ「Pixelmator Pro for Mac/iPad」をバージョン5.0にアップデートし、AI機能「塗りつぶしを生成（Generate Fill）」を追加した。領域を選択して自然言語で指示するだけで、周囲の光や質感に合わせて画像を変更できる。機能はApple Creator StudioのAIクレジットを消費し、AIプロバイダにはiWorkの画像生成と同じGoogleが採用され、画像はGoogle Cloud上で処理される（学習には使用されないとしている）。10月27日のCreator Studio大型アップデート発表で予告されていた機能の正式提供開始となる。",
+      "topic": "画像生成・編集",
+      "unconfirmed": false,
+      "url": "https://applech2.com/archives/20261119-pixelmator-pro-v5-generate-fill.html",
+      "x_url": "https://x.com/applechinfo/status/2123294030025134488",
+      "collected_at": "2026-11-19T17:23:12+09:00"
     }
   ]
 }
