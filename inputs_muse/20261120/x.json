@@ -6,7 +6,7 @@
     "to": "2026-11-20T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 15,
+  "itemCount": 20,
   "items": [
     {
       "headline": "Google、Geminiアプリを低メモリAndroid端末に対応——Android (Go edition)でも利用可能に",
@@ -156,6 +156,56 @@
       "url": "https://prtimes.jp/main/html/rd/p/000000202.000029286.html",
       "x_url": "https://x.com/HRTechNews2022/status/2123312206599315967",
       "collected_at": "2026-11-19T19:23:54+09:00"
+    },
+    {
+      "headline": "Dashlane、AIエージェントの認証情報リスクを報告——セキュリティ幹部の72%が過去12か月にAIエージェント絡みのインシデントを経験",
+      "source": "Dashlane",
+      "summary": "Dashlaneが11月19日に公表したレポート「Misplaced Trust」によると、英国のセキュリティ幹部の72%が、過去12か月にAIエージェントがアクセスすべきでない認証情報へアクセスするなどのインシデントを自組織で経験したと回答した。従業員の19%がパスワードやAPIキーなどのログイン情報をAIツールに渡したことがあり、44%が事前承認なしに業務でAIを使っていた。AIエージェントへの過信が認証情報管理の盲点になっているとする。",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "url": "https://x.com/dashlane/status/2123419825170981095",
+      "x_url": "https://x.com/dashlane/status/2123419825170981095",
+      "collected_at": "2026-11-19T23:28:19+09:00"
+    },
+    {
+      "headline": "日本版DBS、AI脆弱性調査で深刻な脆弱性が多数判明しシステム運用開始を延期",
+      "source": "朝日新聞",
+      "summary": "中司こども政策担当相は11月18日、子どもと接する職の性犯罪歴を確認する「日本版DBS」の専用システムについて、12月25日に予定していた運用開始を当面見送ると発表した。高市首相の指示で11月4日からAIを用いて脆弱性を確認したところ、12日に深刻な脆弱性が多数見つかったという。こども性暴力防止法の施行（12月25日）は維持し、書類手続きなど代替策を12月初旬に示す。朝日新聞などが報じた。",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "url": "https://www.asahi.com/articles/ASVCL0PG8VCLUTFL00FM.html?iref=ogimage_rek",
+      "x_url": "https://x.com/yoimachi_st352/status/2123412499081142590",
+      "collected_at": "2026-11-19T23:28:19+09:00"
+    },
+    {
+      "headline": "Twilio、音声AIエージェントの本番運用向け機能群を一般提供——話者交代検出・HD音声・音声認識フェイルオーバー",
+      "source": "Twilio",
+      "summary": "Twilioは11月18日、Conversation RelayとAgent Connectに音声AIの新機能群を発表した。発話の区切りを音声の手がかりで判定するSmart Turn Detection、HD音声、障害時に音声認識プロバイダを自動で切り替えるSTT Failoverが今月一般提供となり、ElevenLabsの低遅延モデルv4 Turboを使うAdvanced Conversational Voiceも一般提供された。Conversation Intelligenceでは文字起こしを分析してタスク完了やハルシネーションを監視する監督機能も加わった。",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "unconfirmed": false,
+      "url": "https://securitybrief.com.au/story/twilio-adds-voice-ai-tools-for-live-customer-calls",
+      "x_url": "https://x.com/hfujikawa77/status/2123376440641306898",
+      "collected_at": "2026-11-19T23:28:19+09:00"
+    },
+    {
+      "headline": "Ema、人事・IT・財務向け「AI従業員」をMicrosoft Marketplaceで提供開始",
+      "source": "Ema",
+      "summary": "Emaは11月18日、人事・IT・財務部門向けのAIエージェント「AI Employees」をMicrosoft Marketplaceで提供開始したと発表した（GlobeNewswire）。入社手続き、アクセス申請、福利厚生の問い合わせなどを担い、Microsoft Teamsや既存アプリ、音声から利用でき、利用者の権限の範囲内で動作する。無料トライアルには300超のテンプレートが含まれ、Wiproでは24万人超の従業員向けに年290万件の問い合わせを処理し、人事の応答時間を数日から数秒に短縮しているという。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://www.globenewswire.com/news-release/2026/11/18/3405850/0/en/ema-ai-employees-for-hr-it-and-finance-now-available-in-microsoft-marketplace.html",
+      "x_url": "https://x.com/HRTechSeries/status/2123415765898453489",
+      "collected_at": "2026-11-19T23:28:19+09:00"
+    },
+    {
+      "headline": "VoiSona、新ボイスライブラリ「田中傘」を発売",
+      "source": "VoiSona",
+      "summary": "テクノスピーチの歌声合成ソフトVoiSonaは11月19日、新ボイスライブラリ「田中傘（たなかさん）」を発売した。対応言語は日本語で、イラストはチェリ子が担当。製品ページで試聴や購入ができる。",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "unconfirmed": false,
+      "url": "https://voisona.com/song/artist/tanaka-san_ja_JP/",
+      "x_url": "https://x.com/VoiSonaOfficial/status/2123253868352225434/photo/1",
+      "collected_at": "2026-11-19T23:28:19+09:00"
     }
   ]
 }
