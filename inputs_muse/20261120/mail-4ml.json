@@ -1,0 +1,75 @@
+{
+  "date": "2026/11/20",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-19T08:00:00+09:00",
+    "to": "2026-11-20T08:00:00+09:00"
+  },
+  "source": "mail-4ml",
+  "itemCount": 7,
+  "items": [
+    {
+      "headline": "Anthropic IPOが増額し$81.3B調達、史上最大に【続報】",
+      "summary": "AnthropicのIPOが発行株数を約825M株から約980M株へ増やし、1株$83で約$81.3Bを調達してSpaceXの$75Bを上回り史上最大規模となった。私募の$26Bと合わせた調達額は$107.3Bで、日本の投資家からは約$3Bを集めたとされる。グレーマーケットでは初値が22〜26%高と示唆されており、Nasdaqでの取引開始に注目が集まっている。",
+      "url": "https://x.com/business/status/2123245612757840382",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-19T19:33:48+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "GPT-6.2 Astra、Gap TheoremのLean証明を初生成【続報】",
+      "summary": "GPT-6.2 AstraがSmoktunowiczのGap Theoremについて、初とみられるLean証明を生成したとVals AIが報告した。Meta FAIRのAutoform-Hard（AutoformBenchの検証済みサブセット）で得られた結果で、94分で1794行の証明を人手なしで生成し形式検証されたとされる。OpenAI開発者は難問での強さを強調する一方、実利用ではベンチほど良くないとの批判もある。",
+      "url": "https://x.com/ValsAI/status/2123129588066959380",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-19T19:33:48+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "B300やH100のGPUレンタル価格が急落、海外DC規制の影響か【続報】",
+      "summary": "B300のGPUレンタル価格が急激に下がり、H200やH100も下落していると話題になっている。中国AI企業による海外データセンター経由の先端チップ利用を制限する米規制を受け、中国企業からのGPU需要が減ったことが要因ではないかとの見方。大口は契約停止、小口は継続といった形で、アジアや南米での中国勢のGPU利用に影響が広がるとの見方も出ている。個人投稿ベースの観測で未確認。",
+      "url": "https://x.com/paurooteri/status/2123305430835499286",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-19T19:33:48+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Contra Labs、Frontier Design Benchmarkを公開——人間デザイナーが15モデルに76%勝利",
+      "summary": "Contra Labsがデザイン能力を評価するFrontier Design Benchmarkを公開した。不特定のネット利用者の投票に頼る既存評価を問題視し、人間デザイナーと15のフロンティアモデルを直接比較する設計で、比較の76%で人間デザイナーが勝ったとされる。デザイン領域ではまだ人間に分があるとして話題になっている。",
+      "url": "https://x.com/contraben/status/2123144312494178479",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-19T19:33:48+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "AlphaEvolveでAgentのSKILL.mdを進化、未知タスクで+5%",
+      "summary": "Google Cloudが、AlphaEvolveとGemini 4でコーディング用Agent skillを自動改善した事例を紹介した。AlphaEvolveがSKILL.mdを変異させ、Harborで実行・評価するループにより、高度に調整済みのスキルを未知タスクで5%改善した。ドメイン特化の企業向けスキルではさらに大きな改善余地があるとされ、スキル設計の自動化として注目される。",
+      "url": "https://x.com/GoogleCloudTech/status/2123234809354846702",
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "collected_at": "2026-11-19T19:33:48+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Kimi K3解説イベント、レバテックLABでレポート記事化【続報】",
+      "summary": "Sakana AIの秋葉拓哉氏らが登壇したKimi K3のアーキテクチャ解説イベントの内容をまとめたレポート記事がレバテックLABで公開された。MoEやリニアアテンション、強化学習などの技術要素から開発チームの考え方まで整理されており、中国発AIが賢くなった過程を知る資料として、参加できなかった人にも勧められている。",
+      "url": "https://x.com/levtech_lab/status/2123228641668829610",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-19T19:33:48+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Anthropic、AMD GPUへの移行を3日で完了と報道",
+      "summary": "AnthropicがAMD GPUへの移行をわずか3日で終えたとThe Informationが報じた。従来なら6〜12か月かかり得た作業で、チップの切り替えや調達の多様化が格段に容易になることを示す事例とされる。推論市場でのNVIDIAの優位を揺るがす要因の一つとして注目されている。",
+      "url": "https://x.com/theinformation/status/2123189610385674464",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-19T19:33:48+09:00",
+      "unconfirmed": false
+    }
+  ]
+}
