@@ -6,7 +6,7 @@
     "to": "2026-11-20T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 27,
+  "itemCount": 30,
   "items": [
     {
       "headline": "Google、Geminiアプリを低メモリAndroid端末に対応——Android (Go edition)でも利用可能に",
@@ -276,6 +276,36 @@
       "url": "https://www.perplexity.ai/en-GB/hub/blog/self-improving-skills",
       "x_url": "https://x.com/perplexity_ai/status/2123449395882701224",
       "collected_at": "2026-11-20T05:15:34+09:00"
+    },
+    {
+      "headline": "OpenAI、社内コーディングエージェントの自律成功率を公表——2〜4時間タスクで46%、3月の23%から倍増",
+      "summary": "OpenAIは11月18日、社内研究開発でのコーディングエージェント活用を測定した第2弾レポート「Research acceleration: The jagged frontier」を公開した。人間の作業で2〜4時間相当のタスクを人の介入なしに完了する割合は3月の23%から10月に46%へ、4〜8時間タスクでは13%から35%へ上昇した。一方でタスク種別による差は大きく、学習ランの監視は79%に対し推論・サービング基盤のコード作成は25%にとどまった。研究者1人あたりのエージェント利用額（API定価換算）の中央値は1日2,400ドルで9月から62%増えた。OpenAI公式ページで確認した。",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier/",
+      "source": "OpenAI",
+      "topic": "Claude／Codex",
+      "unconfirmed": false,
+      "x_url": "https://x.com/jpAIlab/status/2123521840400179377",
+      "collected_at": "2026-11-20T07:26:04+09:00"
+    },
+    {
+      "headline": "Amazon Connect Customer、チャット会話のAI要約をCCPに表示開始",
+      "summary": "AWSは11月19日、Amazon Connect Customerでチャット会話終了後数秒以内に生成AIによる対応後要約をContact Control Panel（CCP）に表示できるようにしたと発表した。要約には顧客の用件、エージェントの対応、未完了事項が含まれ、エージェントは履歴を読み直さずに後処理を進められる。音声・メールでは既に提供されていた機能で、今回チャットにも拡大した。東京を含む10リージョンで利用できる。AWS公式発表で確認した。",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/connect-ai-chat-summaries-ccp/",
+      "source": "AWS",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "x_url": "https://x.com/kmotohas/status/2123538581016969416",
+      "collected_at": "2026-11-20T07:26:04+09:00"
+    },
+    {
+      "headline": "PolyAIの音声対話モデル「Dialog-RSN-1」、SageMaker JumpStartカタログに掲載",
+      "summary": "AWSは11月19日、PolyAIの音声ネイティブ対話モデル「Dialog-RSN-1」がAmazon SageMaker JumpStartのカタログに加わったと発表した。通話音声を直接処理し、話者交代・音声認識・応答生成・関数呼び出しを1モデルで担うカスタマーサービス向けモデルで、ワンクリックデプロイ、評価ツール、4種の最適化プロファイルが用意され、エンドポイントは顧客自身のAWSアカウント内に置かれる。モデル自体は7月30日に発表済みで、10月にMarketplace経由のSageMaker提供が始まっていた。AWS公式ブログで確認した。",
+      "url": "https://aws.amazon.com/blogs/machine-learning/polyai-dialog-rsn-1-is-now-on-amazon-sagemaker-jumpstart/",
+      "source": "AWS Machine Learning Blog",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "unconfirmed": false,
+      "x_url": "https://x.com/korecara_ai/status/2123499590796374290",
+      "collected_at": "2026-11-20T07:26:04+09:00"
     }
   ]
 }
