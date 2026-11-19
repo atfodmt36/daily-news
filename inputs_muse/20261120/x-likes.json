@@ -1,0 +1,32 @@
+{
+  "date": "2026/11/20",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-19T08:00:00+09:00",
+    "to": "2026-11-20T08:00:00+09:00"
+  },
+  "source": "x-likes",
+  "itemCount": 2,
+  "items": [
+    {
+      "headline": "政府、AIエージェントの法的責任の本格検討へ——専門調査会を設置し来年夏ごろまでに議論をまとめる方針",
+      "summary": "買い物や旅行予約などを任せるAIエージェントをめぐり、損害が出た際の法的責任が不明瞭な問題について、政府が本格的な検討に入ることが分かった。10月に発足したAI政策の司令塔「AI・デジタル改革推進会議」の下に専門の調査会を立ち上げ、来年夏ごろまでに議論をまとめる。AIエージェントの行為と法的責任について政府が本格的に検討するのは初めてとされる。朝日新聞が11月19日に報じた。オーナーのいいねが端緒。",
+      "url": "https://www.asahi.com/articles/ASVCM2J2ZVCMULFA01LM.html?iref=ogimage_rek",
+      "topic": "政府・政策",
+      "source": "朝日新聞",
+      "unconfirmed": false,
+      "x_url": "https://x.com/GOROman/status/2123507905077068216",
+      "collected_at": "2026-11-20T08:02:23+09:00"
+    },
+    {
+      "headline": "OpenAI、「ChatGPT for Accounting」を提供開始——会計プラグインと連携で月次決算・銀行照合・監査準備を支援",
+      "summary": "OpenAIは11月18日、経理・会計業務向けの「ChatGPT for Accounting」を提供開始した。自社のAccountingプラグインと、QuickBooks、Xero、Oracle NetSuite、BILL、FreshBooks、Rillet、Campfireなどのパートナープラグインを組み合わせ、月次決算レポート、銀行照合、データ入力、監査準備といった手作業の多い業務を支援する。最終的な記帳は人間が承認する運用とされる。オーナーのいいねが端緒。",
+      "url": "https://x.com/ChatGPT/status/2123159134963196357",
+      "topic": "ビジネス・人材",
+      "source": "OpenAI",
+      "unconfirmed": false,
+      "x_url": "https://x.com/ChatGPT/status/2123159134963196357",
+      "collected_at": "2026-11-20T08:02:23+09:00"
+    }
+  ]
+}
