@@ -1,221 +1,241 @@
 {
- "date": "2026/11/21",
- "timezone": "Asia/Tokyo",
- "window": {
-  "from": "2026-11-20T08:00:00+09:00",
-  "to": "2026-11-21T08:00:00+09:00"
- },
- "source": "x",
- "itemCount": 21,
- "items": [
-  {
-   "headline": "三菱重工とさくらインターネット、ソブリンAIインフラ構築へ協業検討を開始——国産AIモジュール型データセンターで覚書を締結",
-   "summary": "三菱重工業とさくらインターネットが2026年11月18日、ソブリンAI・ソブリンクラウド時代に向けた国産デジタルインフラの強化と、高効率で迅速に構築できるAIモジュール型データセンターの実現を目指し、戦略的アライアンスを視野に入れた協業検討に関する覚書（MOU）を締結したと発表した。三菱重工の社会インフラ・高セキュリティ技術と、さくらインターネットのクラウド・データセンター運営ノウハウを持ち寄る。さくらインターネットは令和8年度のガバメントクラウド提供事業者に国産クラウド事業者として初めて採択されている。",
-   "url": "https://www.mhi.com/jp/news/261118.html",
-   "source": "三菱重工業（プレスリリース）",
-   "topic": "生成AI・その他",
-   "collected_at": "2026-11-20T23:24:00+09:00",
-   "unconfirmed": false,
-   "x_url": "https://x.com/shukatsu_care/status/2123779183155569001"
+  "date": "2026/11/21",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-20T08:00:00+09:00",
+    "to": "2026-11-21T08:00:00+09:00"
   },
-  {
-   "headline": "Vercel、エージェント協調基盤「Board」を公開——タスク共有・Slack/GitHub同期で複数エージェントが協調、全プランで利用開始",
-   "summary": "Vercelは11月18日、複数のAIエージェントと人がタスクを共有して協調作業するための実験的基盤「Vercel Board」を公開し、全プランで利用を開始した。エージェントはCLIまたはJavaScript SDK経由でチャンネル／スレッドにアクセスし、タスクのclaim（リース付き）、進捗投稿、結果記録を行える。返信やラベル変更でエージェントを起動するwatcher、将来のフォローアップを予約するschedule機能、SlackやGitHubとの双方向同期を備え、Claude Code、Codex、OpenCode、Mastraなど異なるハーネスのエージェントが協調できる。Vercelはv0のソフトウェアファクトリーをBoard上に再構築し、現在v0のPRの50%超をマージしているとしている。Vercel公式ブログで確認した。",
-   "url": "https://vercel.com/blog/introducing-vercel-board",
-   "source": "Vercel",
-   "topic": "Claude／Codex",
-   "unconfirmed": false,
-   "x_url": "https://x.com/kzhkymst/status/2123563726645363130",
-   "collected_at": "2026-11-20T09:17:30+09:00"
-  },
-  {
-   "headline": "Handshake AI、Qwen3.8-Flash-Nextを専門家タスクで追加学習——Terminal-Bench 4が11.6%から15.7%に向上しGPT-6 Luna Maxを上回る",
-   "summary": "Handshake AIは11月19日、専門家が作成したタスク約750件でQwen3.8-Flash-NextをGRPOで追加学習した結果を公表した。ターミナル作業ベンチマークTerminal-Bench 4の正答率は11.6%から15.7%へ（相対+35.3%）、pass@3は21.2%から31.8%へ向上し、Artificial Analysis公表のGPT-6 Luna Max（12.6%）を上回った。評価は256kコンテキストで実施され、学習後は未完了のまま早期に提出する割合が減り、提出内容が検証を通過する割合も上がったとしている。Handshake AI公式リサーチ記事で確認した。",
-   "url": "https://joinhandshake.com/research/ai/post-training-qwen-terminal-bench-4/",
-   "source": "Handshake AI",
-   "topic": "論文・ベンチマーク",
-   "unconfirmed": false,
-   "x_url": "https://x.com/jomulr/status/2123545413466931441",
-   "collected_at": "2026-11-20T09:17:30+09:00"
-  },
-  {
-   "headline": "Apple、単眼深度推定モデル「Depth Pro 2」を公開——写真・動画・ライブ映像で時間的に安定したメートル深度を推定",
-   "source": "Apple（Hugging Face）",
-   "summary": "Appleは単眼深度推定モデル「Depth Pro 2」をHugging Faceで公開した。写真1枚・動画・ライブ映像から、入力解像度のままメートル単位の深度を推定し、物体の縁の鋭さとフレーム間の一貫性を両立させたとしている。S（24M）／B（97M）／L（334M）／H+（872M）の4サイズと焦点距離推定モデルを用意し、Sintel／Springデータセット平均で先行手法を上回る境界F1とジッター低減を示した。重みは研究用途限定のApple Machine Learning Research Modelライセンス。Hugging Face公式モデルカードで確認した。",
-   "topic": "モデル",
-   "unconfirmed": false,
-   "url": "https://huggingface.co/apple/DepthPro2",
-   "x_url": "https://x.com/_akhaliq/status/2123586174405296481",
-   "collected_at": "2026-11-20T11:39:15+09:00"
-  },
-  {
-   "headline": "Ideogram、画像モデル「Ideogram 4.6」をリリース——ネイティブ4Kと低ドリフトの精密編集に対応",
-   "source": "Ideogram",
-   "summary": "Ideogramは11月19日、画像生成・編集モデル「Ideogram 4.6」をリリースした。最大4096×4096のネイティブ生成とマスク指定による精密編集に対応し、複数回の編集でも編集対象外のピクセルドリフトを抑える。RapidataのMulti-step Image Editリーダーボードで首位と同社は述べており、WebアプリとAPI、falやLeonardo、Runwayなどの提携プラットフォームで利用できる。Ideogram公式モデルページで確認した。",
-   "topic": "画像生成・編集",
-   "unconfirmed": false,
-   "url": "https://ideogram.ai/models/4.6",
-   "x_url": "https://x.com/tmiyatake1/status/2123568756677112300",
-   "collected_at": "2026-11-20T11:39:15+09:00"
-  },
-  {
-   "headline": "日立製作所、OpenAIのサイバー防御パートナープログラム「Daybreak Defense Network」に参画",
-   "source": "日立製作所（プレスリリース）",
-   "summary": "日立製作所は11月20日、OpenAIが推進するサイバー防御パートナープログラム「Daybreak Defense Network」に参画すると発表した。OpenAIの技術チームと連携し、適切な安全対策と人による監督を前提に、脆弱性の発見からリスクの優先順位付け、修復、修復結果の確認までをつなぐ防御ワークフローの開発・検証を進める。日立は2026年6月にOpenAIとの連携を本格化し、11月12日にはフロンティアAIで脆弱性やセキュリティリスクを検出するソースコード診断などを「HMAX Cyber」のラインアップとして提供開始している。日立のプレスリリース（日経掲載）で確認した。",
-   "topic": "AIセキュリティ",
-   "unconfirmed": false,
-   "url": "https://www.nikkei.com/article/DGXZRSP715531_Q6A121C2000000/",
-   "x_url": "https://x.com/_TK_YM_/status/2123597218905022855",
-   "collected_at": "2026-11-20T11:39:15+09:00"
-  },
-  {
-   "headline": "モノスタジオ、生成AI×プロの手修正でイラストから3Dモデルを作る制作サービス「MOKO」を提供開始",
-   "source": "PR TIMES（モノスタジオ発表）",
-   "summary": "株式会社モノスタジオは11月19日、3Dモデル制作サービス「MOKO」の提供を開始した。イラストをアップロードすると生成AIがベースモデルを作り、プロのモデラーが形状やディテールを手修正して仕上げる。価格は3Dモデル制作19,800円（税込）で最短3営業日納品、人型・二足の標準リグは+6,980円（税込）でBlender・Unityにそのまま取り込める。請求書払いにも対応する。PR TIMESのモノスタジオ発表で確認した。",
-   "topic": "3D生成・制作（クリエイティブ）",
-   "unconfirmed": false,
-   "url": "https://prtimes.jp/main/html/rd/p/000000001.000190688.html",
-   "x_url": "https://x.com/rotejin/status/2123561598971437072",
-   "collected_at": "2026-11-20T11:39:15+09:00"
-  },
-  {
-   "headline": "Zoomのストリーミング音声認識「Scribe V2.1 Pro Live」、AA-WER Streamingで首位——最終文字起こしの単語誤り率2.4%",
-   "source": "Artificial Analysis",
-   "summary": "Artificial Analysisは11月19日、独自ベンチマークAA-WER Streaming（40モデル）で、Zoomの新しいストリーミング音声認識モデル「Scribe V2.1 Pro Live」が最終文字起こしの単語誤り率2.4%で首位になったと発表した。MicrosoftのMAI-Transcribe-2-Streaming（2.5%）を僅差で上回る一方、発話終了から最終結果までの遅延は0.66秒とMAIの0.13秒より大きい。Artificial Analysisの発表で確認した。",
-   "topic": "音声AI（合成・認識・翻訳）",
-   "unconfirmed": false,
-   "url": "https://x.com/ArtificialAnlys/status/2123562077168287768",
-   "x_url": "https://x.com/ArtificialAnlys/status/2123562077168287768",
-   "collected_at": "2026-11-20T11:39:15+09:00"
-  },
-  {
-   "headline": "AWS、Partner Central Agentsが価値実現計画（VRP）の草案を自動生成可能に",
-   "source": "AWS What's New",
-   "summary": "AWSは、パートナー向けエージェント「AWS Partner Central Agents」がBusiness Value Realization（BVR）の価値実現計画（VRP）を生成できるようになったと発表した。顧客の事業目標、導入・変革管理・ガバナンスの計画、基準KPIを含む草案を、推薦データや案件情報、サービスベンチマークから作成し、顧客スポンサーの不在といった不足も指摘する。対象はBVRに参加するAdvanced／Premierティアのコンサルティング・SI・マネージドサービスパートナーで、米国東部（バージニア北部）リージョンで提供する。AWS What's Newで確認した。",
-   "topic": "エージェント",
-   "unconfirmed": false,
-   "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/partner-central-agents-bvr-vrp/",
-   "x_url": "https://x.com/kmotohas/status/2123598093388222515",
-   "collected_at": "2026-11-20T11:39:15+09:00"
-  },
-  {
-   "headline": "Tencent、フラッグシップモデル「Hy4」の重みをオープン公開——総パラメータ770B（活性49B）のMoE、1Mコンテキスト対応",
-   "source": "Tencent（Hugging Face）",
-   "summary": "TencentのHyチームは、MoEフラッグシップモデル「Hy4」とFP8版、事前学習版Hy4 baseの重みをHugging Face／ModelScope／GitCodeでオープン公開した。総パラメータ770B（トークンあたり活性49B）、コンテキスト長1Mで、テキスト・画像・動画の理解に対応する。事前学習ベンチマークではMMLU 91.6、C-Eval 95.0などを記録した。11月18日に重みが公開されたHy4 Flashに続く上位モデルのオープン公開で、Hugging Face公式モデルカードで確認した。",
-   "topic": "モデル",
-   "unconfirmed": false,
-   "url": "https://huggingface.co/tencent/Hy4",
-   "x_url": "https://x.com/nawariokra/status/2123653274901631082",
-   "collected_at": "2026-11-20T15:26:46+09:00"
-  },
-  {
-   "headline": "Sakana AI、AIセキュリティ専門の研究開発チーム「Security Research Group」を設立",
-   "source": "Sakana AI",
-   "summary": "Sakana AIは11月20日、AIを活用した集合的なサイバー防御と、AIシステム自体の安全性とセキュリティの確保を研究する独立した研究開発チーム「Security Research Group」の設立を発表した。事業活動とは切り離された公共の利益に資する組織として、研究成果や再現可能なベンチマーク、実践的なガイドラインを公開しながら、政府・産業界・学術界と連携する。長期的な重点は、設計・構築の段階で欠陥を作り込まない上流での予防に置く。Sakana AI公式ブログで確認した。",
-   "topic": "AIセキュリティ",
-   "unconfirmed": false,
-   "url": "https://sakana.ai/security-research-group/",
-   "x_url": "https://x.com/SakanaAILabs/status/2123608249710915966",
-   "collected_at": "2026-11-20T15:26:46+09:00"
-  },
-  {
-   "headline": "HUMAIN、アラビア語特化の音声AIプラットフォーム「HUMAIN Voice」を提供開始——80MのオープンウェイトASRモデルも発表",
-   "source": "HUMAIN",
-   "summary": "サウジアラビアのAI企業HUMAINは11月19日、アラビア語特化の音声AIプラットフォーム「HUMAIN Voice」の提供を開始した。音声認識、音声合成、リアルタイム音声エージェントを1つのプラットフォームで提供し、主要なアラビア語方言（15超）とアラビア語・英語の文内切り替えに対応する。80MパラメータのオープンウェイトASRモデルもあわせて発表された。データの保管場所はサウジアラビア国内としている。HUMAIN公式製品ページとReutersの報道で確認した。",
-   "topic": "音声AI（合成・認識・翻訳）",
-   "unconfirmed": false,
-   "url": "https://www.humain.com/voice",
-   "x_url": "https://x.com/raqi_ai_uae/status/2123645091441188951",
-   "collected_at": "2026-11-20T15:26:46+09:00"
-  },
-  {
-   "headline": "OpenAI、Codex CLI 0.171.0を公開——GPT-6.2 Sol／Astraをモデルカタログに追加し、TUIワークスペースを既定化",
-   "source": "OpenAI（Codex変更履歴）",
-   "summary": "OpenAIは11月20日、Codex CLI 0.171.0を公開した。GPT-6.2 SolとAstraをモデルカタログに追加し、Solをカタログの既定の選択とした。文書や画像のプレビューとサブエージェントの記録を会話の横に表示するTUIワークスペースが既定で有効になり、既存のアプリサーバー上で非対話セッションを開始・再開する「codex exec --remote」、リモート管理のための /rc と /remote、プロンプト入力の取り消し・やり直しショートカットの設定も加わった。OpenAI公式のCodex変更履歴で確認した。",
-   "topic": "Claude／Codex",
-   "unconfirmed": false,
-   "url": "https://developers.openai.com/codex/changelog/#github-release-449494076",
-   "x_url": "https://x.com/superdoccimo/status/2123626831400009906",
-   "collected_at": "2026-11-20T15:26:46+09:00"
-  },
-  {
-   "collected_at": "2026-11-20T17:15:40+09:00",
-   "headline": "TikTok、著名人向けディープフェイク検出ツール「Likeness Detection」を全世界で提供開始",
-   "source": "TikTok",
-   "summary": "TikTokは11月20日、本人の同意なく肖像を使ったAI生成コンテンツを著名人が発見・報告できる「Likeness Detection」ツールの全世界での提供開始を発表した。政治家やフォロワーの多いアカウントが対象で、段階的に展開される。2027年の欧州各国の選挙を前にしたAI生成の偽情報対策の一環で、あわせてTikTokのAIツールで作成・編集された画像や動画かを誰でも確認できる透明性ツールも同日に導入された。ロンドンでの発表をChannel NewsAsia（AFP）などが報じて確認した。",
-   "topic": "AIセキュリティ",
-   "unconfirmed": false,
-   "url": "https://www.channelnewsasia.com/world/tiktok-tool-public-figures-detect-deepfakes-6568406",
-   "x_url": "https://x.com/switchtvkenya/status/2123681953916318136"
-  },
-  {
-   "headline": "SB Intuitions、日本語特化の音声認識モデル「Sarashina3.2 ASR」を公開",
-   "source": "SB Intuitions",
-   "summary": "SB Intuitionsは11月20日、日本語に特化した音声認識モデル「Sarashina3.2 ASR」を公開した。約45万時間の日本語音声で学習し、14種の日本語評価セットで平均文字誤り率10.30%（数字・住所を含む音声では1.57%）を記録した。ストリーミング認識とオフライン認識の両方に1モデルで対応し、専門用語を事前登録して認識精度を上げるContextual Biasingも備える。Sarashina APIで同日から利用可能。同社公式ブログで確認した。",
-   "topic": "モデル",
-   "unconfirmed": false,
-   "url": "https://www.sbintuitions.co.jp/blog/entry/2026/11/20/131721",
-   "x_url": "https://x.com/kwashizzz/status/2123677718353170819",
-   "collected_at": "2026-11-20T19:28:03+09:00"
-  },
-  {
-   "headline": "Microsoft、オンデバイス小型モデル「Aion Instruct」を一般提供——Edgeの内蔵モデルとしてPhi-4-miniを置き換え、重みもオープン公開",
-   "source": "Microsoft Edge Blog",
-   "summary": "Microsoftは11月19日、2.3Bパラメータの小型言語モデル「Aion Instruct」の一般提供を発表した。Edgeの内蔵モデルとしてPhi-4-miniを置き換え、重みはMITライセンスでHugging Faceにオープン公開された（コンテキスト32K）。あわせて、Webサイトから内蔵モデルを呼び出せるPrompt APIのオリジントライアルと、確率と信頼度を返すDecisions APIの開発者プレビューも始まった。最適化版はWindowsのOS内蔵小型モデルとして2027年1月末までに展開予定。Microsoft Edge公式ブログで確認した。",
-   "topic": "モデル",
-   "unconfirmed": false,
-   "url": "https://blogs.windows.com/msedgedev/2026/11/19/hybrid-intelligence-on-the-web-introducing-aion-instruct-and-prompt-api-in-microsoft-edge/",
-   "x_url": "https://x.com/kenken0628/status/2123715398369677335",
-   "collected_at": "2026-11-20T19:28:03+09:00"
-  },
-  {
-   "headline": "KK Generation、PDF図面84枚から建物1棟のBIMを生成する「BIM生成AI」の新ベンチマークを公開——IFC再現性91.79点で汎用AIの3倍超",
-   "source": "KK Generation",
-   "summary": "KK Generationは11月19日、建設図面（PDF）からBIMモデルを自動生成する「BIM生成AI」の最新ベンチマーク結果を公表した。S造事務所の詳細図84枚（意匠66枚・構造18枚）から建物1棟を構築する評価で、IFC再現性スコアは91.79点（カスタマイズ後は96.3点）と、汎用生成AIで最良だったClaude Fable 5.2の28.2点の3倍超を記録した。積算に関わる数量精度スコアも76.1点（同96.7点）で、GPT-6 Proの15.5点の4倍超だった（いずれも同社指標）。同社ニュースリリースで確認した。",
-   "topic": "建設×AI",
-   "unconfirmed": false,
-   "url": "https://kk-generation.com/news/20261119-bim-ai-benchmark/",
-   "x_url": "https://x.com/KKG_inc/status/2123672691295039825",
-   "collected_at": "2026-11-20T19:28:03+09:00"
-  },
-  {
-   "headline": "野村総合研究所「IT活用実態調査2026」を公表——生成AI導入は7割超の一方、効果を測っていない企業が約半数",
-   "source": "野村総合研究所",
-   "summary": "野村総合研究所は11月20日、日本企業のCIO等を対象とした「ユーザー企業のIT活用実態調査（2026年）」（566社が回答、2026年9月実施）の結果を公表した。生成AIを「導入済み（または導入推進中）」と答えた企業は73.1%に達し、AIエージェントは36.7%だった。一方、生成AI導入の効果指標を測定している割合は「業務時間の変化」の39.5%が最多で、いずれの指標も測定していない企業が49.1%に上った。効果測定・コスト管理と専門人材の確保が課題として残る。同社ニュースリリースで確認した。",
-   "topic": "ビジネス・人材",
-   "unconfirmed": false,
-   "url": "https://www.nri.com/jp/news/newsrelease/20261120_1.html",
-   "x_url": "https://x.com/dreamnews_press/status/2123707892503281985",
-   "collected_at": "2026-11-20T19:28:03+09:00"
-  },
-  {
-   "headline": "デジタル庁、政府基幹システム「GSS」のファイル共有サービスで情報漏えいの可能性を発表",
-   "source": "デジタル庁",
-   "summary": "デジタル庁は11月20日、同庁が運用するガバメントソリューションサービス（GSS）のファイル共有サービスで、取り扱っていたファイルの一部が外部に漏えいした可能性があると発表した。11月12日に正規の共有相手先以外の者からのアクセスの可能性を検知して当該サービスを停止し、調査で7月30日から11月12日までの間にアクセスがあったことを確認した。漏えいの可能性があるファイルには個人情報が含まれていることも想定されるため個人情報保護委員会へ報告しており、現時点で本件に起因する二次被害は確認されていない。同庁の公式発表で確認した。",
-   "topic": "政府・政策",
-   "unconfirmed": false,
-   "url": "https://www.digital.go.jp/press/a966ee61-478c-4194-8f13-f97599fae986",
-   "x_url": "https://x.com/reltia/status/2123721722285425020",
-   "collected_at": "2026-11-20T19:28:03+09:00"
-  },
-  {
-   "headline": "欧州委員会、AIツールを用いたサイバー攻撃の標的になったと公表——人事関連システムが10日以上停止",
-   "source": "欧州委員会（Reutersほか）",
-   "summary": "欧州委員会は11月19日、AIツールを使用したサイバー攻撃の標的になったことを認めた。最初の兆候は10月22日に検知され、保護措置として給与・休暇管理などのアプリケーションを一時停止し、人事関連システムは10日以上停止した。EU機関のサイバーセキュリティ機関CERT-EUは、外部のLLMに接続して侵入テストを自律的に実行する公開ツール「ARTEX」が攻撃に使われたと特定したと報じられている。現時点で職員全体に及ぶデータ漏えいの形跡は確認されておらず、調査が続いている。Reuters等の報道とCERT-EUの公表内容で確認した。",
-   "topic": "AIセキュリティ",
-   "unconfirmed": false,
-   "url": "https://labmemo.com/eu-commission-ai-cyberattack-artex-2026-11/",
-   "x_url": "https://x.com/KOROSUKE_AI/status/2123704238257922548",
-   "collected_at": "2026-11-20T19:28:03+09:00"
-  },
-  {
-   "headline": "Geminiアプリ、スキルの共有とDrive／Notebook／Photosファイルの追加に対応",
-   "summary": "Googleは11月16日、Geminiアプリの「スキル」機能で、作成したスキルを他のユーザーと共有（閲覧／編集権限の付与）できるようにし、スキル作成時にGoogle Drive・Gemini Notebook・Google Photosのファイルをデバイス内ファイルと併せて追加できるようにしたと発表した。共有はWeb版のみで、展開は11月12日から最大15日間の段階的ロールアウト。全Google Workspace顧客と個人Googleアカウントが対象。Google Workspace Updates公式ブログで確認した。",
-   "url": "https://workspaceupdates.googleblog.com/2026/11/share-skills-add-files-from-Drive-Notebook-Photos-to-skills-Gemini-app.html",
-   "source": "Google Workspace Updates",
-   "topic": "生成AI・その他",
-   "unconfirmed": false,
-   "x_url": "https://x.com/GeckoTechnology/status/2123788911457488913"
-  }
- ]
+  "source": "x",
+  "itemCount": 23,
+  "items": [
+    {
+      "headline": "三菱重工とさくらインターネット、ソブリンAIインフラ構築へ協業検討を開始——国産AIモジュール型データセンターで覚書を締結",
+      "summary": "三菱重工業とさくらインターネットが2026年11月18日、ソブリンAI・ソブリンクラウド時代に向けた国産デジタルインフラの強化と、高効率で迅速に構築できるAIモジュール型データセンターの実現を目指し、戦略的アライアンスを視野に入れた協業検討に関する覚書（MOU）を締結したと発表した。三菱重工の社会インフラ・高セキュリティ技術と、さくらインターネットのクラウド・データセンター運営ノウハウを持ち寄る。さくらインターネットは令和8年度のガバメントクラウド提供事業者に国産クラウド事業者として初めて採択されている。",
+      "url": "https://www.mhi.com/jp/news/261118.html",
+      "source": "三菱重工業（プレスリリース）",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-20T23:24:00+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/shukatsu_care/status/2123779183155569001"
+    },
+    {
+      "headline": "Vercel、エージェント協調基盤「Board」を公開——タスク共有・Slack/GitHub同期で複数エージェントが協調、全プランで利用開始",
+      "summary": "Vercelは11月18日、複数のAIエージェントと人がタスクを共有して協調作業するための実験的基盤「Vercel Board」を公開し、全プランで利用を開始した。エージェントはCLIまたはJavaScript SDK経由でチャンネル／スレッドにアクセスし、タスクのclaim（リース付き）、進捗投稿、結果記録を行える。返信やラベル変更でエージェントを起動するwatcher、将来のフォローアップを予約するschedule機能、SlackやGitHubとの双方向同期を備え、Claude Code、Codex、OpenCode、Mastraなど異なるハーネスのエージェントが協調できる。Vercelはv0のソフトウェアファクトリーをBoard上に再構築し、現在v0のPRの50%超をマージしているとしている。Vercel公式ブログで確認した。",
+      "url": "https://vercel.com/blog/introducing-vercel-board",
+      "source": "Vercel",
+      "topic": "Claude／Codex",
+      "unconfirmed": false,
+      "x_url": "https://x.com/kzhkymst/status/2123563726645363130",
+      "collected_at": "2026-11-20T09:17:30+09:00"
+    },
+    {
+      "headline": "Handshake AI、Qwen3.8-Flash-Nextを専門家タスクで追加学習——Terminal-Bench 4が11.6%から15.7%に向上しGPT-6 Luna Maxを上回る",
+      "summary": "Handshake AIは11月19日、専門家が作成したタスク約750件でQwen3.8-Flash-NextをGRPOで追加学習した結果を公表した。ターミナル作業ベンチマークTerminal-Bench 4の正答率は11.6%から15.7%へ（相対+35.3%）、pass@3は21.2%から31.8%へ向上し、Artificial Analysis公表のGPT-6 Luna Max（12.6%）を上回った。評価は256kコンテキストで実施され、学習後は未完了のまま早期に提出する割合が減り、提出内容が検証を通過する割合も上がったとしている。Handshake AI公式リサーチ記事で確認した。",
+      "url": "https://joinhandshake.com/research/ai/post-training-qwen-terminal-bench-4/",
+      "source": "Handshake AI",
+      "topic": "論文・ベンチマーク",
+      "unconfirmed": false,
+      "x_url": "https://x.com/jomulr/status/2123545413466931441",
+      "collected_at": "2026-11-20T09:17:30+09:00"
+    },
+    {
+      "headline": "Apple、単眼深度推定モデル「Depth Pro 2」を公開——写真・動画・ライブ映像で時間的に安定したメートル深度を推定",
+      "source": "Apple（Hugging Face）",
+      "summary": "Appleは単眼深度推定モデル「Depth Pro 2」をHugging Faceで公開した。写真1枚・動画・ライブ映像から、入力解像度のままメートル単位の深度を推定し、物体の縁の鋭さとフレーム間の一貫性を両立させたとしている。S（24M）／B（97M）／L（334M）／H+（872M）の4サイズと焦点距離推定モデルを用意し、Sintel／Springデータセット平均で先行手法を上回る境界F1とジッター低減を示した。重みは研究用途限定のApple Machine Learning Research Modelライセンス。Hugging Face公式モデルカードで確認した。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://huggingface.co/apple/DepthPro2",
+      "x_url": "https://x.com/_akhaliq/status/2123586174405296481",
+      "collected_at": "2026-11-20T11:39:15+09:00"
+    },
+    {
+      "headline": "Ideogram、画像モデル「Ideogram 4.6」をリリース——ネイティブ4Kと低ドリフトの精密編集に対応",
+      "source": "Ideogram",
+      "summary": "Ideogramは11月19日、画像生成・編集モデル「Ideogram 4.6」をリリースした。最大4096×4096のネイティブ生成とマスク指定による精密編集に対応し、複数回の編集でも編集対象外のピクセルドリフトを抑える。RapidataのMulti-step Image Editリーダーボードで首位と同社は述べており、WebアプリとAPI、falやLeonardo、Runwayなどの提携プラットフォームで利用できる。Ideogram公式モデルページで確認した。",
+      "topic": "画像生成・編集",
+      "unconfirmed": false,
+      "url": "https://ideogram.ai/models/4.6",
+      "x_url": "https://x.com/tmiyatake1/status/2123568756677112300",
+      "collected_at": "2026-11-20T11:39:15+09:00"
+    },
+    {
+      "headline": "日立製作所、OpenAIのサイバー防御パートナープログラム「Daybreak Defense Network」に参画",
+      "source": "日立製作所（プレスリリース）",
+      "summary": "日立製作所は11月20日、OpenAIが推進するサイバー防御パートナープログラム「Daybreak Defense Network」に参画すると発表した。OpenAIの技術チームと連携し、適切な安全対策と人による監督を前提に、脆弱性の発見からリスクの優先順位付け、修復、修復結果の確認までをつなぐ防御ワークフローの開発・検証を進める。日立は2026年6月にOpenAIとの連携を本格化し、11月12日にはフロンティアAIで脆弱性やセキュリティリスクを検出するソースコード診断などを「HMAX Cyber」のラインアップとして提供開始している。日立のプレスリリース（日経掲載）で確認した。",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "url": "https://www.nikkei.com/article/DGXZRSP715531_Q6A121C2000000/",
+      "x_url": "https://x.com/_TK_YM_/status/2123597218905022855",
+      "collected_at": "2026-11-20T11:39:15+09:00"
+    },
+    {
+      "headline": "モノスタジオ、生成AI×プロの手修正でイラストから3Dモデルを作る制作サービス「MOKO」を提供開始",
+      "source": "PR TIMES（モノスタジオ発表）",
+      "summary": "株式会社モノスタジオは11月19日、3Dモデル制作サービス「MOKO」の提供を開始した。イラストをアップロードすると生成AIがベースモデルを作り、プロのモデラーが形状やディテールを手修正して仕上げる。価格は3Dモデル制作19,800円（税込）で最短3営業日納品、人型・二足の標準リグは+6,980円（税込）でBlender・Unityにそのまま取り込める。請求書払いにも対応する。PR TIMESのモノスタジオ発表で確認した。",
+      "topic": "3D生成・制作（クリエイティブ）",
+      "unconfirmed": false,
+      "url": "https://prtimes.jp/main/html/rd/p/000000001.000190688.html",
+      "x_url": "https://x.com/rotejin/status/2123561598971437072",
+      "collected_at": "2026-11-20T11:39:15+09:00"
+    },
+    {
+      "headline": "Zoomのストリーミング音声認識「Scribe V2.1 Pro Live」、AA-WER Streamingで首位——最終文字起こしの単語誤り率2.4%",
+      "source": "Artificial Analysis",
+      "summary": "Artificial Analysisは11月19日、独自ベンチマークAA-WER Streaming（40モデル）で、Zoomの新しいストリーミング音声認識モデル「Scribe V2.1 Pro Live」が最終文字起こしの単語誤り率2.4%で首位になったと発表した。MicrosoftのMAI-Transcribe-2-Streaming（2.5%）を僅差で上回る一方、発話終了から最終結果までの遅延は0.66秒とMAIの0.13秒より大きい。Artificial Analysisの発表で確認した。",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "unconfirmed": false,
+      "url": "https://x.com/ArtificialAnlys/status/2123562077168287768",
+      "x_url": "https://x.com/ArtificialAnlys/status/2123562077168287768",
+      "collected_at": "2026-11-20T11:39:15+09:00"
+    },
+    {
+      "headline": "AWS、Partner Central Agentsが価値実現計画（VRP）の草案を自動生成可能に",
+      "source": "AWS What's New",
+      "summary": "AWSは、パートナー向けエージェント「AWS Partner Central Agents」がBusiness Value Realization（BVR）の価値実現計画（VRP）を生成できるようになったと発表した。顧客の事業目標、導入・変革管理・ガバナンスの計画、基準KPIを含む草案を、推薦データや案件情報、サービスベンチマークから作成し、顧客スポンサーの不在といった不足も指摘する。対象はBVRに参加するAdvanced／Premierティアのコンサルティング・SI・マネージドサービスパートナーで、米国東部（バージニア北部）リージョンで提供する。AWS What's Newで確認した。",
+      "topic": "エージェント",
+      "unconfirmed": false,
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/partner-central-agents-bvr-vrp/",
+      "x_url": "https://x.com/kmotohas/status/2123598093388222515",
+      "collected_at": "2026-11-20T11:39:15+09:00"
+    },
+    {
+      "headline": "Tencent、フラッグシップモデル「Hy4」の重みをオープン公開——総パラメータ770B（活性49B）のMoE、1Mコンテキスト対応",
+      "source": "Tencent（Hugging Face）",
+      "summary": "TencentのHyチームは、MoEフラッグシップモデル「Hy4」とFP8版、事前学習版Hy4 baseの重みをHugging Face／ModelScope／GitCodeでオープン公開した。総パラメータ770B（トークンあたり活性49B）、コンテキスト長1Mで、テキスト・画像・動画の理解に対応する。事前学習ベンチマークではMMLU 91.6、C-Eval 95.0などを記録した。11月18日に重みが公開されたHy4 Flashに続く上位モデルのオープン公開で、Hugging Face公式モデルカードで確認した。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://huggingface.co/tencent/Hy4",
+      "x_url": "https://x.com/nawariokra/status/2123653274901631082",
+      "collected_at": "2026-11-20T15:26:46+09:00"
+    },
+    {
+      "headline": "Sakana AI、AIセキュリティ専門の研究開発チーム「Security Research Group」を設立",
+      "source": "Sakana AI",
+      "summary": "Sakana AIは11月20日、AIを活用した集合的なサイバー防御と、AIシステム自体の安全性とセキュリティの確保を研究する独立した研究開発チーム「Security Research Group」の設立を発表した。事業活動とは切り離された公共の利益に資する組織として、研究成果や再現可能なベンチマーク、実践的なガイドラインを公開しながら、政府・産業界・学術界と連携する。長期的な重点は、設計・構築の段階で欠陥を作り込まない上流での予防に置く。Sakana AI公式ブログで確認した。",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "url": "https://sakana.ai/security-research-group/",
+      "x_url": "https://x.com/SakanaAILabs/status/2123608249710915966",
+      "collected_at": "2026-11-20T15:26:46+09:00"
+    },
+    {
+      "headline": "HUMAIN、アラビア語特化の音声AIプラットフォーム「HUMAIN Voice」を提供開始——80MのオープンウェイトASRモデルも発表",
+      "source": "HUMAIN",
+      "summary": "サウジアラビアのAI企業HUMAINは11月19日、アラビア語特化の音声AIプラットフォーム「HUMAIN Voice」の提供を開始した。音声認識、音声合成、リアルタイム音声エージェントを1つのプラットフォームで提供し、主要なアラビア語方言（15超）とアラビア語・英語の文内切り替えに対応する。80MパラメータのオープンウェイトASRモデルもあわせて発表された。データの保管場所はサウジアラビア国内としている。HUMAIN公式製品ページとReutersの報道で確認した。",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "unconfirmed": false,
+      "url": "https://www.humain.com/voice",
+      "x_url": "https://x.com/raqi_ai_uae/status/2123645091441188951",
+      "collected_at": "2026-11-20T15:26:46+09:00"
+    },
+    {
+      "headline": "OpenAI、Codex CLI 0.171.0を公開——GPT-6.2 Sol／Astraをモデルカタログに追加し、TUIワークスペースを既定化",
+      "source": "OpenAI（Codex変更履歴）",
+      "summary": "OpenAIは11月20日、Codex CLI 0.171.0を公開した。GPT-6.2 SolとAstraをモデルカタログに追加し、Solをカタログの既定の選択とした。文書や画像のプレビューとサブエージェントの記録を会話の横に表示するTUIワークスペースが既定で有効になり、既存のアプリサーバー上で非対話セッションを開始・再開する「codex exec --remote」、リモート管理のための /rc と /remote、プロンプト入力の取り消し・やり直しショートカットの設定も加わった。OpenAI公式のCodex変更履歴で確認した。",
+      "topic": "Claude／Codex",
+      "unconfirmed": false,
+      "url": "https://developers.openai.com/codex/changelog/#github-release-449494076",
+      "x_url": "https://x.com/superdoccimo/status/2123626831400009906",
+      "collected_at": "2026-11-20T15:26:46+09:00"
+    },
+    {
+      "collected_at": "2026-11-20T17:15:40+09:00",
+      "headline": "TikTok、著名人向けディープフェイク検出ツール「Likeness Detection」を全世界で提供開始",
+      "source": "TikTok",
+      "summary": "TikTokは11月20日、本人の同意なく肖像を使ったAI生成コンテンツを著名人が発見・報告できる「Likeness Detection」ツールの全世界での提供開始を発表した。政治家やフォロワーの多いアカウントが対象で、段階的に展開される。2027年の欧州各国の選挙を前にしたAI生成の偽情報対策の一環で、あわせてTikTokのAIツールで作成・編集された画像や動画かを誰でも確認できる透明性ツールも同日に導入された。ロンドンでの発表をChannel NewsAsia（AFP）などが報じて確認した。",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "url": "https://www.channelnewsasia.com/world/tiktok-tool-public-figures-detect-deepfakes-6568406",
+      "x_url": "https://x.com/switchtvkenya/status/2123681953916318136"
+    },
+    {
+      "headline": "SB Intuitions、日本語特化の音声認識モデル「Sarashina3.2 ASR」を公開",
+      "source": "SB Intuitions",
+      "summary": "SB Intuitionsは11月20日、日本語に特化した音声認識モデル「Sarashina3.2 ASR」を公開した。約45万時間の日本語音声で学習し、14種の日本語評価セットで平均文字誤り率10.30%（数字・住所を含む音声では1.57%）を記録した。ストリーミング認識とオフライン認識の両方に1モデルで対応し、専門用語を事前登録して認識精度を上げるContextual Biasingも備える。Sarashina APIで同日から利用可能。同社公式ブログで確認した。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://www.sbintuitions.co.jp/blog/entry/2026/11/20/131721",
+      "x_url": "https://x.com/kwashizzz/status/2123677718353170819",
+      "collected_at": "2026-11-20T19:28:03+09:00"
+    },
+    {
+      "headline": "Microsoft、オンデバイス小型モデル「Aion Instruct」を一般提供——Edgeの内蔵モデルとしてPhi-4-miniを置き換え、重みもオープン公開",
+      "source": "Microsoft Edge Blog",
+      "summary": "Microsoftは11月19日、2.3Bパラメータの小型言語モデル「Aion Instruct」の一般提供を発表した。Edgeの内蔵モデルとしてPhi-4-miniを置き換え、重みはMITライセンスでHugging Faceにオープン公開された（コンテキスト32K）。あわせて、Webサイトから内蔵モデルを呼び出せるPrompt APIのオリジントライアルと、確率と信頼度を返すDecisions APIの開発者プレビューも始まった。最適化版はWindowsのOS内蔵小型モデルとして2027年1月末までに展開予定。Microsoft Edge公式ブログで確認した。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://blogs.windows.com/msedgedev/2026/11/19/hybrid-intelligence-on-the-web-introducing-aion-instruct-and-prompt-api-in-microsoft-edge/",
+      "x_url": "https://x.com/kenken0628/status/2123715398369677335",
+      "collected_at": "2026-11-20T19:28:03+09:00"
+    },
+    {
+      "headline": "KK Generation、PDF図面84枚から建物1棟のBIMを生成する「BIM生成AI」の新ベンチマークを公開——IFC再現性91.79点で汎用AIの3倍超",
+      "source": "KK Generation",
+      "summary": "KK Generationは11月19日、建設図面（PDF）からBIMモデルを自動生成する「BIM生成AI」の最新ベンチマーク結果を公表した。S造事務所の詳細図84枚（意匠66枚・構造18枚）から建物1棟を構築する評価で、IFC再現性スコアは91.79点（カスタマイズ後は96.3点）と、汎用生成AIで最良だったClaude Fable 5.2の28.2点の3倍超を記録した。積算に関わる数量精度スコアも76.1点（同96.7点）で、GPT-6 Proの15.5点の4倍超だった（いずれも同社指標）。同社ニュースリリースで確認した。",
+      "topic": "建設×AI",
+      "unconfirmed": false,
+      "url": "https://kk-generation.com/news/20261119-bim-ai-benchmark/",
+      "x_url": "https://x.com/KKG_inc/status/2123672691295039825",
+      "collected_at": "2026-11-20T19:28:03+09:00"
+    },
+    {
+      "headline": "野村総合研究所「IT活用実態調査2026」を公表——生成AI導入は7割超の一方、効果を測っていない企業が約半数",
+      "source": "野村総合研究所",
+      "summary": "野村総合研究所は11月20日、日本企業のCIO等を対象とした「ユーザー企業のIT活用実態調査（2026年）」（566社が回答、2026年9月実施）の結果を公表した。生成AIを「導入済み（または導入推進中）」と答えた企業は73.1%に達し、AIエージェントは36.7%だった。一方、生成AI導入の効果指標を測定している割合は「業務時間の変化」の39.5%が最多で、いずれの指標も測定していない企業が49.1%に上った。効果測定・コスト管理と専門人材の確保が課題として残る。同社ニュースリリースで確認した。",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "url": "https://www.nri.com/jp/news/newsrelease/20261120_1.html",
+      "x_url": "https://x.com/dreamnews_press/status/2123707892503281985",
+      "collected_at": "2026-11-20T19:28:03+09:00"
+    },
+    {
+      "headline": "デジタル庁、政府基幹システム「GSS」のファイル共有サービスで情報漏えいの可能性を発表",
+      "source": "デジタル庁",
+      "summary": "デジタル庁は11月20日、同庁が運用するガバメントソリューションサービス（GSS）のファイル共有サービスで、取り扱っていたファイルの一部が外部に漏えいした可能性があると発表した。11月12日に正規の共有相手先以外の者からのアクセスの可能性を検知して当該サービスを停止し、調査で7月30日から11月12日までの間にアクセスがあったことを確認した。漏えいの可能性があるファイルには個人情報が含まれていることも想定されるため個人情報保護委員会へ報告しており、現時点で本件に起因する二次被害は確認されていない。同庁の公式発表で確認した。",
+      "topic": "政府・政策",
+      "unconfirmed": false,
+      "url": "https://www.digital.go.jp/press/a966ee61-478c-4194-8f13-f97599fae986",
+      "x_url": "https://x.com/reltia/status/2123721722285425020",
+      "collected_at": "2026-11-20T19:28:03+09:00"
+    },
+    {
+      "headline": "欧州委員会、AIツールを用いたサイバー攻撃の標的になったと公表——人事関連システムが10日以上停止",
+      "source": "欧州委員会（Reutersほか）",
+      "summary": "欧州委員会は11月19日、AIツールを使用したサイバー攻撃の標的になったことを認めた。最初の兆候は10月22日に検知され、保護措置として給与・休暇管理などのアプリケーションを一時停止し、人事関連システムは10日以上停止した。EU機関のサイバーセキュリティ機関CERT-EUは、外部のLLMに接続して侵入テストを自律的に実行する公開ツール「ARTEX」が攻撃に使われたと特定したと報じられている。現時点で職員全体に及ぶデータ漏えいの形跡は確認されておらず、調査が続いている。Reuters等の報道とCERT-EUの公表内容で確認した。",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "url": "https://labmemo.com/eu-commission-ai-cyberattack-artex-2026-11/",
+      "x_url": "https://x.com/KOROSUKE_AI/status/2123704238257922548",
+      "collected_at": "2026-11-20T19:28:03+09:00"
+    },
+    {
+      "headline": "Geminiアプリ、スキルの共有とDrive／Notebook／Photosファイルの追加に対応",
+      "summary": "Googleは11月16日、Geminiアプリの「スキル」機能で、作成したスキルを他のユーザーと共有（閲覧／編集権限の付与）できるようにし、スキル作成時にGoogle Drive・Gemini Notebook・Google Photosのファイルをデバイス内ファイルと併せて追加できるようにしたと発表した。共有はWeb版のみで、展開は11月12日から最大15日間の段階的ロールアウト。全Google Workspace顧客と個人Googleアカウントが対象。Google Workspace Updates公式ブログで確認した。",
+      "url": "https://workspaceupdates.googleblog.com/2026/11/share-skills-add-files-from-Drive-Notebook-Photos-to-skills-Gemini-app.html",
+      "source": "Google Workspace Updates",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "x_url": "https://x.com/GeckoTechnology/status/2123788911457488913"
+    },
+    {
+      "headline": "Geminiアプリ、動画モデルOmni 1.2 FlashによるGIF作成に対応",
+      "summary": "Googleは11月20日、Geminiアプリで最新の動画モデル「Gemini Omni 1.2 Flash」を使ったGIF作成に対応したと公式Xアカウントで発表した。ループする写真加工からミームまで、思い描いたGIFを作成できる。基盤モデル自体は11月5日に一般提供が始まっており、今回はコンシューマー向け機能としての展開となる。",
+      "url": "https://x.com/GeminiApp/status/2123813017855103449",
+      "source": "Google Gemini",
+      "topic": "映像生成・動画AI",
+      "unconfirmed": false,
+      "x_url": "https://x.com/GeminiApp/status/2123813017855103449",
+      "collected_at": "2026-11-21T03:24:18+09:00"
+    },
+    {
+      "headline": "AI insideと橋本ホールディングス、JV設立を見据えたデータセンター構想「Sovereign Grid」を発表",
+      "summary": "AI insideは橋本ホールディングスと事業提携および合弁会社（JV）設立検討に関する覚書を締結し、11月20日に共同会見を開いた。国産AI推論網「Sovereign Grid」と推論専用ハードウェア「AI inside Cube Atlas」を軸に、データセンター建設とAIサービスの事業化を焼津から検証し、2027年4月を目処にJV設立の可否を判断する。建設現場や地域企業の業務AI化も検討する。AI insideのプレスリリース（PR TIMES）で確認した。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000237.000024457.html",
+      "source": "AI inside（PR TIMES）",
+      "topic": "建設×AI",
+      "unconfirmed": false,
+      "x_url": "https://x.com/komoriapp/status/2123826798081478702",
+      "collected_at": "2026-11-21T03:24:18+09:00"
+    }
+  ]
 }
