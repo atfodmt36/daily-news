@@ -6,7 +6,7 @@
     "to": "2026-11-21T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 12,
+  "itemCount": 13,
   "items": [
     {
       "headline": "Vercel、エージェント協調基盤「Board」を公開——タスク共有・Slack/GitHub同期で複数エージェントが協調、全プランで利用開始",
@@ -127,6 +127,16 @@
       "url": "https://developers.openai.com/codex/changelog/#github-release-449494076",
       "x_url": "https://x.com/superdoccimo/status/2123626831400009906",
       "collected_at": "2026-11-20T15:26:46+09:00"
+    },
+    {
+      "collected_at": "2026-11-20T17:15:40+09:00",
+      "headline": "TikTok、著名人向けディープフェイク検出ツール「Likeness Detection」を全世界で提供開始",
+      "source": "TikTok",
+      "summary": "TikTokは11月20日、本人の同意なく肖像を使ったAI生成コンテンツを著名人が発見・報告できる「Likeness Detection」ツールの全世界での提供開始を発表した。政治家やフォロワーの多いアカウントが対象で、段階的に展開される。2027年の欧州各国の選挙を前にしたAI生成の偽情報対策の一環で、あわせてTikTokのAIツールで作成・編集された画像や動画かを誰でも確認できる透明性ツールも同日に導入された。ロンドンでの発表をChannel NewsAsia（AFP）などが報じて確認した。",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "url": "https://www.channelnewsasia.com/world/tiktok-tool-public-figures-detect-deepfakes-6568406",
+      "x_url": "https://x.com/switchtvkenya/status/2123681953916318136"
     }
   ]
 }
