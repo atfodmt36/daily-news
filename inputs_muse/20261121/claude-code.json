@@ -1,0 +1,301 @@
+{
+  "date": "2026/11/21",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-20T08:00:00+09:00",
+    "to": "2026-11-21T08:00:00+09:00"
+  },
+  "source": "claude-code",
+  "itemCount": 16,
+  "items": [
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Microsoft Copilot、ライセンス上限超過後もCopilot Creditsで利用継続（従量課金）",
+      "summary": "ライセンスの利用上限に達した後もCopilot Creditsによる従量課金(UBB)でモデル利用を継続可能にする機能。2026年12月より展開予定(MC1557754)。",
+      "url": "https://www.microsoft.com/releasecommunications/api/v2/m365/rss",
+      "source": "Microsoft 365 Message Center (MC1557754)",
+      "published_at": "2026-11-21T02:47:55+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "pricing",
+        "licensing"
+      ],
+      "collected_at": "2026-11-21T08:26:24+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Microsoft Copilot、GPT-6.2 Sol と Astra を展開",
+      "summary": "複数アプリでAIモデルの選択肢を拡大し、GPT-6.2 Sol および Astra を展開(MC1560916)。",
+      "url": "https://www.microsoft.com/releasecommunications/api/v2/m365/rss",
+      "source": "Microsoft 365 Message Center (MC1560916)",
+      "published_at": "2026-11-20T08:58:17+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "model",
+        "borderline"
+      ],
+      "collected_at": "2026-11-21T08:26:24+09:00"
+    },
+    {
+      "topic": "Claude",
+      "headline": "Claudeのコンピュータ利用(Computer use)がTeam/Enterpriseプラン向けベータで提供開始",
+      "summary": "Claudeがユーザーの画面を見て許可されたデスクトップアプリ上で操作できる「Computer use」が、Claude Desktop/Web/モバイルのTeam・Enterpriseプランでベータ提供を開始。既定ではオフで、OwnerまたはPrimary Ownerのみが有効化でき、アプリの許可/ブロックリストや管理デバイス向けポリシーキーなどの管理機能を備える。",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "source": "support.claude.com",
+      "published_at": "2026-11-20T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "beta",
+      "tags": [
+        "date-only",
+        "enterprise",
+        "team",
+        "computer-use"
+      ],
+      "related_urls": [
+        "https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans"
+      ],
+      "collected_at": "2026-11-21T08:26:24+09:00"
+    },
+    {
+      "topic": "Claude Code",
+      "headline": "Claude Code v2.1.330: Enterprise Admin Console管理組織へのサインインとチャート描画mod「easel」を追加",
+      "summary": "Anthropic Enterprise Admin Consoleで管理される組織へのサインインに対応し、依頼に応じてチャートを描画する組み込みmod「easel」を追加。あわせて会話圧縮時やWebFetchのフリーズ、worktree削除に伴う並行セッションへの影響、設定同時保存時の消失などの不具合を多数修正。",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
+      "source": "github.com/anthropics/claude-code",
+      "published_at": "2026-11-21T07:32:56+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "changelog",
+        "enterprise",
+        "auth"
+      ],
+      "related_urls": [
+        "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md",
+        "https://github.com/anthropics/claude-code/releases/tag/v2.1.329"
+      ],
+      "collected_at": "2026-11-21T08:26:24+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "OpenAI、API向け音声モデル「GPT-Live-1.1」を公開",
+      "summary": "多言語音声会話の発音・アクセントの一貫性・文字起こし精度を改善したGPT-Live-1.1をv1/live/sessionsで提供。GPT-Live-1/1.1のWebRTCセッションで無操作時に推論を一時停止し発話時に再開するスタンバイ構成も追加。",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "source": "OpenAI API Changelog",
+      "published_at": "2026-11-20T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "date-only",
+        "api",
+        "voice"
+      ],
+      "collected_at": "2026-11-21T08:26:24+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "ChatGPT「Space」が18歳以上のPlusユーザー向けにグローバル展開開始",
+      "summary": "ChatGPTでインタラクティブなページやプレゼンを作成し、Space利用者を招いて共同編集できる「Space」が11/20よりPlusユーザー(18歳以上)に全展開。Libraryを置き換え、ページ・スライド・画像・アップロードファイルの新たなホームとなる。",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source": "ChatGPT Release Notes",
+      "published_at": "2026-11-20T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "date-only",
+        "secondary"
+      ],
+      "collected_at": "2026-11-21T08:26:24+09:00"
+    },
+    {
+      "topic": "Codex",
+      "headline": "Codex CLI 0.171.0 をリリース（TUIワークスペースを既定で有効化）",
+      "summary": "検索可能なドキュメント/画像プレビューやサブエージェントのトランスクリプトを備えたTUIワークスペースが安定版となり既定で有効化。コンポーザーのundo/redo、`codex exec --remote`、`/rc`・`/remote`、`/statusline`等を追加し多数のバグ修正を実施。",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0",
+      "source": "openai/codex GitHub Releases",
+      "published_at": "2026-11-20T09:47:14+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "changelog"
+      ],
+      "related_urls": [
+        "https://learn.chatgpt.com/docs/changelog"
+      ],
+      "collected_at": "2026-11-21T08:26:24+09:00"
+    },
+    {
+      "topic": "Microsoft Foundry",
+      "headline": "Foundry Managed Compute が一般提供（GA）、オープンモデルを専用GPUで本番運用可能に",
+      "summary": "Microsoft FoundryのManaged ComputeがGAとなり、150以上のオープンモデルを専用GPU(NVIDIA A100/H100/H200、AMD MI300X)でデプロイ可能。フロンティアモデルと同一のエンドポイント/SDKで利用でき、アクセラレータごとの時間課金。Global/US Data Zone/EU Data Zoneに対応。",
+      "url": "https://devblogs.microsoft.com/foundry/managed-compute-ga/",
+      "source": "Microsoft Foundry Blog",
+      "published_at": "2026-11-21T00:00:44+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "related_urls": [
+        "https://learn.microsoft.com/en-us/azure/foundry/whats-new-foundry"
+      ],
+      "collected_at": "2026-11-21T08:26:24+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "PaveSplat：高解像度でも破綻しないフィードフォワード型ガウシアンスプラッティングを提案",
+      "summary": "解析的な面整合共分散に学習済み残差補正(クォータニオンベース)を加え、高解像度レンダリング時のサーフェル被覆の穴を解消する手法。RealEstate10KおよびゼロショットのDL3DVで高解像度帯の性能向上を示した。",
+      "url": "https://arxiv.org/abs/2611.26045",
+      "source": "arXiv",
+      "published_at": "2026-11-20T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "date-only",
+        "3dgs",
+        "feed-forward",
+        "novel-view-synthesis"
+      ],
+      "related_urls": [
+        "https://github.com/ArchitectureWorld/3dgs-pano/issues/87"
+      ],
+      "collected_at": "2026-11-21T08:26:24+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "AGSR：マルチアパーチャ融合によるガウシアンスプラッティングの推論時超解像",
+      "summary": "再学習不要の軽量フレームワークで、マルチアパーチャ融合と不確実性誘導の特徴集約により3DGSのレンダリング品質を向上。リアルタイム性を維持しつつ超解像を実現する。",
+      "url": "https://arxiv.org/abs/2611.25934",
+      "source": "arXiv",
+      "published_at": "2026-11-20T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "date-only",
+        "3dgs",
+        "super-resolution",
+        "inference-time"
+      ],
+      "related_urls": [
+        "https://github.com/ArchitectureWorld/3dgs-pano/issues/87"
+      ],
+      "collected_at": "2026-11-21T08:26:24+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "DfD-GS：デフォーカスを手がかりに単一視点からメトリックスケールの深度推定と新視点合成",
+      "summary": "全焦点画像とデフォーカス画像のペアからボケを深度手がかりとして利用し、単一視点でメトリックスケールの3Dシーン形状を復元して新視点合成を可能にするフレームワーク。",
+      "url": "https://arxiv.org/abs/2611.26072",
+      "source": "arXiv",
+      "published_at": "2026-11-20T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "date-only",
+        "3dgs",
+        "depth-estimation",
+        "single-view"
+      ],
+      "related_urls": [
+        "https://github.com/ArchitectureWorld/3dgs-pano/issues/87"
+      ],
+      "collected_at": "2026-11-21T08:26:24+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "CryoGaussian：ガウシアンスプラッティングで不均一なクライオEM再構成を明示的に表現",
+      "summary": "ガウシアンスプラッティングを科学イメージングに応用し、巨大分子構造の不均一なクライオ電子顕微鏡再構成を明示的に扱う手法。",
+      "url": "https://arxiv.org/abs/2611.26128",
+      "source": "arXiv",
+      "published_at": "2026-11-20T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "date-only",
+        "3dgs",
+        "cryo-em",
+        "scientific-imaging",
+        "borderline"
+      ],
+      "related_urls": [
+        "https://github.com/ArchitectureWorld/3dgs-pano/issues/87"
+      ],
+      "collected_at": "2026-11-21T08:26:24+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "NRI「IT活用実態調査（2026年）」発表、生成AI導入73.1%・AIエージェント導入36.7%、効果測定は約半数が未実施",
+      "summary": "野村総合研究所が国内566社対象の調査結果を2026年11月20日に発表。生成AIの導入済み(推進中含む)は73.1%、AIエージェントは導入済み36.7%・検討中50.0%に達した一方、AI効果の指標を『いずれも測定していない』企業が49.1%で、成果創出と効果測定が課題とされた。",
+      "url": "https://www.nri.com/jp/news/newsrelease/20261120_1.html",
+      "source": "株式会社野村総合研究所（NRI）",
+      "published_at": "2026-11-20T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "date-only",
+        "調査",
+        "効果測定",
+        "AIエージェント"
+      ],
+      "collected_at": "2026-11-21T08:26:24+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "DeNA、部署配属型AIエージェント「AI社員 by DeNA」を外部企業向けに提供開始",
+      "summary": "DeNAは2026年11月20日、AIに独立アカウントと所属を与え同僚として業務を任せる『AI社員 by DeNA』の外部提供を発表。会計システム開発・保守チームに配属した事例では8営業日で52.6時間分(1日平均8時間勤務の約80%相当)の業務を担い、社内では購買・情報システム等で30体が稼働中。料金は初期費用＋従量課金の月額で個別見積り。",
+      "url": "https://dena.com/jp/news/5481/",
+      "source": "株式会社ディー・エヌ・エー（DeNA）",
+      "published_at": "2026-11-20T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "date-only",
+        "AIエージェント",
+        "業務効率化",
+        "製品発表"
+      ],
+      "related_urls": [
+        "https://ai.watch.impress.co.jp/docs/news/2158218.html"
+      ],
+      "collected_at": "2026-11-21T08:26:24+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "LIDDELL、マーケティング実務を担うAIチーム「マーケティングエージェント」を発表",
+      "summary": "LIDDELLは2026年11月20日、ブランドマネージャーAIを司令塔に記事・SNS・制作・広告・分析の各担当AIが連携してマーケティング業務を自律実行する『マーケティングエージェント』を発表。第1弾のブランドマネージャーAIから順次提供を開始する。マーケティング部門向けの部門特化AI製品の発表。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000535.000011944.html",
+      "source": "LIDDELL株式会社（PR TIMES）",
+      "published_at": "2026-11-20T12:00:00+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "borderline",
+        "マーケティング",
+        "AIエージェント",
+        "製品発表"
+      ],
+      "collected_at": "2026-11-21T08:26:24+09:00"
+    },
+    {
+      "topic": "その他",
+      "headline": "Mistral、シンガポールにアジア太平洋地域本部を開設し「ソブリンAI」展開を加速",
+      "summary": "Mistralは2026年11月20日、シンガポールにアジア太平洋地域本部を開設したと発表した。同拠点をScience Hubの拡張と位置づけ、2027年までにAPAC人員を200名へ倍増させ、公共部門・ハイテク・ロボティクス向けモデルを開発する。",
+      "url": "https://thenextweb.com/news/mistral-opens-asia-pacific-headquarters-in-singapore-to-build-sovereign-ai",
+      "source": "Mistral AI（メディア報道経由）",
+      "published_at": "2026-11-20T22:16:00+09:00",
+      "unconfirmed": true,
+      "status": "other",
+      "tags": [
+        "borderline",
+        "corporate",
+        "mistral",
+        "apac",
+        "unconfirmed-primary"
+      ],
+      "related_urls": [
+        "https://fortune.com/2026/11/20/mistral-picks-singapore-apac-hq",
+        "https://technode.global/2026/11/20/frances-ai-company-mistral-opens-asia-pacific-headquarters-in-singapore-plans-200-staff-by-2027/"
+      ],
+      "collected_at": "2026-11-21T08:26:24+09:00"
+    }
+  ]
+}
