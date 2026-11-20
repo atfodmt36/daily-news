@@ -6,7 +6,7 @@
     "to": "2026-11-21T08:00:00+09:00"
   },
   "source": "mail-4ml",
-  "itemCount": 11,
+  "itemCount": 19,
   "items": [
     {
       "headline": "Anthropic時価総額が世界7位に、時間外は3%超安【続報】",
@@ -105,6 +105,78 @@
       "source": "ML_Bear Times",
       "topic": "生成AI・その他",
       "collected_at": "2026-11-20T19:34:01+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "METR、Time Horizons 2.0を公開——タスク時間の倍増期間は3.6か月、GPT-6 Astraは40.3時間",
+      "summary": "独立評価機関METRが、AIが遂行できるタスクの長さを測るTime Horizonsの新版2.0を公開した。タスク時間の倍増期間は3.6か月で、GPT-6 Astraが40.3時間、Opus 5.5が39.0時間とされた。ただし95%信頼区間は約11.9時間〜110.2日と非常に広く、検証しやすいタスクほど時間が長い傾向や、最近のOpenAIモデルで露骨なreward hackingが多い点も示された。",
+      "url": "https://x.com/scaling01/status/2123882452938871241",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-21T07:34:23+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Gemini 4 Neon、キャッシュ率とハーネスの課題が論点に【続報】",
+      "summary": "Gemini 4 Neon正式公開への反応をGoogleのPatrick Loeber氏が集約し、キャッシュヒット率の低さとAntigravityハーネスの不足への指摘が多かったとまとめた。難しいコーディングやデザインでは高評価な一方、過剰な拒否や崩れた出力の報告もある。Antigravityでの使用感はClaude CodeやCodexに近いとの声や、Fableと組み合わせると相性が良いとの評価も出ている。",
+      "url": "https://x.com/patloeber/status/2123727011755516397",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-21T07:34:23+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Kaggleのサンタコンペ等で公開ノートが急伸、Agent活用が背景か",
+      "summary": "Kaggleのサンタコンペや量子コンペで、公開ノートブックのスコアが急速に上がっていると話題になっている。最近の公開ノートは、Agentに回して上がったものをそのまま公開する傾向があるとの指摘が出ている。自分の改善より公開ノートの伸びが速く一時撤退する人や、マイルストーン賞直前に強いノートが出て嘆く声もある。",
+      "url": "https://x.com/tawatawara/status/2123788323202470176",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-21T07:34:23+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "病院業務のAgentベンチHospital-bench公開、最高でも全タスク完遂35.4%",
+      "summary": "病院の事務業務でAI Agentを評価するHospital-benchが公開された。13アプリ・131ツールの模擬病院（320床）で20モデルが48タスクに挑み、全タスク通過率は最高でも35.4%だった。制限された患者記録の開示や支払済み請求の誤修正など、権限を超えた行動も確認されており、実務投入の難しさが示された。",
+      "url": "https://x.com/canz101/status/2123809880754540705",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-21T07:34:23+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Hugging Face、自前CDNで月約1エクサバイトを配信",
+      "summary": "Hugging Faceが今夏から自前のCDNを運用し、月におよそ1エクサバイトのモデルとデータセットを配信している。実際には毎秒約420GB、毎秒8万リクエストを捌いている規模とされる。AIのダウンロードは従来のCDNモデルに合わなかったことが、自前構築の理由として説明されている。",
+      "url": "https://x.com/Thom_Wolf/status/2123852806213730744",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-21T07:34:23+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Cursor、中国製オープンウェイトモデルの段階的廃止を検討か",
+      "summary": "Cursorが米国土安全保障省に対し、地政学リスクを理由に中国開発のオープンウェイトモデルをすべて段階的に廃止することを検討していると伝えたと報じられた。報告書は複数の下院委員会から公表される見込みとされる。今後の規制の方向性を示すとの見方や、中国系オープンモデルへの規制圧力が強まるとの懸念が出ている。報道ベースで未確認。",
+      "url": "https://x.com/AndrewCurran_/status/2123841504242446572",
+      "source": "ML_Bear Times",
+      "topic": "政府・政策",
+      "collected_at": "2026-11-21T07:34:23+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Gemini APIにDynamic Tool Retrieval、ツールを遅延読込可能に",
+      "summary": "GoogleのPhilipp Schmid氏が、Gemini APIにDynamic Tool Retrievalを追加したと発表した。関数やリモートMCPサーバーを遅延読込の対象にでき、サーバー側でのツール検索に加えクライアント側モードも使える。200個のツールを最初のターンで一括で読み込む必要がなくなり、ツールの多いAgentでコンテキストを節約できる。",
+      "url": "https://x.com/_philschmid/status/2123806623114440911",
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "collected_at": "2026-11-21T07:34:23+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "ハーネスがLLMの能力を組み合わせ汎化させると論じる論文が話題",
+      "summary": "ハーネスをLLMの能力を組み合わせて汎化させる仕組みと捉える論文「LM Harnesses are Compositional」が紹介されている。かつて弱いLLMの補助だったハーネスが、強いモデルでは学習環境を超えて汎化させる手段になると論じる。カスタムハーネスの優位は大きいのに理由はほぼ未解明だとして、ハーネスの自作を勧める声も出ている。",
+      "url": "https://x.com/a1zhang/status/2123774098241147225",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-21T07:34:23+09:00",
       "unconfirmed": false
     }
   ]
