@@ -1,0 +1,111 @@
+{
+  "date": "2026/11/21",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-20T08:00:00+09:00",
+    "to": "2026-11-21T08:00:00+09:00"
+  },
+  "source": "mail-4ml",
+  "itemCount": 11,
+  "items": [
+    {
+      "headline": "Anthropic時価総額が世界7位に、時間外は3%超安【続報】",
+      "summary": "Anthropicは上場初日、終値$97.17で時価総額が約$1.76兆となり世界7位の企業として取引を終えた。一方、時間外取引では3%超下落した。日本向けトランシェには売り出し株数の3倍を超える注文が集まり、2026年売上の約25%は上位5社の顧客によるものとされる。FTは米国企業による利用でAnthropicがOpenAIを上回ったと報じた。",
+      "url": "https://x.com/IPONewsroom_/status/2123565761683763342",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-20T19:34:01+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "ChatGPTのdots、Plusの一部とBusiness Standardに展開",
+      "summary": "OpenAIが常駐型Assistant「dots」のテストを一部のChatGPT Plusユーザーで開始し、Business Standardの全ユーザーにも展開した。dot専用タブを持ち、Codexなどを固定できる新しいモバイルUIも始まっている。改善を重ねてproactivity（能動性）への評価が良くなったとされる一方、EUや英国での提供時期は未定。",
+      "url": "https://x.com/thsottiaux/status/2123556256392847657",
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "collected_at": "2026-11-20T19:34:01+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Gemini 4 Neon、Vals AIのRSI IndexでGoogle最高の4位【続報】",
+      "summary": "Gemini 4 NeonがVals AIのRSI Indexで4位に入り、Googleの従来最高だったGemini 4 Argonを3.8ポイント上回った。Abacus AI AgentでもNeonが使えるようになった。一方、Indexは4タスク各1回の実行でノイズが大きいとの指摘や、長考トークンが蒸留されやすいとの懸念も出ている。",
+      "url": "https://x.com/ValsAI/status/2123537061739450618",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-20T19:34:01+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Geminiサブスク、12月2日から他社ハーネスに開放か",
+      "summary": "GoogleのLogan Kilpatrick氏が、12月2日に最初の一歩を踏み出すと予告した。Geminiのサブスクリプションを他社ハーネスからも使えるようにする動きだと受け止められている。予告の解釈に基づく情報のため未確認。",
+      "url": "https://x.com/OfficialLoganK/status/2123657759896007035",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-20T19:34:01+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "米、Nvidia・AMDの対中AIチップ出荷を承認、申請は300万個超",
+      "summary": "米商務省が今年、NvidiaとAMDのAIチップを中国企業へ出荷することを承認していたと、文書に基づき報じられた。米企業は300万個超の出荷許可を申請し、後に国防総省が中国軍を支援しているとしてリストに追加した企業も含まれていたとされる。H200の申請ではTencentが多かったとの見方も出ている。",
+      "url": "https://x.com/business/status/2123583386753122669",
+      "source": "ML_Bear Times",
+      "topic": "政府・政策",
+      "collected_at": "2026-11-20T19:34:01+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "GoogleがTPUでCoWoS回帰を打診か、EMIB-T不振で【続報】",
+      "summary": "IntelのEMIB-Tの歩留まりが振るわず、GoogleがTPUのパッケージングをTSMCのCoWoSに戻せないか打診したとの噂が台湾から出ている。CoWoS-Lの大型化も効率が悪いとの見方が共有されており、GPUもAI ASICもパッケージの大型化に頼らない別の解を探り始めるかもしれないとの議論が出ている。噂ベースで未確認。",
+      "url": "https://x.com/jukan05/status/2123696755535667263",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-20T19:34:01+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Nous ResearchがMicrosoftと提携、Hermes Agentを企業向けに",
+      "summary": "Nous ResearchがMicrosoftと提携し、Hermes Agentの企業向け版「Hermes Enterprise」を発表した。Microsoft Teams、Microsoft Store、Azure上で動作し、Teamsでは従業員が財務分析、文書の下書き、受信箱の整理などをHermesに任せられる。オープン系Agentが大手のエンタープライズ基盤に入った大きな動きと受け止められている。",
+      "url": "https://x.com/NousResearch/status/2123535954946257096",
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "collected_at": "2026-11-20T19:34:01+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "LangChain、Agentのツール権限管理Tool Gatewayを公開",
+      "summary": "LangChainが、Agentのツール呼び出しを管理するマネージドなツール層「LangSmith Tool Gateway」を発表した。ツール呼び出しごとの認証情報、ID、アクセス権を処理し、Agentの行動を簡単に統制できる。Agentがより目標志向になるにつれ、誰の認証でどのツールを使うかの細かな制御が重要になるとしている。",
+      "url": "https://x.com/LangChain/status/2123476404595782107",
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "collected_at": "2026-11-20T19:34:01+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Nvidia、拡散LLMのInceptionを$500M超で買収交渉",
+      "summary": "NvidiaがDiffusion LLM開発のInceptionを$500M超で買収する最終段階の交渉に入ったと、The Informationの記者が報じた。CEOのJensen Huang氏退任後も買収活動が活発に続いていることを示すとしている。自己回帰型以外の言語モデル技術に対するハードウェア大手の関心の高さがうかがえる。交渉段階の報道で未確認。",
+      "url": "https://x.com/steph_palazzolo/status/2123549936880930945",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-20T19:34:01+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "約1000のAI Agentが12週間研究、独自の査読誌を作る",
+      "summary": "35の研究室にまたがる約1000のAI Agentに12週間自律的に研究させた実験が話題になっている。Agentはコードとデータ付きで936本の研究を公開し、自ら査読ジャーナルを立ち上げて誤りを公に撤回するまでに至った。単独のAgentは手抜きをしがちだが、集団にすると査読の仕組みを生み出す点が注目されている。",
+      "url": "https://x.com/SRSchmidgall/status/2123457710733824270",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-20T19:34:01+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "NVIDIA Dynamo、RL事後学習のロールアウト推論を高速化",
+      "summary": "NVIDIAが技術ブログで、強化学習による事後学習を遅くしている要因とDynamoによる対処を解説した。重複計算、重み更新のオーバーヘッド、ワーカーの中断を減らす方法を扱い、Microsoft AIがロールアウト推論にDynamoを使っている事例も紹介されている。RL基盤を組む人の参考になる内容。",
+      "url": "https://x.com/NVIDIAAI/status/2123530225741078969",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-20T19:34:01+09:00",
+      "unconfirmed": false
+    }
+  ]
+}
