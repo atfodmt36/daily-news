@@ -6,7 +6,7 @@
     "to": "2026-11-21T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 25,
+  "itemCount": 28,
   "items": [
     {
       "headline": "三菱重工とさくらインターネット、ソブリンAIインフラ構築へ協業検討を開始——国産AIモジュール型データセンターで覚書を締結",
@@ -256,6 +256,36 @@
       "collected_at": "2026-11-21T05:34:37+09:00",
       "unconfirmed": false,
       "x_url": "https://x.com/OpenAI/status/2123862344422088794"
+    },
+    {
+      "headline": "Thinking Machines、ローカル実行向けオープンモデル「Inkling 2 Mini」を公開",
+      "summary": "Thinking Machines Labは11月20日、ノートPCでも動く小型オープンモデル「Inkling 2 Mini」を公開した。中間層を3回ループさせるループド・トランスフォーマー型MoEで、総26.4B・アクティブ3.4Bパラメータ（ループ込み5.4B）、テキストと画像入力、100万トークンのコンテキストに対応し、重みはApache 2.0でHugging Faceに公開された。メモリ使用量は約20GBで、DeepSWE v1.1では48.2%を記録した。公式ブログとHFモデルカードで確認した。",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "source": "Thinking Machines Lab",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "x_url": "https://x.com/ClementDelangue/status/2123873347393970488",
+      "collected_at": "2026-11-21T07:49:01+09:00"
+    },
+    {
+      "headline": "OpenAI、共同作業ハブ「ChatGPT Space」をPlusユーザーにも提供開始",
+      "summary": "OpenAIは11月20日、共同作業ハブ「ChatGPT Space」を月額20ドルのPlusユーザーにも提供し始めた。Spaceは9月のDevDayで発表され、これまでPro／Business／Enterprise向けだった。文書やファイルを共有して共同編集でき、従来のLibraryを置き換える。Plusではモバイル編集やSlidesも使える。OpenAIのGreg Brockman氏の公式投稿とリリースノートで確認した。",
+      "url": "https://x.com/gdb/status/2123855521996570772",
+      "source": "OpenAI",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "x_url": "https://x.com/gdb/status/2123855521996570772",
+      "collected_at": "2026-11-21T07:49:01+09:00"
+    },
+    {
+      "headline": "MerckとIsomorphic Labs、AI創薬で戦略的研究提携—がん標的の低分子候補を設計",
+      "summary": "Merck（MSD）とGoogle DeepMind発のAI創薬企業Isomorphic Labsは11月19日、戦略的重要性の高い非公開のがん標的に対する低分子治療候補の発見で研究提携を発表した。Isomorphicは独自のAI創薬エンジン「IsoDDE」とMerckの独自データで分子設計を行い、Merckが前臨床・臨床開発と製造・販売を担う。Isomorphicは upfront 支払いに加え、マイルストーンと段階的ロイヤルティを受け取る。両社のプレスリリースで確認した。",
+      "url": "https://www.prnewswire.com/news-releases/isomorphic-labs-and-msd-enter-strategic-research-collaboration-302945301.html",
+      "source": "Merck / Isomorphic Labs（PR Newswire）",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "x_url": "https://x.com/demishassabis/status/2123871861843075099",
+      "collected_at": "2026-11-21T07:49:01+09:00"
     }
   ]
 }
