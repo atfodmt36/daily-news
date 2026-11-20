@@ -6,7 +6,7 @@
   "to": "2026-11-21T08:00:00+09:00"
  },
  "source": "x",
- "itemCount": 20,
+ "itemCount": 21,
  "items": [
   {
    "headline": "三菱重工とさくらインターネット、ソブリンAIインフラ構築へ協業検討を開始——国産AIモジュール型データセンターで覚書を締結",
@@ -207,6 +207,15 @@
    "url": "https://labmemo.com/eu-commission-ai-cyberattack-artex-2026-11/",
    "x_url": "https://x.com/KOROSUKE_AI/status/2123704238257922548",
    "collected_at": "2026-11-20T19:28:03+09:00"
+  },
+  {
+   "headline": "Geminiアプリ、スキルの共有とDrive／Notebook／Photosファイルの追加に対応",
+   "summary": "Googleは11月16日、Geminiアプリの「スキル」機能で、作成したスキルを他のユーザーと共有（閲覧／編集権限の付与）できるようにし、スキル作成時にGoogle Drive・Gemini Notebook・Google Photosのファイルをデバイス内ファイルと併せて追加できるようにしたと発表した。共有はWeb版のみで、展開は11月12日から最大15日間の段階的ロールアウト。全Google Workspace顧客と個人Googleアカウントが対象。Google Workspace Updates公式ブログで確認した。",
+   "url": "https://workspaceupdates.googleblog.com/2026/11/share-skills-add-files-from-Drive-Notebook-Photos-to-skills-Gemini-app.html",
+   "source": "Google Workspace Updates",
+   "topic": "生成AI・その他",
+   "unconfirmed": false,
+   "x_url": "https://x.com/GeckoTechnology/status/2123788911457488913"
   }
  ]
 }
