@@ -1,0 +1,32 @@
+{
+  "date": "2026/11/21",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-20T08:00:00+09:00",
+    "to": "2026-11-21T08:00:00+09:00"
+  },
+  "source": "x-likes",
+  "itemCount": 2,
+  "items": [
+    {
+      "headline": "That Open、BIMプラットフォーム「That Open Platform」を11月23日に一般公開——高速2.5Dナビゲーションを搭載",
+      "summary": "オープンソースBIM技術（That Open Engine／Fragments）で知られるThat Open Companyが、AECO向けプラットフォーム「That Open Platform」を11月23日に一般公開する。平面図に近い視点でBIMモデルを操作でき、3D表示と同じベクターエッジ描画とモデリング操作の速度を維持する高速2.5Dナビゲーションを備え、AIエージェントによる作業自動化にも対応する。公式サイト（thatopen.com）で一般公開日を確認した。オーナーのいいねが端緒。",
+      "url": "https://thatopen.com/",
+      "topic": "建設×AI",
+      "source": "That Open Company",
+      "unconfirmed": false,
+      "x_url": "https://x.com/tokufxug/status/2123591891799494790",
+      "collected_at": "2026-11-21T08:05:19+09:00"
+    },
+    {
+      "headline": "OpenAI、常駐型エージェント「Dots」のテストをChatGPT Plusの一部ユーザーへ拡大——Business Standardには全ユーザー提供開始",
+      "summary": "OpenAIのChatGPTエンジニアリングリード、Thibault Sottiaux氏は、利用者の代わりに自律的に作業を進める常駐型エージェント「Dots」について、少数のChatGPT Plusユーザーでのテストを開始したとXで発表した。あわせてChatGPT Business Standardの全ユーザーへの提供も同日開始された。DotsはDevDayでProなど上位プラン向けに先行提供されていたもので、Engadgetなども報じた。オーナーのいいねが端緒。",
+      "url": "https://x.com/thsottiaux/status/2123556256392847657",
+      "topic": "エージェント",
+      "source": "OpenAI（Thibault Sottiaux）",
+      "unconfirmed": false,
+      "x_url": "https://x.com/thsottiaux/status/2123556256392847657",
+      "collected_at": "2026-11-21T08:05:19+09:00"
+    }
+  ]
+}
