@@ -6,7 +6,7 @@
     "to": "2026-11-21T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 8,
+  "itemCount": 12,
   "items": [
     {
       "headline": "Vercel、エージェント協調基盤「Board」を公開——タスク共有・Slack/GitHub同期で複数エージェントが協調、全プランで利用開始",
@@ -87,6 +87,46 @@
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/partner-central-agents-bvr-vrp/",
       "x_url": "https://x.com/kmotohas/status/2123598093388222515",
       "collected_at": "2026-11-20T11:39:15+09:00"
+    },
+    {
+      "headline": "Tencent、フラッグシップモデル「Hy4」の重みをオープン公開——総パラメータ770B（活性49B）のMoE、1Mコンテキスト対応",
+      "source": "Tencent（Hugging Face）",
+      "summary": "TencentのHyチームは、MoEフラッグシップモデル「Hy4」とFP8版、事前学習版Hy4 baseの重みをHugging Face／ModelScope／GitCodeでオープン公開した。総パラメータ770B（トークンあたり活性49B）、コンテキスト長1Mで、テキスト・画像・動画の理解に対応する。事前学習ベンチマークではMMLU 91.6、C-Eval 95.0などを記録した。11月18日に重みが公開されたHy4 Flashに続く上位モデルのオープン公開で、Hugging Face公式モデルカードで確認した。",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "url": "https://huggingface.co/tencent/Hy4",
+      "x_url": "https://x.com/nawariokra/status/2123653274901631082",
+      "collected_at": "2026-11-20T15:26:46+09:00"
+    },
+    {
+      "headline": "Sakana AI、AIセキュリティ専門の研究開発チーム「Security Research Group」を設立",
+      "source": "Sakana AI",
+      "summary": "Sakana AIは11月20日、AIを活用した集合的なサイバー防御と、AIシステム自体の安全性とセキュリティの確保を研究する独立した研究開発チーム「Security Research Group」の設立を発表した。事業活動とは切り離された公共の利益に資する組織として、研究成果や再現可能なベンチマーク、実践的なガイドラインを公開しながら、政府・産業界・学術界と連携する。長期的な重点は、設計・構築の段階で欠陥を作り込まない上流での予防に置く。Sakana AI公式ブログで確認した。",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "url": "https://sakana.ai/security-research-group/",
+      "x_url": "https://x.com/SakanaAILabs/status/2123608249710915966",
+      "collected_at": "2026-11-20T15:26:46+09:00"
+    },
+    {
+      "headline": "HUMAIN、アラビア語特化の音声AIプラットフォーム「HUMAIN Voice」を提供開始——80MのオープンウェイトASRモデルも発表",
+      "source": "HUMAIN",
+      "summary": "サウジアラビアのAI企業HUMAINは11月19日、アラビア語特化の音声AIプラットフォーム「HUMAIN Voice」の提供を開始した。音声認識、音声合成、リアルタイム音声エージェントを1つのプラットフォームで提供し、主要なアラビア語方言（15超）とアラビア語・英語の文内切り替えに対応する。80MパラメータのオープンウェイトASRモデルもあわせて発表された。データの保管場所はサウジアラビア国内としている。HUMAIN公式製品ページとReutersの報道で確認した。",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "unconfirmed": false,
+      "url": "https://www.humain.com/voice",
+      "x_url": "https://x.com/raqi_ai_uae/status/2123645091441188951",
+      "collected_at": "2026-11-20T15:26:46+09:00"
+    },
+    {
+      "headline": "OpenAI、Codex CLI 0.171.0を公開——GPT-6.2 Sol／Astraをモデルカタログに追加し、TUIワークスペースを既定化",
+      "source": "OpenAI（Codex変更履歴）",
+      "summary": "OpenAIは11月20日、Codex CLI 0.171.0を公開した。GPT-6.2 SolとAstraをモデルカタログに追加し、Solをカタログの既定の選択とした。文書や画像のプレビューとサブエージェントの記録を会話の横に表示するTUIワークスペースが既定で有効になり、既存のアプリサーバー上で非対話セッションを開始・再開する「codex exec --remote」、リモート管理のための /rc と /remote、プロンプト入力の取り消し・やり直しショートカットの設定も加わった。OpenAI公式のCodex変更履歴で確認した。",
+      "topic": "Claude／Codex",
+      "unconfirmed": false,
+      "url": "https://developers.openai.com/codex/changelog/#github-release-449494076",
+      "x_url": "https://x.com/superdoccimo/status/2123626831400009906",
+      "collected_at": "2026-11-20T15:26:46+09:00"
     }
   ]
 }
