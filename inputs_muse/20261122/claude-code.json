@@ -1,0 +1,126 @@
+{
+  "date": "2026/11/22",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-21T08:00:00+09:00",
+    "to": "2026-11-22T08:00:00+09:00"
+  },
+  "source": "claude-code",
+  "itemCount": 6,
+  "items": [
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Microsoft 365 CopilotでDynamics 365の勤務リクエスト管理が可能に",
+      "summary": "Dynamics 365 Workforce Engagement ManagementがMCPツールを介してMicrosoft 365 Copilotと統合され、監督者や担当者が自然言語で休暇・シフトのリクエストを一覧・絞り込み・承認/却下できるようになった。承認アクションは休暇リクエストに限定され、既存のセキュリティロールとデータ境界は維持される。",
+      "url": "https://www.microsoft.com/releasecommunications/api/v2/m365/rss",
+      "source": "Microsoft 365 Message Center (Release Communications)",
+      "published_at": "2026-11-21T02:55:45+00:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "feature-id-581992",
+        "dynamics-365",
+        "mcp",
+        "worldwide"
+      ],
+      "collected_at": "2026-11-22T08:25:51+09:00"
+    },
+    {
+      "topic": "Microsoft Foundry",
+      "headline": "Microsoft Foundry、プライベート仮想ネットワーク内ホステッドエージェントの接続トラブル対処ガイドを公開",
+      "summary": "Microsoft Foundry公式ブログが、自前の仮想ネットワーク内に展開したホステッドエージェントでAgentsページがタイムアウトする際の確認ポイント(委任サブネットの特定、Cosmos DBへの接続とプライベートエンドポイント/DNS、Entra IDサインイン、ピアリングVNetのDNSゾーン連携、ソフト削除アカウントによるDelegatedSubnetInUseエラー解消)を解説。製品のステータス変更ではなく運用向けのハウツー/トラブルシューティング記事。",
+      "url": "https://devblogs.microsoft.com/foundry/hosted-agents-private-network-setup/",
+      "source": "Microsoft Foundry Blog (devblogs.microsoft.com)",
+      "published_at": "2026-11-21T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "borderline",
+        "date-only",
+        "how-to"
+      ],
+      "collected_at": "2026-11-22T08:25:51+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "French Touch Factory、Unity向けリアルタイム4DGSプラグイン「ITHACA 4DGS」を公開(.trgzシーケンス対応を11/21付で明記)",
+      "summary": "French Touch Factory/ITHACAが、Unity(URP)向けにリアルタイム4D Gaussian Splattingレンダリングと資産生成を行うプラグイン「ithaca-4dgs-unity」をGitHubで公開。aras-p/UnityGaussianSplatting(MIT)のフォークで、静的3DGSと時間変化する4DGSアクターを同一シーンで混在可能。各スプラットがスクリュー運動で時間変化するHDの.trgz(.ftgsz)シーケンスに対応し、機能一覧に『.trgz sequences (ITHACA, since 21/11/2026)』と明記。DX12/Vulkan・Unity 6・URPが要件。コミュニティ/社内製ツールのGitHub公開であり企業公式プレスではない。",
+      "url": "https://github.com/frenchtouchXR/ithaca-4dgs-unity",
+      "source": "GitHub (frenchtouchXR/ithaca-4dgs-unity)",
+      "published_at": "2026-11-21T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "date-only",
+        "community-repo",
+        "4DGS",
+        "Unity",
+        "borderline"
+      ],
+      "related_urls": [
+        "https://github.com/aras-p/UnityGaussianSplatting",
+        "https://www.ithaca.eu/unity-4dgs"
+      ],
+      "collected_at": "2026-11-22T08:25:51+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "ゴムマリ、海外問い合わせの一次対応を担う業務AIエージェントを提供開始",
+      "summary": "ゴムマリは2026年11月21日、海外の顧客・拠点・委託先から届く問い合わせ(不具合報告や製品・仕様・使い方の質問)への一次対応を自動化する業務AIエージェントの提供を開始。英語・中国語・ベトナム語・タイ語など主要言語のまま問い合わせを読み取り、過去の類似対応を根拠つきで検索して一次回答を生成する。初期構築50万円から、月額保守10万円から、最短4週間で導入可能。Notion・Microsoft Copilot・自社基盤などの既存環境に組み込める。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000027.000185093.html",
+      "source": "PR TIMES(ゴムマリ)",
+      "published_at": "2026-11-21T12:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "業務×AI",
+        "カスタマーサポート",
+        "製品ローンチ"
+      ],
+      "related_urls": [
+        "https://ascii.jp/elem/000/004/453/4453831/"
+      ],
+      "collected_at": "2026-11-22T08:25:51+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "ゴムマリ、経理・バックオフィス向け「データ突合AIエージェント」を提供開始",
+      "summary": "ゴムマリは2026年11月21日、複数データ間の突合作業を自動化する業務AIエージェント「データ突合」の提供を開始した。企業ごとの管理フローに合わせて構築するバックオフィス向けの業務AIエージェント群の一つ。",
+      "url": "https://ascii.jp/elem/000/004/453/4453832/",
+      "source": "ASCII STARTUP(ゴムマリ)",
+      "published_at": "2026-11-21T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "業務×AI",
+        "経理",
+        "製品ローンチ",
+        "date-only"
+      ],
+      "related_urls": [
+        "https://prtimes.jp/main/html/rd/p/000000027.000185093.html"
+      ],
+      "collected_at": "2026-11-22T08:25:51+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "ゴムマリ、「営業データ分析AIエージェント」を提供開始",
+      "summary": "ゴムマリは2026年11月21日、営業データの分析を担う業務AIエージェントの提供を開始した。海外問い合わせ一次対応・データ突合と同時にローンチされたバックオフィス/営業支援向けの業務AIエージェント群の一つ。",
+      "url": "https://ascii.jp/elem/000/004/453/4453823/",
+      "source": "ASCII STARTUP(ゴムマリ)",
+      "published_at": "2026-11-21T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "業務×AI",
+        "営業支援",
+        "製品ローンチ",
+        "date-only"
+      ],
+      "related_urls": [
+        "https://prtimes.jp/main/html/rd/p/000000027.000185093.html"
+      ],
+      "collected_at": "2026-11-22T08:25:51+09:00"
+    }
+  ]
+}
