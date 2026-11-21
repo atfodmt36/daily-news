@@ -6,7 +6,7 @@
     "to": "2026-11-22T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 3,
+  "itemCount": 4,
   "items": [
     {
       "headline": "Picsart、開発者向けAI基盤「Picsart Platform」を公開——250超のモデルを単一APIで提供",
@@ -37,6 +37,16 @@
       "unconfirmed": false,
       "x_url": "https://x.com/junjun142857/status/2123956296638677108",
       "collected_at": "2026-11-21T11:26:19+09:00"
+    },
+    {
+      "headline": "Signal、OS組み込みAIエージェントによる画面読み取りを防ぐためスクリーンショットを既定で遮断",
+      "summary": "Signalは11月20日、OSに組み込まれたAIエージェント（AppleのSiri AIやGoogleのGemini Intelligenceなど）が画面上のSignalデータを撮影・保存するのを防ぐ対策を公式ブログで発表した。iOS 27ではアプリ内のスクリーンショットを既定で防ぎ「Block Siri AI」設定を追加、AndroidではAIアシスタントによる画面キャプチャの試行を検出した際に「Screen security」を有効化する。設定で無効化は可能だが、その場合は自分と相手の内容がAIエージェントに露出するおそれがあると警告。ファイルシステム経由など他の経路は防げない不完全な対策であることも明記し、Apple・Google・Microsoftに対し、開発者がAIのデータアクセスを簡単にオプトアウトできる仕組みと仕様文書の提供を求めた。昨年のWindows版でのMicrosoft Recall対策に続く措置で、macOSでは確実な実装手段がないため未対応。",
+      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "source": "Signal",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "x_url": "https://x.com/ganeshpandian/status/2123981770509205922",
+      "collected_at": "2026-11-21T13:15:16+09:00"
     }
   ]
 }
