@@ -1,0 +1,32 @@
+{
+  "date": "2026/11/22",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-21T08:00:00+09:00",
+    "to": "2026-11-22T08:00:00+09:00"
+  },
+  "source": "x",
+  "itemCount": 2,
+  "items": [
+    {
+      "headline": "Picsart、開発者向けAI基盤「Picsart Platform」を公開——250超のモデルを単一APIで提供",
+      "summary": "Picsartは11月20日、自社プラットフォームのAI技術を開発者や企業に開放する「Picsart Platform」を公開した。30社超のプロバイダーが提供する動画・画像・音声・文章のモデル250超とPicsart独自の編集モデルを、単一のAPI・CLI・Playground・MCPサーバー（Picsart Media Studio）経由で利用できる。料金は生成ごとの従量制で、Business Wireのプレスリリースで確認した。",
+      "url": "https://www.businesswire.com/news/home/20261120520968/en/Picsart-Opens-the-AI-Behind-Its-Platform-to-Developers-Businesses",
+      "source": "Picsart（Business Wire）",
+      "topic": "画像生成・編集",
+      "unconfirmed": false,
+      "x_url": "https://x.com/PromptBible_dev/status/2123912131003449659",
+      "collected_at": "2026-11-21T09:23:59+09:00"
+    },
+    {
+      "headline": "Perplexity、エージェント「Computer」がChromiumブラウザ内で直接動作可能に",
+      "summary": "Perplexityは、AIエージェント「Computer」がChromium系ブラウザ（Chrome、Edge、Brave、Arc等）向け拡張機能を通じて、利用中のブラウザ内で直接動作できるようになったと発表した。サイドパネルからタスクを引き渡すと、開いている複数のタブやツールを横断して作業を実行する。Perplexity公式アカウントの投稿で確認した。",
+      "url": "https://x.com/perplexity_ai/status/2123896048510996827",
+      "source": "Perplexity",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "x_url": "https://x.com/perplexity_ai/status/2123896048510996827",
+      "collected_at": "2026-11-21T09:23:59+09:00"
+    }
+  ]
+}
