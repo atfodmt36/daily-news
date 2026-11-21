@@ -1,0 +1,120 @@
+{
+  "date": "2026/11/22",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-21T08:00:00+09:00",
+    "to": "2026-11-22T08:00:00+09:00"
+  },
+  "source": "mail-4ml",
+  "itemCount": 12,
+  "items": [
+    {
+      "headline": "Claudeのリーマン予想証明、Lean FROとMathlibが正しいと声明【続報】",
+      "summary": "AnthropicのLevent Alpöge氏がClaudeと示したリーマン予想の証明について、Lean FROとMathlib Initiativeが共同声明を出し、1700万行のLeanライブラリとして公開された証明を正しいと認めた。MITのAndrew Sutherland氏が独立カーネルでも検証し、Rust製のnanodaは約28分で証明を受理したと報告している。「証明されたが理解されていない」状態が今後の常態になるとの声も出ている。",
+      "url": "https://x.com/leanprover/status/2124159121645801562",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Inkling 2 Mini、Unsloth量子化で16GB RAM動作、HF首位に【続報】",
+      "summary": "Thinking Machinesのlooped MoEモデルInkling 2 Miniについて、UnslothがGGUF版を公開し16GB RAMで動作するようになった。UD3.1量子化はtop-1%精度を90%超保つとされ、Unsloth Desktopの更新でbanded attentionの扱いが改善しDspark検出によりデコードが約2倍に高速化した。HFトレンドでは本体が1位、GGUFが2位となった。",
+      "url": "https://x.com/UnslothAI/status/2123873656069877899",
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Gemini、キャッシュ改善で作業量22%増、クォータもリセット【続報】",
+      "summary": "Gemini 4 Neonのキャッシュヒット率をめぐる続報。GoogleのVarun Mohan氏は、キャッシュ改善でクォータ内の作業量が22%増えたとし、Antigravityで全ユーザーのクォータをリセットした。Geminiアプリでモデル選択を長押しするとHydrogen、Argon、Carbon、Neonを並べた周期表型の選択画面が出るとの報告もあり、Opus 5.5からNeonへの日常使い乗り換えを検討する声も出ている。",
+      "url": "https://x.com/_mohansolo/status/2124070033534161407",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Nvidia系サーバーの東南アジア出荷停止、海外DC課税も浮上【続報】",
+      "summary": "中国AI企業による海外データセンター経由の先端AIチップ利用規制の続報。Nvidiaのサーバーサプライヤーが東南アジア向けの出荷を止めたと報じられ、MoonshotがインドネシアでBlackwellチップを利用する1億5000万ドルの契約を破棄した影響が広がっている。Trump大統領は米国外に建設されるデータセンターへの課税にも言及し、Alibabaは自社T-Headチップで事前学習を始めたとされる。",
+      "url": "https://x.com/paurooteri/status/2123917053447090426",
+      "source": "ML_Bear Times",
+      "topic": "政府・政策",
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Goodfire、Inkling 2 Miniのループ内情報流を解析",
+      "summary": "GoodfireがThinking MachinesからInkling 2 Miniへの先行アクセスを得て、層・ブロック・ループ間の情報の流れを解析した。層が自分自身に書き込んだり未来の層から読み出したりする様子が示され、TMLはループ回数可変の研究用モデルTML-d24-varloop-researchも公開した。ループで長文脈性能が上がる一方、毎回QKVを再計算するため膨大なメモリ帯域が必要になるとの見方も出ている。",
+      "url": "https://x.com/GoodfireAI/status/2123873150803100059",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "CursorがGrok Buildに改名、CLI 2.0も登場か",
+      "summary": "SpaceXによるCursor買収とリブランディングの続報として、CursorがGrok Buildに名称変更されアプリも高速化したと報じられている。Grok Build CLI 2.0がalpha-unifiedチャネルに登場し統合サブスクリプションに紐づく見込みで、SpaceXSIのWebサイトでもGrok Build表記が使われ始め、API上のgrok-build-0.1モデルは非推奨となった。報道ベースのため未確認。",
+      "url": "https://x.com/GrokInsider/status/2123867269553938671",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "unconfirmed": true
+    },
+    {
+      "headline": "Claudeモバイルアプリ刷新、Codeタブで他デバイスのセッション管理",
+      "summary": "AnthropicがClaudeモバイルアプリの新デザインを順次ロールアウトし始めた。下部にChat、Projects、Code、Artifactsの4タブが追加され、Codeタブでは接続中のデバイスを一覧でき、外出先でセッションを開始・再開しやすくなった。週ごとの使用量（Weekly Usage）も表示されるようになったと歓迎されている。",
+      "url": "https://x.com/daniel__designs/status/2123860186951516287",
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "LangChain、Agentの学習ループ「knowledge factory」を解説",
+      "summary": "LangChainのHarrison Chase氏が、社内Agentに共通する学習ループを「knowledge factory」としてまとめた記事を公開した。Agentやサブエージェントはwikiを確実に編集できないため、編集を一手に担うcurator agentを置くのが一般的なパターンだとしている。日本でもCopilot ChatのSkillsとSharePoint、MS Listでナレッジサイクルを回す実践が共有されている。",
+      "url": "https://x.com/hwchase17/status/2124181216719151585",
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "メイン→ワーカー型マルチAgentは伝言ゲームで情報が劣化するとの指摘",
+      "summary": "T3 CodeやOrca、Herdrなど、メインAgentがワーカーへ指示を書く構成では情報が伝言ゲームで劣化するとの指摘が出ている。トップダウンより、モデル同士のフラットな議論の方が良い結果になるとし、難問ではNeon・Mythos・Astraを往復させ、性格の異なるアドバイザーを両側に置いてClaudeが実働する使い方も紹介されている。",
+      "url": "https://x.com/kenn/status/2123961554710532585",
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Google Cloud、Agent向けdeferred tierをGA、コスト50%減",
+      "summary": "Google Cloudが、バックグラウンドで動くマルチターンAgent向けのdeferred service tierを一般提供した。GeminiのInteractions APIで指定すると、結果まで最大24時間ほど待つ代わりに料金が半額になり、ピーク時のクォータエラーもほぼゼロになるという。Flexible Savings Plansやプロジェクト支出上限と並ぶ施策で、定期的な脆弱性スキャンなど急がない処理に向くとされる。",
+      "url": "https://x.com/GoogleCloudTech/status/2123905497711403453",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "GPT-Live APIのidle検知、無音時コスト60%減【続報】",
+      "summary": "OpenAIの音声モデルGPT-Live-1.1のAPI提供に関する続報。OpenAIのJustin Uberti氏が、新しいidle検知で無音が続く間のコストを60%削減できると紹介した。設定は簡単で、停止より難しいとされる遅延なしの再開も実現している。委譲先のバックエンドモデルはgpt-6.1-terra高推論やgpt-6.2-astra低推論などが応答性と賢さのバランスに優れるとしている。",
+      "url": "https://x.com/juberti/status/2123945280353816901",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "OpenRouterで一部プロバイダがMiniMaxへ推論を無断転送",
+      "summary": "OpenRouterで、Atlas Cloud、Novita、SteamLakeがMiniMaxモデルの推論を自社で実施せずMiniMaxへ転送していたと報告されている。研究者が秘密のリンクを送って調べたところ40〜130時間後に開かれ、何者かが出力にアクセスしていたとされる。プロバイダ単位でデータ保持や学習の可否を選んでも、転送されれば意味をなさなくなる点が問題視されている。",
+      "url": "https://x.com/mah_lab/status/2124050401259569611",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "unconfirmed": false
+    }
+  ]
+}
