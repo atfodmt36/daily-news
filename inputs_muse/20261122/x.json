@@ -6,7 +6,7 @@
     "to": "2026-11-22T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 4,
+  "itemCount": 6,
   "items": [
     {
       "headline": "Picsart、開発者向けAI基盤「Picsart Platform」を公開——250超のモデルを単一APIで提供",
@@ -47,6 +47,26 @@
       "unconfirmed": false,
       "x_url": "https://x.com/ganeshpandian/status/2123981770509205922",
       "collected_at": "2026-11-21T13:15:16+09:00"
+    },
+    {
+      "headline": "Anthropic、ClaudeのComputer UseをTeam・Enterpriseプラン向けにベータ提供開始",
+      "summary": "Anthropicは11月20日のClaudeリリースノートで、Computer Use（ベータ）をTeamおよびEnterpriseプランに追加し、組織へ段階的に展開すると発表した。Claudeがユーザーの画面を見て、許可したデスクトップアプリを操作できる機能で、新しいClaude Desktop体験のほか、Computer accessが有効な場合はWeb・モバイルからも利用できる。既定ではオフで、組織のOwnerまたはPrimary Ownerだけが有効化でき、管理者がアプリ単位の許可・遮断も設定できる。従来はPro・Max・Ultra向けのベータだったものが、組織向けプランへ広がった。",
+      "url": "https://aiweekly.co/alerts/claude-computer-use-beta-lands-on-team-and-enterprise-plans",
+      "source": "Anthropic",
+      "topic": "Claude",
+      "unconfirmed": false,
+      "x_url": "https://x.com/attaporn/status/2124035691210289632",
+      "collected_at": "2026-11-21T17:15:54+09:00"
+    },
+    {
+      "headline": "Arena、Alignment Indexを更新——実セッション19.6万件でGPT-6.2 Solが首位",
+      "summary": "Arena.aiはエージェントの振る舞いを測るAlignment Indexを更新した。実利用セッション195,836件・67モデルを対象に、無断実行・虚偽の帰属・完了の偽装という3種の失敗を集計する。首位はGPT-6.2 Sol（複合スコア85.2、無断実行4.14%・虚偽帰属0.34%・完了偽装1.65%）で、OpenAIのモデルが上位7位を占めた。Claude Fable 5.2は8位（78.2）で初登場し、Claude Opus 5.5は更新前の6位から17位へ後退。オープンウェイトではKimi K3.1 Proが9位（78.2）で最高位となり、前世代K3から18.6ポイント改善した。判定基準の厳格化も同時に行われており、順位変動には手法変更の影響が含まれる。",
+      "url": "https://alphasignal.ai/news/arena-s-alignment-index-reshuffles-ai-agents-gpt-6-2-sol-tops-67-models",
+      "source": "Arena.ai",
+      "topic": "評価",
+      "unconfirmed": false,
+      "x_url": "https://x.com/bebuu_ai/status/2124038547904880750",
+      "collected_at": "2026-11-21T17:15:54+09:00"
     }
   ]
 }
