@@ -6,7 +6,7 @@
     "to": "2026-11-22T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 2,
+  "itemCount": 3,
   "items": [
     {
       "headline": "Picsart、開発者向けAI基盤「Picsart Platform」を公開——250超のモデルを単一APIで提供",
@@ -27,6 +27,16 @@
       "unconfirmed": false,
       "x_url": "https://x.com/perplexity_ai/status/2123896048510996827",
       "collected_at": "2026-11-21T09:23:59+09:00"
+    },
+    {
+      "headline": "メルカリ、Notion AI委託先への不正アクセスで顧客1,522人分などの情報が流出した可能性を発表",
+      "summary": "メルカリは11月20日、社内業務で利用するクラウドサービスNotionの「Notion AI」について、Notion社が処理の一部を委託していたFireworks AIが第三者による不正アクセスを受け、従業員が2026年10月5〜24日にNotion AIへ入力した内容とAI回答の記録の一部が外部に流出した可能性があると発表した。対象記録には顧客1,522人分、取引先担当者等571人分、採用応募者169人分、派遣・業務委託・退職者1,534人分などの個人情報が含まれていた。マイナンバー、クレジットカード番号、ログインパスワードが含まれていることは確認されておらず、含まれていた業務システムの認証情報は無効化と再発行を完了。現在はNotion AIのチャット機能で取り扱う情報を限定している。",
+      "url": "https://about.mercari.com/press/news/articles/20261120_incidentreport/",
+      "source": "株式会社メルカリ",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "x_url": "https://x.com/junjun142857/status/2123956296638677108",
+      "collected_at": "2026-11-21T11:26:19+09:00"
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "date": "2026/11/22",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-21T08:00:00+09:00",
+    "to": "2026-11-22T08:00:00+09:00"
+  },
+  "source": "web-search",
+  "itemCount": 1,
+  "items": [
+    {
+      "headline": "Schneider Electric調査、企業の55%が主権・コンプライアンス対応でオンプレミスAIインフラを選好——ROI期待以上は60%",
+      "summary": "Schneider Electricは11月19日、調査会社Omdiaに委託した世界の企業リーダー対象の調査結果を発表した。AI基盤について、主権やコンプライアンスへの懸念から自社所有のオンプレミスインフラを少なくとも一部に選ぶ企業は55%に上った。導入済みプロジェクトでROIが期待どおり以上だった企業は60%で、29%が2〜5倍、17%が5〜10倍のROIを報告。2026年のAI予算が50万ドルを超える企業は過半数で、78%が今後1年のAI予算増を見込む。導入理由の首位は生産性向上（35%）だった。",
+      "url": "https://www.morningstar.com/news/globe-newswire/9880678/global-research-from-schneider-electric-finds-demand-for-on-prem-ai-infrastructure-is-surging-due-to-sovereignty-and-compliance-concerns",
+      "source": "Schneider Electric（GlobeNewswire）",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "collected_at": "2026-11-21T11:26:19+09:00"
+    }
+  ]
+}
