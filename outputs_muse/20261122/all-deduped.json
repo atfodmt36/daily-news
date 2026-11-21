@@ -1,0 +1,539 @@
+{
+  "date": "2026/11/22",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-21T08:00:00+09:00",
+    "to": "2026-11-22T08:00:00+09:00"
+  },
+  "itemCount": 33,
+  "items": [
+    {
+      "headline": "Perplexity、エージェント「Computer」がChromiumブラウザ内で直接動作可能に",
+      "summary": "Perplexityは、AIエージェント「Computer」がChromium系ブラウザ（Chrome、Edge、Brave、Arc等）向け拡張機能を通じて、利用中のブラウザ内で直接動作できるようになったと発表した。サイドパネルからタスクを引き渡すと、開いている複数のタブやツールを横断して作業を実行する。Perplexity公式アカウントの投稿で確認した。",
+      "url": "https://x.com/perplexity_ai/status/2123896048510996827",
+      "otherUrls": [],
+      "source": "Perplexity",
+      "topic": "生成AI・その他",
+      "section": "エージェント",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-21T09:23:59+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Picsart、開発者向けAI基盤「Picsart Platform」を公開——250超のモデルを単一APIで提供",
+      "summary": "Picsartは11月20日、自社プラットフォームのAI技術を開発者や企業に開放する「Picsart Platform」を公開した。30社超のプロバイダーが提供する動画・画像・音声・文章のモデル250超とPicsart独自の編集モデルを、単一のAPI・CLI・Playground・MCPサーバー（Picsart Media Studio）経由で利用できる。料金は生成ごとの従量制で、Business Wireのプレスリリースで確認した。",
+      "url": "https://www.businesswire.com/news/home/20261120520968/en/Picsart-Opens-the-AI-Behind-Its-Platform-to-Developers-Businesses",
+      "otherUrls": [],
+      "source": "Picsart（Business Wire）",
+      "topic": "画像生成・編集",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-21T09:23:59+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Schneider Electric調査、企業の55%が主権・コンプライアンス対応でオンプレミスAIインフラを選好——ROI期待以上は60%",
+      "summary": "Schneider Electricは11月19日、調査会社Omdiaに委託した世界の企業リーダー対象の調査結果を発表した。AI基盤について、主権やコンプライアンスへの懸念から自社所有のオンプレミスインフラを少なくとも一部に選ぶ企業は55%に上った。導入済みプロジェクトでROIが期待どおり以上だった企業は60%で、29%が2〜5倍、17%が5〜10倍のROIを報告。2026年のAI予算が50万ドルを超える企業は過半数で、78%が今後1年のAI予算増を見込む。導入理由の首位は生産性向上（35%）だった。",
+      "url": "https://www.morningstar.com/news/globe-newswire/9880678/global-research-from-schneider-electric-finds-demand-for-on-prem-ai-infrastructure-is-surging-due-to-sovereignty-and-compliance-concerns",
+      "otherUrls": [],
+      "source": "Schneider Electric（GlobeNewswire）",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "web-search"
+      ],
+      "collected_at": "2026-11-21T11:26:19+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "メルカリ、Notion AI委託先への不正アクセスで顧客1,522人分などの情報が流出した可能性を発表",
+      "summary": "メルカリは11月20日、社内業務で利用するクラウドサービスNotionの「Notion AI」について、Notion社が処理の一部を委託していたFireworks AIが第三者による不正アクセスを受け、従業員が2026年10月5〜24日にNotion AIへ入力した内容とAI回答の記録の一部が外部に流出した可能性があると発表した。対象記録には顧客1,522人分、取引先担当者等571人分、採用応募者169人分、派遣・業務委託・退職者1,534人分などの個人情報が含まれていた。マイナンバー、クレジットカード番号、ログインパスワードが含まれていることは確認されておらず、含まれていた業務システムの認証情報は無効化と再発行を完了。現在はNotion AIのチャット機能で取り扱う情報を限定している。",
+      "url": "https://about.mercari.com/press/news/articles/20261120_incidentreport/",
+      "otherUrls": [],
+      "source": "株式会社メルカリ",
+      "topic": "AIセキュリティ",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-21T11:26:19+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Signal、OS組み込みAIエージェントによる画面読み取りを防ぐためスクリーンショットを既定で遮断",
+      "summary": "Signalは11月20日、OSに組み込まれたAIエージェント（AppleのSiri AIやGoogleのGemini Intelligenceなど）が画面上のSignalデータを撮影・保存するのを防ぐ対策を公式ブログで発表した。iOS 27ではアプリ内のスクリーンショットを既定で防ぎ「Block Siri AI」設定を追加、AndroidではAIアシスタントによる画面キャプチャの試行を検出した際に「Screen security」を有効化する。設定で無効化は可能だが、その場合は自分と相手の内容がAIエージェントに露出するおそれがあると警告。ファイルシステム経由など他の経路は防げない不完全な対策であることも明記し、Apple・Google・Microsoftに対し、開発者がAIのデータアクセスを簡単にオプトアウトできる仕組みと仕様文書の提供を求めた。昨年のWindows版でのMicrosoft Recall対策に続く措置で、macOSでは確実な実装手段がないため未対応。",
+      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "otherUrls": [],
+      "source": "Signal",
+      "topic": "AIセキュリティ",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-21T13:15:16+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Anthropic、ClaudeのComputer UseをTeam・Enterpriseプラン向けにベータ提供開始",
+      "summary": "Anthropicは11月20日のClaudeリリースノートで、Computer Use（ベータ）をTeamおよびEnterpriseプランに追加し、組織へ段階的に展開すると発表した。Claudeがユーザーの画面を見て、許可したデスクトップアプリを操作できる機能で、新しいClaude Desktop体験のほか、Computer accessが有効な場合はWeb・モバイルからも利用できる。既定ではオフで、組織のOwnerまたはPrimary Ownerだけが有効化でき、管理者がアプリ単位の許可・遮断も設定できる。従来はPro・Max・Ultra向けのベータだったものが、組織向けプランへ広がった。",
+      "url": "https://aiweekly.co/alerts/claude-computer-use-beta-lands-on-team-and-enterprise-plans",
+      "otherUrls": [],
+      "source": "Anthropic",
+      "topic": "Claude",
+      "section": "エージェント",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-21T17:15:54+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": true
+    },
+    {
+      "headline": "Arena、Alignment Indexを更新——実セッション19.6万件でGPT-6.2 Solが首位",
+      "summary": "Arena.aiはエージェントの振る舞いを測るAlignment Indexを更新した。実利用セッション195,836件・67モデルを対象に、無断実行・虚偽の帰属・完了の偽装という3種の失敗を集計する。首位はGPT-6.2 Sol（複合スコア85.2、無断実行4.14%・虚偽帰属0.34%・完了偽装1.65%）で、OpenAIのモデルが上位7位を占めた。Claude Fable 5.2は8位（78.2）で初登場し、Claude Opus 5.5は更新前の6位から17位へ後退。オープンウェイトではKimi K3.1 Proが9位（78.2）で最高位となり、前世代K3から18.6ポイント改善した。判定基準の厳格化も同時に行われており、順位変動には手法変更の影響が含まれる。",
+      "url": "https://alphasignal.ai/news/arena-s-alignment-index-reshuffles-ai-agents-gpt-6-2-sol-tops-67-models",
+      "otherUrls": [],
+      "source": "Arena.ai",
+      "topic": "評価",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-21T17:15:54+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Bria、背景除去モデル「RMBG 3.0」を公開——生成モデル基盤で4ステップ処理、自社比較で首位",
+      "summary": "Briaは11月中旬、背景除去モデル「RMBG 3.0」を公開した。生成画像モデルFibo 2.0をファインチューンし4ステップに蒸留した、初の生成基盤の背景除去モデルで、写真から柔らかなアルファマットを生成する。自社が用意した難易度の高い234枚の比較では平均順位1.51で、185枚（79%）で最良または同点最良となった。重みはHugging Faceで公開され（CC BY-NC 4.0、商用利用は別途契約）、APIはBriaとfalで1枚0.018ドル。学習にはライセンス済みデータのみを使用したという。",
+      "url": "https://huggingface.co/briaai/RMBG-3.0",
+      "otherUrls": [],
+      "source": "Bria",
+      "topic": "画像生成・編集",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-21T19:28:51+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Google、ワールドモデル「Genie 4」をGemini APIで開発者向けに提供開始",
+      "summary": "Googleは11月19日、ワールドモデル「Genie 4」をGemini API（Interactions API経由）とGoogle AI Studioで開発者向けに提供開始したと公式ブログで発表した。テキストプロンプトや参照画像から、720p・24fpsの連続した世界をネイティブ音声付きで生成でき、キーボード操作とライブのテキストプロンプトで移動しながら天候・照明・物体・出来事を変更できる。前日18日にProject GenieでGoogle AI Ultra加入者向けの一般提供が始まっており、2日続けての開放となった。すべての出力にはSynthIDの電子透かしが含まれる。",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
+      "otherUrls": [],
+      "source": "Google",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-21T19:28:51+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Kyutai、音声駆動ストリーミングアバター「AURA」の重みを公開——1.3Bは単一GPUで576p・20.7fps",
+      "summary": "Kyutaiは11月19日のarXiv論文と20日の公式ブログで、音声から話す頭部映像をリアルタイムにストリーミング生成するモデル群「AURA」を発表した。AURA 1.3Bは単一GPU（H100）で576p・20.7fpsのリアルタイム生成が可能で、双方向の教師モデルより23倍高速。大型のAURA 5Bは720p・9.7fpsで教師モデルと同等の品質に達した。両モデルの重み（非商用ライセンス）と、教師モデルが生成した合成動画3万件のデータセットを公開し、ライブデモも提供している。",
+      "url": "https://arxiv.org/abs/2611.26540v1",
+      "otherUrls": [],
+      "source": "Kyutai",
+      "topic": "映像生成・動画AI",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-21T19:28:51+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Marsh調査、AI研修は経営層に偏在——10か国6,700人超、定期利用は経営層64%に対し新入層20%",
+      "summary": "Marsh（Mercer）が11月18日に公表した年次調査「HR Tech's Impact on the Workforce 2026」（10か国・従業員6,729人）によると、仕事でAIを使ったことがある人は71%（2024年は39%）に達したが、定期的に使う人は37%にとどまった。過去1年に雇用主からAI研修の提供を受けた割合は経営層の78%に対し、時給労働者は20%、新入層の専門職は32%で、定期利用率も経営層64%に対し新入層は20%と大きな格差がある。Marshは研修機会の偏りが企業のAI変革の停滞を招いていると指摘した。",
+      "url": "https://www.mercer.com/assets/global/en/shared-assets/global/attachments/pdf-2026-hr-tech-impact-workforce-executive-report.pdf",
+      "otherUrls": [],
+      "source": "Marsh（Mercer）",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-21T19:28:51+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "VDC、大規模3DGSをブラウザで閲覧・共有できる「VDC Viewer」を提供——建築実務向け、月額5万円から",
+      "summary": "株式会社VDCは、大規模な3Dガウシアンスプラッティング（3DGS）データをWebブラウザ上で軽快に閲覧・共有できるクラウド型サービス「VDC Viewer」を2026年10月にリリースした（11月20日のプレスリリースで確認）。3DGS・3Dモデル・360°画像・2D図面を一つの環境で扱え、独自の最適化技術で数千万点規模の大規模3DGS表示に対応する。センチメートル級の距離・面積計測、3D空間への注釈、複数モデルの重ね合わせ、URL共有に対応し、建築計画・設計・施工・施設管理での3Dデータ活用を支援する。月額50,000円からで、12月2〜4日に東京ビッグサイトで開かれるJAPAN BUILD TOKYOに出展する。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000001.000194723.html",
+      "otherUrls": [],
+      "source": "株式会社VDC（PR Times）",
+      "topic": "建設×AI",
+      "section": "建設×AI",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-21T19:28:51+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Anthropic、IPO価格を1株$83に決定しNasdaqデビュー（史上最大のIPO）",
+      "summary": "Anthropicは11月18日、IPO価格を想定レンジ$70〜78を上回る1株$83に決定し、約9.8億株の売出しで約$813億を調達、史上最大のIPOとなった。11月19日にNasdaq（ティッカーANT）で取引を開始し初値は$111.50、終値は公開価格比+17%の$97.17。11月20日には引受団のグリーンシュー行使で調達総額が$935億に達したと発表した（WSJ）。",
+      "url": "https://www.wsj.com/finance/stocks/anthropic-ipo-ai-markets-89e2476f",
+      "otherUrls": [],
+      "source": "WSJ",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-21T23:24:15+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Baseten、Gemma 4ベースのオープン意思決定モデル「bison-1」「groundhog-1」を公開",
+      "summary": "Basetenが11月20日、GoogleのGemma 4をベースにしたオープンウェイトの意思決定モデル2種を公開した。bison-1（31B）はArtificial Analysis Decision Indexで76を記録し19モデル中1位となり、両モデルとも128kコンテキストでテキスト・画像入力に対応する。ウェイトはHugging Faceで公開され、Baseten Model APIでも提供される。",
+      "url": "https://www.baseten.co/blog/meet-bison-1-and-groundhog-1/",
+      "otherUrls": [],
+      "source": "Baseten",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-22T07:23:49+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Stripe、コーディングエージェントの実務評価ベンチマークを公開",
+      "summary": "Stripeが11月19日、決済統合の実務シナリオ69件で14のモデルとハーネスの組み合わせを測る評価手法とフレームワーク「Forge」をオープンソースで公開した。平均スコアは78.1%でも、全必須基準を満たす厳格な合格率は29.4%にとどまった。Stripe製プラグインを使うと全組み合わせでスコアが約3〜8ポイント改善し、ウェブ検索は96%減った。",
+      "url": "https://stripe.dev/blog/stripe-integration-evals-methodology",
+      "otherUrls": [],
+      "source": "Stripe",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "x"
+      ],
+      "collected_at": "2026-11-22T07:23:49+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Claudeのリーマン予想証明、Lean FROとMathlibが正しいと声明【続報】",
+      "summary": "AnthropicのLevent Alpöge氏がClaudeと示したリーマン予想の証明について、Lean FROとMathlib Initiativeが共同声明を出し、1700万行のLeanライブラリとして公開された証明を正しいと認めた。MITのAndrew Sutherland氏が独立カーネルでも検証し、Rust製のnanodaは約28分で証明を受理したと報告している。「証明されたが理解されていない」状態が今後の常態になるとの声も出ている。",
+      "url": "https://x.com/leanprover/status/2124159121645801562",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Claudeモバイルアプリ刷新、Codeタブで他デバイスのセッション管理",
+      "summary": "AnthropicがClaudeモバイルアプリの新デザインを順次ロールアウトし始めた。下部にChat、Projects、Code、Artifactsの4タブが追加され、Codeタブでは接続中のデバイスを一覧でき、外出先でセッションを開始・再開しやすくなった。週ごとの使用量（Weekly Usage）も表示されるようになったと歓迎されている。",
+      "url": "https://x.com/daniel__designs/status/2123860186951516287",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "section": "エージェント",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "CursorがGrok Buildに改名、CLI 2.0も登場か",
+      "summary": "SpaceXによるCursor買収とリブランディングの続報として、CursorがGrok Buildに名称変更されアプリも高速化したと報じられている。Grok Build CLI 2.0がalpha-unifiedチャネルに登場し統合サブスクリプションに紐づく見込みで、SpaceXSIのWebサイトでもGrok Build表記が使われ始め、API上のgrok-build-0.1モデルは非推奨となった。報道ベースのため未確認。",
+      "url": "https://x.com/GrokInsider/status/2123867269553938671",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "published_at": "",
+      "unconfirmed": true,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "GPT-Live APIのidle検知、無音時コスト60%減【続報】",
+      "summary": "OpenAIの音声モデルGPT-Live-1.1のAPI提供に関する続報。OpenAIのJustin Uberti氏が、新しいidle検知で無音が続く間のコストを60%削減できると紹介した。設定は簡単で、停止より難しいとされる遅延なしの再開も実現している。委譲先のバックエンドモデルはgpt-6.1-terra高推論やgpt-6.2-astra低推論などが応答性と賢さのバランスに優れるとしている。",
+      "url": "https://x.com/juberti/status/2123945280353816901",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Gemini、キャッシュ改善で作業量22%増、クォータもリセット【続報】",
+      "summary": "Gemini 4 Neonのキャッシュヒット率をめぐる続報。GoogleのVarun Mohan氏は、キャッシュ改善でクォータ内の作業量が22%増えたとし、Antigravityで全ユーザーのクォータをリセットした。Geminiアプリでモデル選択を長押しするとHydrogen、Argon、Carbon、Neonを並べた周期表型の選択画面が出るとの報告もあり、Opus 5.5からNeonへの日常使い乗り換えを検討する声も出ている。",
+      "url": "https://x.com/_mohansolo/status/2124070033534161407",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Goodfire、Inkling 2 Miniのループ内情報流を解析",
+      "summary": "GoodfireがThinking MachinesからInkling 2 Miniへの先行アクセスを得て、層・ブロック・ループ間の情報の流れを解析した。層が自分自身に書き込んだり未来の層から読み出したりする様子が示され、TMLはループ回数可変の研究用モデルTML-d24-varloop-researchも公開した。ループで長文脈性能が上がる一方、毎回QKVを再計算するため膨大なメモリ帯域が必要になるとの見方も出ている。",
+      "url": "https://x.com/GoodfireAI/status/2123873150803100059",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "section": "論文・ベンチマーク",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Google Cloud、Agent向けdeferred tierをGA、コスト50%減",
+      "summary": "Google Cloudが、バックグラウンドで動くマルチターンAgent向けのdeferred service tierを一般提供した。GeminiのInteractions APIで指定すると、結果まで最大24時間ほど待つ代わりに料金が半額になり、ピーク時のクォータエラーもほぼゼロになるという。Flexible Savings Plansやプロジェクト支出上限と並ぶ施策で、定期的な脆弱性スキャンなど急がない処理に向くとされる。",
+      "url": "https://x.com/GoogleCloudTech/status/2123905497711403453",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Inkling 2 Mini、Unsloth量子化で16GB RAM動作、HF首位に【続報】",
+      "summary": "Thinking Machinesのlooped MoEモデルInkling 2 Miniについて、UnslothがGGUF版を公開し16GB RAMで動作するようになった。UD3.1量子化はtop-1%精度を90%超保つとされ、Unsloth Desktopの更新でbanded attentionの扱いが改善しDspark検出によりデコードが約2倍に高速化した。HFトレンドでは本体が1位、GGUFが2位となった。",
+      "url": "https://x.com/UnslothAI/status/2123873656069877899",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "section": "モデル",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "LangChain、Agentの学習ループ「knowledge factory」を解説",
+      "summary": "LangChainのHarrison Chase氏が、社内Agentに共通する学習ループを「knowledge factory」としてまとめた記事を公開した。Agentやサブエージェントはwikiを確実に編集できないため、編集を一手に担うcurator agentを置くのが一般的なパターンだとしている。日本でもCopilot ChatのSkillsとSharePoint、MS Listでナレッジサイクルを回す実践が共有されている。",
+      "url": "https://x.com/hwchase17/status/2124181216719151585",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "section": "エージェント",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Nvidia系サーバーの東南アジア出荷停止、海外DC課税も浮上【続報】",
+      "summary": "中国AI企業による海外データセンター経由の先端AIチップ利用規制の続報。Nvidiaのサーバーサプライヤーが東南アジア向けの出荷を止めたと報じられ、MoonshotがインドネシアでBlackwellチップを利用する1億5000万ドルの契約を破棄した影響が広がっている。Trump大統領は米国外に建設されるデータセンターへの課税にも言及し、Alibabaは自社T-Headチップで事前学習を始めたとされる。",
+      "url": "https://x.com/paurooteri/status/2123917053447090426",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "政府・政策",
+      "section": "政策・政府",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "OpenRouterで一部プロバイダがMiniMaxへ推論を無断転送",
+      "summary": "OpenRouterで、Atlas Cloud、Novita、SteamLakeがMiniMaxモデルの推論を自社で実施せずMiniMaxへ転送していたと報告されている。研究者が秘密のリンクを送って調べたところ40〜130時間後に開かれ、何者かが出力にアクセスしていたとされる。プロバイダ単位でデータ保持や学習の可否を選んでも、転送されれば意味をなさなくなる点が問題視されている。",
+      "url": "https://x.com/mah_lab/status/2124050401259569611",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "section": "生成AI・その他",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "メイン→ワーカー型マルチAgentは伝言ゲームで情報が劣化するとの指摘",
+      "summary": "T3 CodeやOrca、Herdrなど、メインAgentがワーカーへ指示を書く構成では情報が伝言ゲームで劣化するとの指摘が出ている。トップダウンより、モデル同士のフラットな議論の方が良い結果になるとし、難問ではNeon・Mythos・Astraを往復させ、性格の異なるアドバイザーを両側に置いてClaudeが実働する使い方も紹介されている。",
+      "url": "https://x.com/kenn/status/2123961554710532585",
+      "otherUrls": [],
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "section": "エージェント",
+      "collectedFrom": [
+        "mail-4ml"
+      ],
+      "collected_at": "2026-11-22T07:34:53+09:00",
+      "published_at": "",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "French Touch Factory、Unity向けリアルタイム4DGSプラグイン「ITHACA 4DGS」を公開(.trgzシーケンス対応を11/21付で明記)",
+      "summary": "French Touch Factory/ITHACAが、Unity(URP)向けにリアルタイム4D Gaussian Splattingレンダリングと資産生成を行うプラグイン「ithaca-4dgs-unity」をGitHubで公開。aras-p/UnityGaussianSplatting(MIT)のフォークで、静的3DGSと時間変化する4DGSアクターを同一シーンで混在可能。各スプラットがスクリュー運動で時間変化するHDの.trgz(.ftgsz)シーケンスに対応し、機能一覧に『.trgz sequences (ITHACA, since 21/11/2026)』と明記。DX12/Vulkan・Unity 6・URPが要件。コミュニティ/社内製ツールのGitHub公開であり企業公式プレスではない。",
+      "url": "https://github.com/frenchtouchXR/ithaca-4dgs-unity",
+      "otherUrls": [],
+      "source": "GitHub (frenchtouchXR/ithaca-4dgs-unity)",
+      "topic": "3DGS×AI",
+      "section": "建設×AI",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-22T08:25:51+09:00",
+      "published_at": "2026-11-21T00:00:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Microsoft 365 CopilotでDynamics 365の勤務リクエスト管理が可能に",
+      "summary": "Dynamics 365 Workforce Engagement ManagementがMCPツールを介してMicrosoft 365 Copilotと統合され、監督者や担当者が自然言語で休暇・シフトのリクエストを一覧・絞り込み・承認/却下できるようになった。承認アクションは休暇リクエストに限定され、既存のセキュリティロールとデータ境界は維持される。",
+      "url": "https://www.microsoft.com/releasecommunications/api/v2/m365/rss",
+      "otherUrls": [],
+      "source": "Microsoft 365 Message Center (Release Communications)",
+      "topic": "Microsoft 365 Copilot",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-22T08:25:51+09:00",
+      "published_at": "2026-11-21T02:55:45+00:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "Microsoft Foundry、プライベート仮想ネットワーク内ホステッドエージェントの接続トラブル対処ガイドを公開",
+      "summary": "Microsoft Foundry公式ブログが、自前の仮想ネットワーク内に展開したホステッドエージェントでAgentsページがタイムアウトする際の確認ポイント(委任サブネットの特定、Cosmos DBへの接続とプライベートエンドポイント/DNS、Entra IDサインイン、ピアリングVNetのDNSゾーン連携、ソフト削除アカウントによるDelegatedSubnetInUseエラー解消)を解説。製品のステータス変更ではなく運用向けのハウツー/トラブルシューティング記事。",
+      "url": "https://devblogs.microsoft.com/foundry/hosted-agents-private-network-setup/",
+      "otherUrls": [],
+      "source": "Microsoft Foundry Blog (devblogs.microsoft.com)",
+      "topic": "Microsoft Foundry",
+      "section": "エージェント",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-22T08:25:51+09:00",
+      "published_at": "2026-11-21T00:00:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "ゴムマリ、「営業データ分析AIエージェント」を提供開始",
+      "summary": "ゴムマリは2026年11月21日、営業データの分析を担う業務AIエージェントの提供を開始した。海外問い合わせ一次対応・データ突合と同時にローンチされたバックオフィス/営業支援向けの業務AIエージェント群の一つ。",
+      "url": "https://ascii.jp/elem/000/004/453/4453823/",
+      "otherUrls": [],
+      "source": "ASCII STARTUP(ゴムマリ)",
+      "topic": "AIビジネス",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-22T08:25:51+09:00",
+      "published_at": "2026-11-21T00:00:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "ゴムマリ、海外問い合わせの一次対応を担う業務AIエージェントを提供開始",
+      "summary": "ゴムマリは2026年11月21日、海外の顧客・拠点・委託先から届く問い合わせ(不具合報告や製品・仕様・使い方の質問)への一次対応を自動化する業務AIエージェントの提供を開始。英語・中国語・ベトナム語・タイ語など主要言語のまま問い合わせを読み取り、過去の類似対応を根拠つきで検索して一次回答を生成する。初期構築50万円から、月額保守10万円から、最短4週間で導入可能。Notion・Microsoft Copilot・自社基盤などの既存環境に組み込める。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000027.000185093.html",
+      "otherUrls": [],
+      "source": "PR TIMES(ゴムマリ)",
+      "topic": "AIビジネス",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-22T08:25:51+09:00",
+      "published_at": "2026-11-21T12:00:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    },
+    {
+      "headline": "ゴムマリ、経理・バックオフィス向け「データ突合AIエージェント」を提供開始",
+      "summary": "ゴムマリは2026年11月21日、複数データ間の突合作業を自動化する業務AIエージェント「データ突合」の提供を開始した。企業ごとの管理フローに合わせて構築するバックオフィス向けの業務AIエージェント群の一つ。",
+      "url": "https://ascii.jp/elem/000/004/453/4453832/",
+      "otherUrls": [],
+      "source": "ASCII STARTUP(ゴムマリ)",
+      "topic": "AIビジネス",
+      "section": "ビジネス・人材",
+      "collectedFrom": [
+        "claude-code"
+      ],
+      "collected_at": "2026-11-22T08:25:51+09:00",
+      "published_at": "2026-11-21T00:00:00+09:00",
+      "unconfirmed": false,
+      "alreadySentInEarlierEmail": false
+    }
+  ]
+}
