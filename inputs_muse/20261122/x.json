@@ -1,132 +1,158 @@
 {
- "date": "2026/11/22",
- "timezone": "Asia/Tokyo",
- "window": {
-  "from": "2026-11-21T08:00:00+09:00",
-  "to": "2026-11-22T08:00:00+09:00"
- },
- "source": "x",
- "itemCount": 12,
- "items": [
-  {
-   "headline": "Picsart、開発者向けAI基盤「Picsart Platform」を公開——250超のモデルを単一APIで提供",
-   "summary": "Picsartは11月20日、自社プラットフォームのAI技術を開発者や企業に開放する「Picsart Platform」を公開した。30社超のプロバイダーが提供する動画・画像・音声・文章のモデル250超とPicsart独自の編集モデルを、単一のAPI・CLI・Playground・MCPサーバー（Picsart Media Studio）経由で利用できる。料金は生成ごとの従量制で、Business Wireのプレスリリースで確認した。",
-   "url": "https://www.businesswire.com/news/home/20261120520968/en/Picsart-Opens-the-AI-Behind-Its-Platform-to-Developers-Businesses",
-   "source": "Picsart（Business Wire）",
-   "topic": "画像生成・編集",
-   "unconfirmed": false,
-   "x_url": "https://x.com/PromptBible_dev/status/2123912131003449659",
-   "collected_at": "2026-11-21T09:23:59+09:00"
+  "date": "2026/11/22",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-21T08:00:00+09:00",
+    "to": "2026-11-22T08:00:00+09:00"
   },
-  {
-   "headline": "Perplexity、エージェント「Computer」がChromiumブラウザ内で直接動作可能に",
-   "summary": "Perplexityは、AIエージェント「Computer」がChromium系ブラウザ（Chrome、Edge、Brave、Arc等）向け拡張機能を通じて、利用中のブラウザ内で直接動作できるようになったと発表した。サイドパネルからタスクを引き渡すと、開いている複数のタブやツールを横断して作業を実行する。Perplexity公式アカウントの投稿で確認した。",
-   "url": "https://x.com/perplexity_ai/status/2123896048510996827",
-   "source": "Perplexity",
-   "topic": "生成AI・その他",
-   "unconfirmed": false,
-   "x_url": "https://x.com/perplexity_ai/status/2123896048510996827",
-   "collected_at": "2026-11-21T09:23:59+09:00"
-  },
-  {
-   "headline": "メルカリ、Notion AI委託先への不正アクセスで顧客1,522人分などの情報が流出した可能性を発表",
-   "summary": "メルカリは11月20日、社内業務で利用するクラウドサービスNotionの「Notion AI」について、Notion社が処理の一部を委託していたFireworks AIが第三者による不正アクセスを受け、従業員が2026年10月5〜24日にNotion AIへ入力した内容とAI回答の記録の一部が外部に流出した可能性があると発表した。対象記録には顧客1,522人分、取引先担当者等571人分、採用応募者169人分、派遣・業務委託・退職者1,534人分などの個人情報が含まれていた。マイナンバー、クレジットカード番号、ログインパスワードが含まれていることは確認されておらず、含まれていた業務システムの認証情報は無効化と再発行を完了。現在はNotion AIのチャット機能で取り扱う情報を限定している。",
-   "url": "https://about.mercari.com/press/news/articles/20261120_incidentreport/",
-   "source": "株式会社メルカリ",
-   "topic": "AIセキュリティ",
-   "unconfirmed": false,
-   "x_url": "https://x.com/junjun142857/status/2123956296638677108",
-   "collected_at": "2026-11-21T11:26:19+09:00"
-  },
-  {
-   "headline": "Signal、OS組み込みAIエージェントによる画面読み取りを防ぐためスクリーンショットを既定で遮断",
-   "summary": "Signalは11月20日、OSに組み込まれたAIエージェント（AppleのSiri AIやGoogleのGemini Intelligenceなど）が画面上のSignalデータを撮影・保存するのを防ぐ対策を公式ブログで発表した。iOS 27ではアプリ内のスクリーンショットを既定で防ぎ「Block Siri AI」設定を追加、AndroidではAIアシスタントによる画面キャプチャの試行を検出した際に「Screen security」を有効化する。設定で無効化は可能だが、その場合は自分と相手の内容がAIエージェントに露出するおそれがあると警告。ファイルシステム経由など他の経路は防げない不完全な対策であることも明記し、Apple・Google・Microsoftに対し、開発者がAIのデータアクセスを簡単にオプトアウトできる仕組みと仕様文書の提供を求めた。昨年のWindows版でのMicrosoft Recall対策に続く措置で、macOSでは確実な実装手段がないため未対応。",
-   "url": "https://signal.org/blog/protecting-your-privacy/",
-   "source": "Signal",
-   "topic": "AIセキュリティ",
-   "unconfirmed": false,
-   "x_url": "https://x.com/ganeshpandian/status/2123981770509205922",
-   "collected_at": "2026-11-21T13:15:16+09:00"
-  },
-  {
-   "headline": "Anthropic、ClaudeのComputer UseをTeam・Enterpriseプラン向けにベータ提供開始",
-   "summary": "Anthropicは11月20日のClaudeリリースノートで、Computer Use（ベータ）をTeamおよびEnterpriseプランに追加し、組織へ段階的に展開すると発表した。Claudeがユーザーの画面を見て、許可したデスクトップアプリを操作できる機能で、新しいClaude Desktop体験のほか、Computer accessが有効な場合はWeb・モバイルからも利用できる。既定ではオフで、組織のOwnerまたはPrimary Ownerだけが有効化でき、管理者がアプリ単位の許可・遮断も設定できる。従来はPro・Max・Ultra向けのベータだったものが、組織向けプランへ広がった。",
-   "url": "https://aiweekly.co/alerts/claude-computer-use-beta-lands-on-team-and-enterprise-plans",
-   "source": "Anthropic",
-   "topic": "Claude",
-   "unconfirmed": false,
-   "x_url": "https://x.com/attaporn/status/2124035691210289632",
-   "collected_at": "2026-11-21T17:15:54+09:00"
-  },
-  {
-   "headline": "Arena、Alignment Indexを更新——実セッション19.6万件でGPT-6.2 Solが首位",
-   "summary": "Arena.aiはエージェントの振る舞いを測るAlignment Indexを更新した。実利用セッション195,836件・67モデルを対象に、無断実行・虚偽の帰属・完了の偽装という3種の失敗を集計する。首位はGPT-6.2 Sol（複合スコア85.2、無断実行4.14%・虚偽帰属0.34%・完了偽装1.65%）で、OpenAIのモデルが上位7位を占めた。Claude Fable 5.2は8位（78.2）で初登場し、Claude Opus 5.5は更新前の6位から17位へ後退。オープンウェイトではKimi K3.1 Proが9位（78.2）で最高位となり、前世代K3から18.6ポイント改善した。判定基準の厳格化も同時に行われており、順位変動には手法変更の影響が含まれる。",
-   "url": "https://alphasignal.ai/news/arena-s-alignment-index-reshuffles-ai-agents-gpt-6-2-sol-tops-67-models",
-   "source": "Arena.ai",
-   "topic": "評価",
-   "unconfirmed": false,
-   "x_url": "https://x.com/bebuu_ai/status/2124038547904880750",
-   "collected_at": "2026-11-21T17:15:54+09:00"
-  },
-  {
-   "headline": "Marsh調査、AI研修は経営層に偏在——10か国6,700人超、定期利用は経営層64%に対し新入層20%",
-   "summary": "Marsh（Mercer）が11月18日に公表した年次調査「HR Tech's Impact on the Workforce 2026」（10か国・従業員6,729人）によると、仕事でAIを使ったことがある人は71%（2024年は39%）に達したが、定期的に使う人は37%にとどまった。過去1年に雇用主からAI研修の提供を受けた割合は経営層の78%に対し、時給労働者は20%、新入層の専門職は32%で、定期利用率も経営層64%に対し新入層は20%と大きな格差がある。Marshは研修機会の偏りが企業のAI変革の停滞を招いていると指摘した。",
-   "url": "https://www.mercer.com/assets/global/en/shared-assets/global/attachments/pdf-2026-hr-tech-impact-workforce-executive-report.pdf",
-   "source": "Marsh（Mercer）",
-   "topic": "ビジネス・人材",
-   "unconfirmed": false,
-   "x_url": "https://x.com/ailabonnn/status/2124015489114407379",
-   "collected_at": "2026-11-21T19:28:51+09:00"
-  },
-  {
-   "headline": "VDC、大規模3DGSをブラウザで閲覧・共有できる「VDC Viewer」を提供——建築実務向け、月額5万円から",
-   "summary": "株式会社VDCは、大規模な3Dガウシアンスプラッティング（3DGS）データをWebブラウザ上で軽快に閲覧・共有できるクラウド型サービス「VDC Viewer」を2026年10月にリリースした（11月20日のプレスリリースで確認）。3DGS・3Dモデル・360°画像・2D図面を一つの環境で扱え、独自の最適化技術で数千万点規模の大規模3DGS表示に対応する。センチメートル級の距離・面積計測、3D空間への注釈、複数モデルの重ね合わせ、URL共有に対応し、建築計画・設計・施工・施設管理での3Dデータ活用を支援する。月額50,000円からで、12月2〜4日に東京ビッグサイトで開かれるJAPAN BUILD TOKYOに出展する。",
-   "url": "https://prtimes.jp/main/html/rd/p/000000001.000194723.html",
-   "source": "株式会社VDC（PR Times）",
-   "topic": "建設×AI",
-   "unconfirmed": false,
-   "x_url": "https://x.com/TomMagic95/status/2123999521441231001",
-   "collected_at": "2026-11-21T19:28:51+09:00"
-  },
-  {
-   "headline": "Kyutai、音声駆動ストリーミングアバター「AURA」の重みを公開——1.3Bは単一GPUで576p・20.7fps",
-   "summary": "Kyutaiは11月19日のarXiv論文と20日の公式ブログで、音声から話す頭部映像をリアルタイムにストリーミング生成するモデル群「AURA」を発表した。AURA 1.3Bは単一GPU（H100）で576p・20.7fpsのリアルタイム生成が可能で、双方向の教師モデルより23倍高速。大型のAURA 5Bは720p・9.7fpsで教師モデルと同等の品質に達した。両モデルの重み（非商用ライセンス）と、教師モデルが生成した合成動画3万件のデータセットを公開し、ライブデモも提供している。",
-   "url": "https://arxiv.org/abs/2611.26540v1",
-   "source": "Kyutai",
-   "topic": "映像生成・動画AI",
-   "unconfirmed": false,
-   "x_url": "https://x.com/tknr0819/status/2124029472571883608",
-   "collected_at": "2026-11-21T19:28:51+09:00"
-  },
-  {
-   "headline": "Google、ワールドモデル「Genie 4」をGemini APIで開発者向けに提供開始",
-   "summary": "Googleは11月19日、ワールドモデル「Genie 4」をGemini API（Interactions API経由）とGoogle AI Studioで開発者向けに提供開始したと公式ブログで発表した。テキストプロンプトや参照画像から、720p・24fpsの連続した世界をネイティブ音声付きで生成でき、キーボード操作とライブのテキストプロンプトで移動しながら天候・照明・物体・出来事を変更できる。前日18日にProject GenieでGoogle AI Ultra加入者向けの一般提供が始まっており、2日続けての開放となった。すべての出力にはSynthIDの電子透かしが含まれる。",
-   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
-   "source": "Google",
-   "topic": "モデル",
-   "unconfirmed": false,
-   "x_url": "https://x.com/STomoya_todo/status/2124036424769122513",
-   "collected_at": "2026-11-21T19:28:51+09:00"
-  },
-  {
-   "headline": "Bria、背景除去モデル「RMBG 3.0」を公開——生成モデル基盤で4ステップ処理、自社比較で首位",
-   "summary": "Briaは11月中旬、背景除去モデル「RMBG 3.0」を公開した。生成画像モデルFibo 2.0をファインチューンし4ステップに蒸留した、初の生成基盤の背景除去モデルで、写真から柔らかなアルファマットを生成する。自社が用意した難易度の高い234枚の比較では平均順位1.51で、185枚（79%）で最良または同点最良となった。重みはHugging Faceで公開され（CC BY-NC 4.0、商用利用は別途契約）、APIはBriaとfalで1枚0.018ドル。学習にはライセンス済みデータのみを使用したという。",
-   "url": "https://huggingface.co/briaai/RMBG-3.0",
-   "source": "Bria",
-   "topic": "画像生成・編集",
-   "unconfirmed": false,
-   "x_url": "https://x.com/PromptBible_dev/status/2123975471868309618",
-   "collected_at": "2026-11-21T19:28:51+09:00"
-  },
-  {
-   "headline": "Anthropic、IPO価格を1株$83に決定しNasdaqデビュー（史上最大のIPO）",
-   "summary": "Anthropicは11月18日、IPO価格を想定レンジ$70〜78を上回る1株$83に決定し、約9.8億株の売出しで約$813億を調達、史上最大のIPOとなった。11月19日にNasdaq（ティッカーANT）で取引を開始し初値は$111.50、終値は公開価格比+17%の$97.17。11月20日には引受団のグリーンシュー行使で調達総額が$935億に達したと発表した（WSJ）。",
-   "url": "https://www.wsj.com/finance/stocks/anthropic-ipo-ai-markets-89e2476f",
-   "source": "WSJ",
-   "topic": "ビジネス・人材",
-   "unconfirmed": false,
-   "x_url": "https://x.com/bokuwalily/status/2124105055917973786",
-   "collected_at": "2026-11-21T23:24:15+09:00"
-  }
- ]
+  "source": "x",
+  "itemCount": 14,
+  "items": [
+    {
+      "headline": "Picsart、開発者向けAI基盤「Picsart Platform」を公開——250超のモデルを単一APIで提供",
+      "summary": "Picsartは11月20日、自社プラットフォームのAI技術を開発者や企業に開放する「Picsart Platform」を公開した。30社超のプロバイダーが提供する動画・画像・音声・文章のモデル250超とPicsart独自の編集モデルを、単一のAPI・CLI・Playground・MCPサーバー（Picsart Media Studio）経由で利用できる。料金は生成ごとの従量制で、Business Wireのプレスリリースで確認した。",
+      "url": "https://www.businesswire.com/news/home/20261120520968/en/Picsart-Opens-the-AI-Behind-Its-Platform-to-Developers-Businesses",
+      "source": "Picsart（Business Wire）",
+      "topic": "画像生成・編集",
+      "unconfirmed": false,
+      "x_url": "https://x.com/PromptBible_dev/status/2123912131003449659",
+      "collected_at": "2026-11-21T09:23:59+09:00"
+    },
+    {
+      "headline": "Perplexity、エージェント「Computer」がChromiumブラウザ内で直接動作可能に",
+      "summary": "Perplexityは、AIエージェント「Computer」がChromium系ブラウザ（Chrome、Edge、Brave、Arc等）向け拡張機能を通じて、利用中のブラウザ内で直接動作できるようになったと発表した。サイドパネルからタスクを引き渡すと、開いている複数のタブやツールを横断して作業を実行する。Perplexity公式アカウントの投稿で確認した。",
+      "url": "https://x.com/perplexity_ai/status/2123896048510996827",
+      "source": "Perplexity",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "x_url": "https://x.com/perplexity_ai/status/2123896048510996827",
+      "collected_at": "2026-11-21T09:23:59+09:00"
+    },
+    {
+      "headline": "メルカリ、Notion AI委託先への不正アクセスで顧客1,522人分などの情報が流出した可能性を発表",
+      "summary": "メルカリは11月20日、社内業務で利用するクラウドサービスNotionの「Notion AI」について、Notion社が処理の一部を委託していたFireworks AIが第三者による不正アクセスを受け、従業員が2026年10月5〜24日にNotion AIへ入力した内容とAI回答の記録の一部が外部に流出した可能性があると発表した。対象記録には顧客1,522人分、取引先担当者等571人分、採用応募者169人分、派遣・業務委託・退職者1,534人分などの個人情報が含まれていた。マイナンバー、クレジットカード番号、ログインパスワードが含まれていることは確認されておらず、含まれていた業務システムの認証情報は無効化と再発行を完了。現在はNotion AIのチャット機能で取り扱う情報を限定している。",
+      "url": "https://about.mercari.com/press/news/articles/20261120_incidentreport/",
+      "source": "株式会社メルカリ",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "x_url": "https://x.com/junjun142857/status/2123956296638677108",
+      "collected_at": "2026-11-21T11:26:19+09:00"
+    },
+    {
+      "headline": "Signal、OS組み込みAIエージェントによる画面読み取りを防ぐためスクリーンショットを既定で遮断",
+      "summary": "Signalは11月20日、OSに組み込まれたAIエージェント（AppleのSiri AIやGoogleのGemini Intelligenceなど）が画面上のSignalデータを撮影・保存するのを防ぐ対策を公式ブログで発表した。iOS 27ではアプリ内のスクリーンショットを既定で防ぎ「Block Siri AI」設定を追加、AndroidではAIアシスタントによる画面キャプチャの試行を検出した際に「Screen security」を有効化する。設定で無効化は可能だが、その場合は自分と相手の内容がAIエージェントに露出するおそれがあると警告。ファイルシステム経由など他の経路は防げない不完全な対策であることも明記し、Apple・Google・Microsoftに対し、開発者がAIのデータアクセスを簡単にオプトアウトできる仕組みと仕様文書の提供を求めた。昨年のWindows版でのMicrosoft Recall対策に続く措置で、macOSでは確実な実装手段がないため未対応。",
+      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "source": "Signal",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "x_url": "https://x.com/ganeshpandian/status/2123981770509205922",
+      "collected_at": "2026-11-21T13:15:16+09:00"
+    },
+    {
+      "headline": "Anthropic、ClaudeのComputer UseをTeam・Enterpriseプラン向けにベータ提供開始",
+      "summary": "Anthropicは11月20日のClaudeリリースノートで、Computer Use（ベータ）をTeamおよびEnterpriseプランに追加し、組織へ段階的に展開すると発表した。Claudeがユーザーの画面を見て、許可したデスクトップアプリを操作できる機能で、新しいClaude Desktop体験のほか、Computer accessが有効な場合はWeb・モバイルからも利用できる。既定ではオフで、組織のOwnerまたはPrimary Ownerだけが有効化でき、管理者がアプリ単位の許可・遮断も設定できる。従来はPro・Max・Ultra向けのベータだったものが、組織向けプランへ広がった。",
+      "url": "https://aiweekly.co/alerts/claude-computer-use-beta-lands-on-team-and-enterprise-plans",
+      "source": "Anthropic",
+      "topic": "Claude",
+      "unconfirmed": false,
+      "x_url": "https://x.com/attaporn/status/2124035691210289632",
+      "collected_at": "2026-11-21T17:15:54+09:00"
+    },
+    {
+      "headline": "Arena、Alignment Indexを更新——実セッション19.6万件でGPT-6.2 Solが首位",
+      "summary": "Arena.aiはエージェントの振る舞いを測るAlignment Indexを更新した。実利用セッション195,836件・67モデルを対象に、無断実行・虚偽の帰属・完了の偽装という3種の失敗を集計する。首位はGPT-6.2 Sol（複合スコア85.2、無断実行4.14%・虚偽帰属0.34%・完了偽装1.65%）で、OpenAIのモデルが上位7位を占めた。Claude Fable 5.2は8位（78.2）で初登場し、Claude Opus 5.5は更新前の6位から17位へ後退。オープンウェイトではKimi K3.1 Proが9位（78.2）で最高位となり、前世代K3から18.6ポイント改善した。判定基準の厳格化も同時に行われており、順位変動には手法変更の影響が含まれる。",
+      "url": "https://alphasignal.ai/news/arena-s-alignment-index-reshuffles-ai-agents-gpt-6-2-sol-tops-67-models",
+      "source": "Arena.ai",
+      "topic": "評価",
+      "unconfirmed": false,
+      "x_url": "https://x.com/bebuu_ai/status/2124038547904880750",
+      "collected_at": "2026-11-21T17:15:54+09:00"
+    },
+    {
+      "headline": "Marsh調査、AI研修は経営層に偏在——10か国6,700人超、定期利用は経営層64%に対し新入層20%",
+      "summary": "Marsh（Mercer）が11月18日に公表した年次調査「HR Tech's Impact on the Workforce 2026」（10か国・従業員6,729人）によると、仕事でAIを使ったことがある人は71%（2024年は39%）に達したが、定期的に使う人は37%にとどまった。過去1年に雇用主からAI研修の提供を受けた割合は経営層の78%に対し、時給労働者は20%、新入層の専門職は32%で、定期利用率も経営層64%に対し新入層は20%と大きな格差がある。Marshは研修機会の偏りが企業のAI変革の停滞を招いていると指摘した。",
+      "url": "https://www.mercer.com/assets/global/en/shared-assets/global/attachments/pdf-2026-hr-tech-impact-workforce-executive-report.pdf",
+      "source": "Marsh（Mercer）",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "x_url": "https://x.com/ailabonnn/status/2124015489114407379",
+      "collected_at": "2026-11-21T19:28:51+09:00"
+    },
+    {
+      "headline": "VDC、大規模3DGSをブラウザで閲覧・共有できる「VDC Viewer」を提供——建築実務向け、月額5万円から",
+      "summary": "株式会社VDCは、大規模な3Dガウシアンスプラッティング（3DGS）データをWebブラウザ上で軽快に閲覧・共有できるクラウド型サービス「VDC Viewer」を2026年10月にリリースした（11月20日のプレスリリースで確認）。3DGS・3Dモデル・360°画像・2D図面を一つの環境で扱え、独自の最適化技術で数千万点規模の大規模3DGS表示に対応する。センチメートル級の距離・面積計測、3D空間への注釈、複数モデルの重ね合わせ、URL共有に対応し、建築計画・設計・施工・施設管理での3Dデータ活用を支援する。月額50,000円からで、12月2〜4日に東京ビッグサイトで開かれるJAPAN BUILD TOKYOに出展する。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000001.000194723.html",
+      "source": "株式会社VDC（PR Times）",
+      "topic": "建設×AI",
+      "unconfirmed": false,
+      "x_url": "https://x.com/TomMagic95/status/2123999521441231001",
+      "collected_at": "2026-11-21T19:28:51+09:00"
+    },
+    {
+      "headline": "Kyutai、音声駆動ストリーミングアバター「AURA」の重みを公開——1.3Bは単一GPUで576p・20.7fps",
+      "summary": "Kyutaiは11月19日のarXiv論文と20日の公式ブログで、音声から話す頭部映像をリアルタイムにストリーミング生成するモデル群「AURA」を発表した。AURA 1.3Bは単一GPU（H100）で576p・20.7fpsのリアルタイム生成が可能で、双方向の教師モデルより23倍高速。大型のAURA 5Bは720p・9.7fpsで教師モデルと同等の品質に達した。両モデルの重み（非商用ライセンス）と、教師モデルが生成した合成動画3万件のデータセットを公開し、ライブデモも提供している。",
+      "url": "https://arxiv.org/abs/2611.26540v1",
+      "source": "Kyutai",
+      "topic": "映像生成・動画AI",
+      "unconfirmed": false,
+      "x_url": "https://x.com/tknr0819/status/2124029472571883608",
+      "collected_at": "2026-11-21T19:28:51+09:00"
+    },
+    {
+      "headline": "Google、ワールドモデル「Genie 4」をGemini APIで開発者向けに提供開始",
+      "summary": "Googleは11月19日、ワールドモデル「Genie 4」をGemini API（Interactions API経由）とGoogle AI Studioで開発者向けに提供開始したと公式ブログで発表した。テキストプロンプトや参照画像から、720p・24fpsの連続した世界をネイティブ音声付きで生成でき、キーボード操作とライブのテキストプロンプトで移動しながら天候・照明・物体・出来事を変更できる。前日18日にProject GenieでGoogle AI Ultra加入者向けの一般提供が始まっており、2日続けての開放となった。すべての出力にはSynthIDの電子透かしが含まれる。",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
+      "source": "Google",
+      "topic": "モデル",
+      "unconfirmed": false,
+      "x_url": "https://x.com/STomoya_todo/status/2124036424769122513",
+      "collected_at": "2026-11-21T19:28:51+09:00"
+    },
+    {
+      "headline": "Bria、背景除去モデル「RMBG 3.0」を公開——生成モデル基盤で4ステップ処理、自社比較で首位",
+      "summary": "Briaは11月中旬、背景除去モデル「RMBG 3.0」を公開した。生成画像モデルFibo 2.0をファインチューンし4ステップに蒸留した、初の生成基盤の背景除去モデルで、写真から柔らかなアルファマットを生成する。自社が用意した難易度の高い234枚の比較では平均順位1.51で、185枚（79%）で最良または同点最良となった。重みはHugging Faceで公開され（CC BY-NC 4.0、商用利用は別途契約）、APIはBriaとfalで1枚0.018ドル。学習にはライセンス済みデータのみを使用したという。",
+      "url": "https://huggingface.co/briaai/RMBG-3.0",
+      "source": "Bria",
+      "topic": "画像生成・編集",
+      "unconfirmed": false,
+      "x_url": "https://x.com/PromptBible_dev/status/2123975471868309618",
+      "collected_at": "2026-11-21T19:28:51+09:00"
+    },
+    {
+      "headline": "Anthropic、IPO価格を1株$83に決定しNasdaqデビュー（史上最大のIPO）",
+      "summary": "Anthropicは11月18日、IPO価格を想定レンジ$70〜78を上回る1株$83に決定し、約9.8億株の売出しで約$813億を調達、史上最大のIPOとなった。11月19日にNasdaq（ティッカーANT）で取引を開始し初値は$111.50、終値は公開価格比+17%の$97.17。11月20日には引受団のグリーンシュー行使で調達総額が$935億に達したと発表した（WSJ）。",
+      "url": "https://www.wsj.com/finance/stocks/anthropic-ipo-ai-markets-89e2476f",
+      "source": "WSJ",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "x_url": "https://x.com/bokuwalily/status/2124105055917973786",
+      "collected_at": "2026-11-21T23:24:15+09:00"
+    },
+    {
+      "headline": "Baseten、Gemma 4ベースのオープン意思決定モデル「bison-1」「groundhog-1」を公開",
+      "summary": "Basetenが11月20日、GoogleのGemma 4をベースにしたオープンウェイトの意思決定モデル2種を公開した。bison-1（31B）はArtificial Analysis Decision Indexで76を記録し19モデル中1位となり、両モデルとも128kコンテキストでテキスト・画像入力に対応する。ウェイトはHugging Faceで公開され、Baseten Model APIでも提供される。",
+      "url": "https://www.baseten.co/blog/meet-bison-1-and-groundhog-1/",
+      "source": "Baseten",
+      "topic": "モデル",
+      "collected_at": "2026-11-22T07:23:49+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/newzmuse_/status/2124261823725670522",
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-22T07:23:49+09:00"
+    },
+    {
+      "headline": "Stripe、コーディングエージェントの実務評価ベンチマークを公開",
+      "summary": "Stripeが11月19日、決済統合の実務シナリオ69件で14のモデルとハーネスの組み合わせを測る評価手法とフレームワーク「Forge」をオープンソースで公開した。平均スコアは78.1%でも、全必須基準を満たす厳格な合格率は29.4%にとどまった。Stripe製プラグインを使うと全組み合わせでスコアが約3〜8ポイント改善し、ウェブ検索は96%減った。",
+      "url": "https://stripe.dev/blog/stripe-integration-evals-methodology",
+      "source": "Stripe",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-22T07:23:49+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/contextaware_ai/status/2124235395068264464",
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-22T07:23:49+09:00"
+    }
+  ]
 }
