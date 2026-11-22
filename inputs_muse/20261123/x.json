@@ -1,97 +1,107 @@
 {
-  "date": "2026/11/23",
-  "timezone": "Asia/Tokyo",
-  "window": {
-    "from": "2026-11-22T08:00:00+09:00",
-    "to": "2026-11-23T08:00:00+09:00"
+ "date": "2026/11/23",
+ "timezone": "Asia/Tokyo",
+ "window": {
+  "from": "2026-11-22T08:00:00+09:00",
+  "to": "2026-11-23T08:00:00+09:00"
+ },
+ "source": "x",
+ "itemCount": 8,
+ "items": [
+  {
+   "headline": "Ant Group、医療特化のオープンモデル「LingSante-3.1-flash」を公開——総パラメータ560B級で医療推論のオープンソース最高水準を主張",
+   "summary": "中国Ant GroupのinclusionAIは、Ling-3.1-flashを基盤とする医療特化モデル「LingSante-3.1-flash」をHugging Faceで公開し、公式ブログで詳細を発表した。総パラメータ約560B（トークンあたり約25Bを活性化）、コンテキスト最大1Mトークンのハイブリッド線形MoEで、複雑な医療推論タスクではオープンソースモデルで最高水準、医療専門行動のベンチマークではGPT-6 Astraに次ぐ2位としている（いずれも自社評価）。MXFP4量子化版も11月22日に公開された。",
+   "url": "https://ant-ling.medium.com/lingsante-3-1-flash-bridging-medical-reasoning-and-real-world-workflows-fdc95f262f64",
+   "source": "Ant Ling (Ant Group)",
+   "topic": "モデル",
+   "collected_at": "2026-11-23T07:22:05+09:00",
+   "unconfirmed": false,
+   "x_url": "https://x.com/cursorvers/status/2124589667979087979"
   },
-  "source": "x",
-  "itemCount": 7,
-  "items": [
-    {
-      "headline": "Seramount調査、Z世代はAIスキル習得意欲が最も低く18%——組織の支援実感も27%で世代間格差",
-      "summary": "人材サービスSeramountが従業員500人以上の企業の米ホワイトカラー1,800人超を対象に行った調査（Fortuneが11月21日に報道）によると、AIスキルを伸ばしたいと答えたZ世代は18%で、ミレニアル36%、X世代46%を大きく下回った。組織がAIの業務組み込みを支援していると感じているZ世代も27%でX世代の43%と差があり、AI利用で能力を疑われる不安はZ世代22%と他世代（8〜10%）より高かった。",
-      "url": "https://fortune.com/2026/11/21/gen-z-workers-ai-skills-seramount-survey/",
-      "source": "Fortune / Seramount",
-      "topic": "ビジネス・人材",
-      "collected_at": "2026-11-22T11:24:42+09:00",
-      "unconfirmed": false,
-      "x_url": "https://x.com/theveritascont/status/2124289478101807182",
-      "via": "x",
-      "breaking": false,
-      "queued_at": "2026-11-22T11:24:42+09:00"
-    },
-    {
-      "headline": "AWS、文書AI「Amazon Textract Insights」を一般提供——自然言語で抽出項目を定義、値ごとに信頼度と出典ページを返す",
-      "summary": "AWSは11月20日、Amazon Textractの生成AI機能「Textract Insights」の一般提供を開始した。JSON Schemaに自然言語の説明を添えたブループリントで抽出項目を定義すると、最大3,000ページの混在文書パケットを1回の非同期リクエストで自動分割・分類・抽出し、各値に信頼度スコアとページ・座標のグラウンディングを付けて返す。モデル学習は不要で、料金はページ単位。対応言語は英語など6言語（日本語は対象外）で、提供は米国東部・西部の2リージョン。基盤のTextract Coreは同日、東京を含む18リージョンへ拡大した。AWS公式発表で確認した。",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/textract-insights-ga/",
-      "source": "AWS",
-      "topic": "生成AI・その他",
-      "collected_at": "2026-11-22T15:38:19+09:00",
-      "unconfirmed": false,
-      "x_url": "https://x.com/junjun142857/status/2124346590626496907",
-      "via": "x",
-      "breaking": false,
-      "queued_at": "2026-11-22T15:38:19+09:00"
-    },
-    {
-      "headline": "taiziii管理職調査、導入したAIツールが「ほとんど使われていない」部門が56.5%——理由の最多は精度不足と費用対効果を説明できないこと各36.5%",
-      "summary": "株式会社taiziiiが公表した「AI活用と組織の判断に関する実態調査」（2026年9月1〜4日実施、従業員300人以上の企業で業務にAIを使う部門の課長級以上170人が有効回答）によると、部門で導入したAIツールや用途のうち現在ほとんど使われていないものがあると答えた管理職は56.5%に上った。使われなくなった理由は「期待した精度が出なかった」と「費用対効果を説明できなかった」が各36.5%で最多、「使い方が現場に浸透しなかった」が32.3%で続いた。一次の調査ページで確認した。",
-      "url": "https://taiziii.com/ai-survey/2610/",
-      "source": "株式会社taiziii",
-      "topic": "ビジネス・人材",
-      "collected_at": "2026-11-22T15:38:19+09:00",
-      "unconfirmed": false,
-      "x_url": "https://x.com/ai_topica/status/2124336929181471201",
-      "via": "x",
-      "breaking": false,
-      "queued_at": "2026-11-22T15:38:19+09:00"
-    },
-    {
-      "headline": "伊藤忠商事・繊維カンパニー、生成AI活用で月約1.3万時間の削減申告——利用者は1,700人超、現場事例は100件超",
-      "summary": "ITmedia（2026年11月20日公開）が報じたJapan DX & AX Week秋2026の講演取材によると、伊藤忠商事の繊維カンパニーではグループ会社を含め1,700人以上が生成AIを使い、利用者アンケートの申告ベースで月約1.3万時間の削減効果が積み上がった。現場発の活用事例は100件を超え、月数千件の契約書を扱う「印紙判定bot」は印紙税額の判定を約15秒で返す。推進側は、経営層が具体例から「定量の匂い」を感じた時点で導入が加速したと説明している。",
-      "url": "https://www.itmedia.co.jp/business/articles/2611/20/news042.html",
-      "source": "ITmedia ビジネスオンライン",
-      "topic": "ビジネス・人材",
-      "collected_at": "2026-11-22T19:28:49+09:00",
-      "unconfirmed": false,
-      "x_url": "https://x.com/Chibisuke_0920/status/2124427761746059356",
-      "via": "x",
-      "breaking": false,
-      "queued_at": "2026-11-22T19:28:49+09:00"
-    },
-    {
-      "headline": "Microsoft、画像生成・編集モデル「MAI Image 2.7」と高速版Flashを公開——Foundryでパブリックプレビュー、編集系ベンチで首位",
-      "summary": "Microsoft AIは画像生成・編集モデル「MAI Image 2.7」と高速・低価格版「MAI Image 2.7 Flash」を発表し、Microsoft Foundryでパブリックプレビューを開始した。価格は1,000枚あたり約35ドル（Flashは約10ドル）で、編集ワークスペース「Canvas」も同時に公開した。Artificial Analysisの画像編集ランキング（AA-Image-Editing v2.1、11月16日時点）では1,215 Eloで首位となり、GPT Image 2.6 Sunburst (max) を上回ったとしている。両モデルとも透明背景に対応し、MAI ImageはBing Image Creatorの既定モデル群になっている。",
-      "url": "https://microsoft.ai/news/introducing-mai-image-2-7/",
-      "source": "Microsoft AI",
-      "topic": "画像生成・編集",
-      "collected_at": "2026-11-22T19:28:49+09:00",
-      "unconfirmed": false,
-      "x_url": "https://x.com/jorge_jorgesi/status/2124415162102771867",
-      "via": "x",
-      "breaking": false,
-      "queued_at": "2026-11-22T19:28:49+09:00"
-    },
-    {
-      "headline": "OpenAI、医薬化学ベンチマーク「MedChemBench」を公開——99問でGPT-6.2 Astraが84.5%のクレジットを獲得",
-      "summary": "OpenAIは、医薬化学の研究課題から作った99問のベンチマーク「MedChemBench」を公式ブログで公開した。117本の論文・特許と761の分子構造に基づき、分子構造の再構成、科学的推論、化合物の選択、物性予測を測る。xhigh設定ではGPT-6.2 Astraが84.5%のクレジットを獲得し、GPT-6 Astraの83.3%、GPT-6.1 Solの82.0%、GPT-5.6 Solの58.2%を上回った。構造再構成は強み（95.4%）だが、化合物選択と数値予測は約半分にとどまるとしている。",
-      "url": "https://openai.com/index/introducing-medchembench/",
-      "source": "OpenAI",
-      "topic": "論文・ベンチマーク",
-      "collected_at": "2026-11-23T03:21:35+09:00",
-      "unconfirmed": false,
-      "x_url": "https://x.com/tejaxs21/status/2124565891669246014"
-    },
-    {
-      "headline": "Sarvam AI、新チェックポイント「Sarvam-105B-1711」をオープンウェイト公開——8ベンチ平均73.9を100万トークン0.15ドルで提供",
-      "summary": "インドのSarvam AIは11月22日、Sarvam 105Bの新しいオープンウェイト・チェックポイント「Sarvam-105B-1711」を公式ブログで公開した。カスタマーサポートや音声エージェントなど大量処理向けのFlash-Lite級モデルで、8つの対話エージェントベンチマーク平均は2月版の42.6から73.9へ向上し、Gemini 3.5 Flash-Lite（74.0、0.85ドル）とほぼ同等を100万トークンあたり0.15ドルで提供するとしている。重みはHugging FaceにBF16版と、単一ワークステーションGPUで動く65GBのNVFP4版が公開され、コンテキストは160Kトークンに拡張された（いずれも自社評価）。",
-      "url": "https://www.sarvam.ai/blogs/sarvam-105b-1711",
-      "source": "Sarvam AI",
-      "topic": "モデル",
-      "collected_at": "2026-11-23T05:14:08+09:00",
-      "unconfirmed": false,
-      "x_url": "https://x.com/larsnow/status/2124571799325209038"
-    }
-  ]
+  {
+   "headline": "Seramount調査、Z世代はAIスキル習得意欲が最も低く18%——組織の支援実感も27%で世代間格差",
+   "summary": "人材サービスSeramountが従業員500人以上の企業の米ホワイトカラー1,800人超を対象に行った調査（Fortuneが11月21日に報道）によると、AIスキルを伸ばしたいと答えたZ世代は18%で、ミレニアル36%、X世代46%を大きく下回った。組織がAIの業務組み込みを支援していると感じているZ世代も27%でX世代の43%と差があり、AI利用で能力を疑われる不安はZ世代22%と他世代（8〜10%）より高かった。",
+   "url": "https://fortune.com/2026/11/21/gen-z-workers-ai-skills-seramount-survey/",
+   "source": "Fortune / Seramount",
+   "topic": "ビジネス・人材",
+   "collected_at": "2026-11-22T11:24:42+09:00",
+   "unconfirmed": false,
+   "x_url": "https://x.com/theveritascont/status/2124289478101807182",
+   "via": "x",
+   "breaking": false,
+   "queued_at": "2026-11-22T11:24:42+09:00"
+  },
+  {
+   "headline": "AWS、文書AI「Amazon Textract Insights」を一般提供——自然言語で抽出項目を定義、値ごとに信頼度と出典ページを返す",
+   "summary": "AWSは11月20日、Amazon Textractの生成AI機能「Textract Insights」の一般提供を開始した。JSON Schemaに自然言語の説明を添えたブループリントで抽出項目を定義すると、最大3,000ページの混在文書パケットを1回の非同期リクエストで自動分割・分類・抽出し、各値に信頼度スコアとページ・座標のグラウンディングを付けて返す。モデル学習は不要で、料金はページ単位。対応言語は英語など6言語（日本語は対象外）で、提供は米国東部・西部の2リージョン。基盤のTextract Coreは同日、東京を含む18リージョンへ拡大した。AWS公式発表で確認した。",
+   "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/textract-insights-ga/",
+   "source": "AWS",
+   "topic": "生成AI・その他",
+   "collected_at": "2026-11-22T15:38:19+09:00",
+   "unconfirmed": false,
+   "x_url": "https://x.com/junjun142857/status/2124346590626496907",
+   "via": "x",
+   "breaking": false,
+   "queued_at": "2026-11-22T15:38:19+09:00"
+  },
+  {
+   "headline": "taiziii管理職調査、導入したAIツールが「ほとんど使われていない」部門が56.5%——理由の最多は精度不足と費用対効果を説明できないこと各36.5%",
+   "summary": "株式会社taiziiiが公表した「AI活用と組織の判断に関する実態調査」（2026年9月1〜4日実施、従業員300人以上の企業で業務にAIを使う部門の課長級以上170人が有効回答）によると、部門で導入したAIツールや用途のうち現在ほとんど使われていないものがあると答えた管理職は56.5%に上った。使われなくなった理由は「期待した精度が出なかった」と「費用対効果を説明できなかった」が各36.5%で最多、「使い方が現場に浸透しなかった」が32.3%で続いた。一次の調査ページで確認した。",
+   "url": "https://taiziii.com/ai-survey/2610/",
+   "source": "株式会社taiziii",
+   "topic": "ビジネス・人材",
+   "collected_at": "2026-11-22T15:38:19+09:00",
+   "unconfirmed": false,
+   "x_url": "https://x.com/ai_topica/status/2124336929181471201",
+   "via": "x",
+   "breaking": false,
+   "queued_at": "2026-11-22T15:38:19+09:00"
+  },
+  {
+   "headline": "伊藤忠商事・繊維カンパニー、生成AI活用で月約1.3万時間の削減申告——利用者は1,700人超、現場事例は100件超",
+   "summary": "ITmedia（2026年11月20日公開）が報じたJapan DX & AX Week秋2026の講演取材によると、伊藤忠商事の繊維カンパニーではグループ会社を含め1,700人以上が生成AIを使い、利用者アンケートの申告ベースで月約1.3万時間の削減効果が積み上がった。現場発の活用事例は100件を超え、月数千件の契約書を扱う「印紙判定bot」は印紙税額の判定を約15秒で返す。推進側は、経営層が具体例から「定量の匂い」を感じた時点で導入が加速したと説明している。",
+   "url": "https://www.itmedia.co.jp/business/articles/2611/20/news042.html",
+   "source": "ITmedia ビジネスオンライン",
+   "topic": "ビジネス・人材",
+   "collected_at": "2026-11-22T19:28:49+09:00",
+   "unconfirmed": false,
+   "x_url": "https://x.com/Chibisuke_0920/status/2124427761746059356",
+   "via": "x",
+   "breaking": false,
+   "queued_at": "2026-11-22T19:28:49+09:00"
+  },
+  {
+   "headline": "Microsoft、画像生成・編集モデル「MAI Image 2.7」と高速版Flashを公開——Foundryでパブリックプレビュー、編集系ベンチで首位",
+   "summary": "Microsoft AIは画像生成・編集モデル「MAI Image 2.7」と高速・低価格版「MAI Image 2.7 Flash」を発表し、Microsoft Foundryでパブリックプレビューを開始した。価格は1,000枚あたり約35ドル（Flashは約10ドル）で、編集ワークスペース「Canvas」も同時に公開した。Artificial Analysisの画像編集ランキング（AA-Image-Editing v2.1、11月16日時点）では1,215 Eloで首位となり、GPT Image 2.6 Sunburst (max) を上回ったとしている。両モデルとも透明背景に対応し、MAI ImageはBing Image Creatorの既定モデル群になっている。",
+   "url": "https://microsoft.ai/news/introducing-mai-image-2-7/",
+   "source": "Microsoft AI",
+   "topic": "画像生成・編集",
+   "collected_at": "2026-11-22T19:28:49+09:00",
+   "unconfirmed": false,
+   "x_url": "https://x.com/jorge_jorgesi/status/2124415162102771867",
+   "via": "x",
+   "breaking": false,
+   "queued_at": "2026-11-22T19:28:49+09:00"
+  },
+  {
+   "headline": "OpenAI、医薬化学ベンチマーク「MedChemBench」を公開——99問でGPT-6.2 Astraが84.5%のクレジットを獲得",
+   "summary": "OpenAIは、医薬化学の研究課題から作った99問のベンチマーク「MedChemBench」を公式ブログで公開した。117本の論文・特許と761の分子構造に基づき、分子構造の再構成、科学的推論、化合物の選択、物性予測を測る。xhigh設定ではGPT-6.2 Astraが84.5%のクレジットを獲得し、GPT-6 Astraの83.3%、GPT-6.1 Solの82.0%、GPT-5.6 Solの58.2%を上回った。構造再構成は強み（95.4%）だが、化合物選択と数値予測は約半分にとどまるとしている。",
+   "url": "https://openai.com/index/introducing-medchembench/",
+   "source": "OpenAI",
+   "topic": "論文・ベンチマーク",
+   "collected_at": "2026-11-23T03:21:35+09:00",
+   "unconfirmed": false,
+   "x_url": "https://x.com/tejaxs21/status/2124565891669246014"
+  },
+  {
+   "headline": "Sarvam AI、新チェックポイント「Sarvam-105B-1711」をオープンウェイト公開——8ベンチ平均73.9を100万トークン0.15ドルで提供",
+   "summary": "インドのSarvam AIは11月22日、Sarvam 105Bの新しいオープンウェイト・チェックポイント「Sarvam-105B-1711」を公式ブログで公開した。カスタマーサポートや音声エージェントなど大量処理向けのFlash-Lite級モデルで、8つの対話エージェントベンチマーク平均は2月版の42.6から73.9へ向上し、Gemini 3.5 Flash-Lite（74.0、0.85ドル）とほぼ同等を100万トークンあたり0.15ドルで提供するとしている。重みはHugging FaceにBF16版と、単一ワークステーションGPUで動く65GBのNVFP4版が公開され、コンテキストは160Kトークンに拡張された（いずれも自社評価）。",
+   "url": "https://www.sarvam.ai/blogs/sarvam-105b-1711",
+   "source": "Sarvam AI",
+   "topic": "モデル",
+   "collected_at": "2026-11-23T05:14:08+09:00",
+   "unconfirmed": false,
+   "x_url": "https://x.com/larsnow/status/2124571799325209038"
+  }
+ ]
 }
