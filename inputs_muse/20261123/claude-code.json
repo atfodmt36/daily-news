@@ -1,0 +1,73 @@
+{
+  "date": "2026/11/23",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-22T08:00:00+09:00",
+    "to": "2026-11-23T08:00:00+09:00"
+  },
+  "source": "claude-code",
+  "itemCount": 3,
+  "items": [
+    {
+      "topic": "ChatGPT",
+      "headline": "OpenAI、内部プレトレーニング指標「パープレキシティ」を公開し業界共通の開発上限を提唱",
+      "summary": "OpenAIのチーフサイエンティスト Jakub Pachocki が論文「Perplexity and Intelligence」を公開。社内の保留データセットでの対数パープレキシティ値(GPT-3.5が約0.99、GPT-4が約0.91、新たな数学的成果を出したモデルが約0.76、次の到達域が約0.68〜0.70)を初めて開示し、変革的能力が出現すると見込まれる0.68〜0.70の範囲を、監視フレームワークが整うまで各社が超えないよう業界共通の基準とすることを提案した。",
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "source": "openai.com",
+      "published_at": "2026-11-22T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "date-only",
+        "research",
+        "safety"
+      ],
+      "related_urls": [
+        "https://www.bloomberg.com/news/articles/2026-11-22/openai-chief-scientist-urges-industry-limits-on-ai-development"
+      ],
+      "collected_at": "2026-11-23T08:26:48+09:00"
+    },
+    {
+      "topic": "3Dモデル×AI",
+      "headline": "写真1枚からAIが3Dモデル生成、ペーパークラフト展開図化する「ジオクラ」12/1正式公開を発表",
+      "summary": "AnemoiP&M株式会社が、スマートフォンで撮影した建物の写真1枚からAIが形状と色を読み取り3Dモデルを自動生成し、家庭用プリンターで印刷・組み立て可能なペーパークラフト展開図を出力するサービス「ジオクラ」を2026年11月22日に発表した。12月1日正午に正式公開予定。高輪地区まつりでの試験では展開図作成成功率96.1%(102件中98件)。株式会社HealthCareGateとの共同事業。",
+      "url": "https://koubo.jp/press-release/prtimes/c175892_r3",
+      "source": "PR TIMES / AnemoiP&M",
+      "published_at": "2026-11-22T14:30:00+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "3Dモデル生成",
+        "写真から3D",
+        "ペーパークラフト",
+        "AIアプリ"
+      ],
+      "related_urls": [
+        "https://www.appbank.net/2026/11/22/iphone-news/3174239.php",
+        "https://www.zaikei.co.jp/releases/3728766/"
+      ],
+      "collected_at": "2026-11-23T08:26:48+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "ゴムマリ、調達・購買部門向け『見積査定AIエージェント』の提供を開始",
+      "summary": "ゴムマリ株式会社は2026年11月22日、調達・購買部門の見積査定業務を対象とするAIエージェントの提供を開始した。提出された見積を過去の購買実績や市場価格データと照合し、項目ごとに『高い／適正／要確認』を根拠資料付きで評価、値上げ要求への対応を支援する。バックオフィス(購買)業務にAIを適用した具体的な製品提供開始の事例。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000016.000185093.html",
+      "source": "PR TIMES（ゴムマリ株式会社）",
+      "published_at": "2026-11-22T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "業務×AI",
+        "調達・購買",
+        "AIエージェント",
+        "製品提供開始",
+        "date-only"
+      ],
+      "related_urls": [
+        "https://trends.codecamp.jp/blogs/media/news-prt-185093-16"
+      ],
+      "collected_at": "2026-11-23T08:26:48+09:00"
+    }
+  ]
+}
