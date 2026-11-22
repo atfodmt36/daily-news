@@ -1,0 +1,22 @@
+{
+  "date": "2026/11/23",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-22T08:00:00+09:00",
+    "to": "2026-11-23T08:00:00+09:00"
+  },
+  "source": "x-likes",
+  "itemCount": 1,
+  "items": [
+    {
+      "headline": "Supersonic Labs、意思決定モデル「Julia 1.5」と「Julia 2」を公開——Julia 2は1.06Bパラメータでテキスト・画像・音声に対応",
+      "summary": "ブラジルのAIラボSupersonic Labsが、ソフトウェアの意思決定に特化したモデル「Julia 1.5」と第2世代「Julia 2」を発表した。Julia 2は1.06Bパラメータで、テキスト・JSON・画像・音声を単一パスで読み、定義された選択肢ごとに較正済みの確率を数十ミリ秒で返す。bf16／int8／int4版を用意し、32kトークンまでの検証を行い、Julia 1／1.5とリクエスト・回答形式の互換性を保つ。Julia 1.5はJulia 1と同サイズのまま書面ルールの追従信頼性を高めた。Hugging Faceのモデルカード（SupersonicLabs/Julia-2）で公開を確認した。オーナーのいいねが端緒。",
+      "url": "https://hg.pleisto.app/SupersonicLabs/Julia-2",
+      "topic": "モデル",
+      "source": "Supersonic Labs",
+      "unconfirmed": false,
+      "x_url": "https://x.com/supersonicai/status/2124246485931876596",
+      "collected_at": "2026-11-23T08:02:19+09:00"
+    }
+  ]
+}
