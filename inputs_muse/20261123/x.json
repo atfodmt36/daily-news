@@ -1,0 +1,25 @@
+{
+  "date": "2026/11/23",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-22T08:00:00+09:00",
+    "to": "2026-11-23T08:00:00+09:00"
+  },
+  "source": "x",
+  "itemCount": 1,
+  "items": [
+    {
+      "headline": "Seramount調査、Z世代はAIスキル習得意欲が最も低く18%——組織の支援実感も27%で世代間格差",
+      "summary": "人材サービスSeramountが従業員500人以上の企業の米ホワイトカラー1,800人超を対象に行った調査（Fortuneが11月21日に報道）によると、AIスキルを伸ばしたいと答えたZ世代は18%で、ミレニアル36%、X世代46%を大きく下回った。組織がAIの業務組み込みを支援していると感じているZ世代も27%でX世代の43%と差があり、AI利用で能力を疑われる不安はZ世代22%と他世代（8〜10%）より高かった。",
+      "url": "https://fortune.com/2026/11/21/gen-z-workers-ai-skills-seramount-survey/",
+      "source": "Fortune / Seramount",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-22T11:24:42+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/theveritascont/status/2124289478101807182",
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-22T11:24:42+09:00"
+    }
+  ]
+}
