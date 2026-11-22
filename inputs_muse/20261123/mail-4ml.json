@@ -1,0 +1,93 @@
+{
+  "date": "2026/11/23",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-22T08:00:00+09:00",
+    "to": "2026-11-23T08:00:00+09:00"
+  },
+  "source": "mail-4ml",
+  "itemCount": 9,
+  "items": [
+    {
+      "headline": "OpenAIのPachocki氏、perplexityで測る共通の能力上限を提案",
+      "summary": "OpenAIのチーフサイエンティストJakub Pachocki氏が、事前学習の進捗をperplexityで示す文章「Perplexity and Intelligence」を公開した。GPT-4の約0.91から0.8を下回るとサイバーや数学の能力が現れたとし、測定値に基づく共通の上限を設け、それを超える進歩は能力次第とすべきだと提案。Bloombergも、研究者がモデルの挙動を理解・監視するより良い方法を得るまで、より強力なモデルの開発に上限を設けることにAI企業が合意すべきだとの提案として報じた。透明性を歓迎する声の一方、変革的能力が来るとした0.68〜0.7の根拠を問う声も出ている。",
+      "url": "https://x.com/business/status/2124606381999132912",
+      "source": "ML_Bear Times",
+      "topic": "AI政策・規制",
+      "collected_at": "2026-11-23T07:33:53+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "GPT-6 Astra Pro、有限体上のリーマン予想を6ページ未満で新証明【続報】",
+      "summary": "AnthropicのAlpöge氏がClaudeと示したリーマン予想の証明に関する続報。GPT-6 Astra Proが有限体上のリーマン予想について6ページ未満の新証明を提案し、2つのClaudeモデルで確認されたと報告されている。Stanfordの数学教授Jared Duker Lichtman氏も公に認めており、使われる評価はCauchy–Schwarz不等式のみとされる。Alpöge氏の証明を圧縮する試みも始まっており、すでに47%短くなったと報告されている。",
+      "url": "https://x.com/jdlichtman/status/2124244181417906543",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-23T07:33:53+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "OpenRouter、推論を転送していた3プロバイダを除外【続報】",
+      "summary": "OpenRouterの一部プロバイダがMiniMaxへ推論を転送していた問題の続報。OpenRouterは問題の3プロバイダを除外し、多数のエンドポイントをZDR対象から外して影響を受けたユーザーに通知した。一方でOpenRouter自体のシステムに侵害はなかったと説明している。Databricks側からは、推論スタックの供給網全体を精査すべきとの指摘や、セキュリティが原因で多くのneocloudが淘汰されるとの声も出ている。",
+      "url": "https://x.com/OpenRouter/status/2124315081899200715",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-23T07:33:53+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Inkling 2 Mini、KernelBench-Megaで10.04倍を記録【続報】",
+      "summary": "Thinking Machinesのlooped MoEモデルInkling 2 Miniの続報。単一のRTX PRO 6000でのローカル実行により、KernelBench-Megaで最適化済みPyTorch比10.04倍の高速化を達成したと報告された。同じGPU上でGrok 4.7の6.34倍、GPT-6.1-Solの4.96倍、DeepSeek-V4-Flashの4.32倍、Claude Sonnet 5の3.92倍を上回り、アクティブ3.4Bの小型モデルとしては目立つ結果。PyTorch共同作者のSoumith Chintala氏もカーネル生成での健闘に驚きを示した。",
+      "url": "https://x.com/elliotarledge/status/2124568616964333644",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-23T07:33:53+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "OpenCode、GLM 5.3とDeepSeek V4.1 Flashを60%値下げ",
+      "summary": "OpenCodeがGLM 5.3とDeepSeek V4.1 Flashの料金を60%引き下げた。GLM 5.3は入力$0.56/出力$1.76（100万トークンあたり、従来$1.40/$4.40）、DeepSeek V4.1 Flashは入力$0.12/出力$0.48（同$0.30/$1.20）。自社GPUでホストしFireworksやBasetenより60%安いとしている。GPU供給が逼迫する中でのオープンモデルの価格競争を歓迎する声が出ている。",
+      "url": "https://x.com/opencode/status/2124265178267005017",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-23T07:33:53+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Google、バグ注入でML工学Agentを鍛えるBuggyMLEを発表",
+      "summary": "GoogleのML engineering Agentに関する論文BuggyMLEが開発者向けの注目論文として紹介された。リポジトリ単位のコーディングベンチマークが飽和しつつある中、Agentにバグを注入させることで意図的にタスクを難しくし、ML工学のタスクをスケールさせる手法。Agent構築者は押さえておくべき論文と評価されている。",
+      "url": "https://x.com/omarsar0/status/2124584960464220408",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-23T07:33:53+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Goodfire、LLM内で協調する少数ニューロン群「Neuron Communities」を発見",
+      "summary": "Goodfireが、LLM内部で協調して働くニューロン群Neuron Communitiesの研究を発表した。算術や全大文字化、日付の想起などを驚くほど少数のニューロンが担い、三角関数はわずか3ニューロンとされる。教師なしで網羅探索でき、「文法は18層以降」「検索・計算は17〜22層付近」など応用しやすい知見も得られたとして紹介されている。",
+      "url": "https://x.com/GoodfireAI/status/2122742780657389940",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-23T07:33:53+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Colgateの論文、LLMに顧客を演じさせ購買意向を予測",
+      "summary": "歯磨き粉メーカーColgateが、LLMに顧客をロールプレイさせるだけで実際の購買意向を予測できることを示す論文を発表したと話題になっている。紹介には誇大な面もあるものの、小さな工夫でLLMによるA/Bテストの性能を高める手法として注目され、低コストモデルで大量に回してゲームUIやデザインの検証に使おうとSkillsに組み込んで試す動きも出ている。",
+      "url": "https://x.com/HowToPrompt__/status/2124040349068964215",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-23T07:33:53+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "論文ポッドキャスト化で批判的解説も渡し客観性を確保する工夫",
+      "summary": "論文や記事、動画をGemini Notebookでポッドキャスト化する自作ツールを約10か月運用してきた知見が共有された。ツールはソース資料を褒めがちになるため、背景の現状リサーチや批判的解説をGemini 4 Neonで作って一緒に渡すようにしたところ、客観的なレポートになり調子が良いという。要約系ツールの偏り対策として参考になる運用例。",
+      "url": "https://x.com/kazunori_279/status/2124255003154256189",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-23T07:33:53+09:00",
+      "unconfirmed": false
+    }
+  ]
+}
