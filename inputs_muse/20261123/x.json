@@ -6,7 +6,7 @@
     "to": "2026-11-23T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 6,
+  "itemCount": 7,
   "items": [
     {
       "headline": "Seramount調査、Z世代はAIスキル習得意欲が最も低く18%——組織の支援実感も27%で世代間格差",
@@ -82,6 +82,16 @@
       "collected_at": "2026-11-23T03:21:35+09:00",
       "unconfirmed": false,
       "x_url": "https://x.com/tejaxs21/status/2124565891669246014"
+    },
+    {
+      "headline": "Sarvam AI、新チェックポイント「Sarvam-105B-1711」をオープンウェイト公開——8ベンチ平均73.9を100万トークン0.15ドルで提供",
+      "summary": "インドのSarvam AIは11月22日、Sarvam 105Bの新しいオープンウェイト・チェックポイント「Sarvam-105B-1711」を公式ブログで公開した。カスタマーサポートや音声エージェントなど大量処理向けのFlash-Lite級モデルで、8つの対話エージェントベンチマーク平均は2月版の42.6から73.9へ向上し、Gemini 3.5 Flash-Lite（74.0、0.85ドル）とほぼ同等を100万トークンあたり0.15ドルで提供するとしている。重みはHugging FaceにBF16版と、単一ワークステーションGPUで動く65GBのNVFP4版が公開され、コンテキストは160Kトークンに拡張された（いずれも自社評価）。",
+      "url": "https://www.sarvam.ai/blogs/sarvam-105b-1711",
+      "source": "Sarvam AI",
+      "topic": "モデル",
+      "collected_at": "2026-11-23T05:14:08+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/larsnow/status/2124571799325209038"
     }
   ]
 }
