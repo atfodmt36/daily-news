@@ -6,7 +6,7 @@
     "to": "2026-11-23T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 1,
+  "itemCount": 3,
   "items": [
     {
       "headline": "Seramount調査、Z世代はAIスキル習得意欲が最も低く18%——組織の支援実感も27%で世代間格差",
@@ -20,6 +20,32 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-22T11:24:42+09:00"
+    },
+    {
+      "headline": "AWS、文書AI「Amazon Textract Insights」を一般提供——自然言語で抽出項目を定義、値ごとに信頼度と出典ページを返す",
+      "summary": "AWSは11月20日、Amazon Textractの生成AI機能「Textract Insights」の一般提供を開始した。JSON Schemaに自然言語の説明を添えたブループリントで抽出項目を定義すると、最大3,000ページの混在文書パケットを1回の非同期リクエストで自動分割・分類・抽出し、各値に信頼度スコアとページ・座標のグラウンディングを付けて返す。モデル学習は不要で、料金はページ単位。対応言語は英語など6言語（日本語は対象外）で、提供は米国東部・西部の2リージョン。基盤のTextract Coreは同日、東京を含む18リージョンへ拡大した。AWS公式発表で確認した。",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/textract-insights-ga/",
+      "source": "AWS",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-22T15:38:19+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/junjun142857/status/2124346590626496907",
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-22T15:38:19+09:00"
+    },
+    {
+      "headline": "taiziii管理職調査、導入したAIツールが「ほとんど使われていない」部門が56.5%——理由の最多は精度不足と費用対効果を説明できないこと各36.5%",
+      "summary": "株式会社taiziiiが公表した「AI活用と組織の判断に関する実態調査」（2026年9月1〜4日実施、従業員300人以上の企業で業務にAIを使う部門の課長級以上170人が有効回答）によると、部門で導入したAIツールや用途のうち現在ほとんど使われていないものがあると答えた管理職は56.5%に上った。使われなくなった理由は「期待した精度が出なかった」と「費用対効果を説明できなかった」が各36.5%で最多、「使い方が現場に浸透しなかった」が32.3%で続いた。一次の調査ページで確認した。",
+      "url": "https://taiziii.com/ai-survey/2610/",
+      "source": "株式会社taiziii",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-22T15:38:19+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/ai_topica/status/2124336929181471201",
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-22T15:38:19+09:00"
     }
   ]
 }
