@@ -6,7 +6,7 @@
     "to": "2026-11-24T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 6,
+  "itemCount": 7,
   "items": [
     {
       "headline": "AMD、VAEなしでピクセル空間から直接生成する画像モデル「Nitro-P」を公開——重みと学習コードもオープンに",
@@ -67,6 +67,19 @@
       "collected_at": "2026-11-23T19:24:05+09:00",
       "unconfirmed": false,
       "x_url": "https://x.com/kg_b0mbe/status/2124804194670649621"
+    },
+    {
+      "headline": "米下院2委員会、中国製オープンウェイトモデルの連邦システムからの排除を求める共同調査報告書を公表",
+      "summary": "米下院国土安全保障委員会（Garbarino委員長）と中国特別委員会（Moolenaar委員長）は11月20日、中国製オープンウェイトAIモデルの安全保障・サイバー・経済安全保障上の影響を調べた共同調査報告書を公表した。中国製モデルは直近1年で主要リポジトリのダウンロードの41%を占め、Cursor（Anysphere）がMoonshot AIのKimi K2.5を基盤に自社モデルを構築していた事例なども挙げ、連邦システムや重要インフラの高リスク機能からの排除、米国製オープンウェイト代替の構築など12項目の政策提言を示した。",
+      "url": "https://homeland.house.gov/2026/11/20/chairmen-garbarino-moolenaar-release-joint-investigative-report-urging-removal-of-prc-open-weight-models-from-federal-systems-high-risk-critical-infrastructure/",
+      "source": "米下院国土安全保障委員会（公式発表）",
+      "topic": "AIセキュリティ",
+      "collected_at": "2026-11-23T21:14:17+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/InsideAIPolicy/status/2124826308756558061",
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-23T21:14:17+09:00"
     }
   ]
 }
