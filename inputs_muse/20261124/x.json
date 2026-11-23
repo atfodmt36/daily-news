@@ -1,0 +1,22 @@
+{
+  "date": "2026/11/24",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-23T08:00:00+09:00",
+    "to": "2026-11-24T08:00:00+09:00"
+  },
+  "source": "x",
+  "itemCount": 1,
+  "items": [
+    {
+      "headline": "AMD、VAEなしでピクセル空間から直接生成する画像モデル「Nitro-P」を公開——重みと学習コードもオープンに",
+      "summary": "AMDは公式ROCmブログで、テキストから画像を生成する拡散フレームワーク「Nitro-P」を発表した。潜在空間を使う従来型と異なりVAEデコーダを介さずピクセル空間で直接生成する設計で、パッチ単位の意味モデル（E-MMDiT、本体約6.8億パラメータ）と軽量なU-Netによるピクセル再構成を階層的に組み合わせる。公開データ2,500万件で学習し、MI300X 1基で512px生成のGenEval 0.88、1ステップ蒸留版は1024pxで毎秒26枚（いずれも同社測定）。重みと学習コードもあわせて公開された。11月20日発表。",
+      "url": "https://rocm.blogs.amd.com/artificial-intelligence/nitro-p/README.html",
+      "source": "AMD ROCm Blogs",
+      "topic": "画像生成・編集",
+      "collected_at": "2026-11-23T11:24:24+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/PromptBible_dev/status/2124670800418816225"
+    }
+  ]
+}
