@@ -1,0 +1,319 @@
+{
+  "date": "2026/11/24",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-23T08:00:00+09:00",
+    "to": "2026-11-24T08:00:00+09:00"
+  },
+  "itemCount": 41,
+  "top5": [
+    {
+      "headline": "Claude、コネクターとスキルを「プラグイン」に統合——10,000超のプラグインを公開",
+      "summary": "Anthropicは11月23日、Claudeへのツール接続（コネクター）と新しいスキルの習得を1つの方法にまとめた「プラグイン」を提供開始したと公式アカウントが発表した。コネクター、スキル、またはその両方をプラグインとして導入でき、Free、Pro、Max、Ultraプランで利用可能で、TeamとEnterpriseは近日対応する。10,000を超えるプラグインをclaude.ai/pluginsで閲覧できる。",
+      "url": "https://claude.ai/plugins",
+      "source": "Anthropic（@claudeai公式）",
+      "unconfirmed": false,
+      "whyItMatters": "Claudeのコネクターとスキルがプラグインに統合され10,000超が公開されたことで、Claudeの拡張エコシステムの入口が一本化された。"
+    },
+    {
+      "headline": "Anthropic、「Claude Ship」をベータ公開——PRのレビュー・修正・承認をClaudeが代行",
+      "summary": "Anthropicは11月23日、Claude Shipをベータ公開した（公式記事で確認）。一般提供中のCode Reviewに、新エージェントPR Steward（CI失敗・競合・レビュー指摘への修正対応）とClaude Approvals（リポジトリ内の承認ポリシーファイルに基づく承認判断）を加え、プルリクエストをレビューから承認まで通す。Claude Codeの新コマンド /ship からも使え、Claude Team/Enterpriseプラン向けに提供される。対象のEnterprise組織には最低10,000ドルのClaude Shipクレジットが用意される。",
+      "url": "https://claude.com/resources/articles/introducing-claude-ship",
+      "source": "Anthropic（Claude公式）",
+      "unconfirmed": false,
+      "whyItMatters": "PRのレビューから修正・承認までをClaudeが代行するClaude Shipのベータ公開は、コードレビュー業務の自動化を一段進める動きだ。"
+    },
+    {
+      "headline": "Z.ai、新モデル「GLM-5.4」を公開——GLM Coding Planの全ユーザー向け、視覚対応と週次枠50%増",
+      "summary": "Z.ai（智譜）は11月23日、新フラッグシップモデル「GLM-5.4」をGLM Coding Planの全ユーザー向けに提供開始した。同社のZixuan Li氏がXで発表したもので、テキストのみだったGLM-5.3から視覚（画像）入力に対応し、総合的なコーディング性能も強化された。週次クォータ制のユーザーはGLM-5.3比で利用枠が50%増える。Claude Codeでは glm-5.4[1m]、他のツールでは glm-5.4 として指定する。ベンチマークやパラメータ規模、API価格、重み公開の有無は現時点で未公表。",
+      "url": "https://x.com/supermy/status/2124747241214574593",
+      "source": "Z.ai（X発表）",
+      "unconfirmed": false,
+      "whyItMatters": "GLM-5.4が視覚機能を追加してCoding PlanとAPIで公開され、週次クォータも5.3比50%増と、コーディング向けモデルの選択肢が広がった。"
+    },
+    {
+      "headline": "Claude Platformリリースノート：Opus 4.5を非推奨化しEFSをベータ提供、Webhookに外部ストレージイベントを追加",
+      "summary": "Claude Platformのリリースノートで3件が公表された。claude-opus-4-5系を非推奨としClaude APIでは2027年1月22日に提供終了（Opus 5.5への移行を推奨）。ゼロデータ保持と両立するEnterprise Frontier Safeguards (EFS) をベータ提供開始し、プロンプトと応答を保持せず暗号化コピーを顧客のクラウドに保存する。組織Webhookには外部ストレージ向けのexternal_storage.failed／recoveredの2イベント種別を追加（ベータ）。",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "source": "Anthropic (Claude Platform Release Notes)",
+      "unconfirmed": false,
+      "whyItMatters": "Opus 4.5の2027年1月22日提供終了という移行期限と、ゼロデータ保持を両立するEFSのベータ開始が同時に示され、Claude利用組織への影響が大きい。"
+    },
+    {
+      "headline": "NVIDIA、ジェンスン・フアン氏を社長・CEO・取締役に復帰——取締役会が全会一致で決定",
+      "summary": "NVIDIAは11月23日、ジェンスン・フアン氏を社長・CEOおよび取締役に即時復帰させたと発表した。辞任から11日での復帰で、取締役会は全会一致で可決し、フアン氏の率直さと指導力に問題はないと判断したという。暫定CEOを務めたコレット・クレス氏はCFOを継続する。",
+      "url": "https://www.morningstar.com/news/globe-newswire/9883159/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "source": "NVIDIA（公式発表／GlobeNewswire）",
+      "unconfirmed": false,
+      "whyItMatters": "NVIDIAの取締役会が全会一致でフアン氏の社長・CEO復帰を決めたと報じられ、AI半導体最大手の経営体制の大きな転換となる。"
+    }
+  ],
+  "sections": {
+    "エージェント": [
+      {
+        "headline": "HarnessRouter、Harness間で持ち運べるAgentメモリ「Harness Memory」をOSS化",
+        "summary": "HarnessRouterに、ユーザー自身がメモリを所有するHarness Memoryがオープンソースで追加された。各harnessが独自にメモリを持つため、Claude Codeで学んだ内容がCodexでは失われる問題を解消する。複数のコーディングAgentを使い分ける開発者にとって、記憶を持ち運べる仕組みとして注目される。",
+        "url": "https://x.com/_avichawla/status/2124758790910460337",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Claude Code、デスクトップ版のサイドパネルを刷新——ファイルやターミナルがタブ表示に",
+        "summary": "AnthropicのClaude開発者公式アカウントは11月23日、デスクトップ版Claude Codeのサイドパネルを再設計したと発表した。Files、Changes、Terminalなどのツールがセッション横のタブとして開くようになり、タブを並べて同時表示したり、別ウィンドウに切り離したりできる。まずMac向けに展開中で、WindowsとLinuxは近日対応する。",
+        "url": "https://x.com/ClaudeDevs/status/2124978802006851961",
+        "source": "ClaudeDevs（Anthropic公式）",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Claude Code v2.1.331リリース、ターミナルのCode Modeをクラウド各プラットフォームに拡大",
+        "summary": "Amazon Bedrock・Google Cloud Agent Platform・Microsoft Foundry・Claude Platform on AWSのターミナルセッションでCode Modeをサポート。claude doctorにAPI接続診断セクション追加、プラグインのoptionalDependencies対応、起動高速化や多数のVSCode関連修正を含む。",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
+        "source": "Anthropic (Claude Code GitHub Releases)",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Codex CLI（rust版）v0.172.0がstableリリース",
+        "summary": "OpenAIのCodex CLIのstable版 rust-v0.172.0 が公開された。GitHub ReleasesのAtomフィード本文は『Release 0.172.0』のみで、詳細な変更点は記載されていない。",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0",
+        "source": "GitHub (openai/codex)",
+        "unconfirmed": false
+      },
+      {
+        "headline": "OpenAIとCisco、Linux向けオープンソースランタイム「Shirudo」を発表",
+        "summary": "エージェントが動的なeBPF制御を記述し、再起動なしでシステムを脆弱性攻撃から保護できるオープンソースのLinuxランタイム。テストではJava4shellやPHPの脆弱性への攻撃を検知・遮断したが、本番運用にはまだ非対応。",
+        "url": "https://openai.com/index/introducing-shirudo/",
+        "source": "OpenAI",
+        "unconfirmed": false
+      }
+    ],
+    "モデル": [
+      {
+        "headline": "LlamaIndex、CPUで動く超軽量文書解析モデル「OCRia-nano-1」をオープン公開——8.1Mパラメータで平均426ms/ページ",
+        "summary": "LlamaIndexは11月23日、文書解析パイプライン「OCRia-nano-1」の重みをオープン公開した。合計約810万パラメータの7つの専用モデル（文字認識・表構造・レイアウト復元）で構成され、オープンソースの文書パーサLiteParseを通じてローカルCPUで動作する。同社公表値では1コア平均426ミリ秒/ページ、ParseBench-2の総合スコアは59.2（表は59.5）。4Bの文書VLM「OCRia-1」からの蒸留で学習され、重みは改変Open RAIL-Mライセンス、LiteParse本体はApache 2.0で提供される。",
+        "url": "https://www.unite.ai/llamaindex-releases-ocria-nano-1-open-weights-for-cpu-document-parsing/",
+        "source": "Unite.AI（LlamaIndex発表）",
+        "unconfirmed": false
+      },
+      {
+        "headline": "X Square Robot、身体性AI基盤モデル「WALL-OSS-1.0」を発表——312タスクの実ロボット評価でゼロショット成功率55.1%",
+        "summary": "中国のX Square Robotは11月23日、視覚・言語・物理行動を単一の学習枠組みで事前学習したVLA（視覚言語行動）基盤モデル「WALL-OSS-1.0」を発表した。評価者が自由に選んだ312種類の未学習タスクを対象とした実ロボット評価で、タスク固有のデモや微調整なしに55.1%のゼロショット成功率を記録したという。Qwen3.5をベースに言語・視覚言語・ロボット行動データを統合学習し、Lite（4B）やNano（2B）などの派生モデルも用意する。あわせて、計画と実行をつなぐエージェント基盤「XR Harness」と、開発者向けAPI「WALL-API-1.0」も発表した。",
+        "url": "https://www.globenewswire.com/news-release/2026/11/23/3408046/0/en/x-square-robot-introduces-wall-oss-1-0-understand-more-act-better-a-native-foundation-model-for-the-physical-world.html",
+        "source": "GlobeNewswire（X Square Robot）",
+        "unconfirmed": false
+      },
+      {
+        "headline": "中国電信、285B MoEモデル「Xing4.1-Preview」の重みをオープン公開",
+        "summary": "中国電信のXingchen AGI Labが11月23日、エージェント型コーディングと長時間ワークフロー向けのMoEモデル「Xing4.1-Preview」の重みをHugging FaceとModelScopeで公開した。総パラメータ285B（トークンあたり約17Bを活性化）、ネイティブ1Mトークンのコンテキスト、Apache 2.0ライセンスで、Huawei Ascendチップのみで学習されている。BF16版（約521GiB）とFP8版が提供され、ベンチマークの詳細は正式リリース時の技術レポートで公表予定としている。",
+        "url": "https://huggingface.co/XingChen-AGI/Xing4.1-Preview",
+        "source": "Hugging Face（XingChen-AGI公式モデルカード）",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Ant Group、124BマルチモーダルMoE「Ling-3.2-air」をオープン公開——業務自動化ベンチで大幅向上",
+        "summary": "Ant GroupのinclusionAIは、ネイティブマルチモーダルMoEモデル「Ling-3.2-air」の重みをHugging Faceで公開した。総パラメータ124B（活性化5.5B）、ハイブリッド線形MoE構成で256Kコンテキストに対応する。前世代比でAutomationBench-AAが15.7%から61%へ、GDP.pdfの全問正解率が8.4%から16%へ、AA-Briefcase v1.1のEloが987から1340へ向上し、Terminal-Bench 4.0の合格率は0%から27%になったとモデルカードで報告している（いずれも自社評価）。",
+        "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+        "source": "Hugging Face（inclusionAI公式モデルカード）",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Aleph Alpha、英独オープンウェイトMoE「Kolibri 1.1」を公開——タスク当たりGPU時間は3.4分の1に",
+        "summary": "Aleph Alphaは11月23日、英語・ドイツ語のオープンウェイトMoEモデル「Kolibri 1.1」をApache 2.0で公開した（公式ブログで確認）。総パラメータ75B（活性化約3B）、最大1Mコンテキストで、新しいスパースアテンションにより1.0比でタスク当たりのGPU時間が3.4分の1になり、総合スコアは同社の評価で3〜4B活性化クラス首位としている。量子化版も初日から提供され、vLLMとTransformersに対応する。",
+        "url": "https://aleph-alpha.com/en/blog/kolibri-1-1/",
+        "source": "Aleph Alpha公式ブログ",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Phonic 1.1、Artificial Analysisの音声対話指標で首位に——89.1を記録",
+        "summary": "Artificial Analysisは、音声対話（Speech to Speech）モデルの新版「Phonic 1.1 (High)」が同社のSpeech to Speech Indexで89.1を記録し、首位になったと発表した。前版Phonic 1（87.1、10月29日発売）から2ポイントの伸びで、自社モデルから首位を奪う形となった。",
+        "url": "https://x.com/ArtificialAnlys/status/2124918494110298127",
+        "source": "Artificial Analysis",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Antigravity、ProでGemini 4 Carbon解禁しHydrogenを全員に開放",
+        "summary": "GoogleのAntigravityは全階層でモデルをアップグレードし、全ユーザーのGemini利用枠をリセットした。有料ProユーザーはGemini 4 Carbonを利用できるようになり、Hydrogenは全ユーザーに開放された。Orchestratorで使うモデルと推論effortも指定可能になっている。OpenRouterでは先週、Google製モデルへの支出がOpenAIを上回り50%を超えたと報告されている。",
+        "url": "https://x.com/_mohansolo/status/2124960419429458207",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "GLM-5.4はLoop Transformer、28層を2回実行し深く推論【続報】",
+        "summary": "Z.aiのGLM-5.4が、GLM-5ベースモデルの既存層をループさせるLoop Transformerであることが明らかになった。28層を2回実行して深く推論する構造で、事前学習済みモデルを継続学習でLoop化したものとされる。より大きなモデルや技術詳細も近く公開される見込みで、任意の事前学習済みLLMをループ化するLoopResなど関連研究も話題になっている。",
+        "url": "https://x.com/Zai_org/status/2124811995912286352",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "GPT-6.2 SolがChatGPTのChatタブに展開【続報】",
+        "summary": "OpenAIは、日常会話向けに最適化したGPT-6.2 SolをChatGPTのChatタブに展開した。Work、Codex、APIに続く展開で、詳細な指示を与えた複雑な依頼やオンライン検索を伴う質問への対応が大きく改善したとしている。Plus、Pro、Business、Enterpriseのユーザーに順次提供されている。",
+        "url": "https://x.com/ChatGPT/status/2124942186425069836",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Inkling 2 Mini、UnslothのGGUFでRTX PRO 6000上125tok/s【続報】",
+        "summary": "Thinking MachinesのInkling 2 Miniについて、UnslothがGGUF版のローカル推論を最適化し、RTX PRO 6000上で精度を落とさず125 tokens/sに達したと発表した。約1.9倍の高速化とされる。一方でloop部分がHopperのWGMMAを要求し、RTX 6000 Adaでは動かせなかったという国内の報告もある。",
+        "url": "https://x.com/UnslothAI/status/2124898356770263382",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Ant Group、医療マルチモーダルモデル「LingSante-3.1-air-VL」をオープン公開——総パラメータ124B・活性5.5B",
+        "summary": "Ant Groupの健康アプリAfuは医療・健康AIモデル群LingSanteを発表し、第一弾としてLingSante-3.1-air-VLと同flash版のウェイトをHugging Faceで段階的にオープン公開する。air-VLはテキスト・画像・動画に対応する軽量マルチモーダルモデルで、医療画像理解、皮膚状態分析、食事評価、医療レポート解釈を強化した。Afuは利用者1.5億人、1日約2,000万件の健康相談を処理しているという。",
+        "url": "https://www.businesswire.com/news/home/20261122564652/en/Ant-Groups-AI-App-Afu-Open-Sources-Medical-and-Health-AI-Model-Family",
+        "source": "Ant Group／Afu（BusinessWire）",
+        "unconfirmed": false
+      },
+      {
+        "headline": "LlamaIndex、文書解析モデル「OCRia-1.5」を公開——2Bと4Bの2サイズで表・グラフ・フォームの精度向上",
+        "summary": "LlamaIndexは文書解析モデルOCRia-1.5をLlamaParseで提供開始した。改良版4BがAgenticティア、新しい2BがCost Effectiveティアを担い、複雑な表・グラフ・フォームやバウンディングボックスの精度が向上した。自社ベンチParseBench-2では表スコアがAgenticで86.5→90.1、Cost Effectiveで83.2→87.5に上昇した。",
+        "url": "https://www.llamaindex.ai/blog/introducing-ocria-1-5",
+        "source": "LlamaIndex（公式ブログ）",
+        "unconfirmed": false
+      }
+    ],
+    "論文・ベンチマーク": [
+      {
+        "headline": "Microsoft AIもperplexity指標を共有、OpenAIの能力上限提案に2社目のラボが同調【続報】",
+        "summary": "OpenAIのPachocki氏が提案したperplexityによる共通の能力上限に関する続報。Microsoft AIのMustafa Suleyman氏がOpenAIの透明性施策を全面支持し、2社目のラボとしてperplexity指標を共有した。公開値を基にオープンモデルのbpbを同じグラフに重ねる試みも出ている。Elon Musk氏は事前学習は単に学習と呼ぶべきとし、次の課題はデータ枯渇になるとの見方を示した。",
+        "url": "https://x.com/mustafasuleyman/status/2124663594449318173",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "SGLangでもRubin NVL72がGB300比6.5倍のコスト性能を記録【続報】",
+        "summary": "SemiAnalysisが報告するRubin NVL72の推論性能検証の続報。vLLMでの初期結果に続き、SGLangでもGB300 NVL72比6.5倍のperformance per dollarを記録したと報告された。計測は2.8Tパラメータ超のオープンモデルKimi K3.1 Proのアーキテクチャで行われている。同社はCerebrasのKimi K3.1での2000tok/s/userという主張について、100トークン未満の短い文脈に限ると指摘した。",
+        "url": "https://x.com/SemiAnalysis_/status/2124637709176016998",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Kaggle新コンペ「Generalist Gaming Agent」が開始——未知のゲームをプレイできるAIを開発",
+        "summary": "Kaggleで、見たことのないゲームをプレイできるAIを開発する新コンペGeneralist Gaming Agentが始まった。10ジャンル32のゲームをそれぞれ10分間プレイする形式で、データセットには4つのサンプルゲームが同梱されている。メダル対象のKernel Onlyコンペで、締切は2027年3月1日。",
+        "url": "https://x.com/kagoole/status/2124941210448224327",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      }
+    ],
+    "建設×AI": [],
+    "政策・政府": [
+      {
+        "headline": "米下院2委員会、中国製オープンウェイトモデルの連邦システムからの排除を求める共同調査報告書を公表",
+        "summary": "米下院国土安全保障委員会（Garbarino委員長）と中国特別委員会（Moolenaar委員長）は11月20日、中国製オープンウェイトAIモデルの安全保障・サイバー・経済安全保障上の影響を調べた共同調査報告書を公表した。中国製モデルは直近1年で主要リポジトリのダウンロードの41%を占め、Cursor（Anysphere）がMoonshot AIのKimi K2.5を基盤に自社モデルを構築していた事例なども挙げ、連邦システムや重要インフラの高リスク機能からの排除、米国製オープンウェイト代替の構築など12項目の政策提言を示した。",
+        "url": "https://homeland.house.gov/2026/11/20/chairmen-garbarino-moolenaar-release-joint-investigative-report-urging-removal-of-prc-open-weight-models-from-federal-systems-high-risk-critical-infrastructure/",
+        "source": "米下院国土安全保障委員会（公式発表）",
+        "unconfirmed": false
+      },
+      {
+        "headline": "全米知事協会、AIガバナンスの超党派原則を公表—フロンティアモデルは連邦、消費者保護は州が担う役割分担を提言",
+        "summary": "全米知事協会（NGA）は11月22日、超党派の「Governors Council to Secure American AI Dominance」がまとめたAIガバナンス原則を公表した。連邦政府には最先端の汎用モデルへのリスクベースの枠組み（独立専門家による評価・監査、セキュリティ侵害や重大な安全インシデントの当局への報告など）を求め、州には消費者・労働者・子どもの保護やAIによる被害への責任追及を担う役割を残す構成で、州法の連邦による先占は慎重に扱うべきだとした。1月に始まる次期連邦議会のAI法制に向けた提言と位置づけられる。",
+        "url": "https://www.nga.org/news/press-releases/governors-call-for-ai-action/",
+        "source": "全米知事協会（NGA公式発表）",
+        "unconfirmed": false
+      }
+    ],
+    "ビジネス・人材": [
+      {
+        "headline": "AWS、AI導入支援の前方展開エンジニア組織「FDE」を15カ国に拡大——日本も対象、45日スプリント制",
+        "summary": "AWSは11月17日、顧客企業にエンジニアを常駐させてエージェントAIの本番導入を支援するForward Deployed Engineering（FDE）の提供を、商用・公共部門向けに15カ国へ拡大した。対象には日本・韓国・インド・シンガポール・豪州や米英独仏などが含まれ、各案件は固定価格の45日スプリントとしてAWSアカウント経由で請求される。FDEは10億ドルの投資で6月に創設された組織で、数十種類の本番向けアクセラレータを備え、プロトタイプから本番運用までの期間短縮を狙う。",
+        "url": "https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers",
+        "source": "About Amazon（AWS）",
+        "unconfirmed": false
+      },
+      {
+        "headline": "TOPIX100の新卒採用ページ調査、生成AI利用の案内は81社で見つからず——AI面接を明記したのは5社",
+        "summary": "生成AI研修・開発のUravationは11月23日、TOPIX100構成銘柄100社の公式新卒採用ページ調査（11月7～8日実施）を発表した。ページを読めた81社では、ES・選考・インターンシップ応募での生成AIの使い方（禁止・条件付き許可・推奨）に関する記載が見つからなかった。一方、AI面接を選考に入れると明記したのは5社で、全社がインターンシップ選考に導入し、うち2社は本選考にも入れていた。同社のAIチェッカーではESと分類された文章の判定件数が8月の1日312件から10月前半は441件へ1.4倍に増えている。",
+        "url": "https://prtimes.jp/main/html/rd/p/000000264.000137731.html",
+        "source": "PR TIMES（Uravation）",
+        "unconfirmed": false
+      },
+      {
+        "headline": "OpenAI、中小企業を支援する「OpenWorks」を開始——地域のAI専門家に月最大8,000ドルの助成",
+        "summary": "OpenAIは11月23日、地域のAI専門家を資金支援して中小企業へのAI導入を無償で手助けするプログラム「OpenWorks」を開始した（OpenAI公式発表とGreg Brockman氏の投稿で確認）。専門家（OpenWorks Partners）には月最大8,000ドルの助成金が支払われ、参加企業は個別支援とChatGPT Businessの3か月無料利用を受けられる。パイロットは米国の20コミュニティで始まり、飲食・小売・サービス・製造業などの独立系中小企業が対象。",
+        "url": "https://openai.com/openworks",
+        "source": "OpenAI",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Nous Research、Microsoftと提携し「Hermes Enterprise」を提供開始——Teams・Microsoft Store・Azureに対応",
+        "summary": "Nous ResearchはMicrosoftと提携し、オープンソースのエージェントHermes Agentの企業版Hermes Enterpriseを発表した。Windows向けHermes DesktopがMicrosoft Storeに登場し、Teamsでは財務分析や文書作成、受信箱の仕分けを任せて結果を同じ会話で確認できる。実行はAzure Container Apps Sandboxesの隔離マイクロVMで行われ、厳しい要件のある企業は自社Azureテナント内でも運用できる。",
+        "url": "https://nousresearch.com/hermes-enterprise-in-microsoft-teams",
+        "source": "Nous Research（公式発表）",
+        "unconfirmed": false
+      },
+      {
+        "headline": "ゴムマリ、文書の校正業務向け「校正AIエージェント」を提供開始",
+        "summary": "ゴムマリは社内報・マニュアル・プレスリリースなどの校正業務を対象とした「校正AIエージェント」の提供を2026年11月23日より開始。原稿を表記ルール・用語集・参照資料と突き合わせ、修正案（根拠付き）と要人手確認リストを生成する。初期構築50万円〜、月額保守10万円〜、導入は最短4週間。",
+        "url": "https://prtimes.jp/main/html/rd/p/000000082.000185093.html",
+        "source": "ゴムマリ株式会社（PR TIMES）",
+        "unconfirmed": false
+      }
+    ],
+    "生成AI・その他": [
+      {
+        "headline": "AMD、VAEなしでピクセル空間から直接生成する画像モデル「Nitro-P」を公開——重みと学習コードもオープンに",
+        "summary": "AMDは公式ROCmブログで、テキストから画像を生成する拡散フレームワーク「Nitro-P」を発表した。潜在空間を使う従来型と異なりVAEデコーダを介さずピクセル空間で直接生成する設計で、パッチ単位の意味モデル（E-MMDiT、本体約6.8億パラメータ）と軽量なU-Netによるピクセル再構成を階層的に組み合わせる。公開データ2,500万件で学習し、MI300X 1基で512px生成のGenEval 0.88、1ステップ蒸留版は1024pxで毎秒26枚（いずれも同社測定）。重みと学習コードもあわせて公開された。11月20日発表。",
+        "url": "https://rocm.blogs.amd.com/artificial-intelligence/nitro-p/README.html",
+        "source": "AMD ROCm Blogs",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Kaggleサンタコンペ、AI生成解の漏出を受け参加者が解法を公開",
+        "summary": "Kaggleのサンタコンペで、参加者のAIが生成した解が意図せず漏れていたと報告された。金圏までステルスで進める予定だったが、公平性のため解を含む公開ノートブックを出し、順位は28位に上がった。コンペ初期のため公開最強ノートが少し伸びる程度で済み、終盤ならコンペを壊しかねなかったとしている。",
+        "url": "https://x.com/tkm2261/status/2124743107682107508",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Tesla FSD v15、車載でmean-flow世界モデルがリアルタイム描画",
+        "summary": "TeslaのFSD v15のReality Viewが、車載でリアルタイムに描画モデルを動かしていると話題になっている。Elon Musk氏によれば合成データ生成用のほぼピクセル完璧な世界モデルがあり、車載版はUniversal Vision Encoderベースの条件付きmean-flowモデル。AI4上ではUVE、運転を決める3Bモデル、画面描画の1Bモデルの3つが動くとの整理も共有された。",
+        "url": "https://x.com/elonmusk/status/2124458557525397780",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "CrowdStrike、Zscalerを約439億ドルで買収へ——AI時代のセキュリティ大手が統合",
+        "summary": "CrowdStrikeとZscalerは11月23日、CrowdStrikeがZscalerを全株式交換で買収する最終合意を発表した（Business Wire公式発表で確認）。企業価値は約439億ドルで、Zscaler株主は1株当たりCrowdStrike株1.135株を受け取る（1株当たり約260.41ドル、34%のプレミアム）。完了はCrowdStrikeの2028会計年度下期の見込みで、エンドポイント保護とゼロトラストネットワークセキュリティを統合する。",
+        "url": "https://www.businesswire.com/news/home/20261123522174/en/CrowdStrike-to-Acquire-Zscaler-Bringing-Network-Security-and-Zero-Trust-to-the-Falcon-Platform",
+        "source": "Business Wire（CrowdStrike / Zscaler公式発表）",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Google DeepMind、Gemini 4エージェントチームで量子回路を改良——核融合シミュレーションのコストを最大11.8倍削減",
+        "summary": "Google DeepMindは、Gemini 4のエージェントチームと形式検証（Lean）を組み合わせ、既知の量子アルゴリズムを改良した研究を公式ブログで発表した。慣性核融合の物性計算では必要コストを11.8倍削減し、必要メモリを5,650から4,338誤り訂正量子ビットへ削減した。薬物代謝や光化学反応のシミュレーションでもコスト削減を示し、各結果はLeanで証明されている。",
+        "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+        "source": "Google DeepMind公式ブログ",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Google、Gemini APIに「ファイルスライシング」を追加——必要なページや区間だけを読み取りトークンを節約",
+        "summary": "Googleは11月23日、Gemini APIにファイルスライシング機能を追加したと公式ブログで発表した。PDFやOffice文書、音声、動画をアップロードし、ページ範囲・シート範囲・メディア区間だけを指定してモデルに読み取らせることができ、課金は検査した部分のトークンのみになる。Microsoft OfficeやOpenDocument形式のネイティブアップロードにも対応した。先行利用したVercelは文書1ページのテキスト抽出でトークンが14分の1に、LiteLLMはPDFで67%・ワークブックで33%の削減を報告している。",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/",
+        "source": "Google公式ブログ",
+        "unconfirmed": false
+      },
+      {
+        "headline": "BudgetLatent公開——FLUX系画像モデルをトークン予算で高速化、10%予算で最大7.26倍",
+        "summary": "BudgetPixの著者らによるBudgetAnyプロジェクトは、潜在空間テキスト画像モデル向けの「BudgetLatent」を公開した（プロジェクトページで確認）。FLUX.2 [klein] 4BやFLUX 3 Image Kleinなどを微調整し、推論時にトークン数を選べるようにしたもので、1チェックポイントで予算100%から10%まで対応する。1024×1024生成では10%予算時にエンドツーエンドで最大7.26倍の高速化を記録し、編集や参照画像モードも維持される。コードはMITライセンスで公開された。",
+        "url": "https://budgetany.github.io/budgetlatent/",
+        "source": "BudgetAny（プロジェクトページ）",
+        "unconfirmed": false
+      },
+      {
+        "headline": "世界モデルでロボット頭脳を作るEmbo、1億1,000万ドルのシード調達",
+        "summary": "DreamerやVideoGPTの開発者らによる新会社Emboがステルスから登場した。インターネット動画で世界モデルを学習し、その中でロボットに失敗を含む試行を重ねさせる方針で、a16z主導で1億1,000万ドルを調達した。ロボティクス史上最大のシードラウンドとされている。",
+        "url": "https://x.com/danijar/status/2124911019562811820",
+        "source": "ML_Bear Times",
+        "unconfirmed": false
+      },
+      {
+        "headline": "Maxon、AIで3Dモデルを生成する「Maxon Plus」を提供開始",
+        "summary": "Maxonは11/23、テキストや参照画像から編集可能な3Dベースモデルを生成する「Model Generator」、テクスチャ生成「Texture Generator」、ZBrush for iPad向け低ポリメッシュ生成「Clay Builder」、ブラウザ3DレビューをまとめたサブスクリプションサービスMaxon Plusを発表。月額$10/€10で即日利用可能、Cinema 4D/ZBrushおよびWebから使える。",
+        "url": "https://support.maxon.net/hc/en-us/articles/8657965267356-Maxon-App-2027-1-0-November-23-2026",
+        "source": "Maxon（公式）",
+        "unconfirmed": false
+      }
+    ]
+  },
+  "unconfirmed": []
+}
