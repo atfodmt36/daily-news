@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-24",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-23T08:00:00+09:00",
+    "to": "2026-11-24T08:00:00+09:00"
+  },
+  "source": "x-likes",
+  "items": [
+    {
+      "headline": "NVIDIA、ジェンスン・フアン氏を社長・CEO・取締役に復帰——取締役会が全会一致で決定",
+      "summary": "NVIDIAは11月23日、ジェンスン・フアン氏を社長・CEOおよび取締役に即時復帰させたと発表した。辞任から11日での復帰で、取締役会は全会一致で可決し、フアン氏の率直さと指導力に問題はないと判断したという。暫定CEOを務めたコレット・クレス氏はCFOを継続する。",
+      "url": "https://www.morningstar.com/news/globe-newswire/9883159/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "source": "NVIDIA（公式発表／GlobeNewswire）",
+      "topic": "ビジネス・人材",
+      "x_url": "https://x.com/nvidianewsroom/status/2124865060397019480",
+      "collected_at": "2026-11-24T08:03:33+09:00",
+      "unconfirmed": false,
+      "via": "x-likes",
+      "breaking": false,
+      "queued_at": "2026-11-24T08:03:33+09:00"
+    },
+    {
+      "headline": "LlamaIndex、文書解析モデル「OCRia-1.5」を公開——2Bと4Bの2サイズで表・グラフ・フォームの精度向上",
+      "summary": "LlamaIndexは文書解析モデルOCRia-1.5をLlamaParseで提供開始した。改良版4BがAgenticティア、新しい2BがCost Effectiveティアを担い、複雑な表・グラフ・フォームやバウンディングボックスの精度が向上した。自社ベンチParseBench-2では表スコアがAgenticで86.5→90.1、Cost Effectiveで83.2→87.5に上昇した。",
+      "url": "https://www.llamaindex.ai/blog/introducing-ocria-1-5",
+      "source": "LlamaIndex（公式ブログ）",
+      "topic": "モデル",
+      "x_url": "https://x.com/llama_index/status/2123102126372999662",
+      "collected_at": "2026-11-24T08:03:33+09:00",
+      "unconfirmed": false,
+      "via": "x-likes",
+      "breaking": false,
+      "queued_at": "2026-11-24T08:03:33+09:00"
+    },
+    {
+      "headline": "Ant Group、医療マルチモーダルモデル「LingSante-3.1-air-VL」をオープン公開——総パラメータ124B・活性5.5B",
+      "summary": "Ant Groupの健康アプリAfuは医療・健康AIモデル群LingSanteを発表し、第一弾としてLingSante-3.1-air-VLと同flash版のウェイトをHugging Faceで段階的にオープン公開する。air-VLはテキスト・画像・動画に対応する軽量マルチモーダルモデルで、医療画像理解、皮膚状態分析、食事評価、医療レポート解釈を強化した。Afuは利用者1.5億人、1日約2,000万件の健康相談を処理しているという。",
+      "url": "https://www.businesswire.com/news/home/20261122564652/en/Ant-Groups-AI-App-Afu-Open-Sources-Medical-and-Health-AI-Model-Family",
+      "source": "Ant Group／Afu（BusinessWire）",
+      "topic": "モデル",
+      "x_url": "https://x.com/AntLingAGI/status/2124555085640610194",
+      "collected_at": "2026-11-24T08:03:33+09:00",
+      "unconfirmed": false,
+      "via": "x-likes",
+      "breaking": false,
+      "queued_at": "2026-11-24T08:03:33+09:00"
+    },
+    {
+      "headline": "Nous Research、Microsoftと提携し「Hermes Enterprise」を提供開始——Teams・Microsoft Store・Azureに対応",
+      "summary": "Nous ResearchはMicrosoftと提携し、オープンソースのエージェントHermes Agentの企業版Hermes Enterpriseを発表した。Windows向けHermes DesktopがMicrosoft Storeに登場し、Teamsでは財務分析や文書作成、受信箱の仕分けを任せて結果を同じ会話で確認できる。実行はAzure Container Apps Sandboxesの隔離マイクロVMで行われ、厳しい要件のある企業は自社Azureテナント内でも運用できる。",
+      "url": "https://nousresearch.com/hermes-enterprise-in-microsoft-teams",
+      "source": "Nous Research（公式発表）",
+      "topic": "ビジネス・人材",
+      "x_url": "https://x.com/NousResearch/status/2123535954946257096",
+      "collected_at": "2026-11-24T08:03:33+09:00",
+      "unconfirmed": false,
+      "via": "x-likes",
+      "breaking": false,
+      "queued_at": "2026-11-24T08:03:33+09:00"
+    }
+  ],
+  "itemCount": 4
+}
