@@ -6,7 +6,7 @@
     "to": "2026-11-24T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 20,
+  "itemCount": 22,
   "items": [
     {
       "headline": "AMD、VAEなしでピクセル空間から直接生成する画像モデル「Nitro-P」を公開——重みと学習コードもオープンに",
@@ -237,6 +237,32 @@
       "collected_at": "2026-11-24T07:21:19+09:00",
       "unconfirmed": false,
       "x_url": "https://x.com/claudeai/status/2124929944530587712"
+    },
+    {
+      "headline": "Claude Code、デスクトップ版のサイドパネルを刷新——ファイルやターミナルがタブ表示に",
+      "summary": "AnthropicのClaude開発者公式アカウントは11月23日、デスクトップ版Claude Codeのサイドパネルを再設計したと発表した。Files、Changes、Terminalなどのツールがセッション横のタブとして開くようになり、タブを並べて同時表示したり、別ウィンドウに切り離したりできる。まずMac向けに展開中で、WindowsとLinuxは近日対応する。",
+      "url": "https://x.com/ClaudeDevs/status/2124978802006851961",
+      "source": "ClaudeDevs（Anthropic公式）",
+      "topic": "Claude／Codex",
+      "x_url": "https://x.com/ClaudeDevs/status/2124978802006851961",
+      "collected_at": "2026-11-24T07:23:07+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-24T07:23:07+09:00"
+    },
+    {
+      "headline": "BudgetLatent公開——FLUX系画像モデルをトークン予算で高速化、10%予算で最大7.26倍",
+      "summary": "BudgetPixの著者らによるBudgetAnyプロジェクトは、潜在空間テキスト画像モデル向けの「BudgetLatent」を公開した（プロジェクトページで確認）。FLUX.2 [klein] 4BやFLUX 3 Image Kleinなどを微調整し、推論時にトークン数を選べるようにしたもので、1チェックポイントで予算100%から10%まで対応する。1024×1024生成では10%予算時にエンドツーエンドで最大7.26倍の高速化を記録し、編集や参照画像モードも維持される。コードはMITライセンスで公開された。",
+      "url": "https://budgetany.github.io/budgetlatent/",
+      "source": "BudgetAny（プロジェクトページ）",
+      "topic": "画像生成・編集",
+      "x_url": "https://x.com/ozgurkara99/status/2124954624574804437",
+      "collected_at": "2026-11-24T07:23:07+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-24T07:23:07+09:00"
     }
   ]
 }
