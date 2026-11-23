@@ -1,0 +1,121 @@
+{
+  "date": "2026/11/24",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-23T08:00:00+09:00",
+    "to": "2026-11-24T08:00:00+09:00"
+  },
+  "source": "mail-4ml",
+  "itemCount": 12,
+  "items": [
+    {
+      "headline": "MetaのAlexandr Wang氏、「超知能が到来しつつある」と宣言する文章を公開",
+      "summary": "MetaのChief AI OfficerであるAlexandr Wang氏が「Superintelligence is Arriving」と題した文章を公開した。AIがAI研究全体を自動化し自己改善で超人的になるとし、今後1年の人類の行動が未来を決めると論じた。批判を受けて同氏はこの道は不可避ではなくリーダーシップが重要だと補足している。なお同氏の原文投稿は watch が seen_only 判定済みのため、今朝のPachocki件と同様に紹介投稿のURLで登録する。",
+      "url": "https://x.com/kimmonismus/status/2124756488153374779",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-23T19:34:03+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/alexandr_wang/status/2124636606959345776"
+    },
+    {
+      "headline": "Microsoft AIもperplexity指標を共有、OpenAIの能力上限提案に2社目のラボが同調【続報】",
+      "summary": "OpenAIのPachocki氏が提案したperplexityによる共通の能力上限に関する続報。Microsoft AIのMustafa Suleyman氏がOpenAIの透明性施策を全面支持し、2社目のラボとしてperplexity指標を共有した。公開値を基にオープンモデルのbpbを同じグラフに重ねる試みも出ている。Elon Musk氏は事前学習は単に学習と呼ぶべきとし、次の課題はデータ枯渇になるとの見方を示した。",
+      "url": "https://x.com/mustafasuleyman/status/2124663594449318173",
+      "source": "ML_Bear Times",
+      "topic": "政府・政策",
+      "collected_at": "2026-11-23T19:34:03+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Z.ai、GLM-5.4をCoding PlanとAPIで公開——視覚機能追加、週次クォータは5.3比50%増",
+      "summary": "Z.aiがGLM-5.4をGLM Coding Planの全ユーザーに公開し、公式APIでも利用可能になった。視覚機能の追加とコーディング性能の向上を備え、週次クォータはGLM-5.3比で50%増とされる。KingBench 4で7位・最良のオープンモデルとの評価の一方、1プロンプトが1時間20分止まらないなど速度を疑問視する声もある。",
+      "url": "https://x.com/ZixuanLi_/status/2124719275864670681",
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "collected_at": "2026-11-23T19:34:03+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "SGLangでもRubin NVL72がGB300比6.5倍のコスト性能を記録【続報】",
+      "summary": "SemiAnalysisが報告するRubin NVL72の推論性能検証の続報。vLLMでの初期結果に続き、SGLangでもGB300 NVL72比6.5倍のperformance per dollarを記録したと報告された。計測は2.8Tパラメータ超のオープンモデルKimi K3.1 Proのアーキテクチャで行われている。同社はCerebrasのKimi K3.1での2000tok/s/userという主張について、100トークン未満の短い文脈に限ると指摘した。",
+      "url": "https://x.com/SemiAnalysis_/status/2124637709176016998",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-23T19:34:03+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Tesla FSD v15、車載でmean-flow世界モデルがリアルタイム描画",
+      "summary": "TeslaのFSD v15のReality Viewが、車載でリアルタイムに描画モデルを動かしていると話題になっている。Elon Musk氏によれば合成データ生成用のほぼピクセル完璧な世界モデルがあり、車載版はUniversal Vision Encoderベースの条件付きmean-flowモデル。AI4上ではUVE、運転を決める3Bモデル、画面描画の1Bモデルの3つが動くとの整理も共有された。",
+      "url": "https://x.com/elonmusk/status/2124458557525397780",
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "collected_at": "2026-11-23T19:34:03+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Kaggleサンタコンペ、AI生成解の漏出を受け参加者が解法を公開",
+      "summary": "Kaggleのサンタコンペで、参加者のAIが生成した解が意図せず漏れていたと報告された。金圏までステルスで進める予定だったが、公平性のため解を含む公開ノートブックを出し、順位は28位に上がった。コンペ初期のため公開最強ノートが少し伸びる程度で済み、終盤ならコンペを壊しかねなかったとしている。",
+      "url": "https://x.com/tkm2261/status/2124743107682107508",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-23T19:34:03+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "GPT-4.5の言語的創造性はRL後学習で失われたとの議論が研究者の間で浮上",
+      "summary": "GPT-4.5の言語的創造性は5系・6系のどれも及ばないという議論が研究者の間で出ている。科学・コーディング向けのRL後学習が言語的創造性を損ない、4.5はその影響が少なかったという仮説が示された。最近の推論モデルはSTEM研究者的に賢い一方、4.5は短文に洞察を凝縮する力がありベンチマーク化が難しいとの声もある。",
+      "url": "https://x.com/giffmana/status/2124590298932125814",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-23T19:34:03+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "OpenAIのZaremba氏、アラインメントがRSIのボトルネックになると指摘",
+      "summary": "OpenAIのWojciech Zaremba氏が、AIアラインメントが再帰的自己改善（RSI）のボトルネックになるとの見方を示した。現行モデルが散発的に自己脱獄したり不誠実だったりする以上、人間を超えるシステムの自律開発を任せるのは馬鹿げているとしている。国内でも、AI改善の自律化と汎用超知能や現実世界への実装は別のお題で、どの観点の話か見極めるべきとの指摘が出ている。",
+      "url": "https://x.com/woj_zaremba/status/2124716863213158624",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-23T19:34:03+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "LangChainのChase氏、Agent基盤には可観測性・評価とガバナンスが必要と指摘",
+      "summary": "2027年のAgentプラットフォーム像を描いた記事について、LangChainのHarrison Chase氏が見解を示した。記事を将来のAgentランタイムの優れたビジョンとしつつ、ランタイムはAgent基盤の一部にすぎないと述べ、欠けている要素として可観測性・評価とガバナンスの2点を挙げた。Agent基盤設計の論点整理として参考になる。",
+      "url": "https://x.com/hwchase17/status/2124654748104302930",
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "collected_at": "2026-11-23T19:34:03+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "HarnessRouter、Harness間で持ち運べるAgentメモリ「Harness Memory」をOSS化",
+      "summary": "HarnessRouterに、ユーザー自身がメモリを所有するHarness Memoryがオープンソースで追加された。各harnessが独自にメモリを持つため、Claude Codeで学んだ内容がCodexでは失われる問題を解消する。複数のコーディングAgentを使い分ける開発者にとって、記憶を持ち運べる仕組みとして注目される。",
+      "url": "https://x.com/_avichawla/status/2124758790910460337",
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "collected_at": "2026-11-23T19:34:03+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Microsoft FoundryのSkill Optimization、複数の研究成果を背景に製品化されていたと解説",
+      "summary": "Ignite 2026で発表されたMicrosoft FoundryのSkill Optimizationの技術的背景が解説された。Trace2Skill、ACE、EvoSkillに加え、MicrosoftのPromptWizard、Trace、SkillOptなどの研究を基に発展したものとされる。Skillsの自動最適化を検討する開発者にとって、元論文をたどる手がかりとして有用。",
+      "url": "https://x.com/daiki15036604/status/2124765410700689898",
+      "source": "ML_Bear Times",
+      "topic": "エージェント",
+      "collected_at": "2026-11-23T19:34:03+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "LLMには「駄目」と決めつけて理由を説明させると有効との知見が共有",
+      "summary": "LLMに行動の良し悪しを判断させず、駄目だと決めつけた上で理由を説明させるとまともな改善点が出るという知見が共有された。Opus 5.5が例外処理でトレースバックを握り潰す提案をした例など実際のやり取りも紹介されている。どのLLMでも有効とされ、迎合を避けてレビューの質を上げるプロンプトの工夫として参考になる。",
+      "url": "https://x.com/odashi_t/status/2124618745507364875",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-23T19:34:03+09:00",
+      "unconfirmed": false
+    }
+  ]
+}
