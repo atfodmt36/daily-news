@@ -6,7 +6,7 @@
     "to": "2026-11-24T08:00:00+09:00"
   },
   "source": "mail-4ml",
-  "itemCount": 12,
+  "itemCount": 21,
   "items": [
     {
       "headline": "MetaのAlexandr Wang氏、「超知能が到来しつつある」と宣言する文章を公開",
@@ -115,6 +115,88 @@
       "source": "ML_Bear Times",
       "topic": "生成AI・その他",
       "collected_at": "2026-11-23T19:34:03+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "GLM-5.4はLoop Transformer、28層を2回実行し深く推論【続報】",
+      "summary": "Z.aiのGLM-5.4が、GLM-5ベースモデルの既存層をループさせるLoop Transformerであることが明らかになった。28層を2回実行して深く推論する構造で、事前学習済みモデルを継続学習でLoop化したものとされる。より大きなモデルや技術詳細も近く公開される見込みで、任意の事前学習済みLLMをループ化するLoopResなど関連研究も話題になっている。",
+      "url": "https://x.com/Zai_org/status/2124811995912286352",
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "collected_at": "2026-11-24T07:33:56+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "GPT-6.2 SolがChatGPTのChatタブに展開【続報】",
+      "summary": "OpenAIは、日常会話向けに最適化したGPT-6.2 SolをChatGPTのChatタブに展開した。Work、Codex、APIに続く展開で、詳細な指示を与えた複雑な依頼やオンライン検索を伴う質問への対応が大きく改善したとしている。Plus、Pro、Business、Enterpriseのユーザーに順次提供されている。",
+      "url": "https://x.com/ChatGPT/status/2124942186425069836",
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "collected_at": "2026-11-24T07:33:56+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Antigravity、ProでGemini 4 Carbon解禁しHydrogenを全員に開放",
+      "summary": "GoogleのAntigravityは全階層でモデルをアップグレードし、全ユーザーのGemini利用枠をリセットした。有料ProユーザーはGemini 4 Carbonを利用できるようになり、Hydrogenは全ユーザーに開放された。Orchestratorで使うモデルと推論effortも指定可能になっている。OpenRouterでは先週、Google製モデルへの支出がOpenAIを上回り50%を超えたと報告されている。",
+      "url": "https://x.com/_mohansolo/status/2124960419429458207",
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "collected_at": "2026-11-24T07:33:56+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Gemini 4 Neon、思考effortはHighから始めるのが推奨",
+      "summary": "GoogleのPhilipp Schmid氏がGemini 4 Neonの思考effortの使い分けを紹介した。Mediumは人が介在する素早いやり取り、Highはコーディングやエージェントの常用、xHighは設計やデバッグ・深い推論向けとし、まずHighで始め、xHighは評価・デバッグ・テストや長時間タスクに温存するのが推奨としている。",
+      "url": "https://x.com/_philschmid/status/2124840350472622124",
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "collected_at": "2026-11-24T07:33:56+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Kaggle新コンペ「Generalist Gaming Agent」が開始——未知のゲームをプレイできるAIを開発",
+      "summary": "Kaggleで、見たことのないゲームをプレイできるAIを開発する新コンペGeneralist Gaming Agentが始まった。10ジャンル32のゲームをそれぞれ10分間プレイする形式で、データセットには4つのサンプルゲームが同梱されている。メダル対象のKernel Onlyコンペで、締切は2027年3月1日。",
+      "url": "https://x.com/kagoole/status/2124941210448224327",
+      "source": "ML_Bear Times",
+      "topic": "評価・ベンチマーク",
+      "collected_at": "2026-11-24T07:33:56+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "OpenAI、AI専門家が中小企業を無償支援するOpenWorksを開始",
+      "summary": "OpenAIは、地域のAI専門家に資金を提供し中小企業のAI活用を無償で支援するプログラムOpenWorksを開始した。パートナーには最大で月8,000ドルの手当が出て、米国20地域で試験運用している。事業者は在庫管理や顧客開拓など解決したい課題を選び、地域のAIパートナーと一緒に構築する。なおOpenAI公式投稿はwatchがseen_only判定済みのため、紹介投稿のURLで登録する。",
+      "url": "https://x.com/btibor91/status/2124919196383604841",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-24T07:33:56+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/OpenAI/status/2124922133545714160"
+    },
+    {
+      "headline": "世界モデルでロボット頭脳を作るEmbo、1億1,000万ドルのシード調達",
+      "summary": "DreamerやVideoGPTの開発者らによる新会社Emboがステルスから登場した。インターネット動画で世界モデルを学習し、その中でロボットに失敗を含む試行を重ねさせる方針で、a16z主導で1億1,000万ドルを調達した。ロボティクス史上最大のシードラウンドとされている。",
+      "url": "https://x.com/danijar/status/2124911019562811820",
+      "source": "ML_Bear Times",
+      "topic": "ロボティクス",
+      "collected_at": "2026-11-24T07:33:56+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "Inkling 2 Mini、UnslothのGGUFでRTX PRO 6000上125tok/s【続報】",
+      "summary": "Thinking MachinesのInkling 2 Miniについて、UnslothがGGUF版のローカル推論を最適化し、RTX PRO 6000上で精度を落とさず125 tokens/sに達したと発表した。約1.9倍の高速化とされる。一方でloop部分がHopperのWGMMAを要求し、RTX 6000 Adaでは動かせなかったという国内の報告もある。",
+      "url": "https://x.com/UnslothAI/status/2124898356770263382",
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "collected_at": "2026-11-24T07:33:56+09:00",
+      "unconfirmed": false
+    },
+    {
+      "headline": "ロール指定プロンプトの「精通」「優秀」は今はもう不要との指摘",
+      "summary": "「UI/UXに精通したシニアデザイナーとして」といった2年前に流行した役割指定の書き出しについて、優秀や精通といった修飾は今のモデルには意味がなく、「あなたの担当はデザイナ兼フロントエンドです」とだけ書けば十分という指摘が話題になっている。モデル性能の向上に合わせて過去のプロンプト慣習を見直すきっかけとされている。",
+      "url": "https://x.com/mizchi/status/2124886402337046725",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-24T07:33:56+09:00",
       "unconfirmed": false
     }
   ]
