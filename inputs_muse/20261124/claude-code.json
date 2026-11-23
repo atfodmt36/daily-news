@@ -1,0 +1,140 @@
+{
+  "date": "2026/11/24",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-23T08:00:00+09:00",
+    "to": "2026-11-24T08:00:00+09:00"
+  },
+  "source": "claude-code",
+  "itemCount": 8,
+  "items": [
+    {
+      "topic": "Claude",
+      "headline": "Claude Opus 4.5を非推奨化、2027年1月22日にAPI提供終了へ",
+      "summary": "claude-opus-4-5-20251101およびclaude-opus-4-5を非推奨とし、Claude APIでは2027年1月22日に提供終了。Claude Opus 5.5への移行を推奨。",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "source": "Anthropic (Claude Platform Release Notes)",
+      "published_at": "2026-11-23T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "deprecated",
+      "tags": [
+        "date-only"
+      ],
+      "related_urls": [
+        "https://platform.claude.com/docs/en/models/opus-5-5/migration-guide#migrating-from-claude-opus-45"
+      ],
+      "collected_at": "2026-11-24T08:26:19+09:00"
+    },
+    {
+      "topic": "Claude",
+      "headline": "Enterprise Frontier Safeguards (EFS) をベータ提供開始",
+      "summary": "Claude Platform、Claude Platform on AWS、Claude Models on Google Cloud (Anthropic managed) で対象組織向けにゼロデータ保持(ZDR)を提供。プロンプトと応答を保持せず、暗号化コピー(Sealed Safety Data)を顧客のクラウドアカウントに保存する。",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "source": "Anthropic (Claude Platform Release Notes)",
+      "published_at": "2026-11-23T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "beta",
+      "tags": [
+        "date-only"
+      ],
+      "related_urls": [
+        "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/setup-console"
+      ],
+      "collected_at": "2026-11-24T08:26:19+09:00"
+    },
+    {
+      "topic": "Claude",
+      "headline": "組織Webhookに外部ストレージ関連の新イベント種別を追加（ベータ）",
+      "summary": "顧客所有ストレージ向けにexternal_storage.failed（バケットが日次チェックに失敗時）とexternal_storage.recovered（再度チェック合格時）の2つのイベント種別を追加。",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "source": "Anthropic (Claude Platform Release Notes)",
+      "published_at": "2026-11-23T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "beta",
+      "tags": [
+        "date-only"
+      ],
+      "collected_at": "2026-11-24T08:26:19+09:00"
+    },
+    {
+      "topic": "Claude Code",
+      "headline": "Claude Code v2.1.331リリース、ターミナルのCode Modeをクラウド各プラットフォームに拡大",
+      "summary": "Amazon Bedrock・Google Cloud Agent Platform・Microsoft Foundry・Claude Platform on AWSのターミナルセッションでCode Modeをサポート。claude doctorにAPI接続診断セクション追加、プラグインのoptionalDependencies対応、起動高速化や多数のVSCode関連修正を含む。",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
+      "source": "Anthropic (Claude Code GitHub Releases)",
+      "published_at": "2026-11-23T21:34:41+00:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "related_urls": [
+        "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md"
+      ],
+      "collected_at": "2026-11-24T08:26:19+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "OpenAIとCisco、Linux向けオープンソースランタイム「Shirudo」を発表",
+      "summary": "エージェントが動的なeBPF制御を記述し、再起動なしでシステムを脆弱性攻撃から保護できるオープンソースのLinuxランタイム。テストではJava4shellやPHPの脆弱性への攻撃を検知・遮断したが、本番運用にはまだ非対応。",
+      "url": "https://openai.com/index/introducing-shirudo/",
+      "source": "OpenAI",
+      "published_at": "2026-11-24T06:20:00+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "borderline"
+      ],
+      "related_urls": [
+        "https://x.com/OpenAI/status/2124980590717911527"
+      ],
+      "collected_at": "2026-11-24T08:26:19+09:00"
+    },
+    {
+      "topic": "Codex",
+      "headline": "Codex CLI（rust版）v0.172.0がstableリリース",
+      "summary": "OpenAIのCodex CLIのstable版 rust-v0.172.0 が公開された。GitHub ReleasesのAtomフィード本文は『Release 0.172.0』のみで、詳細な変更点は記載されていない。",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0",
+      "source": "GitHub (openai/codex)",
+      "published_at": "2026-11-24T07:48:38+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "borderline"
+      ],
+      "related_urls": [
+        "https://github.com/openai/codex/releases.atom"
+      ],
+      "collected_at": "2026-11-24T08:26:19+09:00"
+    },
+    {
+      "topic": "3Dモデル×AI",
+      "headline": "Maxon、AIで3Dモデルを生成する「Maxon Plus」を提供開始",
+      "summary": "Maxonは11/23、テキストや参照画像から編集可能な3Dベースモデルを生成する「Model Generator」、テクスチャ生成「Texture Generator」、ZBrush for iPad向け低ポリメッシュ生成「Clay Builder」、ブラウザ3DレビューをまとめたサブスクリプションサービスMaxon Plusを発表。月額$10/€10で即日利用可能、Cinema 4D/ZBrushおよびWebから使える。",
+      "url": "https://support.maxon.net/hc/en-us/articles/8657965267356-Maxon-App-2027-1-0-November-23-2026",
+      "source": "Maxon（公式）",
+      "published_at": "2026-11-23T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "date-only"
+      ],
+      "related_urls": [
+        "https://www.unite.ai/maxon-plus-ai-3d-creation-cinema-4d-zbrush/",
+        "https://digitalproduction.com/2026/11/23/maxon-plus-generation-3d-review/"
+      ],
+      "collected_at": "2026-11-24T08:26:19+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "ゴムマリ、文書の校正業務向け「校正AIエージェント」を提供開始",
+      "summary": "ゴムマリは社内報・マニュアル・プレスリリースなどの校正業務を対象とした「校正AIエージェント」の提供を2026年11月23日より開始。原稿を表記ルール・用語集・参照資料と突き合わせ、修正案（根拠付き）と要人手確認リストを生成する。初期構築50万円〜、月額保守10万円〜、導入は最短4週間。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000082.000185093.html",
+      "source": "ゴムマリ株式会社（PR TIMES）",
+      "published_at": "2026-11-23T09:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "業務×AI"
+      ],
+      "collected_at": "2026-11-24T08:26:19+09:00"
+    }
+  ]
+}
