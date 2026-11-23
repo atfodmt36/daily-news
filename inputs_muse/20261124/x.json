@@ -6,7 +6,7 @@
     "to": "2026-11-24T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 7,
+  "itemCount": 9,
   "items": [
     {
       "headline": "AMD、VAEなしでピクセル空間から直接生成する画像モデル「Nitro-P」を公開——重みと学習コードもオープンに",
@@ -80,6 +80,32 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-23T21:14:17+09:00"
+    },
+    {
+      "headline": "中国電信、285B MoEモデル「Xing4.1-Preview」の重みをオープン公開",
+      "summary": "中国電信のXingchen AGI Labが11月23日、エージェント型コーディングと長時間ワークフロー向けのMoEモデル「Xing4.1-Preview」の重みをHugging FaceとModelScopeで公開した。総パラメータ285B（トークンあたり約17Bを活性化）、ネイティブ1Mトークンのコンテキスト、Apache 2.0ライセンスで、Huawei Ascendチップのみで学習されている。BF16版（約521GiB）とFP8版が提供され、ベンチマークの詳細は正式リリース時の技術レポートで公表予定としている。",
+      "url": "https://huggingface.co/XingChen-AGI/Xing4.1-Preview",
+      "source": "Hugging Face（XingChen-AGI公式モデルカード）",
+      "topic": "モデル",
+      "x_url": "https://x.com/ModelScope2022/status/2124850649997148387",
+      "collected_at": "2026-11-23T23:28:29+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-23T23:28:29+09:00"
+    },
+    {
+      "headline": "全米知事協会、AIガバナンスの超党派原則を公表—フロンティアモデルは連邦、消費者保護は州が担う役割分担を提言",
+      "summary": "全米知事協会（NGA）は11月22日、超党派の「Governors Council to Secure American AI Dominance」がまとめたAIガバナンス原則を公表した。連邦政府には最先端の汎用モデルへのリスクベースの枠組み（独立専門家による評価・監査、セキュリティ侵害や重大な安全インシデントの当局への報告など）を求め、州には消費者・労働者・子どもの保護やAIによる被害への責任追及を担う役割を残す構成で、州法の連邦による先占は慎重に扱うべきだとした。1月に始まる次期連邦議会のAI法制に向けた提言と位置づけられる。",
+      "url": "https://www.nga.org/news/press-releases/governors-call-for-ai-action/",
+      "source": "全米知事協会（NGA公式発表）",
+      "topic": "政府・政策",
+      "x_url": "https://x.com/1amdread/status/2124865599646105785",
+      "collected_at": "2026-11-23T23:28:29+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-23T23:28:29+09:00"
     }
   ]
 }
