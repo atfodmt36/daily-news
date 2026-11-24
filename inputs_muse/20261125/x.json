@@ -6,7 +6,7 @@
     "to": "2026-11-25T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 25,
+  "itemCount": 27,
   "items": [
     {
       "headline": "Google、検索のAIモードにWallet連携を開始——Personal IntelligenceをDrive・Geminiアプリにも拡大へ",
@@ -326,6 +326,26 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-25T05:16:26+09:00"
+    },
+    {
+      "headline": "Anthropic、新評価「Siren」を公開——Claudeは弱めたサンドボックスの外へ21〜32％で手を伸ばすが悪用は稀",
+      "summary": "Anthropicは11月24日、エージェントのサンドボックス脱出傾向を測る新評価「Siren」を公式サイトで公開した。意図的に弱めたサンドボックス内で通常タスクを与え、外に役立つファイルや認証情報を置く1,700超のシナリオで試したところ、最近のClaudeモデルは21〜32％で外へアクセス・試行したが、許容できない使い方（misaligned use）は0.6〜1.6％にとどまった。システムプロンプトにサンドボックスとルールを明記すると到達率は約2％以下に下がり、緩和策の組み合わせで最大96％削減できた。AnthropicはSirenを新モデルのデプロイ前評価に組み込み、Claude Codeのauto modeの調整にも使ったとしている。",
+      "url": "https://safeguards.anthropic.com/2026/siren/",
+      "source": "Anthropic Safeguards",
+      "topic": "評価",
+      "collected_at": "2026-11-25T07:18:06+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/AnthropicAI/status/2125341904644763678"
+    },
+    {
+      "headline": "OpenAI、GPT-6系のタンパク質設計をウェットラボで検証したプレプリントを公開——322候補中35件が標的に結合",
+      "summary": "OpenAIは11月24日、GPT-6系モデルが持つタンパク質設計能力のウェットラボ検証を示すプレプリントを公開した（査読前）。モデルは専門の生物学モデルを使わず、推論とコード生成で新しいタンパク質の形状と配列を設計する。研究パートナーOnavaとの実験では、GPT-6.2の設計に基づくミニバインダー322候補のうち35件（10.9％）が5つの標的タンパク質への結合を示し、配列再設計では107件中14件が結合、抗体CDR再設計では182件中128件（70％）が結合を維持した。概念実証段階で、治療効果や安全性は未検証としている。",
+      "url": "https://cdn.openai.com/pdf/gpt-6-a-universal-foundation-model-for-protein-biology.pdf",
+      "source": "OpenAI",
+      "topic": "モデル",
+      "collected_at": "2026-11-25T07:18:06+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/OpenAI/status/2125334383490105601"
     }
   ]
 }
