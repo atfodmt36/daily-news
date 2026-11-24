@@ -1,0 +1,523 @@
+{
+  "date": "2026/11/25",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-24T08:00:00+09:00",
+    "to": "2026-11-25T08:00:00+09:00"
+  },
+  "source": "claude-code",
+  "itemCount": 29,
+  "items": [
+    {
+      "topic": "Claude",
+      "headline": "MCP 2周年、Skills over MCPをパブリックベータで提供開始・TasksとElicitationを一般提供",
+      "summary": "AnthropicはModel Context Protocol(MCP)2周年に合わせ、MCPサーバーがツールと並んでスキルを配布できる「Skills over MCP」をパブリックベータで公開(Pro/Max/Ultraは既定で有効、Teamは管理者が有効化、Enterpriseは近日対応)。長時間ジョブをMCPサーバーに委譲する「Tasks」と処理中にユーザー入力を求める「Elicitation」をClaudeおよびClaude CodeのPro/Max/Ultraで一般提供(GA)、Team/Enterpriseには順次展開。",
+      "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+      "source": "Claude (claude.com)",
+      "published_at": "2026-11-24T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "date-only",
+        "MCP",
+        "Skills",
+        "Tasks",
+        "Elicitation",
+        "public-beta",
+        "applies-to-claude-code"
+      ],
+      "related_urls": [
+        "https://code.claude.com/docs/en/mcp"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "Claude",
+      "headline": "月次リキャップ(Reflect)がベータを終了し全プランで一般提供",
+      "summary": "Claudeアプリの月次リキャップ機能(設定内の「Reflect」)がベータを終了し、Free/Pro/Max/Ultraのweb・デスクトップ・iOS/Androidで利用可能に。クラウド上のClaude CodeセッションやClaude Coworkタスクの内容も反映でき、保存済みリキャップを削除可能。",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "source": "Claude App リリースノート",
+      "published_at": "2026-11-24T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "date-only",
+        "claude-app",
+        "Reflect"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "Claude",
+      "headline": "アーティファクトをデスクトップアプリとしてインストール可能に(ベータ)",
+      "summary": "ClaudeがMac・Windows向けに、生成したアーティファクトを独立したデスクトップアプリとしてインストールする機能をベータ提供開始。専用のウィンドウとアイコンを持ち、ネイティブアプリのように起動・動作し、OSと連携することも可能。",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "source": "Claude App リリースノート",
+      "published_at": "2026-11-24T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "beta",
+      "tags": [
+        "date-only",
+        "claude-app",
+        "artifacts",
+        "desktop"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "Claude",
+      "headline": "コネクタ経由のファイル送受信をベータ提供(Pro/Max/Ultra等)",
+      "summary": "Claudeが接続済みアプリ(コネクタ)に対してファイルを送信、またはアプリが提供するファイルを保存できる機能をベータで段階提供開始。対象はPro/Max/Ultra、およびオーナーが有効化したTeam/Enterprise。",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "source": "Claude App リリースノート",
+      "published_at": "2026-11-24T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "beta",
+      "tags": [
+        "date-only",
+        "claude-app",
+        "connectors"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "OpenAI、GPT-6モデルが推論とコードのみで内在的なタンパク質設計能力を持つと発表",
+      "summary": "GPT-6系モデルが、RFdiffusionやProteinMPNNなど専用の生物学モデルを使わず推論とコードだけでタンパク質の構造と配列を設計できると発表。研究パートナーOnavaとのウェットラボ実験では、GPT-6.2が5つのタンパク質標的に対し322候補中35個のバインダーを生み、5標的すべてに結合したとする(研究発表/能力デモ、条件付き数値)。",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "source": "OpenAI News",
+      "published_at": "2026-11-24T13:00:00+00:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "research",
+        "GPT-6",
+        "GPT-6.2"
+      ],
+      "related_urls": [
+        "https://openai.com/news/rss.xml"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "OpenAI API、chat-latestスナップショットを最新ChatGPTモデルに更新",
+      "summary": "API changelogにて、chat-latestのスナップショットが最新のChatGPTモデルを反映するよう更新。OpenAIは本番用途にはGPT-6.2モデルファミリーの利用を推奨し、chat-latestはテスト用途と位置付けている。",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "source": "OpenAI API Changelog",
+      "published_at": "2026-11-24T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "API",
+        "date-only",
+        "GPT-6.2"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "ChatGPT",
+      "headline": "OpenAI、臨床向けハーネス付きヘルスケア専用モデル構成をResponses APIで提供開始",
+      "summary": "臨床質問向けに調整したハーネスと、Web検索で専用の医療ソースインデックスを参照する4つのヘルスケア専用モデル構成(gpt-6.2-astra-healthcare、gpt-6.2-sol-healthcare、gpt-6-astra-healthcare、gpt-6.1-sol-healthcare)を公開。WebSearchによればGPT-6.2 Astra Healthcareは入力100万トークン$8/出力$40、Sol Healthcareは$2/$10のプロモーション価格で、少なくとも2026年12月31日まで提供(価格はWebSearch裏取り)。",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "source": "OpenAI API Changelog",
+      "published_at": "2026-11-24T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "API",
+        "healthcare",
+        "date-only",
+        "GPT-6.2"
+      ],
+      "related_urls": [
+        "https://developers.openai.com/api/docs/pricing"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "Codex",
+      "headline": "Codex CLI 0.172.0公開、検索結果からのスレッドリンク遷移やスラッシュコマンド補完を追加",
+      "summary": "Codex CLI 0.172.0を公開。検索結果・トランスクリプトからのスレッドリンク遷移、スラッシュコマンド引数のTab補完、タスクグループのナビゲーション、stdio MCPサーバの遅延起動オプションなど6機能を追加。resume時のサンドボックス権限復元など6件の不具合修正とGPT-6.2(Astra/Sol)への移行ガイド更新を含む。設定code_mode_host_grpcは非推奨化。",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0",
+      "source": "GitHub Releases (openai/codex)",
+      "published_at": "2026-11-24T00:06:41+00:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "CLI",
+        "release",
+        "GPT-6.2"
+      ],
+      "related_urls": [
+        "https://learn.chatgpt.com/docs/changelog"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "日本政府・行政",
+      "headline": "政府、AIの法的責任を検討する専門調査会を発足　2027年6月に取りまとめへ",
+      "summary": "政府は2026年11月24日、「AI・デジタル改革推進会議」の下に法学者やAIサービス事業者らで構成する専門調査会を設置し、デジタル庁で初会合を開いた。AIエージェントが誤った契約や不正な購入で損害を生じさせた場合に利用者・提供者・開発者のいずれが責任を負うのか、契約の効力や被害救済の在り方を検討する。会長は宍戸常寿・東京大学大学院教授、委員12人。2027年6月ごろに議論を取りまとめる方針。",
+      "url": "https://www.jiji.com/jc/article?k=2026112400920&g=pol",
+      "source": "時事通信",
+      "published_at": "2026-11-24T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "policy",
+      "tags": [
+        "date-only",
+        "AI規制",
+        "法的責任",
+        "AIエージェント",
+        "デジタル庁"
+      ],
+      "related_urls": [
+        "https://www.digital.go.jp/councils/ai-digital-expert",
+        "https://www.nippon.com/ja/articles/-/57911"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "Microsoft Foundry",
+      "headline": "Microsoft-Decision-1.1がGA、画像入力対応でDecision-1の2倍超高速に",
+      "summary": "Ignite 2026でMicrosoft-Decision-1.1が一般提供(GA)。ルーティング・分類・優先度付け・検証・ワークフロー制御向けの専用判断モデルで、新たに画像入力に対応。Decision-1の2倍超の速度とされる。OpenRouterおよびVercel経由でも利用可能。",
+      "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026/",
+      "source": "Microsoft Foundry Blog",
+      "published_at": "2026-11-25T01:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "Ignite2026",
+        "model"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "Microsoft Foundry",
+      "headline": "Managed ComputeがGA、Hugging Faceのオープンモデルを専用GPUで提供",
+      "summary": "Ignite 2026でManaged Computeが一般提供(GA)。カタログのHugging Faceコレクションのオープンモデルを専用GPUで提供でき、デプロイ稼働中はアクセラレータごとに時間課金される。",
+      "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026/",
+      "source": "Microsoft Foundry Blog",
+      "published_at": "2026-11-25T01:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "Ignite2026"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "Microsoft Foundry",
+      "headline": "Model Router Autoがプレビュー、model=\"auto\"でルーター未デプロイでもルーティング",
+      "summary": "Ignite 2026でModel Router Autoがパブリックプレビュー。model=\"auto\"を指定することでmodel routerをデプロイせずにリクエストをルーティングでき、全32のmodel router対応リージョンで動作する。",
+      "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026/",
+      "source": "Microsoft Foundry Blog",
+      "published_at": "2026-11-25T01:00:00+09:00",
+      "unconfirmed": false,
+      "status": "preview",
+      "tags": [
+        "Ignite2026"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "Microsoft Foundry",
+      "headline": "MAI-Image-2.7およびMAI-Image-2.7-FlashがFoundryでパブリックプレビュー",
+      "summary": "Ignite 2026で画像生成・編集モデルMAI-Image-2.7とMAI-Image-2.7-FlashがFoundryでパブリックプレビュー提供開始。",
+      "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026/",
+      "source": "Microsoft Foundry Blog",
+      "published_at": "2026-11-25T01:00:00+09:00",
+      "unconfirmed": false,
+      "status": "preview",
+      "tags": [
+        "Ignite2026",
+        "model"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "Microsoft Foundry",
+      "headline": "MAI-Code-2-FlashがFoundryで限定アクセスプレビュー",
+      "summary": "Ignite 2026でMAI-Code-2-FlashがFoundryで限定アクセス(limited-access)プレビュー。対象を絞ったコード編集やルーチン的な修正向け。",
+      "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026/",
+      "source": "Microsoft Foundry Blog",
+      "published_at": "2026-11-25T01:00:00+09:00",
+      "unconfirmed": false,
+      "status": "preview",
+      "tags": [
+        "Ignite2026",
+        "model",
+        "limited-access"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "Microsoft Foundry",
+      "headline": "Microsoft-Retriever-1がパブリックプレビュー、クエリ計画と反復検索を担う専用モデル",
+      "summary": "Ignite 2026でMicrosoft-Retriever-1がパブリックプレビュー。クエリ計画と繰り返し検索を引き受けるエージェント型検索向けの専用モデル。",
+      "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026/",
+      "source": "Microsoft Foundry Blog",
+      "published_at": "2026-11-25T01:00:00+09:00",
+      "unconfirmed": false,
+      "status": "preview",
+      "tags": [
+        "Ignite2026",
+        "model"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "Microsoft Foundry",
+      "headline": "Foundry Dev Pack(CLI/VS Codeツールキット/GitHub Copilotプラグイン)がGA",
+      "summary": "Ignite 2026でFoundry開発ツール群がGA。Foundry CLI(azd ai)、Microsoft Foundry Skill、VS Code向けFoundry Toolkit、GitHub Copilotアプリ向けFoundryプラグインが一斉に一般提供。",
+      "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026/",
+      "source": "Microsoft Foundry Blog",
+      "published_at": "2026-11-25T01:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "Ignite2026",
+        "tools"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "Microsoft Foundry",
+      "headline": "観測・評価機能がGA:Insights(本番トレースのクラスタ化)とマルチターン評価",
+      "summary": "Ignite 2026で観測・評価機能が一般提供(GA)。Insightsは本番トレースをアクション可能な知見へクラスタ化し、マルチターン評価は単一応答ではなく会話全体をスコアリングする。",
+      "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026/",
+      "source": "Microsoft Foundry Blog",
+      "published_at": "2026-11-25T01:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "Ignite2026",
+        "observability"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "建設×AI",
+      "headline": "KENCOPA、工程AIエージェントに図面から施工計画を描く「絵工程生成」機能を追加",
+      "summary": "株式会社KENCOPAは2026年11月24日、建設向け「Kencopa工程AIエージェント」に、図面から施工計画を考え作業範囲や建機・資材の配置を図面上に描く『絵工程生成』機能を追加すると発表した。生成図はパワーポイントで出力でき実寸スケールを維持。作成時間を約90%削減できると見込み、建築・土木の両方に対応。2026年度中の正式提供に先立ち先行公開する。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000037.000166783.html",
+      "source": "株式会社KENCOPA(PR TIMES)",
+      "published_at": "2026-11-24T09:30:00+09:00",
+      "unconfirmed": false,
+      "status": "preview",
+      "tags": [
+        "施工",
+        "工程計画",
+        "AIエージェント",
+        "建築",
+        "土木"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "OpenSplat4D 0.3公開、Unreal Engine向け3D/4DGSプラグインをApache-2.0でオープンソース化",
+      "summary": "GitHubのYuanBaoSMadLabは2026年11月24日、Unreal Engine向け3DGS/4DGSレンダリングプラグイン「OpenSplat4D」v0.3.0を公開した。全ソースコードをApache-2.0でオープンソース化し、従来Fab限定だったChaosフラクチャやスプラットごとの影描画を公開。UE 5.9ビルドに対応し、UE 5.7/5.8との後方互換も維持する。",
+      "url": "https://github.com/YuanBaoSMadLab/OpenSplat4D/releases/tag/v0.3.0",
+      "source": "OpenSplat4D(GitHub Releases)",
+      "published_at": "2026-11-24T04:12:00+00:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "4DGS",
+        "Unreal Engine",
+        "オープンソース",
+        "プラグイン"
+      ],
+      "related_urls": [
+        "https://github.com/YuanBaoSMadLab/OpenSplat4D"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "Xangle Orbit v26.11.23、同期マルチカメラ映像からの4Dガウシアンスプラット学習(ベータ)を追加",
+      "summary": "Xangleは「Orbit」v26.11.23で、同期マルチカメラ映像から4Dガウシアンスプラットを学習するベータ機能を追加したと報じられた。Splat Playerへのエクスポート、カメラパス、MP4レンダリング出力に対応。公式ブログで正確な公開日と一次情報を確認できず、ニュースメディア報道に基づくため未確認扱い。",
+      "url": "https://radiancefields.com/xangle-grows-orbit-into-a-multi-camera-splat-pipeline",
+      "source": "Radiance Fields",
+      "published_at": "2026-11-24T00:00:00+09:00",
+      "unconfirmed": true,
+      "status": "beta",
+      "tags": [
+        "4DGS",
+        "マルチカメラ",
+        "date-only",
+        "news-only"
+      ],
+      "related_urls": [
+        "https://xangleapps.com/orbit/blog"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "住友ゴム(DUNLOP)とNEC、タイヤ商品開発の部門間調整をAIエージェント同士で自動化、調整期間約90%短縮を試算",
+      "summary": "住友ゴム工業(DUNLOP)とNECは、2026年4月〜10月に実施した机上実証の結果を発表。タイヤ商品開発のマーケティング部門と設計部門に配置したNECのAIエージェント同士が複雑な調整業務を自動化。実際の開発計画データを用いた試算で、AIエージェント導入時に調整期間の約90%短縮効果が見込まれるとした。",
+      "url": "https://prtimes.jp/main/html/rd/p/000001484.000078149.html",
+      "source": "NEC / 住友ゴム工業(PR TIMES)",
+      "published_at": "2026-11-24T14:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "業務×AI",
+        "AIエージェント",
+        "効果測定",
+        "数値あり"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "インゲージの「AI社員」導入で問い合わせ対応時間を約24%削減、キャッチボールの導入事例を公開",
+      "summary": "インゲージは、決済ソリューション事業の株式会社キャッチボール(スクロールグループ)での「AI社員」導入事例を発表。カスタマーサポートのメール対応にAIを導入し、1件あたりの平均対応時間を従来の5分以上から3.8分へ短縮(約24%削減)、導入定着は約2週間、翌日までの返信完了体制と多言語対応の効率化を実現した。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000358.000029485.html",
+      "source": "インゲージ(PR TIMES)",
+      "published_at": "2026-11-24T13:30:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "業務×AI",
+        "カスタマーサポート",
+        "導入事例",
+        "数値あり"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "ドン・キホーテ等を展開するPPIH、PeopleXの対話型AI「PeopleX AI面接」「PeopleX AIロープレ」を導入",
+      "summary": "PeopleXは、パン・パシフィック・インターナショナルホールディングス(PPIH)が対話型AI「PeopleX AI面接」「PeopleX AIロープレ」を導入したと発表。AI面接は24時間どこでも受検可能で面接数拡大と工数削減を両立、AIロープレは個別課題に寄り添うパーソナルトレーナー型。採用品質向上・店頭接客スキル強化・マネジメント育成強化を目指す。",
+      "url": "https://peoplex.jp/news/20261124",
+      "source": "PeopleX",
+      "published_at": "2026-11-24T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "業務×AI",
+        "人事",
+        "採用",
+        "導入事例",
+        "date-only"
+      ],
+      "related_urls": [
+        "https://hrzine.jp/news/detail/8307"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Microsoft Copilot in PowerPoint、営業向けスキルを全世界に展開(2026年11月下旬)",
+      "summary": "PowerPointのMicrosoft Copilot(Windows/Mac/Web、Copilot Cowork対応)に営業向けスキルを追加し、提案資料の作成・改善や営業データの活用を支援。2026年11月下旬までに全世界展開予定で管理者操作は不要、ライセンス保有ユーザーがSalesプラグインで有効化できる。メッセージセンター MC1558023(公開2026-11-24)。",
+      "url": "https://mc.merill.net/message/MC1558023",
+      "source": "Microsoft 365 メッセージセンター(公開アーカイブ mc.merill.net・非公式)",
+      "published_at": "2026-11-25T02:05:20+09:00",
+      "unconfirmed": true,
+      "status": "announced",
+      "tags": [
+        "secondary",
+        "message-center",
+        "powerpoint",
+        "sales"
+      ],
+      "related_urls": [
+        "https://m365admin.handsontek.net/microsoft-copilot-powerpoint-windows-mac-web-introducing-new-sales-focused-skills/"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Copilot Workspaces、個別エージェント選択をエージェント型チャットに置き換え(Frontierプレビュー)",
+      "summary": "Microsoft 365 Copilot WorkspacesでResearcher/Analyst/Designerの個別選択を廃止し、ユーザーの要求に応じてスキルを自動適用するエージェント型チャットに移行。2026年12月よりFrontierプレビューで開始、管理者操作は不要で、各エージェントはCopilotアプリでは引き続き利用可能。メッセージセンター MC1550540(公開2026-11-24)。",
+      "url": "https://mc.merill.net/message/MC1550540",
+      "source": "Microsoft 365 メッセージセンター(公開アーカイブ mc.merill.net・非公式)",
+      "published_at": "2026-11-25T02:05:38+09:00",
+      "unconfirmed": true,
+      "status": "preview",
+      "tags": [
+        "secondary",
+        "message-center",
+        "workspaces",
+        "frontier-preview"
+      ],
+      "related_urls": [
+        "https://m365admin.handsontek.net/microsoft-365-copilot-copilot-workspaces-replacing-standalone-agent-selection-agentic-chat/"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "PowerPoint for Microsoft 365 Copilot(Mac)にプラグイン対応を追加",
+      "summary": "Mac版PowerPointのMicrosoft 365 Copilotにプラグインを追加しプレゼン作成機能を強化。展開は2026年11月中旬に開始し12月上旬に完了予定。ユーザーはCopilotでプラグインを利用でき、管理者はMicrosoft 365管理センターでアクセスを管理できる。メッセージセンター MC1556095(公開2026-11-24)。",
+      "url": "https://mc.merill.net/message/MC1556095",
+      "source": "Microsoft 365 メッセージセンター(公開アーカイブ mc.merill.net・非公式)",
+      "published_at": "2026-11-25T02:05:55+09:00",
+      "unconfirmed": true,
+      "status": "announced",
+      "tags": [
+        "secondary",
+        "message-center",
+        "powerpoint",
+        "mac",
+        "plugins"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "Microsoft 365 Copilot",
+      "headline": "Outlook(iOS/Android)のCopilot Chat、デザイン刷新",
+      "summary": "Outlook for iOS/AndroidのCopilot Chatを、Microsoft 365アプリ全体で統一された新デザインに更新し、チャットUI・プロンプト・ナビゲーションを改善。展開は2026年12月中旬開始、2027年1月下旬完了予定で、管理者操作は不要。メッセージセンター MC1551148(公開2026-11-24)。",
+      "url": "https://mc.merill.net/message/MC1551148",
+      "source": "Microsoft 365 メッセージセンター(公開アーカイブ mc.merill.net・非公式)",
+      "published_at": "2026-11-25T02:06:14+09:00",
+      "unconfirmed": true,
+      "status": "announced",
+      "tags": [
+        "secondary",
+        "message-center",
+        "outlook",
+        "mobile"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "Gemini CLI",
+      "headline": "Gemini CLI v0.71.1 をリリース、v0.71.0 のセキュリティ修正をパッチ適用",
+      "summary": "Gemini CLI の安定版パッチリリース v0.71.1 が公開された。開発ブランチのコミット(aafdfdf)を v0.71.0 にチェリーピックし、セキュリティ関連の修正を取り込んだもの。nightly/preview を除く安定版リリースとして配信されている。",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.1",
+      "source": "GitHub Releases (google-gemini/gemini-cli)",
+      "published_at": "2026-11-24T12:50:24+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "release",
+        "security-patch"
+      ],
+      "related_urls": [
+        "https://github.com/google-gemini/gemini-cli/releases.atom"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    },
+    {
+      "topic": "エージェント",
+      "headline": "Model Context Protocol が公開2周年、累計SDKダウンロード50億回を突破",
+      "summary": "MCP公式ブログが「Two Years of MCP Builders」を公開し、2024年11月のオープンソース公開から2周年を迎えたと発表。累計2,500人以上のコントリビューター、SDKダウンロード累計50億回(2年目だけで45億回)、月間7億回超に達したと報告。MCP Apps、ステートレス仕様(2026-07-28)、Events/Skills over MCPベータなど2年間の歩みを振り返り、次期仕様は2027年3月を予定。",
+      "url": "https://blog.modelcontextprotocol.io/posts/mcp-turns-two/",
+      "source": "Model Context Protocol Blog",
+      "published_at": "2026-11-24T18:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "milestone",
+        "retrospective"
+      ],
+      "related_urls": [
+        "https://blog.modelcontextprotocol.io/index.xml"
+      ],
+      "collected_at": "2026-11-25T08:30:03+09:00"
+    }
+  ]
+}
