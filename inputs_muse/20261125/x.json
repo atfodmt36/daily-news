@@ -6,7 +6,7 @@
     "to": "2026-11-25T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 1,
+  "itemCount": 7,
   "items": [
     {
       "headline": "Google、検索のAIモードにWallet連携を開始——Personal IntelligenceをDrive・Geminiアプリにも拡大へ",
@@ -20,6 +20,84 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-24T09:15:15+09:00"
+    },
+    {
+      "headline": "Sakana AI、応用研究組織「Applied Research Lab」を設立——最初のプログラムは金融・経済",
+      "summary": "Sakana AIは11月24日、自社の研究を大規模で複雑な現実のシステムに応用する研究組織「Sakana AI Applied Research Lab」の設立を公式サイトで発表した。東京を拠点とし、最初のプログラムは金融・経済分野（Computational Finance and Economics）で、エージェント型AIによるモデル構築・検証と専門家の知見を組み合わせる。今後ほかの分野への展開も予定し、研究者・エンジニアの募集と提携先の募集を開始した。",
+      "url": "https://sakana.ai/applied-research-lab/",
+      "source": "Sakana AI公式サイト",
+      "topic": "モデル",
+      "x_url": "https://x.com/SakanaAILabs/status/2125046221631086970",
+      "collected_at": "2026-11-24T11:25:53+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-24T11:25:53+09:00"
+    },
+    {
+      "headline": "経産省・NEDO、GENIACでロボット基盤モデルの開発支援枠を新設——建設向け「ツールVLA」など13件を採択",
+      "summary": "経済産業省とNEDOは、生成AIの開発力強化プロジェクト「GENIAC」で2026年度にロボット基盤モデルの開発支援枠を新設し、フィジカルAIの産業基盤づくりを加速している（日刊工業新聞11月23日付）。9月には製造・建設・物流など多分野での活用を見込む13件の開発テーマを採択した。建設分野ではXNOVAが電動工具の操作に特化したロボット基盤モデル「ツールVLA」を開発し、ヒルティや清水建設と実証を進めて2028年度の商用化を目指す。",
+      "url": "https://newswitch.jp/p/50894",
+      "source": "ニュースイッチ（日刊工業新聞社）",
+      "topic": "政府・政策",
+      "x_url": "https://x.com/tontontonton/status/2124992399000940605",
+      "collected_at": "2026-11-24T11:25:53+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-24T11:25:53+09:00"
+    },
+    {
+      "headline": "Maxon、AI支援3D制作スイート「Maxon Plus」を開始——テキストや画像から3Dモデル・テクスチャを生成",
+      "summary": "Maxonは、Cinema 4DやZBrushと連携するAI支援の3D制作サービス「Maxon Plus」を開始した（11月23日発表）。テキストや参照画像から3Dベースモデルを作るModel Generator、既存モデルにテクスチャを生成するTexture Generator、ZBrush for iPad向けのベースメッシュ生成Clay Builderに加え、ブラウザで3D作品をレビューできるMaxon Review（公開プレビュー）を含む。Cinema 4Dの別契約で、月額10ドルからのパックにAI・クラウド用のクレジットが付く。",
+      "url": "https://postperspective.com/maxon-plus-intros-new-ai-assisted-tools-and-3d-review-services/",
+      "source": "postPerspective",
+      "topic": "3D生成・制作（クリエイティブ）",
+      "x_url": "https://x.com/happy_modeling/status/2125016976531857869",
+      "collected_at": "2026-11-24T11:25:53+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-24T11:25:53+09:00"
+    },
+    {
+      "headline": "iZotope、ボーカルプラグイン「Nectar 5」をリリース——歌詞の自動文字起こしと単語単位のエフェクト適用に対応",
+      "summary": "iZotopeはボーカル制作プラグインの新版「Nectar 5」をリリースした。ボーカルトラックの歌詞を自動で文字起こしし、指定した単語だけにエフェクトをかけられる機能を搭載した点が特徴で、音楽メディアICONなどが11月24日に報じた。発売記念セールも実施されている。",
+      "url": "https://icon.jp/archives/28734",
+      "source": "ICON",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "x_url": "https://x.com/ICON_jp/status/2125031648882524544",
+      "collected_at": "2026-11-24T11:25:53+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-24T11:25:53+09:00"
+    },
+    {
+      "headline": "Amazon Connect Customer、生成AIによる自動評価の対応言語を45言語追加",
+      "summary": "AWSは、コンタクトセンター向けのAmazon Connect Customerで、生成AIによる担当者とAIエージェントの自動パフォーマンス評価が新たに45言語（アラビア語、オランダ語、インドネシア語、ポーランド語など）に対応したと公式発表した。管理者が自然言語で評価基準を定義すると、AIが根拠付きの評価を希望する言語で生成し、会話と異なる言語（英語など）での評価も可能。多言語の窓口で共通の評価基準を適用できる。Amazon Connect Customerが提供される全AWS商用リージョンで利用できる。",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-customer-expands-automated-performance-evaluations-new-languages/",
+      "source": "AWS公式（What's New）",
+      "topic": "ビジネス・人材",
+      "x_url": "https://x.com/kmotohas/status/2125029860511019271",
+      "collected_at": "2026-11-24T11:25:53+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-24T11:25:53+09:00"
+    },
+    {
+      "headline": "Sansan、AI個別開発の新サービス「Advanced Solution」を提供開始——専門人材が伴走、最短1週間で提供した事例も",
+      "summary": "Sansanは11月24日、企業や部門ごとの業務課題をAIを用いた個別開発で解決する新サービス「Advanced Solution」の提供開始を発表した。事業開発の知見を持つ専門人材「Solution Builder」が課題特定から成果創出まで一貫して伴走し、Sansan・Bill One・Contract Oneと組み合わせて導入効果を広げる。AI活用の開発により最短1週間でソリューションを提供した事例もある。自社ではSolution Builderの取り組みで年間1億円以上のコスト削減を実現したとしている。",
+      "url": "https://jp.corp-sansan.com/news/2026/1124.html",
+      "source": "Sansan株式会社（公式発表）",
+      "topic": "ビジネス・人材",
+      "x_url": "https://x.com/_atsushisakai/status/2125016966977171855",
+      "collected_at": "2026-11-24T11:25:53+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-24T11:25:53+09:00"
     }
   ]
 }
