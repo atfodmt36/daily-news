@@ -41,6 +41,7 @@ TARGETS = [
     ("ai-business", "AIビジネス", True),
     ("github-copilot", "GitHub Copilot", False),
     ("gemini-cli", "Gemini CLI", False),
+    ("mcp", "エージェント", False),
 ]
 KEY2TOPIC = {k: t for k, t, _ in TARGETS}
 TOPICS = set(KEY2TOPIC.values()) | {"その他"}

@@ -9,7 +9,7 @@ GitHub Actions runner). Everything else mirrors the original:
 - Prompt rendered from prompts/common.md + collect-sources.md +
   prompts/task.md (placeholders FROM/TO/DATE/GENERATED_AT; window =
   previous day 08:00 JST -> today 08:00 JST).
-- Claude returns one JSON object {date, generatedAt, checked[15],
+- Claude returns one JSON object {date, generatedAt, checked[16],
   items[]}; it is validated by claude_collect_validate.py (same file).
 - On validation errors: ONE fix attempt (prompts/fix.md + error list +
   previous JSON). Item-level errors that survive are salvaged by

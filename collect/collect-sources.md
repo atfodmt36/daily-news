@@ -9,20 +9,33 @@
 - Microsoft 365 のメッセージセンター本体はテナントログインが要るため開けません。
   公開アーカイブ（下記）で見つけ、公式ページで裏を取ります。取れなければ tags に "secondary" を付けます
 - URL が開けないときは、その対象の checked を「未確認」にし、note に理由と試した方法を書きます
+- フィードや一覧が長い場合は、先頭だけで判断せず、期間内の項目を最後まで確認します。
+  取得の仕組みが長いページを要約・切り詰めると、中ほどから後ろの項目が漏れます（週次分析 2026-11-24 で確認）。
+  必要なら範囲を区切って複数回に分けて読みます
 
 ## microsoft-365-copilot（Microsoft 365 Copilot）
 
 - Microsoft 365 Copilot のリリースノート: https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes
-- Microsoft 365 ロードマップ（RSS。タイトル・本文に Copilot を含む項目）: https://www.microsoft.com/releasecommunications/api/v2/m365/rss
+- Tech Community の Microsoft Copilot ブログ（RSS）: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft-copilot-blog
+- Tech Community の Agent 365 ブログ（RSS）: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog
+- Microsoft 365 ロードマップ（RSS）: https://www.microsoft.com/releasecommunications/api/v2/m365/rss
 - メッセージセンターの公開アーカイブ（RSS。公式ではない）: https://mc.merill.net/rss.xml
 
 機能だけでなく、料金・ライセンス・管理・セキュリティ・提供範囲（プラン・地域・日本語）・搭載モデルの変更を拾います。
+
+ロードマップとメッセージセンターでは、見出しに「Copilot」とある項目だけに絞らないでください。
+Teams・SharePoint・OneDrive・Outlook・Microsoft 365 管理センターの項目でも、Copilot やエージェントに関するものは対象です
+（例: Teams のチャネル全体を対象にする Copilot、SharePoint のページにエージェントを埋め込む機能、Copilot Pages・Notebooks の保存先の変更、管理センターの更新チャネルの変更。
+これらは見出しだけの絞り込みで落ちていたことが週次分析 2026-11-24 で分かっています）。
+どちらのフィードも非常に長いので、期間内の項目を最後まで確認します。
 
 ## anthropic（Claude。topic は "Claude"）
 
 - Anthropic News: https://www.anthropic.com/news
 - Claude Platform のリリースノート: https://platform.claude.com/docs/en/release-notes/overview
 - Claude アプリのリリースノート: https://support.claude.com/en/articles/12138966-release-notes
+- claude.dev ブログ: https://claude.dev/blog/
+- Anthropic Research: https://www.anthropic.com/research
 
 モデル・API に加えてサービス面（claude.ai・アプリの機能、Team/Enterprise の管理機能、料金・プラン、利用制限・文脈長）も見ます。
 
@@ -37,6 +50,7 @@
 
 - OpenAI News（RSS）: https://openai.com/news/rss.xml
 - API の changelog: https://developers.openai.com/api/docs/changelog
+- API の廃止予定: https://developers.openai.com/api/docs/deprecations
 - ChatGPT のリリースノートは 403 のため WebSearch で確認: https://help.openai.com/en/articles/6825453-chatgpt-release-notes
 
 モデル・API・ChatGPT/Codex 製品の発表を見ます（Codex の版情報は codex 対象が主担当）。
@@ -51,6 +65,8 @@
 - デジタル庁 新着（RSS）: https://www.digital.go.jp/rss/news.xml
 - 首相官邸 新着（RSS）: https://www.kantei.go.jp/index-jnews.rdf
 - 総務省 報道資料（RSS）: https://www.soumu.go.jp/news.rdf
+- 内閣府の AI 戦略（人工知能戦略専門調査会・ワーキンググループを含む）: https://www8.cao.go.jp/cstp/ai/index.html
+- AI セーフティ・インスティテュート（J-AISI）の活動ニュース: https://aisi.go.jp/
 - 個人情報保護委員会 お知らせ: https://www.ppc.go.jp/news/
 - e-Gov パブリックコメント（案件名に「AI」「生成AI」「人工知能」「個人情報」「著作権」を含むもの）: https://public-comment.e-gov.go.jp/pcm/list
 
@@ -59,6 +75,7 @@ AI 政策・ガイドライン・法制度・政府調達・個人情報/著作�
 ## google（Google。topic は "Gemini"）
 
 - Gemini API の changelog: https://ai.google.dev/gemini-api/docs/changelog
+- Gemini Enterprise Agent Platform（旧 Vertex AI）のリリースノート: https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes （Atom: https://docs.cloud.google.com/feeds/gemini-enterprise-agent-platform-release-notes.xml）
 - Vertex AI 生成 AI のリリースノート: https://docs.cloud.google.com/vertex-ai/generative-ai/docs/release-notes
 - Google 公式ブログ AI（RSS）: https://blog.google/technology/ai/rss/
 
@@ -114,7 +131,15 @@ AIビジネス全般（オーナー指示 2026-11-10）: AI が広がる中で�
 
 - GitHub Changelog の Copilot（RSS）: https://github.blog/changelog/label/copilot/feed/
 
+フィードは最後まで確認し、Copilot に関係する廃止予定・モデルの追加・VS Code の変更も拾います（週次分析 2026-11-24 で取りこぼしを確認）。
+
 ## gemini-cli（Gemini CLI。任意対象。topic は "Gemini CLI"）
 
 - リリースノート: https://geminicli.com/docs/changelogs/
 - GitHub Releases（Atom。nightly・preview は除く）: https://github.com/google-gemini/gemini-cli/releases.atom
+
+## mcp（MCP。任意対象。topic は "エージェント"）
+
+- MCP 公式ブログ（RSS）: https://blog.modelcontextprotocol.io/index.xml
+
+Model Context Protocol の仕様・公式 SDK・レジストリ等の発表を拾います。フィードが長いので、期間内の項目を最後まで確認します。
