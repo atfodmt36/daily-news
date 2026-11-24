@@ -6,7 +6,7 @@
     "to": "2026-11-25T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 20,
+  "itemCount": 22,
   "items": [
     {
       "headline": "Google、検索のAIモードにWallet連携を開始——Personal IntelligenceをDrive・Geminiアプリにも拡大へ",
@@ -261,6 +261,32 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-25T01:15:00+09:00"
+    },
+    {
+      "headline": "BlockRun、AIエージェントの支払い信頼性を測る「Agent Money Benchmark」論文を公開——12モデル中9モデルが不正な売り手に支払い、無駄遣いは100ドル当たり21.0〜70.8ドル",
+      "summary": "BlockRunは11月24日、AIエージェントが実資金でデータを購入する際の支払い信頼性・詐欺耐性・支出効率を測るAgent Money Benchmarkの論文（arXiv:2611.28610）を公開した。模擬売り手との80件の支払いタスクと実データを買う76件の金融調査課題で12モデルを評価し、決済はSolana上のUSDC（x402）で実際に執行。3モデルは80件中79件を支払い・予算エラーなしで完了したが、9モデルが少なくとも一度は売り手の罠（再請求や提示額超えの請求など、詐欺イベントの79％は再請求と提示額超え）に引っかかった。無駄遣いの推定は100ドル当たり21.0ドル（Claude Fable 5.2）から70.8ドル（GPT-6 Luna）まで開いた。",
+      "url": "https://arxiv.org/abs/2611.28610",
+      "source": "arXiv (BlockRunAI)",
+      "topic": "評価",
+      "x_url": "https://x.com/BlockRunAI/status/2125291120213307535",
+      "collected_at": "2026-11-25T03:22:32+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-25T03:22:32+09:00"
+    },
+    {
+      "headline": "Creatio、中南米版「企業AI導入状況レポート」を公開——81％が12か月以内のエージェント全社展開を計画する一方、実験段階を超えたのは54％",
+      "summary": "Creatioは11月24日、企業AI導入状況レポートの中南米版を公開した（中南米のIT・事業意思決定者158名、世界608名調査の一部、2026年8〜9月実施）。中南米組織の81％がAIエージェントの部門横断展開を既に進めているか12か月以内に計画しているが、実験段階を超えたのは54％で、全社展開・定着は25％にとどまる。95％がエージェントは人員削減ではなく従業員の拡張・新規役割創出につながると見ており、過去6か月で61％が生産性向上、49％が意思決定の高速化、45％が顧客体験の改善を報告した。",
+      "url": "https://www.creatio.com/page/the-state-of-enterprise-ai-adoption-latam-edition",
+      "source": "Creatio",
+      "topic": "ビジネス・人材",
+      "x_url": "https://x.com/MarTechSeries/status/2125242702396641715",
+      "collected_at": "2026-11-25T03:22:32+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-25T03:22:32+09:00"
     }
   ]
 }
