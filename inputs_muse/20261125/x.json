@@ -6,7 +6,7 @@
     "to": "2026-11-25T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 19,
+  "itemCount": 20,
   "items": [
     {
       "headline": "Google、検索のAIモードにWallet連携を開始——Personal IntelligenceをDrive・Geminiアプリにも拡大へ",
@@ -248,6 +248,19 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-24T23:25:36+09:00"
+    },
+    {
+      "headline": "MachinePulse、ブラウザエージェント「karpo-browser」をオープンソース公開——Browserbase v2で89％・タスク単価0.096ドル",
+      "summary": "MachinePulse（Karpo）は、汎用LLMが計画を担うSystem 2と、ページ操作を1ステップ約1秒で選ぶ決定モデルSystem 1（Karpo Decision 27B Act）を組み合わせたオープンソースのブラウザエージェント「karpo-browser」を公開した。Browserbase Benchmark v2の全102タスク（3回平均）でタスク成功率89％、平均201秒、モデルコスト0.096ドル／タスクを記録した。フレームワークのコード、決定モデルの重み、584サイト・23,075ステップを収めた評価ベンチマークKBBもあわせて公開されている。",
+      "url": "https://karpo.ai/blog/karpo-browser",
+      "source": "Karpo (MachinePulse)",
+      "topic": "モデル",
+      "x_url": "https://x.com/SSarker34315/status/2125244301190029761",
+      "collected_at": "2026-11-25T01:15:00+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-25T01:15:00+09:00"
     }
   ]
 }
