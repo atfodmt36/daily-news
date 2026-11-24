@@ -6,7 +6,7 @@
   "to": "2026-11-25T08:00:00+09:00"
  },
  "source": "x",
- "itemCount": 14,
+ "itemCount": 17,
  "items": [
   {
    "headline": "Google、検索のAIモードにWallet連携を開始——Personal IntelligenceをDrive・Geminiアプリにも拡大へ",
@@ -183,6 +183,45 @@
    "via": "x",
    "breaking": false,
    "queued_at": "2026-11-24T17:24:05+09:00"
+  },
+  {
+   "headline": "パナソニック コネクト、完全ローカルで動く議事録AI「Panasonic PC Edge AI Note Taker」を無償提供開始",
+   "summary": "パナソニック コネクトは11月24日、会議の録音・文字起こし・要約（決定事項やアクションアイテムの抽出）をすべて端末内で処理する議事録作成AIアプリ「Panasonic PC Edge AI Note Taker」の提供を開始した（PR TIMES）。クラウドへ音声を送らないため機密会議やオフライン環境でも使え、音声認識にはNPUを活用。日本語・英語の単一言語会議に対応し、英語会議の日本語要約も可能。対象は国内向けレッツノートSC6/FC6/SC7/FC7/NC7で無償提供される。",
+   "url": "https://prtimes.jp/main/html/rd/p/000006977.000003442.html",
+   "source": "パナソニック コネクト / PR TIMES",
+   "topic": "音声AI（合成・認識・翻訳）",
+   "x_url": "https://x.com/rit4moTV/status/2125155036775022967",
+   "collected_at": "2026-11-24T19:24:41+09:00",
+   "unconfirmed": false,
+   "via": "x",
+   "breaking": false,
+   "queued_at": "2026-11-24T19:24:41+09:00"
+  },
+  {
+   "headline": "台湾GPUtw.aiと日本のAI Router「AppleToken」、動画生成モデルH3の実証データを公開——9日間で9,738本生成・成功率98.9%",
+   "summary": "台湾のGPU算力センターGPUtw.aiと、日本のAI Router「AppleToken」（運営：株式会社和心）は、MiniMaxの動画生成モデル「H3」の実測データを公開した（PR TIMES）。11月4〜12日の9日間で生成した動画は9,738本（1日平均1,000本超）、成功率は98.9%で、11月5日のピーク時には1時間に241本を途切れず生成。同時処理上限を8件から32件へ引き上げるなど、台湾側の自社GPU算力がピークを支えたとしている。",
+   "url": "https://x.com/PRTIMES_TECH/status/2125162029065588799",
+   "source": "PR TIMES（AppleToken／GPUtw.ai）",
+   "topic": "映像生成・動画AI",
+   "x_url": "https://x.com/PRTIMES_TECH/status/2125162029065588799",
+   "collected_at": "2026-11-24T19:24:41+09:00",
+   "unconfirmed": false,
+   "via": "x",
+   "breaking": false,
+   "queued_at": "2026-11-24T19:24:41+09:00"
+  },
+  {
+   "headline": "Addness導入事例：サムライパートナーズ、法務業務の集約で担当者の手間を半日〜1日から1時間以内に短縮",
+   "summary": "業務OS「Addness」の導入事例として、株式会社サムライパートナーズが法務のやり方をAddnessにまとめたことで、契約書を営業担当者自身が作成できるようになり、法務担当者の手間が半日〜1日から1時間以内に短縮されたとAddness公式が紹介した。業務手順の集約によるバックオフィス効率化の事例。",
+   "url": "https://x.com/AddnessOS/status/2125169425854906380",
+   "source": "Addness公式",
+   "topic": "ビジネス・人材",
+   "x_url": "https://x.com/AddnessOS/status/2125169425854906380",
+   "collected_at": "2026-11-24T19:24:41+09:00",
+   "unconfirmed": false,
+   "via": "x",
+   "breaking": false,
+   "queued_at": "2026-11-24T19:24:41+09:00"
   }
  ]
 }
