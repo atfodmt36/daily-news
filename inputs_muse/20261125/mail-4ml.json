@@ -1,0 +1,112 @@
+{
+  "date": "2026/11/25",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-24T08:00:00+09:00",
+    "to": "2026-11-25T08:00:00+09:00"
+  },
+  "source": "mail-4ml",
+  "itemCount": 10,
+  "items": [
+    {
+      "collected_at": "2026-11-24T19:33:49+09:00",
+      "headline": "GPT-6.2 Astra、実機ロボット評価RoboDojo-RCで97%を記録",
+      "source": "ML_Bear Times",
+      "summary": "Codex上のGPT-6.2 Astraが、実機ロボット評価RoboDojo-RC Tier 1の120試行で97%を記録し、これまでで最高と評価されたため同評価は今後廃止される。研究センスを測るTasteValでは人間の専門家の4.9倍と推定され、Fable 5.2の2.5倍を上回ったとされる。",
+      "topic": "モデル・評価",
+      "unconfirmed": false,
+      "url": "https://x.com/robocurve/status/2125028977194786857",
+      "x_url": "https://x.com/robocurve/status/2125028977194786857"
+    },
+    {
+      "collected_at": "2026-11-24T19:33:49+09:00",
+      "headline": "OpenAI、GPT-5.6 Sol/Terraを12月23日に提供終了",
+      "source": "ML_Bear Times",
+      "summary": "OpenAIは、12月23日にChatのGPT-5.6 Solと、Work・CodexのGPT-5.6 SolとTerraを廃止すると発表した。日常的にGPT-5.6 Solを使ってきたユーザーからは移行先を検討する声が出ている。",
+      "topic": "モデル・提供終了",
+      "unconfirmed": false,
+      "url": "https://x.com/ChatGPT/status/2124981905380569283",
+      "x_url": "https://x.com/ChatGPT/status/2124981905380569283"
+    },
+    {
+      "collected_at": "2026-11-24T19:33:49+09:00",
+      "headline": "Gemini 4 Neon、Google Workspace顧客向けに展開",
+      "source": "ML_Bear Times",
+      "summary": "Gemini 4 NeonがGemini App経由でGoogle Workspaceの顧客向けに展開された。高推論時の速度と出力品質を評価する声や、autoresearchがそのまま機能することへの驚きが共有され、アイディア出しはNeon、確定した計画の実装はAstraという使い分けも紹介されている。",
+      "topic": "モデル・展開",
+      "unconfirmed": false,
+      "url": "https://x.com/OfficialLoganK/status/2125018427790344654",
+      "x_url": "https://x.com/OfficialLoganK/status/2125018427790344654"
+    },
+    {
+      "collected_at": "2026-11-24T19:33:49+09:00",
+      "headline": "リーマン予想証明の「25万ページ」は冗談だったとAlpöge氏が説明",
+      "source": "ML_Bear Times",
+      "summary": "AnthropicのLevent Alpöge氏は、Claudeと示したリーマン予想の証明について、人間向け説明が25万ページ超になるという数字は冗談だったと説明した。Leanコードはゴミだらけだがコンパイルは通るとし、証明自体は撤回していないと述べている。",
+      "topic": "研究・数学",
+      "unconfirmed": false,
+      "url": "https://x.com/__alpoge__/status/2124987173439209561",
+      "x_url": "https://x.com/__alpoge__/status/2124987173439209561"
+    },
+    {
+      "collected_at": "2026-11-24T19:33:49+09:00",
+      "headline": "Gemini 2.5 Proへのリクエスト、12月1日からGemini 3.8 Flashへ自動転送",
+      "source": "ML_Bear Times",
+      "summary": "Googleは12月1日から、Gemini 2.5 ProへのリクエストをすべてGemini 3.8 Flashに回すと告知した。コード上のモデル名を変えなくても提供元の判断で実際に使われるモデルと料金が変わる例であり、LLM APIを使う開発者は事前確認が必要とされる。",
+      "topic": "モデル・API",
+      "unconfirmed": false,
+      "url": "https://x.com/ai_database/status/2125132831781421465",
+      "x_url": "https://x.com/ai_database/status/2125132831781421465"
+    },
+    {
+      "collected_at": "2026-11-24T19:33:49+09:00",
+      "headline": "T3 Codeの実利用でオープンモデルの利用率は1%未満、Theo氏の動画が議論に",
+      "source": "ML_Bear Times",
+      "summary": "T3 Code開発者のTheo氏が、オープンウェイトモデルはかつてなく遅れているとする動画を公開し、実際の利用データでは会話ターンの0.5%などオープンモデルの呼び出し率が1%に満たないと示した。一方でGLM-5.4はフロンティア性能の80〜90%に迫るとの反論も出ている。",
+      "topic": "オープンモデル",
+      "unconfirmed": false,
+      "url": "https://x.com/ChuckBass8808/status/2124733511022301508",
+      "x_url": "https://x.com/ChuckBass8808/status/2124733511022301508"
+    },
+    {
+      "collected_at": "2026-11-24T19:33:49+09:00",
+      "headline": "a16z、AI Agentの商品推薦を1万1千回超の実行で調査",
+      "source": "ML_Bear Times",
+      "summary": "a16zはThe Prompting Companyと組み、4つの消費者向けAgentで1,270プロンプト・11,307回の実行を検証し、具体的なニーズがAgentの既定の推薦を覆すと報告した。ブランド直販のみへのリンクがInstinctで45%、Museでは89%で小売店を含めるなど、Agentごとに送客先が大きく異なる。",
+      "topic": "AI Agent・ビジネス",
+      "unconfirmed": false,
+      "url": "https://x.com/a16z/status/2124975031923122236",
+      "x_url": "https://x.com/a16z/status/2124975031923122236"
+    },
+    {
+      "collected_at": "2026-11-24T19:33:49+09:00",
+      "headline": "コーディングAgent、作業中の割り込みで元タスクの完遂率が低下",
+      "source": "ML_Bear Times",
+      "summary": "コーディングAgentに途中で別の修正を頼むと元の作業の仕上がりが落ちるという研究が紹介された。Claude CodeやCodexを含む7種類のAgentで試し、どれも割り込み後に元タスクを完遂できる割合が下がったため、追加依頼は別セッションに分けるなどの運用上の工夫が材料になる。",
+      "topic": "コーディングAgent・研究",
+      "unconfirmed": false,
+      "url": "https://x.com/ai_database/status/2125149673820389884",
+      "x_url": "https://x.com/ai_database/status/2125149673820389884"
+    },
+    {
+      "collected_at": "2026-11-24T19:33:49+09:00",
+      "headline": "LLMの生成的ニュース推薦が人気記事に偏る理由を解説",
+      "source": "ML_Bear Times",
+      "summary": "LLMによる生成的ニュース推薦で人気バイアスが生じる仕組みを、訓練データの暗記という観点から分析したABCSS 2026（IEEE BigData）論文の紹介記事が公開された。LLMを推薦システムに組み込む際のバイアス対策を考える参考になる内容とされる。",
+      "topic": "研究・推薦システム",
+      "unconfirmed": false,
+      "url": "https://x.com/upura0/status/2125029226990727171",
+      "x_url": "https://x.com/upura0/status/2125029226990727171"
+    },
+    {
+      "collected_at": "2026-11-24T19:33:49+09:00",
+      "headline": "Anthropic、企業向けコーディングAgentのセキュリティガイドを公開",
+      "source": "ML_Bear Times",
+      "summary": "Anthropicがエンタープライズ向けコーディングAgentのセキュリティガイドを公開し、よく整理されていると紹介されている。固定境界層の考え方など、Agentを安全に運用するための設計が扱われている。",
+      "topic": "Claude／Code・セキュリティ",
+      "unconfirmed": false,
+      "url": "https://x.com/oikon48/status/2125029939976208598",
+      "x_url": "https://x.com/oikon48/status/2125029939976208598"
+    }
+  ]
+}
