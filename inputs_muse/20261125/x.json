@@ -6,7 +6,7 @@
   "to": "2026-11-25T08:00:00+09:00"
  },
  "source": "x",
- "itemCount": 10,
+ "itemCount": 14,
  "items": [
   {
    "headline": "Google、検索のAIモードにWallet連携を開始——Personal IntelligenceをDrive・Geminiアプリにも拡大へ",
@@ -131,6 +131,58 @@
    "collected_at": "2026-11-24T15:21:04+09:00",
    "unconfirmed": false,
    "x_url": "https://x.com/otosundayo/status/2125107440283013287"
+  },
+  {
+   "headline": "AMD、VAEなしでピクセル空間で直接描く画像生成モデル「Nitro-P」を公開——重みと訓練コードをオープン化、1ステップ版はMI300Xで毎秒90.02枚",
+   "summary": "AMDは11月20日、VAEデコーダを使わずピクセル空間で直接画像を生成するテキスト画像生成フレームワーク「Nitro-P」をROCmブログで発表し、モデル重みと訓練コードを公開した。679Mパラメータで、パッチ単位の意味モデル（E-MMDiT）と軽量U-Netデコーダを組み合わせる。公式値では単一のInstinct MI300Xで512×512生成が毎秒10.26枚・GenEval 0.88、蒸留した1ステップ版は毎秒90.02枚。ただし20ステップ条件では潜在空間版Nitro-Eの方が速い場面もあるとAMD自身が示している。",
+   "url": "https://rocm.blogs.amd.com/artificial-intelligence/nitro-p/README.html",
+   "source": "AMD ROCm Blogs",
+   "topic": "画像生成・編集",
+   "x_url": "https://x.com/superdoccimo/status/2125088051831755047",
+   "collected_at": "2026-11-24T17:24:05+09:00",
+   "unconfirmed": false,
+   "via": "x",
+   "breaking": false,
+   "queued_at": "2026-11-24T17:24:05+09:00"
+  },
+  {
+   "headline": "SenseTime、統合マルチモーダルモデル「SenseNova U1.6」の重みを公開——描いた絵を自分で描き直す自己修正つき、Apache 2.0",
+   "summary": "SenseTimeは、画像生成・編集と理解を1つのモデルで扱う統合マルチモーダルモデル「SenseNova-U1.6-8B-MoT」の重みをHugging Faceで公開した（Apache 2.0）。U1.6では生成した画像をプロンプトと照らして最大5回まで描き直す自己修正プロトコルに対応する。ComfyUI v0.46.3向けの公式テンプレートも用意され、int8版は17.6GB、bf16版は35.1GB。",
+   "url": "https://huggingface.co/sensenova/SenseNova-U1.6-8B-MoT",
+   "source": "Hugging Face (SenseTime)",
+   "topic": "画像生成・編集",
+   "x_url": "https://x.com/yuri_ai_douga/status/2125129794492772589",
+   "collected_at": "2026-11-24T17:24:05+09:00",
+   "unconfirmed": false,
+   "via": "x",
+   "breaking": false,
+   "queued_at": "2026-11-24T17:24:05+09:00"
+  },
+  {
+   "headline": "DMMとAlgomatic Dynamics、60以上の生成AIモデルを1つのAPIで使える「DMM AI Router」を提供開始——障害時は別モデルへ自動切替",
+   "summary": "合同会社DMM.comとグループ企業のAlgomatic Dynamicsは11月19日、GPT・Gemini・Kimiなど60以上の生成AIモデルを1つのAPIから利用できる共通ゲートウェイ「DMM AI Router」の提供開始を発表した（PR TIMES）。モデルごとに品質・速度・コストを比較して選べ、障害やエラー時には別モデルへ自動で切り替える。初期費用・月額費用はなく、プリペイドクレジット払い。今後、画像・動画を扱うモデルへの対応も予定する。",
+   "url": "https://airouter.dmm.com/ja",
+   "source": "DMM.com / PR TIMES",
+   "topic": "ビジネス・人材",
+   "x_url": "https://x.com/junjun142857/status/2125100313690706397",
+   "collected_at": "2026-11-24T17:24:05+09:00",
+   "unconfirmed": false,
+   "via": "x",
+   "breaking": false,
+   "queued_at": "2026-11-24T17:24:05+09:00"
+  },
+  {
+   "headline": "Amazon、Decartの最適化スタック「DOS」の技術と創業者チームを買収へ——Trainiumの推論・学習効率を強化、金額は約75億ドルと報道",
+   "summary": "Amazonは11月23日、AIスタートアップDecartの最適化スタック「DOS」の中核技術を買収し、共同創業者3人と研究者・エンジニアのチームを迎える契約を発表した。DOSはNVIDIA・Amazon・Googleなど複数チップ上でAIモデルを高速化するソフトウェアで、Amazonは自社チップTrainiumの推論・カスタムシリコン性能の最適化に生かす。買収額は公式には非公表で、Bloombergは関係者の話として約75億ドルと報じた。取引完了には規制当局の承認が必要で、DecartのLucyやOasisといったモデル自体は対象に含まれないとされる。",
+   "url": "https://www.reuters.com/business/retail-consumer/amazon-buy-decarts-ai-chip-optimization-tech-latest-ai-talent-grab-2026-11-23/",
+   "source": "Reuters",
+   "topic": "生成AI・その他",
+   "x_url": "https://x.com/superdoccimo/status/2125122060200689759",
+   "collected_at": "2026-11-24T17:24:05+09:00",
+   "unconfirmed": false,
+   "via": "x",
+   "breaking": false,
+   "queued_at": "2026-11-24T17:24:05+09:00"
   }
  ]
 }
