@@ -6,7 +6,7 @@
     "to": "2026-11-25T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 7,
+  "itemCount": 8,
   "items": [
     {
       "headline": "Google、検索のAIモードにWallet連携を開始——Personal IntelligenceをDrive・Geminiアプリにも拡大へ",
@@ -98,6 +98,19 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-24T11:25:53+09:00"
+    },
+    {
+      "headline": "MemTensor、NVIDIAと共同開発したメモリネイティブモデル「MemT-1.0-Pro」をオープン公開——554Bパラメータ、記憶ベンチ11種で平均53.08",
+      "summary": "MemTensorはNVIDIAと共同開発したメモリネイティブモデル「MemT-1.0-Pro」をHugging Faceでオープン公開した。NVIDIA Nemotron 3 Ultra（554B総パラメータ／59B活性）を基盤に、対話履歴を固定サイズの動的メモリ状態としてモデル内部に保持し、元の文脈を保持せずに過去情報を利用できる。技術レポートでは11種のメモリベンチマーク平均53.08で評価対象のパラメトリックメモリ手法中首位、BEAM-1Mは41.80（Flash版37.04から向上）としている。ライセンスはOpenMDW-1.1。",
+      "url": "https://huggingface.co/MemTensor/MemT-1.0-Pro",
+      "source": "Hugging Face (MemTensor)",
+      "topic": "モデル",
+      "x_url": "https://x.com/berryxia/status/2125077988110962757",
+      "collected_at": "2026-11-24T13:14:13+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-24T13:14:13+09:00"
     }
   ]
 }
