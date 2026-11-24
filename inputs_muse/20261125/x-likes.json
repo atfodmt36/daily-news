@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-25",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-24T08:00:00+09:00",
+    "to": "2026-11-25T08:00:00+09:00"
+  },
+  "source": "x-likes",
+  "items": [
+    {
+      "headline": "Sarvam、文書抽出API「Sarvam Extract」を提供開始——最大500ページ対応、ExtractBenchでAdvanced 95.4",
+      "summary": "Sarvamは11月24日、最新モデルSarvam Vision 2.1を基盤とする文書構造化抽出API「Sarvam Extract」を発表した。最大500ページの文書に対応し、Basic（1ページ₹1）とAdvanced（同₹2.50）の2モードを提供する。公開ベンチマークExtractBenchではAdvancedが95.4、Basicが94.4を記録し、50ページ超の文書では93と、Gemini 3.8 Flashの一括処理（28.2）を大きく上回ったとしている。英語とインドの22言語に対応する。",
+      "url": "https://web.sarvam.dev/blogs/extract-api",
+      "source": "Sarvam AI（公式ブログ）",
+      "topic": "モデル",
+      "x_url": "https://x.com/SarvamAI/status/2125258873699442823",
+      "collected_at": "2026-11-25T08:02:54+09:00",
+      "unconfirmed": false,
+      "via": "x-likes",
+      "breaking": false,
+      "queued_at": "2026-11-25T08:02:54+09:00"
+    },
+    {
+      "headline": "PrismML、3値量子化モデル「Ternary Bonsai 2.5 27B」を公開——5.9GBのままエージェント型コーディングが大幅向上",
+      "summary": "PrismMLは11月24日、Qwen3.8 27Bを基盤とする3値量子化モデルTernary Bonsai 2.5 27BをApache 2.0で公開した。モデル容量は前版と同じ5.9GBながら、エージェント型コーディングの平均スコアは37.9から54.2に向上し、SWE-bench Verifiedは60.8から75.6、DeepSWE v1.1は0から27.0となった。llama.cpp（NVIDIA/Intel GPU）とMLX（Appleデバイス）で動作する。",
+      "url": "https://prismml.com/news/bonsai-2-5-27b",
+      "source": "PrismML（公式発表）",
+      "topic": "モデル",
+      "x_url": "https://x.com/PrismML/status/2125310762390552588",
+      "collected_at": "2026-11-25T08:02:54+09:00",
+      "unconfirmed": false,
+      "via": "x-likes",
+      "breaking": false,
+      "queued_at": "2026-11-25T08:02:54+09:00"
+    },
+    {
+      "headline": "Google、Workspace MCPサーバーとWorkspace CLIを一般提供開始——あわせてCloud Agent Gatewayも提供",
+      "summary": "Googleは11月24日、AIエージェント向けのWorkspace MCPサーバー（Gmail、Drive、Docs、Sheets、Slides、Calendar、Chat、Tasks）とWorkspace CLIを一般提供開始し、Google Cloud Agent Gatewayもあわせて提供した。DLPチェックや人間による確認などの統制を備え、新しいWorkspace AI Tools Addendumにより、エージェントはREST APIではなくこれらの経路を使うことが求められる（技術的な強制は2027年2月1日開始）。",
+      "url": "https://x.com/ChanduThota/status/2125275496355348799",
+      "source": "Google Cloud（公式X発表）",
+      "topic": "エージェント",
+      "x_url": "https://x.com/ChanduThota/status/2125275496355348799",
+      "collected_at": "2026-11-25T08:02:54+09:00",
+      "unconfirmed": false,
+      "via": "x-likes",
+      "breaking": false,
+      "queued_at": "2026-11-25T08:02:54+09:00"
+    },
+    {
+      "headline": "Cognition、コーディングモデル「SWE-2.1」をリリース——Terminal-Bench 4.1で24.2%から50.0%へ",
+      "summary": "Cognitionは11月24日、Kimi K3を純粋な強化学習で訓練したコーディングモデルSWE-2.1をリリースした。Terminal-Bench 4.1は前版SWE-2の24.2%から50.0%、FrontierCode 2.0は24.1%から41.3%に向上した。Cerebras提携による10倍高速のLightning版と、防御的セキュリティ向けに安全策を緩和したCyber版（Devin Security向け）もあわせて提供され、Devin Pro／Max／Teamsでは2週間無料で使える。",
+      "url": "https://x.com/cognition/status/2125305349414523061",
+      "source": "Cognition（公式発表）",
+      "topic": "モデル",
+      "x_url": "https://x.com/cognition/status/2125305349414523061",
+      "collected_at": "2026-11-25T08:02:54+09:00",
+      "unconfirmed": false,
+      "via": "x-likes",
+      "breaking": false,
+      "queued_at": "2026-11-25T08:02:54+09:00"
+    },
+    {
+      "headline": "Tencent、翻訳モデル「Hy-MT3」をオープン公開——対応言語が38から102に拡大",
+      "summary": "Tencent Hunyuanは11月24日、第3世代のオープン翻訳モデルHy-MT3（1.8B、7B、30B-A3Bの3サイズ）を公開した。対応言語は前世代の38から102に拡大し、実世界データでは誤訳が43%、脱落・追加が74%、指示追従エラーが40%減少したという。ゲームローカライズと画像翻訳にも最適化され、評価スイートTransRubricもあわせてオープンソース化された。",
+      "url": "https://arxiv.org/html/2611.27673",
+      "source": "Tencent Hunyuan（arXiv技術報告）",
+      "topic": "モデル",
+      "x_url": "https://x.com/TencentHunyuan/status/2125170622049485093",
+      "collected_at": "2026-11-25T08:02:54+09:00",
+      "unconfirmed": false,
+      "via": "x-likes",
+      "breaking": false,
+      "queued_at": "2026-11-25T08:02:54+09:00"
+    },
+    {
+      "headline": "国立国会図書館、軽量OCR「NDLOCR-Lite ver.2」を公開——英文・手書き文字へ正式対応",
+      "summary": "国立国会図書館のNDLラボは11月24日、ノートPC等で動作する軽量OCR「NDLOCR-Lite」のver.2を公開した。認識性能と一般ユーザ向け機能を改善し、NDLOCRが不得意とした英文や手書き文字等へ正式対応したほか、テキストデイジー形式での出力、旧字体等の異体字を新字体に変換して出力する機能、表のテキストをHTML形式で構造化する機能を追加した。",
+      "url": "https://lab.ndl.go.jp/news/2026/2026-11-24/",
+      "source": "国立国会図書館 NDLラボ（公式発表）",
+      "topic": "政府・政策",
+      "x_url": "https://x.com/NDLJP/status/2125116145695166609",
+      "collected_at": "2026-11-25T08:02:54+09:00",
+      "unconfirmed": false,
+      "via": "x-likes",
+      "breaking": false,
+      "queued_at": "2026-11-25T08:02:54+09:00"
+    }
+  ],
+  "itemCount": 6
+}
