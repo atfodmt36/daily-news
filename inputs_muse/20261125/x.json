@@ -1,0 +1,25 @@
+{
+  "date": "2026/11/25",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-24T08:00:00+09:00",
+    "to": "2026-11-25T08:00:00+09:00"
+  },
+  "source": "x",
+  "itemCount": 1,
+  "items": [
+    {
+      "headline": "Google、検索のAIモードにWallet連携を開始——Personal IntelligenceをDrive・Geminiアプリにも拡大へ",
+      "summary": "Googleは11月23日、検索のAIモードで「Personal Intelligence」にGoogle Walletをオプトインで連携できるようにしたと公式ブログで発表した。支出の傾向から家計の節目や節約策、カード特典の活用を回答に反映でき、連携時は読み取り専用で資金の移動や管理はできない。今後数週間でGoogle DriveとGeminiアプリとの連携も追加し、文書やチャットの文脈を検索と共有できるようにする。",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "source": "Google公式ブログ",
+      "topic": "生成AI・その他",
+      "x_url": "https://x.com/NahhasElie/status/2125009024303169540",
+      "collected_at": "2026-11-24T09:15:15+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-24T09:15:15+09:00"
+    }
+  ]
+}
