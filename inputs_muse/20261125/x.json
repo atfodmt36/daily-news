@@ -6,7 +6,7 @@
     "to": "2026-11-25T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 22,
+  "itemCount": 25,
   "items": [
     {
       "headline": "Google、検索のAIモードにWallet連携を開始——Personal IntelligenceをDrive・Geminiアプリにも拡大へ",
@@ -287,6 +287,45 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-25T03:22:32+09:00"
+    },
+    {
+      "headline": "Anthropic、Claude向けMCP拡張を発表——Skills over MCPが公開ベータ、TasksとElicitationが正式提供に",
+      "summary": "Anthropicは11月24日、MCPサーバーがツールと並んでスキルを配布できる「Skills over MCP」の公開ベータをClaudeとClaude Codeで開始したと公式記事で発表した（Pro／Max／Ultraで既定オン、Teamは管理者有効化、Enterpriseは近日）。長時間処理をClaudeが待たずに引き継げるTasksと、処理途中でユーザーの入力や承認を求められるElicitationは正式提供となり、Pro／Max／Ultraで利用できTeam／Enterpriseへ展開中。File Uploadsも近日提供予定で、MCPのSDKダウンロードは月間7億超、コネクタは1万超とされる。",
+      "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+      "source": "Claude (Anthropic)",
+      "topic": "Claude",
+      "x_url": "https://x.com/CryptoPlanet247/status/2125295685800960168",
+      "collected_at": "2026-11-25T05:16:26+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-25T05:16:26+09:00"
+    },
+    {
+      "headline": "Anthropic、ClaudeアーティファクトをMac／Windowsのデスクトップアプリとしてインストール可能に（ベータ）",
+      "summary": "Anthropicは11月24日、Claudeで作ったアーティファクトを「Install as app」でMac／Windowsのデスクトップアプリとしてインストールできる機能のベータ提供を開始した。インストールしたアプリは独自アイコンとウィンドウで開き、コネクタ利用や通知・メニューバー常駐が可能で、権限は既定／アプリ権限／フルコンピュータアクセスの3段階から選ぶ。元のアーティファクトを編集するとアプリも自動更新され、利用はプランの上限に数えられる。全プランで展開中で、Teamでは既定オン、Enterpriseでは所有者が有効化するまでオフ。",
+      "url": "https://claude.com/resources/articles/install-as-app",
+      "source": "Claude (Anthropic)",
+      "topic": "Claude",
+      "x_url": "https://x.com/ClaudeDevs/status/2125315491522650299",
+      "collected_at": "2026-11-25T05:16:26+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-25T05:16:26+09:00"
+    },
+    {
+      "headline": "OpenClaw Foundation、新エージェントベンチマーク「ShellBench」を公開——12モデル×5ハーネス×100タスク、首位GPT-6 Astraでも完了率62.5％",
+      "summary": "OpenClaw Foundationは11月24日、Parsewave、Hugging Face、Red Hat、UC Berkeleyと共同で構築したエージェントベンチマークShellBenchを発表した。1000万件超の匿名化された実エージェント対話のパターンから作った日常業務100タスクで12モデルを5つのハーネス（Claude Code、Codex、Hermes、OpenClaw、Pi）で評価し、採点済み実行は53,100件。首位はGPT-6 Astraの62.5％、Claude Fable 5.2が61.9％、GPT-6.1 Solが61.4％で、最上位でも約4割は完了できなかった。同一モデルでもハーネスで差が出る一方、ハーネス平均の差は小さく、モデル差の方が大きいとしている。一次発表は複数媒体が報じており、詳細論文は近日公開予定。",
+      "url": "https://www.thedeepview.com/articles/exclusive-openclaw-offers-an-agent-reality-check",
+      "source": "The Deep View（OpenClaw Foundation発表）",
+      "topic": "評価",
+      "x_url": "https://x.com/Joshua_WD/status/2125304689793138794",
+      "collected_at": "2026-11-25T05:16:26+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-25T05:16:26+09:00"
     }
   ]
 }
