@@ -6,7 +6,7 @@
     "to": "2026-11-26T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 12,
+  "itemCount": 16,
   "items": [
     {
       "headline": "Anthropic Fellows、解釈可能性で「ニューロン基盤」への回帰を提唱——単一ニューロンの寄与は想定より読みやすいと実証",
@@ -163,6 +163,58 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-25T11:27:14+09:00"
+    },
+    {
+      "headline": "BCG「APAC AI at Work 2026」——日本の職場のAI定期利用は51％から79％へ急増、削減時間は週6.8時間で地域最少",
+      "summary": "BCGは11月23日、アジア太平洋9か国の従業員6,349人を対象とした調査「APAC AI at Work 2026」を公表した。職場でAIを定期的に使う割合は日本で前年の51％から79％へ28ポイント急増したが、AIで削減できる時間は週6.8時間とインド（15時間）の半分以下にとどまる。地域全体では定期利用は85％に達する一方、AIの戦略的な位置づけを明確に理解している従業員は20％のみで、その明確さがある場合は測定可能な業務インパクトを報告する割合が22ポイント高まる（ツール提供のみの効果は4ポイント）。",
+      "url": "https://www.prnewswire.com/news-releases/for-asia-pacific-strategic-clarity-is-the-key-to-value-302948664.html",
+      "source": "BCG（PR Newswire）",
+      "topic": "ビジネス・人材",
+      "x_url": "https://x.com/ailabonnn/status/2125463648802074935",
+      "collected_at": "2026-11-25T15:24:30+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-25T15:24:30+09:00"
+    },
+    {
+      "headline": "芙蓉総合リースとTOKIUM、資本業務提携を開始——経理AIエージェントで次世代型BPOを共同開発",
+      "summary": "芙蓉総合リースと経理AIエージェントのTOKIUMは11月25日、TOKIUMの新規上場に際して芙蓉リースが親引けによりTOKIUM普通株式617,200株（約5.56％）を取得し、資本業務提携を開始したと発表した。2026年10月の包括業務提携を基盤に、TOKIUMのAIエージェント基盤とAI・OCR技術を芙蓉リースグループのBPO事業に組み込み、請求書処理などの自動化と次世代型BPOソリューションの共同開発を加速する。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000538.000009888.html",
+      "source": "TOKIUM（PR TIMES）",
+      "topic": "ビジネス・人材",
+      "x_url": "https://x.com/SpeakerELMO/status/2125450721164489189",
+      "collected_at": "2026-11-25T15:24:30+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-25T15:24:30+09:00"
+    },
+    {
+      "headline": "bestatとキヤノンITソリューションズが協業開始——設計の3Dデータと現場の点群・3Dデータを連携し設計から保全まで一気通貫に",
+      "summary": "産業用3Dデータ特化のAIスタートアップbestatは11月25日、キヤノンITソリューションズと産業現場の3Dデータ活用推進で協業を開始したと発表した。キヤノンITSの3D CAD・CAEやXRによる設計領域の3Dデータと、bestatの「3D.Core」で点群・画像など現場データから取得・生成した3Dデータを組み合わせ、設計から生産・保全まで製品・設備ライフサイクル全体で3Dデータを途切れなく活用できる環境づくりを後押しする。精緻な現場3Dデータはロボットや自律機械のシミュレーション学習の土台にもなるとしている。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000043.000091105.html",
+      "source": "bestat（PR TIMES）",
+      "topic": "建設×AI",
+      "x_url": "https://x.com/3D_Core_bestat/status/2125457228832575713",
+      "collected_at": "2026-11-25T15:24:30+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-25T15:24:30+09:00"
+    },
+    {
+      "headline": "Google DeepMind、LLMの「信頼性」を測るベンチマーク「Humanity's First Exam」をKaggleで公開",
+      "summary": "Google DeepMindは11月24日、LLMが平易な日常の質問に毎回正しく答えられるか（信頼性）を測るベンチマーク「Humanity's First Exam（HFE）」をKaggleで公開した。基礎能力20分野・544件のテキスト／画像プロンプトで構成され、単回では96〜98％を記録した上位5モデルも、質問のバリエーション全てに繰り返し正答する条件では平均85.8％まで低下した。データセット更新のため、モデルが今も間違える日常の質問を募集する3週間のコンペを12月15日まで実施する。",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+      "source": "Google DeepMind",
+      "topic": "評価",
+      "x_url": "https://x.com/Tang11en/status/2125470483642523824",
+      "collected_at": "2026-11-25T15:24:30+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-25T15:24:30+09:00"
     }
   ]
 }
