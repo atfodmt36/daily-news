@@ -6,7 +6,7 @@
     "to": "2026-11-26T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 2,
+  "itemCount": 12,
   "items": [
     {
       "headline": "Anthropic Fellows、解釈可能性で「ニューロン基盤」への回帰を提唱——単一ニューロンの寄与は想定より読みやすいと実証",
@@ -33,6 +33,136 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-25T09:14:05+09:00"
+    },
+    {
+      "headline": "Sakana AI、30Bモデル「Sakana Namazu Small」を発表——25ベンチマーク平均で約4倍規模のNemotron 3 Superを上回る",
+      "summary": "Sakana AIは11月25日、NVIDIA Nemotron 3 Nano（30B）をベースに継続事前学習から事後学習までを自社で行った30Bモデル「Sakana Namazu Small」を発表した。Web検索を活用した調査と長文読解・根拠付き回答に強く、25ベンチマークの平均スコアで同規模のNemotron 3 Nanoと約4倍規模のNemotron 3 Superの双方を上回ったとしている。手元環境で動かせるサイズで、オンプレミス提供の詳細は12月前半に案内予定。GENIACの支援成果を活用。",
+      "url": "https://sakana.ai/namazu-small/",
+      "source": "Sakana AI",
+      "topic": "モデル",
+      "x_url": "https://x.com/SakanaAILabs/status/2125387934203560416",
+      "collected_at": "2026-11-25T11:27:14+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-25T11:27:14+09:00"
+    },
+    {
+      "headline": "Midjourney、アニメ特化モデル「Niji V8」を正式公開",
+      "summary": "Midjourneyは11月25日、アニメ向け最新モデル「Niji V8」を公開した。精密なプロンプト追従、一貫したキャラクター表現、同社として最高水準のコヒーレンスをうたい、専用の編集モデルも備えるとしている。公式アカウントが「now live」と告知した。",
+      "url": "https://x.com/midjourney/status/2125328040624521639",
+      "source": "Midjourney",
+      "topic": "画像生成・編集",
+      "x_url": "https://x.com/midjourney/status/2125328040624521639",
+      "collected_at": "2026-11-25T11:27:14+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-25T11:27:14+09:00"
+    },
+    {
+      "headline": "リセ、法務AI「Lisse法務AI Cowork」の「自社基準エージェント」正式版を提供開始",
+      "summary": "株式会社リセは11月25日、法務AXプラットフォーム「Lisse法務AI Cowork」で、企業ごとの契約審査基準とコメントを登録し審査時に自動表示する「自社基準エージェント」の正式版提供を開始した。自社ひな型との連携、指摘への追加質問ができるAIレビューサポート、英文契約書対応が正式版の特長。AIが文面を独自に言い換えないため会社としての見解がぶれず、法務担当者は判断に集中できるとしている。",
+      "url": "https://corp.lisse-law.com/release/notice/20261125/",
+      "source": "株式会社リセ",
+      "topic": "ビジネス・人材",
+      "x_url": "https://x.com/PRTIMES_BIZ/status/2125396743466672352",
+      "collected_at": "2026-11-25T11:27:14+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-25T11:27:14+09:00"
+    },
+    {
+      "headline": "Wispr Flow、音声認識モデル「Canto-2」を公開——14言語で誤りが3分の1減、難語の正答率は41％から69％へ",
+      "summary": "Wispr Flowは11月24日、音声入力アプリFlowの新音声認識モデル「Canto-2」を公開し、全プラットフォームへ順次展開を始めた。前世代の10倍規模で、実世界の英語ディクテーションでは誤りが15％超減少。14言語平均の誤り率は9.9％から6.3％へ下がり、ヒンディー語ではHugging Faceのオープンベンチマークで最も低い誤り率だとしている。連絡先名など難しい固有名詞の正答率は41％から69％に向上した。",
+      "url": "https://wisprflow.ai/post/introducing-canto-2",
+      "source": "Wispr Flow",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "x_url": "https://x.com/tmiyatake1/status/2125379942238060907",
+      "collected_at": "2026-11-25T11:27:14+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-25T11:27:14+09:00"
+    },
+    {
+      "headline": "Canva、MCPサーバーを一般提供——Claude・ChatGPT内で編集可能な動画生成も開始",
+      "summary": "Canvaは11月23日、Canva MCPサーバーをウェイティングリストなしで一般提供し、新しいREST APIと拡張CLIも公開した。あわせてClaudeとChatGPTのチャット内で、編集可能なブランド準拠の動画を生成できる機能を開始（Seedance 2.5等のモデルを利用、一部市場・有料プラン向け）。自社画像モデルCanva CraftもMCPとAPI経由で外部提供する。MCP経由の登録は過去1か月で約50万件、使用量は93％増えたとしている。",
+      "url": "https://www.analyticsinsight.net/press-release/canva-makes-design-and-image-generation-tools-available-through-mcp",
+      "source": "Canva",
+      "topic": "映像生成・動画AI",
+      "x_url": "https://x.com/rit4moTV/status/2125412497402585215",
+      "collected_at": "2026-11-25T11:27:14+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-25T11:27:14+09:00"
+    },
+    {
+      "headline": "デジタル庁、AI・デジタル改革推進専門調査会の第1回会合を開催——事務局説明資料を公開",
+      "summary": "デジタル庁は11月24日、「AI・デジタル改革推進専門調査会」の第1回会合を開催し、運営方針や座長の互選、事務局説明を行った。開催要領と事務局説明資料を含む配布資料一式がデジタル庁の会議ページで公開されている。政府のAI・デジタル改革の進め方を議論する専門調査会の初回会合。",
+      "url": "https://digital.go.jp/councils/ai-digital-expert/51c8f805-29b4-404e-8332-29d0d753708f",
+      "source": "デジタル庁",
+      "topic": "政府・政策",
+      "x_url": "https://x.com/4books_man/status/2125370066246184978",
+      "collected_at": "2026-11-25T11:27:14+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-25T11:27:14+09:00"
+    },
+    {
+      "headline": "RevCommの音声解析AI「MiiTel」、音声合成・認識とアウトバウンドの2市場で3年連続シェア1位——デロイト トーマツ ミック経済研究所調べ",
+      "summary": "RevCommは11月25日、デロイト トーマツ ミック経済研究所が2026年11月に発刊した「マーテック市場の現状と展望 2026年度版 クラウド型CRM市場編」において、音声解析AI「MiiTel」が「音声合成・音声認識システム市場」と「アウトバウンドシステム市場」で3年連続シェア第1位を獲得したと発表した。同調査では2025年度のクラウド型CRM市場は前年比110.5％の6,551億円、2030年度には1兆円超と予測。MiiTelの導入社数は3,600社、累計ユーザーは18.8万人（2026年9月時点）。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000389.000037840.html",
+      "source": "RevComm（PR TIMES）",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "x_url": "https://x.com/RevComm_inc/status/2125411314562727962",
+      "collected_at": "2026-11-25T11:27:14+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-25T11:27:14+09:00"
+    },
+    {
+      "headline": "生成AI導入企業は44.0％へ倍増、用途の8割は文書作成——公開調査6件の統合分析（ネクストスケール）",
+      "summary": "株式会社ネクストスケールは11月25日、IPA・総務省など公開調査6件を統合分析したレポートを公開した。生成AIを導入している企業は44.0％（IPA「DX動向2026」、1,799社）で前年度の22.6％からほぼ倍増。用途は文書の要約・翻訳・校正（82.5％）と文書・レポート作成（80.5％）に集中し、活用方針を持つ企業は68.9％（総務省白書）の一方、組織的な取組がない企業も27.0％に上る。業務でAIを使う会社員は38.2％で、利用者の55.6％が週1時間以上の時間削減を実感している。",
+      "url": "https://www.sanyonews.jp/article/2026702",
+      "source": "株式会社ネクストスケール",
+      "topic": "ビジネス・人材",
+      "x_url": "https://x.com/PRTIMES_BIZ/status/2125373406283722901",
+      "collected_at": "2026-11-25T11:27:14+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-25T11:27:14+09:00"
+    },
+    {
+      "headline": "Elastic、SOC向けAIエージェント群「AlertZero」をテクニカルプレビュー——Elastic Security 9.6で提供",
+      "summary": "Elasticは11月23日、Elastic 9.6を発表し、SOCのアラート対応を担うAIエージェント基盤「AlertZero」をElastic Cloud Serverlessでテクニカルプレビューとして公開した。アラートの一次切り分け、脅威ハンティング、検出エンジニアリング、フォレンジクスの4つの「Watch」と6つの「Worker」が、証拠とともにクローズや端末隔離などの対応案を提示する。あわせてAI向けの検出ルール143件や、生成AIのプロンプト・応答をスコアリングするSecurity for AIパッケージもテクニカルプレビューで提供する。",
+      "url": "https://www.elastic.co/security-labs/blog/elastic-security-9-6-release-highlights",
+      "source": "Elastic",
+      "topic": "AIセキュリティ",
+      "x_url": "https://x.com/hiro_245/status/2125398220536938543",
+      "collected_at": "2026-11-25T11:27:14+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-25T11:27:14+09:00"
+    },
+    {
+      "headline": "Arent、建設業向けAIドッキングプラットフォーム「現場ドック（GENBA Dock）」を発表",
+      "summary": "建設DXのArentは11月25日、新シリーズとして建設業向けAIドッキングプラットフォーム「現場ドック（GENBA Dock）」を発表した。チャットを起点にAIが各ツールの情報をつなぎ、建設現場の業務効率化を目指すとしている。詳細は同社の公式X投稿で告知された。",
+      "url": "https://x.com/ArentHQ/status/2125393904338170139",
+      "source": "Arent",
+      "topic": "建設×AI",
+      "x_url": "https://x.com/ArentHQ/status/2125393904338170139",
+      "collected_at": "2026-11-25T11:27:14+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-25T11:27:14+09:00"
     }
   ]
 }
