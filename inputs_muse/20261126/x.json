@@ -6,7 +6,7 @@
     "to": "2026-11-26T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 38,
+  "itemCount": 41,
   "items": [
     {
       "headline": "Anthropic Fellows、解釈可能性で「ニューロン基盤」への回帰を提唱——単一ニューロンの寄与は想定より読みやすいと実証",
@@ -495,6 +495,45 @@
       "collected_at": "2026-11-26T07:19:02+09:00",
       "unconfirmed": false,
       "x_url": "https://x.com/GeminiApp/status/2125685936344236471"
+    },
+    {
+      "headline": "住友ゴム（DUNLOP）とNEC、AIエージェント同士でタイヤ商品開発の部門間調整を自動化する机上実証を実施——調整期間の約90％短縮を見込む",
+      "summary": "住友ゴム工業（DUNLOP）とNECは11月24日、タイヤ商品開発におけるマーケティング部門と設計部門の間の調整業務を、両部門に配置したNECのAIエージェント同士で自動化する机上実証（2026年4〜10月）の結果を発表した。実際の開発計画データ数百件を用いた机上試算で調整業務の効率化を確認し、今後、複数部門間の調整にも導入を広げることで、全社的に調整期間の約90％短縮が見込めるとしている。エージェントは一方の部門に不都合な案を推奨しない仕様で、全社最適の観点で合意形成を支援するという。",
+      "url": "https://www.srigroup.co.jp/newsrelease/2026/",
+      "source": "住友ゴム工業（ニュースリリース）",
+      "topic": "ビジネス・人材",
+      "x_url": "https://x.com/NTP_186/status/2125712668862616053",
+      "collected_at": "2026-11-26T07:22:29+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-26T07:22:29+09:00"
+    },
+    {
+      "headline": "クリーブランド連銀の企業調査、AI自動化を採用抑制要因に挙げる企業が8％から23％へ増加——52％は人材の変革的影響と回答",
+      "summary": "米クリーブランド連銀は11月23日、第4地区企業186社を対象としたSORCE調査の2026年版を公表した。採用計画を抑える要因としてAI自動化を挙げた企業の割合は前年の8％から23％へ大きく増えた。一方で、AIが自社の雇用・採用に影響していないと答えた企業は51％、既存社員のリスキリングや異なるスキルの採用など「人材の変革的影響」があるとした企業は52％で、雇用や採用を減らしているとした企業は12％、増やしているとした企業は10％だった。AI利用で全体の人員水準が変わっていない企業は85％超にとどまる。",
+      "url": "https://www.clevelandfed.org/publications/cleveland-fed-district-data-brief/2026/cfddb-20261123-sorce-insights-update-on-employment-conditions-and-outlook-for-fourth-district-firms",
+      "source": "Federal Reserve Bank of Cleveland（SORCE Insights）",
+      "topic": "ビジネス・人材",
+      "x_url": "https://x.com/ssuttell/status/2125666562463932880",
+      "collected_at": "2026-11-26T07:22:29+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-26T07:22:29+09:00"
+    },
+    {
+      "headline": "Artificial Analysis、物理学研究ベンチマーク「FrontierPhysics」のリーダーボードを公開——Claude Fable 5.2が33.3％で首位",
+      "summary": "Artificial Analysisは、BenchFlowの物理学研究ベンチマーク「FrontierPhysics」のリーダーボードを公開した。物理学者42人が実際の研究プロジェクトから作成した56タスク（理論・計算・実験、9分野）をエージェントが end-to-end で遂行する評価で、11月23日監査時点の首位はClaude Fable 5.2の33.3％、次いでClaude Opus 5.5とSonnet 5.5が27.4％、GPT-6.2 Astraが26.8％だった。人間の専門家の合格率は約96％とされ、最上位エージェントでも失敗の主因は厳密な推論の不足（48％）と専門家としての直観の欠如（34％）だったと分析されている。",
+      "url": "https://www.benchflow.ai/frontierphysics",
+      "source": "BenchFlow（FrontierPhysics公式）／Artificial Analysis",
+      "topic": "評価",
+      "x_url": "https://x.com/ArtificialAnlys/status/2125691597602058284",
+      "collected_at": "2026-11-26T07:22:29+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-26T07:22:29+09:00"
     }
   ]
 }
