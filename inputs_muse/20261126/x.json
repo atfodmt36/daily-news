@@ -6,7 +6,7 @@
     "to": "2026-11-26T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 30,
+  "itemCount": 34,
   "items": [
     {
       "headline": "Anthropic Fellows、解釈可能性で「ニューロン基盤」への回帰を提唱——単一ニューロンの寄与は想定より読みやすいと実証",
@@ -397,6 +397,58 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-26T01:14:57+09:00"
+    },
+    {
+      "headline": "Anthropic、Messages APIをPythonからRustへ移行した経緯を公開——Claudeエージェントが差分を検出・修正し、リクエスト当たりCPU約70％減・TTFT中央値約20％改善",
+      "summary": "Anthropicは公式エンジニアリングブログで、Claudeへの主要な入口であるMessages APIをPythonからRustへ移行した経緯を公開した。2024年初頭から2026年秋までにAPIトラフィックは約1,800倍に増え、Rust版ではリクエスト当たりのCPU使用量が約70％減、メモリが80％超減、最初のトークンまでの時間（中央値）が約20％短縮した。本番API自体を検証役としてシャドウトラフィックで新旧を比較し、Claudeエージェント群が差分を分類して修正案を出し、人間がレビューする方式で、サービスを止めずに移行を完了したとしている。",
+      "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "source": "Anthropic（公式エンジニアリングブログ）",
+      "topic": "Claude",
+      "x_url": "https://x.com/AnthropicAI/status/2125627317263466739",
+      "collected_at": "2026-11-26T03:22:48+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-26T03:22:48+09:00"
+    },
+    {
+      "headline": "Google、Geminiに60種類超の新しい表現豊かな音声を追加——米・英・印など地域アクセントに対応",
+      "summary": "Googleの公式GeminiアプリXアカウントは、Geminiに60種類を超える新しい表現豊かな音声が追加されたと発表した。米国、英国、インド、インドネシア、韓国、ブラジルの地域アクセントに対応し、設定から好みの音声を選べる。",
+      "url": "https://x.com/GeminiApp/status/2125629066006950339",
+      "source": "Google Gemini（公式X）",
+      "topic": "モデル",
+      "x_url": "https://x.com/GeminiApp/status/2125629066006950339",
+      "collected_at": "2026-11-26T03:22:48+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-26T03:22:48+09:00"
+    },
+    {
+      "headline": "OpenAI、企業向けプライバシー基盤「Private Intelligence」の新機能Private Inferenceを一部顧客でテスト開始",
+      "summary": "OpenAIのSam Altman CEOは、OpenAI Private Intelligenceの最新提供である「Private Inference」のテストを一部顧客グループで開始したと発表した。機密コンピューティングによる推論時のデータ保護を強化するもので、フロンティアAIをより多くの業務で使えるようにする狙い。Altman氏は、企業のプライバシーは健全なエコシステムに重要だとしている。",
+      "url": "https://x.com/sama/status/2125638790593274259",
+      "source": "OpenAI（Sam Altman公式X）",
+      "topic": "AIセキュリティ",
+      "x_url": "https://x.com/sama/status/2125638790593274259",
+      "collected_at": "2026-11-26T03:22:48+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-26T03:22:48+09:00"
+    },
+    {
+      "headline": "Einsia AI、ロボットエージェント向けRL環境スイート「RoboUniverse-10K」をオープンソース公開——10,807タスクと500タスクの検証ベンチマーク",
+      "summary": "Einsia AIは11月25日、実ロボット動画からReal2Simで構築した10,807件の物理シミュレーションタスクと、500タスクの検証ベンチマーク「RoboUniverse-Verified」を含むオープンソースのRL環境スイート「RoboUniverse-10K」を発表した。清華大学や北京大学などとの共同開発で、約17,000件の軌跡でファインチューニングしたモデルはタスク成功率が0.8％から21.2％に向上し、実機Frankaアームへのゼロショット転移も示した。検証ベンチマークではGPT-6.2 Astraが85.8％で首位だったとしている。",
+      "url": "https://www.prnewswire.com/news-releases/einsia-ai-open-source-robouniverse-10k-the-first-10k-scale-rl-environment-suite-for-agential-robotics-302950545.html",
+      "source": "Einsia AI（PR Newswire）",
+      "topic": "評価",
+      "x_url": "https://x.com/dominguezdaniel/status/2125647845046796795",
+      "collected_at": "2026-11-26T03:22:48+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-26T03:22:48+09:00"
     }
   ]
 }
