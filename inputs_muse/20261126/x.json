@@ -6,7 +6,7 @@
     "to": "2026-11-26T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 28,
+  "itemCount": 30,
   "items": [
     {
       "headline": "Anthropic Fellows、解釈可能性で「ニューロン基盤」への回帰を提唱——単一ニューロンの寄与は想定より読みやすいと実証",
@@ -371,6 +371,32 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-25T23:26:06+09:00"
+    },
+    {
+      "headline": "Bagel Labs、オープンウェイトの世界行動モデル「Bagel-Robotics-1」を公開——RoboDojoで世界3位、実機デモも披露",
+      "summary": "トロントのBagel Labsは11月24日、双腕ロボット操作向けのオープンウェイト世界行動モデル「Bagel-Robotics-1」の公式ブログを公開した。課題指示と3視点カメラ・ロボット状態から腕とグリッパーの動作を予測するモデルで、11月18日の登場時にRoboDojo-Simの単独モデル部門で平均スコア38.65／成功率31.91％の世界3位を記録した。シミュレーションに加え、実機でチューブ配置や物体仕分けの課題を実行するデモも示し、評価済みチェックポイントと推論ファイルをHugging Faceで公開している（研究ライセンス）。",
+      "url": "https://blog.bagel.com/p/bagel-robotics-1",
+      "source": "Bagel Labs（公式ブログ）",
+      "topic": "モデル",
+      "x_url": "https://x.com/dominguezdaniel/status/2125602915184222281",
+      "collected_at": "2026-11-26T01:14:57+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-26T01:14:57+09:00"
+    },
+    {
+      "headline": "幾何基盤モデルの統一ベンチマーク「SpatialArena」が公開——456評価ケースで深度・3D再構成・SLAMを同条件比較",
+      "summary": "幾何基盤モデル向けの新しいベンチマーク「SpatialArena」がプロジェクトサイト・GitHub・Hugging Faceデータセット・技術レポート（arXiv:2611.32816）とともに公開された。単眼深度ネットワーク、前方計算型3D/4Dモデル、長系列SLAM、視覚言語モデルを同一データ・同一指標・同一ルールで評価する設計で、LiDARリグで撮影した30シーンを含む456の評価ケースを用意し、リーダーボードも公開されている。",
+      "url": "https://mvp-ai-lab.github.io/SpatialArena/",
+      "source": "SpatialArena（プロジェクトサイト）",
+      "topic": "評価",
+      "x_url": "https://x.com/yu47257737/status/2125612676764074185",
+      "collected_at": "2026-11-26T01:14:57+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-26T01:14:57+09:00"
     }
   ]
 }
