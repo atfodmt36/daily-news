@@ -6,7 +6,7 @@
     "to": "2026-11-26T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 36,
+  "itemCount": 38,
   "items": [
     {
       "headline": "Anthropic Fellows、解釈可能性で「ニューロン基盤」への回帰を提唱——単一ニューロンの寄与は想定より読みやすいと実証",
@@ -475,6 +475,26 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-26T05:15:04+09:00"
+    },
+    {
+      "headline": "Sakana AI、30Bの日本語特化LLM「Sakana Namazu Small」を発表——25ベンチマーク平均で約4倍規模のNemotron 3 Superを上回る",
+      "summary": "Sakana AIは11月25日、300億パラメータのLLM「Sakana Namazu Small」を公式発表した。NVIDIA Nemotron 3 Nanoの事前学習ベースモデルに継続事前学習から事後学習までを自社で実施した思考モデルで、日常対話、Web検索を用いた調査、長文読解を得意とする。Web検索能力・指示追従・長文理解・一般知識など25種類のベンチマーク平均で、同規模のNemotron 3 Nanoだけでなく総パラメータ約4倍のNemotron 3 Superも上回ったとしている。手元の環境で動かせるサイズで、オンプレミス提供の詳細は12月前半に公表予定。開発にはGENIACの成果を活用した。",
+      "url": "https://sakana.ai/namazu-small/?utm_source=alphasignal",
+      "source": "Sakana AI",
+      "topic": "モデル",
+      "collected_at": "2026-11-26T07:19:02+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/oyakudachitool/status/2125531222164259166"
+    },
+    {
+      "headline": "Google、Gemini Liveの「Guided Vision」をiOSでも提供開始——カメラ映像上にリアルタイムの視覚ガイドを表示",
+      "summary": "Googleは11月25日（米国時間）、Geminiアプリ公式Xで、Gemini LiveのGuided VisionがiOSでも利用可能になったと発表した。Liveを開いてカメラを向けると、画面上にリアルタイムの視覚的なガイドが表示される。Guided Visionは2026年10月1日にAndroid向けに先行提供された機能で、今回iOSへ展開された。",
+      "url": "https://x.com/GeminiApp/status/2125685936344236471",
+      "source": "Gemini App (X公式)",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-26T07:19:02+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/GeminiApp/status/2125685936344236471"
     }
   ]
 }
