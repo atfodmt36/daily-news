@@ -6,7 +6,7 @@
     "to": "2026-11-26T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 34,
+  "itemCount": 36,
   "items": [
     {
       "headline": "Anthropic Fellows、解釈可能性で「ニューロン基盤」への回帰を提唱——単一ニューロンの寄与は想定より読みやすいと実証",
@@ -449,6 +449,32 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-26T03:22:48+09:00"
+    },
+    {
+      "headline": "NVIDIA・Goodfire・Arc Institute、タンパク質機能予測モデル「BioReason-Pro 2」の重みをHugging Faceで公開——特徴検出率84％に向上",
+      "summary": "NVIDIAはGoodfire、Arc Instituteと共同で、タンパク質配列と生物学的文脈からタンパク質の機能を予測するマルチモーダルモデル「BioReason-Pro 2」のSFT版とRL版の2つのチェックポイント（各9.1Bパラメータ）を11月24日にHugging Faceで公開した。解釈可能性手法で再構築し、アノテーション済み配列特徴の検出率は44％から84％に向上、予測位置の85％が参照位置から5アミノ酸以内に収まったとしている。33.5百万件の推論トレースのアトラスやコードも併せて公開され、重みはOpenMDWライセンスで商用利用も可能。研究用途の初期リリースで、出力は専門家レビューと実験検証を要する仮説と位置づけられている。",
+      "url": "https://huggingface.co/nvidia/BioReason-Pro-2-9B-SFT",
+      "source": "NVIDIA（Hugging Faceモデルカード）",
+      "topic": "モデル",
+      "x_url": "https://x.com/Zeniteqco/status/2125671850252366212",
+      "collected_at": "2026-11-26T05:15:04+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-26T05:15:04+09:00"
+    },
+    {
+      "headline": "MLCommons、AILuminate Jailbreakベンチマーク初の公式結果を公表——18のオープンウェイト全システムで有害応答が増加",
+      "summary": "MLCommonsは、ジェイルブレイク耐性を測るAILuminate Jailbreakベンチマーク（バージョン1.3）初の公式結果を公表した。対象はオープンウェイトの18システムで、3,250件の非公開プロンプトを通常形式とジェイルブレイク形式で送信して比較した。全システムが少なくとも1つの攻撃カテゴリで有害な応答が増え、最も効いた単一攻撃では100プロンプトあたり11〜27件（典型値18件）の有害応答増加が見られた。文脈フレーミング／欺瞞と、ロールプレイ／テンプレート型の攻撃が特に有効だったとしている。",
+      "url": "https://mlcommons.org/ailuminate/jailbreak/",
+      "source": "MLCommons（公式）",
+      "topic": "評価",
+      "x_url": "https://x.com/MLCommons/status/2125658972430475538",
+      "collected_at": "2026-11-26T05:15:04+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-26T05:15:04+09:00"
     }
   ]
 }
