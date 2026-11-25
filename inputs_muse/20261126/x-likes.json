@@ -1,0 +1,25 @@
+{
+ "date": "2026-11-26",
+ "timezone": "Asia/Tokyo",
+ "window": {
+  "from": "2026-11-25T08:00:00+09:00",
+  "to": "2026-11-26T08:00:00+09:00"
+ },
+ "source": "x-likes",
+ "itemCount": 1,
+ "items": [
+  {
+   "headline": "Microsoft、Azureの「変更された不正使用監視」特例を2026年11月1日以降のモデルで廃止へ——入力を保存しない扱いが原則使えなくなる",
+   "summary": "Microsoftは公式ドキュメント（Microsoft Learn）で、Azureで販売するモデル向けの「変更された不正使用監視」（承認制の特例で、プロンプトや補完を不正使用監視のために保存せず、人手レビューも行わない扱い）について、2026年11月1日以降に提供されたモデルでは利用できなくなる方針を示した。廃止の開始日は今後発表され、対象モデルごとに少なくとも30日前までに通知される。既存の承認は、2026年11月1日より前に提供されたモデルでは従来どおり継続する。@super_bonochinのいいねが一次情報確認のきっかけ。",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/openai/limited-access",
+   "source": "Microsoft Learn（公式ドキュメント）",
+   "topic": "ビジネス・人材",
+   "x_url": "https://x.com/super_bonochin/status/2125655582229377259",
+   "collected_at": "2026-11-26T08:08:10+09:00",
+   "unconfirmed": false,
+   "via": "x-likes",
+   "breaking": false,
+   "queued_at": "2026-11-26T08:08:10+09:00"
+  }
+ ]
+}
