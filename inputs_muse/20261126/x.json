@@ -6,7 +6,7 @@
   "to": "2026-11-26T08:00:00+09:00"
  },
  "source": "x",
- "itemCount": 18,
+ "itemCount": 23,
  "items": [
   {
    "headline": "Anthropic Fellows、解釈可能性で「ニューロン基盤」への回帰を提唱——単一ニューロンの寄与は想定より読みやすいと実証",
@@ -241,6 +241,71 @@
    "breaking": false,
    "collected_at": "2026-11-25T17:16:04+09:00",
    "queued_at": "2026-11-25T17:16:04+09:00"
+  },
+  {
+   "headline": "Sand.ai、動画生成モデル「MAGI-2」を正式リリース——480Bパラメータ、AA Video Arenaで首位級スコア、Higgsfieldで独占提供",
+   "summary": "Sand.ai（三呆科技）は11月24日、次世代動画生成モデル「MAGI-2」を正式リリースした。480Bパラメータ（約28B活性化）、4兆トークンで事前学習し、最大30秒・1080p・25fpsの音声同期動画を生成できる。Artificial Analysis Video Arena v2.1の4タスク平均で1150.3を記録し首位級に位置する。Higgsfieldで独占提供され価格は1秒0.08ドル。オープンウェイトと技術レポートは今後公開予定で、現時点では未公開。",
+   "url": "https://x.com/RookieAcme/status/2125524117512397292",
+   "source": "Sand.ai / Higgsfield",
+   "topic": "映像生成・動画AI",
+   "x_url": "https://x.com/RookieAcme/status/2125524117512397292",
+   "collected_at": "2026-11-25T19:25:41+09:00",
+   "unconfirmed": false,
+   "via": "x",
+   "breaking": false,
+   "queued_at": "2026-11-25T19:25:41+09:00"
+  },
+  {
+   "headline": "ComfyUI、Comfy Desktop 1.2を公開——ノードを開かずに使えるアプリ6種を搭載しランチャーからプラットフォームへ",
+   "summary": "Comfy Orgは11月23日、Comfy Desktop 1.2を公開した。背景切り抜き、SDR→HDR、商品広告生成、画像拡張、キャラクター入替、商品入替の6つのアプリをノードグラフを開かずに使えるようになり、オープンなモデルを使うアプリは手元GPUで無料実行できる。更新前の自動スナップショット、複数環境でのモデル・入出力フォルダ共有、ワンクリックのビルド管理も追加された。",
+   "url": "https://blog.comfy.org/p/comfy-desktop-becomes-your-front",
+   "source": "Comfy Org（公式ブログ）",
+   "topic": "画像生成・編集",
+   "x_url": "https://x.com/yuri_ai_douga/status/2125492182333407708",
+   "collected_at": "2026-11-25T19:25:41+09:00",
+   "unconfirmed": false,
+   "via": "x",
+   "breaking": false,
+   "queued_at": "2026-11-25T19:25:41+09:00"
+  },
+  {
+   "headline": "Direct3D-V3の推論コードとモデルが公開——VAEを使わずSDFボクセルを直接生成、最大1536³解像度、MITライセンス",
+   "summary": "DreamTechらの3D生成モデル「Direct3D-V3」（SIGGRAPH Asia 2026採択）の推論コードとモデルが11月19日に公開された。VAEによる潜在圧縮を介さず、生のSDFボクセルグリッドを拡散Transformerで直接モデル化し、最大1536³解像度で細部まで表現する。粗いメッシュと参照画像を入力に使い、コードとモデルはMITライセンス。テクスチャ生成モデルと学習コードは今後の公開予定。",
+   "url": "https://huggingface.co/wushuang98/Direct3D-V3",
+   "source": "Hugging Face（モデルカード）",
+   "topic": "3D生成・制作（クリエイティブ）",
+   "x_url": "https://x.com/_TK_YM_/status/2125534975520813390",
+   "collected_at": "2026-11-25T19:25:41+09:00",
+   "unconfirmed": false,
+   "via": "x",
+   "breaking": false,
+   "queued_at": "2026-11-25T19:25:41+09:00"
+  },
+  {
+   "headline": "NovelAI、Diffusion V5に精密参照を追加——新しく「衣装参照」に対応",
+   "summary": "NovelAIは11月24日、画像生成モデルDiffusion V5に「精密参照（Precise Reference）」を追加した。参照画像からキャラクターや画風を取り込む従来の参照に加え、衣装だけをコピーする「衣装参照」が新登場。キャラ参照・画風参照には「同じ衣装を優先」トグルも追加され、強度スライダーは最大5.0まで拡張された。料金は参照画像1枚あたり5 AnlasでV4.5と同額。",
+   "url": "https://journal.novelai.net/precise-reference-v5/",
+   "source": "NovelAI Journal（公式）",
+   "topic": "画像生成・編集",
+   "x_url": "https://x.com/naginyan00/status/2125501918802006345",
+   "collected_at": "2026-11-25T19:25:41+09:00",
+   "unconfirmed": false,
+   "via": "x",
+   "breaking": false,
+   "queued_at": "2026-11-25T19:25:41+09:00"
+  },
+  {
+   "headline": "KK Generation、「BIM生成AI」のベンチマークを公表——汎用AI比でIFC再現性3倍超・数量精度4倍超",
+   "summary": "KK Generation（KKG）は11月19日、建設図面PDFからBIMモデルを自動生成する「BIM生成AI」の最新ベンチマーク結果を公表した。意匠・構造の詳細図84枚からS造事務所1棟を構築する実務条件で検証し、IFC再現性スコアはカスタマイズ前91.79点・後96.3点（汎用AI最高はClaude Fable 5.2の28.2点）、数量精度は前76.1点・後96.7点（同GPT-6 Proの15.5点）と、汎用生成AIを大きく上回った。",
+   "url": "https://prtimes.jp/main/html/rd/p/000000026.000143310.html",
+   "source": "KK Generation（PR TIMES）",
+   "topic": "建設×AI",
+   "x_url": "https://x.com/kzbrain/status/2125529495226720524",
+   "collected_at": "2026-11-25T19:25:41+09:00",
+   "unconfirmed": false,
+   "via": "x",
+   "breaking": false,
+   "queued_at": "2026-11-25T19:25:41+09:00"
   }
  ]
 }
