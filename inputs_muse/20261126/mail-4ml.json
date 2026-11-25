@@ -6,7 +6,7 @@
     "to": "2026-11-26T08:00:00+09:00"
   },
   "source": "mail-4ml",
-  "itemCount": 9,
+  "itemCount": 20,
   "items": [
     {
       "headline": "OpenAI、数学論文9本を追加公開し行列積指数の下界にも着手",
@@ -97,6 +97,116 @@
       "collected_at": "2026-11-25T19:34:02+09:00",
       "unconfirmed": false,
       "x_url": "https://x.com/rejasupotaro/status/2125366530959696371"
+    },
+    {
+      "headline": "OpenAI、ChatGPTサブスクの利用枠引き下げと単一メーター導入を通知【続報】",
+      "summary": "ChatGPTのChatとWork統合に合わせ、OpenAIがサブスクリプションプランの利用枠を引き下げ、ChatGPT全体で単一の利用メーターを導入するとユーザーに通知したと報告された。引き下げ幅は明示されておらず、以前の半減案が反発で撤回された経緯から不満の声が上がっている。キャッシュ改善でNeonの利用枠を実質75%近く増やしたGoogleとの対比も話題になっている。",
+      "url": "https://x.com/TechCrunch/status/2125682206249021583",
+      "source": "ML_Bear Times",
+      "topic": "製品・ChatGPT",
+      "collected_at": "2026-11-26T07:34:51+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/TechCrunch/status/2125682206249021583"
+    },
+    {
+      "headline": "OpenAI、行列積はn^2.25より速くできないと証明を主張【続報】",
+      "summary": "OpenAIの数学リポジトリの続報。OpenAIが、行列積はn^2.25より速く計算できないことを示し、57年来の未解決問題を解いたと主張していると伝えられた。10月に示した上界9/4と合わせ、行列積の指数はちょうど9/4に定まることになる。ミレニアム懸賞級の成果だとする声も出ている。",
+      "url": "https://x.com/danintheory/status/2125383890416337199",
+      "source": "ML_Bear Times",
+      "topic": "論文・研究",
+      "collected_at": "2026-11-26T07:34:51+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/danintheory/status/2125383890416337199"
+    },
+    {
+      "headline": "リーマン予想のLean証明を使いAgentが17の結果を証明【続報】",
+      "summary": "AnthropicのAlpöge氏がClaudeと示したリーマン予想のLean証明に関する続報。証明公開から3日後に、それを使ってAgentが17の結果を証明したと報告された。うち6つは11月20日まで未解決だった名前付き予想で、Lindelöf予想やErdős Problem 985などを含む。2,196の未解決問題や失敗例を保持するメモリ系が鍵とされ、論文や証明、コードは公開済みとしている。",
+      "url": "https://x.com/ladyxtel/status/2125587817082601587",
+      "source": "ML_Bear Times",
+      "topic": "論文・研究",
+      "collected_at": "2026-11-26T07:34:51+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/ladyxtel/status/2125587817082601587"
+    },
+    {
+      "headline": "Gemini 4 Neon、旧モデル向けルールが性能の足かせに【続報】",
+      "summary": "Gemini 4 Neonの続報。GoogleのPhilipp Schmid氏が、旧モデル向けに書いたガードレールやスキル、ルールの多くがNeonを遅くしていたと指摘し、数週間の評価と日常利用を経てNeon向けに見直した5つのポイントを共有した。Antigravity以外のハーネスでもそのまま動くとの評価も出ている。",
+      "url": "https://x.com/_philschmid/status/2125579472594223340",
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "collected_at": "2026-11-26T07:34:51+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/_philschmid/status/2125579472594223340"
+    },
+    {
+      "headline": "Antigravity、キャッシュ改善でNeon利用枠が実質75%増【続報】",
+      "summary": "AntigravityでのGemini 4 Neon最適化の続報。Neonのキャッシュヒット率がさらに4.5%向上し、同じ利用枠で28%多くのタスクを完了できるようになった。過去5日間のキャッシュとハーネスの改善を合わせ、サブスクでのNeon利用量は実質75%近く増えたとしている。",
+      "url": "https://x.com/_mohansolo/status/2125641696377712968",
+      "source": "ML_Bear Times",
+      "topic": "Claude／Codex",
+      "collected_at": "2026-11-26T07:34:51+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/_mohansolo/status/2125641696377712968"
+    },
+    {
+      "headline": "DeepMindのShane Legg氏、Minimal AGIの2028年前実現を50%超と予測",
+      "summary": "Google DeepMindのShane Legg氏が、Minimal AGIが2028年より前に実現する確率は50%を超えると述べた。同氏のMinimal AGIは、人間が通常こなせる認知的タスクをすべてこなせるAgentを指す。予測を滅多に変えない同氏の上方修正として注目され、Googleも2028年前のAGIに強気になったとの声が出ている。",
+      "url": "https://x.com/ShaneLegg/status/2125665607840346357",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-26T07:34:51+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/ShaneLegg/status/2125665607840346357"
+    },
+    {
+      "headline": "Google、Workspace APIのAgent利用禁止か MCP・CLIは正式版に",
+      "summary": "GoogleがAI AgentによるWorkspace APIの利用を禁止する方針だと報告され、議論になっている。同じ時期にGoogle Workspace MCPサーバーとGoogle Workspace CLIが正式版としてリリースされた。自社MCPを用意した上で、gogのような外部CLIを追加料金なしでは使えなくするのかと批判が出ている。",
+      "url": "https://x.com/steipete/status/2125654555262431248",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-26T07:34:51+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/steipete/status/2125654555262431248"
+    },
+    {
+      "headline": "LangChain、Agentトレースを蓄積・分析するagent lake構想",
+      "summary": "LangChainが、Agentトレースの保存と分析を組み合わせたagent lakeという考え方を紹介した。現在のAgentは数分〜数時間動き、数百〜数千のLLM呼び出しやツール呼び出しを含む非決定的なトレースを生成する。トレースと結果を効率的に扱うストレージと、それを解釈する知的な計算層が継続的な改善の鍵だとしている。",
+      "url": "https://x.com/LangChain/status/2125638081651053034",
+      "source": "ML_Bear Times",
+      "topic": "Agent開発",
+      "collected_at": "2026-11-26T07:34:51+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/LangChain/status/2125638081651053034"
+    },
+    {
+      "headline": "SB Intuitions、日本語ModernBERTで誤字脱字検出モデル",
+      "summary": "SB Intuitionsが、日本語ModernBERTを使った誤字脱字検出モデルについてテックブログで紹介した。データ品質の一側面である誤字脱字を定量評価する取り組みとしてモデル構築の内容をまとめている。誤字検出にはsubwordより文字レベルtokenizerが適するのではとの考察も出ている。",
+      "url": "https://x.com/sbintuitions/status/2125500558442434944",
+      "source": "ML_Bear Times",
+      "topic": "日本語モデル",
+      "collected_at": "2026-11-26T07:34:51+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/sbintuitions/status/2125500558442434944"
+    },
+    {
+      "headline": "Hugging Face、Hub防御用セキュリティAgent Nightwatchを構築【続報】",
+      "summary": "7月に起きたAgentによるHugging Face侵入事件の続報。Hugging Faceが、Hub上の組織の活動を監視するセキュリティAgent Nightwatchを構築したと発表した。Agentの群れによる攻撃を手作業で防ぐ難しさを痛感したことが開発のきっかけとされ、攻撃者がAgentを使う以上防御側にも必要との立場を示している。",
+      "url": "https://x.com/Thom_Wolf/status/2125530620948336798",
+      "source": "ML_Bear Times",
+      "topic": "AIセキュリティ",
+      "collected_at": "2026-11-26T07:34:51+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/Thom_Wolf/status/2125530620948336798"
+    },
+    {
+      "headline": "DeepMind専門家、hill climb評価とリリース評価の違いを解説",
+      "summary": "Kaggleが、Google DeepMindの専門家パネルによるhill climb評価とリリース評価の違いの解説を紹介した。違いは3つの観点に整理され、1つ目に評価結果が返ってくるまでのターンアラウンド速度が挙げられた。24時間かかる評価では高速な学習ランの軌道修正に間に合わず、hill climbingには数時間で信号が必要だと指摘している。",
+      "url": "https://x.com/kaggle/status/2125635747734573259",
+      "source": "ML_Bear Times",
+      "topic": "評価",
+      "collected_at": "2026-11-26T07:34:51+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/kaggle/status/2125635747734573259"
     }
   ]
 }
