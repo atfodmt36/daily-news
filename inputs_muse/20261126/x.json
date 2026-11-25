@@ -1,0 +1,38 @@
+{
+  "date": "2026/11/26",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-25T08:00:00+09:00",
+    "to": "2026-11-26T08:00:00+09:00"
+  },
+  "source": "x",
+  "itemCount": 2,
+  "items": [
+    {
+      "headline": "Anthropic Fellows、解釈可能性で「ニューロン基盤」への回帰を提唱——単一ニューロンの寄与は想定より読みやすいと実証",
+      "summary": "Anthropicは11月24日、Fellowsプログラムの研究「Returning to the Neuron Basis for Interpretability」を公式に発表した。各ニューロンが発火する条件ではなくモデル出力への寄与を見ることで、従来の3つの反論（多義性・層間の意味のずれ・事実の分散）を再検証した。無関係な概念を同時に出力へ加えるニューロンはサンプルの約1％以下で、ニューロンの出力は多くの層でほぼ同じ意味を保ち、事実は多数のニューロンに分散しながらも個別には読み取れるとした。第2部では追加学習なしに有害テキスト検出や挙動ステアリング、微調整モデルの隠れた挙動の検出へ応用している。",
+      "url": "https://alignment.anthropic.com/2026/neuron-basis-theory/",
+      "source": "Anthropic Alignment Science Blog",
+      "topic": "論文・ベンチマーク",
+      "x_url": "https://x.com/AnthropicAI/status/2125365268381929637",
+      "collected_at": "2026-11-25T09:14:05+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-25T09:14:05+09:00"
+    },
+    {
+      "headline": "OpenRouter、オープンウェイトモデルの支出シェアが35％に到達——1月の15％から倍増",
+      "summary": "OpenRouterは11月24日、同プラットフォームの総支出に占めるオープンウェイトモデルの割合が35％に達し、1月の15％から倍以上に増えたと発表した。内訳ではDeepSeek、Moonshot AI、Z.aiが上位を占め、中国系ラボが中心となっている。価格性能比の高いオープンモデルへの移行がAPI市場の支出面でも進んでいることを示す数字。",
+      "url": "https://x.com/OpenRouter/status/2125297504858305021",
+      "source": "OpenRouter",
+      "topic": "ビジネス・人材",
+      "x_url": "https://x.com/OpenRouter/status/2125297504858305021",
+      "collected_at": "2026-11-25T09:14:05+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-25T09:14:05+09:00"
+    }
+  ]
+}
