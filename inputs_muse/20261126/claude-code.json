@@ -1,0 +1,221 @@
+{
+  "date": "2026/11/26",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-25T08:00:00+09:00",
+    "to": "2026-11-26T08:00:00+09:00"
+  },
+  "source": "claude-code",
+  "itemCount": 12,
+  "items": [
+    {
+      "topic": "Claude Code",
+      "headline": "Claude Code v2.1.332公開 — MCPサーバー由来のスキル(ベータ)と新セキュリティフックを追加",
+      "summary": "MCPサーバーが提供するスキルがベータとして利用可能になり、/メニューに`server:skill`形式で表示される。スキルやコマンドのインラインシェルコマンドを読み込み時に拒否できる新フックイベント`PreSkillShellCommand`も追加された。",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332",
+      "source": "Claude Code GitHub Releases",
+      "published_at": "2026-11-25T10:32:14+09:00",
+      "unconfirmed": false,
+      "status": "beta",
+      "tags": [
+        "mcp",
+        "skills",
+        "hooks",
+        "security"
+      ],
+      "related_urls": [
+        "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md"
+      ],
+      "collected_at": "2026-11-26T08:27:01+09:00"
+    },
+    {
+      "topic": "Claude Code",
+      "headline": "Claude Code v2.1.332 — 信頼性・メモリ・モデルフォールバックの大規模改善とComputer Useの安全規則更新",
+      "summary": "フック出力やMCPサーバーによるフリーズ・メモリ肥大、コンパクション失敗、Bedrock/Agent Platform/Foundry上のモデルフォールバックなど多数を修正。OpenTelemetryの`assistant_response`イベント追加や、Foundry既定モデルのSonnet 5.5化などモデルエイリアスの変更も含む。",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332",
+      "source": "Claude Code GitHub Releases",
+      "published_at": "2026-11-25T10:32:14+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "reliability",
+        "model-fallback",
+        "computer-use",
+        "opentelemetry"
+      ],
+      "related_urls": [
+        "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md"
+      ],
+      "collected_at": "2026-11-26T08:27:01+09:00"
+    },
+    {
+      "topic": "国産モデル",
+      "headline": "Sakana AI、日本語特化LLMの小型版「Sakana Namazu Small」を発表(300億パラメータ)",
+      "summary": "Sakana AIは2026年11月25日、NVIDIA Nemotron 3 Nanoの事前学習済みモデルを基盤に継続事前学習・事後学習を自社で施した300億パラメータの推論モデル「Sakana Namazu Small」を発表した。25のベンチマークで同規模のNemotron 3 Nanoや4倍規模のNemotron 3 Superを上回ったとし、オンプレミス提供の詳細は12月上旬〜中旬に公表予定。",
+      "url": "https://sakana.ai/namazu-small/",
+      "source": "Sakana AI",
+      "published_at": "2026-11-25T17:15:00+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "LLM",
+        "small-model",
+        "reasoning",
+        "GENIAC"
+      ],
+      "related_urls": [
+        "https://ai.watch.impress.co.jp/docs/news/2159153.html"
+      ],
+      "collected_at": "2026-11-26T08:27:01+09:00"
+    },
+    {
+      "topic": "建設×AI",
+      "headline": "Arent、建設業向けAIドッキングプラットフォーム「現場ドック(GENBA Dock)」を発表",
+      "summary": "Arentは現場が大まかに伝えた内容をAIが各業務ツールへの入力として提案し、元請と協力会社の入力負担を減らす建設業向けプラットフォーム「現場ドック(GENBA Dock)」を発表した。現在4製品を提供し、2026年12月に2製品、2027年春に8製品の追加を予定している。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000174.000063436.html",
+      "source": "株式会社Arent(PR TIMES／適時開示)",
+      "published_at": "2026-11-25T10:00:00+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "construction-dx",
+        "ai-agent",
+        "platform"
+      ],
+      "related_urls": [
+        "https://www.nikkei.com/nkd/disclosure/tdnr/20261125585519/"
+      ],
+      "collected_at": "2026-11-26T08:27:01+09:00"
+    },
+    {
+      "topic": "建設×AI",
+      "headline": "Beyont、清水建設のAI推進3組織に「AIエージェント構築伴走支援」を実施",
+      "summary": "Beyontは清水建設のAI推進3組織・14名を対象に、Microsoft Copilot Studioを用いたAIエージェント構築の伴走支援を実施したと発表した。各チームが自部門の課題に合わせたAIエージェントを構築し、ある案件では約20分の作業を1分に短縮したという。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000224.000035215.html",
+      "source": "株式会社Beyont(PR TIMES)",
+      "published_at": "2026-11-25T11:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "construction-dx",
+        "ai-agent",
+        "case-study"
+      ],
+      "related_urls": [
+        "https://www.zaikei.co.jp/releases/3732625/"
+      ],
+      "collected_at": "2026-11-26T08:27:01+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "生成AI導入率が22.6%から44.0%へ倍増、用途の8割は文書作成 ネクストスケールが公開調査6件を統合分析",
+      "summary": "株式会社ネクストスケールが公開調査6件(IPA、総務省、帝国データバンク等)を統合分析し、企業の生成AI導入率が前年度22.6%から44.0%へ倍増したと発表。業務利用の会社員は38.2%で、用途の8割超が文書作成だが、組織的取組がない企業が27.0%にのぼり整備が個人利用に追いついていないと指摘した。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000012.000176535.html",
+      "source": "株式会社ネクストスケール",
+      "published_at": "2026-11-25T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "調査",
+        "date-only"
+      ],
+      "collected_at": "2026-11-26T08:27:01+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "TOPIX100構成企業の生成AI本番運用は66社、AIエージェントは6社 業務削減率中央値70%",
+      "summary": "株式会社マーケティングプランナー(AIエージェントナビ)がTOPIX100構成企業100社のAI活用実態を調査し、生成AIの本番運用66社、AIエージェント本番運用6社(試験・計画含め26社)と発表。業務削減率を報告した21社の中央値は70%だった。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000008.000186517.html",
+      "source": "株式会社マーケティングプランナー(AIエージェントナビ)",
+      "published_at": "2026-11-25T10:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "調査"
+      ],
+      "collected_at": "2026-11-26T08:27:01+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "社内データ整備状況で生成AIの成果実感に約5.8倍の差 インキュデータ調査",
+      "summary": "インキュデータ株式会社の「社内データ品質・管理」実態調査で、社内データが整備されている企業は生成AIの成果を「十分に実感・期待」する割合が20.7%なのに対し、未整備企業は3.6%と約5.8倍の差が判明。93.0%がデータ品質・管理を重要視する一方、十分整備済みは11.2%にとどまった。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000072.000076738.html",
+      "source": "インキュデータ株式会社",
+      "published_at": "2026-11-25T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "調査",
+        "date-only"
+      ],
+      "collected_at": "2026-11-26T08:27:01+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "電話利用54%に減少・AI検索34%へ急伸、AI失敗時は66%が有人解決を要求 トランスコスモス調査",
+      "summary": "トランスコスモスが「消費者と企業のコミュニケーション実態調査2026-2027」を公開。顧客接点で電話利用経験率が54%(前年比▲19pt)に減少する一方、AI検索利用が34%(同＋24pt)へ急伸。ただしAIが失敗した際は66%が有人での解決を求め、「AIへの丸投げ」に警鐘を鳴らした。",
+      "url": "https://prtimes.jp/main/html/rd/p/000002176.000000183.html",
+      "source": "トランスコスモス株式会社",
+      "published_at": "2026-11-25T11:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "調査",
+        "カスタマーサポート"
+      ],
+      "collected_at": "2026-11-26T08:27:01+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "リセ、法務AI「Lisse法務AI Cowork」の「自社基準エージェント」正式版を提供開始",
+      "summary": "株式会社リセが法務AXプラットフォーム「Lisse法務AI Cowork」で、企業の社内ルール・判断基準を登録し契約書審査時に自社基準のコメントを自動表示する「自社基準エージェント」の正式版を提供開始。自社ひな型連携による修正例の自動更新、リスク説明のAI質問、英文契約への適用に対応する。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000072.000051277.html",
+      "source": "株式会社リセ",
+      "published_at": "2026-11-25T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "業務×AI",
+        "法務",
+        "date-only"
+      ],
+      "collected_at": "2026-11-26T08:27:01+09:00"
+    },
+    {
+      "topic": "GitHub Copilot",
+      "headline": "Copilotコードレビューの課金が既定で組織請求に変更",
+      "summary": "2026年12月30日より、Copilotライセンスを持つメンバーのCopilotコードレビュー費用が、既定で組織(Organization)請求に切り替わる。現状の挙動を維持するには、管理者が期限までにCopilotポリシー設定で「Member」を選択する必要がある。",
+      "url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
+      "source": "GitHub Changelog",
+      "published_at": "2026-11-26T07:18:03+09:00",
+      "unconfirmed": false,
+      "status": "policy",
+      "tags": [
+        "billing",
+        "admin",
+        "Copilot Business",
+        "Copilot Enterprise"
+      ],
+      "collected_at": "2026-11-26T08:27:01+09:00"
+    },
+    {
+      "topic": "その他",
+      "headline": "Metaの「Muse」AIがWalmartで買い物可能に Walmart Agent Gateway経由で初の名前付き小売パートナーに",
+      "summary": "WalmartがAIエージェント向けの入口「Walmart Agent Gateway」を開放し、MetaのAIアシスタント「Muse」が初の名前付きパートナーとして対応。ユーザーは支出上限や承認しきい値を設定したAgent Profileを作成し会話内でWalmart商品を検索・購入できるが、商品の選定はWalmart側が行う。",
+      "url": "https://ppc.land/metas-muse-ai-can-now-shop-at-walmart-but-walmart-picks-the-products/",
+      "source": "Walmart / Meta",
+      "published_at": "2026-11-25T00:00:00+09:00",
+      "unconfirmed": true,
+      "status": "announced",
+      "tags": [
+        "borderline",
+        "date-only",
+        "エージェンティックコマース"
+      ],
+      "related_urls": [
+        "https://www.retailbrew.com/stories/walmart-sets-ground-rules-as-it-opens-the-door-to-outside-ai-agents"
+      ],
+      "collected_at": "2026-11-26T08:27:01+09:00"
+    }
+  ]
+}
