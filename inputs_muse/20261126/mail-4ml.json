@@ -1,0 +1,102 @@
+{
+  "date": "2026/11/26",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-25T08:00:00+09:00",
+    "to": "2026-11-26T08:00:00+09:00"
+  },
+  "source": "mail-4ml",
+  "itemCount": 9,
+  "items": [
+    {
+      "headline": "OpenAI、数学論文9本を追加公開し行列積指数の下界にも着手",
+      "summary": "OpenAIが数学リポジトリにLean証明付きの数学論文を新たに9本追加した。10月に行列積指数の新上界9/4を示したのに続き、これまで何も知られていなかった下界の研究にもモデルが取り組んでいる。査読に1〜2年かかっていた成果がGitHubで次々に公開され、発見と検証の速度が切り離され始めたとの指摘も出ている。",
+      "url": "https://x.com/SebastienBubeck/status/2125402576145572334",
+      "source": "ML_Bear Times",
+      "topic": "論文・研究",
+      "collected_at": "2026-11-25T19:34:02+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/SebastienBubeck/status/2125402576145572334"
+    },
+    {
+      "headline": "Antigravity、Neon最適化で消費枠12%減・17%高速化【続報】",
+      "summary": "Gemini 4 Neonの正式公開に関する続報。AntigravityのハーネスがNeon向けに最適化され、タスク当たりの消費枠が12%減り、完了まで17%速くなった。Latent SpaceはNeonでGoogle DeepMindがフロンティアに完全復帰したと評し、OpenCodeの既定モデルにもなった。",
+      "url": "https://x.com/_mohansolo/status/2125337132021780867",
+      "source": "ML_Bear Times",
+      "topic": "Claude／Codex",
+      "collected_at": "2026-11-25T19:34:02+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/_mohansolo/status/2125337132021780867"
+    },
+    {
+      "headline": "OpenAIの事前学習loss、METRが2026年以降約7倍速と分析【続報】",
+      "summary": "OpenAIが公開した事前学習lossに関する続報。METRがGPT-3.5以降の全フロンティアモデルを分析した結果、log-perplexityは2022〜2025年に比べ2026年初頭以降約7倍速く低下しており、GPT-3.5からGPT-4.1までの3年分の改善を約6.5か月で再現する計算になる。loss共有がAI研究開発の加速理解に有益としている。",
+      "url": "https://x.com/METR_Evals/status/2125372372039741753",
+      "source": "ML_Bear Times",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-25T19:34:02+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/METR_Evals/status/2125372372039741753"
+    },
+    {
+      "headline": "Tinker、Inkling 2 Miniの学習とサンプリングを無料化【続報】",
+      "summary": "Thinking MachinesのInkling 2 Mini公開に関する続報。Tinkerで残高がプラスの全ユーザーが、Inkling 2 Miniの学習とサンプリングを無料で使えるようになった（レート制限あり）。あわせてMantic AIがTinker上でInkling 2 SmallをRL調整し、フロンティアLLM並みの予測精度を7%のコストで実現した事例も紹介されている。",
+      "url": "https://x.com/tinkerapi/status/2125381230388715931",
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "collected_at": "2026-11-25T19:34:02+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/tinkerapi/status/2125381230388715931"
+    },
+    {
+      "headline": "Kaggle Reade氏、gemini-api-cliをAgentの調査役に推奨【続報】",
+      "summary": "GoogleのGemini API CLIに関する続報。KaggleのWalter Reade氏が、コンペ用Agentのリサーチ役としてgemini-api-cliが有望だとの見方を示した。Google Search groundingで最新のarXiv論文や過去コンペの上位解法を並列収集する使い方を想定している。",
+      "url": "https://x.com/WalterReade/status/2125353755335889075",
+      "source": "ML_Bear Times",
+      "topic": "Claude／Codex",
+      "collected_at": "2026-11-25T19:34:02+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/WalterReade/status/2125353755335889075"
+    },
+    {
+      "headline": "HKUSTとNVIDIA、autoresearch用ハーネスMLEvolverを提案",
+      "summary": "HKUSTとNVIDIAが、多数の試行で実験を回すautoresearch Agentのハーネス設計に関する論文を発表した。提案するMLEvolverハーネスはMLE-Bench Liteでメダル獲得率72.7%を達成したとされ、研究Agentを作る人には非常に実践的な内容として紹介されている。",
+      "url": "https://x.com/omarsar0/status/2125391524712309135",
+      "source": "ML_Bear Times",
+      "topic": "論文・研究",
+      "collected_at": "2026-11-25T19:34:02+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/omarsar0/status/2125391524712309135"
+    },
+    {
+      "headline": "n-gramベースの簡易コーパス汚染除去プログラムが公開",
+      "summary": "学習コーパスから評価データの混入を取り除く、n-gramベースの簡易な汚染除去プログラムが公開された。簡易な手法ながら、評価データが字面通り混入しているケースは完全に除去できるとしており、ベンチマーク汚染を手軽に確認・除去する手段として活用できる。",
+      "url": "https://x.com/odashi_t/status/2125478298100932956",
+      "source": "ML_Bear Times",
+      "topic": "論文・研究",
+      "collected_at": "2026-11-25T19:34:02+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/odashi_t/status/2125478298100932956"
+    },
+    {
+      "headline": "全国1,700地点・最長150年の気象データをHFで公開",
+      "summary": "日本全国約1,700地点、最長150年分の気象観測データがHugging Faceで公開された。Parquet + DuckDBでAIが高速に分析できる形にまとめられ、データは毎日自動更新される。AI Agentに質問とURLを1つ渡すだけで分析できる手軽なデータセットとして使える。",
+      "url": "https://x.com/hotchpotch/status/2125499455478939881",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-25T19:34:02+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/hotchpotch/status/2125499455478939881"
+    },
+    {
+      "headline": "OSSのLLMゲートウェイ、プロトコル変換で性能低下を指摘",
+      "summary": "LiteLLMなどOSSのLLMゲートウェイについて、プロトコル変換層に問題があるとするZenn記事が紹介された。変換層の不具合によりGeminiなどのモデルが本来の性能を出せていないケースが多いとされ、ゲートウェイ経由でモデルを評価・利用する際は変換による劣化を疑って確認する必要がある。",
+      "url": "https://x.com/rejasupotaro/status/2125366530959696371",
+      "source": "ML_Bear Times",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-25T19:34:02+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/rejasupotaro/status/2125366530959696371"
+    }
+  ]
+}
