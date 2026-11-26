@@ -6,7 +6,7 @@
   "to": "2026-11-27T08:00:00+09:00"
  },
  "source": "x",
- "itemCount": 16,
+ "itemCount": 19,
  "items": [
   {
    "headline": "Google DeepMind、質量分析AIスキル「Mass Spec Skills」を発表——軽量モデルでも約97％の精度で分子を同定",
@@ -215,6 +215,45 @@
    "via": "x",
    "breaking": false,
    "queued_at": "2026-11-26T23:26:25+09:00"
+  },
+  {
+   "headline": "NVIDIA、「Nemotron 3.5 Parse」の学習データと調整レシピをオープン公開——合成データ約1,900万件、高速推論用DFlash2スペキュレータも",
+   "summary": "NVIDIAは11月26日、文書解析モデル「Nemotron 3.5 Parse」（631Mパラメータ、ParseBench 75.20）の学習に使った合成データセット3種をHugging Faceでオープン公開した。内訳はチャート約998万件、表100万件、多言語OCR約790万件で、ファインチューニングのレシピと、推論を高速化するDFlash2スペキュレータも併せて公開した。教師あり学習の後に強化学習で精度と一貫性を高めた学習手順も公式ブログで説明している。",
+   "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+   "source": "Hugging Face（NVIDIA公式ブログ）",
+   "topic": "モデル",
+   "x_url": "https://x.com/HuberDaily/status/2125969671325196554",
+   "unconfirmed": false,
+   "collected_at": "2026-11-27T01:17:10+09:00",
+   "via": "x",
+   "breaking": false,
+   "queued_at": "2026-11-27T01:17:10+09:00"
+  },
+  {
+   "headline": "米国の計算資源規制と蒸留対策で中国AIモデル開発に遅れ——Z.AIの次期旗艦は2027年第1四半期以降、MoonshotのKimi K4は2027年半ばまでずれ込む可能性とReutersが報道",
+   "summary": "Reutersは11月26日、関係者の話として、中国のZ.AIが次期旗艦モデルの開発で予定より遅れており、年末の学習完了・公開を目指していたものが2027年第1四半期以降にずれ込む可能性があると報じた。背景には、11月19日に施行された米商務省の新規則（海外データセンターでの大規模な計算資源利用にライセンスを要求）と、OpenAIやAnthropicによる蒸留対策の強化があるという。Moonshot AIは海外の計算資源への依存が大きく、主要モデルの間隔が通常の6か月から12か月以上に延び、次期旗艦Kimi K4が2027年半ば頃まで遅れる可能性があると内部で見ているとされる。両社ともReutersのコメント要請に応じていない。",
+   "url": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26/",
+   "source": "Reuters",
+   "topic": "モデル",
+   "x_url": "https://x.com/MartinSzerment/status/2125966668820001241",
+   "unconfirmed": true,
+   "collected_at": "2026-11-27T01:17:10+09:00",
+   "via": "x",
+   "breaking": false,
+   "queued_at": "2026-11-27T01:17:10+09:00"
+  },
+  {
+   "headline": "Microsoft、CopilotへのGPT-6.2 SolとAstraの展開を開始——Work IQで利用者のファイル・会議・チャットを踏まえて回答",
+   "summary": "Microsoft Copilotの公式アカウントは11月26日、GPT-6.2 SolとAstraがCopilotで展開を開始したと発表した。各利用者のファイル、会議、チャットを既存の権限の範囲で踏まえるWork IQによって文脈付けされる。管理者向けの注意として、Astraを利用するにはOpenAIをサブプロセッサとして有効化する設定が必要で、未設定の場合は利用できないとしている。",
+   "url": "https://x.com/MSFTCopilot/status/2125318629600231489",
+   "source": "Microsoft Copilot（公式X）",
+   "topic": "製品・ChatGPT",
+   "x_url": "https://x.com/MSFTCopilot/status/2125318629600231489",
+   "unconfirmed": false,
+   "collected_at": "2026-11-27T01:17:10+09:00",
+   "via": "x",
+   "breaking": false,
+   "queued_at": "2026-11-27T01:17:10+09:00"
   }
  ]
 }
