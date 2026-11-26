@@ -6,7 +6,7 @@
     "to": "2026-11-27T08:00:00+09:00"
   },
   "source": "mail-4ml",
-  "itemCount": 12,
+  "itemCount": 24,
   "items": [
     {
       "headline": "OpenAI、GPT-6.2の課金ミスを修正しAstraの枠消費が約40%増【続報】",
@@ -127,6 +127,126 @@
       "collected_at": "2026-11-26T19:34:12+09:00",
       "unconfirmed": false,
       "x_url": "https://x.com/odashi_t/status/2125727521710957007"
+    },
+    {
+      "headline": "Claude Opus 5.6とSonnet 5.6、一般ユーザーにも提供拡大【続報・未確認】",
+      "summary": "一部ユーザー向けテスト中と報告されていたClaude Opus 5.6の続報。Opus 5.6に加えSonnet 5.6も使えるようになったとの報告が日本のユーザーから相次いでいる。試用感触ではOpus 5.6 > Sonnet 5.6 ≥ Opus 5.5となりそうで、Opus 5.5との比較では3D空間推論や創造性の大きな向上が話題になっている。公式発表は未確認。",
+      "url": "https://x.com/yugen_matuni/status/2125974634638250261",
+      "source": "ML_Bear Times",
+      "topic": "Claude／Codex",
+      "collected_at": "2026-11-27T07:33:32+09:00",
+      "unconfirmed": true,
+      "x_url": "https://x.com/yugen_matuni/status/2125974634638250261"
+    },
+    {
+      "headline": "Aaronson氏、AIラボが未公開の暗号ブレークスルーを保有していると示唆【未確認】",
+      "summary": "Scott Aaronson氏が、複数の信頼できる情報源に基づきAIラボが暗号分野の未公開ブレークスルーを抱えているとほぼ確信していると述べた。OpenAIかAnthropicが大きな数を多項式時間で素因数分解する方法を見つけた可能性があると聞いたとしており、英中銀Bailey総裁も未公開AIモデルが暗号への懸念を生んだと発言している。噂段階で未確認。",
+      "url": "https://x.com/kimmonismus/status/2125937364136853615",
+      "source": "ML_Bear Times",
+      "topic": "AI安全・政策",
+      "collected_at": "2026-11-27T07:33:32+09:00",
+      "unconfirmed": true,
+      "x_url": "https://x.com/kimmonismus/status/2125937364136853615"
+    },
+    {
+      "headline": "Zhipu、3兆パラメータGLM-5.5の発売延期報道を否定",
+      "summary": "ロイターはZhipu AIの3兆パラメータモデルGLM-5.5の発売が2027年Q1以降にずれ込む可能性があり、OpenAIとAnthropicによる蒸留対策強化が一因と報じた。一方Zhipu IRは延期を否定し、中国の証券会社ノートでは12月発売・Fable級性能とされている。中国勢はチップ規制と蒸留制限の二重苦との見方も出ている。",
+      "url": "https://x.com/jukan05/status/2125887732035867002",
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "collected_at": "2026-11-27T07:33:32+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/jukan05/status/2125887732035867002"
+    },
+    {
+      "headline": "中国AI企業、海外DCリースを第三者へ移し借り戻す案を模索【続報】",
+      "summary": "The Informationによると、中国AI企業が海外データセンターのリースを非中国系の第三者に譲渡し、その計算資源を借り戻すことでNvidiaチップへのリモートアクセスを維持する方法を模索している。密輸より海外DCからの計算資源レンタルの方が差し迫った懸念との指摘もあり、規制のいたちごっこが続いている。",
+      "url": "https://x.com/theinformation/status/2126028258906874031",
+      "source": "ML_Bear Times",
+      "topic": "AI安全・政策",
+      "collected_at": "2026-11-27T07:33:32+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/theinformation/status/2126028258906874031"
+    },
+    {
+      "headline": "OpenAI、Agentの精度を高めるデータツールAthenaを開発中",
+      "summary": "The Informationが、OpenAIがAI Agentをより正確にするためのデータツールAthenaを開発していると報じた。精度向上により、サプライチェーン管理や財務機能の自動化といった大企業向け案件の獲得につなげる狙いとされ、Private Inferenceなどと並ぶエンタープライズ領域強化の一環として注目される。",
+      "url": "https://x.com/theinformation/status/2125953066348191854",
+      "source": "ML_Bear Times",
+      "topic": "製品・ChatGPT",
+      "collected_at": "2026-11-27T07:33:32+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/theinformation/status/2125953066348191854"
+    },
+    {
+      "headline": "Philipp Schmid氏、MCPの今後に強気な4つの理由を提示",
+      "summary": "SkillsやCLIの台頭でMCPが批判される中、GoogleのPhilipp Schmid氏がMCPにかつてなく強気だと述べた。理由はCode Modeと型付き出力、バージョン管理付きのネイティブSkills、常時稼働のEvents、MCP Appsの4点で、最良のハーネスは最良のMCPクライアントを持つと主張し大きな反響を集めている。",
+      "url": "https://x.com/_philschmid/status/2125945282072297794",
+      "source": "ML_Bear Times",
+      "topic": "Claude／Codex",
+      "collected_at": "2026-11-27T07:33:32+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/_philschmid/status/2125945282072297794"
+    },
+    {
+      "headline": "Ramp Labs、モデル間で隠れ状態を変換するspeculative encodingでprefill最大7.5倍速",
+      "summary": "Ramp Labsが、マルチAgentで同じコンテキストを何度も読まずに済むspeculative encodingを発表した。2.35BのMoEが任意モデルの隠れ状態を直接変換し、7モデルでベース精度の96.9%を維持しつつ長文prefillレイテンシを最大7.5倍削減する。複数Agentが同じ文脈を処理する際の遅延削減手法として評価されている。",
+      "url": "https://x.com/RampLabs/status/2125627502802653330",
+      "source": "ML_Bear Times",
+      "topic": "論文・研究",
+      "collected_at": "2026-11-27T07:33:32+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/RampLabs/status/2125627502802653330"
+    },
+    {
+      "headline": "Tencent、疎モデル向け投機デコーダDFly2をオープンソース公開",
+      "summary": "Tencentが、DeepSeek-V4.1-FlashやGLM-5.3-Flash、自社Hy4 flashなど疎モデルを高速化する投機デコーダDFly2をオープンソース化した。64KコンテキストでDeepSeek-V4.1-Flashのサービングスループットを最大81%向上し、Hy4 flashのAgentタスクでは最大4.2倍高速とされる。ドラフト用KVキャッシュを廃止し本体のKVキャッシュを直接参照する設計。",
+      "url": "https://x.com/TencentAI_News/status/2125968859450802415",
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "collected_at": "2026-11-27T07:33:32+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/TencentAI_News/status/2125968859450802415"
+    },
+    {
+      "headline": "ByteDance、Loop Transformer型の新アーキテクチャLooperの論文を公開",
+      "summary": "ByteDanceがLoop構造を取り入れた新アーキテクチャLooperの論文を公開した。LoopにMixture of Depths AttentionとYOCOを組み合わせた構成で、Loop Transformerの新たな研究領域を開くと紹介されている。一方で中間層をループさせる方式の方が優れ現行アーキテクチャがなお最強だとする懐疑的な見方も出ている。",
+      "url": "https://x.com/rosinality/status/2125908572739338330",
+      "source": "ML_Bear Times",
+      "topic": "論文・研究",
+      "collected_at": "2026-11-27T07:33:32+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/rosinality/status/2125908572739338330"
+    },
+    {
+      "headline": "OpenRouter分析、AIトークンのJevonsのパラドックスが弱まる",
+      "summary": "OpenRouterが2026年のトークン使用量・価格・支出データを分析した。有料トークン量は年間44倍に増えた一方で支出は7.6倍にとどまり、トークン単価は83%下落。直近4週間はトークンが39%増えても支出は横ばいで、Jevonsのパラドックスは成立しつつも年初より弱まっているとしている。",
+      "url": "https://x.com/OpenRouter/status/2125998076896920034",
+      "source": "ML_Bear Times",
+      "topic": "AIビジネス",
+      "collected_at": "2026-11-27T07:33:32+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/OpenRouter/status/2125998076896920034"
+    },
+    {
+      "headline": "チューリング、自動運転AIの予測付き走行動画パイプラインを解説",
+      "summary": "チューリングが、自動運転AIの予測を重ねた走行動画を誰でもリクエスト・共有できるパイプラインのテックブログを公開した。Step FunctionsとAWS Batchで処理を自動化しGPU処理まで高速化した裏側を紹介しており、研究成果を社内で手軽に可視化・共有する基盤づくりの実例として参考になる。",
+      "url": "https://x.com/ymg_aq/status/2125880943772946663",
+      "source": "ML_Bear Times",
+      "topic": "自動運転・ロボット",
+      "collected_at": "2026-11-27T07:33:32+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/ymg_aq/status/2125880943772946663"
+    },
+    {
+      "headline": "Google、Gemma 4のfine-tuningハブを公開",
+      "summary": "GoogleがGemma 4を独自データでfine-tuningするためのハブを公開した。17のガイドと40以上の図解で、継続事前学習やカスタムチャットテンプレートなど学習パイプライン全体をカバーし、音声やレシート、推論タスクまで扱う内容で、あまり見ない種類のユニークなガイドだと評されている。",
+      "url": "https://x.com/googlegemma/status/2125631619692429690",
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "collected_at": "2026-11-27T07:33:32+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/googlegemma/status/2125631619692429690"
     }
   ]
 }
