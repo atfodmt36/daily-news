@@ -1,0 +1,25 @@
+{
+ "date": "2026-11-27",
+ "timezone": "Asia/Tokyo",
+ "window": {
+  "from": "2026-11-26T08:00:00+09:00",
+  "to": "2026-11-27T08:00:00+09:00"
+ },
+ "source": "x-likes",
+ "itemCount": 1,
+ "items": [
+  {
+   "headline": "Obsidian、全エージェント向け公式コネクタを公開——Claude・ChatGPT・Cursor等が共有ボールトを読み書き可能に",
+   "summary": "Obsidianは公式Xで「あらゆるエージェント向けの公式コネクタ」を発表した。実体はオープンソースのObsidian Skills（obsidianmd/obsidian-skills、MITライセンス）で、Claude、ChatGPT、Cursor、GitHub Copilot等のエージェントがObsidian形式のMarkdownノート・Bases・Canvasファイルの読み書きや、Obsidian CLI・Headless経由のボールト操作を学べる。ボールトはローカルファイルのままユーザーが所有し、コネクタ自体がデータを送信することはない。公式発表ポストへのいいね経由で捕捉。",
+   "url": "https://x.com/obsdmd/status/2125700941156651151",
+   "source": "Obsidian（公式発表）",
+   "topic": "生成AI・その他",
+   "x_url": "https://x.com/obsdmd/status/2125700941156651151",
+   "collected_at": "2026-11-27T08:03:02+09:00",
+   "unconfirmed": false,
+   "via": "x-likes",
+   "breaking": false,
+   "queued_at": "2026-11-27T08:03:02+09:00"
+  }
+ ]
+}
