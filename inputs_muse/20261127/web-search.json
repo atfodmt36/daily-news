@@ -1,0 +1,24 @@
+{
+ "date": "2026/11/27",
+ "timezone": "Asia/Tokyo",
+ "window": {
+  "from": "2026-11-26T08:00:00+09:00",
+  "to": "2026-11-27T08:00:00+09:00"
+ },
+ "source": "web-search",
+ "itemCount": 1,
+ "items": [
+  {
+   "headline": "オランダCBS、企業のAI利用が41％に倍増——AI利用企業の54％が「生産性が向上」、経理・監査分野の伸びが最大",
+   "summary": "オランダ統計局（CBS）は11月26日、従業員10人以上の企業の41％が何らかのAI技術を利用しており、2025年から倍増したと発表した。利用が最も伸びたのは経理・監査・財務管理の分野で17％から30％に増えた。AIを利用する企業の54％が生産性の向上を実感したと答え、30％が仕事の進め方が変わったとし、人員が少なくて済むようになったと答えた企業は16％だった。自営業者では約6割がAIを使っており、主に情報検索や文章作成に利用している。CBS公式発表で確認した。",
+   "url": "https://www.cbs.nl/en-gb/news/2026/48/use-of-ai-by-business-has-more-than-doubled-largest-increase-seen-in-smes",
+   "source": "オランダ統計局（CBS）",
+   "topic": "ビジネス・人材",
+   "collected_at": "2026-11-26T15:26:17+09:00",
+   "unconfirmed": false,
+   "via": "web-search",
+   "breaking": false,
+   "queued_at": "2026-11-26T15:26:17+09:00"
+  }
+ ]
+}
