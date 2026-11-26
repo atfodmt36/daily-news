@@ -6,7 +6,7 @@
     "to": "2026-11-27T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 20,
+  "itemCount": 22,
   "items": [
     {
       "headline": "Google DeepMind、質量分析AIスキル「Mass Spec Skills」を発表——軽量モデルでも約97％の精度で分子を同定",
@@ -267,6 +267,32 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-27T03:22:33+09:00"
+    },
+    {
+      "headline": "Black Forest Labsの「FLUX 3 Action」、実ロボットベンチマーク「Reality Check」のVLA/WAM部門で首位——試行成功率30%でRhoの微調整版（24%）を上回る",
+      "summary": "Black Forest Labsは11月26日、自社のロボット制御モデル「FLUX 3 Action」が、Poke & Wiggleの実ロボットベンチマーク「Reality Check」の新しいリーダーボードでVLA/WAM部門の首位になったと発表した。Robot Intelligence Indexの記録によれば、FLUX 3 Actionは同ボードのロボットモデル部門を試行成功率30%でリードし、Poke & Wiggleが微調整したRhoの24%を上回った。評価は同社の物理ステーション上で実施された。",
+      "url": "https://x.com/bfl_ai/status/2126025443157664229",
+      "source": "Black Forest Labs（公式X）",
+      "topic": "論文・ベンチマーク",
+      "x_url": "https://x.com/bfl_ai/status/2126025443157664229",
+      "unconfirmed": false,
+      "collected_at": "2026-11-27T05:15:00+09:00",
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-27T05:15:00+09:00"
+    },
+    {
+      "headline": "Anthropic、ClaudeのArtifactsをMac/Windowsのデスクトップアプリとしてインストールできる「Install as app」をベータ提供開始",
+      "summary": "Anthropicは11月24日、Claudeで作ったArtifactsをMacおよびWindowsのデスクトップアプリとしてインストールできる新機能「Install as app」のベータ提供を開始したと公式に発表した。インストールしたアプリは独自のアイコンとウィンドウを持ち、通知やメニューバー常駐などが可能で、権限は「ブラウザ同等」「アプリ権限」「コンピュータへのフルアクセス（プログラム実行やファイルの読み書き・削除を含む）」の3段階から利用者が選ぶ。パッケージ化や署名、APIキーは不要で、全プランに順次展開される（Enterpriseは管理者が有効化するまでオフ、HIPAA対応組織などは対象外）。",
+      "url": "https://claude.com/ja/resources/articles/install-as-app",
+      "source": "Claude（Anthropic公式）",
+      "topic": "Claude／Codex",
+      "x_url": "https://x.com/newzmuse_/status/2126024437690781870",
+      "unconfirmed": false,
+      "collected_at": "2026-11-27T05:15:00+09:00",
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-27T05:15:00+09:00"
     }
   ]
 }
