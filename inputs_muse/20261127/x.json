@@ -1,0 +1,38 @@
+{
+  "date": "2026/11/27",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-26T08:00:00+09:00",
+    "to": "2026-11-27T08:00:00+09:00"
+  },
+  "source": "x",
+  "itemCount": 2,
+  "items": [
+    {
+      "headline": "SWE-bench系ベンチマークの過剰仕様テストを自動検出する手法「Spec-Test Coverage Gap」を提案——Verifiedの23％・Proの35％が過剰仕様と判定",
+      "summary": "Purdue Universityの研究者らが、SWE-bench系ベンチマークで課題文に書かれていない詳細をテストが強制し、正しい別解を落としてしまう「過剰仕様テスト」を自動検出する手法Spec-Test Coverage Gap（STCG）をarXivで発表した（arXiv:2611.31839、11月24日公開）。Claude Opus 5.5とGPT-6.1 Solの2モデル判定で、人手監査で過剰仕様とされた課題の89％を検出し、正常な課題の誤検出は4％だった。全課題への適用ではSWE-bench Verifiedの23％、SWE-bench Proの35％が過剰仕様と判定され、該当課題での上位30サブミッションの平均解決率は31％と、非該当課題の88％を大きく下回った。テストを緩めると不合格だったパッチの61％が合格し、解決率は最大12ポイント上がり得るとしている。コードとデータも公開された。",
+      "url": "https://arxiv.org/html/2611.31839",
+      "source": "arXiv（論文）",
+      "topic": "評価",
+      "x_url": "https://x.com/arnaudmercier/status/2125726046045536333",
+      "collected_at": "2026-11-26T09:14:00+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-26T09:14:00+09:00"
+    },
+    {
+      "headline": "Google Antigravity Appが更新——ターンの実行中にモデルを切り替え可能に",
+      "summary": "Googleのコーディングエージェント「Antigravity」の公式変更履歴（11月25日付）によると、Antigravity Appの最新リリースで、会話ターンの実行中でも選択中のモデルを切り替えられるようになった（切り替えがいつ反映されるかを示すツールチップ付き）。あわせて再起動後の会話再開、プラグインパネルの自動オープン、診断アップロードの圧縮なども入った。Xではv2.34.0〜v2.35.2のリリースとして紹介されている。",
+      "url": "https://antigravity.google/docs/changelog",
+      "source": "Google Antigravity（公式変更履歴）",
+      "topic": "Codex・コーディング",
+      "x_url": "https://x.com/erintwalsh_/status/2125741680427208811",
+      "collected_at": "2026-11-26T09:14:00+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-26T09:14:00+09:00"
+    }
+  ]
+}
