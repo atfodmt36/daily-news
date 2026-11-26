@@ -6,7 +6,7 @@
     "to": "2026-11-27T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 8,
+  "itemCount": 9,
   "items": [
     {
       "headline": "SWE-bench系ベンチマークの過剰仕様テストを自動検出する手法「Spec-Test Coverage Gap」を提案——Verifiedの23％・Proの35％が過剰仕様と判定",
@@ -111,6 +111,19 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-26T11:26:12+09:00"
+    },
+    {
+      "headline": "Alibaba Qwen、Qwen-Audio-3.1の多言語対応を強化——中国語方言に重点",
+      "summary": "AlibabaのQwen公式アカウントが11月26日、音声基盤モデルシリーズ「Qwen-Audio-3.1」の多言語機能の強化版を提供開始したと発表した。特に中国語の各種方言への対応を強化したとしている。同シリーズは30言語・16の中国語方言に対応する音声認識（ASR）等を含む音声モデル群で、今回の強化の詳細なベンチマーク数値は公式ポストでは示されていない。",
+      "url": "https://x.com/Alibaba_Qwen/status/2125798914490249411",
+      "source": "Alibaba Qwen（公式X）",
+      "topic": "モデル",
+      "x_url": "https://x.com/Alibaba_Qwen/status/2125798914490249411",
+      "collected_at": "2026-11-26T13:14:26+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-26T13:14:26+09:00"
     }
   ]
 }
