@@ -6,8 +6,34 @@
   "to": "2026-11-27T08:00:00+09:00"
  },
  "source": "x",
- "itemCount": 12,
+ "itemCount": 14,
  "items": [
+  {
+   "headline": "Google DeepMind、質量分析AIスキル「Mass Spec Skills」を発表——軽量モデルでも約97％の精度で分子を同定",
+   "summary": "Google DeepMindは11月25日、Google Antigravity向けのドメインスキル群「Mass Spec Skills」を発表した。Geminiの化学推論と質量分析ツール・公開化学データベースへのクエリを組み合わせ、タンデム質量分析（MS/MS）データから分子構造を特定する作業を自動化する。MoNAからサンプリングした100種類の化合物のベンチマークでは、スキルなしでは精度4％未満だったのに対し、Mass Spec Skills併用で約97％の試行で正確な分子同定と検証を達成し、軽量モデルのGemini 3.8 Flashでも最先端モデルに匹敵した。Antigravityのプラグインとして提供され、研究者1万人に最上位枠を6か月無料提供するプログラムの募集も開始した。Impress AI Watchの報道で確認した。",
+   "url": "https://ai.watch.impress.co.jp/docs/news/2159549.html",
+   "source": "Impress AI Watch（Google DeepMind発表）",
+   "topic": "モデル",
+   "x_url": "https://x.com/aiwatch_jp/status/2125847794066014690",
+   "collected_at": "2026-11-26T19:24:22+09:00",
+   "unconfirmed": false,
+   "via": "x",
+   "breaking": false,
+   "queued_at": "2026-11-26T19:24:22+09:00"
+  },
+  {
+   "headline": "Sakana AI、戦略リサーチエージェント「Sakana Marlin」を更新——新モード「Twilight 2.0」「Midnight 2.0」とPowerPoint出力刷新",
+   "summary": "Sakana AIは11月26日、戦略リサーチエージェント「Sakana Marlin」をアップデートし、新モード「Twilight 2.0」と「Midnight 2.0」の追加と、Microsoft PowerPoint形式でのスライド出力機能の刷新を発表した。Twilight 2.0は従来の軽量モード「Sunlight」より処理時間を1時間以上短縮しつつ約3倍の出典を参照し、Midnight 2.0は約7倍の出典にあたって約5倍のボリュームのレポートを生成する。1回の調査あたりの消費クレジットはSunlightが100、新モードはいずれも300。Impress AI Watchの報道で確認した。",
+   "url": "https://ai.watch.impress.co.jp/docs/news/2159704.html",
+   "source": "Impress AI Watch（Sakana AI発表）",
+   "topic": "モデル",
+   "x_url": "https://x.com/aiwatch_jp/status/2125893094390501836",
+   "collected_at": "2026-11-26T19:24:22+09:00",
+   "unconfirmed": false,
+   "via": "x",
+   "breaking": false,
+   "queued_at": "2026-11-26T19:24:22+09:00"
+  },
   {
    "headline": "SWE-bench系ベンチマークの過剰仕様テストを自動検出する手法「Spec-Test Coverage Gap」を提案——Verifiedの23％・Proの35％が過剰仕様と判定",
    "summary": "Purdue Universityの研究者らが、SWE-bench系ベンチマークで課題文に書かれていない詳細をテストが強制し、正しい別解を落としてしまう「過剰仕様テスト」を自動検出する手法Spec-Test Coverage Gap（STCG）をarXivで発表した（arXiv:2611.31839、11月24日公開）。Claude Opus 5.5とGPT-6.1 Solの2モデル判定で、人手監査で過剰仕様とされた課題の89％を検出し、正常な課題の誤検出は4％だった。全課題への適用ではSWE-bench Verifiedの23％、SWE-bench Proの35％が過剰仕様と判定され、該当課題での上位30サブミッションの平均解決率は31％と、非該当課題の88％を大きく下回った。テストを緩めると不合格だったパッチの61％が合格し、解決率は最大12ポイント上がり得るとしている。コードとデータも公開された。",
