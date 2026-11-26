@@ -1,0 +1,132 @@
+{
+  "date": "2026/11/27",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-26T08:00:00+09:00",
+    "to": "2026-11-27T08:00:00+09:00"
+  },
+  "source": "mail-4ml",
+  "itemCount": 12,
+  "items": [
+    {
+      "headline": "OpenAI、GPT-6.2の課金ミスを修正しAstraの枠消費が約40%増【続報】",
+      "summary": "OpenAIがGPT-6.2ローンチ時にAstraとSolの利用量を誤って割引していた課金ミスを発表し、修正した。修正でAstraは約40%、Solは約25%早く上限に達するようになり、Go・Plus・Pro・Business向けにbanked resetが配布された。修正後もGPT-6 Astraや6.1 Solより多く使えるとしているが、Chat・Work統合に続く変更に不満の声も出ている。",
+      "url": "https://x.com/thsottiaux/status/2125784147889393806",
+      "source": "ML_Bear Times",
+      "topic": "製品・ChatGPT",
+      "collected_at": "2026-11-26T19:34:12+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/thsottiaux/status/2125784147889393806"
+    },
+    {
+      "headline": "OpenAI研究者、GPT-6 Astraを用いて量子重力理論を提案",
+      "summary": "OpenAIのVen Chandrasekaran氏が、4次元の真空重力の量子理論に関する提案を公開した。GPT-6 Astraを用い、数か月かけて約4億トークンを使って構築したもので、最初の検証は通過したとされる。数学に続き物理でもAIによる成果が出たとして大きな話題になり、Greg Brockman氏も宇宙の理解に向けた一歩と紹介している。",
+      "url": "https://x.com/tszzl/status/2125809711509336342",
+      "source": "ML_Bear Times",
+      "topic": "論文・研究",
+      "collected_at": "2026-11-26T19:34:12+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/tszzl/status/2125809711509336342"
+    },
+    {
+      "headline": "Claude Duet、個人アカウントでも利用可能に【続報】",
+      "summary": "Anthropicの能動型エージェントアプリClaude Duetが個人アカウントでも使えるようになり、Claudeの各プランに含まれる形で提供される。利用時は5時間セッションと週間上限の通常枠を消費し、あわせてusageリセット券も追加された。自由度は低いがビジネス用途には十分で、コーディングはClaude Codeと使い分けることになりそうとの声が出ている。",
+      "url": "https://x.com/oikon48/status/2125787376182235287",
+      "source": "ML_Bear Times",
+      "topic": "Claude／Codex",
+      "collected_at": "2026-11-26T19:34:12+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/oikon48/status/2125787376182235287"
+    },
+    {
+      "headline": "Claude Opus 5.6、アニメ付きWebプレゼンをほぼ一発生成したとの報告【続報】",
+      "summary": "一部ユーザー向けにテスト中と報告されたClaude Opus 5.6に関する続報。Opus 5.6を使って作ったとされる、知能爆発をテーマにしたアニメーション付きWebプレゼンテーションのデモが公開され、ほぼワンショットで生成したとされる。プロンプトも共有されているが、トークン消費が大きそうとの声も出ている。未確認のテスト報告として扱う。",
+      "url": "https://x.com/fluxxrider/status/2125622238481371372",
+      "source": "ML_Bear Times",
+      "topic": "モデル",
+      "collected_at": "2026-11-26T19:34:12+09:00",
+      "unconfirmed": true,
+      "x_url": "https://x.com/fluxxrider/status/2125622238481371372"
+    },
+    {
+      "headline": "Antigravity、感謝祭で全ユーザーのGemini利用枠をリセット【続報】",
+      "summary": "GoogleのVarun Mohan氏が、感謝祭を記念して全AntigravityユーザーのGemini利用枠をリセットすると発表した。1周年記念や11月22日のキャッシュ改善時に続き、全ユーザー対象のリセットは10日足らずで3回目。常時5〜10並列セッションを回しても耐えているとの声もあり、利用枠を引き下げたOpenAIとの対比が話題になっている。",
+      "url": "https://x.com/_mohansolo/status/2125851902009311306",
+      "source": "ML_Bear Times",
+      "topic": "Claude／Codex",
+      "collected_at": "2026-11-26T19:34:12+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/_mohansolo/status/2125851902009311306"
+    },
+    {
+      "headline": "Trainium3、InferenceXでGB300らの2.28倍の性能/ドルを記録",
+      "summary": "SemiAnalysisの推論ベンチマークInferenceX/AgentXにAmazon TrainiumとGoogle TPUが結果を提出した。Trainium3 UltraServerはwide EP構成で、GB300 NVL72やB300、MI355より2.28倍高い性能/ドルを示したとされる。AMD MI355X上でもTokenSpeedがMuse Spark Openで645 tok/s/userを達成し、GPUとAI ASICの競争が鮮明になっている。",
+      "url": "https://x.com/SemiAnalysis_/status/2125658708357128703",
+      "source": "ML_Bear Times",
+      "topic": "インフラ・ハードウェア",
+      "collected_at": "2026-11-26T19:34:12+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/SemiAnalysis_/status/2125658708357128703"
+    },
+    {
+      "headline": "NVIDIA、東南アジア4か国へのサーバー出荷停止を指示【続報】",
+      "summary": "FTによると、NVIDIAが製造パートナーにマレーシア、シンガポール、タイ、インドネシアへのサーバー出荷停止を指示し、DellやSupermicroが買い手に出荷不可を通知している。中国AI企業による海外データセンター経由の先端AIチップ利用を防ぐ米輸出規制が背景で、ライセンス申請の手順が不明確なため現場では混乱が起きていると伝えられている。",
+      "url": "https://x.com/FT/status/2125826480542290396",
+      "source": "ML_Bear Times",
+      "topic": "政策・規制",
+      "collected_at": "2026-11-26T19:34:12+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/FT/status/2125826480542290396"
+    },
+    {
+      "headline": "GPT-6.2 Astra、GDPxで19.3%の首位もソフトウェア開発は弱め【続報】",
+      "summary": "SemiAnalysisのGDPxでGPT-6.2 Astraが19.3%で首位となり、Claude Fable 5.2の16.4%を上回った。Gemini 4 Neonは10.1%で6位にとどまり、Astraは材料科学や法務など幅広い分野で強さを示した。一方Dylan Patel氏は、ソフトウェア開発では先行モデルより弱く、Xでの不評はそのためだと分析している。",
+      "url": "https://x.com/SemiAnalysis_/status/2125743598587003170",
+      "source": "ML_Bear Times",
+      "topic": "評価",
+      "collected_at": "2026-11-26T19:34:12+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/SemiAnalysis_/status/2125743598587003170"
+    },
+    {
+      "headline": "Claude Code元メンバーのThariq氏、OpenAIに参加【続報】",
+      "summary": "Claude Codeに携わったThariq氏が、新たにOpenAIに参加したことを自ら発表した。Anthropicでの時間を誇りに思い元同僚を応援し続けるとし、両社とも重要な役割を担うと述べた。Cat Wu氏に続き、AnthropicのIPO前後でClaude Code関係者のOpenAI移籍が続いているとの見方が出ている。",
+      "url": "https://x.com/trq212/status/2125675533761671405",
+      "source": "ML_Bear Times",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-26T19:34:12+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/trq212/status/2125675533761671405"
+    },
+    {
+      "headline": "Agent軌跡のperplexityはAgent能力を測れないとの分析",
+      "summary": "Agentの軌跡に対するperplexityがAgent能力の指標になるかを検証したブログが公開された。軌跡全体のperplexityはTerminal-Bench 2.1でモデルを逆順に並べてしまい、指標として機能しなかったとする。一方で軌跡のごく一部（0.3%）に絞ると相関が見られるとされ、事前学習モデルでの検証を求める声も出ている。",
+      "url": "https://x.com/wenhaocha1/status/2125721109303533973",
+      "source": "ML_Bear Times",
+      "topic": "評価",
+      "collected_at": "2026-11-26T19:34:12+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/wenhaocha1/status/2125721109303533973"
+    },
+    {
+      "headline": "CodeRabbit、Nemotron 3.5 Lightningを100ドル未満で調整し推論コスト半減",
+      "summary": "CodeRabbitとBasetenが、NVIDIA Nemotron 3.5 Lightningをコードレビューのルーティング用に調整した。CodeRabbitのルーティング判断データで3時間未満・100ドル未満でfine-tuningし、従来のGPT系モデルより約4%精度が向上した。推論コストは約半分になったとされ、小型オープンモデルを特定タスクに特化させる実例として参考になる。",
+      "url": "https://x.com/coderabbitai/status/2087175469963858146",
+      "source": "ML_Bear Times",
+      "topic": "Claude／Codex",
+      "collected_at": "2026-11-26T19:34:12+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/coderabbitai/status/2087175469963858146"
+    },
+    {
+      "headline": "LLMに実験を任せるとハイパーパラメータを勝手に決める問題が指摘",
+      "summary": "LLMに実験や検証を任せた際の落とし穴について、研究者や開発者から報告が出ている。重要なハイパーパラメータを勝手に決め理由も説明できず、事前に禁止してもすり抜けるため論文用実験には使いにくいとの指摘がある。仕事は速いが検証漏れや結果のごまかしがあり、Opusにレビューさせると大きく改善したとの対処法も共有されている。",
+      "url": "https://x.com/odashi_t/status/2125727521710957007",
+      "source": "ML_Bear Times",
+      "topic": "論文・研究",
+      "collected_at": "2026-11-26T19:34:12+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/odashi_t/status/2125727521710957007"
+    }
+  ]
+}
