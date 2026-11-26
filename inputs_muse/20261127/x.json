@@ -6,7 +6,7 @@
     "to": "2026-11-27T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 2,
+  "itemCount": 8,
   "items": [
     {
       "headline": "SWE-bench系ベンチマークの過剰仕様テストを自動検出する手法「Spec-Test Coverage Gap」を提案——Verifiedの23％・Proの35％が過剰仕様と判定",
@@ -33,6 +33,84 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-26T09:14:00+09:00"
+    },
+    {
+      "headline": "AWS、次世代音声認識モデル「Amazon Transcribe Turbo」をパブリックプレビュー——意味で話し終わりを判定するターン検出も追加",
+      "summary": "AWSは11月25日、次世代の音声テキスト変換モデル「Amazon Transcribe Turbo」を米国東部（オハイオ）でバッチ・ストリーミングともにパブリックプレビューとして公開した。ストリーミングでは英語の単語誤り率が約14％、他言語で約11％低下し、バッチでは日本語を含む9言語がプレビュー対象で誤り率は約16％低下した。発話内容と抑揚から話し終わりを判定する「セマンティック・ターン検出」など音声エージェント向け機能も追加され、英語版は即日利用可能、他言語は12月末までに対応予定。AWS公式発表で確認した。",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/transcribe-turbo-preview/",
+      "source": "AWS（公式発表）",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "x_url": "https://x.com/shimagaji2/status/2125752726864941561",
+      "collected_at": "2026-11-26T11:26:12+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-26T11:26:12+09:00"
+    },
+    {
+      "headline": "Nothing、録音・文字起こしイヤホン「Ear (note)」を12月8日に発表へ——ケース自体がAIレコーダーに",
+      "summary": "Nothingは同社初のAIデバイス「Ear (note)」を12月8日に発表する。充電ケースにマイクと録音ボタンを備え、対面の会議や会話をそのまま録音でき、イヤホン側では通話の録音も可能。録音はコンパニオンアプリで文字起こしとAI要約が行われる。ケースのTalkボタンで自分の声のメモも取れ、複数のAIエージェントとの連携にも対応する。価格や詳細スペックは発表時に公開予定。Bloombergの取材に基づく各メディアの報道とNothingの公式予告で確認した。",
+      "url": "https://www.engadget.com/2328122/nothings-ear-note-is-a-pair-of-earbuds-with-built-in-ai-notetaking/",
+      "source": "Engadget（Bloomberg取材）",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "x_url": "https://x.com/tmiyatake1/status/2125742329185333396",
+      "collected_at": "2026-11-26T11:26:12+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-26T11:26:12+09:00"
+    },
+    {
+      "headline": "スイスNCSC、AIエージェントを使ったサイバー攻撃の国内初事例を確認——重要インフラも被害、判明分は全件侵入成功",
+      "summary": "スイス国家サイバーセキュリティセンター（NCSC）は11月24日、AIエージェントの支援を受けたサイバー攻撃の報告を国内で初めて受けたと発表した。少なくとも2分野の重要インフラ事業者を含む複数の組織が被害を受け、NCSCが把握する事例はすべて侵入が成功していた。攻撃者は「Agentic Offensive Frameworks」を使い、弱いパスワードや既知の脆弱性を高速に突いたという。インターネットに公開された攻撃用AIエージェントは10月以降ほぼ倍増しており、NCSCは公開システムの重大更新を24時間以内に適用するよう求めている。NCSC公式発表で確認した。",
+      "url": "https://www.bacs.admin.ch/en/26-ki-agenten-1-en",
+      "source": "スイスNCSC（公式発表）",
+      "topic": "AIセキュリティ",
+      "x_url": "https://x.com/__kokumoto/status/2125731357964034233",
+      "collected_at": "2026-11-26T11:26:12+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-26T11:26:12+09:00"
+    },
+    {
+      "headline": "ByteDance Seedと香港大学、非同期RLポストトレーニング基盤「Laminar」をオープンソース公開——SWE-bench Verified 52.2％をGPU時間64％減で達成",
+      "summary": "香港大学とByteDance Seedの研究者が、LLMと長時間エージェント向けの強化学習ポストトレーニング基盤「Laminar」をオープンソース公開した（Apache-2.0、verlプロジェクト）。ロールアウト、経験バッファ、学習、重み転送を独立したループに完全分離し、軌跡単位の非同期実行でGPUの待ち時間をなくす設計が特徴。SWEエージェント学習レシピではQwen3-Coder-30B-A3B-InstructのSWE-bench Verified解決率を46.6％から52.2％へ引き上げ、学習サンプル33％減・GPU時間64％減を達成した。公式技術ブログで確認した。",
+      "url": "https://verl-project.github.io/posts/2026-11-20-laminar/",
+      "source": "verl project（公式技術ブログ）",
+      "topic": "Codex・コーディング",
+      "x_url": "https://x.com/Iaexpertos80443/status/2125768563709374695",
+      "collected_at": "2026-11-26T11:26:12+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-26T11:26:12+09:00"
+    },
+    {
+      "headline": "Arena、Code Arenaに「3Dリーダーボード」を新設——3D対戦は引き分け8％と差がつきやすく、上位と中位の勝率は89％",
+      "summary": "Arenaは11月24日、Code Arenaの対戦のうちユーザーが3D出力を明示的に求めたものだけを集計する「3Dリーダーボード」を公開した。3D対戦では引き分けが他の対戦の13％から8％に減り、スコアのばらつきも約3分の1大きくなる。上位モデルが中位モデルに勝つ確率は89％（全体では80％）とされ、3Dで相対的に伸びたのはGPT-6.2 Sol（Max）とClaude Sonnet 5.5（High）だった。勝敗を分ける最大の要素は「3Dシーンが描画できること」で、該当した側の勝率は73％。Arena公式ブログで確認した。",
+      "url": "https://arena.ai/blog/introducing-the-arena-3d-leaderboard",
+      "source": "Arena（公式ブログ）",
+      "topic": "評価",
+      "x_url": "https://x.com/thefounderspack/status/2125756734492852285",
+      "collected_at": "2026-11-26T11:26:12+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-26T11:26:12+09:00"
+    },
+    {
+      "headline": "テレビ朝日、生成AI×実写のハイブリッド型テレビCM第2弾を制作——HISのBリーグ篇、11月27日のFIBA中継内で放送",
+      "summary": "テレビ朝日の「AIクリエイティブスタジオ」は11月26日、今夏の第1弾に続くAIテレビコマーシャル第2弾の制作を発表した。HISの「2026 Bリーグ 地域熱狂」篇（15秒）で、バスケットボールの実写映像と生成AI映像を組み合わせ、同じアリーナが試合会場からライブ会場、カンファレンス会場へ切り替わる様子を描く。11月27日未明のFIBAバスケットボールW杯最終予選・日本×レバノン戦の生中継内などで放送される。ナレーションにはAIを使わず、渡辺瑠海アナウンサーが担当した。テレビ朝日のプレスリリース（PR TIMES配信）で確認した。",
+      "url": "https://mainichikirei.jp/prtimes/article/20261126prt00m100000056a.html",
+      "source": "テレビ朝日（PR TIMES配信）",
+      "topic": "映像生成・動画AI",
+      "x_url": "https://x.com/PRTIMES_ETM/status/2125728113929916671",
+      "collected_at": "2026-11-26T11:26:12+09:00",
+      "unconfirmed": false,
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-26T11:26:12+09:00"
     }
   ]
 }
