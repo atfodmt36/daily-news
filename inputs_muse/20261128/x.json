@@ -6,7 +6,7 @@
     "to": "2026-11-28T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 9,
+  "itemCount": 10,
   "items": [
     {
       "headline": "Grok Bot、v1.3.0を公開——Slack Bot連携の強化、在庫切れ商品の再入荷通知、組織向けドメイン制限に対応",
@@ -121,6 +121,19 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-27T15:21:49+09:00"
+    },
+    {
+      "headline": "JetBrains、思考過程を出さず即答するコーディングモデル「Mellum 2.1 Instruct」をオープン公開——SWE-bench Verified 40.4%で前世代の2倍",
+      "summary": "JetBrainsは11月25日、10月公開の推論型Mellum 2.1 Thinkingの姉妹モデル「Mellum 2.1 Instruct」を公式ブログで発表した。同じ12B MoE（有効2.5B）アーキテクチャながら思考過程を出力せず直接回答するため、エージェント型コーディングでの生成トークンはThinking版の約半分（タスクあたり10.1k→5.6k）。SWE-bench Verifiedは40.4%で前世代Mellum 2 Instructの20.2%から倍増した。重みはHugging FaceでApache 2.0公開、マルチトークン予測ヘッドによる最大1.8倍の高速化とGGUF版も提供される。",
+      "url": "https://blog.jetbrains.com/ai/2026/11/mellum2-1-instruct-is-out-bringing-faster-answers-for-coding-agents/",
+      "source": "JetBrains Blog",
+      "topic": "モデル",
+      "collected_at": "2026-11-27T17:15:08+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/sao_hui_/status/2126207763898568917",
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-27T17:15:08+09:00"
     }
   ]
 }
