@@ -6,7 +6,7 @@
     "to": "2026-11-28T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 4,
+  "itemCount": 6,
   "items": [
     {
       "headline": "Grok Bot、v1.3.0を公開——Slack Bot連携の強化、在庫切れ商品の再入荷通知、組織向けドメイン制限に対応",
@@ -56,6 +56,32 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-27T11:24:43+09:00"
+    },
+    {
+      "headline": "Moonshot AI、科学研究支援プログラム「Kimi for Science」の募集を開始——採択チームに最大2万ドル分のKimi APIクレジット（約70億トークン）を提供",
+      "summary": "Moonshot AI（Kimi）は11月27日、世界の科学研究を支援するプログラム「Kimi for Science」の応募受付を開始したと公式アカウントと公式ページで発表した。自然科学・工学・学際分野の研究者／チームが対象で、採択されると研究ニーズと審査に応じて最大2万ドル分（約70億トークン）のKimi APIクレジットのほか、最新モデルへの早期アクセス、技術支援、長期的な共同研究の機会が提供される。第1期の応募締切は12月8日で、今後も募集回が開かれる予定。",
+      "url": "https://www.kimi.ai/news/kimi-for-science-program",
+      "source": "Kimi (Moonshot AI)",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-27T13:13:37+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/Kimi_Moonshot/status/2126154696947871760/photo/1",
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-27T13:13:37+09:00"
+    },
+    {
+      "headline": "Together AI、Kimi-K3.1-Proの蒸留でQwen3.8-27Bにラオス語を習得させる——FLORES-200で5.5から44.3へ、全実験コスト260ドル",
+      "summary": "Together AIは11月26日付の公式ブログで、Qwen3.8-27Bがラオス語翻訳を求められてもタイ語で答えてしまう弱点（FLORES-200ラオス語テストでchrF++ 5.5、ラオス文字での出力は11%）を、教師モデルKimi-K3.1-Proの翻訳約3,800件でLoRA蒸留して解消した実験を公開した。学習後の学生モデルは全テスト文をラオス文字で出力し44.3（教師の47.5の93%）に達し、タイ語翻訳能力も維持した。全実験のコストは260ドルで、コードと設定も公開されている。",
+      "url": "https://www.together.ai/blog/distilling-kimi-into-qwen",
+      "source": "Together AI",
+      "topic": "論文・ベンチマーク",
+      "collected_at": "2026-11-27T13:13:37+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/deeplinkc/status/2126145096987152456",
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-27T13:13:37+09:00"
     }
   ]
 }
