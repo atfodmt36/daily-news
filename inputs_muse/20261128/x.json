@@ -1,0 +1,22 @@
+{
+  "date": "2026/11/28",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-27T08:00:00+09:00",
+    "to": "2026-11-28T08:00:00+09:00"
+  },
+  "source": "x",
+  "itemCount": 1,
+  "items": [
+    {
+      "headline": "Grok Bot、v1.3.0を公開——Slack Bot連携の強化、在庫切れ商品の再入荷通知、組織向けドメイン制限に対応",
+      "summary": "xAIのGrok Botが2026年11月24日付でv1.3.0を公開した。Bot同士の受け渡し結果をSlackのDMで返す連携や、売り切れ商品カードの「Notify me」による再入荷通知、モバイルでのBuy now、組織が接続できるアカウントを自社ドメインに制限する管理機能などが加わった。",
+      "url": "https://x.ai/changelog/bot",
+      "source": "xAI Grok Bot Changelog",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-27T09:13:17+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/QCTeslaGuy/status/2126079115505602873"
+    }
+  ]
+}
