@@ -1,0 +1,124 @@
+{
+  "date": "2026/11/28",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-27T08:00:00+09:00",
+    "to": "2026-11-28T08:00:00+09:00"
+  },
+  "source": "claude-code",
+  "itemCount": 6,
+  "items": [
+    {
+      "topic": "建設×AI",
+      "headline": "コンクルー、AIが図面から数量を拾う「コンクルーAI 図面積算」を初公開",
+      "summary": "株式会社コンクルーは2026年11月27日、JAPAN BUILD TOKYO 2026「第6回 建設DX展」への出展と新製品「コンクルーAI 図面積算」の初公開を発表した。平面図・電気図・仕様表などの図面から対話型AIプロンプトで数量を自動で拾い出し、どの図面箇所から数量を得たかのトレーサビリティを保持、ユーザー修正を学習して精度を高める。既存のコンクルーAI積算ワークフローへ数量を連携できる。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000019.000171982.html",
+      "source": "PR TIMES（株式会社コンクルー）",
+      "published_at": "2026-11-27T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "announced",
+      "tags": [
+        "date-only",
+        "積算",
+        "BIM",
+        "建設DX"
+      ],
+      "related_urls": [
+        "https://www.zaikei.co.jp/releases/3737011/"
+      ],
+      "collected_at": "2026-11-28T08:26:16+09:00"
+    },
+    {
+      "topic": "3Dモデル×AI",
+      "headline": "テンセント混元、プロ向け3D生成大規模モデル「Hy3D 3.6」を正式リリース",
+      "summary": "テンセント混元は2026年11月27日、ネイティブ3D生成大規模モデル「Hy3D 3.6」を正式発表した。高精細ジオメトリとPBRマテリアル生成を強化し、デフォルトで8Kテクスチャ・200万ポリゴンに対応。1枚の画像からキャラクター・クリーチャー・複雑な小物などを生成できる。腾讯云Token HubでAPI提供を開始し、AI創作エージェントMiora、ゲームアセット基盤LAP、映像AI基盤WorkRallyに統合済み。",
+      "url": "https://technode.com/2026/11/27/tencent-launches-hy3d-3-6-for-professional-3d-asset-generation/",
+      "source": "TechNode（原典：腾讯混元 公式発表）",
+      "published_at": "2026-11-27T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "date-only",
+        "3D生成",
+        "PBR",
+        "テンセント混元"
+      ],
+      "related_urls": [
+        "https://cn.technode.com/post/2026-11-27/tencent-hy3d-3-6-professional-3d-generation/",
+        "https://www.sohu.com/a/1107175531_122721736"
+      ],
+      "collected_at": "2026-11-28T08:26:16+09:00"
+    },
+    {
+      "topic": "3DGS×AI",
+      "headline": "3DGSトレーナー「Spirula Studio」v2026.11.27 リリース",
+      "summary": "クロスベンダー対応の3Dガウシアンスプラッティング・トレーナー「Spirula Studio」が2026年11月27日にv2026.11.27をリリース。3クラスのsegment_and_ignoreマスクモード追加、AMD RDNA 4 GPUの学習高速化、Voronoi分割、ライブメッシングプレビュー、Y-up PLYエクスポート、DJI Osmo 360 IIのテレメトリ解析対応などを追加した。",
+      "url": "https://github.com/harry7557558/spirula-studio/releases/",
+      "source": "GitHub（harry7557558/spirula-studio）",
+      "published_at": "2026-11-27T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "ga",
+      "tags": [
+        "date-only",
+        "3DGS",
+        "ツール",
+        "GitHubリリース"
+      ],
+      "related_urls": [
+        "https://radiancefields.com/platforms/spirula-studio"
+      ],
+      "collected_at": "2026-11-28T08:26:16+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "TOKIUM、上場会見で経理AIエージェント2,300社超導入・ストック売上9割超を公表",
+      "summary": "経理AIエージェント「TOKIUM」を展開するTOKIUMが東証グロース上場の会見で、2026年8月末時点で中堅・大手企業を中心に2,300社以上(うち上場企業278社)に導入されていると公表。ストック(継続課金)売上が全体の9割を超え、中堅・大手企業が売上の80%以上を占める。経費精算から請求書・契約管理など全業務領域へ『業務処理工場』の仕組みを拡大する方針を示した。",
+      "url": "https://finance.logmi.jp/articles/386563",
+      "source": "ログミーファイナンス",
+      "published_at": "2026-11-27T16:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "業務×AI",
+        "経理"
+      ],
+      "related_urls": [
+        "https://prtimes.jp/main/html/rd/p/000000540.000009888.html"
+      ],
+      "collected_at": "2026-11-28T08:26:16+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "taiziii調査、AIで減った作業時間の使い道は『成果物の完成度向上』23.5%が最多",
+      "summary": "株式会社taiziiiが従業員300名以上かつ部門でAIを業務活用する部長級以上の管理職170名を対象に実施した実態調査(2026年9月1〜4日、インターネット調査)を公表。AIで削減された作業時間の主な使い道は『資料や成果物の完成度を高める』が23.5%で最多、『より多くの案件・業務量をこなす』21.2%、『育成・指導やレビュー』10.6%、『学習』はわずか2.4%にとどまった。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000058.000163598.html",
+      "source": "PR TIMES（株式会社taiziii）",
+      "published_at": "2026-11-27T10:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "効果測定"
+      ],
+      "collected_at": "2026-11-28T08:26:16+09:00"
+    },
+    {
+      "topic": "AIビジネス",
+      "headline": "ECB調査、ユーロ圏就業者の44%が週次でAIを業務利用、56%が作業量増と回答",
+      "summary": "欧州中央銀行(ECB)が2026年8月のConsumer Expectations Surveyに基づく分析を公表。ユーロ圏就業者の44%が少なくとも週1回、約18%が毎日AIを業務で利用。利用者の約56%が『こなせる作業量が増えた』、47%が『成果物の質が向上した』と回答した一方、導入の主な障壁はスキル不足とプライバシー・セキュリティ懸念とされた。",
+      "url": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20261127~81118f8ec0.en.html",
+      "source": "European Central Bank",
+      "published_at": "2026-11-27T00:00:00+09:00",
+      "unconfirmed": false,
+      "status": "other",
+      "tags": [
+        "date-only",
+        "borderline",
+        "海外"
+      ],
+      "related_urls": [
+        "https://www.mobileworldlive.com/europe/skills-gap-threatens-europes-ai-productivity-gains-report-finds/"
+      ],
+      "collected_at": "2026-11-28T08:26:16+09:00"
+    }
+  ]
+}
