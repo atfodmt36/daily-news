@@ -6,7 +6,7 @@
     "to": "2026-11-28T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 13,
+  "itemCount": 14,
   "items": [
     {
       "headline": "Grok Bot、v1.3.0を公開——Slack Bot連携の強化、在庫切れ商品の再入荷通知、組織向けドメイン制限に対応",
@@ -173,6 +173,19 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-27T19:24:19+09:00"
+    },
+    {
+      "headline": "Artificial Analysis、人型ロボット操作ベンチマーク「AA-Robotics-Sim v0.1」を公開——GPT-6.2 Astraが71.0点で首位",
+      "summary": "Artificial Analysisは11月25日、フロンティアLLMがシミュレーション上の人型ロボットUnitree G1（29関節・3本指ハンド・頭部カメラ）を直接制御する新ベンチマーク「AA-Robotics-Sim v0.1」（リサーチプレビュー）を公開した。NVIDIA Isaac Sim上で家庭・軽作業の10タスクを評価し、各モデルは事前に練習エピソードで環境を学ぶ。結果はGPT-6.2 Astraが71.0点（100エピソード中61成功）で首位、Claude Fable 5.2が57.5点、GPT-6.2 Solが53.7点で続いた。食洗機や洗濯物のタスクは全モデルが苦戦し、物を掴む動作が弱点だとしている。シミュレーション上の結果であり実機性能とは異なる点に注意。",
+      "url": "https://artificialanalysis.ai/articles/aa-robotics-sim",
+      "source": "Artificial Analysis",
+      "topic": "評価",
+      "collected_at": "2026-11-27T21:13:35+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/kenken0628/status/2126267480968745036",
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-27T21:13:35+09:00"
     }
   ]
 }
