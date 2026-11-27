@@ -6,7 +6,7 @@
     "to": "2026-11-28T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 6,
+  "itemCount": 9,
   "items": [
     {
       "headline": "Grok Bot、v1.3.0を公開——Slack Bot連携の強化、在庫切れ商品の再入荷通知、組織向けドメイン制限に対応",
@@ -82,6 +82,45 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-27T13:13:37+09:00"
+    },
+    {
+      "headline": "BharatGen、インドの文書読み取りに特化した7B視覚言語モデル「Patram 1.5」を公開——「OCR 3.0」で自然言語指示による抽出に対応、オープンウェイトで提供",
+      "summary": "インドのBharatGen（科学技術省とIndiaAIミッションが支援）は11月26日、銀行・保険・病院・行政の文書処理向け視覚言語モデル「Patram 1.5」を公開した。7Bパラメータで、スキャン文書・手書き・表・印影などを画像として直接理解し、従来のOCRと違い自然言語の指示で必要情報を抽出する「OCR 3.0」を導入。読めない情報は推測せず保留する設計も特徴。評価は公開ベンチマーク34件と独自のPatramBench 15タスクの計49テストで実施し、重みはHugging Faceでオープン公開、Playgroundでも試せる。",
+      "url": "https://www.moneycontrol.com/artificial-intelligence/bharatgen-launches-patram-1-5-a-7-billion-parameter-ai-model-to-read-indian-documents-article-14089733.html/amp",
+      "source": "Moneycontrol（BharatGen発表）",
+      "topic": "モデル",
+      "collected_at": "2026-11-27T15:21:49+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/aparanjape/status/2126183212510826914",
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-27T15:21:49+09:00"
+    },
+    {
+      "headline": "DeNA、音声対話向けに相づちと雑音に強くした日本語音声認識モデル3種をHugging Faceで無償公開——DeNA初のオープンウェイト",
+      "summary": "DeNAは11月26日、音声対話向けに追加学習した日本語ASRモデル3種（NVIDIA Nemotron 3.5 ASR Streaming 0.6Bベース、Parakeet-jaベース、Haas-ja-v1.0ベース）をHugging Faceで無償公開した（DeNA初のオープンウェイト、商用利用可）。追加学習によりNemotron版は相づちの読みCERが54.8%から17.3%に改善し、Parakeet-ja版とHaas版は雑音だけの音声から言葉を書き起こす「幻聴」が評価40本中38本→0本、6本→0本に減った。技術詳細はDeNA Engineeringブログで公開されている。",
+      "url": "https://engineering.dena.com/blog/2026/11/asr-finetuning-voice-dialogue/",
+      "source": "DeNA Engineering",
+      "topic": "音声AI（合成・認識・翻訳）",
+      "collected_at": "2026-11-27T15:21:49+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/pc_watch/status/2126160859412283626/photo/1",
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-27T15:21:49+09:00"
+    },
+    {
+      "headline": "ZohoとLinkedInの共同調査、AI人材を抱えるインド中小企業は人員増が5.2ポイント速い——一方で全社員にAIスキルが行き渡る企業は6%のみ",
+      "summary": "ZohoとLinkedInは11月25日、インドの中小企業（SMB）に関する共同調査レポート「The New Rules of Growth」を発表した。LinkedInデータとZoho利用組織7万8000超の集計に基づくと、社内にAI人材を持つSMBは2026年上半期の人員増加率が他社より5.2ポイント高かった（世界のSMBの差の2倍超）。一方、AIエンジニアリング人材を持つSMBは16%（大企業は34%超）、全社員にAIリテラシーが行き渡っているSMBは6%（大企業18%）にとどまり、専門人材の確保と全社展開の差が浮き彫りになった。",
+      "url": "https://hr.economictimes.indiatimes.com/news/industry/smbs-with-ai-talent-grow-faster-but-just-6-have-workforce-wide-ai-skills-zoho-linkedin-study/136192129",
+      "source": "Zoho / LinkedIn（ET HRWorld報道）",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-27T15:21:49+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/IndianHRBlog/status/2126191038322655329",
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-27T15:21:49+09:00"
     }
   ]
 }
