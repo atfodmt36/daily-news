@@ -6,7 +6,7 @@
     "to": "2026-11-28T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 10,
+  "itemCount": 13,
   "items": [
     {
       "headline": "Grok Bot、v1.3.0を公開——Slack Bot連携の強化、在庫切れ商品の再入荷通知、組織向けドメイン制限に対応",
@@ -134,6 +134,45 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-27T17:15:08+09:00"
+    },
+    {
+      "headline": "ArentのAI工程管理「GENBA Dock 工程管理（PROCOLLA）」が国土交通省NETISに登録——生成AIで工程表作成を支援",
+      "summary": "建設DXのArentは、AIクラウド工程管理ツール「GENBA Dock 工程管理（PROCOLLA）」が国土交通省の新技術情報提供システム「NETIS」に登録されたと発表した（登録日2026年11月12日、登録番号KT-260044-A、登録機関は関東地方整備局）。大林組と共同開発した同ツールは生成AIによる工程表作成支援とクラウドでの共同編集・情報共有を提供しており、今回の登録で公共工事の発注者・施工者がNETIS上で技術情報を確認できるようになった。Arentは公共工事での工程管理効率化の提案を強化するとしている。なおNETIS登録は国交省による性能・効果の認定ではない。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000175.000063436.html",
+      "source": "Arent（PR Times）",
+      "topic": "建設×AI",
+      "collected_at": "2026-11-27T19:24:19+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/ArentHQ/status/2126223098123038764",
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-27T19:24:19+09:00"
+    },
+    {
+      "headline": "三井住友カード調査、財務・経理担当者の77.7%が「請求前にAIツールの利用状況を把握できず」——予算超過の経験は約4人に1人",
+      "summary": "三井住友カードは、AIツールを利用する年商30億円以上の企業の主任・リーダークラス以上1,236人を対象にした「AIツールのコスト管理・統制に関する実態調査」の結果を発表した。AIの予算超過を経験した人は約4人に1人で、超過したかどうか「わからない」が2人に1人に上った。利用金額をリアルタイムに把握できている人は12.9%にとどまり、財務・経理担当者では77.7%が請求前に利用状況を把握できていない。直近1年でAIツールの利用量が増えた人は75.3%、今後1年で増えると見込む人は73.8%だった。同社は解決策として、支払いを法人カードに集約してコストを可視化する方法を提案している。",
+      "url": "https://prtimes.jp/main/html/rd/p/000001044.000032321.html",
+      "source": "三井住友カード（PR Times）",
+      "topic": "ビジネス・人材",
+      "collected_at": "2026-11-27T19:24:19+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/ot_ai_journal/status/2126224613327917145",
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-27T19:24:19+09:00"
+    },
+    {
+      "headline": "Cloudflare、WebサイトをAIエージェントから検索可能にする「Search for Agents」を提供開始",
+      "summary": "Cloudflareは11月25日、WebサイトをAIエージェントから検索可能にする「Search for Agents」を発表した。ダッシュボードのQuick Actionsで有効化するとAI Searchインスタンスが自動作成されてサイト内容の索引化が始まり、自ドメイン上に検索エンドポイントが公開される。HTMLページには発見用メタデータが付与され、エージェントはキーワードや自然言語で検索できる。結果はAI生成の回答ではなく関連ページの内容をMarkdownで返すため、エージェント側のモデルがそのまま利用できる。全プランで利用可能（AI Searchの料金・上限が適用）。",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-11-25-search-for-agents/",
+      "source": "Cloudflare Changelog",
+      "topic": "生成AI・その他",
+      "collected_at": "2026-11-27T19:24:19+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/asfido0402/status/2126249691146821687/photo/1",
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-27T19:24:19+09:00"
     }
   ]
 }
