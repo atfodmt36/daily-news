@@ -1,0 +1,112 @@
+{
+  "date": "2026/11/28",
+  "timezone": "Asia/Tokyo",
+  "window": {
+    "from": "2026-11-27T08:00:00+09:00",
+    "to": "2026-11-28T08:00:00+09:00"
+  },
+  "source": "mail-4ml",
+  "itemCount": 10,
+  "items": [
+    {
+      "headline": "中国AI研究者の証言、GPU不足と蒸留封鎖が開発の壁",
+      "summary": "中国のハイパースケーラーや独立系ラボの研究者へのインタビューをまとめた投稿が話題になっている。学習用GPUが不足し、国産チップへの移行には約半年かかること、知識蒸留の締め出しに代替手段がないこと、専門データが不足していることが開発の壁として挙げられている。NVIDIA GPUとHuawei NPUで同じ残差にならず解析と調整が必要になるなど、移行の難しさを指摘するエンジニア視点の解説も出ている。米国の計算資源規制と蒸留対策で中国モデル開発が遅れるとするReuters報道（本日朝のx.jsonに収録）とは別内容の現場証言。",
+      "url": "https://x.com/pandawatch88/status/2125817642443592144",
+      "topic": "政府・政策",
+      "unconfirmed": false,
+      "source": "ML_Bear Times",
+      "collected_at": "2026-11-27T19:33:50+09:00",
+      "x_url": "https://x.com/pandawatch88/status/2125817642443592144"
+    },
+    {
+      "headline": "Grok Bot、通常チャット11%・Routines最大50%利用増【続報】",
+      "summary": "利用上限への不満を受けたGrok Botの改善の続報。xAIチームが利用効率を改善し、各プランで通常チャットは11%、Routinesは最大50%多く使えるようになった。単純・反復的な処理では推論リクエストを省くようハーネスを最適化したことによるものとされている。一方で、全許可設定でも毎回権限を求められるなどデスクトップ版の不具合報告も出ている。",
+      "url": "https://x.com/SamSokolin/status/2126027973568466949",
+      "topic": "エージェント",
+      "unconfirmed": false,
+      "source": "ML_Bear Times",
+      "collected_at": "2026-11-27T19:33:50+09:00",
+      "x_url": "https://x.com/SamSokolin/status/2126027973568466949"
+    },
+    {
+      "headline": "チューリング、渋谷のランダムルート45分を無介入走行",
+      "summary": "チューリングが、E2E自動運転AIでランダム生成したルートの渋谷を走行する動画を公開した。カーナビ連動のNOAで、45分のルートを人の介入なしに走り切ったとされている。決まったコースではなくランダムなルートを使い、場所に依存する運転難易度を検証する試み。CTO本人の投稿はwatchでseen_only扱いだったため、内容を紹介する投稿のURLで登録する（Pachocki／Wang件と同様の扱い）。",
+      "url": "https://x.com/tanahhh/status/2126197488558420325",
+      "topic": "自動運転・ロボット",
+      "unconfirmed": false,
+      "source": "ML_Bear Times",
+      "collected_at": "2026-11-27T19:33:50+09:00",
+      "x_url": "https://x.com/tanahhh/status/2126197488558420325"
+    },
+    {
+      "headline": "LingBot-Map 2.0公開、外部ループ検出なしで3D再構成",
+      "summary": "ストリーミング3D再構成モデルLingBot-Map 2.0と、それを活用したナビゲーションモデルLingBot-Naviが公開された。Map 2.0は外部のループ検出やポーズグラフなしに1パスで記憶を更新し、民生GPUで2万フレーム超を27FPSで処理する。Naviは3D空間記憶をタスク間で再利用して端末上で動作し、GOAT-Benchの一部で38.04% SPLを記録。重みとコードも公開されている。",
+      "url": "https://x.com/YinghaoXu1/status/2125998916399476862",
+      "topic": "ロボティクス",
+      "unconfirmed": false,
+      "source": "ML_Bear Times",
+      "collected_at": "2026-11-27T19:33:50+09:00",
+      "x_url": "https://x.com/YinghaoXu1/status/2125998916399476862"
+    },
+    {
+      "headline": "Huawei、ISSCC 2027で独自HBM発表へ、JEDEC規格を迂回",
+      "summary": "ISSCC 2027のメモリセッションに、HuaweiやCXMTがSamsungやSK Hynixと並んで登壇予定と注目されている。HuaweiのHBMはEUVのボトルネックを回避する手法で、JEDEC規格を迂回する独自路線と分析されている。成功すればHBM3級のピン速度で、スタックあたりHBM4級の帯域を得られる可能性があるとの見方。",
+      "url": "https://x.com/jukan05/status/2126160576342901213",
+      "topic": "生成AI・その他",
+      "unconfirmed": true,
+      "source": "ML_Bear Times",
+      "collected_at": "2026-11-27T19:33:50+09:00",
+      "x_url": "https://x.com/jukan05/status/2126160576342901213"
+    },
+    {
+      "headline": "TeslaのAI5、TSMC 3nm逼迫で車載本格導入は2028年に",
+      "summary": "TeslaのAI5チップの車載大規模展開が2028年にずれ込むと報じられている。設計パートナーのGUCが、限られたTSMC N3枠でGoogle AxionやMicrosoftの自社チップを優先したことが理由とされる。2027年のAI5は人型ロボットOptimusとデータセンター向けに優先供給される見通しとの解説も出ている。",
+      "url": "https://x.com/jukan05/status/2126087266863120688",
+      "topic": "生成AI・その他",
+      "unconfirmed": true,
+      "source": "ML_Bear Times",
+      "collected_at": "2026-11-27T19:33:50+09:00",
+      "x_url": "https://x.com/jukan05/status/2126087266863120688"
+    },
+    {
+      "headline": "SAPにサイバー攻撃、AI Agent利用の可能性も",
+      "summary": "SAPがDER SPIEGELに対し、サイバー攻撃を受けたことを認めたと伝えられている。攻撃者は従業員のログイントークンを盗み、GitHub上のSAPソースコードを改変・コピーしたとされる。Agent型AIが使われた可能性も指摘されており、AIを使った攻撃の実例として注目されている。",
+      "url": "https://x.com/kimmonismus/status/2126222397778899075",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "source": "ML_Bear Times",
+      "collected_at": "2026-11-27T19:33:50+09:00",
+      "x_url": "https://x.com/kimmonismus/status/2126222397778899075"
+    },
+    {
+      "headline": "24KBのAI専用OS、Linux上のllama.cppより最大54%高速",
+      "summary": "Linuxを介さずQwen3-0.6Bを直接動かす、わずか24KBのAI用OSが話題になっている。純粋なx86-64アセンブリで書かれ、Linux・C・Rust・libcに依存せず、CPU推論はLinux上のllama.cppより最大54%速いとされる。カーネル全体で24,252バイト、100ms以下で起動する点から、組み込み用途に良さそうとの評価が出ている。",
+      "url": "https://x.com/HeLi8866/status/2125777542082879938",
+      "topic": "生成AI・その他",
+      "unconfirmed": false,
+      "source": "ML_Bear Times",
+      "collected_at": "2026-11-27T19:33:50+09:00",
+      "x_url": "https://x.com/HeLi8866/status/2125777542082879938"
+    },
+    {
+      "headline": "LayerX、AI AgentにWebを読ませるリスクと対策を公開",
+      "summary": "LayerXが、AI AgentにWeb上の資料を読ませる際のリスクと対策をまとめた技術記事を公開した。間接プロンプトインジェクションやSSRFへの具体的な緩和策と、主要6モデルでの検証結果を掲載している。Web取得を伴うAgentを運用する開発者に参考になる実務視点の内容と紹介されている。",
+      "url": "https://x.com/LayerX_tech/status/2126150848938197164",
+      "topic": "AIセキュリティ",
+      "unconfirmed": false,
+      "source": "ML_Bear Times",
+      "collected_at": "2026-11-27T19:33:50+09:00",
+      "x_url": "https://x.com/LayerX_tech/status/2126150848938197164"
+    },
+    {
+      "headline": "カカクコムCTO、30年もののシステム全面刷新の現在地を資料公開",
+      "summary": "アーキテクチャConference 2026で登壇したカカクコムCTOの発表資料が公開された。モデルの進化でかつての最適解が足枷に変わったことや、30年もののシステム全面刷新の現在地が率直に書かれている。成果も反省点も参考になると評され、作るコストが激減した今こそバイアスに縛られないことが大事との声も出ている。",
+      "url": "https://x.com/tkyowa/status/2126194940724257177",
+      "topic": "ビジネス・人材",
+      "unconfirmed": false,
+      "source": "ML_Bear Times",
+      "collected_at": "2026-11-27T19:33:50+09:00",
+      "x_url": "https://x.com/tkyowa/status/2126194940724257177"
+    }
+  ]
+}
