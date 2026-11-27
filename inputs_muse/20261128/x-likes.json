@@ -1,0 +1,32 @@
+{
+ "date": "2026-11-28",
+ "timezone": "Asia/Tokyo",
+ "window": {
+  "start": "2026-11-27T08:00:00+09:00",
+  "end": "2026-11-28T08:00:00+09:00"
+ },
+ "source": "x-likes",
+ "itemCount": 2,
+ "items": [
+  {
+   "headline": "Liquid AI、意思決定モデル「d1.3-ultra」を公開——Decision Index v2.1で76.4を記録し首位タイ、Bison 31Bより約60％低コスト",
+   "summary": "Liquid AIは11月27日、意思決定モデル「d1.3-ultra」を公開した。Artificial AnalysisのDecision Index v2.1で76.4を記録しBison 31Bと首位タイ（同社発表では100万タスクあたり約60％低コスト）。新たに選択肢のランキング（top-k順序付け）、画像・音声からの数値・日付抽出や音声内の時刻範囲特定に対応し、64Kコンテキスト、入力100万トークンあたり0.042ドルでコンソールとAPIから利用可能。OpenRouterとVercelへの提供も予定。オーナーのいいねが端緒。",
+   "url": "https://x.com/liquidai/status/2126374995399975380",
+   "source": "Liquid AI（公式X）",
+   "topic": "意思決定モデル",
+   "collected_at": "2026-11-28T08:00:19+09:00",
+   "unconfirmed": false,
+   "x_url": "https://x.com/liquidai/status/2126374995399975380"
+  },
+  {
+   "headline": "Microsoft、文書をAIが読める構造化データにする.NET API「DocumentExtractionClient」をプレビュー発表",
+   "summary": "Microsoftは.NET Blogで、PDF・スキャン画像・Office文書などを構造化コンテンツに変換する.NET向けAPI「DocumentExtractionClient」（Microsoft.Extensions.DocumentExtraction）のプレビューを発表した。OCRサービスやローカルモデルなどプロバイダを差し替え可能で、.NET AI Community ToolkitにPdfPig（インプロセスPDF解析）や視覚言語モデル、Azure系サービス等のスタータープロバイダを用意。オーナーのいいね（窓の杜の記事）が端緒で、一次情報の公式ブログで確認した。",
+   "url": "https://devblogs.microsoft.com/dotnet/document-extraction-dotnet-preview/",
+   "source": "Microsoft（.NET Blog）",
+   "topic": "文書解析・OCR",
+   "collected_at": "2026-11-28T08:00:19+09:00",
+   "unconfirmed": false,
+   "x_url": "https://x.com/madonomori/status/2126186526870827514"
+  }
+ ]
+}
