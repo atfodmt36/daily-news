@@ -6,7 +6,7 @@
     "to": "2026-11-28T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 14,
+  "itemCount": 15,
   "items": [
     {
       "headline": "Grok Bot、v1.3.0を公開——Slack Bot連携の強化、在庫切れ商品の再入荷通知、組織向けドメイン制限に対応",
@@ -186,6 +186,19 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-27T21:13:35+09:00"
+    },
+    {
+      "headline": "インド政府、IndiaAI Missionの国産基盤モデル「Chariot-1」を公開——11B MoEのLLMと10言語対応TTS",
+      "summary": "インド電子情報技術省（MeitY）は11月26日、IndiaAI MissionのもとでChariot Artificial Intelligenceが開発した国産基盤モデル群「Chariot-1」をニューデリーで公開した。LLMは11BパラメータのMoE（アクティブ4B）で、10.7B／1.7B／745Mの3サイズを用意し、インドの文字体系向けにトークン数を約2.5分の1に減らす共有アルファベット「IndicShift」を採用した。あわせて英語とインドの10言語で音声を生成するTTSも提供し、省の発表では発音ベンチマークで97％超の精度を記録したとしている。いずれもインド国内でゼロから事前学習された。",
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2341725&reg=48&lang=2",
+      "source": "Press Information Bureau（インド電子情報技術省）",
+      "topic": "モデル",
+      "collected_at": "2026-11-27T23:24:54+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/superdoccimo/status/2126312185534296095",
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-27T23:24:54+09:00"
     }
   ]
 }
