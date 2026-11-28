@@ -6,7 +6,7 @@
     "to": "2026-11-29T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 3,
+  "itemCount": 5,
   "items": [
     {
       "headline": "政府、AI法改正の概要を固める——高性能AI事業者に安全確保と重大事故の報告を義務付け、命令違反には罰則",
@@ -46,6 +46,32 @@
       "via": "x",
       "breaking": false,
       "queued_at": "2026-11-28T11:34:54+09:00"
+    },
+    {
+      "headline": "Tripo、公式MCP連携「Tripo Studio MCP」を公開——CodexやClaude Codeから会話で3Dモデル生成・質感調整が可能に",
+      "summary": "Tripoは11月27日、公式ブログで「Tripo Studio MCP」を発表した。Codex、Claude Code、Cursor、ManusなどのAIエージェントからTripo Studioの3D生成・テクスチャ・リギング等のツールをOAuth接続で呼び出せる公式MCPサーバーで、APIキーは不要、手続きは既存のStudioクレジットを使う。会話で3D素材の生成や質感の調整を指示できる。無料アカウントも対象。",
+      "url": "https://www.tripo3d.ai/blog/ai-mcp",
+      "source": "Tripo Blog",
+      "topic": "3D生成・制作（クリエイティブ）",
+      "collected_at": "2026-11-28T15:27:05+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/aiweb_daily/status/2126526029372301707",
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-28T15:27:05+09:00"
+    },
+    {
+      "headline": "Tencent混元、3D生成モデル「Hy3D 3.6」を公開——最大200万面・8K PBRテクスチャ、TokenHubでAPI提供",
+      "summary": "Tencent混元は11月27日、次世代の3D生成大規模モデル「Hy3D 3.6」を発表した。形状・テクスチャ・材質の分布をネイティブに学習し、キャラクターや生物、複雑な小道具などの曲面や質感の再現を強化。デフォルトの目標面数は3.1の50万面から200万面へ、テクスチャ解像度は最大8Kに対応した。Tencent CloudのToken HubでAPI提供を開始し、クリエイティブエージェントMiora、ゲームアセット基盤LAP、映像制作基盤WorkRallyにも統合された。一般ユーザーは1日5回まで無料で試せる。",
+      "url": "https://technode.com/2026/11/27/tencent-launches-hy3d-3-6-for-professional-3d-asset-generation/",
+      "source": "TechNode（Tencent混元発表報道）",
+      "topic": "3D生成・制作（クリエイティブ）",
+      "collected_at": "2026-11-28T15:27:05+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/ajaytoronto1/status/2126528868647583873/photo/1",
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-28T15:27:05+09:00"
     }
   ]
 }
