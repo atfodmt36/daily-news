@@ -6,8 +6,34 @@
     "to": "2026-11-29T08:00:00+09:00"
   },
   "source": "x",
-  "itemCount": 5,
+  "itemCount": 7,
   "items": [
+    {
+      "headline": "東京科学大学Swallowチーム、非自己回帰フロー言語モデル群「SwaFlow」をHugging Faceで公開",
+      "summary": "東京科学大学のSwallowチーム（tokyotech-llm）は11月28日、次トークン予測を使わない非自己回帰型のリーマンフロー言語モデル群「SwaFlow suite」をHugging Faceで公開した。SwaFlow-1B（1.59Bパラメータ）や3B級モデル、同一レシピで学習した自己回帰ツイン（SwaFlow-AR）など複数規模を同一条件で比較できる研究用モデル群で、学習途中の完全なチェックポイントも含めApache 2.0で公開されている。フロー言語モデルの挙動をオープンに研究するための基礎研究向けリリース。",
+      "url": "https://huggingface.co/tokyotech-llm/SwaFlow-1B",
+      "source": "Hugging Face（tokyotech-llm）",
+      "topic": "モデル",
+      "collected_at": "2026-11-28T19:25:22+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/superdoccimo/status/2126580029811462315",
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-28T19:25:22+09:00"
+    },
+    {
+      "headline": "ミスミ、AI対話で設計から調達まで支援する「MISUMI MiMA」を発表——2027年提供開始、3Dデータや手書き絵にも対応",
+      "summary": "ミスミグループ本社は11月27日、カンファレンス「MISUMIX」で新サービス「MISUMI MiMA（MISUMI Multimodal Agent）」を2027年に提供開始すると発表した。AIとの対話を通じて設計から部品調達までを支援し、文字だけでなく3D設計データや画像、手書きの絵でも相談できる。あわせて3D CADデータライブラリ「inCAD Library」の刷新、制御盤設計支援、配管設計支援、購買システム「MISUMI MiProc」など4サービスも先行公開した。",
+      "url": "https://www.misumi.co.jp/news/press_261127_2",
+      "source": "ミスミグループ本社プレスリリース",
+      "topic": "建設×AI",
+      "collected_at": "2026-11-28T19:25:22+09:00",
+      "unconfirmed": false,
+      "x_url": "https://x.com/kg_b0mbe/status/2126613028892504288",
+      "via": "x",
+      "breaking": false,
+      "queued_at": "2026-11-28T19:25:22+09:00"
+    },
     {
       "headline": "政府、AI法改正の概要を固める——高性能AI事業者に安全確保と重大事故の報告を義務付け、命令違反には罰則",
       "summary": "政府は11月27日、AI法改正の概要を有識者会議で取りまとめた。高性能なAIを国内で広く提供する事業者に、サイバー攻撃への悪用や予期せぬ暴走など重大事故を防ぐ安全確保措置と、事故発生時の国への報告を義務付ける。国が不十分と判断すれば勧告・命令を行い、従わない場合の罰則も新設する方向で、対象にはAnthropicやOpenAIなど海外の主要事業者も含まれるとみられる。詳細な要件は今後詰め、2027年の通常国会への法案提出を目指すと報じられている。内閣府の制度検討ワーキンググループ第4回資料と共同通信系の報道で確認した。",
